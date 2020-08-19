@@ -14,7 +14,7 @@ Please note that we have two different concepts for creating the output files. T
 The [SaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/SaveOptions) is a base options class for saving operations. It could help you to manage the linked resources. The following table demonstrates the list of available options:
 
 |**Option**|**Description**|
-| :-: | :-: |
+| :- | :- |
 |[UrlRestriction](https://apireference.aspose.com/html/java/com.aspose.html.saving/ResourceHandlingOptions#getUrlRestriction--)|Applies restrictions to the host or folders where resources are located.|
 |[MaxHandlingDepth](https://apireference.aspose.com/html/java/com.aspose.html.saving/ResourceHandlingOptions#getMaxHandlingDepth--)|If you need to save not the only specified HTML document, but also the linked HTML pages, this option gives you the ability to control the depth of the linked pages that should be saved.|
 |[JavaScript](https://apireference.aspose.com/html/java/com.aspose.html.saving/ResourceHandlingOptions#getJavaScript--)|This option specifies how do we need to treat the JavaScript files: it could be saved as a separated linked file, embed into HTML file or even be ignored.|

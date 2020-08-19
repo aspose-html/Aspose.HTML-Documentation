@@ -27,37 +27,23 @@ If you are using any other Aspose for .NET component along with Aspose.HTML for 
 The easiest way to apply a license is to put the license file in the same folder as the Aspose.HTML.dll file and specify just the file name without a path.
 
 {{< highlight java >}}
-
  // Instantiate the License object.
-
-Aspose.Html.License htmlLicense = new Aspose.Html.License();
-
-// Apply a license using the file name.
-
-htmlLicense.SetLicense("Aspose.HTML.lic");
-
+ Aspose.Html.License htmlLicense = new Aspose.Html.License();
+ // Apply a license using the file name.
+ htmlLicense.SetLicense("Aspose.HTML.lic");
 {{< /highlight >}}
 
 It is also possible to apply a license from the license file stream.
 
 {{< highlight java >}}
-
  // Instantiate the License object.
-
-Aspose.Html.License htmlLicense = new Aspose.Html.License();
-
-// Open the license file stream.
-
-using (var stream = new System.IO.FileStream("Aspose.HTML.lic", System.IO.FileMode.Open))
-
-{
-
+ Aspose.Html.License htmlLicense = new Aspose.Html.License();
+ // Open the license file stream.
+ using (var stream = new System.IO.FileStream("Aspose.HTML.lic", System.IO.FileMode.Open))
+ {
     // Apply a license using the stream.
-
     htmlLicense.SetLicense(stream);
-
-}
-
+ }
 {{< /highlight >}}
 ### **Applying a License as an Embedded Resource**
 Another neat way of packaging the license with your application is to include it as an embedded resource into one of the assemblies that calls Aspose.HTML for .NET. 
@@ -69,15 +55,10 @@ To include the license file as an embedded resource, perform the following steps
 1. In your code, invoke [SetLicense](https://apireference.aspose.com/html/net/aspose.html.license/setlicense/methods/1) passing only the short name of the resource file.
 
 {{< highlight java >}}
-
  // Instantiate the License object.
-
-Aspose.Html.License htmlLicense = new Aspose.Html.License();
-
-// Apply a license using the embedded resource name.
-
-htmlLicense.SetLicense("Aspose.HTML.lic");
-
+ Aspose.Html.License htmlLicense = new Aspose.Html.License();
+ // Apply a license using the embedded resource name.
+ htmlLicense.SetLicense("Aspose.HTML.lic");
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
@@ -91,13 +72,8 @@ Metered license - is a new licensing mechanism, which is used along with exis
 The following code snippet demonstrates how to apply the metered license using the private and public keys:
 
 {{< highlight java >}}
-
  // Instantiate the Metered object.
-
-Aspose.Html.Metered metered = new Aspose.Html.Metered();
-
-// Apply the metered license using the public and private keys.
-
-metered.SetMeteredKey("*****", "*****");
-
+ Aspose.Html.Metered metered = new Aspose.Html.Metered();
+ // Apply the metered license using the public and private keys.
+ metered.SetMeteredKey("*****", "*****");
 {{< /highlight >}}

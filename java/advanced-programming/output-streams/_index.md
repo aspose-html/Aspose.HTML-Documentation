@@ -2,7 +2,7 @@
 title: Output Streams
 type: docs
 weight: 20
-url: /java/-output-streams/
+url: /java/output-streams/
 ---
 
 In conversion operations, we normally save the rendering result to the file. However, for some cases, you may need to store the result in the memory or send it to the remote storage. You can easily do this by implementing the specialized [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) interface and use it as an input parameter to the converter. This interface represents a callback that uses when a new output stream is required.
