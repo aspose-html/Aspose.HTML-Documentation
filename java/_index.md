@@ -1,8 +1,9 @@
 ---
 title: Aspose.HTML for Java
 type: docs
-weight: 20
+weight: 10
 url: /java/
+is_root: true
 ---
 
 {{% alert color="primary" %}} 
