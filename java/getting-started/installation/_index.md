@@ -11,25 +11,41 @@ Aspose hosts all Java APIs on [Aspose Repository](https://repository.aspose.com
 First you need to specify Aspose Repository configuration / location in your Maven pom.xml as follows:
 
 {{< highlight java >}}
+
  <repositories>
+
      <repository>
+
          <id>snapshots</id>
+
          <name>repo</name>
+
          <url>http://repository.aspose.com/repo/</url>
+
      </repository>
+
 </repositories>
+
 {{< /highlight >}}
 ### **Define Aspose.HTML for Java API Dependency**
 Then define Aspose.HTML for Java API dependency in your pom.xml as follows:
 
 {{< highlight java >}}
+
  <dependencies>
+
     <dependency>
+
         <groupId>com.aspose</groupId>
+
         <artifactId>aspose-html</artifactId>
-        <version>20.8</version>
+
+        <version>18.11</version>
+
     </dependency>
+
 </dependencies>
+
 {{< /highlight >}}
 
 After performing above steps, Aspose.HTML for Java dependency will finally be defined in your Maven Project.

@@ -25,6 +25,6 @@ Aspose.Page for Java supports any 32-bit or 64-bit operating system that runs t
 ## **Supported Java Versions**
 Aspose.Words for Java supports the following Java versions:
 
-- J2SE 8.0 (1.8) or above (*for example Java 14*) 
+- J2SE 8.0 (1.8) or above (*for example Java 10*) 
 
 
