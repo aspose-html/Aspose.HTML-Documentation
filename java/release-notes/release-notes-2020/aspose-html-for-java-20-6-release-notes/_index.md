@@ -15,7 +15,6 @@ As per the regular monthly update process of all APIs being offered by Aspose, w
 
 In this release we have made the number of improvements, related to the PDF and  MHT formats:
 
-
 * rendering missing tables;
 * fixed application hangs;
 * improved formatting for text blocks.

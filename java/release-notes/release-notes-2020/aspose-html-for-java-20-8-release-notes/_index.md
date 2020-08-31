@@ -17,3 +17,9 @@ In this release we have:
 
  * Improved the text splitting algorithm for tables rendering
  * Appended shared facade for most often conversion scenarios
+
+## **Improvements and Changes** ##
+|Key|Summary|Category|
+|---|---|---|
+|HTMLJAVA-425| HTML to PDF – logo from the top is moved to the bottom after conversion|Bug|
+HTMLJAVA-426| HTML to PDF – Data inside the table goes beyond the column width|Bug|
