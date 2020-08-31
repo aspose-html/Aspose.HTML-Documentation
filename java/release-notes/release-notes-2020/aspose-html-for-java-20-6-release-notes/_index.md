@@ -1,20 +1,20 @@
 ---
 title: Aspose.HTML for Java 20.6 Release Notes
 type: docs
-weight: 10
+weight: 60
 url: /java/aspose-html-for-java-20-6-release-notes/
 ---
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
 This page contains release notes for Aspose.HTML for Java 20.6.
 
-{{% /alert %}} 
+{{% /alert %}}
 ### **Major Features**
 As per the regular monthly update process of all APIs being offered by Aspose, we are honored to announce the June release of Aspose.HTML for Java.
 
 In this release we have made the number of improvements, related to the PDF and  MHT formats:
- 
+
 
 * rendering missing tables;
 * fixed application hangs;
