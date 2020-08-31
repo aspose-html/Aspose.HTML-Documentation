@@ -25,8 +25,8 @@ In this release, we have made a number of improvements related to the SVG elemen
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
 |HTMLNET-2748| Exception during svg to pdf conversion|Bug|
-|HTMLNET-2751| Mht to png do not render symbols|Bug|
-|HTMLNET-2636| Converting Html to PDF with multi-column CSS doesn’t work as expected|Bug|
+|HTMLNET-2751| MHT to PNG do not render symbols|Bug|
+|HTMLNET-2636| Converting HTML to PDF with multi-column CSS doesn’t work as expected|Bug|
 |HTMLNET-2753| Nested DIV Tags slow Conversion Significantly|Bug|
 |HTMLNET-1708| Problem rendering multi column HTML to PDF|Bug|
 

@@ -36,27 +36,17 @@ The easiest way to apply a license is to put the license file in the same folder
 When you call the setLicense method, the license name that you pass should be that of your license file. For example, if you change the license file name to "Aspose.HTML.lic.xml" pass that filename to the com.aspose.html.License.setLicense(…) method. The license file can be specific for Aspose.HTML for Java or you can use Aspose.Total for Java license file.
 
 {{< highlight java >}}
-
-     // instantiate License object
-
+    // instantiate License object
     com.aspose.html.License license = new com.aspose.html.License();
-
     // license file path information
-
     license.setLicense("Aspose.HTML.lic");
-
 {{< /highlight >}}
 ### **Loading a License from a Stream Object**
 The following example shows how to load a license from a stream.
 
 {{< highlight java >}}
-
- // Initialize License Instance
-
-com.aspose.html.License license = new com.aspose.html.License();
-
-// Set license from Stream
-
-license.setLicense(new java.io.FileInputStream("Aspose.HTML.lic"));    
-
+    // Initialize License Instance
+    com.aspose.html.License license = new com.aspose.html.License();
+    // Set license from Stream
+    license.setLicense(new java.io.FileInputStream("Aspose.HTML.lic"));    
 {{< /highlight >}}

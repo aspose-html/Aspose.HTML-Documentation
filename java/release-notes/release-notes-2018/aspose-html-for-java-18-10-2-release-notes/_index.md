@@ -13,5 +13,5 @@ The headless mode bug was fixed.
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-|HTMLJAVA-168|` `java.awt.HeadlessException|Bug|
+|HTMLJAVA-168|java.awt.HeadlessException|Bug|
 

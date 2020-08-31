@@ -8,11 +8,11 @@ is_root: true
 
 {{% alert color="primary" %}} 
 
-![Aspose.HTML for Java Product Logo](home_1)
+![Aspose.HTML for Java Product Logo](home_1.png)
 
-**Welcome to Aspose.HTML for Java**
+**Welcome to the Aspose.HTML for Java documentation**
 
-Aspose.HTML for Java is an advanced HTML manipulation API built to perform a wide range of HTML manipulation tasks directly within the Java applications. The API also provides a high fidelity rendering engine for fixed-layout formats such as PDF & XPS, and a number of raster image formats.
+Aspose.HTML for Java is a cross-platform class library that enables your applications to perform a wide range of HTML manipulation tasks. Since HTML is generally used in combination with other technologies, Aspose.HTML supports not only HTML5 but CSS3, SVG, and HTML Canvas specifications as well. Using Aspose.HTML, you can load web pages, analyze and edit the content, save and convert pages to-and-from the following formats: (X)HTML, MHTML, SVG, Markdown, PDF, XPS, EPUB, PNG, TIFF, JPEG, BMP, and other formats.
 
 {{% /alert %}} 
 
@@ -20,19 +20,15 @@ Aspose.HTML for Java is an advanced HTML manipulation API built to perform a wid
 
 Following are the links to some useful resources you may need to accomplish your tasks.
 
-- [Aspose.HTML for Java Online Documentation](/html/java/home/)
-- [Aspose.HTML for Java Features](/html/java/features-list/)
-- [Aspose.HTML for Java Release Notes](/html/java/release-notes/)
-- [Aspose.HTML for Java Product Page](https://products.aspose.com/html/java)
+- [Getting Started](/html/java/getting-started/)
+- [Supported Features](/html/java/features-list/)
+- [Product Page](https://products.aspose.com/html/java)
+- [Installing Product](/html/java/installation/)
 - [Download Aspose.HTML for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-html)
-- [Install Aspose.HTML for Java from Aspose Repository](/html/java/installation/)
-- [Aspose.HTML for Java API Reference Guide](https://apireference.aspose.com/java/html)
-- [Download Examples at GitHub Repository](https://github.com/aspose-html/Aspose.HTML-for-Java)
-- [Aspose.HTML for Java Free Support Forum](https://forum.aspose.com/c/html)
-- [Aspose.HTML for Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
-
-
-
-
-
-
+- [API Reference](https://apireference.aspose.com/html/java)
+- [Free Support Forum](https://forum.aspose.com/c/html)
+- [Paid Support Helpdesk](https://helpdesk.aspose.com/)
+- [Usage Examples GitHub](https://github.com/aspose-html/Aspose.HTML-for-Java)
+- [Try Online](https://products.aspose.app/html/family)
+- [Release Notes](/html/java/release-notes/)
+- [FAQ](/html/java/faq-html/)
