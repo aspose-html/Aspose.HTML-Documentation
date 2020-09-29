@@ -53,3 +53,5 @@ compile(group: 'com.aspose', name: 'aspose-html', version: '20.9', classifier: '
 {{< /highlight >}}
 
 After performing above steps, Aspose.HTML for Java dependency will finally be defined in your Maven Project.
+
+_
