@@ -1,7 +1,7 @@
 ---
 title: SVG to Image Conversion
 type: docs
-weight: 60
+weight: 70
 url: /net/svg-to-image-conversion/
 ---
 

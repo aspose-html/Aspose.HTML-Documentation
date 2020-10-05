@@ -1,7 +1,7 @@
 ---
 title: SVG to XPS Conversion
 type: docs
-weight: 80
+weight: 90
 url: /net/svg-to-xps-conversion/
 ---
 
