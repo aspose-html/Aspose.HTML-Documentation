@@ -17,4 +17,4 @@ As per the regular monthly update process of all APIs being offered by Aspose, w
 |Key|Summary|Category|
 |---|---|---|
 |HTMLNET-2267| HTM to Image: line break issue|Bug|
-||Fixed license ||
+|-|Fixed license |Bug|
