@@ -12,11 +12,9 @@ jobs:
     steps:
       - name: hugo build
         run: |
-          cd aspose-html-docs
-          git clone https://github.com/aspose-html/Aspose.HTML-Documentation.git || (cd Aspose.HTML-Documentation && git pull)
-          git clone --single-branch --branch master https://git.dev.dynabic.com/containerize-hugo/lutsk-aspose-prototype.git || (cd lutsk-aspose-prototype && git pull)
-          cd lutsk-aspose-prototype
-          git clone --single-branch --branch master https://git.dev.dynabic.com/containerize-hugo/lutsk-aspose-theme.git themes/lutsk-aspose-theme || (cd themes/lutsk-aspose-theme && git pull)
+          cd aspose-html-docs && git stash && git pull && cd -
+          cd lutsk-aspose-prototype && git stash && git pull
+          cd themes/lutsk-aspose-theme && git stash && git pull && cd -
           sudo npm install -D --save autoprefixer
           sudo npm install -D --save postcss-cli
           rsync --recursive --delete --force --progress ${{ secrets.PROJECTPATH }} content/
