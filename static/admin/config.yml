@@ -1,0 +1,41 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: static/images
+public_folder: /images
+publish_mode: editorial_workflow
+enableIdentityWidget: false
+show_preview_links: true
+
+collections:
+  - name: java
+    label: Java
+    label_singular: "Page"
+    folder: content/java
+    create: true
+    media_folder: ''
+    public_folder: ''
+    preview_path: "java/{{slug}}"
+    nested:
+      depth: 100
+      summary: "{{title}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+    meta: { path: { widget: string, label: "Path", index_file: "_index" } }
+
+  - name: net
+    label: NET
+    label_singular: "Page"
+    folder: content/net
+    create: true
+    media_folder: ''
+    public_folder: ''
+    nested:
+      depth: 100
+      summary: "{{title}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+    meta: { path: { widget: string, label: "Path", index_file: "_index" } }

@@ -1,0 +1,3 @@
+[submodule "themes/lutsk-aspose-theme"]
+	path = themes/lutsk-aspose-theme
+	url = https://github.com/tpavel-aspose/lutsk-aspose-theme.git
