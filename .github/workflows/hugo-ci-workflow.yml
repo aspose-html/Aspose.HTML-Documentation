@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: hugo build
         run: |
-          cd cd aspose-html-docs/Aspose.HTML-Documentation && git stash && git pull && cd -
+          cd aspose-html-docs/Aspose.HTML-Documentation && git stash && git pull && cd -
           cd lutsk-aspose-prototype && git stash && git pull
           cd themes/lutsk-aspose-theme && git stash && git pull && cd -
           sudo npm install -D --save autoprefixer
