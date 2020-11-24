@@ -7,7 +7,7 @@ is_root: true
 ---
 {{% alert color="primary" %}} 
 
-\[Edition from netlify with  deploy to public site 111]
+\[\*\*\*\*]
 
 ![Aspose.HTML for Java Product Logo](home_1.png)
 
