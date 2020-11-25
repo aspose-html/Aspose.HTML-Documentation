@@ -38,7 +38,7 @@ jobs:
           pwd
           rsync --recursive --delete --force --progress ${{ secrets.PROJECTPATH }} content/
           pwd
-          rm -rf public
+          sudo rm -rf public
           ls -lA
       - name: hugo build
         run: |
