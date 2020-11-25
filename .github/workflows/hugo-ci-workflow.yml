@@ -10,11 +10,13 @@ jobs:
     name: Deploy
     runs-on: [self-hosted, linux, x64, dev4-github]
     steps:
-      - name: preparing workspace git pull documentation prototype and theme 
+      - name: preparing workspace git pull documentation  
         run: |
           pwd
           ls -lA
           cd aspose-html-docs/Aspose.HTML-Documentation && git stash && git pull && cd -
+      - name: preparing workspace git pull prototype and theme 
+        run: |      
           pwd
           ls -lA
           cd lutsk-aspose-prototype && git stash && git pull
