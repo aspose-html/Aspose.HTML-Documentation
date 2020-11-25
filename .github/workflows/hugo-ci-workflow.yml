@@ -54,7 +54,7 @@ jobs:
           ls -lA
           sudo rm lutsk-aspose-theme -rf
           ln -s ${{secrets.LUTSK_ASPOSE_THEME_LOCATION}}
-          
+          ls -lA
       - name: hugo build
         run: |
           cd ${{secrets.HUGO_SITE_LOCATION}}
