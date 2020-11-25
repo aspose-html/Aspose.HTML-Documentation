@@ -46,7 +46,7 @@ jobs:
           ls -lA
       - name: print secret
         run: |
-           echo ${{ secrets.PUBLICCONTENTPATH }}
+           echo 'PUBLICCONTENTPATH ${{ secrets.PUBLICCONTENTPATH }}'
            echo ${{ secrets.TRANSFERPATH }}
            echo ${{ secrets.DEPLOYPATH }}
       - name: hugo build
