@@ -35,15 +35,27 @@ jobs:
           cd aspose-html-docs/Aspose.HTML-Documentation
           sudo npm install -D --save autoprefixer
           sudo npm install -D --save postcss-cli
+      - name: preparing workspace sync content
+        run: |
           pwd
           rsync --recursive --delete --force --progress ${{ secrets.PROJECTPATH }} content/
+      - name: preparing workspace clean public folder
+        run: |
           pwd
           sudo rm -rf public
           ls -lA
+      - name: print secret
+        run: |
+           echo ${{ secrets.PUBLICCONTENTPATH }}
+           echo ${{ secrets.TRANSFERPATH }}
+           echo ${{ secrets.DEPLOYPATH }}
       - name: hugo build
         run: |
           pwd
-          hugo --minify --baseURL https://docs.aspose.com/html
+          ls -lA
+          hugo version
+          # hugo --minify --baseURL https://docs.aspose.com/html
+          hugo -c content --debug --log --print-mem --templateMetrics --minify -v --baseURL https://docs.aspose.com/html
           rsync --recursive --delete --force -e "ssh" --progress public/ ${{ secrets.TRANSFERPATH }}
       - name: hugo deploy
         uses: appleboy/ssh-action@master
@@ -53,5 +65,6 @@ jobs:
           key: ${{ secrets.SSHKEY }}
           port: ${{ secrets.SSHPORT }}
           script: |
-            sudo rsync --recursive --delete --force --progress ${{ secrets.PUBLICCONTENTPATH }} ${{ secrets.DEPLOYPATH }}
-            sudo nginx -s reload
+            echo ${{ secrets.PUBLICCONTENTPATH }}
+            # sudo rsync --recursive --delete --force --progress ${{ secrets.PUBLICCONTENTPATH }} ${{ secrets.DEPLOYPATH }}
+            # sudo nginx -s reload
