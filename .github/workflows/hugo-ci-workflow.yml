@@ -37,20 +37,13 @@ jobs:
           sudo npm install -D --save postcss-cli
       - name: preparing workspace sync content
         run: |
-          pwd
-          rsync --recursive --delete --force --progress ${{ secrets.PROJECTPATH }} content/
+        #  pwd
+        #  rsync --recursive --delete --force --progress ${{ secrets.PROJECTPATH }} content/
       - name: preparing workspace clean public folder
         run: |
           pwd
           sudo rm -rf public
           ls -lA
-      - name: print secret
-        run: |          
-           echo 'PROJECTPATH ${{ secrets.PROJECTPATH }}' >> secret.txt
-           echo 'PUBLICCONTENTPATH ${{ secrets.PUBLICCONTENTPATH }}' >> secret.txt
-           echo 'TRANSFERPATH ${{ secrets.TRANSFERPATH }}' >> secret.txt
-           echo 'DEPLOYPATH ${{ secrets.DEPLOYPATH }}' >> secret.txt
-           echo 'HOST ${{ secrets.HOST }}' >> secret.txt
       - name: hugo build
         run: |
           pwd
@@ -67,6 +60,5 @@ jobs:
           key: ${{ secrets.SSHKEY }}
           port: ${{ secrets.SSHPORT }}
           script: |
-            echo ${{ secrets.PUBLICCONTENTPATH }}
             # sudo rsync --recursive --delete --force --progress ${{ secrets.PUBLICCONTENTPATH }} ${{ secrets.DEPLOYPATH }}
             # sudo nginx -s reload
