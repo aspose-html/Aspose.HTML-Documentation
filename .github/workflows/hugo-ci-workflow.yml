@@ -12,15 +12,26 @@ jobs:
     steps:
       - name: preparing workspace git pull documentation prototype and theme 
         run: |
+          pwd
+          ll
           cd aspose-html-docs/Aspose.HTML-Documentation && git stash && git pull && cd -
+          pwd
+          ll
           cd lutsk-aspose-prototype && git stash && git pull
+          pwd
+          ll
           cd themes/lutsk-aspose-theme && git stash && git pull && cd -
+          pwd
+          ll
       - name: preparing workspace npm install dependencies
         run: |
           sudo npm install -D --save autoprefixer
           sudo npm install -D --save postcss-cli
+          pwd
           rsync --recursive --delete --force --progress ${{ secrets.PROJECTPATH }} content/
+          pwd
           rm -rf public
+          ll
       - name: hugo build
         run: |
           pwd
