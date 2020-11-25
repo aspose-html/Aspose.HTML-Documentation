@@ -10,15 +10,19 @@ jobs:
     name: Deploy
     runs-on: [self-hosted, linux, x64, dev4-github]
     steps:
-      - name: hugo build
+      - name: preparing workspace git pull documentation prototype and theme 
         run: |
           cd aspose-html-docs/Aspose.HTML-Documentation && git stash && git pull && cd -
           cd lutsk-aspose-prototype && git stash && git pull
           cd themes/lutsk-aspose-theme && git stash && git pull && cd -
+      - name: preparing workspace npm install dependencies
+        run: |
           sudo npm install -D --save autoprefixer
           sudo npm install -D --save postcss-cli
           rsync --recursive --delete --force --progress ${{ secrets.PROJECTPATH }} content/
           rm -rf public
+      - name: hugo build
+        run: |
           pwd
           hugo --minify --baseURL https://docs.aspose.com/html
           rsync --recursive --delete --force -e "ssh" --progress public/ ${{ secrets.TRANSFERPATH }}
