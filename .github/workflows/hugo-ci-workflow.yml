@@ -30,7 +30,6 @@ jobs:
           ls -lA
       - name: preparing workspace npm install dependencies
         run: |
-          cd ~
           pwd
           ls -lA
           sudo npm install -D --save autoprefixer
