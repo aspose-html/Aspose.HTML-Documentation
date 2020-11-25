@@ -13,16 +13,16 @@ jobs:
       - name: preparing workspace git pull documentation prototype and theme 
         run: |
           pwd
-          ll
+          ls -lA
           cd aspose-html-docs/Aspose.HTML-Documentation && git stash && git pull && cd -
           pwd
-          ll
+          ls -lA
           cd lutsk-aspose-prototype && git stash && git pull
           pwd
-          ll
+          ls -lA
           cd themes/lutsk-aspose-theme && git stash && git pull && cd -
           pwd
-          ll
+          ls -lA
       - name: preparing workspace npm install dependencies
         run: |
           sudo npm install -D --save autoprefixer
