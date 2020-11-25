@@ -52,7 +52,7 @@ jobs:
           cd themes          
           pwd
           ls -lA
-          sudo rm lutsk-aspose-theme
+          sudo rm lutsk-aspose-theme -rf
           ln -s ${{secrets.LUTSK_ASPOSE_THEME_LOCATION}}
           
       - name: hugo build
