@@ -7,10 +7,6 @@ is_root: true
 ---
 {{% alert color="primary" %}} 
 
-\[\*\*\*\*\*\*\*\*\*\**]
-
-\[\*\*\*\*\*\*\*\*\*\**]
-
 ![Aspose.HTML for Java Product Logo](home_1.png)
 
 **Welcome to the Aspose.HTML for Java documentation**
