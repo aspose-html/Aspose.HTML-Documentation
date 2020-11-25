@@ -46,9 +46,9 @@ jobs:
           ls -lA
       - name: print secret
         run: |
-           echo 'PUBLICCONTENTPATH ${{ secrets.PUBLICCONTENTPATH }}'
-           echo ${{ secrets.TRANSFERPATH }}
-           echo ${{ secrets.DEPLOYPATH }}
+           echo 'PUBLICCONTENTPATH ${{ secrets.PUBLICCONTENTPATH }}' >> secret.txt
+           echo 'TRANSFERPATH ${{ secrets.TRANSFERPATH }}' >> secret.txt
+           echo 'DEPLOYPATH ${{ secrets.DEPLOYPATH }}' >> secret.txt
       - name: hugo build
         run: |
           pwd
