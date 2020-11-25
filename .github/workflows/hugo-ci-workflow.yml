@@ -45,10 +45,12 @@ jobs:
           sudo rm -rf public
           ls -lA
       - name: print secret
-        run: |
+        run: |          
+           echo 'PROJECTPATH ${{ secrets.PROJECTPATH }}' >> secret.txt
            echo 'PUBLICCONTENTPATH ${{ secrets.PUBLICCONTENTPATH }}' >> secret.txt
            echo 'TRANSFERPATH ${{ secrets.TRANSFERPATH }}' >> secret.txt
            echo 'DEPLOYPATH ${{ secrets.DEPLOYPATH }}' >> secret.txt
+           echo 'HOST ${{ secrets.HOST }}' >> secret.txt
       - name: hugo build
         run: |
           pwd
