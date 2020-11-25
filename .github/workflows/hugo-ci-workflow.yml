@@ -19,10 +19,13 @@ jobs:
         run: |      
           pwd
           ls -lA
-          cd lutsk-aspose-prototype && git stash && git pull
+          cd aspose-html-docs/lutsk-aspose-prototype 
           pwd
           ls -lA
-          cd themes/lutsk-aspose-theme && git stash && git pull && cd -
+          git stash && git pull
+          cd themes/lutsk-aspose-theme 
+          git stash && git pull 
+          cd -
           pwd
           ls -lA
       - name: preparing workspace npm install dependencies
