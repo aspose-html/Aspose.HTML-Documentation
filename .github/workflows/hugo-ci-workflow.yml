@@ -72,5 +72,5 @@ jobs:
           key: ${{ secrets.SSHKEY }}
           port: ${{ secrets.SSHPORT }}
           script: |
-            # sudo rsync --recursive --delete --force --progress ${{ secrets.PUBLICCONTENTPATH }} ${{ secrets.DEPLOYPATH }}
-            # sudo nginx -s reload
+            sudo rsync --recursive --delete --force --progress ${{ secrets.PUBLICCONTENTPATH }} ${{ secrets.DEPLOYPATH }}
+            sudo nginx -s reload
