@@ -46,6 +46,7 @@ jobs:
           ls -lA
       - name: hugo build
         run: |
+          cd ${{secrets.HUGO_SITE_LOCATION}}
           pwd
           ls -lA
           hugo version
