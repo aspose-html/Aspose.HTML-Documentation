@@ -44,6 +44,17 @@ jobs:
           pwd
           sudo rm -rf public
           ls -lA
+      - name: attach theme
+        run: |
+          pwd
+          cd ${{secrets.HUGO_SITE_LOCATION}}
+          pwd
+          cd themes          
+          pwd
+          ls -lA
+          sudo rm lutsk-aspose-theme
+          ln -s ${{secrets.LUTSK_ASPOSE_THEME_LOCATION}}
+          
       - name: hugo build
         run: |
           cd ${{secrets.HUGO_SITE_LOCATION}}
