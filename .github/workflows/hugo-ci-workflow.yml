@@ -21,13 +21,13 @@ jobs:
           cd ${{secrets.HUGO_SITE_LOCATION}}
           pwd
           ls -lA
-          cd aspose-html-docs/Aspose.HTML-Documentation
           sudo npm install -D --save autoprefixer
           sudo npm install -D --save postcss-cli
       - name: preparing workspace clean public folder
         run: |
           cd cd ${{secrets.HUGO_SITE_LOCATION}}
           pwd
+          ls -lA
           sudo rm -rf public
           ls -lA
       - name: attach theme
