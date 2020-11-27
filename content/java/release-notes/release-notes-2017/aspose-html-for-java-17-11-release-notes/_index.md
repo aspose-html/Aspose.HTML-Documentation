@@ -12,10 +12,10 @@ As per regular monthly update process of all APIs being offered by Aspose, we ar
 - Introduced PdfPermissions enumeration for configuring Aspose.Html.Rendering.Pdf.Encryption object.
 
 We have made some internal bug fixes and also made improvements to Document Traversal and network layer. Furthermore, we have added Enumeration to make our interfaces, which are related to rendering into PdfDevice which is similar to Aspose.Pdf.
-### **Public API Changes** ### 
-#### **Added APIs** #### 
+### **Public API Changes**
+#### **Added APIs**
 Enumeration: com.aspose.html.rendering.pdf.encryption.PdfPermissions
-#### **Edit APIs** #### 
+#### **Edit APIs**
 HTMLCollection com.aspose.html.dom.Element.QuerySelectorAll(String selector)
 
 // has been replaced with

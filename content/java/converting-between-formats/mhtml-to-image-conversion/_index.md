@@ -16,7 +16,7 @@ In this article, you will find information on how to convert an [MHTML](https://
 The static methods of the [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert [MHTML](https://en.wikipedia.org/wiki/MHTML) file into various formats. You can convert [MHTML](https://en.wikipedia.org/wiki/MHTML) to Image in your Java application literally with a single line of code!
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertMHTMLToImage_WithASingleLine.java" >}}
-## **Convert MHTML to JPG** ## 
+## **Convert MHTML to JPG**
 You can check the quality of MHTML to JPG conversion at this link: <https://products.aspose.app/html/conversion/mhtml-to-jpg>
 
 The following Java code snippet shows how to convert MHTML to JPG using Aspose.HTML for Java.
@@ -26,7 +26,7 @@ The following Java code snippet shows how to convert MHTML to JPG using Aspose.H
 1. Use the [Converter.ConvertMHTML](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertmhtml/methods/7) method of [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class to save MHTML as a JPG image. You need to pass the MHTML stream, [ImageSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/imagesaveoptions), and output file path to the [Converter.ConvertMHTML](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertmhtml/methods/7) method to convert MHTML to JPG.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertMHTMLToImage_ConvertMHTMLToJPG.java" >}}
-## **Convert MHTML to PNG** ## 
+## **Convert MHTML to PNG**
 {{% alert color="primary" %}} 
 
 You can check the quality of MHTML to PNG conversion at this link: <https://products.aspose.app/html/conversion/mhtml-to-png>
@@ -40,7 +40,7 @@ The following Java code snippet shows how to convert MHTML to PNG using Aspose.H
 1. Use the [Converter.ConvertMHTML](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertmhtml/methods/7) method of [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class to save MHTML as a PNG image. You need to pass the MHTML stream, [ImageSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/imagesaveoptions), and output file path to the [Converter.ConvertMHTML](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertmhtml/methods/7) method to convert MHTML to PNG.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertMHTMLToImage_ConvertMHTMLToPNG.java" >}}
-## **Convert MHTML to BMP** ## 
+## **Convert MHTML to BMP**
 You can check the quality of MHTML to BMP conversion at this link: <https://products.aspose.app/html/conversion/mhtml-to-bmp>
 
 The following Java code snippet shows how to convert MHTML to BMP using Aspose.HTML for Java.
@@ -50,7 +50,7 @@ The following Java code snippet shows how to convert MHTML to BMP using Aspose.
 1. Use the [Converter.ConvertMHTML](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertmhtml/methods/7) method of [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class to save MHTML as a BMP image. You need to pass the MHTML stream, [ImageSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/imagesaveoptions), and output file path to the [Converter.ConvertMHTML](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertmhtml/methods/7) method to convert MHTML to BMP .
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertMHTMLToImage_ConvertMHTMLToBMP.java" >}}
-## **Convert MHTML to GIF** ## 
+## **Convert MHTML to GIF**
 {{% alert color="primary" %}} 
 
 You can check the quality of MHTML to GIF conversion at this link: <https://products.aspose.app/html/conversion/mhtml-to-gif>
@@ -64,7 +64,7 @@ The following Java code snippet shows how to convert MHTML to GIF using Aspose.H
 1. Use the [Converter.ConvertMHTML](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertmhtml/methods/7) method of [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class to save MHTML as a GIF image. You need to pass the MHTML stream, [ImageSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/imagesaveoptions), and output file path to the [Converter.ConvertMHTML](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertmhtml/methods/7) method to convert MHTML to GIF .
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertMHTMLToImage_ConvertMHTMLToGIF.java" >}}
-## **Convert MHTML to TIFF** ## 
+## **Convert MHTML to TIFF**
 You can check the quality of MHTML to TIFF conversion at this link: <https://products.aspose.app/html/conversion/mhtml-to-tiff>
 
 The following Java code snippet shows how to convert MHTML to TIFF using Aspose.HTML for Java.
@@ -74,13 +74,13 @@ The following Java code snippet shows how to convert MHTML to TIFF using Aspose.
 1. Use the [Converter.ConvertMHTML](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertmhtml/methods/7) method of [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class to save MHTML as a TIFF image. You need to pass the MHTML stream, [ImageSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/imagesaveoptions), and output file path to the [Converter.ConvertMHTML](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertmhtml/methods/7) method to convert MHTML to TIFF.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertMHTMLToImage_ConvertMHTMLToTIFF.java" >}}
-## **Save Options** ## 
+## **Save Options**
 [ImageSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/imagesaveoptions) allows you to customize the rendering process. You can specify the [image format](https://apireference.aspose.com/html/java/com.aspose.html.rendering.image/ImageFormat), [page size](https://apireference.aspose.com/html/java/com.aspose.html.rendering/RenderingOptions#getPageSetup--), [margins](https://apireference.aspose.com/html/java/com.aspose.html.drawing/Page#getMargin--), [compression level](https://apireference.aspose.com/html/java/com.aspose.html.rendering.image/Compression), [CSS media-type](https://apireference.aspose.com/html/java/com.aspose.html.rendering/MediaType), etc. The following example shows how to use *ImageSaveOptions and* create the output image with custom page-size and background color:
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertMHTMLToImage_SpecifyImageSaveOptions.java" >}}
 
 To learn more about [ImageOptions](https://apireference.aspose.com/java/html/aspose.html.saving/imagesaveoptions) please read [Fine-Tuning Converters](/html/java/fine-tuning-converters/) article.
-## **Output Stream Providers** ## 
+## **Output Stream Providers**
 If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
 
 {{% alert color="primary" %}} 

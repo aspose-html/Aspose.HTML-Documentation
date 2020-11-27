@@ -5,7 +5,7 @@ weight: 20
 url: /java/supported-file-formats/
 ---
 
-## **Supported File Formats** ## 
+## **Supported File Formats**
 The following table indicates the file formats that Aspose.HTML for Java can load and Save.
 
 |**Format**|**Description**|**Load**|**Save**|**Remarks**|

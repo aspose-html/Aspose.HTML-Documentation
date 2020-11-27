@@ -5,7 +5,7 @@ weight: 10
 url: /java/getting-started/
 ---
 
-### **Getting Started** ### 
+### **Getting Started**
 
 
 

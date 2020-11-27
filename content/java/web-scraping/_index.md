@@ -6,7 +6,7 @@ url: /java/web-scraping/
 ---
 
 **Web scraping**, also well known as **web harvesting**, **web data extraction** or **web crawling**, is used for extracting data from websites. A **web scraping software** will help you to automate the process of extracting data based on your requirements. However, configuring **web scraping software** sometimes is a challenging task. Using *Aspose.HTML* class library, you can easily create your own application, since our API provides a powerful toolset to analyze and collect information from HTML documents.
-## **HTML navigation** ## 
+## **HTML navigation**
 There are many ways that can be used to make HTML navigation. The following shortlist shows the simplest way to access to all DOM elements:
 
 |**Property**|**Description**|
@@ -33,13 +33,13 @@ Once you implement a filter, you can use HTML navigation as it follows:
 
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_WebScraping_WebScraping_NodeFilterUsageExample.java" >}}
-## **XPath** ## 
+## **XPath**
 The alternative to the *HTML Navigation* is [XML Path Language](https://www.w3.org/TR/xpath20/). The syntax of the XPath expressions is quite simple and what is more important, it is easy to read and support.
 
 The following example shows how to use XPath queries within Aspose.HTML API::
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_WebScraping_WebScraping_XPathQueryUsageExample.java" >}}
-## **CSS Selector** ## 
+## **CSS Selector**
 Along with *HTML Navigation* and *XPath* you can use [CSS Selector API](http://www.w3.org/TR/selectors-4/) that is also supported by our library. This API is designed to create a search pattern to match elements in a document tree based on [CSS Selectors](https://www.w3.org/TR/selectors-3/#selectors) syntax.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_WebScraping_WebScraping_CSSSelectorUsageExample.java" >}}
