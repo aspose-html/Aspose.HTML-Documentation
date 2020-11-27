@@ -10,13 +10,13 @@ jobs:
     name: Deploy
     runs-on: [self-hosted, linux, x64, dev4-github]
     steps:
-      - name: preparing workspace:: git pull documentation
+      - name: preparing workspace git pull documentation
         run: |
           cd ${{secrets.HUGO_SITE_LOCATION}}
           pwd
           ls -lA
           git stash && git pull
-      - name: preparing workspace:: npm install dependencies
+      - name: preparing workspace npm install dependencies
         run: |
           cd ${{secrets.HUGO_SITE_LOCATION}}
           pwd
@@ -24,7 +24,7 @@ jobs:
           cd aspose-html-docs/Aspose.HTML-Documentation
           sudo npm install -D --save autoprefixer
           sudo npm install -D --save postcss-cli
-      - name: preparing workspace:: clean public folder
+      - name: preparing workspace clean public folder
         run: |
           cd cd ${{secrets.HUGO_SITE_LOCATION}}
           pwd
