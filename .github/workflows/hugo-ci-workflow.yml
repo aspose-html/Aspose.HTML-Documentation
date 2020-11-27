@@ -6,30 +6,32 @@ on:
       '.github/**'
 
 jobs:
-  job-one:
+  job-preparing-workspace:
     name: Deploy
     runs-on: [self-hosted, linux, x64, dev4-github]
     steps:
       - name: preparing workspace git pull documentation  
         run: |
-          pwd
-          ls -lA
-          cd aspose-html-docs/Aspose.HTML-Documentation && git stash && git pull && cd -
-      - name: preparing workspace git pull prototype and theme 
-        run: |      
-          pwd
-          ls -lA
-          cd aspose-html-docs/lutsk-aspose-prototype 
+          cd ${{secrets.HUGO_SITE_LOCATION}}
           pwd
           ls -lA
           git stash && git pull
-          cd themes/lutsk-aspose-theme 
-          git stash && git pull 
-          cd -
-          pwd
-          ls -lA
+#      - name: preparing workspace git pull prototype and theme
+#        run: |
+#          pwd
+#          ls -lA
+#          cd aspose-html-docs/lutsk-aspose-prototype
+#          pwd
+#          ls -lA
+#          git stash && git pull
+#          cd themes/lutsk-aspose-theme
+#          git stash && git pull
+#          cd -
+#          pwd
+#          ls -lA
       - name: preparing workspace npm install dependencies
         run: |
+          cd ${{secrets.HUGO_SITE_LOCATION}}
           pwd
           ls -lA
           cd aspose-html-docs/Aspose.HTML-Documentation
@@ -41,12 +43,12 @@ jobs:
         #  rsync --recursive --delete --force --progress ${{ secrets.PROJECTPATH }} content/
       - name: preparing workspace clean public folder
         run: |
+          cd cd ${{secrets.HUGO_SITE_LOCATION}}
           pwd
           sudo rm -rf public
           ls -lA
       - name: attach theme
         run: |
-          pwd
           cd ${{secrets.HUGO_SITE_LOCATION}}
           pwd
           cd themes          
@@ -55,6 +57,7 @@ jobs:
           sudo rm lutsk-aspose-theme -rf
           ln -s ${{secrets.LUTSK_ASPOSE_THEME_LOCATION}}
           ls -lA
+  job-hugo-build:
       - name: hugo build
         run: |
           cd ${{secrets.HUGO_SITE_LOCATION}}
@@ -64,6 +67,7 @@ jobs:
           # hugo --minify --baseURL https://docs.aspose.com/html
           sudo hugo -c content --debug --log --print-mem --templateMetrics --minify -v --baseURL https://docs.aspose.com/html
           rsync --recursive --delete --force -e "ssh" --progress public/ ${{ secrets.TRANSFERPATH }}
+  job-deploy-to-public:
       - name: hugo deploy
         uses: appleboy/ssh-action@master
         with:
