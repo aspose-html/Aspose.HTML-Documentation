@@ -14,7 +14,7 @@ url: /java/html-to-markdown-conversion/
 <https://products.aspose.app/html/conversion/md>
 
 {{% /alert %}} 
-## **Save Options**
+## **Save Options** ## 
 The [MarkdownSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/markdownsaveoptions) has a number of properties that give you control over the conversion process. The most important option is [MarkdownSaveOptions.Features](https://apireference.aspose.com/java/html/aspose.html.saving/markdownsaveoptions/properties/features). This option allows you to enable/disable the conversion of the particular element.
 
 The following example shows how to process the only links, images, and paragraphs, other HTML elements remain as is.
@@ -24,9 +24,9 @@ The following example shows how to process the only links, images, and paragraph
 To convert HTML to Markdown you can define your own set of rules or use the predefined templates. For instance, you can use the template based on [GitLab Flavored Markdown](https://guides.github.com/features/mastering-markdown/) syntax:
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertHTMLToMarkdown_ConvertUsingGitSyntax.java" >}}
-## **Limitation**
+## **Limitation** ## 
 Markdown is a lightweight and easy-to-use syntax. Not all HTML elements are possible to convert to Markdown since there is no equivalent in Markdown syntax. The elements such as [STYLE](https://html.spec.whatwg.org/multipage/semantics.html#the-style-element), [SCRIPT](https://html.spec.whatwg.org/multipage/scripting.html#the-script-element), [LINK](https://html.spec.whatwg.org/multipage/semantics.html#the-link-element), [EMBED](https://html.spec.whatwg.org/multipage/iframe-embed-object.html#the-embed-element), etc. will be discarded during conversion.
-### **Inline HTML**
+### **Inline HTML** ### 
 Markdown allows you to specify the pure HTML code, which will be rendered as is. The feature, which allows this behaviour, is called "Inline HTML". In order to use it, you should place one of the specific elements, supported by this feature, at the beginning of new line. Or you can mark one of such elements as "Inline HTML", by adding the attribute *markdown* with the value *inline* to this element. Here is small example, which demonstrate, how to use this attribute:
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertHTMLToMarkdown_InlineHTML.java" >}}
@@ -36,7 +36,7 @@ As you can see, content of the div element is not converted to Markdown and is 
 The original Markdown specification supports these tags: BLOCKQUOTE,H1, H2, H3, H4, H5, H6, P, PRE, OL, UL, DL, DIV, INS, DEL, IFRAME, FIELDSET, NOSCRIPT, FORM, MATH.
 
 The GitLab Flavored Markdown extends this list with the next tags: ARTICLE, FOOTER, NAV, ASIDE, HEADER, ADDRESS, HR, DD, FIGURE, FIGCAPTION, ABBR, VIDEO, AUDIO, OUTPUT, CANVAS, SECTION, DETAILS, HGROUP, SUMMARY.
-### **Features nesting**
+### **Features nesting** ### 
 Markdown supports a lot of features, but not all of them can be used together. As an example list elements inside of table elements would not be converted. The following table shows what features can be nested. Each feature is a member of the [MarkdownFeatures](https://apireference.aspose.com/java/html/aspose.html.saving/markdownfeatures) enumeration.
 
 |**Parent feature** |**Features which can be processed inside**|

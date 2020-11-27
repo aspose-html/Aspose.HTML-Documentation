@@ -6,11 +6,11 @@ url: /java/html-template/
 ---
 
 This article describes how to create an HTML document based on a template and populate it from a data-source. Aspose.HTML provides the inline expressions syntax to work with templates and various types of data-source, such as XML and JSON.
-## **Template markup**
+## **Template markup** ## 
 The HTML template is a regular HTML file that contains some special inline expressions that specify the input data-source mapping to the HTML page markup. These inline expressions use double curled bracket notation. During the template processing, the template markers will be replaced with respective data values following the rules described below.
-### **Inline expressions**
+### **Inline expressions** ### 
 Following is the list of supported inline expressions syntax.
-#### **{{ ... }} - data-binding expression**
+#### **{{ ... }} - data-binding expression** #### 
 The *data-binding expression* is used to set values of control element based on the information that is contained in the data-source. 
 
 The following is the basic syntax of the data-binding expression:
@@ -68,7 +68,7 @@ The data-binding expression in the HTML page template:
 </Data>
 
 {{< /highlight >}}
-#### **{{#foreach ... }} - foreach directive expression**
+#### **{{#foreach ... }} - foreach directive expression** #### 
 The *foreach directive expression* is used to iterate through the list of elements in combination with *data-binding expression*.
 
 The following demo shows how to get all persons from the data-source and populate a template:
@@ -182,7 +182,7 @@ The *foreach directive expression* in the HTML page template:
 Please note that the current implementation supports *foreach directive expression* only for the following list of HTML elements: DIV, OL, UL and TABLE.
 
 {{% /alert %}} 
-## **Data Source**
+## **Data Source** ## 
 As it was mentioned earlier, the data-source could be represented in XML and JSON formats. The following are the examples of both data-source that prepared for this article:
 
 **XML Data Source**
@@ -232,7 +232,7 @@ As it was mentioned earlier, the data-source could be represented in XML and JSO
 }
 
 {{< /highlight >}}
-## **Usage Example**
+## **Usage Example** ## 
 Once you have prepared an HTML Template, you can convert Template to HTML in your Java application literally with a single line of code!
 
 Please note that you can use [**TemplateLoadOptions.NamesAreCaseSensitive**](https://apireference.aspose.com/java/html/aspose.html.loading/templateloadoptions/properties/namesarecasesensitive) property to define whether the template and data element names will be matched regardless of the character case or not.

@@ -24,7 +24,7 @@ The following Java code snippet shows how to convert EPUB to PDF using Aspose.HT
 1. Use the [Converter.ConvertEPUB](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertepub/methods/9) method of [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class to save EPUB as a PDF file. You need to pass the EPUB file stream, [PdfSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/pdfsaveoptionsQ), and output file path to the [Converter.ConvertEPUB](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertepub/methods/9) method to convert EPUB to PDF.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertEPUBToPDF_ConvertEPUBFileToPDF.java" >}}
-## **Save Options**
+## **Save Options** ## 
 [PdfSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/pdfsaveoptions) allows you to customize the rendering process. You can specify the [page size](https://apireference.aspose.com/html/java/com.aspose.html.rendering/RenderingOptions#getPageSetup--), [margins](https://apireference.aspose.com/html/java/com.aspose.html.drawing/Page#getMargin--), [file permissions](https://apireference.aspose.com/java/html/aspose.html.rendering.pdf.encryption/pdfencryptioninfo), [CSS media-type](https://apireference.aspose.com/html/java/com.aspose.html.rendering/MediaType), etc. The following example shows how to use [PdfSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/pdfsaveoptions) *and* create a PDF file with custom page-size and background color:
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertEPUBToPDF_SpecifyPdfSaveOptions.java" >}}
@@ -32,7 +32,7 @@ The following Java code snippet shows how to convert EPUB to PDF using Aspose.HT
 Please note that you cannot set values against the **Application** and **Producer** fields, because Aspose Ltd. and Aspose.HTML for Java x.x.x will be displayed against these fields.
 
 To learn more about [PdfSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/pdfsaveoptions) please read [Fine-Tuning Converters](/html/java/fine-tuning-converters/) article.
-## **Output Stream Providers**
+## **Output Stream Providers** ## 
 If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
 
 {{% alert color="primary" %}} 

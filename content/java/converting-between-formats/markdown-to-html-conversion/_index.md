@@ -18,9 +18,9 @@ url: /java/markdown-to-html-conversion/
 If your scenario is required rendering Markdown document, for instance, to the Image file format, the following example demonstrates how that is simple.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertMarkdownToHTML_ConvertMarkdownToPNG.java" >}}
-## **Markdown Syntax**
+## **Markdown Syntax** ## 
 This article demonstrates the syntax declared in the [core Markdown specification](https://daringfireballJava/projects/markdown/) and [GitLab Flavored Markdown](https://docs.gitlab.com/ee/user/markdown.html) variation. All these features are supported by Aspose.HTML out-of-the-box.
-### **Headers**
+### **Headers** ### 
 Markdown supports two styles of headers, *Setext* and *atx*:
 
 
@@ -46,7 +46,7 @@ This is an H2
 \###### This is an H6
 
 {{< /highlight >}}
-### **Lists**
+### **Lists** ### 
 Markdown supports ordered (numbered) and unordered (bulleted) lists.
 
 Unordered lists use asterisks, pluses, and hyphens — interchangably — as list markers:
@@ -72,7 +72,7 @@ Ordered lists use numbers followed by periods:
 \3.  Parish
 
 {{< /highlight >}}
-### **Images**
+### **Images** ### 
 Inline image syntax looks like this:
 
 {{< highlight java >}}
@@ -80,7 +80,7 @@ Inline image syntax looks like this:
  ![Alt text](/path/to/img.jpg)
 
 {{< /highlight >}}
-### **Links**
+### **Links** ### 
 Links syntax looks like this:
 
 {{< highlight java >}}
@@ -88,7 +88,7 @@ Links syntax looks like this:
  [an example](http://example.com/ "Title")
 
 {{< /highlight >}}
-### **Emphasis**
+### **Emphasis** ### 
 Markdown treats asterisks * and underscores (_) as indicators of emphasis:
 
 {{< highlight java >}}
@@ -102,7 +102,7 @@ _single underscores_
 __double underscores__
 
 {{< /highlight >}}
-### **Blockquotes**
+### **Blockquotes** ### 
 Markdown uses email-style > characters for blockquoting:
 
 {{< highlight java >}}
@@ -114,7 +114,7 @@ Markdown uses email-style > characters for blockquoting:
 \> > This is nested blockquote.
 
 {{< /highlight >}}
-### **Code Block**
+### **Code Block** ### 
 To indicate a span of code, wrap it with backtick quotes (`):
 
 {{< highlight java >}}
@@ -130,7 +130,7 @@ function myFunc() {
 \
 
 {{< /highlight >}}
-### **Tables**
+### **Tables** ### 
 Tables aren’t part of the core Markdown spec, but they are part of GFM:
 
 {{< highlight java >}}

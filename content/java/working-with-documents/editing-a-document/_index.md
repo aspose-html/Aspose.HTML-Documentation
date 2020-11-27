@@ -27,7 +27,7 @@ The following is a brief list of useful API methods provides by the core data 
 |[element.getAttribute(name)](https://apireference.aspose.com/html/java/com.aspose.html.dom/Element#getAttribute-java.lang.String-)|The method returns the value of a specified attribute on the element.|
 |[element.innerHTML](https://apireference.aspose.com/html/java/com.aspose.html.dom/Element#getInnerHTML--) |Returns a fragment of markup contained within the element.|
 For a complete list of interfaces and methods represented in the DOM package please visit [API Reference Source](https://apireference.aspose.com/html/java/com.aspose.html.dom/package-frame).
-## **Edit HTML**
+## **Edit HTML** ## 
 There are many ways you can edit HTML by using our library. You can modify the document by inserting new nodes, removing, or editing the content of existing nodes. If you need to create a new node, the following methods are ones that need to be invoked:
 
 |**Method** |**Description** |
@@ -54,11 +54,11 @@ To remove a node from the HTML DOM tree, please use the [RemoveChild(child)](ht
 The following is a code snippet how to edit HTML document using the mentioned above functional:
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_WorkingWithDocuments_EditingADocument_UsingDOM.java" >}}
-## **Using InnerHTML & OuterHTML attributes**
+## **Using InnerHTML & OuterHTML attributes** ## 
 Having DOM objects gives you a powerful tool to manipulate with an HTML Document. However, sometime much better to work just with [Class String](https://cr.openjdk.java.net/~iris/se/15/latestSpec/api/java.base/java/lang/String.html). The following code snippet shows you how to use [InnerHTML](https://apireference.aspose.com/html/java/com.aspose.html.dom/Element#getInnerHTML--) & [OuterHTML](https://apireference.aspose.com/html/java/com.aspose.html.dom/Element#getOuterHTML--) properties to edit HTML.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_WorkingWithDocuments_EditingADocument_UsingInnerOuterHTML.java" >}}
-## **Edit CSS**
+## **Edit CSS** ## 
 [Cascading Style Sheets (CSS)](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) is a style sheet language used for describing how webpages look in the browser. Aspose.HTML not only support CSS out-of-the-box but also gives you instruments to manipulate with document styles just on the fly before converting the HTML document to the other formats, as it follows:
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_WorkingWithDocuments_EditingADocument_EditCSS.java" >}}

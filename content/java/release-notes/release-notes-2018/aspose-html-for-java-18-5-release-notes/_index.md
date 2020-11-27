@@ -10,10 +10,10 @@ url: /java/aspose-html-for-java-18-5-release-notes/
 This page contains release notes for [Aspose.HTML for Java 18.5](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-html/18.5.1)
 
 {{% /alert %}} 
-## **Release Notes of Aspose.HTML for Java 18.5**
-### **Major Features**
+## **Release Notes of Aspose.HTML for Java 18.5** ## 
+### **Major Features** ### 
 We are pleased to announce that our series of W3C formats has been extended and now we support Scale-able Vector Graphics (SVG) format. Our API offers the capabilities to manipulate SVG, both as a part of HTML document and single SVGDocument object. This API is fully compatible with the W3C SVG 2 recommendation and previously implemented HTML format, so every manipulation features: loading, saving, editing, navigation or rendering features supported exactly in the same way. In this release, we have added support for Aspose Metered License mechanism; reworked the request message object and created more flexible way to set up the message content as well as user credentials; we have improved the rendering options and added capability to specify CSS MediaType. Also, we have reorganized caching mechanism and increased the document loading performance.
-### **Improvements and Changes**
+### **Improvements and Changes** ### 
 
 |**Summary**|**Category**|
 | :- | :- |
@@ -22,8 +22,8 @@ We are pleased to announce that our series of W3C formats has been extended and 
 |Support for media commands @print and @screen|Enhancement|
 |The RequestMessage.Method property does not work|Bug|
 |<input> elements of new HTML5 types does not rendered|Bug|
-### **Public API changes in Aspose.HTML for Java 18.5**
-#### **Added APIs:**
+### **Public API changes in Aspose.HTML for Java 18.5** ### 
+#### **Added APIs:** #### 
 -----
 {{< highlight java >}}
 
@@ -444,7 +444,7 @@ com.aspose.html.rendering.PageSetup.setAtPagePriority(int value)
 enumeration com.aspose.html.rendering.AtPagePriority
 
 {{< /highlight >}}
-#### **Changed APIs:**
+#### **Changed APIs:** #### 
 -----
 {{< highlight java >}}
 
@@ -459,7 +459,7 @@ com.aspose.html.net.ResponseMessage.getBody()
 com.aspose.html.net.RequestMessage.setContent(com.aspose.html.net.Content value)
 
 {{< /highlight >}}
-#### **Removed APIs:**
+#### **Removed APIs:** #### 
 -----
 {{< highlight java >}}
 
@@ -478,7 +478,7 @@ com.aspose.html.net.ResponseMessage.getContentEncoding()
 com.aspose.html.net.ResponseMessage.getContentType()
 
 {{< /highlight >}}
-#### **Loading, Navigation and Rendering by using SVG APIs:**
+#### **Loading, Navigation and Rendering by using SVG APIs:** #### 
 -----
 {{< highlight java >}}
 

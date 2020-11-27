@@ -5,11 +5,11 @@ weight: 50
 url: /java/aspose-html-for-java-19-5-release-notes/
 ---
 
-### **Aspose.HTML for Java 19.5.0 Release Notes**
+### **Aspose.HTML for Java 19.5.0 Release Notes** ### 
 -----
-##### **Major Features**
+##### **Major Features** ##### 
 As regular monthly update process of all APIs being offered by Aspose, we are pleased to announce the second release of Aspose.HTML for Java. In this release, we have made some internal bug fixes.
-### **Improvement and Changes**
+### **Improvement and Changes** ### 
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |

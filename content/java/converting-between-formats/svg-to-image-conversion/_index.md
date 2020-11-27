@@ -16,7 +16,7 @@ In this article, you will find information on how to convert an SVG to Image Fil
 The static methods of the [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an SVG code into various formats. You can convert HTML to Image in your Java application literally with a single line of code!
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertSVGToImage_WithASingleLine.java" >}}
-## **Convert SVG to JPG**
+## **Convert SVG to JPG** ## 
 You can check the quality of SVG to JPG conversion at this link: <https://products.aspose.app/html/conversion/svg-to-jpg>
 
 The following Java code snippet shows how to convert SVG to JPG using Aspose.HTML for Java.
@@ -26,7 +26,7 @@ The following Java code snippet shows how to convert SVG to JPG using Aspose.HTM
 1. Use the [Converter.ConvertSVG](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertsvg/methods/37) method of [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class to save SVG as a JPG image. You need to pass the [SVGDocument](https://apireference.aspose.com/html/java/com.aspose.html.dom.svg/SVGDocument), [ImageSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/imagesaveoptions), and output file path to the [Converter.ConvertSVG](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertsvg/methods/37) method to convert SVG to JPG.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertSVGToImage_ConvertSVGToJPG.java" >}}
-## **Convert SVG to PNG**
+## **Convert SVG to PNG** ## 
 {{% alert color="primary" %}} 
 
 You can check the quality of SVG to PNG conversion at this link: <https://products.aspose.app/html/conversion/svg-to-png>
@@ -40,7 +40,7 @@ The following Java code snippet shows how to convert SVG to PNG using Aspose.HTM
 1. Use the [Converter.ConvertSVG](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertsvg/methods/37) method of [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class to save SVG as a PNG image. You need to pass the [SVGDocument](https://apireference.aspose.com/html/java/com.aspose.html.dom.svg/SVGDocument), [ImageSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/imagesaveoptions), and output file path to the [Converter.ConvertSVG](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertsvg/methods/37) method to convert SVG to PNG.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertSVGToImage_ConvertSVGToPNG.java" >}}
-## **Convert SVG to BMP**
+## **Convert SVG to BMP** ## 
 You can check the quality of SVG to BMP conversion at this link: <https://products.aspose.app/html/conversion/svg-to-bmp>
 
 The following Java code snippet shows how to convert SVG to BMP using Aspose.HTML for Java.
@@ -50,7 +50,7 @@ The following Java code snippet shows how to convert SVG to BMP using Aspose.HTM
 1. Use the [Converter.ConvertSVG](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertsvg/methods/37) method of [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class to save SVG as a BMP image. You need to pass the [SVGDocument](https://apireference.aspose.com/html/java/com.aspose.html.dom.svg/SVGDocument), [ImageSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/imagesaveoptions), and output file path to the [Converter.ConvertSVG](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertsvg/methods/37) method to convert SVG to BMP.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertSVGToImage_ConvertSVGToBMP.java" >}}
-## **Convert SVG to GIF**
+## **Convert SVG to GIF** ## 
 
 
 {{% alert color="primary" %}} 
@@ -66,7 +66,7 @@ The following Java code snippet shows how to convert SVG to GIF using Aspose.HTM
 1. Use the [Converter.ConvertSVG](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertsvg/methods/37) method of [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class to save SVG as a GIF image. You need to pass the [SVGDocument](https://apireference.aspose.com/html/java/com.aspose.html.dom.svg/SVGDocument), [ImageSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/imagesaveoptions), and output file path to the [Converter.ConvertSVG](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertsvg/methods/37) method to convert SVG to GIF.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertSVGToImage_ConvertSVGToGIF.java" >}}
-## **Convert SVG to TIFF**
+## **Convert SVG to TIFF** ## 
 You can check the quality of SVG to TIFF conversion at this link: <https://products.aspose.app/html/conversion/svg-to-tiff>
 
 The following Java code snippet shows how to convert SVG to TIFF using Aspose.HTML for Java.
@@ -76,13 +76,13 @@ The following Java code snippet shows how to convert SVG to TIFF using Aspose.HT
 1. Use the [Converter.ConvertSVG](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertsvg/methods/37) method of [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class to save SVG as a GIF image. You need to pass the [SVGDocument](https://apireference.aspose.com/html/java/com.aspose.html.dom.svg/SVGDocument), [ImageSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/imagesaveoptions), and output file path to the [Converter.ConvertSVG](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertsvg/methods/37) method to convert SVG to TIFF.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertSVGToImage_ConvertSVGToTIFF.java" >}}
-## **Save Options**
+## **Save Options** ## 
 [ImageSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/imagesaveoptions) allows you to customize the rendering process. You can specify the [image format](https://apireference.aspose.com/html/java/com.aspose.html.rendering.image/ImageFormat), [page size](https://apireference.aspose.com/html/java/com.aspose.html.rendering/RenderingOptions#getPageSetup--), [margins](https://apireference.aspose.com/html/java/com.aspose.html.drawing/Page#getMargin--), [compression level](https://apireference.aspose.com/html/java/com.aspose.html.rendering.image/Compression), [CSS media-type](https://apireference.aspose.com/html/java/com.aspose.html.rendering/MediaType), etc. The following example shows how to use *ImageSaveOptions and* create the output image with custom page-size and background color:
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertSVGToImage_SpecifyImageSaveOptions.java" >}}
 
 To learn more about [ImageOptions](https://apireference.aspose.com/java/html/aspose.html.saving/imagesaveoptions) please read [Fine-Tuning Converters](/html/java/fine-tuning-converters/) article.
-## **Output Stream Providers**
+## **Output Stream Providers** ## 
 If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
 
 {{% alert color="primary" %}} 

@@ -16,7 +16,7 @@ Aspose.HTML is a Java component built to allow developers to programmatically cr
 Aspose APIs are famous for their inter file format conversion features and this API also provides the capabilities to load HTML file and render the output in PDF, XPS and raster image formats including JPEG, PNG, BMP and TIFF. When generating the output in PDF format, you can also encrypt the document, specify the page setup information for resultant output and we can also specify the compression value for JPEG images inside the output document.
 
 {{% /alert %}} 
-## **Product Description**
+## **Product Description** ## 
 Aspose.HTML provides a simple and convenient Application Programming Interface (API) that is easy to learn and use. Aspose.HTML is implemented using Java and it can be used with any Java based application including JSP, JSF etc Web based or a desktop Application. Aspose.HTML for Java provides fully featured working examples to help with the quick learning of API, as they can help you to quickly learn the features provided by Aspose.HTML for Java.
 
 It is a fast, lightweight component which creates HTML documents efficiently and help your applications to perform better. Aspose.HTML for Java is our customers' first choice when it comes to HTML files creation as well as manipulation because of its price, superb performance and great support.

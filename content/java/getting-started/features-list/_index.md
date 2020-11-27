@@ -10,7 +10,7 @@ url: /java/features-list/
 The following table summarizes the features available in Aspose.HTML for Java API.
 
 {{% /alert %}} 
-## **Aspose.HTML for Java Features**
+## **Aspose.HTML for Java Features** ## 
 Aspose.HTML is a programming API that allows developers to create, open existing, manipulate, navigate through and convert (X)HTML documents into the various supported output formats. Aspose.HTML implements W3C HTML specification, so it’s classes and properties have similar names that come from the specifications.
 
 
@@ -38,7 +38,7 @@ Note
   - In the ‘specified’ state CSS Color is represented as original string specified by the author.
 
 The URL object is based on Java Framework implementation according to w3c URL specification. The difference between Framework and w3c is an order of [constructor parameters](https://url.spec.whatwg.org/#dom-url-url)
-### **General Features**
+### **General Features** ### 
 - Written completely in Java and works with JRE.
 - JDK environment required.
 - Supports Desktop, JSP or JSP applications.
@@ -46,15 +46,15 @@ The URL object is based on Java Framework implementation according to w3c URL sp
 - Supported JDK 1.6 or higher versions.
 - 32-bit OS support.
 - 64-bit OS support.
-### **Supported HTML versions**
+### **Supported HTML versions** ### 
 Aspose.HTML for Java supports HTML and (X)HTML.
-### **Namespaces structure in API**
+### **Namespaces structure in API** ### 
 ![todo:image_alt_text](https://lh3.googleusercontent.com/9k_uvN_5kZ4tJ2S0a409a1FqSSrVdciYq2DOia3mB4sLPdmt5GPI_9BnO--3r6UtOl_YI0nx8AksMcIJ6YrkcegSqbzaz53Qj3xybqWfVnizMO_pbA3VjcR2ZgszWpV_IclR41pf)
-### **Text**
+### **Text** ### 
 - Extract text from pages.
 - Search text from pages.
 - Add text in HTML file.
-### **Document**
+### **Document** ### 
 - Create, edit, remove and replace HTML nodes
 - Extracting CSS styles for particular HTML node
 - Convert HTML documents into various supported image formats: JPEG, PNG, BMP, TIFF
