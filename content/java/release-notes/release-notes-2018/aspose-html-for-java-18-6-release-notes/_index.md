@@ -5,25 +5,25 @@ weight: 60
 url: /java/aspose-html-for-java-18-6-release-notes/
 ---
 
-### **Aspose.HTML for Java 18.6 Release Notes** ### 
+## **Aspose.HTML for Java 18.6 Release Notes** ## 
 -----
 As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the June release of Aspose.HTML for Java. In this release, we have improved SVG support and made some internal bug fixes and enhancements related to CSS parsing algorithms and document rendering. Additionally, we have improved the mechanism of the external fonts loading and introduced 'Text Rendering Options' object in order to give user an ability to configure text rendering quality. Moreover, we have extended numbers of supported formats. W3C HTML Canvas is part of our library now, we support rendering of HTML Canvas elements as a part of HTML document as well as direct access and manipulation of HTML Canvas 2D Context.
 Also, we enhanced HTML and SVG documents saving methods. Now, you can not only save a document to output file, but control the process of handling resources that are linked to the document, set up restrictions and depth of saving of bound up documents.
 Furthermore, we included some new output formats, so now you can save your documents into Markdown notations which is represented a plain text format for writing structured documents, based on conventions for indicating formatting in email and use posts; and also save your documents into MIME Encapsulation of Aggregate HTML Documents (MHTML) format.
 And one more new feature that we are pleased to introduce in this release is FormEditor. It is created to simplify the work with HTML Form Elements. Since, attributes of HTML elements are represented as a 'string' objects, it is easy to make a mistake and fill the form with the wrong values. In order to avoid this mistake we introduced FormEditor which is instead of 'String' values manipulates with java objects. Moreover, once you fill your Form up with data you can easily send it to a remote server by using a new FormSubmitter object.
-### **Improvement and Changes** ### 
+## **Improvement and Changes** ## 
 
 |**Summary**|**Category**|
 | :- | :- |
 |Construct pure HTML files|Enhancement|
 |Support for rendering HTML Canvas 2D Context, Level 2|Enhancement|
-### **Public API changes** ### 
+## **Public API changes** ## 
 {{% alert color="primary" %}} 
 
 This section lists public API changes that were introduced in Aspose.HTML for Java 18.6. It includes not only new and obsoleted public methods, but also a description of any changes in the behavior behind the scenes in Aspose.HTML for Java which may affect existing code. Any behavior introduced that could be seen as a regression and modifies existing behavior is especially important and is documented here.
 
 {{% /alert %}} 
-#### **Added APIs:** #### 
+## **Added APIs:** ## 
 #### **TextOptions has been introduced in order to specify text rendering quality options** #### 
 {{< highlight java >}}
 
@@ -2500,7 +2500,7 @@ class Aspose.Html.Dom.Svg.SVGDocument
 }
 
 {{< /highlight >}}
-#### **Removed APIs:** #### 
+## **Removed APIs:** ## 
 Namespace Aspose.Html.Dom.Css.Counters has been hidden from public API as it is not represented any useful information for users about CSS document and represents the only specialized .net wrappers over the Aspose.Html.Dom.Css.ICSSStyleRule interface. The following interfaces which are used for access to the objects from namespace Aspose.Html.Dom.Css.Counters have been hidden as well:
 
 {{< highlight java >}}

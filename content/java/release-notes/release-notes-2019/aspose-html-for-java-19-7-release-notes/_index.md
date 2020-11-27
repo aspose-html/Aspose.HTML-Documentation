@@ -10,9 +10,9 @@ url: /java/aspose-html-for-java-19-7-release-notes/
 This page contains release notes for [Aspose.HTML for Java 19.7](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-html/19.7)
 
 {{% /alert %}} 
-### **Major Features** ### 
+## **Major Features** ## 
 As regular monthly update process of all APIs being offered by Aspose, we are pleased to announce the second release of Aspose.HTML for Java. In this release, we have made some internal bug fixes.
-### **Improvement and Changes** ### 
+## **Improvement and Changes** ## 
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
