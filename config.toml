@@ -151,3 +151,9 @@ footer_about_disable = false
 [[params.links.footer-policy]]
 	name = "Contact"
 	url = "https://company.aspose.com/contact"
+
+# Google Tag Manager settings
+[params.gtm]
+aspose_id = "GTM-NJMHSH"
+cloud_id = "GTM-TSXP9CZ"
+conholdate_id = "GTM-N4D44QW"
