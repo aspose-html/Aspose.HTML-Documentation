@@ -76,3 +76,29 @@ Moreover, we support CSS Selectors and the native navigation mechanism that is c
 **Q: I want to see page numbers at the bottom of the document, how to do this?**
 
 **A:** Since CSS is used to describe the visual layout of the document, we designed specialized [CSS Extensions](/html/java/css-extensions/) that can be used to write information on page margins.
+
+**Q: How add fonts to previous version Aspose Html library?**
+
+**A:** If you using previous version library AsposeHtml
+     to connect fonts to the library, you must use the following
+     font search paths. If you using Windows operation system,
+     font search path c:\Windows\Fonts . If you using Linux
+     operation system, font search paths /usr/share/fonts or
+     /usr/local/share/fonts .
+	 
+**Q: How add fonts to latest version Aspose Html library?**
+
+**A:** If you using latest version library AsposeHtml, you can
+     specify a destination folder, that contains fonts, using the
+     following code example:
+	 {{< highlight java >}}
+
+        Configuration configuration = new Configuration();
+        IUserAgentService userAgent = configuration.getService(IUserAgentService.class);
+        userAgent.getFontsSettings().setFontsLookupFolder(path to fonts folder, true);
+        HTMLDocument htmlDocument = new HTMLDocument(path to input file html, configuration);
+        PdfDevice pdfDevice = new PdfDevice(path to output pdf file);
+        HtmlRenderer htmlRenderer = new HtmlRenderer();
+        htmlRenderer.render(pdfDevice, htmlDocument);
+
+{{< /highlight >}}
