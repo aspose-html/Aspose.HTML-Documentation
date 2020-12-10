@@ -4,3 +4,19 @@ public
 resources
 node_modules
 package-lock.json
+
+# User-specific files
+content/tests-net/**/*.rsuser
+content/tests-net/**/*.suo
+content/tests-net/**/*.user
+content/tests-net/**/*.userosscache
+content/tests-net/**/*.sln.docstates
+
+content/tests-net/.vs/
+content/tests-net/packages/
+content/tests-net/**/bin/
+content/tests-net/**/obj/
+content/tests-net/UpgradeLog.htm
+
+content/tests-net/tests-out/
+content/tests-net/tests-data/**/*.lic
