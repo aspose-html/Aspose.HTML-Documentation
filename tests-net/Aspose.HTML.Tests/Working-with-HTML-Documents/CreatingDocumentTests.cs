@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
+using System.Threading;
 using Xunit;
 using Xunit.Abstractions;
 
@@ -16,11 +17,12 @@ namespace Aspose.HTML.Tests
             SetOutputDir("creating");
         }
         
+
         [Fact(DisplayName = "Create an empty HTML document")]
         public void CreateEmptyDocumentTest()
         {
-            // Prepare output path for a document saving
-            string documentPath = Path.Combine(OutputDir, "empty.html");
+            // Prepare an output path for a document saving
+            string documentPath = Path.Combine(OutputDir, "create-empty-document.html");
 
             // Initialize an empty HTML Document
             using (var document = new HTMLDocument())
@@ -33,11 +35,13 @@ namespace Aspose.HTML.Tests
 
             Assert.True(File.Exists(documentPath));
         }
+
+
         [Fact(DisplayName = "Create a new HTML document")]
         public void CreateNewDocumentTest()
         {
-            // Prepare output path for a document saving
-            string documentPath = Path.Combine(OutputDir, "document_new.html");
+            // Prepare an output path for a document saving
+            string documentPath = Path.Combine(OutputDir, "create-new-document.html");
 
             // Initialize an empty HTML Document
             using (var document = new HTMLDocument())
@@ -46,27 +50,32 @@ namespace Aspose.HTML.Tests
                 var text = document.CreateTextNode("Hello World!");
                 document.Body.AppendChild(text);
 
-                // Save the document to disk
+                // Save the document to a disk
                 document.Save(documentPath);
             }
+
             Assert.True(File.Exists(documentPath));
         }
+
+
         [Fact(DisplayName = "Create an HTML document from a string")]
         public void CreateDocumentFromContentStringTest()
         {
             // Prepare an HTML code
             var html_code = "<p>Hello World!</p>";
 
-            // Initialize document from the string variable
+            // Initialize a document from the string variable
             using (var document = new HTMLDocument(html_code, "."))
             {
-                // Save the document to disk
-                document.Save(Path.Combine(OutputDir, "document_code.html"));
+                // Save the document to a disk
+                document.Save(Path.Combine(OutputDir, "create-from-string.html"));
             }
-            Assert.True(File.Exists(Path.Combine(OutputDir, "document_code.html")));
+
+            Assert.True(File.Exists(Path.Combine(OutputDir, "create-from-string.html")));
         }
 
-        [Fact(DisplayName = "Load an HTML document from a file")]
+
+        [Fact(DisplayName = "Load an HTML document from Sprite.html file")]
         public void LoadDocumentFromFileTest1()
         {
             // Prepare a path to a file
@@ -77,29 +86,32 @@ namespace Aspose.HTML.Tests
             {
                 // Work with the document
                                
-                // Save the document to disk
+                // Save the document to a disk
                 document.Save(Path.Combine(OutputDir, "Sprite_out.html"));
             }
+
             Assert.True(File.Exists(Path.Combine(OutputDir, "Sprite_out.html")));
         }
+
 
         [Fact(DisplayName = "Load an HTML document from a file")]
         public void LoadDocumentFromFileTest2()
         {
-            var htmlFile = Path.Combine(OutputDir, "document.html");
+            var htmlFile = Path.Combine(OutputDir, "load-from-file.html");
 
-            // Prepare a 'document.html' file
+            // Prepare a 'load-from-file.html' document
             File.WriteAllText(htmlFile, "Hello World!");
-            
-            // Load from a 'document.html' file
+
+            // Load from the 'load-from-file.html' 
             using (var document = new HTMLDocument(htmlFile))
             {
-                // Write the document content to the output stream.
+                // Write the document content to the output stream
                 Output.WriteLine(document.DocumentElement.OuterHTML);
 
                 Assert.Contains("<html>", document.DocumentElement.OuterHTML);
             }            
         }
+
 
         [Fact(DisplayName = "Load an HTML document from a stream")]
         public void LoadDocumentFromStreamTest()
@@ -119,12 +131,13 @@ namespace Aspose.HTML.Tests
                 using (var document = new HTMLDocument(mem, "."))
                 {
                     // Save the document to disk
-                    document.Save(Path.Combine(OutputDir, "document_stream.html"));
+                    document.Save(Path.Combine(OutputDir, "load-from-stream.html"));
                     
                     Assert.True(document.QuerySelectorAll("p").Length > 0);
                 }
             }
         }
+
 
         [Fact(DisplayName = "Load an HTML document from a URL")]
         public void LoadDocumentFromUrlTest()
@@ -132,17 +145,18 @@ namespace Aspose.HTML.Tests
             // Load a document from 'http://localhost:1313/html/net/creating-a-document/document.html' web page
             using (var document = new HTMLDocument("http://localhost:1313/html/net/creating-a-document/document.html"))
             {
-                // Write the document content to the output stream
-                Output.WriteLine(document.DocumentElement.OuterHTML);
-
                 var html = document.DocumentElement.OuterHTML;
 
-                System.Diagnostics.Debug.WriteLine(html);
+                // Write the document content to the output stream
+                Output.WriteLine(html);
 
                 Assert.StartsWith("<html", html.Trim());
+
                 Assert.Contains("</html>", html);
             }
         }
+
+
         [Fact(DisplayName = "Load an SVG document from a String")]
         public void LoadSVGDocumentFromStringTest()
         {
@@ -156,13 +170,17 @@ namespace Aspose.HTML.Tests
             }
         }
 
+
         [Fact(DisplayName = "HTML Document Asynchronously On Ready State Change")]
         public void HTMLDocumentAsynchronouslyOnReadyStateChangeTest()
         {
+            // Initialize an AutoResetEvent
+            var resetEvent = new AutoResetEvent(false);
+
             // Create an instance of an HTML document
             var document = new HTMLDocument();
 
-            // Create string variable for OuterHTML property reading
+            // Create a string variable for OuterHTML property reading
             var outerHTML = string.Empty;
 
             // Subscribe to 'ReadyStateChange' event
@@ -173,58 +191,63 @@ namespace Aspose.HTML.Tests
                 // This property is representing the status of the document. For detail information please visit https://www.w3schools.com/jsref/prop_doc_readystate.asp
                 if (document.ReadyState == "complete")
                 {
-                    // Fill outerHTML variable by value of loaded document                  
+                    // Fill the outerHTML variable by value of loaded document                  
                     outerHTML = document.DocumentElement.OuterHTML;
+                    resetEvent.Set();
                 }
             };
 
             // Navigate asynchronously at the specified Uri
-            document.Navigate("http://localhost:1313/html/net/creating-a-document/document.html");
+            document.Navigate("https://docs.aspose.com/html/net/creating-a-document/document.html");
 
-            // Here outerHTML is empty yet
+            // Here the outerHTML is empty yet
             Assert.True(string.IsNullOrEmpty(outerHTML));
             Output.WriteLine($"outerHTML = {outerHTML}");
-           
 
-            // Wait for the complete document loading
-            while (string.IsNullOrEmpty(outerHTML)) { }
-
+            //  Wait 5 seconds for the file to load
+            Assert.True(resetEvent.WaitOne(5000), "Thread works too long, more than 5000 ms");
+                       
             // Here the outerHTML is filled 
             Output.WriteLine("outerHTML = {0}", outerHTML);
+
             Assert.False(string.IsNullOrEmpty(outerHTML));
 
             Assert.Contains("<body>Hello World!</body>", outerHTML);
+
             Assert.True(document.DocumentElement.TagName.ToLower() == "html");
         }
+
 
         [Fact(DisplayName = "HTML Document Asynchronously On Load")]
         public void HTMLDocumentAsynchronouslyOnLoadTest()
         {
+            // Initialize an AutoResetEvent
+            var resetEvent = new AutoResetEvent(false);
+
             // Initialize an HTML document
             var document = new HTMLDocument();
-            var isLoading = false;            
+            var isLoading = false;
 
             // Subscribe to the 'OnLoad' event
             // This event will be fired once the document is fully loaded
             document.OnLoad += (sender, @event) =>
-            {                
+            {
                 isLoading = true;
+                resetEvent.Set();
             };
 
             // Navigate asynchronously at the specified Uri
-            document.Navigate("http://localhost:1313/html/net/creating-a-document/document.html");
-                        
-            // Here document is not loaded yet
+            document.Navigate("https://docs.aspose.com/html/net/creating-a-document/document.html");
+
+            // Here the document is not loaded yet
             Assert.False(isLoading);
-           
-            while (!isLoading)
-            {
-                // Wait 100 ms
-                System.Threading.Thread.Sleep(100);                    
-            }            
-            
-            // Here is a loaded document
+
+            // Wait 5 seconds for the file to load
+            Assert.True(resetEvent.WaitOne(5000), "Thread works too long, more than 5000 ms");            
+
+            // Here is the loaded document
             Assert.True(isLoading);
+
             Output.WriteLine("outerHTML = {0}", document.DocumentElement.OuterHTML);
         }
     }

@@ -19,6 +19,7 @@ namespace Aspose.HTML.Tests
             SetOutputDir("editing");
         }
 
+
         [Fact(DisplayName = "Edit Document Tree")]
         public void EditDocumentTreeTest()
         {
@@ -42,12 +43,13 @@ namespace Aspose.HTML.Tests
                 // Attach paragraph to the document body
                 body.AppendChild(p);
 
-                // Save the HTML document to a file on disk
-                document.Save(Path.Combine(OutputDir, "paragraph.html"));
+                // Save the HTML document to a file
+                document.Save(Path.Combine(OutputDir, "edit-document-tree.html"));
 
-                Assert.True(File.Exists(Path.Combine(OutputDir, "paragraph.html")));
+                Assert.True(File.Exists(Path.Combine(OutputDir, "edit-document-tree.html")));
             }
         }
+
 
         [Fact(DisplayName = "Using DOM")]
         public void UsingDOMTest()
@@ -77,19 +79,21 @@ namespace Aspose.HTML.Tests
                 document.Body.AppendChild(p);
 
                 // Save the HTML document to a file 
-                document.Save(Path.Combine(OutputDir, "output.html"));
+                document.Save(Path.Combine(OutputDir, "using-dom.html"));
 
                 // Create an instance of the PDF output device and render the document into this device
-                using (var device = new PdfDevice(Path.Combine(OutputDir, "output.pdf")))
+                using (var device = new PdfDevice(Path.Combine(OutputDir, "using-dom.pdf")))
                 {
+                    // Render HTML to PDF
                     document.RenderTo(device);
                 }
-                Assert.True(File.Exists(Path.Combine(OutputDir, "output.pdf")));
+
+                Assert.True(File.Exists(Path.Combine(OutputDir, "using-dom.pdf")));
             }            
         }
 
-        [Fact(DisplayName = "Using OuterHTML")] 
 
+        [Fact(DisplayName = "Using OuterHTML")] 
         public void UsingOuterHTMLTest()
         {
             string documentPath = Path.Combine(DataDir, "document.html");
@@ -97,18 +101,19 @@ namespace Aspose.HTML.Tests
             // Create an instance of an HTML document
             using (var document = new HTMLDocument(documentPath))
             {
-                // Set html variable for a document 
+                // Set an html variable for the document 
                 var html = document.DocumentElement.OuterHTML;         
                               
-                System.Diagnostics.Debug.WriteLine(html);
+                Output.WriteLine(html);
 
                 Assert.StartsWith("<html", html.Trim());
                 Assert.Contains("</html>", html);
                 Assert.Contains("<body>Hello World!</body>", html);
             }            
         }
-        [Fact(DisplayName = "Using InnerHTML & OuterHTML")]
 
+
+        [Fact(DisplayName = "Using InnerHTML & OuterHTML")]
         public void UsingInnerHTMLOuterHTMLTest()
         {
             // Create an instance of an HTML document
@@ -120,46 +125,50 @@ namespace Aspose.HTML.Tests
                 // Set a content of the body element
                 document.Body.InnerHTML = "<p>HTML is the standard markup language for Web pages.</p>";
 
-                // Set html variable for a document content viewing
+                // Set an html variable for the document content viewing
                 var html = document.DocumentElement.OuterHTML;
 
                 // Write the content of the HTML document into the console output
                 Output.WriteLine(html); // output: <html><head></head><body><p>HTML is the standard markup language for Web pages.</p></body></html>
 
                 Assert.Equal("HTML", document.DocumentElement.TagName);
+
                 Assert.Contains("<p>HTML is the standard markup language for Web pages.</p>", html);
             }
         }
 
+
         [Fact(DisplayName = "Edit Inline CSS")]
         public void EditInlineCSSTest()
         {
-            // Create an instance of HTML document with specified content
-            var content = "<p> Inline CSS </p>";
+            // Create an instance of an HTML document with specified content
+            var content = "<p>InlineCSS </p>";
             using (var document = new HTMLDocument(content, "."))
             {
                 // Find the paragraph element to set a style
                 var paragraph = (HTMLElement)document.GetElementsByTagName("p").First();
 
                 // Set the style attribute
-                paragraph.SetAttribute("style", "font-size: 250%; font-family: verdana; color: #cd66aa");
+                paragraph.SetAttribute("style", "font-size:250%; font-family:verdana; color:#cd66aa");
                                 
                 // Save the HTML document to a file 
-                document.Save(Path.Combine(OutputDir, "css_inline.html"));
+                document.Save(Path.Combine(OutputDir, "edit-inline-css.html"));
 
-                // Create the instance of the PDF output device and render the document into this device
-                using (var device = new PdfDevice(Path.Combine(OutputDir, "css_inline.pdf")))
+                // Create an instance of PDF output device and render the document into this device
+                using (var device = new PdfDevice(Path.Combine(OutputDir, "edit-inline-css.pdf")))
                 {
+                    // Render HTML to PDF
                     document.RenderTo(device);
                 }
-                Assert.True(File.Exists(Path.Combine(OutputDir, "css_inline.pdf")));
+                Assert.True(File.Exists(Path.Combine(OutputDir, "edit-inline-css.pdf")));
             }            
         }
+
 
         [Fact(DisplayName = "Edit Internal CSS")]
         public void EditInternalCSSTest()
         {
-            // Create an instance of HTML document with specified content
+            // Create an instance of an HTML document with specified content
             var content = "<div><p>Internal CSS</p><p>An internal CSS is used to define a style for a single HTML page</p></div>";
             using (var document = new HTMLDocument(content, "."))
             {
@@ -167,7 +176,7 @@ namespace Aspose.HTML.Tests
                 style.TextContent = ".frame1 { margin-top:50px; margin-left:50px; padding:20px; width:360px; height:90px; background-color:#a52a2a; font-family:verdana; color:#FFF5EE;} \r\n" +
                                     ".frame2 { margin-top:-90px; margin-left:160px; text-align:center; padding:20px; width:360px; height:100px; background-color:#ADD8E6;}";
 
-                // Find the document header element and append style element to the header
+                // Find the document header element and append the style element to the header
                 var head = document.GetElementsByTagName("head").First();
                 head.AppendChild(style);
                                                               
@@ -189,26 +198,31 @@ namespace Aspose.HTML.Tests
                 lastParagraph.Style.FontFamily = "verdana";
 
                 // Save the HTML document to a file 
-                document.Save(Path.Combine(OutputDir, "css_internal.html"));
+                document.Save(Path.Combine(OutputDir, "edit-internal-css.html"));
 
                 // Create the instance of the PDF output device and render the document into this device
-                using (var device = new PdfDevice(Path.Combine(OutputDir, "css_internal.pdf")))
+                using (var device = new PdfDevice(Path.Combine(OutputDir, "edit-internal-css.pdf")))
                 {
                     // Render HTML to PDF
                     document.RenderTo(device);
                 }
+
                 Assert.True(document.QuerySelectorAll("style").Length > 0);
-                Assert.True(File.Exists(Path.Combine(OutputDir, "css_internal.pdf")));
-                Assert.True(File.Exists(Path.Combine(OutputDir, "css_internal.html")));
+
+                Assert.True(File.Exists(Path.Combine(OutputDir, "edit-internal-css.pdf")));
+
+                Assert.True(File.Exists(Path.Combine(OutputDir, "edit-internal-css.html")));
             }           
         }
+
+
         [Fact(DisplayName = "External CSS")]
         public void ExternalCSSTest()
         {
             // Create an instance of HTML document with specified content
             var htmlContent = "<link rel=\"stylesheet\" href=\"http://localhost:1313/html/net/editing-a-document/external.css\" type=\"text/css\" />\r\n" +
-                              "<div  class=\"rect1\" ></div>\r\n" +
-                              "<div  class=\"rect2\" ></div>\r\n" +
+                              "<div class=\"rect1\" ></div>\r\n" +
+                              "<div class=\"rect2\" ></div>\r\n" +
                               "<div class=\"frame\">\r\n" +
                               "<p style=\"font-size:2.5em; color:#ae4566;\"> External CSS </p>\r\n" +
                               "<p class=\"rect3\"> An external CSS can be created once and applied to multiple web pages</p></div>\r\n";                             
@@ -216,18 +230,22 @@ namespace Aspose.HTML.Tests
             using (var document = new HTMLDocument(htmlContent, "."))
             {          
                 // Save the HTML document to a file 
-                document.Save(Path.Combine(OutputDir, "css_external_file.html"));
+                document.Save(Path.Combine(OutputDir, "external-css.html"));
 
                 // Create the instance of the PDF output device and render the document into this device
-                using (var device = new PdfDevice(Path.Combine(OutputDir, "css_external_file.pdf")))
+                using (var device = new PdfDevice(Path.Combine(OutputDir, "external-css.pdf")))
                 {
                     // Render HTML to PDF
                     document.RenderTo(device);
                 }
+
                 Assert.True(document.QuerySelectorAll("link").Length > 0);
-            }            
-            Assert.True(File.Exists(Path.Combine(OutputDir, "css_external_file.html")));
+            } 
+            
+            Assert.True(File.Exists(Path.Combine(OutputDir, "external-css.html")));
         }
+
+
         [Fact(DisplayName = "Edit External CSS")]
         public void EditExternalCSSTest()
         {            
@@ -260,9 +278,10 @@ namespace Aspose.HTML.Tests
             using (var document = new HTMLDocument(htmlContent, "."))
             {
                 // Save the HTML document to a file 
-                document.Save(Path.Combine(OutputDir, "css_external.html"));                
+                document.Save(Path.Combine(OutputDir, "edit-external-css.html"));                
             }
-            Assert.True(File.Exists(Path.Combine(OutputDir, "css_external.html")));
+
+            Assert.True(File.Exists(Path.Combine(OutputDir, "edit-external-css.html")));
         }
     }
 }

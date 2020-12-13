@@ -17,11 +17,12 @@ namespace Aspose.HTML.Tests
             SetOutputDir("saving");
         }
 
+
         [Fact(DisplayName = "Save HTML To File")]
         public void SaveHTMLToFileTest()
         {
-            // Prepare output path for a document saving
-            string documentPath = Path.Combine(OutputDir, "document.html");
+            // Prepare an output path for a document saving
+            string documentPath = Path.Combine(OutputDir, "save-to-file.html");
 
             // Initialize an empty HTML document
             using (var document = new HTMLDocument())
@@ -30,72 +31,80 @@ namespace Aspose.HTML.Tests
                 var text = document.CreateTextNode("Hello World!");
                 document.Body.AppendChild(text);
 
-                // Save the HTML document to the file on disk
+                // Save the HTML document to the file on a disk
                 document.Save(documentPath);
 
                 Assert.True(document.QuerySelectorAll("body").Length > 0);
             }
+
             Assert.True(File.Exists(documentPath));
         }
+
 
         [Fact(DisplayName = "Save HTML With a Linked File")]
         public void SaveHTMLWithLinkedFileTest()
         {
-            // Prepare output path for a document saving
-            string documentPath = Path.Combine(OutputDir, "document1.html");
+            // Prepare an output path for an HTML document 
+            string documentPath = Path.Combine(OutputDir, "save-with-linked-file.html");
 
-            // Prepare a simple HTML file with a linked document.
+            // Prepare a simple HTML file with a linked document
             File.WriteAllText(documentPath, "<p>Hello World!</p>" +
-                                             "<a href='linked1.html'>linked file</a>");
-            // Prepare a simple linked HTML file
-            File.WriteAllText(Path.Combine(OutputDir, "linked1.html"), "<p>Hello linked file!</p>");
+                                             "<a href='linked.html'>linked file</a>");
 
-            // Load "document.html" into memory
+            // Prepare a simple linked HTML file
+            File.WriteAllText(Path.Combine(OutputDir, "linked.html"), "<p>Hello linked file!</p>");
+
+            // Load the "save-with-linked-file.html" into memory
             using (var document = new HTMLDocument(documentPath))
             {
-                // Create Save Options instance
+                // Create a save options instance
                 var options = new HTMLSaveOptions();
 
-                // The following line with value '0' cut off all other linked HTML-files while saving this instance
+                // The following line with value '0' cuts off all other linked HTML-files while saving this instance
                 // If you remove this line or change value to the '1', the 'linked.html' file will be saved as well to the output folder
                 options.ResourceHandlingOptions.MaxHandlingDepth = 1;
 
-                // Save the document
-                document.Save(documentPath, options);
+                // Save the document with the save options
+                document.Save(Path.Combine(OutputDir, "save-with-linked-file_out.html"), options);
+
+                Assert.True(document.QuerySelectorAll("p").Length > 0);
             }
 
             Assert.True(File.Exists(documentPath));
         }
 
+
         [Fact(DisplayName = "Save HTML To MHTML")]
         public void SaveHTMLToMHTMLTest()
         {
-            // Prepare output path for a document saving
-            string savePath = Path.Combine(OutputDir, "document.mht");
-
-            //string documentPath = Path.Combine(OutputDir, "document2.html");
-
+            // Prepare an output path for a document saving
+            string savePath = Path.Combine(OutputDir, "save-to-MTHML.mht");
+            
             // Prepare a simple HTML file with a linked document
-            File.WriteAllText("document2.html", "<p>Hello World!</p>" +
-                                            "<a href='linked2.html'>linked file</a>");
-            // Prepare a simple linked HTML file
-            File.WriteAllText("linked2.html", "<p>Hello linked file!</p>");
+            File.WriteAllText("save-to-MTHML.html", "<p>Hello World!</p>" +
+                                            "<a href='linked-file.html'>linked file</a>");
 
-            // Load "document.html" into memory
-            using (var document = new HTMLDocument("document2.html"))
+            // Prepare a simple linked HTML file
+            File.WriteAllText("linked-file.html", "<p>Hello linked file!</p>");
+
+            // Load the "save-to-MTHML.html" into memory
+            using (var document = new HTMLDocument("save-to-MTHML.html"))
             {
-                // Save the document
+                // Save the document to MHTML format
                 document.Save(savePath, HTMLSaveFormat.MHTML);
 
                 Assert.True(document.QuerySelectorAll("a").Length > 0);
             }
+
             Assert.True(File.Exists(savePath));
         }
+
+
         [Fact(DisplayName = "Save HTML To MD")]
         public void SaveHTMLToMDTest()
         {
-            // Prepare output path for a document saving
-            string documentPath = Path.Combine(OutputDir, "document.md");
+            // Prepare an output path for a document saving
+            string documentPath = Path.Combine(OutputDir, "save-to-MD.md");
 
             // Prepare an HTML code
             var html_code = "<H2>Hello World!</H2>";
@@ -108,13 +117,16 @@ namespace Aspose.HTML.Tests
 
                 Assert.True(document.QuerySelectorAll("H2").Length > 0);
             }
+
             Assert.True(File.Exists(documentPath));
         }
+
+
         [Fact(DisplayName = "Save HTML To SVG")]
         public void SaveHTMLToSVGTest()
         {
-            // Prepare output path for a document saving
-            string documentPath = Path.Combine(OutputDir, "document.svg");
+            // Prepare an output path for a document saving
+            string documentPath = Path.Combine(OutputDir, "save-to-SVG.svg");
 
             // Prepare an SVG code
             var code = @"
@@ -134,6 +146,7 @@ namespace Aspose.HTML.Tests
 
                 Assert.True(document.QuerySelectorAll("path").Length > 2);
             }
+
             Assert.True(File.Exists(documentPath));
         }
     }

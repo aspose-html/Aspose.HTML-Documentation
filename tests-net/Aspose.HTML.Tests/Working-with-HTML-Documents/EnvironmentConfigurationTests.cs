@@ -13,34 +13,14 @@ using Xunit.Abstractions;
 
 namespace Aspose.HTML.Tests
 {
-    public class LogMessageHandler : MessageHandler
-    {
-        private List<string> errors = new List<string>();
-
-        public List<string> ErrorMessages
-        {
-            get { return errors; }
-        }
-
-        public override void Invoke(INetworkOperationContext context)
-        {
-            // Check whether response is OK
-            if (context.Response.StatusCode != HttpStatusCode.OK)
-            {
-                // Set error information
-                errors.Add(string.Format("File '{0}' Not Found", context.Request.RequestUri));
-            }
-
-            // Invoke the next message handler in the chain
-            Next(context);
-        }
-    }
     public class EnvironmentConfigurationTests : TestsBase
     {
         public EnvironmentConfigurationTests(ITestOutputHelper output) : base(output)
         {
             SetOutputDir("configurations");
         }
+
+
         [Fact(DisplayName = "Sandboxing")]
         public void SandboxingTest()
         {
@@ -60,21 +40,23 @@ namespace Aspose.HTML.Tests
                 using (var document = new HTMLDocument(Path.Combine(OutputDir, "sandboxing.html"), configuration))
                 {
                     // Convert HTML to PDF
-                    Converter.ConvertHTML(document, new PdfSaveOptions(), Path.Combine(OutputDir, "sandboxing.pdf"));
+                    Converter.ConvertHTML(document, new PdfSaveOptions(), Path.Combine(OutputDir, "sandboxing_out.pdf"));
 
                     Assert.True(document.QuerySelectorAll("script").Length > 0);
                 }
-                Assert.True(File.Exists(Path.Combine(OutputDir, "sandboxing.pdf")));
+                Assert.True(File.Exists(Path.Combine(OutputDir, "sandboxing_out.pdf")));
             }            
         }
-            [Fact(DisplayName = "User Agent Service StyleSheet")]
+
+
+        [Fact(DisplayName = "User Agent Service StyleSheet")]
         public void UserAgentServiceStyleSheetTest()
         {
             // Prepare an HTML code and save it to a file
             var code = "<h1>User Agent Service </h1>\r\n" +
                        "<p>The <b>User Agent Service</b> allows you to specify a custom user stylesheet, <br>a primary character set for the document, language and fonts settings.</p>\r\n";
                        
-            File.WriteAllText(Path.Combine(OutputDir, "user-agent.html"), code);
+            File.WriteAllText(Path.Combine(OutputDir, "user-agent-stylesheet.html"), code);
 
             // Create an instance of Configuration
             using (var configuration = new Configuration())
@@ -87,15 +69,17 @@ namespace Aspose.HTML.Tests
                                                   "p { background-color:GhostWhite; color:SlateGrey; font-size:1.2em; }\r\n";
                                 
                 // Initialize the HTML document with specified configuration
-                using (var document = new HTMLDocument(Path.Combine(OutputDir, "user-agent.html"), configuration))
+                using (var document = new HTMLDocument(Path.Combine(OutputDir, "user-agent-stylesheet.html"), configuration))
                 {                   
                     // Convert HTML to PDF
-                    Converter.ConvertHTML(document, new PdfSaveOptions(), Path.Combine(OutputDir, "user-agent.pdf"));
+                    Converter.ConvertHTML(document, new PdfSaveOptions(), Path.Combine(OutputDir, "user-agent-stylesheet_out.pdf"));
 
                     Assert.Equal("HTML", document.DocumentElement.TagName);
                 }
             }
         }
+
+
         [Fact(DisplayName = "User Agent Service Character Set")]
         public void UserAgentServiceCharacterSetTest()
         {
@@ -103,7 +87,7 @@ namespace Aspose.HTML.Tests
             var code = "<h1>Character Set</h1>\r\n" +
                        "<p>The <b>CharSet</b> property sets the primary character-set for a document.</p>\r\n";
 
-            File.WriteAllText(Path.Combine(OutputDir, "charset.html"), code);
+            File.WriteAllText(Path.Combine(OutputDir, "user-agent-charset.html"), code);
 
             // Create an instance of Configuration
             using (var configuration = new Configuration())
@@ -113,22 +97,24 @@ namespace Aspose.HTML.Tests
 
                 // Set the custom style parameters for the "h1" and "p" elements
                 userAgentService.UserStyleSheet = "h1 { color:salmon; }\r\n" +
-                                                  "p { background-color: #f0f0f0; color:DarkCyan; font-size:1.2em; }\r\n";
+                                                  "p { background-color:#f0f0f0; color:DarkCyan; font-size:1.2em; }\r\n";
 
                 // Set ISO-8859-1 encoding to parse the document
                 userAgentService.CharSet = "ISO-8859-1";
                                 
                 // Initialize the HTML document with specified configuration
-                using (var document = new HTMLDocument(Path.Combine(OutputDir, "charset.html"), configuration))
+                using (var document = new HTMLDocument(Path.Combine(OutputDir, "user-agent-charset.html"), configuration))
                 {
                     // Convert HTML to PDF
-                    Converter.ConvertHTML(document, new PdfSaveOptions(), Path.Combine(OutputDir, "charset.pdf"));
+                    Converter.ConvertHTML(document, new PdfSaveOptions(), Path.Combine(OutputDir, "user-agent-charset_out.pdf"));
 
                     Assert.Equal("HTML", document.DocumentElement.TagName);
                 }
-                Assert.True(File.Exists(Path.Combine(OutputDir, "charset.pdf")));
+                Assert.True(File.Exists(Path.Combine(OutputDir, "user-agent-charset_out.pdf")));
             }
         }
+
+
         [Fact(DisplayName = "User Agent Service Font Setting")]
         public void UserAgentServiceFontSettingTest()
         {
@@ -136,7 +122,7 @@ namespace Aspose.HTML.Tests
             var code = "<h1>FontsSettings property</h1>\r\n" +
                        "<p>The FontsSettings property is used for configuration of fonts handling.</p>\r\n";
 
-            File.WriteAllText(Path.Combine(OutputDir, "font-setting.html"), code);
+            File.WriteAllText(Path.Combine(OutputDir, "user-agent-fontsetting.html"), code);
 
             // Create an instance of Configuration
             using (var configuration = new Configuration())
@@ -148,18 +134,21 @@ namespace Aspose.HTML.Tests
                 userAgentService.UserStyleSheet = "h1 { color:#a52a2a; }\r\n" +
                                                   "p { color:grey; }\r\n";
                           
-                // Set custom font folder path
+                // Set a custom font folder path
                 userAgentService.FontsSettings.SetFontsLookupFolder(Path.Combine(DataDir + "fonts"));
 
                 // Initialize the HTML document with specified configuration
-                using (var document = new HTMLDocument(Path.Combine(OutputDir, "font-setting.html"), configuration))
+                using (var document = new HTMLDocument(Path.Combine(OutputDir, "user-agent-fontsetting.html"), configuration))
                 {
                     // Convert HTML to PDF
-                    Converter.ConvertHTML(document, new PdfSaveOptions(), Path.Combine(OutputDir, "font-setting.pdf"));
+                    Converter.ConvertHTML(document, new PdfSaveOptions(), Path.Combine(OutputDir, "user-agent-fontsetting_out.pdf"));
                 }
-                Assert.True(File.Exists(Path.Combine(OutputDir, "font-setting.pdf")));
+
+                Assert.True(File.Exists(Path.Combine(OutputDir, "user-agent-fontsetting_out.pdf")));
             }
         }
+
+
         [Fact(DisplayName = "Runtime Service Test")]
         public void RuntimeServiceTest()
         {
@@ -168,7 +157,7 @@ namespace Aspose.HTML.Tests
                        "<script> while(true) {} </script>\r\n" +
                        "<p>The Runtime Service optimizes your system by helping it start apps and programs faster.</p>\r\n";
 
-            File.WriteAllText(Path.Combine(OutputDir, "runtime.html"), code);
+            File.WriteAllText(Path.Combine(OutputDir, "runtime-service.html"), code);
 
             // Create an instance of Configuration
             using (var configuration = new Configuration())
@@ -178,14 +167,17 @@ namespace Aspose.HTML.Tests
                 runtimeService.JavaScriptTimeout = TimeSpan.FromSeconds(5);
 
                 // Initialize an HTML document with specified configuration
-                using (var document = new HTMLDocument(Path.Combine(OutputDir, "runtime.html"), configuration))
+                using (var document = new HTMLDocument(Path.Combine(OutputDir, "runtime-service.html"), configuration))
                 {
                     // Convert HTML to PNG
-                    Converter.ConvertHTML(document, new ImageSaveOptions(), Path.Combine(OutputDir, "runtime.png"));
+                    Converter.ConvertHTML(document, new ImageSaveOptions(), Path.Combine(OutputDir, "runtime-service_out.png"));
                 }
-                Assert.True(File.Exists(Path.Combine(OutputDir, "runtime_1.png")));
+
+                Assert.True(File.Exists(Path.Combine(OutputDir, "runtime-service_out_1.png")));
             }            
         }
+
+
         [Fact(DisplayName = "Network Service Test")]
         public void NetworkServiceTest()
         {
@@ -194,30 +186,55 @@ namespace Aspose.HTML.Tests
                        "<img src=\"https://docs.aspose.com/html/net/missing1.jpg\" >\r\n" +
                        "<img src=\"https://docs.aspose.com/html/net/missing2.jpg\" >\r\n";
 
-            File.WriteAllText(Path.Combine(OutputDir, "network service.html"), code);
+            File.WriteAllText(Path.Combine(OutputDir, "network-service.html"), code);
 
             // Create an instance of Configuration
             using (var configuration = new Configuration())
             {
-                // Add LogMessageHandler to the chain of existing message handlers
+                // Add the LogMessageHandler to the chain of existing message handlers
                 var networkService = configuration.GetService<INetworkService>();
 
                 var logHandler = new LogMessageHandler();
                 networkService.MessageHandlers.Add(logHandler);
 
                 // Initialize an HTML document with specified configuration
-                using (var document = new HTMLDocument(Path.Combine(OutputDir, "network service.html"), configuration))
+                using (var document = new HTMLDocument(Path.Combine(OutputDir, "network-service.html"), configuration))
                 {
                     //Convert HTML to PNG
-                    Converter.ConvertHTML(document, new ImageSaveOptions(), Path.Combine(OutputDir, "network.png"));
+                    Converter.ConvertHTML(document, new ImageSaveOptions(), Path.Combine(OutputDir, "network-service_out.png"));
 
                     // Print the List of ErrorMessages
                     foreach (string errorMessage in logHandler.ErrorMessages)
                     {
                         Output.WriteLine(errorMessage);
                     }
+
                     Assert.False(document.QuerySelectorAll("img").Length > 3);
                 }               
+            }
+        }
+
+
+        private class LogMessageHandler : MessageHandler
+        {
+            private List<string> errors = new List<string>();
+
+            public List<string> ErrorMessages
+            {
+                get { return errors; }
+            }
+
+            public override void Invoke(INetworkOperationContext context)
+            {
+                // Check whether response is OK
+                if (context.Response.StatusCode != HttpStatusCode.OK)
+                {
+                    // Set error information
+                    errors.Add(string.Format("File '{0}' Not Found", context.Request.RequestUri));
+                }
+
+                // Invoke the next message handler in the chain
+                Next(context);
             }
         }
     }
