@@ -87,7 +87,7 @@ You can download the complete examples and data files from [**GitHub**](https://
 {{% /alert %}}  
 
 #### **Character Set**
-The **CharSet** property sets the primary character-set for a document. In order to parse and display an HTML document correctly, the application must know what character-set (encoding) is using for the document. If the character encoding is not directly specified in the header of the document, Aspose.HTML uses UTF-8, which is defined as the default for HTML5 specification. However, if you are sure that your HTML document is written using different from UTF-8 encoding, you can specify it manually, as it follows.
+The **CharSet** property sets the primary character-set for a document. In order to parse and display an HTML document correctly, the application must know what character-set (encoding) is used for the document. If the character encoding is not directly specified in the header of the document, Aspose.HTML uses UTF-8, which is defined as the default for HTML5 specification. However, if you are sure that your HTML document is written using different from UTF-8 encoding, you can specify it manually, as it follows.
 {{< highlight java >}}
 using System.IO;
 using Aspose.Html;
