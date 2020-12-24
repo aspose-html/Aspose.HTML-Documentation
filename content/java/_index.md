@@ -30,4 +30,4 @@ Following are the links to some useful resources you may need to accomplish your
 * [Usage Examples GitHub](https://github.com/aspose-html/Aspose.HTML-for-Java)
 * [Try Online](https://products.aspose.app/html/family)
 * [Release Notes](/html/java/release-notes/)
-* [FAQ](/html/java/faq-html/)
+* [FAQ](/html/java/faq/)
