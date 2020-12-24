@@ -37,9 +37,11 @@ By fulfilling the first goal, we have achieved that our API is similar to those 
 
 The example of fulfilling the second goal can be seen in Converter API. On the one hand, you can convert (X)HTML, EPUB, MHTML or SVG to many output formats with just one line of code.
 
-{{< highlight csharp >}}
+{{< highlight java >}}
 
-Aspose.Html.Converters.Converter.ConvertHTML(@"<span>Hello World!!</span>", ".", new Aspose.Html.Saving.PdfSaveOptions(), "output.pdf");
+com.aspose.html.converters.Converter.convertHTML(
+   "<span>Hello World!!</span>", ".",
+   new com.aspose.html.saving.PdfSaveOptions(), "output.pdf");
 
 {{< /highlight >}}
 
