@@ -10,7 +10,7 @@ We want our customers to test our components thoroughly before buying so the eva
 
 **HTML created with an evaluation watermark**
 
-The evaluation version of Aspose.HTML for Java provides full product functionality, but all the pages in the generated HTML file are watermarked with "Aspose.HTML Evaluation Only. Created with Aspose.HTML. Copyright 2002-2017 Aspose Pty Ltd." at the top.
+The evaluation version of Aspose.HTML for Java provides full product functionality, but all the pages in the generated HTML file are watermarked with "Aspose.HTML Evaluation Only. Created with Aspose.HTML. Copyright 2002-2021 Aspose Pty Ltd." at the top.
 
 **Limit of the Number of Collection Items that can be Processed**
 
