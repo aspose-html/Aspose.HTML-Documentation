@@ -40,7 +40,7 @@ Then define Aspose.HTML for Java API dependency in your pom.xml as follows:
     <dependency>
         <groupId>com.aspose</groupId>
         <artifactId>aspose-html</artifactId>
-        <version>20.9</version>
+        <version>20.9.1</version>
         <classifier>jdk16</classifier>
     </dependency>
 </dependencies>
@@ -49,7 +49,7 @@ Then define Aspose.HTML for Java API dependency in your pom.xml as follows:
 for Gradle in you build.gradle script as follows:
 
 {{< highlight groovy >}}
-compile(group: 'com.aspose', name: 'aspose-html', version: '20.9', classifier: 'jdk16')
+compile(group: 'com.aspose', name: 'aspose-html', version: '20.9.1', classifier: 'jdk16')
 {{< /highlight >}}
 
 After performing above steps, Aspose.HTML for Java dependency will finally be defined in your Maven Project.
