@@ -21,7 +21,7 @@ The user is able to specify a custom style information for a particular document
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_WorkingWithDocuments_EnvironmentConfiguration_SpecifyUserStyleSheet.java" >}}
 #### **Character Set** #### 
-In order to parse and display an HTML document correctly, the application must know what character-set (encoding) is using for the document. If the character encoding is not directly specified in the header of the document, Aspose.HTML uses UTF-8, which is defined as the default for HTML5 specification. However, if you are sure that your HTML document is written using different from UTF-8 encoding, you can specify it manually, as it follows.
+In order to parse and display an HTML document correctly, the application must know what character-set (encoding) is used for the document. If the character encoding is not directly specified in the header of the document, Aspose.HTML uses UTF-8, which is defined as the default for HTML5 specification. However, if you are sure that your HTML document is written using different from UTF-8 encoding, you can specify it manually, as it follows.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_WorkingWithDocuments_EnvironmentConfiguration_SpecifyCharacterSet.java" >}}
 #### **Set Path to the Font Folder** #### 
