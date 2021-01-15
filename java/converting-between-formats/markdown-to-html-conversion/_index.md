@@ -19,7 +19,7 @@ If your scenario is required rendering Markdown document, for instance, to the I
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertMarkdownToHTML_ConvertMarkdownToPNG.java" >}}
 ## **Markdown Syntax**
-This article demonstrates the syntax declared in the [core Markdown specification](https://daringfireballJava/projects/markdown/) and [GitLab Flavored Markdown](https://docs.gitlab.com/ee/user/markdown.html) variation. All these features are supported by Aspose.HTML out-of-the-box.
+This article demonstrates the syntax declared in the [core Markdown specification](https://daringfireball.net/projects/markdown/) and [GitLab Flavored Markdown](https://docs.gitlab.com/ee/user/markdown.html) variation. All these features are supported by Aspose.HTML out-of-the-box.
 ### **Headers**
 Markdown supports two styles of headers, *Setext* and *atx*:
 

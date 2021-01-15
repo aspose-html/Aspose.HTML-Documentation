@@ -31,9 +31,9 @@ Following is a demonstration of how to use Rendering Options to customize the pa
 
 The next few pictures show the result of the rendering with 50 dpi and 300 dpi resolutions:
 
-![todo:image_alt_text](/attachments/105284627/105480255.jpg?effects=border-simple,blur-border)
+!['Hello World' with blue background](fine-tuning-converters_1.png)
 
-![todo:image_alt_text](/attachments/105284627/105480256.jpg?effects=border-simple,blur-border)
+!['Hello World' with green background](fine-tuning-converters_2.png)
 #### **CSS Media Type**
 CSS media-type is an important feature that specifies how a document is to be presented on different media: on the screen, on paper, with a braille device, etc. There are few ways to specify media-type for a style sheet, via linked style sheets:
 
