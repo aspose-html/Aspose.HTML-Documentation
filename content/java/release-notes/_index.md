@@ -5,8 +5,6 @@ weight: 60
 url: /java/release-notes/
 ---
 
-## **Release Notes** ## 
-
 
 
 

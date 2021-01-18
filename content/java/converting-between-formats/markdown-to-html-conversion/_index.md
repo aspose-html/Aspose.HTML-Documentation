@@ -7,21 +7,21 @@ url: /java/markdown-to-html-conversion/
 
 {{% alert color="primary" %}} 
 
-<https://products.aspose.app/html/markdown> 
+<https://products.aspose.app/html/markdown> 
 
 {{% /alert %}} 
 
-[Markdown](http://en.wikipedia.org/wiki/Markdown) is a markup language with a plain-text-formatting syntax. Markdown is often used as a format for documentation and readme files since it allows writing in an easy-to-read and easy-to-write style. Its design allows it to be easily converted to many output formats, but initially it was created to convert the only to HTML. Using the Aspose.HTML class library in your Java application, you can easily convert Markdown into HTML file with just a single line of code!
+[Markdown](http://en.wikipedia.org/wiki/Markdown) is a markup language with a plain-text-formatting syntax. Markdown is often used as a format for documentation and readme files since it allows writing in an easy-to-read and easy-to-write style. Its design allows it to be easily converted to many output formats, but initially it was created to convert the only to HTML. Using the Aspose.HTML class library in your Java application, you can easily convert Markdown into HTML file with just a single line of code!
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertMarkdownToHTML_WithASingleLine.java" >}}
 
 If your scenario is required rendering Markdown document, for instance, to the Image file format, the following example demonstrates how that is simple.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertMarkdownToHTML_ConvertMarkdownToPNG.java" >}}
-## **Markdown Syntax** ## 
-This article demonstrates the syntax declared in the [core Markdown specification](https://daringfireballJava/projects/markdown/) and [GitLab Flavored Markdown](https://docs.gitlab.com/ee/user/markdown.html) variation. All these features are supported by Aspose.HTML out-of-the-box.
-### **Headers** ### 
-Markdown supports two styles of headers, *Setext* and *atx*:
+## **Markdown Syntax**
+This article demonstrates the syntax declared in the [core Markdown specification](https://daringfireball.net/projects/markdown/) and [GitLab Flavored Markdown](https://docs.gitlab.com/ee/user/markdown.html) variation. All these features are supported by Aspose.HTML out-of-the-box.
+### **Headers**
+Markdown supports two styles of headers, *Setext* and *atx*:
 
 
 
@@ -46,7 +46,7 @@ This is an H2
 \###### This is an H6
 
 {{< /highlight >}}
-### **Lists** ### 
+### **Lists**
 Markdown supports ordered (numbered) and unordered (bulleted) lists.
 
 Unordered lists use asterisks, pluses, and hyphens — interchangably — as list markers:
@@ -72,7 +72,7 @@ Ordered lists use numbers followed by periods:
 \3.  Parish
 
 {{< /highlight >}}
-### **Images** ### 
+### **Images**
 Inline image syntax looks like this:
 
 {{< highlight java >}}
@@ -80,7 +80,7 @@ Inline image syntax looks like this:
  ![Alt text](/path/to/img.jpg)
 
 {{< /highlight >}}
-### **Links** ### 
+### **Links**
 Links syntax looks like this:
 
 {{< highlight java >}}
@@ -88,7 +88,7 @@ Links syntax looks like this:
  [an example](http://example.com/ "Title")
 
 {{< /highlight >}}
-### **Emphasis** ### 
+### **Emphasis**
 Markdown treats asterisks * and underscores (_) as indicators of emphasis:
 
 {{< highlight java >}}
@@ -102,8 +102,8 @@ _single underscores_
 __double underscores__
 
 {{< /highlight >}}
-### **Blockquotes** ### 
-Markdown uses email-style > characters for blockquoting:
+### **Blockquotes**
+Markdown uses email-style > characters for blockquoting:
 
 {{< highlight java >}}
 
@@ -114,7 +114,7 @@ Markdown uses email-style > characters for blockquoting:
 \> > This is nested blockquote.
 
 {{< /highlight >}}
-### **Code Block** ### 
+### **Code Block**
 To indicate a span of code, wrap it with backtick quotes (`):
 
 {{< highlight java >}}
@@ -130,7 +130,7 @@ function myFunc() {
 \
 
 {{< /highlight >}}
-### **Tables** ### 
+### **Tables**
 Tables aren’t part of the core Markdown spec, but they are part of GFM:
 
 {{< highlight java >}}
