@@ -129,4 +129,4 @@ Running this example, you will get a document with five lines of â€˜Hello Worldâ
 
 
 
-![todo:image_alt_text](/attachments/105284627/105480257.jpg?effects=border-simple,blur-border)
+![five lines of 'Hello World'](fine-tuning-converters_3.png)
