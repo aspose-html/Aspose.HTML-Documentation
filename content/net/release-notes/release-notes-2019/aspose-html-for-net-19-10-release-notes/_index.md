@@ -21,7 +21,7 @@ Improvements and Changes
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-|HTMLNET-2156|MHT to XPS formatting issue|Bug|
+|HTMLNET-2156|MHT to {{%XPS%}} formatting issue|Bug|
 |HTMLNET-2105|HTML to image difference|Bug|
 ## **Public API Changes**
 The behavior of text rendering methods has been changed. To correctly render each character, its position should be determined from GraphicContext.TextInfo.CharacterInfos.\

@@ -17,6 +17,6 @@ As per regular monthly update process of all APIs being offered by Aspose, we ar
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
 |HTMLNET-2110|HTML to Image - NullReferenceException occurs|Bug|
-|HTMLNET-2111|MHT to XPS - No HTML part found error occurred|Bug|
+|HTMLNET-2111|MHT to {{%XPS%}} - No HTML part found error occurred|Bug|
 |HTMLNET-2112|HTML to Image - Images do not render|Bug|
 

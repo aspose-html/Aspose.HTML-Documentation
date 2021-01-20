@@ -13,7 +13,7 @@ As per regular monthly update process of all APIs being offered by Aspose, we ar
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
 |HTMLNET-1457|Text alignment issues with Arabic in table cells|Bug|
-|HTMLNET-1499|HTML to XPS: Incorrect Woff signature exception|Bug|
+|HTMLNET-1499|HTML to {{%XPS%}}: Incorrect Woff signature exception|Bug|
 |HTMLNET-1507|Font-size "em"-values in at-page rules cause an exception|Bug|
 ### **Added APIs:**
 The document object has been extended with set of overloaded methods Navigate, that are create an asynchronous mode of loading unlike the HTMLDocument and SVGDocument constructors which are working in synchronous mode.

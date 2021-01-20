@@ -12,12 +12,12 @@ As per regular monthly update process of all APIs being offered by Aspose, we ar
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-|HTMLNET-1498|HTML to XPS: incorrect offsets when object is wrapped into div|Bug|
+|HTMLNET-1498|HTML to {{%XPS%}}: incorrect offsets when object is wrapped into div|Bug|
 |HTMLNET-1505|MHT to PDF: the file content is overlapping|Bug|
 |HTMLNET-1515|CSS rules do not apply correctly|Bug|
 |HTMLNET-1548|SVGDocument constructor corrupts stream|Bug|
 |HTMLNET-1549|HTML table rendered improperly|Bug|
-|HTMLNET-1535|HTML to XPS: XpsRenderer throws InvalidCastException|Bug|
+|HTMLNET-1535|HTML to {{%XPS%}}: XpsRenderer throws InvalidCastException|Bug|
 |HTMLNET-1530|The SVG image is not displayed in PDF|Bug|
 ### **Added APIs:**
 Added property SmoothingMode that allows to specify whether smoothing (antialiasing) is applied to lines and curves and the edges of filled areas.

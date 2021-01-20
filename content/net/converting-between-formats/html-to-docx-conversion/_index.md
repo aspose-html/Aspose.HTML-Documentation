@@ -27,7 +27,7 @@ To learn more about [DocSaveOptions](https://apireference.aspose.com/html/net/as
 ## **Output Stream Providers**
 If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
 
-Aspose.HTML for .NET provides various types of output formats for rendering operations. Some of these formats produce a single output file (for instance PDF, XPS, DOCX), others create multiple files (Image formats JPG, PNG, etc.).
+Aspose.HTML for .NET provides various types of output formats for rendering operations. Some of these formats produce a single output file (for instance PDF, {{%XPS%}}, DOCX), others create multiple files (Image formats JPG, PNG, etc.).
 
 The example below shows how to implement and use the your own *MemoryStreamProvider* in the application:
 

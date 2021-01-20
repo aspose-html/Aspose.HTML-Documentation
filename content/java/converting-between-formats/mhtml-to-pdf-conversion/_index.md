@@ -37,7 +37,7 @@ If it is required to save files in the remote storage (e.g., cloud, database, et
 
 {{% alert color="primary" %}} 
 
-Aspose.HTML for Java provides various types of output formats for rendering operations. Some of these formats produce a single output file (for instance PDF, XPS), others create multiple files (Image formats JPG, PNG, etc.).
+Aspose.HTML for Java provides various types of output formats for rendering operations. Some of these formats produce a single output file (for instance PDF, {{%XPS%}}), others create multiple files (Image formats JPG, PNG, etc.).
 
 {{% /alert %}} 
 

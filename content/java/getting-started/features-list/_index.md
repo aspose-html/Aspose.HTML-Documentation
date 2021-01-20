@@ -28,7 +28,7 @@ This API mimics the behavior of a headless browser and offers following features
   - by using [XPath queries](https://www.w3.org/TR/xpath)
   - by using [CSS Selector queries](https://www.w3.org/TR/selectors-api)
 - Scripting that allows to manipulate HTML DOM via JavaScript
-- Converting HTML document into various supported formats: JPEG, PNG, BMP, TIFF, PDF, XPS
+- Converting HTML document into various supported formats: JPEG, PNG, BMP, TIFF, PDF, {{%XPS%}}
 - Converting {{%XHTML%}} and similar formats, such as {{%EPUB%}} and MHTML to above specified formats.
 
 Note
@@ -56,7 +56,7 @@ Aspose.HTML for Java supports HTML and {{%XHTML%}}.
 - Extracting CSS styles for particular HTML node
 - Convert HTML documents into various supported image formats: JPEG, PNG, BMP, TIFF
 - Convert HTML documents to PDF format
-- Convert HTML documents to XPS format
+- Convert HTML documents to {{%XPS%}} format
 
 
 

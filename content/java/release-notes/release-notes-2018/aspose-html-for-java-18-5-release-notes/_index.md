@@ -502,7 +502,7 @@ com.aspose.html.dom.svg.SVGEllipseElement ellipse = (SVGEllipseElement)document.
 
 System.out.println(ellipse.getStyle().getCSSText());  // fill: yellow; stroke: purple; stroke-width: 2;
 
-// Create the new SVG renderer & XPS device
+// Create the new SVG renderer & {{%XPS%}} device
 
 com.aspose.html.rendering.SvgRenderer renderer = new SvgRenderer()
 
