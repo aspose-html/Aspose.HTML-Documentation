@@ -7,7 +7,7 @@ url: /net/aspose-html-for-net-19-5-release-notes/
 
 ### **Aspose.HTML for .NET 19.5 Release Notes**
 -----
-As per regular monthly update process of all APIs being offered by Aspose, we are honoured to announce the May release of Aspose.HTML for .NET. In this release, we have introduced a new function that is called 'Template Merging'. This function is used to create HTML documents based on user templates and populate them from the various data sources. Additionally, we have prepared a specialized 'Aspose.Html.Converters.Converter' object. The main goal of creating this object is to simplify access to all conversion scenarios available with Aspose.HTML library. Along with mentioned changes we did some minor improvements in processing java scripts.
+As per regular monthly update process of all APIs being offered by Aspose, we are honoured to announce the May release of Aspose.HTML for .NET. In this release, we have introduced a new function that is called 'Template Merging'. This function is used to create HTML documents based on user templates and populate them from the various data sources. Additionally, we have prepared a specialized 'Aspose.Html.Converters.Converter' object. The main goal of creating this object is to simplify access to all conversion scenarios available with Aspose.HTML library. Along with mentioned changes we did some minor improvements in processing java scripts.
 ### **Improvements and Changes**
 
 |**Key**|**Summary**|**Category**|

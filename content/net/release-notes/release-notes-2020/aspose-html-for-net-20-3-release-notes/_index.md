@@ -18,7 +18,7 @@ As per the regular monthly update process of all APIs being offered by Aspose, w
 - Improved PDF document encryption
 - Increased accuracy of the table size calculation algorithm
 
-We have also changed the default behavior of [MarkdownSaveOption](https://apireference.aspose.com/net/html/aspose.html.saving/markdownsaveoptions). Now all the features, defined in the original Markdown documentation, will be enabled by default. This will let you receive appropriate results without the necessity of additional configuration.
+We have also changed the default behavior of [MarkdownSaveOption](https://apireference.aspose.com/net/html/aspose.html.saving/markdownsaveoptions). Now all the features, defined in the original Markdown documentation, will be enabled by default. This will let you receive appropriate results without the necessity of additional configuration.
 
 Improvements and Changes
 
@@ -31,7 +31,7 @@ Improvements and Changes
 |HTMLNET-2441|Aspose.HTML 20.1 Failed to parse URL|Bug|
 |HTMLNET-2343|Documentation on how Aspose libraries cache user data/files for performance|Bug|
 ## **Public API and Backward Incompatible Changes**
-The default value of [Features](https://apireference.aspose.com/net/html/aspose.html.saving/markdownsaveoptions/properties/features) property, defined in the [MarkdownSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/markdownsaveoptions) class, has changed. Now it contains a list of features defined in the original Markdown documentation.
+The default value of [Features](https://apireference.aspose.com/net/html/aspose.html.saving/markdownsaveoptions/properties/features) property, defined in the [MarkdownSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/markdownsaveoptions) class, has changed. Now it contains a list of features defined in the original Markdown documentation.
 
 {{< highlight java >}}
 
@@ -51,7 +51,7 @@ The default value of [Features](https://apireference.aspose.com/net/html/aspose
 
 {{< /highlight >}}
 ### **Added APIs**
-We have added new signatures to the EPUB and MHTML converters. Now you can specify an input file using an [URL](https://apireference.aspose.com/net/html/aspose.html/url) or string path.
+We have added new signatures to the EPUB and MHTML converters. Now you can specify an input file using an [URL](https://apireference.aspose.com/net/html/aspose.html/url) or string path.
 
 {{< highlight java >}}
 
@@ -789,7 +789,7 @@ We have added new signatures to the EPUB and MHTML converters. Now you can speci
 
 {{< /highlight >}}
 
-We have also added the empty constructor to the [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) class.
+We have also added the empty constructor to the [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) class.
 
 {{< highlight java >}}
 

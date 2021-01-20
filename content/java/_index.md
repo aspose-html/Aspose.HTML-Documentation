@@ -23,7 +23,7 @@ Following are the links to some useful resources you may need to accomplish your
 * [Supported Features](/html/java/features-list/)
 * [Product Page](https://products.aspose.com/html/java)
 * [Installing Product](/html/java/installation/)
-* [Download Aspose.HTML for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-html)
+* [Download Aspose.HTML for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-html)
 * [API Reference](https://apireference.aspose.com/html/java)
 * [Free Support Forum](https://forum.aspose.com/c/html)
 * [Paid Support Helpdesk](https://helpdesk.aspose.com/)

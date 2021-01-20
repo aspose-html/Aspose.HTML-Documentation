@@ -8,7 +8,7 @@ url: /java/aspose-html-for-java-18-11-release-notes/
 ## **Aspose.HTML for Java 18.11.0 Release Notes** ## 
 -----
 ## **Major Features** ## 
-As per regular monthly update process of all APIs being offered by Aspose, we are pleased to announce November release of Aspose.HTML for Java. We have made some internal changes and bug fixes as in the table below:
+As per regular monthly update process of all APIs being offered by Aspose, we are pleased to announce November release of Aspose.HTML for Java. We have made some internal changes and bug fixes as in the table below:
 ## **Improvement and Changes** ## 
 
 |**Key**|**Summary**|**Category**|

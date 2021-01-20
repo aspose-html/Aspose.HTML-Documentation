@@ -7,7 +7,7 @@ url: /net/aspose-html-for-net-18-7-release-notes/
 
 ### **Aspose.HTML for .NET 18.7 Release Notes**
 -----
-As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the July release of Aspose.HTML for .NET. In this release we have refactored and increased the performance of HTML parsing module up to 40%. Also, we have introduced a new vendor prefix -**aspose**- that allows to customize behavior of CSS properties which are in experimental and non standardized state for now. Moreover, we have made some bug fixes and enhancements as listed in the table below:
+As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the July release of Aspose.HTML for .NET. In this release we have refactored and increased the performance of HTML parsing module up to 40%. Also, we have introduced a new vendor prefix -**aspose**- that allows to customize behavior of CSS properties which are in experimental and non standardized state for now. Moreover, we have made some bug fixes and enhancements as listed in the table below:
 ### **Improvements and Changes**
 
 |**Key**|**Summary**|**Category**|

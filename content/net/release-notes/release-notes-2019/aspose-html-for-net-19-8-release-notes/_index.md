@@ -8,11 +8,11 @@ url: /net/aspose-html-for-net-19-8-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.HTML for .NET 19.8](https://www.nuget.org/packages/Aspose.Html/19.8.0)
+This page contains release notes for [Aspose.HTML for .NET 19.8](https://www.nuget.org/packages/Aspose.Html/19.8.0)
 
 {{% /alert %}} 
 
-As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the August release of Aspose.HTML for .NET. In this release, we have made some internal bug fixes that include the processing of table elements, rendering rounded borders of elements and integration HTML DOM elements with JavaScript
+As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the August release of Aspose.HTML for .NET. In this release, we have made some internal bug fixes that include the processing of table elements, rendering rounded borders of elements and integration HTML DOM elements with JavaScript
 ### **Improvements and Changes**
 
 |**Key**|**Summary**|**Category**|

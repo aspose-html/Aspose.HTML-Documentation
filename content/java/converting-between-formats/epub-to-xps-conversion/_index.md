@@ -5,7 +5,7 @@ weight: 110
 url: /java/epub-to-xps-conversion/
 ---
 
-In this article, you will find information on how to convert an {{%EPUB%}} to {{%XPS%}} and how to use [XpsSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/xpssaveoptions) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.
+In this article, you will find information on how to convert an {{%EPUB%}} to {{%XPS%}} and how to use [XpsSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/xpssaveoptions) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.
 
 {{% alert color="primary" %}} 
 
@@ -13,29 +13,29 @@ In this article, you will find information on how to convert an {{%EPUB%}} to�
 
 {{% /alert %}} 
 
-The static methods of the [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an {{%EPUB%}} code into various formats. You can convert {{%EPUB%}} to {{%XPS%}} in your Java application literally with a single line of code!
+The static methods of the [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an {{%EPUB%}} code into various formats. You can convert {{%EPUB%}} to {{%XPS%}} in your Java application literally with a single line of code!
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertEPUBToXPS_WithASingleLine.java" >}}
 
 The following Java code snippet shows how to convert EPUB to XPS using Aspose.HTML for Java.
 
-1. Open an existing EPUB file;
-1. Create an instance of [XpsSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/xpssaveoptions);
-1. Use the [Converter.ConvertEPUB](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertepub/methods/9) method of [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class to save EPUB as a XPS file. You need to pass the EPUB file stream, [XpsSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/xpssaveoptions), and output file path to the [Converter.ConvertEPUB](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertepub/methods/9) method to convert EPUB to XPS.
+1. Open an existing EPUB file;
+1. Create an instance of [XpsSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/xpssaveoptions);
+1. Use the [Converter.ConvertEPUB](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertepub/methods/9) method of [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class to save EPUB as a XPS file. You need to pass the EPUB file stream, [XpsSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/xpssaveoptions), and output file path to the [Converter.ConvertEPUB](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertepub/methods/9) method to convert EPUB to XPS.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertEPUBToXPS_ConvertEPUBFileToXPS.java" >}}
 ## **Save Options** ## 
-[XpsSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/xpssaveoptions) allows you to customize the rendering process. You can specify the [page size](https://apireference.aspose.com/html/java/com.aspose.html.rendering/RenderingOptions#getPageSetup--), [margins](https://apireference.aspose.com/html/java/com.aspose.html.drawing/Page#getMargin--), [CSS media-type](https://apireference.aspose.com/html/java/com.aspose.html.rendering/MediaType), etc. The following example shows how to use [XpsSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/xpssaveoptions) *and* create an XPS file with custom page-size and background color:
+[XpsSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/xpssaveoptions) allows you to customize the rendering process. You can specify the [page size](https://apireference.aspose.com/html/java/com.aspose.html.rendering/RenderingOptions#getPageSetup--), [margins](https://apireference.aspose.com/html/java/com.aspose.html.drawing/Page#getMargin--), [CSS media-type](https://apireference.aspose.com/html/java/com.aspose.html.rendering/MediaType), etc. The following example shows how to use [XpsSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/xpssaveoptions) *and* create an XPS file with custom page-size and background color:
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertEPUBToXPS_SpecifyXpsSaveOptions.java" >}}
 
-To learn more about [XpsSaveOptions](https://apireference.aspose.com/html/java/aspose.html.saving/xpssaveoptions) please read [Fine-Tuning Converters](/html/java/fine-tuning-converters/) article.
+To learn more about [XpsSaveOptions](https://apireference.aspose.com/html/java/aspose.html.saving/xpssaveoptions) please read [Fine-Tuning Converters](/html/java/fine-tuning-converters/) article.
 ## **Output Stream Providers** ## 
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
 
 Aspose.HTML for Java provides various types of output formats for rendering operations. Some of these formats produce a single output file (for instance PDF, XPS), others create multiple files (Image formats JPG, PNG, etc.).
 
-The example below shows how to implement and use the your own *MemoryStreamProvider* in the application:
+The example below shows how to implement and use the your own *MemoryStreamProvider* in the application:
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "MemoryStreamProvider.java" >}}
 

@@ -8,7 +8,7 @@ url: /java/system-requirements/
 ## **Overview** ## 
 Aspose.HTML for Java does not require any other software to be installed on the machine where applications using this API are running.
 ## **Supported Operating Systems** ## 
-Aspose.Page for Java supports any 32-bit or 64-bit operating system that runs the Java runtime including, but not limited:
+Aspose.Page for Java supports any 32-bit or 64-bit operating system that runs the Java runtime including, but not limited:
 ### **Windows** ### 
 - Microsoft Windows 2003 Server
 - Microsoft Windows 2008 Server
@@ -25,6 +25,6 @@ Aspose.Page for Java supports any 32-bit or 64-bit operating system that runs t
 ## **Supported Java Versions** ## 
 Aspose.Words for Java supports the following Java versions:
 
-- J2SE 1.6 or above  
+- J2SE 1.6 or above  
 
 

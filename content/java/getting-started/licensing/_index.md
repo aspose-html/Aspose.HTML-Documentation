@@ -23,7 +23,7 @@ For “conversion features”, we insert an evaluation watermark and convert onl
 
 For “Working with Document Features”, we limit the saving operation by adding watermark into every image on the page and insert “Evaluation Text” on the document. It’s only way to limit “working with a document features”. However currently we are not limiting any collections, because it affects the JS Scripts and rendering features.
 ## **Apply License using File or Stream Object** ## 
-The license can be loaded from a file or stream object. The easiest way to set a license is to put the license file in the same folder as the aspose-html-xx.x.jar file and specify the filename, without a path, as shown in the example below.
+The license can be loaded from a file or stream object. The easiest way to set a license is to put the license file in the same folder as the aspose-html-xx.x.jar file and specify the filename, without a path, as shown in the example below.
 
 {{% alert color="primary" %}} 
 

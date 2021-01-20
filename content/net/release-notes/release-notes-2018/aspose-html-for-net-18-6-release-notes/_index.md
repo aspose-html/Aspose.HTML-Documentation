@@ -7,7 +7,7 @@ url: /net/aspose-html-for-net-18-6-release-notes/
 
 ### **Aspose.HTML for .NET 18.6 Release Notes**
 -----
-As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the June release of Aspose.HTML for .NET. In this release, we have enhanced HTML and SVG documents' Save methods. Now, you can control the process of handling resources that are linked to the document, set up restrictions and depth of saving of bound up documents.
+As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the June release of Aspose.HTML for .NET. In this release, we have enhanced HTML and SVG documents' Save methods. Now, you can control the process of handling resources that are linked to the document, set up restrictions and depth of saving of bound up documents.
 Furthermore, we have included support for some new output formats, so you can convert your documents into Markdown notation which represents plain text format for writing structured documents, based on conventions for indicating formatting in email and usenet posts; and also save your documents into MIME Encapsulation of Aggregate HTML Documents (MHTML) format.
 Another new feature that we are pleased to introduce in this release is FormEditor. It is created to simplify the work with HTML Form Elements. Since, attributes of HTML elements are represented as a 'string' objects, it is easy to make a mistake and fill the form with the wrong values. In order to avoid this mistake we introduced FormEditor which is instead of 'string' values manipulate with .net objects. Moreover, once you fill your Form up with data you can easily send it to a remote server by using a new FormSubmitter object.
 ### **Improvement and Changes**

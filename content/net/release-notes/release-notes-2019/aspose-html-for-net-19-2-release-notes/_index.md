@@ -7,7 +7,7 @@ url: /net/aspose-html-for-net-19-2-release-notes/
 
 ### **Aspose.HTML for .NET 19.2 Release Notes**
 -----
-As per regular monthly update process of all APIs being offered by Aspose, we are honoured to announce the February release of Aspose.HTML for .NET. In this release, we have made some internal bug fixes related to the document rendering and page splitting algorithms. 
+As per regular monthly update process of all APIs being offered by Aspose, we are honoured to announce the February release of Aspose.HTML for .NET. In this release, we have made some internal bug fixes related to the document rendering and page splitting algorithms. 
 ### **Improvements and Changes**
 
 |**Key**|**Summary**|**Category**|

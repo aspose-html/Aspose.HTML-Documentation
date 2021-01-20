@@ -7,7 +7,7 @@ url: /java/aspose-html-for-java-19-8-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for Aspose.HTML for Java 19.8
+This page contains release notes for Aspose.HTML for Java 19.8
 
 {{% /alert %}} 
 ## **Major Features** 
@@ -22,5 +22,5 @@ As regular monthly update process of all APIs being offered by Aspose, we are pl
 |HTMLJAVA-280|Conversion hangs or throws an exception|Bug|
 |HTMLJAVA-286|The font is not applied in HTML rendering|Bug|
 |HTMLJAVA-285|Can't load HTML file using stream while using path loads without any problems|Bug|
-|HTMLJAVA-292|Different results for rendering the same document |Bug|
+|HTMLJAVA-292|Different results for rendering the same document |Bug|
 

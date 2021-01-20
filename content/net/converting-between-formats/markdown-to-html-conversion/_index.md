@@ -7,11 +7,11 @@ url: /net/markdown-to-html-conversion/
 
 {{% alert color="primary" %}} 
 
-<https://products.aspose.app/html/markdown> 
+<https://products.aspose.app/html/markdown> 
 
 {{% /alert %}} 
 
-{{%Markdown%}} is a markup language with a plain-text-formatting syntax. Markdown is often used as a format for documentation and readme files since it allows writing in an easy-to-read and easy-to-write style. Its design allows it to be easily converted to many output formats, but initially it was created to convert the only to HTML. Using the Aspose.HTML class library in your C# application, you can easily convert Markdown into HTML file with just a single line of code!
+{{%Markdown%}} is a markup language with a plain-text-formatting syntax. Markdown is often used as a format for documentation and readme files since it allows writing in an easy-to-read and easy-to-write style. Its design allows it to be easily converted to many output formats, but initially it was created to convert the only to HTML. Using the Aspose.HTML class library in your C# application, you can easily convert Markdown into HTML file with just a single line of code!
 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-ConvertingBetweenFormats-ConvertMarkdownToHTML-WithASingleLine.cs" >}}
 
@@ -19,9 +19,9 @@ If your scenario is required rendering Markdown document, for instance, to the I
 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-ConvertingBetweenFormats-ConvertMarkdownToHTML-ConvertMarkdownToPNG.cs" >}}
 ## **Markdown Syntax**
-This article demonstrates the syntax declared in the [core Markdown specification](https://daringfireball.net/projects/markdown/) and [GitLab Flavored Markdown](https://docs.gitlab.com/ee/user/markdown.html) variation. All these features are supported by Aspose.HTML out-of-the-box.
+This article demonstrates the syntax declared in the [core Markdown specification](https://daringfireball.net/projects/markdown/) and [GitLab Flavored Markdown](https://docs.gitlab.com/ee/user/markdown.html) variation. All these features are supported by Aspose.HTML out-of-the-box.
 ### **Headers**
-Markdown supports two styles of headers, *Setext* and *atx*:
+Markdown supports two styles of headers, *Setext* and *atx*:
 
 
 
@@ -103,7 +103,7 @@ __double underscores__
 
 {{< /highlight >}}
 ### **Blockquotes**
-Markdown uses email-style > characters for blockquoting:
+Markdown uses email-style > characters for blockquoting:
 
 {{< highlight java >}}
 

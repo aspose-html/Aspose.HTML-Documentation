@@ -18,7 +18,7 @@ In this release we have made some improvements to the quality of rendering, thes
 - Improvements in the font selection algorithm
 - Improvements in the size calculation of SVG images
 
-Also, we have introduced new property, which allows you to specify the JavaScript processing timeout. It can be used to speed up the rendering process or to stop the execution of infinite JavaScripts.
+Also, we have introduced new property, which allows you to specify the JavaScript processing timeout. It can be used to speed up the rendering process or to stop the execution of infinite JavaScripts.
 ## **Improvements and Changes**
 
 |**Key**|**Summary**|**Category**|
@@ -28,7 +28,7 @@ Also, we have introduced new property, which allows you to specify the JavaScri
 |HTMLNET-2319 |Null reference exception during html to image conversion|Bug|
 ## **Public API and Backward Incompatible Changes**
 ### **Added APIs**
-Added new service **IRuntimeService**, which provides **JavaScriptTimeout** property, that allows you to specify JavaScript processing timeout. It can be used to speed up the rendering process or to stop the execution of infinite JavaScripts.
+Added new service **IRuntimeService**, which provides **JavaScriptTimeout** property, that allows you to specify JavaScript processing timeout. It can be used to speed up the rendering process or to stop the execution of infinite JavaScripts.
 
 {{< highlight java >}}
 

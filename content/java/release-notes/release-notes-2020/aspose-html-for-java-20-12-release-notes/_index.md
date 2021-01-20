@@ -16,6 +16,6 @@ release of Aspose.HTML for  Java
 
 We have done a lot to stabilize the product.
 The stability has been improved processing 
-CSS, SVG, Markdown, Fonts, bidi text rendering, 
+{{%CSS%}}, SVG, Markdown, Fonts, bidi text rendering, 
 and table. We also made stabilization when working 
 with licenses.

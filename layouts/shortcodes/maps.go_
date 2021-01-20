@@ -22,6 +22,7 @@ func main() {
 "jpeg": "https://docs.fileformat.com/image/jpeg/",
 "png": "https://docs.fileformat.com/image/png/",
 "bmp": "https://docs.fileformat.com/image/bmp/",
+"docx": "https://docs.fileformat.com/word-processing/docx/",
 }
 
 

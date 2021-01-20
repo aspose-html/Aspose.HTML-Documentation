@@ -7,7 +7,7 @@ url: /net/aspose-html-for-net-18-11-release-notes/
 
 ### **Aspose.HTML for .NET 18.11 Release Notes**
 -----
-As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce November release of Aspose.HTML for .NET. In this release, we have made fixes related to the paralleling of microtask and event broadcasting. Apart from that we have made some internal bug fixes and enhancements following in the table below:
+As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce November release of Aspose.HTML for .NET. In this release, we have made fixes related to the paralleling of microtask and event broadcasting. Apart from that we have made some internal bug fixes and enhancements following in the table below:
 ### **Improvements and Changes**
 
 |**Key**|**Summary**|**Category**|
@@ -46,7 +46,7 @@ Added property SmoothingMode that allows to specify whether smoothing (antialias
 
 {{< /highlight >}}
 ### **Changed APIs:**
-According to changes in specification the document events were moved from *HTMLDocument* to base *Document* class.
+According to changes in specification the document events were moved from *HTMLDocument* to base *Document* class.
 
 {{< highlight java >}}
 

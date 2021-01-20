@@ -7,7 +7,7 @@ url: /java/aspose-html-for-java-19-6-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.HTML for Java 19.6](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-html/19.6)
+This page contains release notes for [Aspose.HTML for Java 19.6](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-html/19.6)
 
 {{% /alert %}} 
 ## **Major Features** ## 

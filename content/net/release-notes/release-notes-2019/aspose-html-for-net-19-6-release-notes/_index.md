@@ -7,7 +7,7 @@ url: /net/aspose-html-for-net-19-6-release-notes/
 
 ### **Aspose.HTML for .NET 19.6 Release Notes**
 -----
-As per the regular monthly update process of all APIs being offered by Aspose, we are honored to announce the June release of Aspose.HTML for .NET. In this release, we have introduced a new function of conversion from Markdown, which is developed as an easy-to-read, easy-to-write plain text format, to HTML document. Along with the new functional, we did improvements in processing table elements and revised the MHTML document process.
+As per the regular monthly update process of all APIs being offered by Aspose, we are honored to announce the June release of Aspose.HTML for .NET. In this release, we have introduced a new function of conversion from Markdown, which is developed as an easy-to-read, easy-to-write plain text format, to HTML document. Along with the new functional, we did improvements in processing table elements and revised the MHTML document process.
 ### **Improvements and Changes**
 
 |**Key**|**Summary**|**Category**|

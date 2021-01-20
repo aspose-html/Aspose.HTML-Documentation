@@ -15,7 +15,7 @@ As per regular monthly update process of all APIs being offered by Aspose, we ar
 
 - Improved serialization algorithm according to the latest HTML documentation
 - Improved document saving by the introduction of HTML entities support
-- Fixing Issue with CSS Import Rule processing and its relative URL resolution
+- Fixing Issue with CSS Import Rule processing and its relative URL resolution
 
 You can share your queries and feedback with us by visiting Aspose.HTML forum.
 ## **Improvements and Changes**

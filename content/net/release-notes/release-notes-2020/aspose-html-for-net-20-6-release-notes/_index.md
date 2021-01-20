@@ -20,7 +20,7 @@ In this release we have added the support of new output format - DOCX. Now you c
 - increased document loading speed;
 - updated the clipping processing algorithm according to the latest documentation;
 - increased precision of the LEGEND element positioning;
-- updated the URL parsing algorithm according to the latest documentation.
+- updated the URL parsing algorithm according to the latest documentation.
 
 ## **Improvements and Changes**
 

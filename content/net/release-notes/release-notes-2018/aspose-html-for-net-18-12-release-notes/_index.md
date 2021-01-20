@@ -7,7 +7,7 @@ url: /net/aspose-html-for-net-18-12-release-notes/
 
 ### **Aspose.HTML for .NET 18.12 Release Notes**
 -----
-As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce December release of Aspose.HTML for .NET. In this release, we have also improved the event broadcasting and style processing. Apart from that we have made some internal bug fixes and enhancements as mentioned in the table below:
+As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce December release of Aspose.HTML for .NET. In this release, we have also improved the event broadcasting and style processing. Apart from that we have made some internal bug fixes and enhancements as mentioned in the table below:
 ### **Improvements and Changes**
 
 |**Key**|**Summary**|**Category**|

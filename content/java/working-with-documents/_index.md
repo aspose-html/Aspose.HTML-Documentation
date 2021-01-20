@@ -14,6 +14,6 @@ The following topics are available:
 - [Creating a Document](/html/java/creating-a-document/)
   In this section, you will find information on how to load a document from your file or create it from scratch. Also, we'll show you the different approaches that can be used for loading the documents.
 - [Editing a Document](/html/java/editing-a-document/)
-  This section gives you basic information on how to read or modify **Document Object Model (DOM).** You'll explore how to create an **HTML Element** and how to work with it.
+  This section gives you basic information on how to read or modify **Document Object Model (DOM).** You'll explore how to create an **HTML Element** and how to work with it.
 - [Saving a Document](/html/java/saving-a-document/)
   In this article, you learn how to save your changes to the file on the disk and about the available saving options.

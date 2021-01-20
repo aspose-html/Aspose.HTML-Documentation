@@ -18,4 +18,4 @@ The following topics are available:
 - [HTML Form Editor](/html/java/html-form-editor/)
   This article describes how to work with HTML Form Element, input controls and submitting information.
 - [CSS Extensions](/html/java/css-extensions/)
-  In this guide, you will learn how to use *-aspose-* prefix and advanced CSS functional.
+  In this guide, you will learn how to use *-aspose-* prefix and advanced CSS functional.

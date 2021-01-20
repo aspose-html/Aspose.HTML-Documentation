@@ -6,11 +6,11 @@ url: /java/installation/
 ---
 
 ## **Installing Aspose.HTML for Java from Aspose Repository** ## 
-Aspose hosts all Java APIs on [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/). You can easily use Aspose.HTML for Java API directly in your Maven or Gradle Projects with simple configurations.
+Aspose hosts all Java APIs on [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/). You can easily use Aspose.HTML for Java API directly in your Maven or Gradle Projects with simple configurations.
 
 Link for current version: [https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-html/20.9](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-html/20.9)
-### **Specify Aspose Repository Configuration** ### 
-First you need to specify Aspose Repository configuration / location in your Maven pom.xml as follows:
+### **Specify Aspose Repository Configuration** ### 
+First you need to specify Aspose Repository configuration / location in your Maven pom.xml as follows:
 
 {{< highlight java >}}
  <repositories>
@@ -33,7 +33,7 @@ for Gradle in you build.gradle script as follows:
 {{< /highlight >}}
 
 ### **Define Aspose.HTML for Java API Dependency** ### 
-Then define Aspose.HTML for Java API dependency in your pom.xml as follows:
+Then define Aspose.HTML for Java API dependency in your pom.xml as follows:
 
 {{< highlight java >}}
  <dependencies>

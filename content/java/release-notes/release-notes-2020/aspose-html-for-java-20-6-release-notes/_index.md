@@ -17,7 +17,7 @@ In this release we have made the number of improvements, related to the PDF and 
 
 * rendering missing tables;
 * fixed application hangs;
-* improved formatting for text blocks.
+* improved formatting for text blocks.
 
 ## **The following is a list of issues covering all changes in this release of Aspose.HTML** ##
 

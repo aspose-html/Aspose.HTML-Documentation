@@ -6,7 +6,7 @@ url: /net/aspose-html-for-net-18-1-release-notes/
 ---
 
 ### **Release Notes of Aspose.HTML for .NET 18.1**
-We are pleased to announce that our series of W3C formats has been extended and now we support Scale-able Vector Graphics (SVG) format. Our API offers the capabilities to manipulate SVG, both as a part of HTML document and single SVGDocument object. This API is fully compatible with the W3C SVG 2 recommendation and previously implemented HTML format, so every manipulation features: loading, saving, editing, navigation or rendering features supported exactly in the same way.
+We are pleased to announce that our series of W3C formats has been extended and now we support Scale-able Vector Graphics (SVG) format. Our API offers the capabilities to manipulate SVG, both as a part of HTML document and single SVGDocument object. This API is fully compatible with the W3C SVG 2 recommendation and previously implemented HTML format, so every manipulation features: loading, saving, editing, navigation or rendering features supported exactly in the same way.
 ### **Public API changes**
 #### **Added APIs:**
 {{< highlight csharp >}}

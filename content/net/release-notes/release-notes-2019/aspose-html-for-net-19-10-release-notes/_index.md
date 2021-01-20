@@ -7,13 +7,13 @@ url: /net/aspose-html-for-net-19-10-release-notes/
 
 {{% alert color="primary" %}} 
 
-This page contains release notes for [Aspose.HTML for .NET 19.10](https://www.nuget.org/packages/Aspose.Html/19.10.0).
+This page contains release notes for [Aspose.HTML for .NET 19.10](https://www.nuget.org/packages/Aspose.Html/19.10.0).
 
 {{% /alert %}} 
 
-As per the regular monthly update process of all APIs being offered by Aspose, we are honored to announce the October release of Aspose.HTML for .NET.
+As per the regular monthly update process of all APIs being offered by Aspose, we are honored to announce the October release of Aspose.HTML for .NET.
 
-In this release, we have implemented a set of features that will increase the quality of text rendering. The most significant of them is **Kerning**. Kerning is used to adjust the spacing between character and it's supported by a majority of fonts. Also, we have improved the positioning of characters by implementing correct emulation of bold fonts which is used when such fonts are not available. With improved processing of HTML document modes, now the document works better in limited-quirks mode.
+In this release, we have implemented a set of features that will increase the quality of text rendering. The most significant of them is **Kerning**. Kerning is used to adjust the spacing between character and it's supported by a majority of fonts. Also, we have improved the positioning of characters by implementing correct emulation of bold fonts which is used when such fonts are not available. With improved processing of HTML document modes, now the document works better in limited-quirks mode.
 
 This release also includes some general fixes related to element attributes processing, which further add to the overall stability and functionality of the API.
 
@@ -66,7 +66,7 @@ The behavior of text rendering methods has been changed. To correctly render eac
 
 {{< /highlight >}}
 ### **Added APIs**
-GraphicContext has been extended with information about rendered characters.
+GraphicContext has been extended with information about rendered characters.
 
 {{< highlight java >}}
 
@@ -98,7 +98,7 @@ GraphicContext has been extended with information about rendered characters.
 
 {{< /highlight >}}
 
-Added class and struct which contains information about rendered characters.
+Added class and struct which contains information about rendered characters.
 
 {{< highlight java >}}
 

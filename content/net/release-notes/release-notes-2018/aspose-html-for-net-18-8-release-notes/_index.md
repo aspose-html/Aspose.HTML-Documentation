@@ -7,7 +7,7 @@ url: /net/aspose-html-for-net-18-8-release-notes/
 
 ### **Aspose.HTML for .NET 18.8 Release Notes**
 -----
-As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the August release of Aspose.HTML for .NET. In this release, we have improved rendering into output devices running under .NET Standard on Linux platform. Moreover, we have made some bug fixes and enhancements as listed in the table below:
+As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the August release of Aspose.HTML for .NET. In this release, we have improved rendering into output devices running under .NET Standard on Linux platform. Moreover, we have made some bug fixes and enhancements as listed in the table below:
 ### **Improvements and Changes**
 
 |**Key**|**Summary**|**Category**|
