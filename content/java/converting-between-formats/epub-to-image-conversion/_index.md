@@ -17,13 +17,13 @@ The static methods of the [Converter](https://apireference.aspose.com/java/html/
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertEPUBToImage_WithASingleLine.java" >}}
 ## **Convert EPUB to JPG** ## 
-You can check the quality of EPUB to JPG conversion at this link: <https://products.aspose.app/html/conversion/epub-to-jpg>
+You can check the quality of {{%EPUB%}} to JPG conversion at this link: <https://products.aspose.app/html/conversion/epub-to-jpg>
 
-The following Java code snippet shows how to convert EPUB to JPG using Aspose.HTML for Java.
+The following Java code snippet shows how to convert {{%EPUB%}} to JPG using Aspose.HTML for Java.
 
-1. Open an existing EPUB file;
+1. Open an existing {{%EPUB%}} file;
 1. Create a new [ImageSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/imagesaveoptions) object with JPG ImageFormat;
-1. Use the [Converter.ConvertEPUB](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertepub/methods/7) method of [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class to save EPUB as a JPG image. You need to pass the EPUB stream, [ImageSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/imagesaveoptions), and output file path to the [Converter.ConvertEPUB](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertepub/methods/7) method to convert EPUB to JPG.
+1. Use the [Converter.ConvertEPUB](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertepub/methods/7) method of [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class to save {{%EPUB%}} as a JPG image. You need to pass the EPUB stream, [ImageSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/imagesaveoptions), and output file path to the [Converter.ConvertEPUB](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertepub/methods/7) method to convert EPUB to JPG.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertEPUBToImage_ConvertEPUBToJPG.java" >}}
 ## **Convert EPUB to PNG** ## 

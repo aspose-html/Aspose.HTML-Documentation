@@ -23,10 +23,10 @@ For more examples, please visit [Converting Between Formats](/html/java/converti
 
 **Q: What formats does Aspose.HTML support?**
 
-**A:** Out-of-the-box we support (X)HTML, SVG, [EPUB](https://docs.fileformat.com/ebook/epub/), MHTML and Markdown documents. As a part of mentioned documents we also support CSS, JavaScript, XPath and HTML5 Canvas specifications. For more details, please visit [Features List](/html/java/features-list/) page.
+**A:** Out-of-the-box we support {{%XHTML%}}, SVG, {{%EPUB%}}, MHTML and Markdown documents. As a part of mentioned documents we also support CSS, JavaScript, XPath and HTML5 Canvas specifications. For more details, please visit [Features List](/html/java/features-list/) page.
 
 
-**Q: Can I use HTMLDocument to load [EPUB](https://docs.fileformat.com/ebook/epub/) file format?**
+**Q: Can I use HTMLDocument to load {{%EPUB%}} file format?**
 
 **A:** In order to load EPUB, MHTML, SVG or other supported formats, we prepared specialized end-points and described it in the [Create Document](/html/java/creating-a-document/) guide. The HTMLDocument class is designed only to work with HTML files.
 

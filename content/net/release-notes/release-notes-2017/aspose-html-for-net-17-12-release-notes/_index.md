@@ -11,8 +11,8 @@ As per regular monthly update process of all APIs being offered by Aspose, we ar
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-|HTMLNET-654|Incorrect Processing of styles converting HTML to PDF/XPS|Bug|
-|HTMLNET-776|HTML to PDF - Formatting issues in resultant file|Bug|
-|HTMLNET-780|Incorrect render result with CSS position property|Bug|
+|HTMLNET-654|Incorrect Processing of styles converting {{%HTML%}} to {{%PDF%}}/%4{{%XPS%}}|Bug|
+|HTMLNET-776|{{%HTML%}} to {{%PDF%}} - Formatting issues in resultant file|Bug|
+|HTMLNET-780|Incorrect render result with {{%CSS%}} position property|Bug|
 
 

@@ -29,7 +29,7 @@ This API mimics the behavior of a headless browser and offers following features
   - by using [CSS Selector queries](https://www.w3.org/TR/selectors-api)
 - Scripting that allows to manipulate HTML DOM via JavaScript
 - Converting HTML document into various supported formats: JPEG, PNG, BMP, TIFF, PDF, XPS
-- Converting (X)HTML and similar formats, such as {{%EPUB%}} and MHTML to above specified formats.
+- Converting {{%XHTML%}} and similar formats, such as {{%EPUB%}} and MHTML to above specified formats.
 
 Note
 
@@ -44,7 +44,7 @@ The URL object is based on Java Framework implementation according to w3c URL sp
 - API reference in HTML Help format.
 - Supported JDK 1.6 or higher versions.
 ### **Supported HTML versions** ### 
-Aspose.HTML for Java supports HTML and (X)HTML.
+Aspose.HTML for Java supports HTML and {{%XHTML%}}.
 ### **Namespaces structure in API** ### 
 ![todo:image_alt_text](https://lh3.googleusercontent.com/9k_uvN_5kZ4tJ2S0a409a1FqSSrVdciYq2DOia3mB4sLPdmt5GPI_9BnO--3r6UtOl_YI0nx8AksMcIJ6YrkcegSqbzaz53Qj3xybqWfVnizMO_pbA3VjcR2ZgszWpV_IclR41pf)
 ### **Text** ### 
