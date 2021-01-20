@@ -5,7 +5,7 @@ weight: 80
 url: /net/svg-to-pdf-conversion/
 ---
 
-In this article, you will find information about how to convert an [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) to [PDF](https://en.wikipedia.org/wiki/PDF) and how to use [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you will find information about how to convert an {{%SVG%}} to {{%PDF%}} and how to use [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}} 
 
@@ -13,7 +13,7 @@ In this article, you will find information about how to convert an [SVG](https:
 
 {{% /alert %}} 
 
-The static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) code into various formats. You can convert [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) to [PDF](https://en.wikipedia.org/wiki/PDF) in your C# application literally with a single line of code!
+The static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an {{%SVG%}} code into various formats. You can convert {{%SVG%}} to {{%PDF%}} in your C# application literally with a single line of code!
 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-ConvertingBetweenFormats-ConvertSVGToPDF-WithASingleLine.cs" >}}
 
@@ -21,7 +21,7 @@ The next example explains how to convert SVG to PDF by line by line:
 
 1. Load the SVG file using [SVGDocument](https://apireference.aspose.com/net/html/aspose.html.dom.svg/svgdocument) class.
 1. Create an instance of [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions).
-1. Use the [Converter.ConvertSVG](https://apireference.aspose.com/net/html/aspose.html.converters.converter/convertsvg/methods/37) method of [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class to save SVG as a PDF file. You need to pass the [SVGDocument](https://apireference.aspose.com/net/html/aspose.html.dom.svg/svgdocument), [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptionsQ), and output file path to the [Converter.ConvertSVG](https://apireference.aspose.com/net/html/aspose.html.converters.converter/convertsvg/methods/37) method to convert [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) to [PDF](https://en.wikipedia.org/wiki/PDF).
+1. Use the [Converter.ConvertSVG](https://apireference.aspose.com/net/html/aspose.html.converters.converter/convertsvg/methods/37) method of [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class to save SVG as a PDF file. You need to pass the [SVGDocument](https://apireference.aspose.com/net/html/aspose.html.dom.svg/svgdocument), [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptionsQ), and output file path to the [Converter.ConvertSVG](https://apireference.aspose.com/net/html/aspose.html.converters.converter/convertsvg/methods/37) method to convert {{%SVG%}} to {{%PDF%}}.
 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-ConvertingBetweenFormats-ConvertSVGToPDF-ConvertSVGDocumentToPDF.cs" >}}
 ## **Save Options**

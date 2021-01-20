@@ -7,7 +7,7 @@ description: Document Object Model, DOM Tree, Edit HTML, Edit a Document Tree, U
 ---
 <link href="./../style.css" rel="stylesheet" type="text/css" />
 
-As we already mentioned [here](https://docs.aspose.com/html/net/creating-a-document/) the implementation of the [**HTMLDocument**](https://apireference.aspose.com/net/html/aspose.html/htmldocument) as well as the whole DOM are based on [WHATWG DOM](https://dom.spec.whatwg.org/) standard. So, it is easy to use Aspose.HTML having a basic knowledge of [HTML](https://en.wikipedia.org/wiki/HTML) and [JavaScript](https://en.wikipedia.org/wiki/JavaScript) languages.
+As we already mentioned [here](https://docs.aspose.com/html/net/creating-a-document/) the implementation of the [**HTMLDocument**](https://apireference.aspose.com/net/html/aspose.html/htmldocument) as well as the whole DOM are based on [WHATWG DOM](https://dom.spec.whatwg.org/) standard. So, it is easy to use Aspose.HTML having a basic knowledge of {{%HTML%}} and {{%JavaScript%}} languages.
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation). 
 {{% /alert %}} 
@@ -176,7 +176,7 @@ using Aspose.Html;
 {{< /highlight >}}
 
 ## **Edit CSS**
-[Cascading Style Sheets (CSS)](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) is a style sheet language used for describing how web pages look in the browser. CSS can be added to HTML documents as an inline, internal, and external way. Thus you can set the unique style to a single HTML element using inline CSS,  or for multiple web pages to share formatting by specifying the relevant CSS in a separate .css file.
+Cascading Style Sheets ({{%CSS%}}) is a style sheet language used for describing how web pages look in the browser. CSS can be added to HTML documents as an inline, internal, and external way. Thus you can set the unique style to a single HTML element using inline CSS,  or for multiple web pages to share formatting by specifying the relevant CSS in a separate .css file.
 
  Aspose.HTML not only support CSS out-of-the-box but also gives you instruments to manipulate with document styles just on the fly before converting the HTML document to the other formats, as it follows:
 

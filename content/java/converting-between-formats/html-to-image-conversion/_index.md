@@ -5,7 +5,7 @@ weight: 10
 url: /java/html-to-image-conversion/
 ---
 
-In this article, you will find information on how to convert an HTML to Image File Formats such as [JPG](https://en.wikipedia.org/wiki/Image_file_formats#JPEG/JFIF), [PNG](https://en.wikipedia.org/wiki/Image_file_formats#PNG), [BMP](https://en.wikipedia.org/wiki/Image_file_formats#BMP), [TIFF](https://en.wikipedia.org/wiki/Image_file_formats#TIFF) and how to use [ImageSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/package-frame) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.
+In this article, you will find information on how to convert an HTML to Image File Formats such as {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}} and how to use [ImageSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/package-frame) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.
 
 {{% alert color="primary" %}} 
 

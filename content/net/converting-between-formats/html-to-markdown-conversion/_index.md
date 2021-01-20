@@ -7,7 +7,7 @@ weight: 50
 url: /net/html-to-markdown-conversion/
 ---
 
-[Markdown](http://en.wikipedia.org/wiki/Markdown) is a markup language with a plain-text-formatting syntax. Markdown is often used as a format for documentation and readme files, since it allows writing in an easy-to-read and easy-to-write style. Its design allows it to be easily converted to many output formats, but originally it was created to convert the only to HTML. Aspose.HTML class library provides a reversed conversion from HTML to Markdown. You can convert HTML to Markdown format in your C# and other .NET programming languages. The following code snippet shows how to convert HTML to Markdown literally with a single line of code!
+{{%Markdown%}} is a markup language with a plain-text-formatting syntax. Markdown is often used as a format for documentation and readme files, since it allows writing in an easy-to-read and easy-to-write style. Its design allows it to be easily converted to many output formats, but originally it was created to convert the only to HTML. Aspose.HTML class library provides a reversed conversion from HTML to Markdown. You can convert HTML to Markdown format in your C# and other .NET programming languages. The following code snippet shows how to convert HTML to Markdown literally with a single line of code!
 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-ConvertingBetweenFormats-ConvertHTMLToMarkdown-WithASingleLine.cs" >}}
 

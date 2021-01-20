@@ -5,7 +5,7 @@ weight: 30
 url: /java/editing-a-document/
 ---
 
-As we already mentioned [here](/html/java/creating-a-document/) the implementation of [HTMLDocument](https://apireference.aspose.com/html/java/com.aspose.html/HTMLDocument) as well as the whole DOM are based on [WHATWG DOM](https://dom.spec.whatwg.org/) standard. So, it is easy to use Aspose.HTML having a basic knowledge of [HTML](https://en.wikipedia.org/wiki/HTML) and [JavaScript](https://en.wikipedia.org/wiki/JavaScript) languages.
+As we already mentioned [here](/html/java/creating-a-document/) the implementation of [HTMLDocument](https://apireference.aspose.com/html/java/com.aspose.html/HTMLDocument) as well as the whole DOM are based on [WHATWG DOM](https://dom.spec.whatwg.org/) standard. So, it is easy to use Aspose.HTML having a basic knowledge of {{%HTML%}} and {{%JavaScript%}} languages.
 The [DOM package](https://apireference.aspose.com/html/java/com.aspose.html.dom/package-frame) is represented with the following fundamental data types:
 
 |**Data type** |**Description**|
@@ -59,6 +59,6 @@ Having DOM objects gives you a powerful tool to manipulate with an HTML Document
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_WorkingWithDocuments_EditingADocument_UsingInnerOuterHTML.java" >}}
 ## **Edit CSS** ## 
-[Cascading Style Sheets (CSS)](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) is a style sheet language used for describing how webpages look in the browser. Aspose.HTML not only support CSS out-of-the-box but also gives you instruments to manipulate with document styles just on the fly before converting the HTML document to the other formats, as it follows:
+Cascading Style Sheets ({{%CSS%}}) is a style sheet language used for describing how webpages look in the browser. Aspose.HTML not only support CSS out-of-the-box but also gives you instruments to manipulate with document styles just on the fly before converting the HTML document to the other formats, as it follows:
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_WorkingWithDocuments_EditingADocument_EditCSS.java" >}}

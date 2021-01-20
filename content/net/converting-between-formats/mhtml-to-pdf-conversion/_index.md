@@ -5,7 +5,7 @@ weight: 140
 url: /net/mhtml-to-pdf-conversion/
 ---
 
-In this article, you will find information about how to convert an [MHTML](https://en.wikipedia.org/wiki/MHTML) to [PDF](https://en.wikipedia.org/wiki/PDF) and how to use [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you will find information about how to convert an {{%MHTML%}} to {{%PDF%}} and how to use [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}} 
 
@@ -13,7 +13,7 @@ In this article, you will find information about how to convert an [MHTML](http
 
 {{% /alert %}} 
 
-The static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an [MHTML](https://en.wikipedia.org/wiki/MHTML) code into various formats. You can convert [MHTML](https://en.wikipedia.org/wiki/MHTML) to [PDF](https://en.wikipedia.org/wiki/PDF) in your C# application literally with a single line of code!
+The static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an {{%MHTML%}} code into various formats. You can convert {{%MHTML%}} to {{%PDF%}} in your C# application literally with a single line of code!
 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-ConvertingBetweenFormats-ConvertMHTMLToPDF-WithASingleLine.cs" >}}
 

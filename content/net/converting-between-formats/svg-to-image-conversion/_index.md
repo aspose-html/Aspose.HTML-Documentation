@@ -5,7 +5,7 @@ weight: 70
 url: /net/svg-to-image-conversion/
 ---
 
-In this article, you will find information on how to convert an SVG to Image File Formats such as [JPG](https://en.wikipedia.org/wiki/Image_file_formats#JPEG/JFIF), [PNG](https://en.wikipedia.org/wiki/Image_file_formats#PNG), [BMP](https://en.wikipedia.org/wiki/Image_file_formats#BMP), [TIFF](https://en.wikipedia.org/wiki/Image_file_formats#TIFF) and how to use [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you will find information on how to convert an SVG to Image File Formats such as {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}} and how to use [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}} 
 

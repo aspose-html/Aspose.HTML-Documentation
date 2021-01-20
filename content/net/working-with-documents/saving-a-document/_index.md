@@ -84,7 +84,7 @@ using Aspose.Html.Saving;
 {{< /highlight >}}
 
 ### **HTML to MHTML**
-In some cases, you need to save your web page as a single file.  [MHTML](https://en.wikipedia.org/wiki/MHTML) document could be handy and helpful for this purpose since it is a web-page archive and it is store everything inside itself.
+In some cases, you need to save your web page as a single file.  {{%MHTML%}} document could be handy and helpful for this purpose since it is a web-page archive and it is store everything inside itself.
 The **HTMLSaveFormat** Enumeration specifies the format in which document is saved, it can be HTML, MHTML and MD formats. The example below shows how to use the **Save(`path`,`saveFormat`)** method for HTML to MYTML saving.
 
 {{< highlight java >}}
@@ -113,7 +113,7 @@ using Aspose.Html.Saving;
 The saved "save-to-MTHML.mht" file stores HTML of the "document.html" and "linked-file.html" files.
 
 ### **HTML to Markdown**
-[Markdown](https://en.wikipedia.org/wiki/Markdown) is a markup language with plain-text syntax. As well as for HTML to MHTML example, you can use the **HTMLSaveFormat** for HTML to MD saving. Please take a look at the following example:
+{{%Markdown%}} is a markup language with plain-text syntax. As well as for HTML to MHTML example, you can use the **HTMLSaveFormat** for HTML to MD saving. Please take a look at the following example:
 {{< highlight java >}}
 using System.IO;
 using Aspose.Html;
@@ -135,7 +135,7 @@ using Aspose.Html.Saving;
 
 For the more information how to use Markdown Converter, please visit the [**HTML to Markdown Conversion**](/html/net/html-to-markdown-conversion/) article.
 ## **Save SVG**
-Usually, you could see  [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics)  as a part of an HTML file, it is used to represent the vector data on the page: images, icons, tables, etc. However, SVG also could be extracted from the web page and you can manipulate it in a similar way as the HTML document.
+Usually, you could see  {{%SVG%}}  as a part of an HTML file, it is used to represent the vector data on the page: images, icons, tables, etc. However, SVG also could be extracted from the web page and you can manipulate it in a similar way as the HTML document.
 
 Since [**SVGDocument**](https://apireference.aspose.com/net/html/aspose.html.dom.svg/svgdocument) and [**HTMLDocument**](https://apireference.aspose.com/net/html/aspose.html/htmldocument) are based on the same [WHATWG DOM](https://dom.spec.whatwg.org/) standard, all operations such as loading, reading, editing, converting and saving are similar for both documents. So, all examples where you can see manipulation with the **HTMLDocument** are applicable for the **SVGDocument** as well.
 

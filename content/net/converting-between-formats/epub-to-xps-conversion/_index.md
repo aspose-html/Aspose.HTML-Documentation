@@ -5,7 +5,7 @@ weight: 120
 url: /net/epub-to-xps-conversion/
 ---
 
-In this article, you will find information on how to convert an [EPUB](https://en.wikipedia.org/wiki/EPUB) to [XPS](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification) and how to use [XpsSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you will find information on how to convert an {{%EPUB%}} to {{%XPS%}} and how to use [XpsSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}} 
 
@@ -13,7 +13,7 @@ In this article, you will find information on how to convert an [EPUB](https://
 
 {{% /alert %}} 
 
-The static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an [EPUB](https://en.wikipedia.org/wiki/EPUB) code into various formats. You can convert [EPUB](https://en.wikipedia.org/wiki/EPUB) to [XPS](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification) in your C# application literally with a single line of code!
+The static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an {{%EPUB%}} code into various formats. You can convert {{%EPUB%}} to {{%XPS%}} in your C# application literally with a single line of code!
 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-ConvertingBetweenFormats-ConvertEPUBToXPS-WithASingleLine.cs" >}}
 

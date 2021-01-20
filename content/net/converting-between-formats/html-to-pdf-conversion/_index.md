@@ -5,7 +5,7 @@ weight: 20
 url: /net/html-to-pdf-conversion/
 ---
 
-In this article, you will find information on how to convert an [HTML](https://en.wikipedia.org/wiki/HTML) to [PDF](https://en.wikipedia.org/wiki/PDF) and how to use [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you will find information on how to convert an {{%HTML%}} to {{%PDF%}} and how to use [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}} 
 

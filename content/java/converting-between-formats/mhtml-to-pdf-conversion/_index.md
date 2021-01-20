@@ -5,7 +5,7 @@ weight: 130
 url: /java/mhtml-to-pdf-conversion/
 ---
 
-In this article, you will find information about how to convert an [MHTML](https://en.wikipedia.org/wiki/MHTML) to [PDF](https://en.wikipedia.org/wiki/PDF) and how to use [PdfSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/pdfsaveoptions) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.
+In this article, you will find information about how to convert an {{%MHTML%}} to {{%PDF%}} and how to use [PdfSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/pdfsaveoptions) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.
 
 {{% alert color="primary" %}} 
 
@@ -13,7 +13,7 @@ In this article, you will find information about how to convert an [MHTML](http
 
 {{% /alert %}} 
 
-The static methods of the [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an [MHTML](https://en.wikipedia.org/wiki/MHTML) code into various formats. You can convert [MHTML](https://en.wikipedia.org/wiki/MHTML) to [PDF](https://en.wikipedia.org/wiki/PDF) in your Java application literally with a single line of code!
+The static methods of the [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an {{%MHTML%}} code into various formats. You can convert {{%MHTML%}} to {{%PDF%}} in your Java application literally with a single line of code!
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertMHTMLToPDF_WithASingleLine.java" >}}
 

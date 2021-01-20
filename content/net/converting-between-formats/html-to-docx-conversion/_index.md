@@ -5,7 +5,7 @@ weight: 40
 url: /net/html-to-docx-conversion/
 ---
 
-In this article, you will find information on how to convert an [HTML](https://en.wikipedia.org/wiki/HTML) to [DOCX](https://en.wikipedia.org/wiki/Office_Open_XML) and how to use [DocSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you will find information on how to convert an {{%HTML%}} to {{%DOCX%}} and how to use [DocSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
 
 The static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an HTML code into various formats. You can convert HTML to DOCX in your C# application literally with a single line of code!
 

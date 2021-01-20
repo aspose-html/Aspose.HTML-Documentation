@@ -5,7 +5,7 @@ weight: 50
 url: /java/html-to-mhtml-conversion/
 ---
 
-In this article, you will find information on how to convert an [HTML](https://en.wikipedia.org/wiki/HTML) to [MHTML](https://en.wikipedia.org/wiki/MHTML) and how to use [MHTMLSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/MHTMLSaveOptions).
+In this article, you will find information on how to convert an {{%HTML%}} to {{%MHTML%}} and how to use [MHTMLSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/MHTMLSaveOptions).
 
 {{% alert color="primary" %}} 
 

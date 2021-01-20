@@ -5,7 +5,7 @@ weight: 110
 url: /net/epub-to-pdf-conversion/
 ---
 
-In this article, you will find information about how to convert an [EPUB](https://en.wikipedia.org/wiki/EPUB) to [PDF](https://en.wikipedia.org/wiki/PDF) and how to use [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you will find information about how to convert an {{%EPUB%}} to {{%PDF%}} and how to use [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}} 
 
@@ -13,7 +13,7 @@ In this article, you will find information about how to convert an [EPUB](https
 
 {{% /alert %}} 
 
-The static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an [EPUB](https://en.wikipedia.org/wiki/EPUB) code into various formats. You can convert [EPUB](https://en.wikipedia.org/wiki/EPUB) to [PDF](https://en.wikipedia.org/wiki/PDF) in your C# application literally with a single line of code!
+The static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an {{%EPUB%}} code into various formats. You can convert {{%EPUB%}} to {{%PDF%}} in your C# application literally with a single line of code!
 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-ConvertingBetweenFormats-ConvertEPUBToPDF-WithASingleLine.cs" >}}
 

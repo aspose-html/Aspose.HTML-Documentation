@@ -183,7 +183,7 @@ using Aspose.Html;
 {{< /highlight >}}
 
 ## **SVG Document**
-Since [Scalable Vector Graphics (SVG)](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) is a part of [W3C](https://www.w3.org/) standards and could be embedded into the [**HTMLDocument**](https://apireference.aspose.com/net/html/aspose.html/htmldocument), we implemented the [**SVGDocument**](https://apireference.aspose.com/net/html/aspose.html.dom.svg/svgdocument) and all its functionality. Our implementation is based on official [SVG 2 specification](https://www.w3.org/TR/SVG2/), so you can load, read, manipulate SVG documents as it described officially.
+Since Scalable Vector Graphics ({{%SVG%}}) is a part of [W3C](https://www.w3.org/) standards and could be embedded into the [**HTMLDocument**](https://apireference.aspose.com/net/html/aspose.html/htmldocument), we implemented the [**SVGDocument**](https://apireference.aspose.com/net/html/aspose.html.dom.svg/svgdocument) and all its functionality. Our implementation is based on official [SVG 2 specification](https://www.w3.org/TR/SVG2/), so you can load, read, manipulate SVG documents as it described officially.
 
 Since the **SVGDocument** and  the **HTMLDocument** are based on the same [WHATWG DOM](https://dom.spec.whatwg.org/) standard, all operations such as loading, reading, editing, converting and saving are similar for both documents. So, all examples where you can see manipulation with the **HTMLDocument** are applicable for the **SVGDocument** as well.
 
@@ -203,11 +203,11 @@ using Aspose.Html.Dom.Svg;
   In the example above, we have produced an SVG document that contains a circle with a radius of 40 pixels. You can learn more about working with SVG documents from the **[How to work with Aspose.SVG API](https://docs.aspose.com/svg/net/how-to-work-with-aspose-svg-api/)** chapter.
 
 ## **MHTML Document**
-[MHTML](https://en.wikipedia.org/wiki/MHTML) stands for MIME encapsulation of aggregate HTML documents. An MHTML file is an archive containing all the content of a web page. It stores the HTML of a web page as well as related resources on a web page, which can include CSS, JavaScript, images, and audio files. It is a specialized format to create web page archives, and web developers primarily use MHTML files to save the current state of a web page for archiving purposes. 
+{{%MHTML%}} stands for MIME encapsulation of aggregate HTML documents. An MHTML file is an archive containing all the content of a web page. It stores the HTML of a web page as well as related resources on a web page, which can include CSS, JavaScript, images, and audio files. It is a specialized format to create web page archives, and web developers primarily use MHTML files to save the current state of a web page for archiving purposes. 
 The Aspose.HTML library supports this format, but with some limitations. We only support the rendering operations from MHTML to the supported output formats. For more details, please read the [**Converting Between Formats**](/html/net/converting-between-formats/) article.
 
 ## **EPUB Document**
-[EPUB](https://en.wikipedia.org/wiki/EPUB) is a format supported by a majority of eReaders and compatible with most devices you read on - smartphones, tablets, and computers.  For [EPUB](https://en.wikipedia.org/wiki/EPUB) format, which represents an *electronic publication* format, we have the same limitation as for [MHTML](https://en.wikipedia.org/wiki/MHTML). We only support the rendering operations from EPUB to the supported output formats. For more details, please read the [**Converting Between Formats**](/html/net/converting-between-formats/) article.
+{{%EPUB%}} is a format supported by a majority of eReaders and compatible with most devices you read on - smartphones, tablets, and computers.  For {{%EPUB%}} format, which represents an *electronic publication* format, we have the same limitation as for {{%MHTML%}}. We only support the rendering operations from EPUB to the supported output formats. For more details, please read the [**Converting Between Formats**](/html/net/converting-between-formats/) article.
 
 ## **Asynchronous Operations**
 We realize that loading a document could be a resource-intensive operation since it’s required loading not only the document itself but all linked resources and processing all scripts. So, in the following code snippets, we show you how to use asynchronous operations and load the [**HTMLDocument**](https://apireference.aspose.com/net/html/aspose.html/htmldocument) without blocking the main thread:

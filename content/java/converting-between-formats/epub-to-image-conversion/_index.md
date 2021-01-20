@@ -5,7 +5,7 @@ weight: 90
 url: /java/epub-to-image-conversion/
 ---
 
-In this article, you will find information on how to convert an [EPUB](https://en.wikipedia.org/wiki/EPUB) to Image File Formats such as [JPG](https://en.wikipedia.org/wiki/Image_file_formats#JPEG/JFIF), [PNG](https://en.wikipedia.org/wiki/Image_file_formats#PNG), [BMP](https://en.wikipedia.org/wiki/Image_file_formats#BMP), [TIFF](https://en.wikipedia.org/wiki/Image_file_formats#TIFF) and how to use [ImageSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/imagesaveoptions) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.
+In this article, you will find information on how to convert an {{%EPUB%}} to Image File Formats such as {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}} and how to use [ImageSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/imagesaveoptions) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.
 
 {{% alert color="primary" %}} 
 
@@ -13,7 +13,7 @@ In this article, you will find information on how to convert an [EPUB](https://e
 
 {{% /alert %}} 
 
-The static methods of the [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert [EPUB](https://en.wikipedia.org/wiki/EPUB) file into various formats. You can convert [EPUB](https://en.wikipedia.org/wiki/EPUB) to Image in your Java application literally with a single line of code!
+The static methods of the [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert {{%EPUB%}} file into various formats. You can convert {{%EPUB%}} to Image in your Java application literally with a single line of code!
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertEPUBToImage_WithASingleLine.java" >}}
 ## **Convert EPUB to JPG** ## 

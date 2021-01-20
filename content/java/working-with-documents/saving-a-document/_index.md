@@ -30,19 +30,19 @@ The following code snippet shows how to use [ResourceHandlingOptions](https://
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_WorkingWithDocuments_SavingADocument_HTMLWithoutLinkedFile.java" >}}
 ### **HTML to MHTML** ### 
-In some cases you need to save your document as a single file. [MHTML](https://en.wikipedia.org/wiki/MHTML) document could be very useful for this purpose since it is a web-page archive and it is store everything inside itself. 
+In some cases you need to save your document as a single file. {{%MHTML%}} document could be very useful for this purpose since it is a web-page archive and it is store everything inside itself. 
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_WorkingWithDocuments_SavingADocument_HTMLToMHTML.java" >}}
 
 As well as for [*HTML to File*](/html/java/saving-a-document/#savingadocument-htmltofile) example, you can use [MHTMLSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/MHTMLSaveOptions) and customize the required handling options.
 ### **HTML to Markdown** ### 
-[Markdown](https://en.wikipedia.org/wiki/Markdown) is a markup language with plain-text syntax. In order to create Markdown files by using Aspose.HTML, please take a look at following example:
+{{%Markdown%}} is a markup language with plain-text syntax. In order to create Markdown files by using Aspose.HTML, please take a look at following example:
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_WorkingWithDocuments_SavingADocument_HTMLToMarkdown.java" >}}
 
 For the more information how to use Markdown Converter, please visit [HTML to Markdown](/html/java/html-to-markdown-conversion/) article.
 ## **Save SVG** ## 
-Usually, you could see the [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics) document as a part of HTML file, it is used to represent the vector data on the page: images, icons, tables, etc. However, SVG also could be extracted from the web page and you can manipulate it in a similar way as the HTML document.
+Usually, you could see the {{%SVG%}} document as a part of HTML file, it is used to represent the vector data on the page: images, icons, tables, etc. However, SVG also could be extracted from the web page and you can manipulate it in a similar way as the HTML document.
 
 
 

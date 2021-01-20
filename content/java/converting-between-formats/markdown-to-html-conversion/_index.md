@@ -11,7 +11,7 @@ url: /java/markdown-to-html-conversion/
 
 {{% /alert %}} 
 
-[Markdown](http://en.wikipedia.org/wiki/Markdown) is a markup language with a plain-text-formatting syntax. Markdown is often used as a format for documentation and readme files since it allows writing in an easy-to-read and easy-to-write style. Its design allows it to be easily converted to many output formats, but initially it was created to convert the only to HTML. Using the Aspose.HTML class library in your Java application, you can easily convert Markdown into HTML file with just a single line of code!
+{{%Markdown%}} is a markup language with a plain-text-formatting syntax. Markdown is often used as a format for documentation and readme files since it allows writing in an easy-to-read and easy-to-write style. Its design allows it to be easily converted to many output formats, but initially it was created to convert the only to HTML. Using the Aspose.HTML class library in your Java application, you can easily convert Markdown into HTML file with just a single line of code!
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertMarkdownToHTML_WithASingleLine.java" >}}
 

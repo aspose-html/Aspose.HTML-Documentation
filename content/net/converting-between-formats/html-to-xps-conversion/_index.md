@@ -5,7 +5,7 @@ weight: 30
 url: /net/html-to-xps-conversion/
 ---
 
-In this article, you will find information on how to convert an [HTML](https://en.wikipedia.org/wiki/HTML) to [XPS](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification) and how to use [XpsSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you will find information on how to convert an {{%HTML%}} to {{%XPS%}} and how to use [XpsSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
 
 
 {{% alert color="primary" %}} 

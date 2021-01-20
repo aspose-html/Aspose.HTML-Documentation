@@ -11,7 +11,7 @@ The following table summarizes the features available in Aspose.HTML for Java AP
 
 {{% /alert %}} 
 ## **Aspose.HTML for Java Features** ## 
-Aspose.HTML is a programming API that allows developers to create, open existing, manipulate, navigate through and convert (X)HTML documents to the various supported output formats. Aspose.HTML implements W3C HTML specification, so it’s classes and properties have similar names that come from the specifications.
+Aspose.HTML is a programming API that allows developers to create, open existing, manipulate, navigate through and convert {{%XHTML%}} documents to the various supported output formats. Aspose.HTML implements W3C HTML specification, so it’s classes and properties have similar names that come from the specifications.
 
 
 
@@ -29,7 +29,7 @@ This API mimics the behavior of a headless browser and offers following features
   - by using [CSS Selector queries](https://www.w3.org/TR/selectors-api)
 - Scripting that allows to manipulate HTML DOM via JavaScript
 - Converting HTML document into various supported formats: JPEG, PNG, BMP, TIFF, PDF, XPS
-- Converting (X)HTML and similar formats, such as [EPUB](https://www.fileformat.com/) and MHTML to above specified formats.
+- Converting (X)HTML and similar formats, such as {{%EPUB%}} and MHTML to above specified formats.
 
 Note
 

@@ -5,7 +5,7 @@ weight: 110
 url: /java/epub-to-xps-conversion/
 ---
 
-In this article, you will find information on how to convert an [EPUB](https://en.wikipedia.org/wiki/EPUB) to [XPS](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification) and how to use [XpsSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/xpssaveoptions) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.
+In this article, you will find information on how to convert an {{%EPUB%}} to {{%XPS%}} and how to use [XpsSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/xpssaveoptions) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.
 
 {{% alert color="primary" %}} 
 
@@ -13,7 +13,7 @@ In this article, you will find information on how to convert an [EPUB](https://
 
 {{% /alert %}} 
 
-The static methods of the [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an [EPUB](https://en.wikipedia.org/wiki/EPUB) code into various formats. You can convert [EPUB](https://en.wikipedia.org/wiki/EPUB) to [XPS](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification) in your Java application literally with a single line of code!
+The static methods of the [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an {{%EPUB%}} code into various formats. You can convert {{%EPUB%}} to {{%XPS%}} in your Java application literally with a single line of code!
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertEPUBToXPS_WithASingleLine.java" >}}
 

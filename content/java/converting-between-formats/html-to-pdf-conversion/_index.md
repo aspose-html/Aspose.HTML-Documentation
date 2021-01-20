@@ -5,7 +5,7 @@ weight: 20
 url: /java/html-to-pdf-conversion/
 ---
 
-In this article, you will find information on how to convert an [HTML](https://en.wikipedia.org/wiki/HTML) to [PDF](https://en.wikipedia.org/wiki/PDF) and how to use [PdfSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/pdfsaveoptions) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.
+In this article, you will find information on how to convert an {{%HTML%}} to {{%PDF%}} and how to use [PdfSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/pdfsaveoptions) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.
 
 {{% alert color="primary" %}} 
 
