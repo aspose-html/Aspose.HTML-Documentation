@@ -21,5 +21,5 @@ The following table indicates the input and output file formats supported by Asp
 |{{%JPEG%}}|Joint Photographic Experts Group format| |{{< emoticons/tick >}}|
 |{{%PNG%}}|Portable Network Graphics format| |{{< emoticons/tick >}}|
 |{{%BMP%}}|Bitmap Picture format| |{{< emoticons/tick >}}|
-|[GIF](https://wiki.fileformat.com/image/gif/)|Graphics Interchange Format| |{{< emoticons/tick >}}|
+|{{%GIF%}}|Graphics Interchange Format| |{{< emoticons/tick >}}|
 
