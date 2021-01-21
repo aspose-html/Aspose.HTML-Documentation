@@ -23,7 +23,7 @@ Aspose.HTML for .NET is designed to process not only HTML but all the related fo
 
 You can learn more about all these and other features in [Features List](/html/net/features-list/) article.
 ### **Performance and scalability**
-Aspose.HTML is a single file assembly, written in C#, which supports multiple .NET Framework and .NET Standard versions. That why you will be able to use it within any type of a 32-bit or 64-bit .NET application including ASP.NET, WCF, WinForms etc. It is a fast, lightweight component which creates, converts and edits {{%XHTML%}}, SVG, MHTML and {{%EPUB%}} documents efficiently. 
+Aspose.HTML is a single file assembly, written in C#, which supports multiple .NET Framework and .NET Standard versions. That why you will be able to use it within any type of a 32-bit or 64-bit .NET application including ASP.NET, WCF, WinForms etc. It is a fast, lightweight component which creates, converts and edits HTML, {{%XHTML%}}, SVG, MHTML and {{%EPUB%}} documents efficiently. 
 
 Aspose.HTML for .NET is multi-thread safe as long as only one thread works on a document at a time. It is a typical scenario to have one thread working on one document. Different threads can safely work on different documents at the same time.
 ### **Minimal learning curve**
@@ -34,7 +34,7 @@ Although there are many public classes, interfaces and enumerations in Aspose.HT
 
 By fulfilling the first goal, we have achieved that our API is similar to those used by modern browsers, which means that our API is well structured and described.
 
-The example of fulfilling the second goal can be seen in Converter API. On the one hand, you can convert {{%XHTML%}}, {{%EPUB%}}, MHTML or SVG to many output formats with just one line of code.
+The example of fulfilling the second goal can be seen in Converter API. On the one hand, you can convert HTML, {{%XHTML%}}, {{%EPUB%}}, MHTML or SVG to many output formats with just one line of code.
 
 {{< highlight csharp >}}
 

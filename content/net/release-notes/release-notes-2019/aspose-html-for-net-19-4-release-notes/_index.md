@@ -13,6 +13,6 @@ We are pleased to announce that our JavaScript Engine has been completely rework
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
 |HTMLNET-1810|HTML to PDF - Images do not render|Bug|
-|HTMLNET-1830|Rendering to PDF/{{%XPS%}} some input data causes exception|Bug|
+|HTMLNET-1830|Rendering to PDF/XPS some input data causes exception|Bug|
 |HTMLNET-1800|Margins of SVG images change together with HTML|Bug|
 

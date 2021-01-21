@@ -17,7 +17,7 @@ Since HTML is generally used in combination with other technologies,
 Aspose.HTML supports not only HTML5 but CSS3, SVG, and HTML Canvas 
 specifications as well. Using Aspose.HTML, you can load web pages, 
 analyze and edit the content, save and convert pages to-and-from the following formats:
-{{%XHTML%}}, {{%MHTML%}}, {{%SVG%}}, {{%Markdown%}}, {{%PDF%}}, {{%XPS%}},
+{{%HTML%}}, {{%XHTML%}}, {{%MHTML%}}, {{%SVG%}}, {{%Markdown%}}, {{%PDF%}}, {{%XPS%}},
 {{%EPUB%}}, {{%PNG%}}, {{%TIFF%}}, {{%JPEG%}}, {{%BMP%}}, 
 and other formats.
 

@@ -21,7 +21,7 @@ For more examples, please visit [Converting Between Formats](/html/net/convertin
 
 **Q: What formats does Aspose.HTML support?**
 
-**A:** Out-of-the-box we support {{%XHTML%}}, SVG, {{%EPUB%}}, MHTML and Markdown documents. As a part of mentioned documents we also support CSS, JavaScript, XPath and HTML5 Canvas specifications. For more details, please visit [Features List](/html/net/features-list/) page.
+**A:** Out-of-the-box we support HTML, {{%XHTML%}}, SVG, {{%EPUB%}}, MHTML and Markdown documents. As a part of mentioned documents we also support CSS, JavaScript, XPath and HTML5 Canvas specifications. For more details, please visit [Features List](/html/net/features-list/) page.
 
 
 

@@ -20,6 +20,6 @@ As per the regular monthly update process of all APIs being offered by Aspose, w
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-|HTMLNET-2220|MHT to {{%XPS%}} crash during conversion|Bug|
+|HTMLNET-2220|MHT to XPS crash during conversion|Bug|
 |HTMLNET-2188|ArgumentException while converting HTML file to PDF|Bug|
 
