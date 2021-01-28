@@ -15,11 +15,9 @@ We are pleased to announce that our JavaScript engine has been further improved 
 
 ## **Public API changes**
 
-com.aspose.html.collections.HTMLCollection com.aspose.html.dom.Document.getElementsByClassName(String classNames)
+com.aspose.html.collections.HTMLCollection com.aspose.html.dom.Document.getElementsByClassName(String classNames)  
 
 com.aspose.html.collections.HTMLCollection com.aspose.html.dom.Element.getElementsByClassName(String classNames)
-
-
 
 **Usage Example**
 
