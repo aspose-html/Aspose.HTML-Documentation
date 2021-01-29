@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: main
+  branch: with_submodules
 
 media_folder: static/images
 public_folder: /images
