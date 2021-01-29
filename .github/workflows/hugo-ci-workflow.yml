@@ -12,6 +12,7 @@ jobs:
     steps:
       - name: preparing workspace git pull documentation
         run: |
+          cat ~/.ssh/id_rsa.pub
           cd ${{secrets.HUGO_SITE_LOCATION}}
           pwd
           ls -lA
@@ -19,6 +20,7 @@ jobs:
           git reset --hard origin/main
           git submodule init
           git submodule update -f
+          cat ~/.ssh/id_rsa.pub
       - name: preparing workspace npm install dependencies
         run: |
           cd ${{secrets.HUGO_SITE_LOCATION}}
