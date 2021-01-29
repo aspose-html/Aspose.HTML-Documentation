@@ -12,7 +12,6 @@ jobs:
     steps:
       - name: preparing workspace git pull documentation
         run: |
-          cat ~/.ssh/id_rsa.pub
           cd ${{secrets.HUGO_SITE_LOCATION}}
           pwd
           ls -lA
