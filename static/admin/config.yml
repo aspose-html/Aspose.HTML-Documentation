@@ -1,7 +1,12 @@
 backend:
   name: git-gateway
+#  repo: tpavel-aspose/sample-html-docs-300
   branch: main
+  squash_merges: true
+#  use_graphql: true
 
+#site_url: https://aspose-documentation-html.netlify.app
+#display_url: https://docs.aspose.com
 media_folder: static/images
 public_folder: /images
 publish_mode: editorial_workflow
@@ -11,31 +16,169 @@ show_preview_links: true
 collections:
   - name: java
     label: Java
-    label_singular: "Page"
+    description: "Documentation of Aspose.HTML for Java"
+    label_singular: "Post for Java"
     folder: content/java
     create: true
     media_folder: ''
     public_folder: ''
     preview_path: "java/{{slug}}"
+#    summary: "{{commit_date}} {{commit_author}} [{{weight}}]  : {{title}} - [{{url}}]"
+    summary: "{{commit_date}} {{commit_author}} [{{weight}}]  : {{title}} "
     nested:
       depth: 100
       summary: "{{title}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Weight", name: "weight", widget: "number", value_type: "int", default: 10, step: 10, min: 1, max: 1000 }
+      - {label: "Type", name: "type", widget: "select", default: "docs", options: ["docs"], allow_add: false}
+#      - label: "Ext props"
+#        name: "ext"
+#        widget: "object"
+#        collapsed: true
+#        fields:
+#          - {label: "Weight", name: "weight", widget: "number", value_type: "int", step: 2, min: 1, max: 1000 }
+#          - {label: "Url", name: "url", widget: "string"}
+#          - {label: "Aliases", name: "aliases", widget: "list"}
       - {label: "Body", name: "body", widget: "markdown"}
     meta: { path: { widget: string, label: "Path", index_file: "_index" } }
+#    sortable_fields: ['weight', 'title', "url",'commit_author', 'language.en']
+    sortable_fields: [ "commit_author", "commit_date",'title', "weight"]
+    view_filters:
+      - label: "Author"
+        field: commit_author
+        pattern: ''
+      - label: "Has aliases"
+        field: aliases
+        pattern: ''
+      - label: 'Weight'
+        field: weight
+        pattern: ''
+    view_groups:
+      - label: Author
+        field: commit_author
+        # groups items based on the value matched by the pattern
+        pattern: \d{4}
+      - label: Date
+        field: commit_date
+        # groups items based on the value matched by the pattern
+        pattern: \d{4}
+      - label: Weight
+        field: weight
 
   - name: net
     label: NET
-    label_singular: "Page"
+    label_singular: "Page for .Net"
     folder: content/net
     create: true
     media_folder: ''
     public_folder: ''
+    preview_path: "net/{{path}}"
     nested:
       depth: 100
       summary: "{{title}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
+      - {label: "Weight", name: "weight", widget: "number", value_type: "int", default: 10, step: 10, min: 1, max: 1000 }
+      - {label: "Type", name: "type", widget: "select", default: "docs", options: ["docs"], allow_add: false}
       - {label: "Body", name: "body", widget: "markdown"}
     meta: { path: { widget: string, label: "Path", index_file: "_index" } }
+    summary: "[{{weight}}] - {{title}}"
+
+
+  - name: netlify-manual_EN
+    label: Netlify Manual EN
+    description: "This is manual for Netlify CMS EN"
+    label_singular: "Netlify Manual Post"
+    folder: content/netlify-manual_EN
+    create: true
+    media_folder: ''
+    public_folder: ''
+    preview_path: "netlify-manual_EN/{{slug}}/"
+    #    summary: "{{commit_date}} {{commit_author}} [{{weight}}]  : {{title}} - [{{url}}]"
+    summary: "{{commit_date}} {{commit_author}} [{{weight}}]  : {{title}} "
+    nested:
+      depth: 100
+      summary: "{{title}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Weight", name: "weight", widget: "number", value_type: "int", default: 10, step: 10, min: 1, max: 1000 }
+      - {label: "Type", name: "type", widget: "select", default: "docs", options: ["docs"], allow_add: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+    meta: { path: { widget: string, label: "Path", index_file: "_index" } }
+    sortable_fields: [ "commit_author", "commit_date",'title', "weight"]
+    view_filters:
+      - label: "Author"
+        field: commit_author
+        pattern: ''
+      - label: "Has aliases"
+        field: aliases
+        pattern: ''
+      - label: 'Weight'
+        field: weight
+        pattern: ''
+    view_groups:
+      - label: Author
+        field: commit_author
+        # groups items based on the value matched by the pattern
+        pattern: \d{4}
+      - label: Date
+        field: commit_date
+        # groups items based on the value matched by the pattern
+        pattern: \d{4}
+      - label: Weight
+        field: weight
+
+
+  - name: netlify-manual_RU
+    label: Netlify Manual RU
+    description: "This is manual for Netlify CMS RU"
+    label_singular: "Netlify Manual Post"
+    folder: content/netlify-manual_RU
+    create: true
+    media_folder: ''
+    public_folder: ''
+    preview_path: "netlify-manual_RU/{{slug}}/"
+    #    summary: "{{commit_date}} {{commit_author}} [{{weight}}]  : {{title}} - [{{url}}]"
+    summary: "{{commit_date}} {{commit_author}} [{{weight}}]  : {{title}} "
+    nested:
+      depth: 100
+      summary: "{{title}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Weight", name: "weight", widget: "number", value_type: "int", default: 10, step: 10, min: 1, max: 1000 }
+      - {label: "Type", name: "type", widget: "select", default: "docs", options: ["docs"], allow_add: false}
+#      - {label: "commit_author", name: "commit_author", widget: "string" }
+      #      - label: "Ext props"
+      #        name: "ext"
+      #        widget: "object"
+      #        collapsed: true
+      #        fields:
+      #          - {label: "Weight", name: "weight", widget: "number", value_type: "int", step: 2, min: 1, max: 1000 }
+      #          - {label: "Url", name: "url", widget: "string"}
+      #          - {label: "Aliases", name: "aliases", widget: "list"}
+      - {label: "Body", name: "body", widget: "markdown"}
+    #    sortable_fields: ['weight', 'title', "url",'commit_author', 'language.en']
+    meta: { path: { widget: string, label: "Path", index_file: "_index" } }
+    sortable_fields: [ "commit_author", "commit_date",'title', "weight"]
+    view_filters:
+      - label: "Author"
+        field: commit_author
+        pattern: ''
+      - label: "Has aliases"
+        field: aliases
+        pattern: ''
+      - label: 'Weight'
+        field: weight
+        pattern: ''
+    view_groups:
+      - label: Author
+        field: commit_author
+        # groups items based on the value matched by the pattern
+        pattern: \d{4}
+      - label: Date
+        field: commit_date
+        # groups items based on the value matched by the pattern
+        pattern: \d{4}
+      - label: Weight
+        field: weight
