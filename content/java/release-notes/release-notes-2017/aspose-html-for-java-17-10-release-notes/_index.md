@@ -1,7 +1,8 @@
 ---
 title: Aspose.Html for Java 17.10 Release Notes
-type: docs
+description: main branch
 weight: 30
+type: docs
 url: /java/aspose-html-for-java-17-10-release-notes/
 ---
 
