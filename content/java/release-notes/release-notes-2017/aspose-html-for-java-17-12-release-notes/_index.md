@@ -1,7 +1,8 @@
 ---
 title: Aspose.HTML for Java 17.12 Release Notes
-type: docs
+description: test
 weight: 10
+type: docs
 url: /java/aspose-html-for-java-17-12-release-notes/
 ---
 
