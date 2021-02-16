@@ -11,7 +11,7 @@
 
 backend:
   name: git-gateway
-  branch: main
+  branch: netlify-test
   squash_merges: true
 
 
