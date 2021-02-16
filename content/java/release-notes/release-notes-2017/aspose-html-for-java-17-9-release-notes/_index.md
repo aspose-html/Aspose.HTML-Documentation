@@ -4,7 +4,7 @@ keywords: Cloud SDKs, REST API, Cloud APIs, cloud account, Authentication +++
 weight: 40
 type: docs
 url: /java/aspose-html-for-java-17-9-release-notes/
-description: main branch
+description: main branch netlify-test-
 ---
 As regular monthly update process of all APIs being offered by Aspose, we are honored to announce the release of Aspose.HTML for Java. In this release, we have made some internal enhancements related to positioning algorithm. Specified below is the list of issues covering all changes in this release.
 
