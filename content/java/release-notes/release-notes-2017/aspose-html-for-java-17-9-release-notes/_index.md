@@ -3,6 +3,7 @@ title: Aspose.Html for Java 17.9 Release Notes
 weight: 40
 type: docs
 url: /java/aspose-html-for-java-17-9-release-notes/
+keywords: Cloud SDKs, REST API, Cloud APIs, cloud account, Authentication +++
 ---
 As regular monthly update process of all APIs being offered by Aspose, we are honored to announce the release of Aspose.HTML for Java. In this release, we have made some internal enhancements related to positioning algorithm. Specified below is the list of issues covering all changes in this release.
 
