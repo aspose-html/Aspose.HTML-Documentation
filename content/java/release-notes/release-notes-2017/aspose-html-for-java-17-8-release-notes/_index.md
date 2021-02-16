@@ -1,7 +1,8 @@
 ---
 title: Aspose.Html for Java 17.8 Release Notes
-type: docs
+description: main
 weight: 50
+type: docs
 url: /java/aspose-html-for-java-17-8-release-notes/
 ---
 
