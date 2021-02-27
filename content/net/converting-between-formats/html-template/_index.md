@@ -1,7 +1,6 @@
 ---
 title: HTML Template
-aliases:
-    - /net/template-syntax/
+aliases: /net/template-syntax/
 type: docs
 weight: 170
 url: /net/html-template/

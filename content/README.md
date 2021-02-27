@@ -1,2 +1,0 @@
-# Aspose.HTML-Documentation
-* * * *

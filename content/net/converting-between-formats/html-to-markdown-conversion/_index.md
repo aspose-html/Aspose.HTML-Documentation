@@ -1,7 +1,6 @@
 ---
 title: HTML to Markdown Conversion
-aliases:
-    - /net/html-to-markdown/
+aliases: /net/html-to-markdown/
 type: docs
 weight: 50
 url: /net/html-to-markdown-conversion/
