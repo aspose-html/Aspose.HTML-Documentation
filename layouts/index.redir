@@ -2,7 +2,7 @@
 {{ range $p := .Site.Pages -}}
 {{   range  .Aliases -}}
 {{     if ne .  $p.RelPermalink -}}
-{{          . | printf "%-60s" }}	{{ $p.RelPermalink   -}};
+{{          . | printf "/html%-60s" }}	{{ $p.RelPermalink   -}};
 {{     end -}}
 {{   end -}}
 {{ end -}}
