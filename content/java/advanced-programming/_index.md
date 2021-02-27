@@ -2,7 +2,7 @@
 title: Advanced Programming
 type: docs
 weight: 50
-url: /java/advanced-programming/
+aliases: /java/advanced-programming/
 ---
 
 This section covers some of Aspose.HTML more advanced feature.

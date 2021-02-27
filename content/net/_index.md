@@ -2,7 +2,7 @@
 title: Aspose.HTML for .NET
 type: docs
 weight: 10
-url: /net/
+aliases: /net/
 is_root: true
 ---
 

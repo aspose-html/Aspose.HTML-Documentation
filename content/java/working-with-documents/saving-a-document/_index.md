@@ -2,7 +2,7 @@
 title: Saving a Document
 type: docs
 weight: 40
-url: /java/saving-a-document/
+aliases: /java/saving-a-document/
 ---
 
 {{% alert color="primary" %}} 

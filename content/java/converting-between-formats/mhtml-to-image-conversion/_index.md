@@ -2,7 +2,7 @@
 title: MHTML to Image Conversion
 type: docs
 weight: 120
-url: /java/mhtml-to-image-conversion/
+aliases: /java/mhtml-to-image-conversion/
 ---
 
 In this article, you will find information on how to convert an {{%MHTML%}} to Image File Formats such as {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}} and how to use [ImageSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/imagesaveoptions) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.

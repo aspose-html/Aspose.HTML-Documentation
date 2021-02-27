@@ -2,7 +2,7 @@
 title: Web Scraping
 type: docs
 weight: 40
-url: /net/web-scraping/
+aliases: /net/web-scraping/
 ---
 
 **Web scraping**, also well known as **web harvesting**, **web data extraction** or **web crawling**, is used for extracting data from websites. A **web scraping software** will help you to automate the process of extracting data based on your requirements. However, configuring **web scraping software** sometimes is a challenging task. Using *Aspose.HTML* class library, you can easily create your own application, since our API provides a powerful toolset to analyze and collect information from HTML documents.

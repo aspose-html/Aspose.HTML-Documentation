@@ -2,7 +2,7 @@
 title: HTML to MHTML Conversion
 type: docs
 weight: 60
-url: /net/html-to-mhtml-conversion/
+aliases: /net/html-to-mhtml-conversion/
 ---
 
 In this article, you will find information on how to convert an {{%HTML%}} to {{%MHTML%}} and how to use [MHTMLSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/mhtmlsaveoptions).

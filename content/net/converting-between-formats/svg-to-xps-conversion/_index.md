@@ -2,7 +2,7 @@
 title: SVG to XPS Conversion
 type: docs
 weight: 90
-url: /net/svg-to-xps-conversion/
+aliases: /net/svg-to-xps-conversion/
 ---
 
 In this article, you will find information on how to convert an {{%SVG%}} to {{%XPS%}} and how to use [XpsSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.

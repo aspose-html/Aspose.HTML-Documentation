@@ -2,7 +2,7 @@
 title: EPUB to PDF Conversion
 type: docs
 weight: 110
-url: /net/epub-to-pdf-conversion/
+aliases: /net/epub-to-pdf-conversion/
 ---
 
 In this article, you will find information about how to convert an {{%EPUB%}} to {{%PDF%}} and how to use [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.

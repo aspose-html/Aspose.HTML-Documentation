@@ -2,7 +2,7 @@
 title: Editing an HTML Document
 type: docs
 weight: 30
-url: /net/editing-a-document/
+aliases: /net/editing-a-document/
 description: Document Object Model, DOM Tree, Edit HTML, Edit a Document Tree, Using InnerHTML & OuterHTML properties, Edit CSS, Inline CSS, Internal CSS, External CSS
 ---
 <link href="./../style.css" rel="stylesheet" type="text/css" />

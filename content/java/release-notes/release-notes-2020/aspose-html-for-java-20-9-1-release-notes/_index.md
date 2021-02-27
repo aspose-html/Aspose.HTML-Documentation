@@ -2,7 +2,7 @@
 title: Aspose.HTML for Java 20.9.1 Release Notes
 type: docs
 weight: 30
-url: /java/aspose-html-for-java-20-9-1-release-notes/
+aliases: /java/aspose-html-for-java-20-9-1-release-notes/
 ---
 
 {{% alert color="primary" %}}

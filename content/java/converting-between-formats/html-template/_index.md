@@ -2,7 +2,7 @@
 title: HTML Template
 type: docs
 weight: 160
-url: /java/html-template/
+aliases: /java/html-template/
 ---
 
 This article describes how to create an HTML document based on a template and populate it from a data-source. Aspose.HTML provides the inline expressions syntax to work with templates and various types of data-source, such as XML and JSON.

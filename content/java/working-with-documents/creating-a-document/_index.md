@@ -2,7 +2,7 @@
 title: Creating a Document
 type: docs
 weight: 20
-url: /java/creating-a-document/
+aliases: /java/creating-a-document/
 ---
 
 ## **HTML Document** ## 

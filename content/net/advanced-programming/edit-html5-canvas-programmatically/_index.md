@@ -2,7 +2,7 @@
 title: Edit HTML5 Canvas Programmatically
 type: docs
 weight: 10
-url: /net/edit-html5-canvas-programmatically/
+aliases: /net/edit-html5-canvas-programmatically/
 ---
 
 HTML5 Canvas, which is used for rendering graphs, game graphics, art, or other visual images on the fly, is in the list of build-in formats of Aspose.HTML class library.

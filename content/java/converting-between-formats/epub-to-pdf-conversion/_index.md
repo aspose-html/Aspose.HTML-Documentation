@@ -2,7 +2,7 @@
 title: EPUB to PDF Conversion
 type: docs
 weight: 100
-url: /java/epub-to-pdf-conversion/
+aliases: /java/epub-to-pdf-conversion/
 ---
 
 In this article, you will find information about how to convert an {{%EPUB%}} to {{%PDF%}} and how to use [PdfSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/pdfsaveoptions) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.

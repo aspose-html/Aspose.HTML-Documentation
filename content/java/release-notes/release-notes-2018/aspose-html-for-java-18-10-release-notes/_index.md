@@ -2,7 +2,7 @@
 title: Aspose.HTML for Java 18.10 Release Notes
 type: docs
 weight: 40
-url: /java/aspose-html-for-java-18-10-release-notes/
+aliases: /java/aspose-html-for-java-18-10-release-notes/
 ---
 
 ## **Aspose.HTML for Java 18.10.0 Release Notes** ## 

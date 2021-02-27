@@ -2,7 +2,7 @@
 title: Aspose.Html for .NET 17.7 Release Notes
 type: docs
 weight: 60
-url: /net/aspose-html-for-net-17-7-release-notes/
+aliases: /net/aspose-html-for-net-17-7-release-notes/
 ---
 
 ### **First Public Release of Aspose.HTML for .NET**

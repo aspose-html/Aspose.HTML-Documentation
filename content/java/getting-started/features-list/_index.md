@@ -2,7 +2,7 @@
 title: Features List
 type: docs
 weight: 30
-url: /java/features-list/
+aliases: /java/features-list/
 ---
 
 {{% alert color="primary" %}} 

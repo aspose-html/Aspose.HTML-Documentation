@@ -2,7 +2,7 @@
 title: MHTML to XPS Conversion
 type: docs
 weight: 150
-url: /net/mhtml-to-xps-conversion/
+aliases: /net/mhtml-to-xps-conversion/
 ---
 
 In this article, you will find information on how to convert an {{%MHTML%}} to {{%XPS%}} and how to use [XpsSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.

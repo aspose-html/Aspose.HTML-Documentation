@@ -2,7 +2,7 @@
 title: Aspose.HTML for .NET 21.2 Release Notes
 type: docs
 weight: 110
-url: /net/aspose-html-for-net-21-2-release-notes/
+aliases: /net/aspose-html-for-net-21-2-release-notes/
 ---
 
 {{% alert color="primary" %}} 

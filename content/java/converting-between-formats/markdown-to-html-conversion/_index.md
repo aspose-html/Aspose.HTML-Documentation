@@ -2,7 +2,7 @@
 title: Markdown To HTML Conversion
 type: docs
 weight: 150
-url: /java/markdown-to-html-conversion/
+aliases: /java/markdown-to-html-conversion/
 ---
 
 {{% alert color="primary" %}} 

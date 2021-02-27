@@ -2,7 +2,7 @@
 title: Converting Between Formats
 type: docs
 weight: 30
-url: /java/converting-between-formats/
+aliases: /java/converting-between-formats/
 ---
 Welcome to the "Converting between Formats" guides. The articles in this section provide information on the list of supported conversion scenarios and how to perform them by using a [Converter](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) class that is group all low-level conversion operation in a single class to make it comfy and easy to use.
 

@@ -1,10 +1,10 @@
 ---
 title: System Requirements
-aliases:
+aliases: 
     - /net/supported-platforms/
+    - /net/system-requirements/
 type: docs
 weight: 50
-url: /net/system-requirements/
 ---
 
 ## **Required software**

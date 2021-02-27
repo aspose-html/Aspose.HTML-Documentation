@@ -2,7 +2,7 @@
 title: EPUB to XPS Conversion
 type: docs
 weight: 110
-url: /java/epub-to-xps-conversion/
+aliases: /java/epub-to-xps-conversion/
 ---
 In this article, you will find information on how to convert an {{%EPUB%}} to {{%XPS%}} and how to use [XpsSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/xpssaveoptions) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.
 

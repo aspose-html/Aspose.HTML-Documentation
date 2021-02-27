@@ -2,7 +2,7 @@
 title: Aspose.HTML for .NET 18.8 Release Notes
 type: docs
 weight: 50
-url: /net/aspose-html-for-net-18-8-release-notes/
+aliases: /net/aspose-html-for-net-18-8-release-notes/
 ---
 
 ### **Aspose.HTML for .NET 18.8 Release Notes**

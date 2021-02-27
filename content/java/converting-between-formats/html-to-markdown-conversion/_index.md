@@ -2,7 +2,7 @@
 title: HTML to Markdown Conversion
 type: docs
 weight: 40
-url: /java/html-to-markdown-conversion/
+aliases: /java/html-to-markdown-conversion/
 ---
 
 {{%Markdown%}} is a markup language with a plain-text-formatting syntax. Markdown is often used as a format for documentation and readme files, since it allows writing in an easy-to-read and easy-to-write style. Its design allows it to be easily converted to many output formats, but originally it was created to convert the only to HTML. Aspose.HTML class library provides a reversed conversion from HTML to Markdown. You can convert HTML to Markdown format in your Java and other Java programming languages. The following code snippet shows how to convert HTML to Markdown literally with a single line of code!

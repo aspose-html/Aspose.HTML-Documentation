@@ -2,7 +2,7 @@
 title: SVG to XPS Conversion
 type: docs
 weight: 80
-url: /java/svg-to-xps-conversion/
+aliases: /java/svg-to-xps-conversion/
 ---
 
 In this article, you will find information on how to convert an {{%SVG%}} to {{%XPS%}} and how to use [XpsSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/xpssaveoptions) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.

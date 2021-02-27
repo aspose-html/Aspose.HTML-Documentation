@@ -2,7 +2,7 @@
 title: Editing a Document
 type: docs
 weight: 30
-url: /java/editing-a-document/
+aliases: /java/editing-a-document/
 ---
 
 As we already mentioned [here](/html/java/creating-a-document/) the implementation of [HTMLDocument](https://apireference.aspose.com/html/java/com.aspose.html/HTMLDocument) as well as the whole DOM are based on [WHATWG DOM](https://dom.spec.whatwg.org/) standard. So, it is easy to use Aspose.HTML having a basic knowledge of {{%HTML%}} and {{%JavaScript%}} languages.

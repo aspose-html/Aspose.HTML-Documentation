@@ -2,7 +2,7 @@
 title: SVG to PDF Conversion
 type: docs
 weight: 80
-url: /net/svg-to-pdf-conversion/
+aliases: /net/svg-to-pdf-conversion/
 ---
 
 In this article, you will find information about how to convert an {{%SVG%}} to {{%PDF%}} and how to use [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.

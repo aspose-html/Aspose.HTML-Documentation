@@ -2,7 +2,7 @@
 title: Environment Configuration
 type: docs
 weight: 10
-url: /java/environment-configuration/
+aliases: /java/environment-configuration/
 ---
 
 It is often helpful to have different configurations based on the environment where the application is running. For example, you may wish to configure the scripts policy, override document style applying a custom user stylesheet, or handle any web requests from the application. Aspose.HTML provides the [Configuration](https://apireference.aspose.com/html/java/com.aspose.html/Configuration) object that can be used exactly for these purposes.

@@ -2,7 +2,7 @@
 title: Release Notes - 2018
 type: docs
 weight: 20
-url: /java/release-notes-2018/
+aliases: /java/release-notes-2018/
 ---
 
 - [Aspose.HTML for Java 18.11 Release Notes](/html/java/aspose-html-for-java-18-11-release-notes-html/)

@@ -2,7 +2,7 @@
 title: HTML to PDF Conversion
 type: docs
 weight: 20
-url: /java/html-to-pdf-conversion/
+aliases: /java/html-to-pdf-conversion/
 ---
 
 In this article, you will find information on how to convert an {{%HTML%}} to {{%PDF%}} and how to use [PdfSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/pdfsaveoptions) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.

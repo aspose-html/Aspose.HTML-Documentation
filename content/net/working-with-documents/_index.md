@@ -2,7 +2,7 @@
 title: Working with HTML Documents
 type: docs
 weight: 20
-url: /net/working-with-documents/
+aliases: /net/working-with-documents/
 ---
 
 Welcome to the "Working with HTML Documents" guides. The articles in this section provide the required information to start working with Aspose.HTML class library. We look at how the DOM represents an HTML document in memory and how to use API for HTML files creating, editing and saving.

@@ -2,7 +2,7 @@
 title: Aspose.HTML for .NET 19.2 Release Notes
 type: docs
 weight: 110
-url: /net/aspose-html-for-net-19-2-release-notes/
+aliases: /net/aspose-html-for-net-19-2-release-notes/
 ---
 
 ### **Aspose.HTML for .NET 19.2 Release Notes**

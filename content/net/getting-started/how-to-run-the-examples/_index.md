@@ -2,7 +2,7 @@
 title: How to Run the Examples
 type: docs
 weight: 60
-url: /net/how-to-run-the-examples/
+aliases: /net/how-to-run-the-examples/
 ---
 
 ## **Software Requirements**

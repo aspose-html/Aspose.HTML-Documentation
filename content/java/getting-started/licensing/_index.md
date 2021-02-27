@@ -2,7 +2,7 @@
 title: Licensing
 type: docs
 weight: 60
-url: /java/licensing/
+aliases: /java/licensing/
 ---
 
 ## **Evaluation Version Limitations** ## 

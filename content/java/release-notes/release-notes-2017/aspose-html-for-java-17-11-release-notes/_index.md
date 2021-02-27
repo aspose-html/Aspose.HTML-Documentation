@@ -2,7 +2,7 @@
 title: Aspose.Html for Java 17.11 Release Notes
 type: docs
 weight: 20
-url: /java/aspose-html-for-java-17-11-release-notes/
+aliases: /java/aspose-html-for-java-17-11-release-notes/
 ---
 
 As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the November release of Aspose.HTML for Java. In this release, we have:

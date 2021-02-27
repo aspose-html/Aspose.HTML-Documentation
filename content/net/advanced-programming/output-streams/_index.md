@@ -2,7 +2,7 @@
 title: Output Streams
 type: docs
 weight: 20
-url: /net/output-streams/
+aliases: /net/output-streams/
 ---
 
 In conversion operations, we normally save the rendering result to the file. However, for some cases, you may need to store the result in the memory or send it to the remote storage. You can easily do this by implementing the specialized [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface and use it as an input parameter to the converter. This interface represents a callback that uses when a new output stream is required.

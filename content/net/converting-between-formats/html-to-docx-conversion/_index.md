@@ -2,7 +2,7 @@
 title: HTML to DOCX Conversion
 type: docs
 weight: 40
-url: /net/html-to-docx-conversion/
+aliases: /net/html-to-docx-conversion/
 ---
 
 In this article, you will find information on how to convert an {{%HTML%}} to {{%DOCX%}} and how to use [DocSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.

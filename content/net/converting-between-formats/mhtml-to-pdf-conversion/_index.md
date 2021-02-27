@@ -2,7 +2,7 @@
 title: MHTML to PDF Conversion
 type: docs
 weight: 140
-url: /net/mhtml-to-pdf-conversion/
+aliases: /net/mhtml-to-pdf-conversion/
 ---
 
 In this article, you will find information about how to convert an {{%MHTML%}} to {{%PDF%}} and how to use [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.

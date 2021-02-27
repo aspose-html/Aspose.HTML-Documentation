@@ -2,7 +2,7 @@
 title: Release Notes - 2017
 type: docs
 weight: 30
-url: /java/release-notes-2017/
+aliases: /java/release-notes-2017/
 ---
 
 ## **Release Notes** ## 

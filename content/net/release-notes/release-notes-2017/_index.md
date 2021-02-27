@@ -2,7 +2,7 @@
 title: Release Notes - 2017
 type: docs
 weight: 40
-url: /net/release-notes-2017/
+aliases: /net/release-notes-2017/
 ---
 
 - [Aspose.Html for .NET 17.12 Release Notes](/html/net/aspose-html-for-net-17-12-release-notes/)

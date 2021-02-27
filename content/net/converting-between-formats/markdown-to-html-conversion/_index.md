@@ -2,7 +2,7 @@
 title: Markdown To HTML Conversion
 type: docs
 weight: 160
-url: /net/markdown-to-html-conversion/
+aliases: /net/markdown-to-html-conversion/
 ---
 
 {{% alert color="primary" %}} 

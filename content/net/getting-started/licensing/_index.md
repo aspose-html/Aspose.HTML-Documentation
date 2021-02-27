@@ -2,7 +2,7 @@
 title: Licensing
 type: docs
 weight: 40
-url: /net/licensing/
+aliases: /net/licensing/
 ---
 
 ## **Evaluate Aspose.HTML for .NET**

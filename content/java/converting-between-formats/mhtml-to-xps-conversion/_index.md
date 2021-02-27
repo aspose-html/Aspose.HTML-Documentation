@@ -2,7 +2,7 @@
 title: MHTML to XPS Conversion
 type: docs
 weight: 140
-url: /java/mhtml-to-xps-conversion/
+aliases: /java/mhtml-to-xps-conversion/
 ---
 
 In this article, you will find information on how to convert an {{%MHTML%}} to {{%XPS%}} and how to use [XpsSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/xpssaveoptions) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.

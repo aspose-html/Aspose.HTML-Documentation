@@ -1,0 +1,105 @@
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   _redirects.txt
+	modified:   java/advanced-programming/index.html
+	modified:   java/advanced-programming/index.xml
+	modified:   java/converting-between-formats/index.html
+	modified:   java/converting-between-formats/index.xml
+	modified:   java/getting-started/index.html
+	modified:   java/getting-started/index.xml
+	modified:   java/release-notes/index.html
+	modified:   java/release-notes/index.xml
+	modified:   java/working-with-documents/index.html
+	modified:   java/working-with-documents/index.xml
+	modified:   net/advanced-programming/index.html
+	modified:   net/advanced-programming/index.xml
+	modified:   net/converting-between-formats/index.html
+	modified:   net/converting-between-formats/index.xml
+	modified:   net/getting-started/index.html
+	modified:   net/getting-started/index.xml
+	modified:   net/release-notes/index.html
+	modified:   net/release-notes/index.xml
+	modified:   net/working-with-documents/index.html
+	modified:   net/working-with-documents/index.xml
+	modified:   sitemap.xml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	java/advanced-programming/css-extensions/
+	java/advanced-programming/dom-mutationobserver/
+	java/advanced-programming/edit-html5-canvas-programmatically/
+	java/advanced-programming/html-form-editor/
+	java/advanced-programming/output-streams/
+	java/converting-between-formats/epub-to-image-conversion/
+	java/converting-between-formats/epub-to-pdf-conversion/
+	java/converting-between-formats/epub-to-xps-conversion/
+	java/converting-between-formats/fine-tuning-converters/
+	java/converting-between-formats/html-template/
+	java/converting-between-formats/html-to-image-conversion/
+	java/converting-between-formats/html-to-markdown-conversion/
+	java/converting-between-formats/html-to-mhtml-conversion/
+	java/converting-between-formats/html-to-pdf-conversion/
+	java/converting-between-formats/html-to-xps-conversion/
+	java/converting-between-formats/markdown-to-html-conversion/
+	java/converting-between-formats/mhtml-to-image-conversion/
+	java/converting-between-formats/mhtml-to-pdf-conversion/
+	java/converting-between-formats/mhtml-to-xps-conversion/
+	java/converting-between-formats/svg-to-image-conversion/
+	java/converting-between-formats/svg-to-pdf-conversion/
+	java/converting-between-formats/svg-to-xps-conversion/
+	java/getting-started/features-list/
+	java/getting-started/how-to-run-the-examples/
+	java/getting-started/installation/
+	java/getting-started/licensing/
+	java/getting-started/supported-file-formats/
+	java/getting-started/system-requirements/
+	java/release-notes/release-notes-2017/
+	java/release-notes/release-notes-2018/
+	java/release-notes/release-notes-2019/
+	java/release-notes/release-notes-2020/
+	java/working-with-documents/creating-a-document/
+	java/working-with-documents/editing-a-document/
+	java/working-with-documents/environment-configuration/
+	java/working-with-documents/saving-a-document/
+	net/advanced-programming/css-extensions/
+	net/advanced-programming/dom-mutationobserver/
+	net/advanced-programming/edit-html5-canvas-programmatically/
+	net/advanced-programming/html-form-editor/
+	net/advanced-programming/output-streams/
+	net/converting-between-formats/epub-to-image-conversion/
+	net/converting-between-formats/epub-to-pdf-conversion/
+	net/converting-between-formats/epub-to-xps-conversion/
+	net/converting-between-formats/fine-tuning-converters/
+	net/converting-between-formats/html-template/
+	net/converting-between-formats/html-to-docx-conversion/
+	net/converting-between-formats/html-to-image-conversion/
+	net/converting-between-formats/html-to-markdown-conversion/
+	net/converting-between-formats/html-to-mhtml-conversion/
+	net/converting-between-formats/html-to-pdf-conversion/
+	net/converting-between-formats/html-to-xps-conversion/
+	net/converting-between-formats/markdown-to-html-conversion/
+	net/converting-between-formats/mhtml-to-image-conversion/
+	net/converting-between-formats/mhtml-to-pdf-conversion/
+	net/converting-between-formats/mhtml-to-xps-conversion/
+	net/converting-between-formats/svg-to-image-conversion/
+	net/converting-between-formats/svg-to-pdf-conversion/
+	net/converting-between-formats/svg-to-xps-conversion/
+	net/getting-started/features-list/
+	net/getting-started/how-to-run-the-examples/
+	net/getting-started/installation/
+	net/getting-started/licensing/
+	net/getting-started/supported-file-formats/
+	net/getting-started/system-requirements/
+	net/release-notes/release-notes-2017/
+	net/release-notes/release-notes-2018/
+	net/release-notes/release-notes-2019/
+	net/release-notes/release-notes-2020/
+	net/release-notes/release-notes-2021/
+	net/working-with-documents/creating-a-document/
+	net/working-with-documents/editing-a-document/
+	net/working-with-documents/environment-configuration/
+	net/working-with-documents/saving-a-document/
+
+no changes added to commit (use "git add" and/or "git commit -a")

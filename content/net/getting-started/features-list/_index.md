@@ -2,7 +2,7 @@
 title: Features List
 type: docs
 weight: 10
-url: /net/features-list/
+aliases: /net/features-list/
 ---
 
 Aspose.HTML is a **headless browser**, written in C#, which offers the following features: create, open existing, manipulate, navigate through and convert HTML, {{%XHTML%}}, SVG, EPUB, MHTML and Markdown documents into the various supported output formats such as: PDF, {{%XPS%}}, Markdown, JPG, PNG, etc. All the core modules are implemented according to the official HTML, CSS and JavaScript documentations, which leads to high quality parsing, conversion and manipulation results.

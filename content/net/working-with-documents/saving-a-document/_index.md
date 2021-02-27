@@ -2,7 +2,7 @@
 title: Saving an HTML Document
 type: docs
 weight: 40
-url: /net/saving-a-document/
+aliases: /net/saving-a-document/
 description: Save Options, Save HTML, HTML to File, HTML to MHTML, HTML to Markdown, Save SVG
 ---
 

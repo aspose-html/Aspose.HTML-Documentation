@@ -2,7 +2,7 @@
 title: Aspose.Html for Java 17.10 Release Notes
 type: docs
 weight: 30
-url: /java/aspose-html-for-java-17-10-release-notes/
+aliases: /java/aspose-html-for-java-17-10-release-notes/
 ---
 
 We are pleased to announce that our JavaScript engine has been further improved and now it also supports jQuery library inside the document scripts. Currently it supports the version 1.9, but we are working hard to enhance it and increase the support till latest version.

@@ -2,7 +2,7 @@
 title: Environment Configuration
 type: docs
 weight: 10
-url: /net/environment-configuration/
+aliases: /net/environment-configuration/
 description: Sandboxing, Sandbox.Scripts, User Agent Service, User Style Sheet, Runtime Service, Character Set, FontsSettings property, Network Service, Message Handlers
 ---
 <link href="./../style.css" rel="stylesheet" type="text/css" />

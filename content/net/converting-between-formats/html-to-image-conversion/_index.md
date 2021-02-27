@@ -2,7 +2,7 @@
 title: HTML to Image Conversion
 type: docs
 weight: 10
-url: /net/html-to-image-conversion/
+aliases: /net/html-to-image-conversion/
 ---
 
 In this article, you will find information on how to convert an HTML to Image File Formats such as {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}} and how to use [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.

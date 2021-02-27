@@ -2,7 +2,7 @@
 title: HTML to XPS Conversion
 type: docs
 weight: 30
-url: /java/html-to-xps-conversion/
+aliases: /java/html-to-xps-conversion/
 ---
 
 In this article, you will find information on how to convert an {{%HTML%}} to {{%XPS%}} and how to use [XpsSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/xpssaveoptions) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.

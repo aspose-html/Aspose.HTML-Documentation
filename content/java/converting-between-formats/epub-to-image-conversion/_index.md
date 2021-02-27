@@ -2,7 +2,7 @@
 title: EPUB to Image Conversion
 type: docs
 weight: 90
-url: /java/epub-to-image-conversion/
+aliases: /java/epub-to-image-conversion/
 ---
 In this article, you will find information on how to convert an {{%EPUB%}} to Image File Formats such as {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}} and how to use [ImageSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/imagesaveoptions) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.
 

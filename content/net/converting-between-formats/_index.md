@@ -2,7 +2,7 @@
 title: Converting Between Formats
 type: docs
 weight: 30
-url: /net/converting-between-formats/
+aliases: /net/converting-between-formats/
 ---
 
 Welcome to the "Converting between Formats" guides. The articles in this section provide information on the list of supported conversion scenarios and how to perform them by using a [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class that is group all low-level conversion operation in a single class to make it comfy and easy to use.

@@ -2,7 +2,7 @@
 title: Working with Documents
 type: docs
 weight: 20
-url: /java/working-with-documents/
+aliases: /java/working-with-documents/
 ---
 
 Welcome to the "Working with Documents" guides. The articles in this section provide the required information to start working with Aspose.HTML class library.

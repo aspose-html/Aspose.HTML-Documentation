@@ -2,7 +2,7 @@
 title: FAQ
 type: docs
 weight: 70
-url: /java/faq/
+aliases: /java/faq/
 ---
 
 **Q: How to convert HTML document to PDF?**

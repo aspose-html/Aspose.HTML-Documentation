@@ -2,7 +2,7 @@
 title: Creating an HTML Document
 type: docs
 weight: 20
-url: /net/creating-a-document/
+aliases: /net/creating-a-document/
 description: Create an Empty HTML Document, Create HTML from a String, Create HTML from a Stream, Load HTML from a File, Load HTML from the Web, Reading HTML with Resources Async, SVG Document, MHTML Document, EPUB Document
 ---
 

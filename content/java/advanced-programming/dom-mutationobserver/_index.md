@@ -2,7 +2,7 @@
 title: DOM MutationObserver
 type: docs
 weight: 30
-url: /java/dom-mutationobserver/
+aliases: /java/dom-mutationobserver/
 ---
 
 A document observation mechanism is represented with [MutationObserver](https://apireference.aspose.com/html/java/com.aspose.html.dom.mutations/MutationObserver), that is easy to configure, and it is used to register listeners that can be notified of any changes in the document tree. The following example demonstrates the implementation of [MutationObserver](https://apireference.aspose.com/html/java/com.aspose.html.dom.mutations/MutationObserver) and how to use it to observe adding new nodes to the document.

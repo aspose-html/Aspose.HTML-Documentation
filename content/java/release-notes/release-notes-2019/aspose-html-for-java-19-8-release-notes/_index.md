@@ -2,7 +2,7 @@
 title: Aspose.HTML for Java 19.8 Release Notes
 type: docs
 weight: 20
-url: /java/aspose-html-for-java-19-8-release-notes/
+aliases: /java/aspose-html-for-java-19-8-release-notes/
 ---
 
 {{% alert color="primary" %}} 
