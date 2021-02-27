@@ -1,8 +1,12 @@
-#  Nginx redirects
+#  Nginx redirects. baseURL = {{ .Site.BaseURL }}
+{{ $baseUrl := .Site.BaseURL -}}
+{{ if eq $baseUrl "/" -}}
+{{ $baseUrl = "" -}}
+{{ end -}}
 {{ range $p := .Site.Pages -}}
 {{   range  .Aliases -}}
 {{     if ne .  $p.RelPermalink -}}
-{{          . | printf "/html%-60s" }}	{{ $p.RelPermalink   -}};
+  {{- $baseUrl -}} {{ . |   printf "%-60s" }}	{{ $p.RelPermalink   -}};
 {{     end -}}
 {{   end -}}
 {{ end -}}
