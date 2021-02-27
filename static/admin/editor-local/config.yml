@@ -29,7 +29,7 @@ slug:
 
 collections:
   - name: content
-    label: Сontent
+    label: Editor of Local file system - Aspose.HTML Product Family
     label_singular: "Page"
     folder: content
     slug: "{{slug}}"
