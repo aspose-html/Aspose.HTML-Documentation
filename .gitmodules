@@ -1,6 +1,0 @@
-[submodule "layouts/shortcodes"]
-	path = layouts/shortcodes
-	url = git@github.com:aspose-html/hugo-shortcodes.git
-[submodule "themes/lutsk-aspose-theme"]
-	path = themes/lutsk-aspose-theme
-	url = git@github.com:tpavel-aspose/lutsk-aspose-theme.git

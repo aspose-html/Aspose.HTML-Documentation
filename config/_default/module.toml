@@ -1,3 +1,4 @@
-#[hugoVersion]
-#min = "0.80.0"
-#max = "0.80.0"
+#[[imports]]
+#path = "github.com/tpavel-aspose/lutsk-aspose-theme"
+#[[imports]]
+#path = "github.com/tpavel-aspose/fileformat-shortcodes"
