@@ -1,2 +1,2 @@
-#home = ["HTML", "REDIR"]
+home = ["HTML", "nginx_redirects"]
 #section = [ "HTML", "RSS"]
