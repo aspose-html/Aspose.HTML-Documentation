@@ -17,9 +17,6 @@ jobs:
           ls -lA
           git fetch
           git reset --hard origin/main
-          git submodule init
-          git submodule update -f
-          cat ~/.ssh/id_rsa.pub
       - name: preparing workspace npm install dependencies
         run: |
           cd ${{secrets.HUGO_SITE_LOCATION}}
@@ -41,6 +38,9 @@ jobs:
         run: |
           cd ${{secrets.HUGO_SITE_LOCATION}}
           pwd
+          hugo mod get -u
+          hugo mod tidy
+          hugo mod graph
           ls -lA
           hugo version
           # hugo --minify --baseURL https://docs.aspose.com/html
