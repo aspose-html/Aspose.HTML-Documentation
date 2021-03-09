@@ -38,6 +38,7 @@ jobs:
         run: |
           cd ${{secrets.HUGO_SITE_LOCATION}}
           pwd
+          id
           hugo mod get -u
 #          hugo mod tidy
 #          hugo mod graph
