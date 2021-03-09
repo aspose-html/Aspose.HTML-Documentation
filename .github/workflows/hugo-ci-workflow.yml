@@ -40,8 +40,6 @@ jobs:
           pwd
           id
           hugo mod get -u
-#          hugo mod tidy
-#          hugo mod graph
           ls -lA
           hugo version
           # hugo --minify --baseURL https://docs.aspose.com/html
