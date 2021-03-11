@@ -3,6 +3,7 @@ title: Getting Started
 type: docs
 weight: 10
 aliases: /java/getting-started/
+aliases: /java/getting-started-test-redirects/
 ---
 
 ## **Getting Started**
