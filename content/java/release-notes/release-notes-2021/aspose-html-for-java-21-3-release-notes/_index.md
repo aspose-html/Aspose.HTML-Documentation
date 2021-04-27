@@ -3,6 +3,7 @@ title: Aspose.HTML for Java 21.3 Release Notes
 type: docs
 weight: 120
 aliases: /java/aspose-html-for-java-21-3-release-notes/
+aliases: ///htmljava/Aspose.HTML+for+Java+21.3+Release+Notes
 ---
 
 {{% alert color="primary" %}}

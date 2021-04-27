@@ -3,6 +3,7 @@ title: Aspose.HTML for .NET
 type: docs
 weight: 10
 aliases: /net/
+aliases: /display/htmlnet/Home
 is_root: true
 ---
 
