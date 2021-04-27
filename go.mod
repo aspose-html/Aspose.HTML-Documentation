@@ -1,7 +1,7 @@
 module github.com/aspose-html/Aspose.HTML-Documentation
 
 // replace github.com/tpavel-aspose/hugo-module-nginx-redirects => /home/x/prj/aspose/src/public-docs/hugo-module-nginx-redirects
- replace github.com/tpavel-aspose/lutsk-aspose-theme => /home/x/prj/aspose/src/public-docs/lutsk-aspose-theme.github
+// replace github.com/tpavel-aspose/lutsk-aspose-theme => /home/x/prj/aspose/src/public-docs/lutsk-aspose-theme.github
 
 go 1.16
 
