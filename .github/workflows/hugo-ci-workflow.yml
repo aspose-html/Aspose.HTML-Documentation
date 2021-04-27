@@ -37,11 +37,7 @@ jobs:
       - name: hugo build
         run: |
           cd ${{secrets.HUGO_SITE_LOCATION}}
-          pwd
-          id
-          ./bin/hugo mod clean
           ./bin/hugo mod tidy
-          ./bin/hugo mod get
           ./bin/hugo mod graph
           ./bin/hugo mod verify
           ./bin/hugo version
