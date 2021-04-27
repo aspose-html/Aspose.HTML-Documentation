@@ -11,3 +11,4 @@ require (
 	github.com/tpavel-aspose/hugo-module-nginx-redirects v1.1.0 // indirect
 	github.com/tpavel-aspose/lutsk-aspose-theme v1.1.1 // indirect
 )
+
