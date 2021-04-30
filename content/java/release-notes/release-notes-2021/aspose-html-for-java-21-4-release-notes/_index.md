@@ -12,3 +12,11 @@ Aspose.HTML for Java 21.4
 
 {{% /alert %}}
 ## **Major Features** ##
+
+As per the regular monthly update process of all 
+APIs being offered by Aspose, we are honored to 
+announce the April release of Aspose.HTML for Java
+
+In this release, we have improved threadsafe 
+and fixed work with the license.
+
