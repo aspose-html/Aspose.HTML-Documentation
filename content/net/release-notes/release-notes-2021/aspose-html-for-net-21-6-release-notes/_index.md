@@ -29,3 +29,37 @@ In this release we have made many improvements to our rendering algorithms, here
 |HTMLNET-2740|HTML to PNG - Parameter is not valid exception|Bug|
 |HTMLNET-2819|Very Slow rendering HTML into PNG|Bug|
 |HTMLNET-2886|Several flex elements are placed incorrectly on pages after conversion to pdf|Bug|
+
+## **Public API and Backward Incompatible Changes**
+### **Removed APIs**
+
+```
+namespace Aspose.Html.Saving
+{
+    public class ResourceHandlingOptions
+    {
+        /// <summary>
+        /// Gets restriction applied to URLs of handled pages or sets restriction applied to URLs of handled pages and resources.
+        /// </summary>
+        [Obsolete("This property was split into ResourceUrlRestriction and PageUrlRestriction properties. It will be removed in release 21.6.0.")]
+        public UrlRestriction UrlRestriction { get; set; }
+    }
+}
+```
+
+### **Changed APIs**
+
+```
+namespace Aspose.Html.Dom
+{
+    // From
+    public interface IBrowsingContext : IServiceContainer
+    {
+    }
+
+    // To
+    public interface IBrowsingContext : IServiceProvider, IDisposable
+    {
+    }
+}
+```
