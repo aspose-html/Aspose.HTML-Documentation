@@ -2,7 +2,6 @@
 title: FAQ
 type: docs
 weight: 70
-aliases: /net/faq/
 aliases: /net/FAQ/
 ---
 
