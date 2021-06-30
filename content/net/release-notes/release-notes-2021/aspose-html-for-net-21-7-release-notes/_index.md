@@ -22,7 +22,7 @@ In this release we have made many improvements to our web page saver, here are s
 ## **Improvements and Changes**
 
 | **Key**      | **Summary**                                                 | **Category** |
-| ------------ | ----------------------------------------------------------- | ------------ |
+| :----------- | :---------------------------------------------------------- | :----------- |
 | HTMLNET-3200 | DOC to HTML to DOC - Layout is changed and alignment issues | Bug          |
 | HTMLNET-3028 | StackOverFlowError occurs while converting HTML to PDF      | Bug          |
 
