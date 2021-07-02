@@ -1,7 +1,7 @@
 ---
 title: Aspose.HTML for Java 21.5 Release Notes
 type: docs
-weight: 110
+weight: 100
 url: /java/aspose-html-for-java-21-5-release-notes
 ---
 
@@ -15,7 +15,7 @@ Aspose.HTML for Java 21.5
 
 As per the regular monthly update process of all 
 APIs being offered by Aspose, we are honored to 
-announce the April release of Aspose.HTML for Java
+announce the May release of Aspose.HTML for Java
 
 In this release, we have added support jdk 11 and
 fixed freeze process when launched from jvm 11.
