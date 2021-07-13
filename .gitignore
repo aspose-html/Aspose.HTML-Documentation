@@ -6,6 +6,8 @@ node_modules
 package-lock.json
 go.sum
 log.txt
+_vendor
+...*
 # User-specific files
 content/tests-net/**/*.rsuser
 content/tests-net/**/*.suo
