@@ -5,42 +5,22 @@ weight: 40
 aliases: /net/web-scraping/
 ---
 
-**Web scraping**, also well known as **web harvesting**, **web data extraction** or **web crawling**, is used for extracting data from websites. A **web scraping software** will help you to automate the process of extracting data based on your requirements. However, configuring **web scraping software** sometimes is a challenging task. Using *Aspose.HTML* class library, you can easily create your own application, since our API provides a powerful toolset to analyze and collect information from HTML documents.
-## **HTML navigation**
-There are many ways that can be used to make HTML navigation. The following shortlist shows the simplest way to access to all DOM elements:
+**Web scraping**, also well known as **web harvesting**, **data scraping**, **web data extraction** or **web crawling**, is used for extracting data from websites. **Web scraping software** will help you to automate the process of extracting data based on your requirements. However, configuring **web scraping software** sometimes is a challenging task. Using *Aspose.HTML* class library, you can easily create your own application, since our API provides a powerful toolset to analyze and collect information from HTML documents.
 
-|**Property**|**Description**|
-| :- | :- |
-|[FirstChild](https://apireference.aspose.com/net/html/aspose.html.dom/node/properties/firstchild)|Accessing this attribute of an element must return a reference to the first child node.|
-|[LastChild](https://apireference.aspose.com/net/html/aspose.html.dom/node/properties/lastchild)|Accessing this attribute of an element must return a reference to the last child node|
-|[NextSibling](https://apireference.aspose.com/net/html/aspose.html.dom/node/properties/nextsibling)|Accessing this attribute of an element must return a reference to the sibling node of that element which most immediately follows that element.|
-|[PreviousSibling](https://apireference.aspose.com/net/html/aspose.html.dom/node/properties/previoussibling)|Accessing this attribute of an element must return a reference to the sibling node of that element which most immediately precedes that element.|
-|[ChildNodes](https://apireference.aspose.com/net/html/aspose.html.dom/node/properties/childnodes)|Returns a [list](https://apireference.aspose.com/net/html/aspose.html.collections/nodelist) that contains all children of that element.|
-
-Using the mentioned properties, you can navigate through an HTML document as it follows:
+Web Scraping is the process of capturing and extracting data,  such as images, video, audio, and  etc. from the Web.
 
 
 
-{{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-WebScraping-WebScraping-NavigateThroughHTML.cs" >}}
+Web scraping allows to get access to structured web data in an automated fashion. It uses intelligent automation to extract various type of data  from the Web.
 
-For the more complicated scenarios, when you need to find a node based on a specific pattern (e.g., get the list of headers, links, etc.), you can use a specialized [TreeWalker](https://apireference.aspose.com/net/html/aspose.html.dom.document/createtreewalker/methods/2) or [NodeIterator](https://apireference.aspose.com/net/html/aspose.html.dom.document/createnodeiterator/methods/2) object with a custom [Filter](https://apireference.aspose.com/net/html/aspose.html.dom.traversal.filters/nodefilter) implementation.
+Unlike the mind-numbing process of manually extracting data, web scraping gives you structured web data from any public website.
 
-The next example shows how to implement your own [NodeFilter](https://apireference.aspose.com/net/html/aspose.html.dom.traversal.filters/nodefilter) to skip all elements except images:
-
-{{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-WebScraping-WebScraping-OnlyImageFilter.cs" >}}
-
-Once you implement a filter, you can use HTML navigation as it follows:
+An important part of every scraper is the data selectors that are used to find the data that you want to extract from the HTML file - usually, XPath, CSS selectors, or a combination of (them is applied) both.
 
 
 
-{{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-WebScraping-WebScraping-NodeFilterUsageExample.cs" >}}
-## **XPath**
-The alternative to the *HTML Navigation* is [XML Path Language](https://www.w3.org/TR/xpath20/). The syntax of the XPath expressions is quite simple and what is more important, it is easy to read and support.
+**Note**: You should be especially careful about the data you collect and comply with copyright laws. We do not support downloading copyrighted videos and using other people's videos for commercial purposes without their express permission. We are not responsible for any copyright infringement that may occur when using this tool.
 
-The following example shows how to use XPath queries within Aspose.HTML API::
 
-{{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-WebScraping-WebScraping-XPathQueryUsageExample.cs" >}}
-## **CSS Selector**
-Along with *HTML Navigation* and *XPath* you can use [CSS Selector API](http://www.w3.org/TR/selectors-4/) that is also supported by our library. This API is designed to create a search pattern to match elements in a document tree based on [CSS Selectors](https://www.w3.org/TR/selectors-3/#selectors) syntax.
 
-{{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-WebScraping-WebScraping-CSSSelectorUsageExample.cs" >}}
+Web scraping becomes illegal when non publicly available data becomes extracted.
