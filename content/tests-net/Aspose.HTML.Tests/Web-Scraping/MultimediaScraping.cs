@@ -21,11 +21,11 @@ namespace Aspose.HTML.Tests.Web_Scraping
         public void GetVideoInfoTest1()
         {
             // URL of the video you want to extract data from
-            string url = "https://www.youtube.com/watch?v=LXb3EKWsInQ";
+            string url = "https://www.youtube.com/watch?v=cTnbD67vqjo";
 
             // Expected video properties, for example, "Title" and "Duration"
-            string expectedTitle = "COSTA RICA IN 4K 60fps HDR (ULTRA HD)";
-            int expectedDuration = 314;
+            string expectedTitle = "How to convert HTML file to JPEG";
+            int expectedDuration = 71;
 
             // Initialize an instance of MultimediaScraper class 
             using (var multimediaScraper = new MultimediaScraper())
@@ -58,7 +58,7 @@ namespace Aspose.HTML.Tests.Web_Scraping
             using (var scraper = new MultimediaScraper())
             {
                 // Create a multimedia object that include information from a URL
-                using (var multimedia = scraper.GetMultimedia("https://www.youtube.com/watch?v=U7-dxzp6Jvs"))
+                using (var multimedia = scraper.GetMultimedia("https://www.youtube.com/watch?v=Yugq1KyZCI0"))
                 {
                     // Check MultimediaHost
                     Assert.Equal(MultimediaHost.YouTube, multimedia.MultimediaHost);
@@ -74,7 +74,7 @@ namespace Aspose.HTML.Tests.Web_Scraping
                     Output.WriteLine("Formats count: {0}", videoInfo.Formats.Count);
 
                     // Check the count of formats
-                    Assert.Equal(23, videoInfo.Formats.Count);
+                    Assert.Equal(5, videoInfo.Formats.Count);
                 }
             }
         }
@@ -84,29 +84,15 @@ namespace Aspose.HTML.Tests.Web_Scraping
         public void GetVideoFormatInfoTest()
         {
             // URL of the video you want to extract data from
-            string url = "https://www.youtube.com/watch?v=kzzFPmmRQNw";
+            string url = "https://www.youtube.com/watch?v=0Ww_tCjxsYc";
 
             // Expected list of Bitrate values
             double[] expectedBitrates = {
-                30091,
-                38223,
-                52094,
-                56431,
-                61035,
-                81299,
-                103125,
-                107491,
-                125391,
-                129898,
-                163648,
-                244212,
-                308845,
-                372151,
-                483077,
-                614390,
-                719857,
-                908254,
-                1439095
+                76672,
+                129584,
+                156375,
+                281724,
+                432821
             };
             int expectedFormatsCount = expectedBitrates.Length;
 
@@ -156,14 +142,14 @@ namespace Aspose.HTML.Tests.Web_Scraping
         public void DownloadVideoTest()
         {
             // URL of the video you want to extract data from
-            string url = "https://www.youtube.com/watch?v=G-x99W-l4x4";
+            string url = "https://www.youtube.com/watch?v=JlKF7z8ODIo";
 
             // Expected video properties, for example, "Title" and "Duration" 
-            string expectedTitle = "MACRO ore cheriya videography";
-            int expectedDuration = 67;
+            string expectedTitle = "How to convert HTML file to Markdown";
+            int expectedDuration = 56;
             
             // File name for downloading video
-            string filename = "video";
+            string filename = "HTML-to-Markdown";
 
             // Initialize an instance of MultimediaScraper class
             using (var multimediaScraper = new MultimediaScraper())
@@ -196,6 +182,7 @@ namespace Aspose.HTML.Tests.Web_Scraping
                     Assert.Equal(expectedTitle, videoInfo.Title);
                     Assert.Equal(expectedDuration, videoInfo.Duration);
                 }
+                Assert.True(File.Exists(Path.Combine(OutputDir, "HTML-to-Markdown.mp4")));
             }
         }
 
@@ -203,13 +190,14 @@ namespace Aspose.HTML.Tests.Web_Scraping
         [Fact(DisplayName = "Video Download Test1")]        
         public void VideoDownloadTest1()
         {
-            VideoDownloadAssert("https://youtube.com/watch?v=HtVdAasjOgU", 31072526, "file1");
+            VideoDownloadAssert("https://www.youtube.com/watch?v=oWAc7meoktE", 2478206, "SVG to JPEG");
         }
+
 
         [Fact(DisplayName = "Video Download Test2")]       
         public void VideoDownloadTest2()
         {
-            VideoDownloadAssert("https://www.youtube.com/watch?v=LzPqYihbkFY", 7911761, "file2");
+            VideoDownloadAssert("https://www.youtube.com/watch?v=cTnbD67vqjo", 3522137, "HTML to JPEG");
         }
 
 
