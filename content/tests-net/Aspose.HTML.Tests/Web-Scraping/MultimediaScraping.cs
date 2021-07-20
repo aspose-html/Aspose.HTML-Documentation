@@ -10,12 +10,13 @@ using Xunit.Abstractions;
 
 namespace Aspose.HTML.Tests.Web_Scraping
 {
-    public class MultimediaScraping : TestsBase
+    public class MultimediaScrapingTests : TestsBase
     {
-        public MultimediaScraping(ITestOutputHelper output) : base(output)
+        public MultimediaScrapingTests(ITestOutputHelper output) : base(output)
         {
             SetOutputDir("multimedia-scraping");
         }
+
 
         [Fact(DisplayName = "Get Video Info Test1")]
         public void GetVideoInfoTest1()

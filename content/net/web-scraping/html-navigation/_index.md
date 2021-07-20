@@ -3,22 +3,27 @@ title: HTML Navigation
 type: docs
 weight: 10
 aliases: /net/html-navigation/
+description: In this article, you find the description of how to perform a detailed inspection of the HTML document and its elements using the API, about custom filters usage for iterating over the document elements, how to navigate over the document by using CSS Selector or XPath.
+keywords: HTML navigation, XPath, XPath queries, CSS selector
 ---
 
 Using *Aspose.HTML* class library, you can easily create your own application, since our API provides a powerful toolset to analyze and collect information from HTML documents.
 
-This article provides information on how to programmatically extract data from HTML documents with the Aspose.HTML API. You find out
-
-how to  navigate through an HTML document and  perform a detailed inspection of its elements using the API;
-
-about custom filters usage for iterating over the document elements;
-
-how to navigate over the document by using CSS Selector or XPath.
+This article provides information on how to programmatically extract data from HTML documents with the Aspose.HTML API. You find out:
+ - how to  navigate through an HTML document and  perform a detailed inspection of its elements using the API;
+ - about custom filters usage for iterating over the document elements;
+ - how to navigate over the document by using CSS Selector or XPath.
 
 ## **HTML navigation**
 
+{{% alert color="primary" %}}
 
-There are many ways that can be used to make HTML navigation. The following shortlist shows the simplest way to access to all DOM elements:
+The Aspose.Html.Dom (Document Object Model) namespace provides API that represents and interacts with any HTML, XML or SVG documents and entirely based on [WHATWG DOM](https://dom.spec.whatwg.org/) specification that are supported in many modern browsers.
+The DOM is a document model loaded in the browser and representing the document as a node tree, where each node represents part of the document (e.g. an element, text string, or comment).
+
+{{% /alert %}}  
+
+We consider how the DOM represents an HTML document in memory and how to use API for navigation through HTML files. There are many ways that can be used to make HTML navigation. The following shortlist shows the simplest way to access to all DOM elements:
 
 |**Property**|**Description**|
 | :- | :- |
@@ -27,6 +32,8 @@ There are many ways that can be used to make HTML navigation. The following shor
 |[NextSibling](https://apireference.aspose.com/net/html/aspose.html.dom/node/properties/nextsibling)|Accessing this attribute of an element must return a reference to the sibling node of that element which most immediately follows that element.|
 |[PreviousSibling](https://apireference.aspose.com/net/html/aspose.html.dom/node/properties/previoussibling)|Accessing this attribute of an element must return a reference to the sibling node of that element which most immediately precedes that element.|
 |[ChildNodes](https://apireference.aspose.com/net/html/aspose.html.dom/node/properties/childnodes)|Returns a [list](https://apireference.aspose.com/net/html/aspose.html.collections/nodelist) that contains all children of that element.|
+
+For a complete list of classes and methods represented in the Aspose.Html.Dom Namespace please visit [API Reference Source](https://apireference.aspose.com/html/net/aspose.html.dom).
 
 Using the mentioned properties, you can navigate through an HTML document as it follows:
 

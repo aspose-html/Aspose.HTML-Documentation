@@ -10,7 +10,7 @@ keywords: how to download video, video info, web scraping, data scraping, video 
 Aspose.HTML for .NET API provides a powerful toolset to analyze and collect information from HTML documents and gives a possibility to download video by its URL.  Using API functionalities, you can easily create your own application or just download and watch your favorite video offline without any internet connection.
 
 {{% alert color="primary" %}} 
-You can download video to your device from popular video hubs in any format with our Free online [**Video Grabber**](https://products.aspose.app/html/en/video-grabber) App. 
+You can download video to your device from popular video hubs in any format with our Free Online [**Video Grabber**](https://products.aspose.app/html/en/video-grabber) App. 
 {{% /alert %}}  
 
 ## **Data Scraping Namespaces**
@@ -40,7 +40,7 @@ Getting information about a video file using Aspose.HTML API, the following step
 2. Initialize an instance of the [MultimediaScraper](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediascraper) class.
 3. Create a multimedia object that collects information from the specified  URL.
 4. Create a [VideoInfo](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/videoinfo) object.
-5. Get information about the video and print it on the console.
+5. Get information about the video and display it in the console.
 
 Following is the code snippet which can be used to get information about a video file such as Title, Description, Duration, Thumbnails, and Formats Count.
 
@@ -53,10 +53,6 @@ using System.Linq;
     // URL of the video 
     string url = "https://www.youtube.com/watch?v=cTnbD67vqjo";
 
-    // Expected video properties, for example, "Title" and "Duration"
-    string expectedTitle = "How to convert HTML file to JPEG";
-    int expectedDuration = 71;
-    
     // Initialize an instance of MultimediaScraper class 
     using (var multimediaScraper = new MultimediaScraper())
     {
@@ -127,7 +123,7 @@ using System.Linq;
 {{< /highlight >}}
 
 
-## **How to Download Video**
+## **Download Video**
 
 {{% alert color="primary" %}} 
 **Note:** If you want to add a URL of the required video to download, first of all, make sure this uploading is not dedicated to copyright infringement.
