@@ -142,8 +142,8 @@ namespace Aspose.HTML.Tests
         [Fact(DisplayName = "Load an HTML Document from a URL")]
         public void LoadDocumentFromUrlTest()
         {
-            // Load a document from 'https://docs.aspose.com/html/net/creating-a-document/document.html' web page
-            using (var document = new HTMLDocument("https://docs.aspose.com/html/net/creating-a-document/document.html"))
+            // Load a document from 'https://docs.aspose.com/html/net/working-with-documents/creating-a-document/document.html' web page
+            using (var document = new HTMLDocument("https://docs.aspose.com/html/net/working-with-documents/creating-a-document/document.html"))
             {
                 var html = document.DocumentElement.OuterHTML;
 
@@ -198,7 +198,7 @@ namespace Aspose.HTML.Tests
             };
 
             // Navigate asynchronously at the specified Uri
-            document.Navigate("https://docs.aspose.com/html/net/creating-a-document/document.html");
+            document.Navigate("https://docs.aspose.com/html/net/working-with-documents/creating-a-document/document.html");
 
             // Here the outerHTML is empty yet
             Assert.True(string.IsNullOrEmpty(outerHTML));
@@ -238,7 +238,7 @@ namespace Aspose.HTML.Tests
             };
 
             // Navigate asynchronously at the specified Uri
-            document.Navigate("https://docs.aspose.com/html/net/creating-a-document/document.html");
+            document.Navigate("https://docs.aspose.com/html/net/working-with-documents/creating-a-document/document.html");
 
             // Here the document is not loaded yet
             Assert.False(isLoading);

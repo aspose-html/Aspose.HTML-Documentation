@@ -58,9 +58,11 @@ namespace Aspose.HTML.Tests
 
             // Set license (if used)
             var licensePath = Path.Combine(LicenseDir, "Aspose.Html.lic");
-            if(!File.Exists(licensePath)) return;
-            var license = new License();
-            license.SetLicense(licensePath);
+            if (File.Exists(licensePath))
+            {
+                var license = new License();
+                license.SetLicense(licensePath);
+            }
         }
 
         protected void SetOutputDir(string dir = "")
