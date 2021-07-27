@@ -13,7 +13,6 @@
   "author": "",
   "license": "UNLICENSED",
   "private": true,
-  "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^9.8.0",
     "postcss-cli": "^5.0.1"
