@@ -120,7 +120,7 @@ using System;
 using Aspose.Html;
 ...
     // Load a document from 'https://docs.aspose.com/html/net/creating-a-document/document.html' web page
-    using (var document = new HTMLDocument("https://docs.aspose.com/html/net/creating-a-document/document.html"))
+    using (var document = new HTMLDocument("https://docs.aspose.com/html/net/working-with-documents/creating-a-document/document.html"))
     {
         // Write the document content to the output stream
         Console.WriteLine(document.DocumentElement.OuterHTML);
@@ -242,7 +242,7 @@ using System.Threading;
 	};
 	
 	// Navigate asynchronously at the specified Uri
-	document.Navigate("https://docs.aspose.com/html/net/creating-a-document/document.html");
+	document.Navigate("https://docs.aspose.com/html/net/working-with-documents/creating-a-document/document.html");
 	
 	// Here the outerHTML is empty yet
     Console.WriteLine($"outerHTML = {outerHTML}");
@@ -280,7 +280,7 @@ using System.Threading;
     };
     
     // Navigate asynchronously at the specified Uri
-    document.Navigate("https://docs.aspose.com/html/net/creating-a-document/document.html");
+    document.Navigate("https://docs.aspose.com/html/net/working-with-documents/creating-a-document/document.html");
                 
     // Here the document is not loaded yet
        

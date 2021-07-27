@@ -9,11 +9,15 @@ Welcome to the "Working with HTML Documents" guides. The articles in this sectio
 
 The following topics are available:
 
-- [Environment Configuration](/html/net/environment-configuration/)
+- [Environment Configuration](/html/net/working-with-documents/environment-configuration/)
   In this guide, you will learn how to create different configurations and adapt them to the different environments where the application is running.
-- [Creating an HTML Document](/html/net/creating-a-document/)
+- [Creating an HTML Document](/html/net/working-with-documents/creating-a-document/)
   In this section, you will find information on how to load a document from your file or create it from scratch. Also, we'll show you the different approaches that can be used for loading the documents.
-- [Editing an HTML Document](/html/net/editing-a-document/)
+- [Editing an HTML Document](/html/net/working-with-documents/editing-a-document/)
   This section gives you basic information on how to read or modify the **Document Object Model (DOM).** You'll explore how to create an **HTML Element** and how to work with it.
-- [Saving an HTML Document](/html/net/saving-a-document/)
+- [Saving an HTML Document](/html/net/working-with-documents/saving-a-document/)
   In this article, you learn how to save your changes to the file on the disk and about the available saving options.
+
+{{% alert color="primary" %}}
+Aspose.HTML offers free online [**Editors**](https://products.aspose.app/html/en/editors) that are powerful web Apps for editing and viewing HTML or Markdown documents online using an embedded WYSIWYG editor. Our simple, understandable, and easy-to-use online editors provide flexibility and a human-friendly user experience with a dynamic visual preview of the rendering quality of Aspose.HTML library.
+{{% /alert %}}
