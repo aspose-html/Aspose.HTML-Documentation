@@ -10,15 +10,19 @@ This page contains release notes information for Aspose.HTML for .NET 21.8.
 
 {{% /alert %}}
 
-As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the August release of Aspose.HTML for .NET.
+As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the August release of Aspose.HTML for .NET. 
 
-In this release we have made many improvements to our web page saver, here are some of them:
+In this release we have made many improvements to our MHTML processing algorithm, here are some of them:
 
-* Increased the accuracy of absolutely positioned elements rendering.
-* Introduced the new resource handling option, which allows to ignore certain resources.
-* Improved the saved resource naming algorithm.
-* Increased the performance of web page saver.
-* Improved the rendering of deeply nested HTML elements.
+* Introduced the ability to change properties of the output PDF documents.
+* Increased the accuracy of font relative size calculation algorithm.
+* Updated the MHTML parsing algorithm , now it can handle deeply nested resources.
+* Improved the MHTML resource encoding detection algorithm.
+* Updated the CSS cascading algorithm according to the latest documentation.
+* Improved rendering of the nested IFrame documents.
+
+
+
 
 ## **Improvements and Changes**
 
