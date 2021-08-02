@@ -2,6 +2,7 @@
 title: Aspose.HTML for .NET 21.8 Release Notes
 weight: 50
 type: docs
+url: /net/aspose-html-for-net-21-8-release-notes
 ---
 
 {{% alert color="primary" %}}
@@ -21,9 +22,6 @@ In this release we have made many improvements to our MHTML processing algorithm
 * Updated the CSS cascading algorithm according to the latest documentation.
 * Improved rendering of the nested IFrame documents.
 
-
-
-
 ## **Improvements and Changes**
 
 | **Key** | **Summary** | **Category** |
@@ -38,14 +36,65 @@ In this release we have made many improvements to our MHTML processing algorithm
 ### **Added APIs**
 
 ```
-namespace Aspose.Html.Saving
+namespace Aspose.Html.Rendering.Pdf
 {
-    public enum ResourceHandling
+    public class PdfRenderingOptions : RenderingOptions
     {
         /// <summary>
-        /// Resource will not be saved.
+        /// Contains information about the output PDF document.
         /// </summary>
-        Ignore
+        public PdfDocumentInfo DocumentInfo { get; }
+    }
+}
+```
+
+```
+namespace Aspose.Html.Rendering.Pdf
+{
+    /// <summary>
+    /// Represents the information about the PDF document.
+    /// </summary>
+    public class PdfDocumentInfo
+    {
+        /// <summary>
+        /// The document's title.
+        /// </summary>
+        public string Title { get; set; }
+
+        /// <summary>
+        /// The name of the person who created the document.
+        /// </summary>
+        public string Author { get; set; }
+
+        /// <summary>
+        /// The subject of the document.
+        /// </summary>
+        public string Subject { get; set; }
+
+        /// <summary>
+        /// Keywords associated with the document.
+        /// </summary>
+        public string Keywords { get; set; }
+
+        /// <summary>
+        /// The name of the product that created the original document.
+        /// </summary>
+        public string Creator { get; set; }
+
+        /// <summary>
+        /// The name of the product that converted the document.
+        /// </summary>
+        public string Producer { get; set; }
+
+        /// <summary>
+        /// Gets or sets the document's creation date.
+        /// </summary>
+        public DateTime CreationDate { get; set; }
+
+        /// <summary>
+        /// Gets or sets the document's modification date.
+        /// </summary>
+        public DateTime ModificationDate { get; set; }
     }
 }
 ```
