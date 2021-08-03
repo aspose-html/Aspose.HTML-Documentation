@@ -2,8 +2,9 @@
 title: Licensing
 type: docs
 weight: 60
-aliases: /java/licensing/
-aliases: /display/htmljava/Licensing
+aliases: 
+    - /java/licensing/
+    - /display/htmljava/Licensing
 ---
 
 ## **Evaluation Version Limitations** ## 

@@ -2,8 +2,9 @@
 title: Installation
 type: docs
 weight: 30
-aliases: /net/installation/
-aliases: /display/htmlnet/Installation
+aliases: 
+    - /net/installation/
+    - /display/htmlnet/Installation
 ---
 
 ## **Installing Aspose.HTML for .NET through NuGet**

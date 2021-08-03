@@ -2,8 +2,8 @@
 title: Aspose.HTML for Java 19.4 Release Notes
 type: docs
 weight: 55
-aliases: /java/aspose-html-for-java-19-4-release-notes/
-aliases:
+aliases: 
+    - /java/aspose-html-for-java-19-4-release-notes/
     - /display/htmljava/Aspose.HTML+for+Java+19.4+Release+Notes
 ---
 ## **Aspose.HTML for Java 19.4.0 Release Notes** ## 

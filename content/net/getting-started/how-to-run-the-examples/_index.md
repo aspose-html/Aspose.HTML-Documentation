@@ -2,8 +2,9 @@
 title: How to Run the Examples
 type: docs
 weight: 60
-aliases: /net/how-to-run-the-examples/
-aliases: /display/htmlnet/How+to+Run+the+Examples
+aliases: 
+    - /net/how-to-run-the-examples/
+    - /display/htmlnet/How+to+Run+the+Examples
 ---
 
 ## **Software Requirements**
