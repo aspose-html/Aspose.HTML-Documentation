@@ -2,8 +2,9 @@
 title: HTML to PDF Conversion
 type: docs
 weight: 20
-aliases: /net/html-to-pdf-conversion/
-aliases: /display/htmlnet/HTML+to+PDF+Conversion
+aliases: 
+    - /net/html-to-pdf-conversion/
+    - /display/htmlnet/HTML+to+PDF+Conversion
 ---
 
 In this article, you will find information on how to convert an {{%HTML%}} to {{%PDF%}} and how to use [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
