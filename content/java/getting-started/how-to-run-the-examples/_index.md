@@ -2,6 +2,7 @@
 title: How to Run the Examples
 type: docs
 weight: 70
+aliases:
     - /java/how-to-run-the-examples/
     - /display/htmljava/How+to+Run+the+Examples
 ---
