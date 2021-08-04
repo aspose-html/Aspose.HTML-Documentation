@@ -30,6 +30,7 @@ In this release we have made many improvements to our MHTML processing algorithm
 | HTMLNET-3261 | HTML to PDF - System.ArgumentException: 'Incompatible unit types.' | Bug |
 | HTMLNET-3106 | High memory usage while converting some MHT files to PDF/TIFF | Bug |
 | HTMLNET-3249 | HTML to PDF, ArgumentOutOfRangeException is thrown | Bug |
+| HTMLNET-2944 | StackOverFlowError occurs while loading HTML | Bug |
 
 ## **Public API and Backward Incompatible Changes**
 
