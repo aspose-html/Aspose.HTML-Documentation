@@ -2,7 +2,9 @@
 title: Aspose.HTML for .NET 21.9 Release Notes
 weight: 40
 type: docs
+url: /net/aspose-html-for-net-21-9-release-notes
 ---
+
 {{% alert color="primary" %}}
 
 This page contains release notes information for Aspose.HTML for .NET 21.9.
@@ -96,14 +98,14 @@ namespace Aspose.Html.Dom
     }
 }
 ```
+
 ### **Obsolete APIs**
+
 ```
 namespace Aspose.Html
 {
     public class FontsSettings
     {
-
-
         [Obsolete("This constructor is obsolete, it will be removed in version 21.11.0. In order to specify custom fonts lookup folders please use IUserAgentService.FontsSettings property.")]
         public FontsSettings();
     }
