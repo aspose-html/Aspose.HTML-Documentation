@@ -59,7 +59,7 @@ Consider the following code snippet to get information about all the available f
 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-WebScraping-MultimediaScraping-GetVideoFormatInfo.cs" >}}
 
-## **Download Video**
+## **Download a Video**
 
 {{% alert color="primary" %}} 
 **Note:** If you want to add a URL of the required video to download, first of all, make sure this uploading is not dedicated to copyright infringement.
