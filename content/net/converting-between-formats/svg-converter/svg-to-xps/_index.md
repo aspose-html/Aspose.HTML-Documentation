@@ -15,7 +15,7 @@ aliases:
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
-With Aspose.HTML, you can convert SVG to XPS format programmatically with full control over a wide range of conversion parameters. 
+XPS is a document storage and viewing format developed by Microsoft. An XPS file has a set of advantages that support security features, such as digital signatures to provide greater document security and more. With Aspose.HTML, you can convert SVG to XPS format programmatically with full control over a wide range of conversion parameters. 
 
 In this article, you find information on how to convert SVG to {{%XPS%}} by using [ConvertSVG()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods of the Converter class and applying  [XpsSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
 
@@ -90,7 +90,7 @@ Aspose.HTML allows converting SVG to XPS using default or custom save options. [
 
 To convert SVG to XPS with XpsSaveOptions specifying, you should follow a few steps: 
 
-1. Load an SVG file using one of the SVGDocument() constructors of the [SVGDocument](https://apireference.aspose.com/net/html/aspose.html.dom.svg/svgdocument) class. ([aspose.svg](/net/converting-between-formats/svg-converter/svg-to-pdf/aspose.svg)). 
+1. Load an SVG file using one of the SVGDocument() constructors of the [SVGDocument](https://apireference.aspose.com/net/html/aspose.html.dom.svg/svgdocument) class. ([aspose.svg](/html/net/converting-between-formats/svg-to-pdf/aspose.svg)). 
 1. Create a new [XpsSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions) object and specify save options. 
 1. Use the [ConvertSVG()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/3) method to save SVG as an XPS file. You need to pass the SVGDocument, XpsSaveOptions, and output file path to the ConvertSVG() method for SVG to XPS conversion.
 
