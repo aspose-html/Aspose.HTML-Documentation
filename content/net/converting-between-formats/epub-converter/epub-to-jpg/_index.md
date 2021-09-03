@@ -1,14 +1,17 @@
 ---
-title: Convert EPUB to JPG
-type: docs
-weight: 40
+keywords: epub to jpg, convert epub to jpg, epub to jpg conversion, epub to jpg
+  converter, save options
+lastmod: 2021-09-03
 url: /net/converting-between-formats/epub-to-jpg/
-aliases: 
-    - /net/converting-between-formats/epub-to-image-conversion/
-    - /net/epub-to-image-conversion/
-description: This article provides information on how to convert EPUB to JPG using Aspose.HTML API. You will learn about the supported EPUB to JPG conversion scenarios and consider examples to illustrate them.  
-keywords: epub to jpg, convert epub to jpg, epub to jpg conversion, epub to jpg converter, save options
-lastmod: "2021-09-03"
+title: Convert EPUB to JPG
+description: This article provides information on how to convert EPUB to JPG
+  using Aspose.HTML API. You will learn about the supported EPUB to JPG
+  conversion scenarios and consider examples to illustrate them.
+weight: 40
+type: docs
+aliases:
+  - /net/converting-between-formats/epub-to-image-conversion/
+  - /net/epub-to-image-conversion/
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -42,7 +45,7 @@ using Aspose.Html.Saving;
 ## **Convert EPUB to JPG**
 To convert EPUB to JPG, you should follow a few steps: 
 
-1. Open an existing EPUB file. In the example, we use the OpenRead () method of System.IO.FileStream class to open and read an EPUB file from the file system at the specified path.
+1. Open an existing EPUB file. In the example, we use the OpenRead() method of System.IO.FileStream class to open and read an EPUB file from the file system at the specified path.
 1. Create a new [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) object with JPG ImageFormat. By default, the Format property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
 1. Use the [ConvertEPUB()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertepub/methods/27) method of the Converter class to save EPUB as a JPG image. You need to pass the EPUB file stream, ImageSaveOptions, and output file path to the ConvertEPUB() method for EPUB to JPG conversion.
 
@@ -149,7 +152,7 @@ You can download the complete examples and data files from [**GitHub**](https://
 {{% /alert %}}
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement the [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement the [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 
