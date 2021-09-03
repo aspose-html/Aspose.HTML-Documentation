@@ -3,6 +3,8 @@ title: Fine-Tuning Converters
 type: docs
 weight: 180
 aliases: /net/fine-tuning-converters/
+description: This chapter provides a general description of conversion features of Aspose.HTML .NET. You find out how to convert HTML, SVG, MHTML, EPUB, MD documents to (PDF, XPS, DOCX, MD, MHTML and Image) other formats using Aspose.HTML API. 
+keywords: 
 ---
 
 Using the [Converter.ConvertHTML](https://apireference.aspose.com/net/html/aspose.html.converters/converter/methods/converthtml/index) methods is the most common way to convert HTML code into various formats. However, Aspose.HTML API also provides alternative ways to render HTML documents with that can give you more control over the rendering process in your C# application.

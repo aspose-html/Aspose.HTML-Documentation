@@ -22,7 +22,7 @@ namespace Aspose.HTML.Tests.Web_Scraping
         [Fact(DisplayName = "Navigate Through HTML")]
         public void NavigateThroughHTMLTest()
         {            
-            // Prepare an HTML code
+            // Prepare HTML code
             var html_code = "<span>Hello</span> <span>World!</span>";
 
             // Initialize a document from the prepared code

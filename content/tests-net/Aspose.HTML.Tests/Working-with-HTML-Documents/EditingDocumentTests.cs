@@ -110,7 +110,7 @@ namespace Aspose.HTML.Tests
 
                 Assert.Contains("</html>", html);
 
-                Assert.Contains("<body>Hello World!</body>", html);
+                Assert.Contains("<body>Hello, World!</body>", html);
             }            
         }
 

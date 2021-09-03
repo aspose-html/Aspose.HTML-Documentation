@@ -16,4 +16,10 @@
     <PackageReference Include="coverlet.collector" Version="1.2.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Converting Between Formats\MHTML Converter\" />
+    <Folder Include="Converting Between Formats\EPUB Converter\" />
+    <Folder Include="Converting Between Formats\SVG Converter\" />
+  </ItemGroup>
+
 </Project>
