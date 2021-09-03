@@ -1,14 +1,16 @@
 ---
-title: Convert EPUB to XPS
-type: docs
-weight: 30
-url: /net/converting-between-formats/epub-to-xps/
-aliases: 
-    - /net/converting-between-formats/epub-to-xps-conversion/
-    - /net/epub-to-xps-conversion/
-description: This article provides information on how to convert EPUB to XPS using Aspose.HTML API. You will learn about the supported EPUB to XPS conversion scenarios and consider examples to illustrate them.  
 keywords: epub to xps, convert epub to xps, epub to xps converter, save options
-lastmod: "2021-09-03"
+lastmod: 2021-09-03
+url: /net/converting-between-formats/epub-to-xps/
+title: Convert EPUB to XPS
+description: This article provides information on how to convert EPUB to XPS
+  using Aspose.HTML API. You will learn about the supported EPUB to XPS
+  conversion scenarios and consider examples to illustrate them.
+weight: 30
+type: docs
+aliases:
+  - /net/converting-between-formats/epub-to-xps-conversion/
+  - /net/epub-to-xps-conversion/
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -40,7 +42,7 @@ using Aspose.Html.Saving;
 
 Using [Converter.ConvertEPUB](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertepub/index) methods is the most common way to convert EPUB files into various formats.  The following C# code snippet shows how to convert EPUB to XPS using Aspose.HTML for .NET.
 
-1. Open an existing EPUB file. In the example, we use the OpenRead () method of System.IO.FileStream class to open and read an EPUB file from the file system at the specified path.
+1. Open an existing EPUB file. In the example, we use the OpenRead() method of System.IO.FileStream class to open and read an EPUB file from the file system at the specified path.
 1. Create an instance of [XpsSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions).
 1. Use the [ConvertEPUB()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertepub/methods/31) method of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class to save EPUB as an XPS file. You need to pass the EPUB file stream, XpsSaveOptions, and output file path to the ConvertEPUB() method to convert EPUB to XPS.
 
@@ -123,7 +125,7 @@ using Aspose.Html.Drawing;
     Converter.ConvertEPUB(stream, options, savePath); 
 {{< /highlight >}}
 
-In the example, we use the OpenRead () method of System.IO.FileStream class to open and read source files from the file system at the specified path. The [XpsSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/constructors/main) constructor initialize an instance of the XpsSaveOptions class that is passed to ConvertEPUB() method. The ConvertEPUB() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation. The XpsSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of EPUB to XPS conversion. 
+In the example, we use the OpenRead() method of System.IO.FileStream class to open and read source files from the file system at the specified path. The [XpsSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/constructors/main) constructor initialize an instance of the XpsSaveOptions class that is passed to ConvertEPUB() method. The ConvertEPUB() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation. The XpsSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of EPUB to XPS conversion. 
 
 In the example, we use:
 
@@ -133,10 +135,10 @@ In the example, we use:
 Aspose.HTML for .NET provides various types of output formats for rendering operations. Some of these formats produce a single output file (for instance {{%PDF%}}, {{%XPS%}}), others create multiple files (Image formats {{%JPG%}}, {{%PNG%}}, etc.).
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 
-The example below shows how to implement and use the your own *MemoryStreamProvider* in the application:
+The example below shows how to implement and use your own *MemoryStreamProvider* in the application:
 
 {{< highlight java >}}
 using System.IO;
