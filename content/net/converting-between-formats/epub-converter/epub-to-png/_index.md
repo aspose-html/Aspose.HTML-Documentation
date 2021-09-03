@@ -1,11 +1,14 @@
 ---
 title: Convert EPUB to PNG
-type: docs
+keywords: epub to png, convert epub to png, epub to png conversion, epub to png
+  converter, save options
+description: This article provides information on how to convert EPUB to PNG
+  using the Aspose.HTML API. You will learn about the supported EPUB to PNG
+  conversion scenarios and consider examples to illustrate them.
 weight: 50
+type: docs
 url: /net/converting-between-formats/epub-to-png/
-description: This article provides information on how to convert EPUB to PNG using the Aspose.HTML API. You will learn about the supported EPUB to PNG conversion scenarios and consider examples to illustrate them.  
-keywords: epub to png, convert epub to png, epub to png conversion, epub to png converter, save options
-lastmod: "2021-09-03"
+lastmod: 2021-09-03
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -36,7 +39,7 @@ using Aspose.Html.Saving;
 ## **Convert EPUB to PNG**
 Using [Converter.ConvertEPUB](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertepub/index) methods is the most common way to convert EPUB files into various formats. You should follow a few steps:
 
-1. Open an existing EPUB file. In the example, we use the OpenRead () method of System.IO.FileStream class to open and read an EPUB file from the file system at the specified path.
+1. Open an existing EPUB file. In the example, we use the OpenRead() method of System.IO.FileStream class to open and read an EPUB file from the file system at the specified path.
 1. Create a new [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) object. By default, the Format property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
 1. Use the [ConvertEPUB()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertepub/methods/27) method of the Converter class to save EPUB as a PNG image. You need to pass the EPUB file stream, ImageSaveOptions, and output file path to the ConvertEPUB() method for EPUB to PNG conversion.
 
