@@ -24,7 +24,7 @@ Aspose.HTML offers a free online <a href="https://products.aspose.app/svg/en/con
 
 The static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an SVG file into various formats. You can convert SVG to GIF in your C# application literally with a single line of code!
 
-In the following example, we take an SVG file in a local file system ([shapes.svg](/html/net/converting-between-formats/svg-converter/svg-to-jpg/shapes.svg)), convert and save it in the local file system.
+In the following example, we take an SVG file in a local file system ([shapes.svg](/html/net/converting-between-formats/svg-to-jpg/shapes.svg)), convert and save it in the local file system.
 
 {{< highlight java >}}
 using System.IO;
@@ -41,7 +41,7 @@ Converting a file to another format using the ConvertSVG() method is a sequence 
 
 1. Prepare code for an SVG document.
 1. Create a new [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) object with GIF ImageFormat. By default, the Format property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
-1. Use the [ConvertSVG(`content`,`baseUri`, `options`, `outputPath`)](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/51) method of the Converter class to save SVG as a GIF image. 
+1. Use the [ConvertSVG(`content`, `baseUri`, `options`, `outputPath`)](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/51) method of the Converter class to save SVG as a GIF image. 
 
 Please take a look over the following C# code snippet which shows the process of converting SVG to GIF using Aspose.HTML for .NET.
 
@@ -119,7 +119,7 @@ In the example, we use:
  - BackgroundColor property that sets the color that will fill the background. The default BackgroundColor is Transparent.
  - HorizontalResolution and VerticalResolution properties that set horizontal/vertical resolution for output images in pixels per inch. By default, these properties are 300 dpi.
 
-The ImageSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting SVG to Image formats. To learn more about [ImageOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+The ImageSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting SVG to Image formats. To learn more about [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 
 The figure illustrates the fragment of the gradient-options.gif file.
 
