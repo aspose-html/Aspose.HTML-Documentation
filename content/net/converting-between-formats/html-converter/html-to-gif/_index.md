@@ -1,11 +1,14 @@
 ---
 title: Convert HTML to GIF
-type: docs
+keywords: HTML to GIF, convert HTML to GIF, HTML to GIF conversion, HTML to GIF
+  converter, save options
+description: This article provides information on how to convert HTML to GIF
+  using the Aspose.HTML API. You will learn about the supported HTML to GIF
+  conversion scenarios and consider examples to illustrate them.
 weight: 60
+type: docs
 url: /net/converting-between-formats/html-to-gif/
-description: This article provides information on how to convert HTML to GIF using the Aspose.HTML API. You will learn about the supported HTML to GIF conversion scenarios and consider examples to illustrate them.  
-keywords: HTML to GIF, convert HTML to GIF, HTML to GIF conversion, HTML to GIF converter, save options
-lastmod: "2021-09-03"
+lastmod: 2021-09-03
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -23,7 +26,7 @@ Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/co
 ## **Convert HTML to GIF**
 Converting a file to another format using the ConvertHTML() method is a sequence of operations among which document loading and saving:
 
-1. Load an HTML file using the [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument) class ([spring.html](/net/converting-between-formats/html-converter/html-to-pdf/spring.html)).
+1. Load an HTML file using the [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument) class ([spring.html](/html/net/converting-between-formats/html-to-pdf/spring.html)).
 1. Create a new [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) object with GIF ImageFormat. By default, the Format property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
 1. Use the [ConvertHTML()](https://apireference.aspose.com/net/html/aspose.html.converters.converter/converthtml/methods/3) method of the Converter class to save HTML as a GIF image. You need to pass the HTMLDocument, ImageSaveOptions, and output file path to the ConvertHTML() method for HTML to GIF conversion.
 
