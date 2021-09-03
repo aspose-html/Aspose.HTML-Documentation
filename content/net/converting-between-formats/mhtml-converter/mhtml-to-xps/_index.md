@@ -1,14 +1,17 @@
 ---
-title: Convert MHTML to XPS
-type: docs
-weight: 20
+keywords: MHTML to XPS, convert MHTML to XPS, MHTML to XPS conversion, MHTML to
+  XPS converter, save options, stream provider
+lastmod: 2021-09-03
 url: /net/converting-between-formats/mhtml-to-xps/
-aliases: 
-    - /net/converting-between-formats/mhtml-to-xps-conversion/
-    - /net/mhtml-to-xps-conversion/
-description: This article provides information on how to convert MHTML to XPS using the Aspose.HTML API. You will learn about the supported MHTML to XPS conversion scenarios and consider examples to illustrate them.  
-keywords: MHTML to XPS, convert MHTML to XPS, MHTML to XPS conversion, MHTML to XPS converter, save options, stream provider
-lastmod: "2021-09-03"
+title: Convert MHTML to XPS
+description: This article provides information on how to convert MHTML to XPS
+  using the Aspose.HTML API. You will learn about the supported MHTML to XPS
+  conversion scenarios and consider examples to illustrate them.
+weight: 20
+type: docs
+aliases:
+  - /net/converting-between-formats/mhtml-to-xps-conversion/
+  - /net/mhtml-to-xps-conversion/
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
@@ -37,7 +40,7 @@ using Aspose.Html.Saving;
      using var stream = File.OpenRead(DataDir + "sample.mht");
 
      // Invoke the ConvertMHTML method to convert the MHTML code to XPS           
-     Converter.ConvertMHTML(stream, new XpsSaveOptions(), Path.Combine(OutputDir, "convert-with-single-line.xps")); 
+     Converter.ConvertMHTML(stream, new XpsSaveOptions(), Path.Combine(OutputDir, "convert-by-two-lines.xps")); 
 {{< /highlight >}}
 
 ## **Convert MHTML to XPS**
@@ -101,7 +104,7 @@ To convert MHTML to XPS with XpsSaveOptions specifying, you should follow a few 
 1. Create a new [XpsSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions) object and specify save options.
 1. Use the [ConvertMHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertmhtml/methods/29) method to save MHTML as a XPS file. You need to pass the MHTML file stream, XpsSaveOptions, and output file path to the ConvertMHTML() method for MHTML to XPS conversion.
 
-The following example shows how to use [XpsSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions) and create a XPS file with custom save options:
+The following example shows how to use [XpsSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions) and create an XPS file with custom save options:
 
 {{< highlight java >}}
 using System.IO;
@@ -126,14 +129,14 @@ using Aspose.Html.Drawing;
     Converter.ConvertMHTML(stream, options, savePath);
 {{< /highlight >}}
 
-In the example, we use the OpenRead () method of System.IO.FileStream class to open and read source files from the file system at the specified path. The [XpsSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/constructors/main) constructor initialize an instance of the XpsSaveOptions class that is passed to ConvertMHTML() method. The ConvertMHTML() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation. The XpsSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting MHTML to XPS format. 
+In the example, we use the OpenRead() method of System.IO.FileStream class to open and read source files from the file system at the specified path. The [XpsSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/constructors/main) constructor initialize an instance of the XpsSaveOptions class that is passed to ConvertMHTML() method. The ConvertMHTML() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation. The XpsSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting MHTML to XPS format. 
 
 In the above example, we use:
  - BackgroundColor property that specifies the color that the background will be filled in. The default BackgroundColor is Transparent;
  - PageSetup property that specifies the [page size](https://apireference.aspose.com/net/html/aspose.html.rendering/renderingoptions/properties/pagesetup) in pixels.
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 
