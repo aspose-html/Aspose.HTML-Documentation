@@ -104,7 +104,7 @@ using System.Drawing;
      Converter.ConvertSVG(document, options, savePath);
 {{< /highlight >}}
 
-The [DocSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions/constructors/main) constructor initialize an instance of the DocSaveOptions class that is passed to ConvertSVG() method. The ConvertSVG() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation.  In the example, we use the PageSetup property that specifies the page size of the DOCX document. To learn more about [DocOptions](https://apireference.aspose.com/net/html/aspose.html.saving/docsaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+The [DocSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions/constructors/main) constructor initialize an instance of the DocSaveOptions class that is passed to ConvertSVG() method. The ConvertSVG() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation.  In the example, we use the PageSetup property that specifies the page size of the DOCX document. To learn more about [DocSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/docsaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 
 {{% alert color="primary" %}} 
 
