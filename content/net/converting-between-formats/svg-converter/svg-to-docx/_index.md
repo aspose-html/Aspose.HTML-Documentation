@@ -11,7 +11,7 @@ lastmod: 2021-09-03
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
-With Aspose.HTML, you can convert SVG to DOCX format programmatically. In this article, you find information on how to convert SVG to {{%DOCX%}} by using [ConvertSVG()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods of the Converter class and applying  [DocSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/docsaveoptions).
+A DOCX format is popular because of the variety of options it offers users to write any type of documents. This file format is one of the most widely used and is available through numerous programs. With Aspose.HTML, you can convert SVG to DOCX format programmatically. In this article, you find information on how to convert SVG to {{%DOCX%}} by using [ConvertSVG()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods of the Converter class and applying  [DocSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/docsaveoptions).
 
 {{% alert color="primary" %}}
 Aspose.HTML offers a free online <a href="https://products.aspose.app/svg/en/conversion/svg" target="_blank">**SVG Converter**</a> that converts SVG files to a variety of popular formats with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
