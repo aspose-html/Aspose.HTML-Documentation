@@ -1,10 +1,13 @@
 ---
 title: MHTML Converter
-type: docs
+keywords: MHTML converter, convert mhtml, convert mhtml to pdf, convert mhtml to
+  jpg, mhtml to pdf, mhtml to jpg, mhtml to bmp, mhtml to png, mhtml to xps,
+  mhtml to gif, mhtml to tiff.
+description: In this article, you find out how to convert MHTML to PDF, XPS,
+  JPG, PNG, BMP, GIF and TIFF formats using Aspose.HTML API.
 weight: 30
-description: In this article, you find out how to convert MHTML to PDF, XPS, JPG, PNG, BMP, GIF and TIFF formats using Aspose.HTML API. 
-keywords: MHTML converter, convert mhtml, convert mhtml to pdf, convert mhtml to jpg, mhtml to pdf, mhtml to jpg, mhtml to bmp, mhtml to png, mhtml to xps, mhtml to gif, mhtml to tiff.
-lastmod: "2021-09-03"
+type: docs
+lastmod: 2021-09-03
 ---
 
 The main highlight of Aspose.HTML is a conversion feature. The [Aspose.Html.Converters](https://apireference.aspose.com/html/net/aspose.html.converters) namespace implements easy access to conversion methods. It provides a wide range of conversions to popular formats, such as MHTML to JPG,  MHTML to PDF, etc. 
@@ -13,13 +16,13 @@ This section provides information on the list of supported HTML conversion scena
 
 In the **MHTML Converter** guide, you find the following articles:
 
-[Convert MHTML to PDF](/net/converting-between-formats/mhtml-to-pdf/) - You learn how to convert MHTML to {{%PDF%}} file using the Aspose.HTML API, find out the supported MHTML to PDF conversion scenarios and consider examples to illustrate them.
+[Convert MHTML to PDF](/html/net/converting-between-formats/mhtml-to-pdf/) - You learn how to convert MHTML to {{%PDF%}} file using the Aspose.HTML API, find out the supported MHTML to PDF conversion scenarios and consider examples to illustrate them.
 
-[Convert MHTML to XPS](/net/converting-between-formats/mhtml-to-xps/) - You learn how to convert MHTML to {{%XPS%}} using save options and ICreateStreamProvider parameters.
+[Convert MHTML to XPS](/html/net/converting-between-formats/mhtml-to-xps/) - You learn how to convert MHTML to {{%XPS%}} using save options and ICreateStreamProvider parameters.
 
-[Convert MHTML to DOCX](/net/converting-between-formats/mhtml-to-docx/) - You learn how to convert MHTML to {{%DOCX%}} using save options,  ICreateStreamProvider parameters and consider examples to illustrate them.
+[Convert MHTML to DOCX](/html/net/converting-between-formats/mhtml-to-docx/) - You learn how to convert MHTML to {{%DOCX%}} using save options,  ICreateStreamProvider parameters and consider examples to illustrate them.
 
-[Convert MHTML to Image](/net/converting-between-formats/mhtml-to-image/) - You learn how to convert MHTML to {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, or {{%GIF%}} images using the Aspose.HTML API and apply image save options.
+[Convert MHTML to Image](/html/net/converting-between-formats/mhtml-to-image/) - You learn how to convert MHTML to {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, or {{%GIF%}} images using the Aspose.HTML API and apply image save options.
 
 
 
