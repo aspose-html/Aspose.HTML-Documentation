@@ -1,14 +1,17 @@
 ---
-title: Convert HTML to MHTML
-type: docs
-weight: 90
+keywords: HTML to MHTML, convert HTML to MHTML, HTML to MHTML conversion, HTML
+  to MHTML converter, save options
+lastmod: 2021-09-03
 url: /net/converting-between-formats/html-to-mhtml/
-aliases: 
-    - /net/html-to-mhtml-conversion/
-    - /net/converting-between-formats/html-to-mhtml-conversion/
-description: This article provides information on how to convert HTML to MHTML using Aspose.HTML API. You will learn about the supported HTML to MHTML conversion scenarios and consider examples to illustrate them.  
-keywords: HTML to MHTML, convert HTML to MHTML, HTML to MHTML conversion, HTML to MHTML converter, save options
-lastmod: "2021-09-03"
+title: Convert HTML to MHTML
+description: This article provides information on how to convert HTML to MHTML
+  using Aspose.HTML API. You will learn about the supported HTML to MHTML
+  conversion scenarios and consider examples to illustrate them.
+weight: 90
+type: docs
+aliases:
+  - /net/html-to-mhtml-conversion/
+  - /net/converting-between-formats/html-to-mhtml-conversion/
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
@@ -92,7 +95,7 @@ To learn more about [MHTMLSaveOptions](https://apireference.aspose.com/net/html/
 
 To convert HTML to MHTML with MHTMLSaveOptions specifying, you should follow a few steps: 
 
-1. Load an HTML file using one of the HTMLDocument() constructors of the  [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument) class (drawing.html). 
+1. Load or prepare an HTML file. 
 1. Create a new [MHTMLSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions) object.
 1. Use the [ConvertHTML()](https://apireference.aspose.com/net/html/aspose.html.converters.converter/converthtml/methods/5) method of the  Converter class to save HTML as a MHTML file. You need to pass the HTMLDocument, MHTMLSaveOptions, and output file path to the ConvertHTML() method to convert HTML to MHTML.
 
