@@ -1,16 +1,18 @@
 ---
-title: Convert HTML to PDF
-type: docs
-weight: 10
+keywords: html to pdf, convert html to pdf, html to pdf conversion, html to pdf
+  converter, save options, stream provider
+lastmod: 2021-09-03
 url: /net/converting-between-formats/html-to-pdf/
-aliases: 
-    - /net/converting-between-formats/html-to-pdf-conversion/
-    - /net/html-to-pdf-conversion/
-    - /display/htmlnet/HTML+to+PDF+Conversion    
-description: This article provides information on how to convert HTML to PDF using Aspose.HTML API. You will learn about the supported HTML to PDF conversion scenarios and consider examples to illustrate them.  
-keywords: html to pdf, convert html to pdf, html to pdf conversion, html to pdf converter, save options, stream provider
-lastmod: "2021-09-03"
-
+title: Convert HTML to PDF
+description: This article provides information on how to convert HTML to PDF
+  using Aspose.HTML API. You will learn about the supported HTML to PDF
+  conversion scenarios and consider examples to illustrate them.
+weight: 10
+type: docs
+aliases:
+  - /net/converting-between-formats/html-to-pdf-conversion/
+  - /net/html-to-pdf-conversion/
+  - /display/htmlnet/HTML+to+PDF+Conversion
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -49,7 +51,7 @@ Converting a file to another format using the ConvertHTML() method is a sequence
 1. Create a new [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) object. 
 1. Use the [ConvertHTML()](https://apireference.aspose.com/net/html/aspose.html.converters.converter/converthtml/methods/7) method of the Converter class to save HTML as a PDF file. You need to pass the HTMLDocument, PdfSaveOptions, and output file path to the ConvertHTML() method to convert HTML to PDF.
 
-Please take a look over the following C# code snippet that shows the HTML to PDF conversion process for the [spring.html](/net/converting-between-formats/html-converter/html-to-pdf/spring.html) file.
+Please take a look over the following C# code snippet that shows the HTML to PDF conversion process for the [spring.html](/html/net/converting-between-formats/html-to-pdf/spring.html) file.
 
 {{< highlight java >}}
 using System.IO;
@@ -108,7 +110,7 @@ To learn more about [PdfSaveOptions](https://apireference.aspose.com/net/html/as
 
 With Aspose.HTML, you can convert files programmatically with full control over a wide range of conversion parameters. To convert HTML to PDF with PdfSaveOptions specifying, you should follow a few steps: 
 
-1. Load an HTML file using one of the HTMLDocument() constructors of the  [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument) class ([drawing.html](/net/converting-between-formats/html-converter/html-to-pdf/drawing.html)). 
+1. Load an HTML file using one of the HTMLDocument() constructors of the  [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument) class ([drawing.html](/html/net/converting-between-formats/html-to-pdf/drawing.html)). 
 1. Create a new [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) object and specify the required properties.
 1. Use the [ConvertHTML()](https://apireference.aspose.com/net/html/aspose.html.converters.converter/converthtml/methods/7) method of the  Converter class to save HTML as a PDF file. You need to pass the HTMLDocument, PdfSaveOptions, and output file path to the ConvertHTML() method to convert HTML to PDF.
 
@@ -158,7 +160,7 @@ The figure illustrates the drawing-options.pdf file.
 ![Text "drawing-options.pdf image"](drawing-options.png#center)
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 
