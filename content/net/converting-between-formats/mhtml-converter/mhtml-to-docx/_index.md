@@ -1,11 +1,14 @@
 ---
 title: Convert MHTML to DOCX
-type: docs
+keywords: MHTML to DOCX, convert MHTML to DOCX, MHTML to DOCX conversion, MHTML
+  to DOCX converter, save options, stream provider
+description: This article provides information on how to convert MHTML to DOCX
+  using the Aspose.HTML API. You will learn about the supported MHTML to DOCX
+  conversion scenarios and consider examples to illustrate them.
 weight: 30
+type: docs
 url: /net/converting-between-formats/mhtml-to-docx/
-description: This article provides information on how to convert MHTML to DOCX using the Aspose.HTML API. You will learn about the supported MHTML to DOCX conversion scenarios and consider examples to illustrate them.  
-keywords: MHTML to DOCX, convert MHTML to DOCX, MHTML to DOCX conversion, MHTML to DOCX converter, save options, stream provider
-lastmod: "2021-09-03"
+lastmod: 2021-09-03
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -32,7 +35,7 @@ using Aspose.Html.Saving;
      using var stream = File.OpenRead(DataDir + "sample.mht");
 
      // Invoke the ConvertMHTML method to convert MHTML to DOCX           
-     Converter.ConvertMHTML(stream, new DocSaveOptions(), Path.Combine(OutputDir, "convert-with-single-line.docx"));
+     Converter.ConvertMHTML(stream, new DocSaveOptions(), Path.Combine(OutputDir, "convert-by-two-lines.docx"));
 {{< /highlight >}}
 
 ## **Convert MHTML to DOCX**
@@ -113,7 +116,7 @@ using Aspose.Html.Drawing;
     // Prepare a path to save the converted file 
     string savePath = Path.Combine(OutputDir, "sample-options.docx");
     
-    // Create an instance of DocxSaveOptions and set A5 as a page size. 
+    // Create an instance of DocSaveOptions and set A5 as a page size. 
     var options = new DocSaveOptions();
     options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(Length.FromInches(8.3f), Length.FromInches(5.8f)));            
     
@@ -124,7 +127,7 @@ using Aspose.Html.Drawing;
 In the example, we use the OpenRead () method of System.IO.FileStream class to open and read source files from the file system at the specified path. The [DocSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions/constructors/main) constructor initialize an instance of the DocSaveOptions class that is passed to ConvertMHTML() method. The ConvertMHTML() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation. The DocSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting MHTML to DOCX format. In the example, we use the PageSetup property that specifies the page size of the DOCX document.
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 
