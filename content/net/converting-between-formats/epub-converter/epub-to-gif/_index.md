@@ -1,11 +1,14 @@
 ---
 title: Convert EPUB to GIF
-type: docs
+keywords: epub to gif, convert epub to gif, epub to gif conversion, epub to gif
+  converter, save options
+description: This article provides information on how to convert EPUB to GIF
+  using Aspose.HTML API. You will learn about the supported EPUB to GIF
+  conversion scenarios and consider examples to illustrate them.
 weight: 70
+type: docs
 url: /net/converting-between-formats/epub-to-gif/
-description: This article provides information on how to convert EPUB to GIF using Aspose.HTML API. You will learn about the supported EPUB to GIF conversion scenarios and consider examples to illustrate them.  
-keywords: epub to gif, convert epub to gif, epub to gif conversion, epub to gif converter, save options
-lastmod: "2021-09-03"
+lastmod: 2021-09-03
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -20,7 +23,7 @@ Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/co
 ## **Convert EPUB to GIF**
 Using [Converter.ConvertEPUB](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertepub/index) methods is the most common way to convert EPUB files into various formats. You should follow a few steps:
 
-1. Open an existing EPUB file. In the example, we use the OpenRead () method of System.IO.FileStream class to open and read an EPUB file from the file system at the specified path.
+1. Open an existing EPUB file. In the example, we use the OpenRead() method of System.IO.FileStream class to open and read an EPUB file from the file system at the specified path.
 1. Create a new [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) object with GIF ImageFormat. By default, the Format property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
 1. Use the [ConvertEPUB()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertepub/methods/27) method of the Converter class to save EPUB as a GIF image. You need to pass the EPUB file stream, ImageSaveOptions, and output file path to the ConvertEPUB() method for EPUB to GIF conversion.
 
