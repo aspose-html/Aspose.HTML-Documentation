@@ -1,14 +1,17 @@
 ---
-title: Convert MHTML to PDF
-type: docs
-weight: 10
+keywords: mhtml to pdf, convert mhtml to pdf, mhtml to pdf conversion, mhtml to
+  pdf converter, save options, stream provider
+lastmod: 2021-09-03
 url: /net/converting-between-formats/mhtml-to-pdf/
-aliases: 
-    - /net/converting-between-formats/mhtml-to-pdf-conversion/
-    - /net/mhtml-to-pdf-conversion/
-description: This article provides information on how to convert MHTML to PDF using the Aspose.HTML API. You will learn about the supported MHTML to PDF conversion scenarios and consider examples to illustrate them.  
-keywords: mhtml to pdf, convert mhtml to pdf, mhtml to pdf conversion, mhtml to pdf converter, save options, stream provider
-lastmod: "2021-09-03"
+title: Convert MHTML to PDF
+description: This article provides information on how to convert MHTML to PDF
+  using the Aspose.HTML API. You will learn about the supported MHTML to PDF
+  conversion scenarios and consider examples to illustrate them.
+weight: 10
+type: docs
+aliases:
+  - /net/converting-between-formats/mhtml-to-pdf-conversion/
+  - /net/mhtml-to-pdf-conversion/
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
@@ -36,7 +39,7 @@ using Aspose.Html.Saving;
      using var stream = File.OpenRead(DataDir + "sample.mht");
      
      // Invoke the ConvertMHTML method to convert MHTML to PDF           
-     Converter.ConvertMHTML(stream, new PdfSaveOptions(), Path.Combine(OutputDir, "convert-with-single-line.pdf")); 
+     Converter.ConvertMHTML(stream, new PdfSaveOptions(), Path.Combine(OutputDir, "convert-by-two-lines.pdf")); 
 {{< /highlight >}}
 
 ## **Convert MHTML to PDF**
@@ -136,14 +139,14 @@ using Aspose.Html.Drawing;
     Converter.ConvertMHTML(stream, options, savePath); 
 {{< /highlight >}}
 
-In the example, we use the OpenRead () method of System.IO.FileStream class to open and read source files from the file system at the specified path. The [PdfSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/constructors/main) constructor initialize an instance of the PdfSaveOptions class that is passed to ConvertMHTML() method. The ConvertMHTML() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation. The PdfSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting MHTML to PDF format. 
+In the example, we use the OpenRead() method of System.IO.FileStream class to open and read source files from the file system at the specified path. The [PdfSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/constructors/main) constructor initialize an instance of the PdfSaveOptions class that is passed to ConvertMHTML() method. The ConvertMHTML() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation. The PdfSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting MHTML to PDF format. 
 
 In the above example, we use:
  - BackgroundColor property that specifies the color that the background will be filled in. The default BackgroundColor is Transparent;
  - PageSetup property that specifies the [page size](https://apireference.aspose.com/net/html/aspose.html.rendering/renderingoptions/properties/pagesetup) in pixels.
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 
