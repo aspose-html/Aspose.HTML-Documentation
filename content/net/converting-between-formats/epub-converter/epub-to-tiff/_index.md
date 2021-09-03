@@ -1,11 +1,14 @@
 ---
 title: Convert EPUB to TIFF
-type: docs
+keywords: epub to tiff, convert epub to tiff, epub to tiff conversion, epub to
+  tiff converter, save options
+description: This article provides information on how to convert EPUB to TIFF
+  using the Aspose.HTML API. You will learn about the supported EPUB to TIFF
+  conversion scenarios and consider examples to illustrate them.
 weight: 80
+type: docs
 url: /net/converting-between-formats/epub-to-tiff/
-description: This article provides information on how to convert EPUB to TIFF using the Aspose.HTML API. You will learn about the supported EPUB to TIFF conversion scenarios and consider examples to illustrate them.  
-keywords: epub to tiff, convert epub to tiff, epub to tiff conversion, epub to tiff converter, save options
-lastmod: "2021-09-03"
+lastmod: 2021-09-03
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -20,7 +23,7 @@ Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/co
 ## **Convert EPUB to TIFF**
 Using [Converter.ConvertEPUB](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertepub/index) methods is the most common way to convert EPUB files into various formats. To convert EPUB to TIFF, you should follow a few steps:
 
-1. Open an existing EPUB file. In the example, we use the OpenRead () method of System.IO.FileStream class to open and read an EPUB file from the file system at the specified path.
+1. Open an existing EPUB file. In the example, we use the OpenRead() method of System.IO.FileStream class to open and read an EPUB file from the file system at the specified path.
 1. Create a new [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) object with TIFF ImageFormat. By default, the Format property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
 1. Use the [ConvertEPUB()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertepub/methods/27) method of the Converter class to save EPUB as a TIFF image. You need to pass the EPUB file stream, ImageSaveOptions, and output file path to the ConvertEPUB() method for EPUB to TIFF conversion.
 
