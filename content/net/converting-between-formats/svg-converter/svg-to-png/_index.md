@@ -1,11 +1,14 @@
 ---
 title: Convert SVG to PNG
-type: docs
+keywords: svg to png, convert svg to png, svg to png conversion, svg to png
+  converter, save options
+description: This article provides information on how to convert SVG to PNG
+  using Aspose.HTML API. You will learn about the supported SVG to PNG
+  conversion scenarios and consider examples to illustrate them.
 weight: 30
+type: docs
 url: /net/converting-between-formats/svg-to-png/
-description: This article provides information on how to convert SVG to PNG using Aspose.HTML API. You will learn about the supported SVG to PNG conversion scenarios and consider examples to illustrate them.  
-keywords: svg to png, convert svg to png, svg to png conversion, svg to png converter, save options
-lastmod: "2021-09-03"
+lastmod: 2021-09-03
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -23,7 +26,7 @@ Aspose.HTML offers a free online <a href="https://products.aspose.app/svg/en/con
 
 The static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an SVG file into various formats. You can convert SVG to PNG in your C# application literally with a single line of code!
 
-In the following example, we take an SVG file in a local file system ([shapes.svg](/net/converting-between-formats/svg-converter/svg-to-jpg/shapes.svg)), convert and save it in the local file system.
+In the following example, we take an SVG file in a local file system ([shapes.svg](/html/net/converting-between-formats/svg-to-jpg/shapes.svg)), convert and save it in the local file system.
 
 {{< highlight java >}}
 using System.IO;
@@ -40,7 +43,7 @@ Converting a file to another format using the ConvertSVG() method is a sequence 
 
 1. Prepare code for an SVG document.
 1. Create a new [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) object. By default, the Format property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
-1. Use the [ConvertSVG (`content`,`baseUri`, `options`, `outputPath`)](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/51) method of the Converter class to save SVG as a PNG image. 
+1. Use the [ConvertSVG(`content`, `baseUri`, `options`, `outputPath`)](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/51) method of the Converter class to save SVG as a PNG image. 
 
 Please take a look over the following C# code snippet which shows the process of converting SVG to PNG using Aspose.HTML for .NET.
 
@@ -92,9 +95,9 @@ Aspose.HTML allows converting SVG to PNG using default or custom save options. [
 
 To convert SVG to PNG with ImageSaveOptions specifying, you should follow a few steps: 
 
-1. Load an SVG file using one of the SVGDocument() constructors of the [SVGDocument](https://apireference.aspose.com/net/html/aspose.html.dom.svg/svgdocument) class. ([flower1.svg](/net/converting-between-formats/svg-converter/svg-to-png/flower1.svg)). 
+1. Load an SVG file using one of the SVGDocument() constructors of the [SVGDocument](https://apireference.aspose.com/net/html/aspose.html.dom.svg/svgdocument) class. ([flower1.svg](/html/net/converting-between-formats/svg-to-png/flower1.svg)). 
 1. Create a new [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) object and specify save options. By default, the Format property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
-1. Use the [ConvertSVG ()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/3) method to save SVG as a PNG image. You need to pass the SVGDocument, ImageSaveOptions, and output file path to the ConvertSVG () method to convert SVG to PNG.
+1. Use the [ConvertSVG()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/3) method to save SVG as a PNG image. You need to pass the SVGDocument, ImageSaveOptions, and output file path to the ConvertSVG() method to convert SVG to PNG.
 
 The following C# code snippet shows how to convert SVG to PNG using custom save options:
 
@@ -129,7 +132,7 @@ using System.Drawing.Drawing2D;
      Converter.ConvertSVG(document, options, savePath);
 {{< /highlight >}}
 
-The [ImageSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/constructors/main) constructor initialize an instance of the ImageSaveOptions class that is passed to ConvertSVG () method. The ConvertSVG () method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation.
+The [ImageSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/constructors/main) constructor initialize an instance of the ImageSaveOptions class that is passed to ConvertSVG() method. The ConvertSVG() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation.
 
 In the above example, we use:
  - BackgroundColor property that sets the color that will fill the background. The default BackgroundColor is Transparent;
@@ -143,7 +146,7 @@ The figure illustrates the fragment of the flower-options.png file.
 ![Text ""Flower" PNG image"](../flower-options.png#center)
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement the [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement the [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 
