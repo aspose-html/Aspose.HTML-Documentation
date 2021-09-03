@@ -1,14 +1,17 @@
 ---
-title: Convert Markdown to HTML
-type: docs
-weight: 10
+keywords: markdown to html, convert markdown to html, markdown to html
+  conversion, markdown to html converter
+lastmod: 2021-09-03
 url: /net/converting-between-formats/markdown-to-html/
-aliases: 
-    - /net/converting-between-formats/markdown-to-html-conversion/
-    - /net/markdown-to-html-conversion/
-description: This article provides information on how to convert Markdown to HTML using the Aspose.HTML API. You will learn about the supported Markdown to HTML conversion scenarios and consider examples to illustrate them.  
-keywords: markdown to html, convert markdown to html, markdown to html conversion, markdown to html converter
-lastmod: "2021-09-03"
+title: Convert Markdown to HTML
+description: This article provides information on how to convert Markdown to
+  HTML using the Aspose.HTML API. You will learn about the supported Markdown to
+  HTML conversion scenarios and consider examples to illustrate them.
+weight: 10
+type: docs
+aliases:
+  - /net/converting-between-formats/markdown-to-html-conversion/
+  - /net/markdown-to-html-conversion/
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
@@ -79,7 +82,7 @@ using Aspose.Html.Converters;
     Converter.ConvertMarkdown(sourcePath, savePath);
 {{< /highlight >}}
 
-You can view the resulting HTML file by following the link - [nature-output.html](/net/converting-between-formats/markdown-converter/markdown-to-html/nature-output.html) 
+You can view the resulting HTML file by following the link - [nature-output.html](/html/net/converting-between-formats/markdown-to-html/nature-output.html) 
 
 {{% alert color="primary" %}} 
 You can check the quality of Markdown to HTML conversion with our online [**MD to HTML Converter**](https://products.aspose.app/html/en/conversion/md-to-html). Upload, convert your files and get results in a few seconds. Try our forceful Markdown to HTML Converter for free now!
