@@ -1,11 +1,14 @@
 ---
 title: Convert HTML to PNG
-type: docs
+keywords: HTML to PNG, convert HTML to PNG, HTML to PNG converter, save options,
+  stream provider
+description: This article provides information on how to convert HTML to PNG
+  using Aspose.HTML API. You will learn about the supported HTML to PNG
+  conversion scenarios and consider examples to illustrate them.
 weight: 30
+type: docs
 url: /net/converting-between-formats/html-to-png/
-description: This article provides information on how to convert HTML to PNG using Aspose.HTML API. You will learn about the supported HTML to PNG conversion scenarios and consider examples to illustrate them.  
-keywords: HTML to PNG, convert HTML to PNG, HTML to PNG converter, save options, stream provider
-lastmod: "2021-09-03"
+lastmod: 2021-09-03
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -147,7 +150,7 @@ You can download the complete examples and data files from [**GitHub**](https://
 {{% /alert %}}
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement the [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement the [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 
