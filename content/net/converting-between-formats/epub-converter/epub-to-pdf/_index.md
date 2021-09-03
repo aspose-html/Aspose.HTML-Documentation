@@ -1,14 +1,17 @@
 ---
-title: Convert EPUB to PDF
-type: docs
-weight: 10
+keywords: epub to pdf, convert epub to pdf, epub to pdf conversion, epub to pdf
+  converter, save options, stream provider
+lastmod: 2021-09-03
 url: /net/converting-between-formats/epub-to-pdf/
-aliases: 
-    - /net/converting-between-formats/epub-to-pdf-conversion/
-    - /net/epub-to-pdf-conversion/
-description: This article provides information on how to convert EPUB to PDF using Aspose.HTML API. You will learn about the supported EPUB to PDF conversion scenarios and consider examples to illustrate them.  
-keywords: epub to pdf, convert epub to pdf, epub to pdf conversion, epub to pdf converter, save options, stream provider
-lastmod: "2021-09-03"
+title: Convert EPUB to PDF
+description: This article provides information on how to convert EPUB to PDF
+  using Aspose.HTML API. You will learn about the supported EPUB to PDF
+  conversion scenarios and consider examples to illustrate them.
+weight: 10
+type: docs
+aliases:
+  - /net/converting-between-formats/epub-to-pdf-conversion/
+  - /net/epub-to-pdf-conversion/
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
@@ -43,7 +46,7 @@ using Aspose.Html.Saving;
 
 Using [Converter.ConvertEPUB](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertepub/index) methods is the most common way to convert EPUB files into various formats. To convert EPUB to PDF, you should follow a few steps: 
 
-1. Open an existing EPUB file. In the example, we use the OpenRead () method of System.IO.FileStream class to open and read an EPUB file from the file system at the specified path.
+1. Open an existing EPUB file. In the example, we use the OpenRead() method of System.IO.FileStream class to open and read an EPUB file from the file system at the specified path.
 1. Create an instance of [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions).
 1. Use the [ConvertEPUB()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertepub/methods/29) method of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class to save EPUB as a PDF file. You need to pass the EPUB file stream, PdfSaveOptions, and output file path to the ConvertEPUB() method to convert EPUB to PDF.
 
@@ -133,7 +136,7 @@ using Aspose.Html.Drawing;
 
 {{< /highlight >}}
 
-In the example, we use the OpenRead () method of System.IO.FileStream class to open and read source files from the file system at the specified path. The [PdfSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/constructors/main) constructor initialize an instance of the PdfSaveOptions class that is passed to ConvertEPUB() method. The ConvertEPUB() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation. The PdfSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of EPUB to PDF conversion. 
+In the example, we use the OpenRead() method of System.IO.FileStream class to open and read source files from the file system at the specified path. The [PdfSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/constructors/main) constructor initialize an instance of the PdfSaveOptions class that is passed to ConvertEPUB() method. The ConvertEPUB() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation. The PdfSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of EPUB to PDF conversion. 
 
 In the above example, we use:
 
@@ -143,10 +146,10 @@ In the above example, we use:
 Aspose.HTML for .NET provides various types of output formats for rendering operations. Some of these formats produce a single output file (for instance {{%PDF%}}, {{%XPS%}}), others create multiple files (Image formats {{%JPG%}}, {{%PNG%}}, etc.).
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 
-The example below shows how to implement and use the your own *MemoryStreamProvider* in the application:
+The example below shows how to implement and use your own *MemoryStreamProvider* in the application:
 
 {{< highlight java >}}
 using System.IO;
@@ -218,7 +221,7 @@ using Aspose.Html.Saving;
     }
 {{< /highlight >}}
 
-The ConvertEPUB(Stream, PdfSaveOptions, ICreateStreamProvider) method takes the conversion source, options, instance of MemoryStreamProvider, which will be used to get an output stream, and performs the conversion operation.
+The ConvertEPUB(`Stream`, `PdfSaveOptions`, `ICreateStreamProvider`) method takes the conversion source, options, instance of MemoryStreamProvider, which will be used to get an output stream, and performs the conversion operation.
 
 {{% alert color="primary" %}} 
 
