@@ -1,15 +1,17 @@
 ---
-title: Convert HTML to XPS
-type: docs
-weight: 70
+keywords: HTML to XPS, convert HTML to XPS, HTML to XPS conversion, HTML to XPS
+  converter, save options, stream provider
+lastmod: 2021-09-03
 url: /net/converting-between-formats/html-to-xps/
+title: Convert HTML to XPS
+description: This article provides information on how to convert HTML to XPS
+  using Aspose.HTML API. You will learn about the supported HTML to XPS
+  conversion scenarios and consider examples to illustrate them.
+weight: 70
+type: docs
 aliases:
-    - /net/converting-between-formats/html-to-xps-conversion/
-    - /net/html-to-xps-conversion/
-description: This article provides information on how to convert HTML to XPS using Aspose.HTML API. You will learn about the supported HTML to XPS conversion scenarios and consider examples to illustrate them.  
-keywords: HTML to XPS, convert HTML to XPS, HTML to XPS conversion, HTML to XPS converter, save options, stream provider
-lastmod: "2021-09-03"
-
+  - /net/converting-between-formats/html-to-xps-conversion/
+  - /net/html-to-xps-conversion/
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -142,7 +144,7 @@ In the above example, we use:
    
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 
