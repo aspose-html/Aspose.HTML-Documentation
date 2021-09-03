@@ -120,7 +120,7 @@ In the above example, we use:
  - HorizontalResolution and VerticalResolution properties that set horizontal/vertical resolution for output images in pixels per inch. By default, these properties are 300 dpi;
  - SmoothingMode property that sets the rendering quality for this image.
 
-The ImageSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting SVG to Image formats. Among these properties, SmoothingMode that enables you to set the rendering quality for the image.  Available values are Invalid, Default, HighSpeed, HighQuality, None, and AntiAlias. You can select any value, considering the advantages and disadvantages of each one. To learn more about [ImageOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions), please read the [Fine-Tuning Converters](html/net/converting-between-formats/fine-tuning-converters/) article.
+The ImageSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting SVG to Image formats. Among these properties, SmoothingMode that enables you to set the rendering quality for the image.  Available values are Invalid, Default, HighSpeed, HighQuality, None, and AntiAlias. You can select any value, considering the advantages and disadvantages of each one. To learn more about [ImageOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 
 The figure illustrates the fragment of the flower-options.bmp file.
 
