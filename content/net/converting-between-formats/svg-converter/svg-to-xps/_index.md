@@ -1,14 +1,17 @@
 ---
-title: Convert SVG to XPS
-type: docs
-weight: 70
+keywords: svg to xps, convert svg to xps, svg to xps conversion, svg to xps
+  converter, save options
+lastmod: 2021-09-03
 url: /net/converting-between-formats/svg-to-xps/
-aliases: 
-    - /net/svg-to-xps-conversion/
-    - /net/converting-between-formats/svg-to-xps-conversion/
-description: This article provides information on how to convert SVG to XPS using Aspose.HTML API. You will learn about the supported SVG to XPS conversion scenarios and consider examples to illustrate them.  
-keywords: svg to xps, convert svg to xps, svg to xps conversion, svg to xps converter, save options
-lastmod: "2021-09-03"
+title: Convert SVG to XPS
+description: This article provides information on how to convert SVG to XPS
+  using Aspose.HTML API. You will learn about the supported SVG to XPS
+  conversion scenarios and consider examples to illustrate them.
+weight: 70
+type: docs
+aliases:
+  - /net/svg-to-xps-conversion/
+  - /net/converting-between-formats/svg-to-xps-conversion/
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -26,7 +29,7 @@ Aspose.HTML offers a free online <a href="https://products.aspose.app/svg/en/con
 
 The static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an SVG file into various formats. You can convert SVG to XPS in your C# application literally with a single line of code!
 
-In the following example, we take an SVG file in a local file system ([shapes.svg](/net/converting-between-formats/svg-converter/svg-to-jpg/shapes.svg)), convert and save it in the local file system.
+In the following example, we take an SVG file in a local file system ([shapes.svg](/html/net/converting-between-formats/svg-to-jpg/shapes.svg)), convert and save it in the local file system.
 
 {{< highlight java >}}
 using System.IO;
@@ -42,7 +45,7 @@ Converting a file to another format using the ConvertSVG() method is a sequence 
 
 1. Prepare code for an SVG document.
 1. Create a new [XpsSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions) object.
-1. Use the [ConvertSVG (`content`,`baseUri`, `options`, `outputPath`)](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/51) method of the Converter class to save SVG as an XPS file. 
+1. Use the [ConvertSVG(`content`, `baseUri`, `options`, `outputPath`)](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/51) method of the Converter class to save SVG as an XPS file. 
 
 Please take a look over the following C# code snippet which shows the process of converting SVG to XPS using Aspose.HTML for .NET.
 
@@ -89,7 +92,7 @@ To convert SVG to XPS with XpsSaveOptions specifying, you should follow a few st
 
 1. Load an SVG file using one of the SVGDocument() constructors of the [SVGDocument](https://apireference.aspose.com/net/html/aspose.html.dom.svg/svgdocument) class. ([aspose.svg](/net/converting-between-formats/svg-converter/svg-to-pdf/aspose.svg)). 
 1. Create a new [XpsSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions) object and specify save options. 
-1. Use the [ConvertSVG ()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/3) method to save SVG as an XPS file. You need to pass the SVGDocument, XpsSaveOptions, and output file path to the ConvertSVG () method for SVG to XPS conversion.
+1. Use the [ConvertSVG()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/3) method to save SVG as an XPS file. You need to pass the SVGDocument, XpsSaveOptions, and output file path to the ConvertSVG() method for SVG to XPS conversion.
 
 The following C# code snippet shows how to convert SVG to XPS using custom save options:
 
@@ -123,7 +126,7 @@ using System.Drawing;
     Converter.ConvertSVG(document, options, savePath);
 {{< /highlight >}}
 
-The [XpsSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/constructors/main) constructor initialize an instance of the XpsSaveOptions class that is passed to ConvertSVG () method. The ConvertSVG () method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation.
+The [XpsSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/constructors/main) constructor initialize an instance of the XpsSaveOptions class that is passed to ConvertSVG() method. The ConvertSVG() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation.
 
 In the above example, we use:
  - BackgroundColor property that sets the color that will fill the background. The default BackgroundColor is Transparent.
@@ -137,7 +140,7 @@ The figure illustrates the aspose-options.xps file with specified page size, bac
 ![Text "Image of the Aspose logo"](../aspose-options.png#center)
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement the [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement the [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 
