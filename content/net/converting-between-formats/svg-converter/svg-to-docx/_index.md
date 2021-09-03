@@ -1,11 +1,13 @@
 ---
 title: Convert SVG to DOCX
-type: docs
-weight: 40
-url: /net/converting-between-formats/svg-to-docx/
-description: This article provides information on how to convert SVG to DOCX using Aspose.HTML API. You will learn about the supported SVG to DOCX conversion scenarios and consider examples to illustrate them.  
 keywords: svg to docx, convert svg to docx, svg to docx conversion, svg to docx converter
-lastmod: "2021-09-03"
+description: This article provides information on how to convert SVG to DOCX
+  using Aspose.HTML API. You will learn about the supported SVG to DOCX
+  conversion scenarios and consider examples to illustrate them.
+weight: 40
+type: docs
+url: /net/converting-between-formats/svg-to-docx/
+lastmod: 2021-09-03
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -21,7 +23,7 @@ Aspose.HTML offers a free online <a href="https://products.aspose.app/svg/en/con
 
 The static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an SVG file into various formats. You can convert SVG to DOCX in your C# application literally with a single line of code!
 
-In the following example, we take an SVG file in a local file system ([shapes.svg](/net/converting-between-formats/svg-converter/svg-to-jpg/shapes.svg)), convert and save it in the local file system.
+In the following example, we take an SVG file in a local file system ([shapes.svg](/html/net/converting-between-formats/svg-to-jpg/shapes.svg)), convert and save it in the local file system.
 
 {{< highlight java >}}
 using System.IO;
@@ -37,7 +39,7 @@ Converting a file to another format using the ConvertSVG() method is a sequence 
 
 1. Prepare code for an SVG document.
 1. Create a new [DocSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/docsaveoptions) object. 
-1. Use the [ConvertSVG(`content`,`baseUri`, `options`, `outputPath`)](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/49) method of the Converter class to save SVG as a DOCX file. 
+1. Use the [ConvertSVG(`content`, `baseUri`, `options`, `outputPath`)](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/49) method of the Converter class to save SVG as a DOCX file. 
 
 Please take a look over the following C# code snippet which shows the process of converting SVG to DOCX using Aspose.HTML for .NET.
 
@@ -102,7 +104,7 @@ using System.Drawing;
      Converter.ConvertSVG(document, options, savePath);
 {{< /highlight >}}
 
-The [DocSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions/constructors/main) constructor initialize an instance of the DocSaveOptions class that is passed to ConvertSVG() method. The ConvertSVG() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation.  In the example, we use the PageSetup property that specifies the page size of the DOCX document. To learn more about [DocOptions](https://apireference.aspose.com/net/html/aspose.html.saving/docsaveoptions), please read the [Fine-Tuning Converters](http://localhost:1313/html/net/fine-tuning-converters/) article.
+The [DocSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions/constructors/main) constructor initialize an instance of the DocSaveOptions class that is passed to ConvertSVG() method. The ConvertSVG() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation.  In the example, we use the PageSetup property that specifies the page size of the DOCX document. To learn more about [DocSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/docsaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 
 {{% alert color="primary" %}} 
 
