@@ -1,30 +1,35 @@
 ---
 title: Converting Between Formats
-type: docs
+keywords: HTML converter, MHTML converter, SVG converter, EPUB converter,
+  Markdown converter, html to pdf, html to jpg, svg to png, mhtml to pdf, md to
+  html.
+description: This chapter provides a general description of conversion features
+  of Aspose.HTML .NET. You find out how to convert HTML, SVG, MHTML, EPUB, MD
+  documents to PDF, XPS, DOCX, MD, MHTML and Image formats using Aspose.HTML
+  API.
 weight: 30
+type: docs
 aliases: /net/converting-between-formats/
-description: This chapter provides a general description of conversion features of Aspose.HTML .NET. You find out how to convert HTML, SVG, MHTML, EPUB, MD documents to PDF, XPS, DOCX, MD, MHTML and Image formats using Aspose.HTML API. 
-keywords: HTML converter, MHTML converter, SVG converter, EPUB converter, Markdown converter, html to pdf, html to jpg, svg to png, mhtml to pdf, md to html.
-lastmod: "2021-09-03"
+lastmod: 2021-09-03
 ---
 
 Welcome to the "Converting between Formats" guides. The articles in this section provide information on the list of supported conversion scenarios and how to perform them using a [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class that groups all low-level conversion operation in a single class to make it comfy and easy to use.
 
 The main highlight of Aspose.HTML is the conversion feature. Converting between formats is required for various reasons: to work in a familiar, convenient format or to take advantage of different formats for specific tasks. In this chapter, you find the following sections: 
 
- - [HTML Converter](/net/converting-between-formats/html-converter/) - You learn how to convert an [HTML document](https://apireference.aspose.com/net/html/aspose.html/htmldocument) to different formats, including {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, {{%GIF%}}, {{%MD%}}, and {{%MHTML %}}.
+ - [HTML Converter](/html/net/converting-between-formats/html-converter/) - You learn how to convert an [HTML document](https://apireference.aspose.com/net/html/aspose.html/htmldocument) to different formats, including {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, {{%GIF%}}, {{%MD%}}, and {{%MHTML %}}.
 
- - [SVG Converter](/net/converting-between-formats/svg-converter/)  - You find information on how to convert {{%SVG %}} to {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, and {{%GIF%}} formats.
+ - [SVG Converter](/html/net/converting-between-formats/svg-converter/)  - You find information on how to convert {{%SVG %}} to {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, and {{%GIF%}} formats.
 
- - [EPUB Converter](/net/converting-between-formats/epub-converter/)  - You find out how to convert {{%EPUB %}} to {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, and {{%GIF%}} formats.
+ - [EPUB Converter](/html/net/converting-between-formats/epub-converter/)  - You find out how to convert {{%EPUB %}} to {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, and {{%GIF%}} formats.
 
- - [MHTML Converter](/net/converting-between-formats/mhtml-converter/) provides a general description of how to convert {{%MHTML %}} to {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, and {{%GIF%}} formats.
+ - [MHTML Converter](/html/net/converting-between-formats/mhtml-converter/) provides a general description of how to convert {{%MHTML %}} to {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, and {{%GIF%}} formats.
 
- - [Markdown Converter](/net/converting-between-formats/markdown-converter/) - You learn how to convert {{%MD%}} to {{%HTML%}}, {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, and Image file formats using Aspose.HTML API.
+ - [Markdown Converter](/html/net/converting-between-formats/markdown-converter/) - You learn how to convert {{%MD%}} to {{%HTML%}}, {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, and Image file formats using Aspose.HTML API.
 
- - [Template Converter](/net/converting-between-formats/html-template/) - You learn how to populate an HTML template from XML or JSON data sources.
+ - [Template Converter](/html/net/converting-between-formats/html-template/) - You learn how to populate an HTML template from XML or JSON data sources.
 
- - [Fine-Tuning Converters](/net/converting-between-formats/fine-tuning-converters/) - You will find information on using different rendering options and parameters to customize the rendering result.
+ - [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) - You will find information on using different rendering options and parameters to customize the rendering result.
 
 {{% alert color="primary" %}} 
 
