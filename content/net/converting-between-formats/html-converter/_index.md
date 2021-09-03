@@ -1,11 +1,14 @@
 ---
 title: HTML Converter
-type: docs
+keywords: HTML converter, convert html, html to pdf, html to jpg, html to docx,
+  html to png, html to bmp, html to gif, html to tiff, html to md, html to xps.
+description: In this article, you learn how to convert HTML to PDF, XPS, DOCX,
+  MD, MHTML and Image formats using Aspose.HTML API. You find out the supported
+  HTML conversion scenarios and consider examples to illustrate them.
 weight: 10
+type: docs
 url: /net/converting-between-formats/html-converter/
-description: In this article, you learn how to convert HTML to PDF, XPS, DOCX, MD, MHTML and Image formats using Aspose.HTML API. You find out the supported HTML conversion scenarios and consider examples to illustrate them.
-keywords: HTML converter, convert html, html to pdf, html to jpg, html to docx, html to png, html to bmp, html to gif, html to tiff, html to md, html to xps.
-lastmod: "2021-09-03"
+lastmod: 2021-09-03
 ---
 
 The main highlight of Aspose.HTML is a conversion feature. Converting between formats is required for various reasons: to work in a familiar, convenient format or to take advantage of different formats for specific tasks. The [Aspose.Html.Converters](https://apireference.aspose.com/html/net/aspose.html.converters) namespace implements easy access to conversion methods. It provides a wide range of {{%HTML%}} conversions to popular formats, such as {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, {{%GIF%}}, {{%MHTML%}},  and {{%MD%}}.
@@ -21,25 +24,25 @@ Any conversion you want to perform involves loading an HTML document and saving 
 
 This section provides information on the list of supported HTML conversion scenarios and how to perform them using a [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class that groups all low-level conversion operations in a single class to make them comfy and easy to use. In the **HTML Converter** guide, you find the following articles: 
 
-[Convert HTML to PDF](/net/converting-between-formats/html-to-pdf/) - In this guide, you find information on how to convert HTML to ({{%PDF%}}) and consider code snippets that illustrate the applying of save options and ICreateStreamProvider parameters.
+[Convert HTML to PDF](/html/net/converting-between-formats/html-to-pdf/) - In this guide, you find information on how to convert HTML to ({{%PDF%}}) and consider code snippets that illustrate the applying of save options and ICreateStreamProvider parameters.
 
-[Convert HTML to JPG](/net/converting-between-formats/html-to-jpg/) - You learn how to convert HTML to {{%JPG%}} image using the Aspose.HTML API, find out the supported HTML to JPG conversion scenarios and consider examples to illustrate them.
+[Convert HTML to JPG](/html/net/converting-between-formats/html-to-jpg/) - You learn how to convert HTML to {{%JPG%}} image using the Aspose.HTML API, find out the supported HTML to JPG conversion scenarios and consider examples to illustrate them.
 
-[Convert HTML to PNG](/net/converting-between-formats/html-to-png/) - You learn how to convert HTML to {{%PNG%}} using the Aspose.HTML API and apply save options or ICreateStreamProvider parameters.
+[Convert HTML to PNG](/html/net/converting-between-formats/html-to-png/) - You learn how to convert HTML to {{%PNG%}} using the Aspose.HTML API and apply save options or ICreateStreamProvider parameters.
 
-[Convert HTML to BMP](/net/converting-between-formats/html-to-bmp/) - You learn how to convert HTML to {{%BMP%}} using the Aspose.HTML API and apply image save options. 
+[Convert HTML to BMP](/html/net/converting-between-formats/html-to-bmp/) - You learn how to convert HTML to {{%BMP%}} using the Aspose.HTML API and apply image save options. 
 
-[Convert HTML to TIFF](/net/converting-between-formats/html-to-tiff/) - You learn how to convert HTML to {{%TIFF%}} using the Aspose.HTML API and consider examples to illustrate the conversion.
+[Convert HTML to TIFF](/html/net/converting-between-formats/html-to-tiff/) - You learn how to convert HTML to {{%TIFF%}} using the Aspose.HTML API and consider examples to illustrate the conversion.
 
-[Convert HTML to GIF](/net/converting-between-formats/html-to-gif/) - You find out the supported HTML to {{%GIF%}} conversion scenarios and consider examples to illustrate them.
+[Convert HTML to GIF](/html/net/converting-between-formats/html-to-gif/) - You find out the supported HTML to {{%GIF%}} conversion scenarios and consider examples to illustrate them.
 
-[Convert HTML to DOCX](/net/converting-between-formats/html-to-docx/) - You find out how to convert HTML to {{%DOCX%}}, use save options and ICreateStreamProvider parameters and consider examples to illustrate them.
+[Convert HTML to DOCX](/html/net/converting-between-formats/html-to-docx/) - You find out how to convert HTML to {{%DOCX%}}, use save options and ICreateStreamProvider parameters and consider examples to illustrate them.
 
-[Convert HTML to XPS](/net/converting-between-formats/html-to-xps/) - You learn how to convert an HTML document into XML Paper Specification ({{%XPS%}}) file format, use save options and ICreateStreamProvider parameters.
+[Convert HTML to XPS](/html/net/converting-between-formats/html-to-xps/) - You learn how to convert an HTML document into XML Paper Specification ({{%XPS%}}) file format, use save options and ICreateStreamProvider parameters.
 
-[Convert HTML to MHTML](/net/converting-between-formats/html-to-mhtml/) - You find information on how to convert HTML to {{%MHTML%}} document and consider examples to illustrate the conversion.
+[Convert HTML to MHTML](/html/net/converting-between-formats/html-to-mhtml/) - You find information on how to convert HTML to {{%MHTML%}} document and consider examples to illustrate the conversion.
 
-[Convert HTML to Markdown](/net/converting-between-formats/html-to-markdown/) - You find out the supported HTML to {{%MD%}} conversion scenarios and learn about Features and Limitations for them.
+[Convert HTML to Markdown](/html/net/converting-between-formats/html-to-markdown/) - You find out the supported HTML to {{%MD%}} conversion scenarios and learn about Features and Limitations for them.
 
 {{% alert color="primary" %}} 
 
