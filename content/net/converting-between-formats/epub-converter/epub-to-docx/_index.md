@@ -1,18 +1,21 @@
 ---
 title: Convert EPUB to DOCX
-type: docs
+keywords: EPUB to DOCX, convert EPUB to DOCX, EPUB to DOCX conversion, EPUB to
+  DOCX converter, save options, stream provider
+description: This article provides information on how to convert EPUB to DOCX
+  using the Aspose.HTML API. You will learn about the supported EPUB to DOCX
+  conversion scenarios and consider examples to illustrate them.
 weight: 20
+type: docs
 url: /net/converting-between-formats/epub-to-docx/
-description: This article provides information on how to convert EPUB to DOCX using the Aspose.HTML API. You will learn about the supported EPUB to DOCX conversion scenarios and consider examples to illustrate them.  
-keywords: EPUB to DOCX, convert EPUB to DOCX, EPUB to DOCX conversion, EPUB to DOCX converter, save options, stream provider
-lastmod: "2021-09-03"
+lastmod: 2021-09-03
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
 DOCX is a well-known format for Microsoft Word documents. This format is popular because it supports a wide range of formatting features and offers users a variety of options to write any type of document. DOCX files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word, which support DOC file extensions. EPUB to DOCX conversion is often required to take advantage of DOCX format for specific user tasks. 
 
-In this article, you find information on how to convert {{%EPUB%}} to {{%DOCX%}} using ConvertEPUB () methods of the Converter class and how to apply [DocSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/docsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you find information on how to convert {{%EPUB%}} to {{%DOCX%}} using ConvertEPUB() methods of the Converter class and how to apply [DocSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/docsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}}
 Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/epub-to-docx" target="_blank">**EPUB to DOCX Converter**</a> that converts EPUB to DOCX with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
@@ -42,9 +45,9 @@ Using [Converter.ConvertMHTML](https://apireference.aspose.com/html/net/aspose.h
 
 1. Open an existing EPUB file.
 1. Create an instance of the [DocSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/docsaveoptions) class.
-1. Use the [ConvertEPUB ()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertepub/methods/25) method of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class to save EPUB as a DOCX file. You need to pass the EPUB file stream, DocSaveOptions, and output file path to the ConvertEPUB () method method for EPUB to DOCX conversion.
+1. Use the [ConvertEPUB()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertepub/methods/25) method of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class to save EPUB as a DOCX file. You need to pass the EPUB file stream, DocSaveOptions, and output file path to the ConvertEPUB() method for EPUB to DOCX conversion.
 
-In the example, we use the OpenRead () method of System.IO.FileStream class to open and read EPUB files from the file system at the specified path.
+In the example, we use the OpenRead() method of System.IO.FileStream class to open and read EPUB files from the file system at the specified path.
 
 {{< highlight java >}}
 using System.IO;
@@ -118,10 +121,10 @@ using Aspose.Html.Drawing;
     Converter.ConvertEPUB(stream, options, savePath); 
 {{< /highlight >}}
 
-In the example, we use the OpenRead () method of System.IO.FileStream class to open and read source files from the file system at the specified path. The [DocSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions/constructors/main) constructor initialize an instance of the DocSaveOptions class that is passed to ConvertEPUB() method. The ConvertEPUB() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation. The DocSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting EPUB to DOCX format. In the example, we use the PageSetup property that specifies the page size of the DOCX document.
+In the example, we use the OpenRead() method of System.IO.FileStream class to open and read source files from the file system at the specified path. The [DocSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions/constructors/main) constructor initialize an instance of the DocSaveOptions class that is passed to ConvertEPUB() method. The ConvertEPUB() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation. The DocSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting EPUB to DOCX format. In the example, we use the PageSetup property that specifies the page size of the DOCX document.
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 
