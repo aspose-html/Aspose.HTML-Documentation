@@ -1,11 +1,14 @@
 ---
 title: Convert Markdown to DOCX
-type: docs
+keywords: markdown to docx, convert markdown to docx, markdown to docx
+  conversion, markdown to docx converter
+description: This article provides information on how to convert Markdown to
+  DOCX using the Aspose.HTML API. You will learn about the supported Markdown to
+  DOCX conversion scenarios and consider examples to illustrate them.
 weight: 30
+type: docs
 url: /net/converting-between-formats/markdown-to-docx/
-description: This article provides information on how to convert Markdown to DOCX using the Aspose.HTML API. You will learn about the supported Markdown to DOCX conversion scenarios and consider examples to illustrate them.  
-keywords: markdown to docx, convert markdown to docx, markdown to docx conversion, markdown to docx converter
-lastmod: "2021-09-03"
+lastmod: 2021-09-03
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
@@ -94,7 +97,7 @@ using Aspose.Html.Saving;
     Converter.ConvertHTML(document, options, savePath);
 {{< /highlight >}}
 
-The [DocSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/docsaveoptions) class provides properties that give you full control over a wide range of parameters and improve the process of converting Markdown to DOCX format. In the example, we use the PageSetup property that specifies the page size of the DOCX document. To learn more about DocSaveOptions, please read the [Fine-Tuning Converters](http://localhost:1313/html/net/converting-between-formats/fine-tuning-converters/) article.
+The [DocSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/docsaveoptions) class provides properties that give you full control over a wide range of parameters and improve the process of converting Markdown to DOCX format. In the example, we use the PageSetup property that specifies the page size of the DOCX document. To learn more about DocSaveOptions, please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 
 {{% alert color="primary" %}} 
 You can check the quality of Markdown to DOCX conversion with our online [**MD to DOCX Converter**](https://products.aspose.app/html/en/conversion/md-to-docx). Upload, convert your files and get results in a few seconds. Try our forceful Markdown to DOCX Converter for free now!
