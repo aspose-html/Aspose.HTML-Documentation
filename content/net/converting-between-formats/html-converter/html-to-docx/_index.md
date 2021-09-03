@@ -1,14 +1,17 @@
 ---
-title: Convert HTML to DOCX
-type: docs
-weight: 80
+keywords: HTML to DOCX, convert HTML to DOCX, HTML to DOCX conversion, HTML to
+  DOCX converter, save options
+lastmod: 2021-09-03
 url: /net/converting-between-formats/html-to-docx/
-aliases: 
-    - /net/converting-between-formats/html-to-docx-conversion/
-    - /net/html-to-docx-conversion/
-description: This article provides information on how to convert HTML to DOCX using the Aspose.HTML API. You will learn about the supported HTML to DOCX conversion scenarios and consider examples to illustrate them.  
-keywords: HTML to DOCX, convert HTML to DOCX, HTML to DOCX conversion, HTML to DOCX converter, save options
-lastmod: "2021-09-03"
+title: Convert HTML to DOCX
+description: This article provides information on how to convert HTML to DOCX
+  using the Aspose.HTML API. You will learn about the supported HTML to DOCX
+  conversion scenarios and consider examples to illustrate them.
+weight: 80
+type: docs
+aliases:
+  - /net/converting-between-formats/html-to-docx-conversion/
+  - /net/html-to-docx-conversion/
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -137,7 +140,7 @@ The [DocSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.savi
 
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 
