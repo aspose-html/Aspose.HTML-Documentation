@@ -1,11 +1,14 @@
 ---
 title: Convert HTML to BMP
-type: docs
+keywords: html to bmp, convert html to bmp, html to bmp conversion, html to bmp
+  converter, save options
+description: This article provides information on how to convert HTML to BMP
+  using the Aspose.HTML API. You will learn about the supported HTML to BMP
+  conversion scenarios and consider examples to illustrate them.
 weight: 40
+type: docs
 url: /net/converting-between-formats/html-to-bmp/
-description: This article provides information on how to convert HTML to BMP using the Aspose.HTML API. You will learn about the supported HTML to BMP conversion scenarios and consider examples to illustrate them.  
-keywords: html to bmp, convert html to bmp, html to bmp conversion, html to bmp converter, save options
-lastmod: "2021-09-03"
+lastmod: 2021-09-03
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -24,7 +27,7 @@ Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/co
 ## **Convert HTML to BMP**
 Converting a file to another format using the ConvertHTML() method is a sequence of operations among which document loading and saving:
 
-1. Load an HTML file using the [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument) class ([bmp.html](/net/converting-between-formats/html-converter/html-to-bmp/bmp.html)).
+1. Load an HTML file using the [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument) class ([bmp.html](/html/net/converting-between-formats/html-to-bmp/bmp.html)).
 1. Create a new [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) object with BMP ImageFormat. By default, the Format property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
 1. Use the [ConvertHTML()](https://apireference.aspose.com/net/html/aspose.html.converters.converter/converthtml/methods/3) method of the Converter class to save HTML as a BMP image. You need to pass the HTMLDocument, ImageSaveOptions, and output file path to the ConvertHTML() method to convert HTML to BMP.
 
@@ -83,7 +86,7 @@ To learn more about the [ImageSaveOptions](https://apireference.aspose.com/net/h
 
 To convert HTML to BMP with ImageSaveOptions specifying, you should follow a few steps: 
 
-1. Load an HTML file using one of the HTMLDocument() constructors of the HTMLDocument class ([bmp.html](/net/converting-between-formats/html-converter/html-to-bmp/bmp.html)). 
+1. Load an HTML file using one of the HTMLDocument() constructors of the HTMLDocument class ([bmp.html](/html/net/converting-between-formats/html-to-bmp/bmp.html)). 
 1. Create a new [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) object with BMP ImageFormat and specify save options. By default, the Format property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
 1. Use the [ConvertHTML()](https://apireference.aspose.com/net/html/aspose.html.converters.converter/converthtml/methods/3) method of the  Converter class to save HTML as a BMP image. You need to pass the [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument), [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions), and output file path to the ConvertHTML() method to convert HTML to BMP.
 
