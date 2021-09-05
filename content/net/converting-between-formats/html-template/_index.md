@@ -207,7 +207,7 @@ using System.IO;
 using Aspose.Html.Converters;
 using Aspose.Html.Loading;
 ...
-
+```
 // Prepare a path to JSON data source file
 string jsonPath = Path.Combine(OutputDir, "data-source.json");
 
@@ -246,7 +246,7 @@ string outputPath = Path.Combine(OutputDir, "template-output.html");
 
 // Invoke Converter.ConvertTemplate in order to populate 'template.html' with the data source from 'data-source.json' file
 Converter.ConvertTemplate(sourcePath, new TemplateData(jsonPath), new TemplateLoadOptions(), outputPath);
-
+```
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
