@@ -1,10 +1,12 @@
 ---
-title: How to Download Video 
-type: docs
+title: How to Download a Video | C#
+keywords: how to download video, download video, video info, video formats,
+  extract data, data scraping
+description: In this article, you find the description and a few examples of how
+  to upload videos using the Aspose.HTML API and get information about them.
 weight: 20
+type: docs
 aliases: /net/how-to-download-video/
-description: In this article, you find the description and a few examples of how to upload videos using the Aspose.HTML API and get information about them.
-keywords: how to download video, download video, video info, video formats, extract data, data scraping 
 ---
 
 Aspose.HTML for .NET API provides a powerful toolset to analyze and collect information from HTML documents and gives a possibility to download video by its URL.  Using API functionalities, you can easily create your own application or just download and watch your favorite video offline without any internet connection.
@@ -57,7 +59,7 @@ Consider the following code snippet to get information about all the available f
 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-WebScraping-MultimediaScraping-GetVideoFormatInfo.cs" >}}
 
-## **Download Video**
+## **Download a Video**
 
 {{% alert color="primary" %}} 
 **Note:** If you want to add a URL of the required video to download, first of all, make sure this uploading is not dedicated to copyright infringement.
