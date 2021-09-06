@@ -20,7 +20,7 @@ In this guide, you find information on how to convert an HTML document into a Po
 
 Any conversion you want to perform involves loading an HTML document and saving it in PDF format. It can be different scenarios but it can be made with a few required steps:
 
-1. Load an HTML document into a Document object using one of [HTMLDocument()](https://apireference.aspose.com/html/net/aspose.html/htmldocument) constructors. You can load HTML from a file, HTML code, stream, or URL (see the [Creating an HTML Document](/net/working-with-documents/creating-a-document/) article).
+1. Load an HTML document into a Document object using one of [HTMLDocument()](https://apireference.aspose.com/html/net/aspose.html/htmldocument) constructors. You can load HTML from a file, HTML code, stream, or URL (see the [Creating an HTML Document](/html/net/working-with-documents/creating-a-document/) article).
 2. Initialize a [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) object.
 3. Invoke one of the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/converthtml/index) methods and pass the required parameters to it.
 
