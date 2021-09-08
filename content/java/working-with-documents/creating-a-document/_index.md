@@ -2,7 +2,10 @@
 title: Creating a Document
 type: docs
 weight: 20
-aliases: /java/creating-a-document/
+aliases: 
+    - /java/creating-a-document/
+    - /java/working-with-documents/creating-a-document/
+    - /display/htmljava/Loading+an+existing+HTML+document
 ---
 
 ## **HTML Document** ## 

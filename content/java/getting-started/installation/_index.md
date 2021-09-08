@@ -2,7 +2,9 @@
 title: Installation
 type: docs
 weight: 50
-aliases: /java/installation/
+aliases: 
+    - /java/installation/
+    - /display/htmljava/Installation
 ---
 
 ## **Installing Aspose.HTML for Java from Aspose Repository** ## 

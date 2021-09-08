@@ -2,7 +2,9 @@
 title: Fine-Tuning Converters
 type: docs
 weight: 170
-aliases: /java/fine-tuning-converters/
+aliases:
+    - /java/fine-tuning-converters/
+    - /java/specify-rendering-options-when-converting-to-pdf/
 ---
 
 Using the [Converter.ConvertHTML](https://apireference.aspose.com/java/html/aspose.html.converters/converter/methods/converthtml/index) methods is the most common way to convert HTML code into various formats. However, Aspose.HTML API also provides alternative ways to render HTML documents with that can give you more control over the rendering process in your Java application.

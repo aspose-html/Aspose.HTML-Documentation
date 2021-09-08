@@ -2,6 +2,7 @@
 title: FAQ
 type: docs
 weight: 70
+aliases: /net/FAQ
 ---
 
 **Q: How to convert HTML document to PDF?**
