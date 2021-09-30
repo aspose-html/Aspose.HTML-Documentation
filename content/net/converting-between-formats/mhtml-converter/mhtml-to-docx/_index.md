@@ -1,5 +1,6 @@
 ---
 title: Convert MHTML to DOCX | C#
+linktitle: Convert MHTML to DOCX
 keywords: MHTML to DOCX, convert MHTML to DOCX, MHTML to DOCX conversion, MHTML
   to DOCX converter, save options, stream provider
 description: This article provides information on how to convert MHTML to DOCX

@@ -4,6 +4,7 @@ keywords: HTML to DOCX, convert HTML to DOCX, HTML to DOCX conversion, HTML to
 lastmod: 2021-09-03
 url: /net/converting-between-formats/html-to-docx/
 title: Convert HTML to DOCX | C#
+linktitle: Convert HTML to DOCX
 description: This article provides information on how to convert HTML to DOCX
   using the Aspose.HTML API. You will learn about the supported HTML to DOCX
   conversion scenarios and consider examples to illustrate them.

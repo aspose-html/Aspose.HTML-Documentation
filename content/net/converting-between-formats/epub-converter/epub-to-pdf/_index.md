@@ -4,6 +4,7 @@ keywords: epub to pdf, convert epub to pdf, epub to pdf conversion, epub to pdf
 lastmod: 2021-09-03
 url: /net/converting-between-formats/epub-to-pdf/
 title: Convert EPUB to PDF | C#
+linktitle: Convert EPUB to PDF
 description: This article provides information on how to convert EPUB to PDF
   using Aspose.HTML API. You will learn about the supported EPUB to PDF
   conversion scenarios and consider examples to illustrate them.

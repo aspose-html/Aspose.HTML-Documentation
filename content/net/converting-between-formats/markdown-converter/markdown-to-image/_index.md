@@ -1,5 +1,6 @@
 ---
 title: Convert Markdown to Image | C#
+linktitle: Convert Markdown to Image
 type: docs
 weight: 50
 url: /net/converting-between-formats/markdown-to-image/

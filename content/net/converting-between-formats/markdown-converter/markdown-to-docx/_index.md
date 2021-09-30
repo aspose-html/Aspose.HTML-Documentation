@@ -1,5 +1,6 @@
 ---
 title: Convert Markdown to DOCX | C#
+linktitle: Convert Markdown to DOCX
 type: docs
 weight: 30
 url: /net/converting-between-formats/markdown-to-docx/

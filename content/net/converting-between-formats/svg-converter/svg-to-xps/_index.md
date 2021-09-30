@@ -4,6 +4,7 @@ keywords: svg to xps, convert svg to xps, svg to xps conversion, svg to xps
 lastmod: 2021-09-03
 url: /net/converting-between-formats/svg-to-xps/
 title: Convert SVG to XPS | C#
+linktitle: Convert SVG to XPS
 description: This article provides information on how to convert SVG to XPS
   using Aspose.HTML API. You will learn about the supported SVG to XPS
   conversion scenarios and consider examples to illustrate them.

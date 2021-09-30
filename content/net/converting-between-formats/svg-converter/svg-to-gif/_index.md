@@ -1,5 +1,6 @@
 ---
 title: Convert SVG to GIF | C#
+linktitle: Convert SVG to GIF
 keywords: svg to gif, convert svg to gif, svg to gif conversion, svg to gif
   converter, save options
 description: This article provides information on how to convert SVG to GIF

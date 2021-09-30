@@ -1,5 +1,6 @@
 ---
 title: Convert EPUB to TIFF | C#
+linktitle: Convert EPUB to TIFF
 keywords: epub to tiff, convert epub to tiff, epub to tiff conversion, epub to
   tiff converter, save options
 description: This article provides information on how to convert EPUB to TIFF

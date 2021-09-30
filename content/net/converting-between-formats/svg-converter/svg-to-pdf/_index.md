@@ -4,6 +4,7 @@ keywords: svg to pdf, convert svg to pdf, svg to pdf conversion, svg to pdf
 lastmod: 2021-09-03
 url: /net/converting-between-formats/svg-to-pdf/
 title: Convert SVG to PDF | C#
+linktitle: Convert SVG to PDF
 description: This article provides information on how to convert SVG to PDF
   using the Aspose.HTML API. You will learn about the supported SVG to PDF
   conversion scenarios and consider examples to illustrate them.

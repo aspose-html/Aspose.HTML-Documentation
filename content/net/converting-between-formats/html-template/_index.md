@@ -4,6 +4,7 @@ keywords: html template, template to html, data source, xml data source, json
 lastmod: 2021-09-03
 url: /net/converting-between-formats/html-template/
 title: HTML Template | C#
+linktitle: HTML Template 
 description: In this article, you learn how to populate an HTML template from
   XML or JSON data sources and consider examples to illustrate this feature.
 weight: 60

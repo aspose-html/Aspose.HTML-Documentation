@@ -4,6 +4,7 @@ keywords: svg to jpg, convert svg to jpg, svg to jpg conversion, svg to jpg
 lastmod: 2021-09-03
 url: /net/converting-between-formats/svg-to-jpg/
 title: Convert SVG to JPG | C#
+linktitle: Convert SVG to JPG
 description: This article provides information on how to convert SVG to JPG
   using Aspose.HTML API. You will learn about the supported SVG to JPG
   conversion scenarios and consider examples to illustrate them.

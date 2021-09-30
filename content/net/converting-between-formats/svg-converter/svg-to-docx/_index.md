@@ -1,5 +1,6 @@
 ---
 title: Convert SVG to DOCX | C#
+linktitle: Convert SVG to DOCX
 keywords: svg to docx, convert svg to docx, svg to docx conversion, svg to docx converter
 description: This article provides information on how to convert SVG to DOCX
   using Aspose.HTML API. You will learn about the supported SVG to DOCX

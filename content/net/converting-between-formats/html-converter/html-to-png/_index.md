@@ -1,5 +1,6 @@
 ---
 title: Convert HTML to PNG | C#
+linktitle: Convert HTML to PNG
 keywords: HTML to PNG, convert HTML to PNG, HTML to PNG converter, save options,
   stream provider
 description: This article provides information on how to convert HTML to PNG

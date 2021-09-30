@@ -1,5 +1,6 @@
 ---
 title: Convert EPUB to DOCX | C#
+linktitle: Convert EPUB to DOCX
 keywords: EPUB to DOCX, convert EPUB to DOCX, EPUB to DOCX conversion, EPUB to
   DOCX converter, save options, stream provider
 description: This article provides information on how to convert EPUB to DOCX

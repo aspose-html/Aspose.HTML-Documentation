@@ -1,5 +1,6 @@
 ---
 title: Convert EPUB to PNG | C#
+linktitle: Convert EPUB to PNG
 keywords: epub to png, convert epub to png, epub to png conversion, epub to png
   converter, save options
 description: This article provides information on how to convert EPUB to PNG

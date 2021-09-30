@@ -1,5 +1,6 @@
 ---
 title: Convert HTML to BMP | C#
+linktitle: Convert HTML to BMP
 keywords: html to bmp, convert html to bmp, html to bmp conversion, html to bmp
   converter, save options
 description: This article provides information on how to convert HTML to BMP

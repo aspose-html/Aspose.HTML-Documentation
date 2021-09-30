@@ -1,5 +1,6 @@
 ---
-title: Markdown Syntax | C#
+title: Markdown Syntax | Basic Tutorial
+linktitle: Markdown Syntax
 type: docs
 weight: 60
 url: /net/converting-between-formats/markdown-syntax/
