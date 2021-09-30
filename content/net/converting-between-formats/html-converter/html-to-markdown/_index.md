@@ -1,5 +1,5 @@
 ---
-title: Convert HTML to Markdown
+title: Convert HTML to Markdown | C#
 type: docs
 weight: 100
 url: /net/converting-between-formats/html-to-markdown/

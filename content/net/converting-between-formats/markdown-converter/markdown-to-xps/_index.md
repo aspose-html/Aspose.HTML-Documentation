@@ -1,5 +1,5 @@
 ---
-title: Convert Markdown to XPS
+title: Convert Markdown to XPS | C#
 type: docs
 weight: 40
 url: /net/converting-between-formats/markdown-to-xps/

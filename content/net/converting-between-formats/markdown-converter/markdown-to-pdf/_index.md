@@ -1,5 +1,5 @@
 ---
-title: Convert Markdown to PDF
+title: Convert Markdown to PDF | C#
 type: docs
 weight: 20
 url: /net/converting-between-formats/markdown-to-pdf/

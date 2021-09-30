@@ -1,5 +1,5 @@
 ---
-title: Convert EPUB to GIF
+title: Convert EPUB to GIF | C#
 keywords: epub to gif, convert epub to gif, epub to gif conversion, epub to gif
   converter, save options
 description: This article provides information on how to convert EPUB to GIF

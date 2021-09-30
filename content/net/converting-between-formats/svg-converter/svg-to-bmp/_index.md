@@ -1,5 +1,5 @@
 ---
-title: Convert SVG to BMP
+title: Convert SVG to BMP | C#
 keywords: svg to bmp, convert svg to bmp, svg to bmp conversion, svg to bmp
   converter, save options
 description: This article provides information on how to convert SVG to BMP

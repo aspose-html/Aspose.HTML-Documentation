@@ -3,7 +3,7 @@ keywords: html to pdf, convert html to pdf, html to pdf conversion, html to pdf
   converter, save options, stream provider
 lastmod: 2021-09-03
 url: /net/converting-between-formats/html-to-pdf/
-title: Convert HTML to PDF
+title: Convert HTML to PDF | C#
 description: This article provides information on how to convert HTML to PDF
   using Aspose.HTML API. You will learn about the supported HTML to PDF
   conversion scenarios and consider examples to illustrate them.

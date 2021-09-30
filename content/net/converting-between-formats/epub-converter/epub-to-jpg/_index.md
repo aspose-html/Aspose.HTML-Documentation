@@ -3,7 +3,7 @@ keywords: epub to jpg, convert epub to jpg, epub to jpg conversion, epub to jpg
   converter, save options
 lastmod: 2021-09-03
 url: /net/converting-between-formats/epub-to-jpg/
-title: Convert EPUB to JPG
+title: Convert EPUB to JPG | C#
 description: This article provides information on how to convert EPUB to JPG
   using Aspose.HTML API. You will learn about the supported EPUB to JPG
   conversion scenarios and consider examples to illustrate them.

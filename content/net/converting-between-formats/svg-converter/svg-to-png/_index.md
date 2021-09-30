@@ -1,5 +1,5 @@
 ---
-title: Convert SVG to PNG
+title: Convert SVG to PNG | C#
 keywords: svg to png, convert svg to png, svg to png conversion, svg to png
   converter, save options
 description: This article provides information on how to convert SVG to PNG

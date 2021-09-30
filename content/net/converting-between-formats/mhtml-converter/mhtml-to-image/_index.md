@@ -3,7 +3,7 @@ keywords: MHTML to JPG, convert MHTML to JPG, MHTML to JPG converter, MHTML to
   PNG, MHTML to BMP, MHTML to GIF, MHTML to TIFF, save options
 lastmod: 2021-09-03
 url: /net/converting-between-formats/mhtml-to-image/
-title: Convert MHTML to Image
+title: Convert MHTML to Image | C#
 description: This article provides information on how to convert MHTML to Image
   file formats using Aspose.HTML API. You will learn about the supported MHTML
   to Image conversion scenarios and consider examples to illustrate them.

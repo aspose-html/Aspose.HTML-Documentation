@@ -1,5 +1,5 @@
 ---
-title: Convert SVG to TIFF
+title: Convert SVG to TIFF | C#
 keywords: svg to tiff, convert svg to tiff, svg to tiff conversion, svg to tiff converter
 description: This article provides information on how to convert SVG to TIFF
   using the Aspose.HTML API. You will learn about the supported SVG to TIFF

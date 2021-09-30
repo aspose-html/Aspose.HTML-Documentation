@@ -1,5 +1,5 @@
 ---
-title: Convert HTML to TIFF
+title: Convert HTML to TIFF | C#
 type: docs
 weight: 50
 url: /net/converting-between-formats/html-to-tiff/

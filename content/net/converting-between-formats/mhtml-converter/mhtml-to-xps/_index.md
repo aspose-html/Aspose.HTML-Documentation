@@ -3,7 +3,7 @@ keywords: MHTML to XPS, convert MHTML to XPS, MHTML to XPS conversion, MHTML to
   XPS converter, save options, stream provider
 lastmod: 2021-09-03
 url: /net/converting-between-formats/mhtml-to-xps/
-title: Convert MHTML to XPS
+title: Convert MHTML to XPS | C#
 description: This article provides information on how to convert MHTML to XPS
   using the Aspose.HTML API. You will learn about the supported MHTML to XPS
   conversion scenarios and consider examples to illustrate them.

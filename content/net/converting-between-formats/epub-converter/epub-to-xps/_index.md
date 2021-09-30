@@ -2,7 +2,7 @@
 keywords: epub to xps, convert epub to xps, epub to xps converter, save options
 lastmod: 2021-09-03
 url: /net/converting-between-formats/epub-to-xps/
-title: Convert EPUB to XPS
+title: Convert EPUB to XPS | C#
 description: This article provides information on how to convert EPUB to XPS
   using Aspose.HTML API. You will learn about the supported EPUB to XPS
   conversion scenarios and consider examples to illustrate them.

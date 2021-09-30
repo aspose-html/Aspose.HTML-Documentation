@@ -1,5 +1,5 @@
 ---
-title: Convert HTML to GIF
+title: Convert HTML to GIF | C#
 keywords: HTML to GIF, convert HTML to GIF, HTML to GIF conversion, HTML to GIF
   converter, save options
 description: This article provides information on how to convert HTML to GIF

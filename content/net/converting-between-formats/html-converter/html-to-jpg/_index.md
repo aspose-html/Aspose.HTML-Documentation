@@ -3,7 +3,7 @@ keywords: html to jpg, convert html to jpg, html to jpg conversion, html to jpg
   converter, save options
 lastmod: 2021-09-03
 url: /net/converting-between-formats/html-to-jpg/
-title: Convert HTML to JPG
+title: Convert HTML to JPG | C#
 description: This article provides information on how to convert HTML to JPG
   using the Aspose.HTML API. You will learn about the supported HTML to JPG
   conversion scenarios and consider examples to illustrate them.
