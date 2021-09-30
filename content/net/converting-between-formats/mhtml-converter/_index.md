@@ -1,5 +1,6 @@
 ---
-title: MHTML Converter
+title: MHTML Converter | C#
+linktitle: MHTML Converter
 keywords: MHTML converter, convert mhtml, convert mhtml to pdf, convert mhtml to
   jpg, mhtml to pdf, mhtml to jpg, mhtml to bmp, mhtml to png, mhtml to xps,
   mhtml to gif, mhtml to tiff.

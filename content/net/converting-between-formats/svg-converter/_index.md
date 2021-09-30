@@ -1,5 +1,6 @@
 ---
-title: SVG Converter
+title: SVG Converter | C#
+linktitle: SVG Converter
 keywords: svg converter, convert svg, svg to pdf, svg to jpg, svg to docx, svg
   to png, svg to bmp, svg to gif, svg to tiff
 description: In this article, you find out how to convert SVG to PDF, XPS, DOCX,

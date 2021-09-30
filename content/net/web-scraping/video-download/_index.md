@@ -1,5 +1,6 @@
 ---
 title: How to Download a Video | C#
+linktitle: How to Download a Video
 keywords: how to download video, download video, video info, video formats,
   extract data, data scraping
 description: In this article, you find the description and a few examples of how

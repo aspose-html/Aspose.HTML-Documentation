@@ -1,5 +1,6 @@
 ---
-title: Web Scraping
+title: Web Scraping | .NET
+linktitle: Web Scraping
 type: docs
 weight: 40
 aliases: /net/web-scraping/
@@ -12,7 +13,7 @@ keywords: web scraping, data scrapers, html navigation, XPath, CSS selector, ext
 Web Scraping section describes how to inspect, capture and extract data,  such as images, video, audio,  etc., from the web pages automatically using Aspose.HTML for .NET. This chapter includes articles:
  - [HTML Navigation](https://docs.aspose.com/html/net/web-scraping/html-navigation/) - In this article, you learn how to perform a detailed inspection of the HTML document and its elements using the API, about custom filters usage for iterating over the document elements, and how to navigate over the document by using CSS Selector or XPath.
 
- -  [How to Download Video](https://docs.aspose.com/html/net/web-scraping/video-download/) - This article describes how to get video information and download video by its URL.
+ -  [How to Download a Video](https://docs.aspose.com/html/net/web-scraping/video-download/) - This article describes how to get video information and download video by its URL.
 
 **Note**: Web scraping becomes illegal when non publicly available data becomes extracted. You should be especially careful about the data you collect and comply with copyright laws. We do not support downloading copyrighted videos and using other people's videos for commercial purposes without their express permission. We are not responsible for any copyright infringement that may occur when using the Aspose.HTML library.
 

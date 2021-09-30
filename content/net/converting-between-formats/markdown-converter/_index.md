@@ -1,5 +1,6 @@
 ---
-title: Markdown Converter
+title: Markdown Converter | C#
+linktitle: Markdown Converter
 keywords: Markdown converter, convert markdown, convert markdown to pdf, convert
   markdown to jpg, markdown to pdf, markdown to jpg, markdown to docx, markdown
   to png, markdown to xps, markdown to gif, markdown to tiff.

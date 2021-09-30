@@ -1,5 +1,6 @@
 ---
-title: HTML Navigation
+title: HTML Navigation | C#
+linktitle: HTML Navigation
 type: docs
 weight: 10
 aliases: /net/html-navigation/

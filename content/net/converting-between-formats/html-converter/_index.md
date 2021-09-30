@@ -1,5 +1,6 @@
 ---
-title: HTML Converter
+title: HTML Converter| C#
+linktitle: HTML Converter
 keywords: HTML converter, convert html, html to pdf, html to jpg, html to docx,
   html to png, html to bmp, html to gif, html to tiff, html to md, html to xps.
 description: In this article, you learn how to convert HTML to PDF, XPS, DOCX,
