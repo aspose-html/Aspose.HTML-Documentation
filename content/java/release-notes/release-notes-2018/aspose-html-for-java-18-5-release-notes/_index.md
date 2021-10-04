@@ -2,7 +2,9 @@
 title: Aspose.HTML for Java 18.5 Release Notes
 type: docs
 weight: 70
-aliases: /java/aspose-html-for-java-18-5-release-notes/
+aliases: 
+    - /java/aspose-html-for-java-18-5-release-notes/
+    - /java/aspose-html-for-java-18-5-release-notes-html/
 ---
 
 {{% alert color="primary" %}} 
