@@ -24,7 +24,7 @@ Sometimes, in order to optimize the performance, you may need to find out the we
 Let's create a custom handler that you can use for custom schema (protocol) implementation. Take the next steps:
 
 1. Use the necessary Namespace, which is the [Aspose.Html.Net](https://apireference.aspose.com/html/net/aspose.html.net).
-2. Define your own CustomSchemaMessageHandler class that will be derived from [MessageHandler](https://apireference.aspose.com/html/net/aspose.html.net/messagehandler) class.
+2. Define your own CustomSchemaMessageHandler class that will be derived from the [MessageHandler](https://apireference.aspose.com/html/net/aspose.html.net/messagehandler) class.
 3. Initialize an instance of the CustomSchemaMessageHandler class and define a Filter property for it. 
 4. Create the CustomSchemaMessageFilter class that is derived from the [MessageFilter](https://apireference.aspose.com/html/net/aspose.html.net/messagefilter) class.
 5. Override the [Match()](https://apireference.aspose.com/html/net/aspose.html.net/messagefilter/methods/match) method of the MessageFilter class to implement the custom message handler behaviour.
@@ -176,7 +176,7 @@ using Aspose.Html.Net;
 	        var duration = StopTimer(context.Request.RequestUri);
 	
 	        // Print the result
-	        Debug.WriteLine($"Elapsed: {duration:g}, resource: {context.Request.RequestUri.Pathname}");
+	        Console.WriteLine($"Elapsed: {duration:g}, resource: {context.Request.RequestUri.Pathname}");
 	
 	        // Invoke the next message handler in the chain
 	        Next(context);
@@ -184,7 +184,7 @@ using Aspose.Html.Net;
 	}
 {{< /highlight >}}
 
-### **Adding the Message Handlers to the Pipeline and Implement the Example**
+### **Adding the Message Handlers to the Pipeline**
 
 The key concept of message handlers work is chaining them together. We have created several message handlers and should add them to the pipeline in a specific order to implement the example of ZIP to PDF conversion time logging. Let's perform the following steps:
 

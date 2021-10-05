@@ -63,7 +63,7 @@ You can download the complete examples and data files from [**GitHub**](https://
 ## **Example 2. Convert an existing Markdown file to HTML**
 If your case is to convert an existing Markdown document from a local file system, the following example could help you. You need to follow a few steps:
 
-1. Open an existing Markdown document. In the example, we load a Markdown file from a local file system ([nature.md](https://github.com/aspose-html/Aspose.HTML-Documentation/blob/oa_conversion/content/tests-net/tests-data/nature.md)). 
+1. Open an existing Markdown document. In the example, we load a Markdown file from a local file system ([nature.md](https://github.com/aspose-html/Aspose.HTML-Documentation/blob/main/content/tests-net/tests-data/nature.md)). 
 1. Prepare a path for converted file saving. 
 1. Use the [ConvertMarkdown()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertmarkdown/methods/7) method of the Converter class to save Markdown as an HTML file. You need to pass the `sourcePath` and `savePath` to the ConvertMarkdown() method for Markdown to HTML conversion.
 
