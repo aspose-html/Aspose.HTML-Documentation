@@ -2,6 +2,7 @@
 title: Aspose.HTML for .NET 21.10 Release Notes
 weight: 30
 type: docs
+url: /net/aspose-html-for-net-21-10-release-notes
 ---
 
 {{% alert color="primary" %}}
@@ -12,7 +13,7 @@ This page contains release notes information for Aspose.HTML for .NET 21.10.
 
 As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the October release of Aspose.HTML for .NET. 
 
-In this release we have made various improvement to our rendering and scraping algorithms, here are some of them:
+In this release we have made various improvements to our rendering and scraping algorithms, here are some of them:
 
 * Improved the positioning of PDF form elements.
 * Introduced the new page sizing options, they allow to resize page to fit content.
