@@ -1,10 +1,10 @@
 ---
 title: Licensing
-type: docs
 weight: 40
-aliases: 
-   - /net/licensing/
-   - /display/htmlnet/Licensing
+type: docs
+aliases:
+  - /net/licensing/
+  - /display/htmlnet/Licensing
 ---
 
 ## **Evaluate Aspose.HTML for .NET**
@@ -15,6 +15,9 @@ The evaluation version (without a license specified) provides full product funct
 - **Saved HTML files contains the evaluation watermarks.** Some content of the saved HTML document is replaced with the evaluation watermark.
 - **Saved SVG files contains the evaluation watermark and limited number of elements.** Some nodes of the saved SVG are removed and the evaluation watermark is added.
 - **Converted documents contains the evaluation watermarks and limited number of pages.** Each converted page contains the evaluation watermark and the number of converted pages is limited to four.
+- **Collected video information contains fewer video formats and not all "multimedias" are supported.**
+- **Collections size is limited.** Size of some collections is limited.
+
 
 {{% alert color="primary" %}} 
 
