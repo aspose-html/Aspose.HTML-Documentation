@@ -4,31 +4,31 @@ linktitle: How to Download a Video
 keywords: how to download video, download video, video info, video formats,
   extract data, data scraping
 description: In this article, you find the description and a few examples of how
-  to upload videos using the Aspose.HTML API and get information about them.
+  to download videos using the Aspose.HTML API and get information about them.
 weight: 20
 type: docs
 aliases: /net/how-to-download-video/
 ---
 
-Aspose.HTML for .NET API provides a powerful toolset to analyze and collect information from HTML documents and gives a possibility to download video by its URL.  Using API functionalities, you can easily create your own application or just download and watch your favorite video offline without any internet connection.
+Aspose.HTML for .NET API provides a powerful toolset to analyze and collect information from HTML documents and gives a possibility to download video by its URL. You can easily create your own application using API functionalities or just download and watch your favorite video offline without any internet connection.
 
 {{% alert color="primary" %}} 
 You can download video to your device from popular video hubs in any format with our Free Online [**Video Grabber**](https://products.aspose.app/html/en/video-grabber) App. 
 {{% /alert %}}  
 
 ## **Data Scraping Namespaces**
-Data Scraping is a way to get data from websites. Aspose.HTML API provides [Aspose.Html.DataScraping Namespaces](https://apireference.aspose.com/html/net/aspose.html.datascraping/index) that implement various multimedia scraping classes:
+Data Scraping is a way to get data from websites. Aspose.HTML API provides [DataScraping.MultimediaScraping Namespace](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping) that implement various multimedia scraping classes:
 
 |[Class](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/videoformatinfocollection)|**Description**|
 | :- | :- |
 |[Multimedia](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimedia)|This class provides functionality to collect and download [VideoInfo](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/videoinfo) (information about video & audio) from the associated page.|
 |[MultimediaFactory](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediafactory)|This class represents an abstract factory which is used for Multimedia objects creation.|
-|[MultimediaInfo](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediainfo)|Represents multimedia information such as [Description](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediainfo/properties/description), [Duration](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediainfo/properties/duration), Formats, [MultimediaHost](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediainfo/properties/multimediahost), [Thumbnails](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediainfo/properties/thumbnails), [Titles](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediainfo/properties/title).|
+|[MultimediaInfo](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediainfo)|Represents multimedia information such as [Description](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediainfo/properties/description), [Duration](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediainfo/properties/duration), [MultimediaHost](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediainfo/properties/multimediahost), [Thumbnails](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediainfo/properties/thumbnails), [Titles](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediainfo/properties/title).|
 | [MultimediaScraper](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediascraper) |Provides functionality to register and select Multimedia object, which will be able to collect information from the specified page URL.|
+| [MultimediaHost](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediahost) |Represents host of the multimedia object.|
 |[VideoFormatInfo](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/videoformatinfo)|Represents information about a video format: names of the audio and video codec; bitrate value in KBit/s, extension, file size, video track height and width in pixels, etc.|
 |[VideoFormatInfoCollection](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/videoformatinfocollection)|Represents a [VideoFormatInfo](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/videoformatinfo) collection, i.e. information about all available video formats.|
-|[VideoInfo](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/videoinfo)|Represents video information such as [Description](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/videoinfo/properties/description), [Duration](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/videoinfo/properties/duration), [Formats](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/videoinfo/properties/formats), [MultimediaHost](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/videoinfo/properties/multimediahost), [Thumbnails](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/videoinfo/properties/thumbnails), [Titles](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/videoinfo/properties/title).|
-|[YouTubeVideoInfo](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping.youtube/youtubevideoinfo)|Represents YouTube specific video information.|
+|[VideoInfo](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/videoinfo)|Represents video information such as [Description](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediainfo/properties/description), [Duration](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediainfo/properties/duration), [Formats](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/videoinfo/properties/formats), [MultimediaHost](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediainfo/properties/multimediahost), [Thumbnails](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediainfo/properties/thumbnails), [Titles](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediainfo/properties/title).|
 
 Using the mentioned classes, you can get information or download video data through the web. For a complete list of classes and methods represented in the DataScraping Namespaces, please visit [API Reference Source](https://apireference.aspose.com/html/net).
 
@@ -49,6 +49,8 @@ The following code snippet can be used to get information about a video file suc
 
 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-WebScraping-MultimediaScraping-GetVideoInfoTest1.cs" >}}
+
+In the example above, we use the [GetMultimedia()](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediascraper/methods/getmultimedia) method of MultimediaScraper class to initialise multimedia objects that collect information from the specified page URL. 
 
 In the example above, we use the [GetMultimedia()](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediascraper/methods/getmultimedia) method of MultimediaScraper class for initializing multimedia object that can collect information from the specified page URL. The [CollectVideoInfo()](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimedia/methods/collectvideoinfo) method of the Multimedia class collects and provides video information from the associated URL. These can be the VideoInfo class properties such as Description, Duration, Formats, MultimediaHost, Thumbnails, and Title for a video file. 
 

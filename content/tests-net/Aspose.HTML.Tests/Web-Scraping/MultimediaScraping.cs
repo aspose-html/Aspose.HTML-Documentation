@@ -1,7 +1,6 @@
 ﻿using Aspose.Html.DataScraping.MultimediaScraping;
 using Aspose.Html.DataScraping.MultimediaScraping.YouTube;
 using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -54,7 +53,7 @@ namespace Aspose.HTML.Tests.Web_Scraping
         [Fact(DisplayName = "Get Video Info Test2")]
         public void GetVideoInfoTest2()
         {
-            // Initialize an instance of MultimediaScraper class 
+            // Initialize an instance of the MultimediaScraper class 
             using var scraper = new MultimediaScraper();
             
             // Create a multimedia object that include information from a URL
@@ -102,7 +101,7 @@ namespace Aspose.HTML.Tests.Web_Scraping
             };
             int expectedFormatsCount = expectedBitrates.Length;
 
-            // Initialize an instance of MultimediaScraper class
+            // Initialize an instance of the MultimediaScraper class
             using var multimediaScraper = new MultimediaScraper();
             
             // Create a multimedia object that include information from the URL
@@ -163,14 +162,14 @@ namespace Aspose.HTML.Tests.Web_Scraping
             // File name for downloading video
             string filename = "HTML-to-Markdown";
 
-            // Initialize an instance of MultimediaScraper class
+            // Initialize an instance of the MultimediaScraper class
             using var multimediaScraper = new MultimediaScraper();
             
             // Create a multimedia object that include information from the URL
             using (var multimedia = multimediaScraper.GetMultimedia(url))
             {
                 // Get a videoInfo object
-                var videoInfo = multimedia.CollectVideoInfo();                
+                var videoInfo = multimedia.CollectVideoInfo();
                 
                 // Get the first element from the formats collection with minimal bitrate and present audio and video codecs
                 var format = videoInfo.Formats.OrderBy(f => f.Bitrate).First(f => f.AudioCodec != null && f.VideoCodec != null);
@@ -181,7 +180,7 @@ namespace Aspose.HTML.Tests.Web_Scraping
                 // Get the full file path for the output file
                 var filePath = Path.Combine(OutputDir, filename + "." + ext);
                 
-                // Download video
+                // Download the video
                 multimedia.Download(format, filePath);
 
                 // Show information about the video
