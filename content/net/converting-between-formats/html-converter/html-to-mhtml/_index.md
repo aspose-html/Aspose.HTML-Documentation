@@ -132,7 +132,7 @@ using Aspose.Html.Saving;
      Converter.ConvertHTML("document.html", options, savePath);
 {{< /highlight >}}
 
-The [MHTMLSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/mhtmlsaveoptions/constructors/main) constructor initialize an instance of the MHTMLSaveOptions class that is passed to ConvertHTML() method. The ConvertHTML() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation. The MHTMLSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting HTML to MHTML format. 
+The [MHTMLSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/mhtmlsaveoptions/constructors/main) constructor initializes an instance of the MHTMLSaveOptions class that is passed to ConvertHTML() method. The ConvertHTML() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation. The MHTMLSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting HTML to MHTML format. 
 
 In the above example, we use the property `MaxHandlingDepth = 1` means that only pages directly referenced from the saved document will be handled.
 

@@ -117,7 +117,7 @@ using System.Drawing.Drawing2D;
     Converter.ConvertEPUB(stream, options, savePath);
 {{< /highlight >}}
 
-The [ImageSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/constructors/main) constructor initialize an instance of the ImageSaveOptions class that is passed to ConvertEPUB() method. The ConvertEPUB() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation.
+The [ImageSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/constructors/main) constructor initializes an instance of the ImageSaveOptions class that is passed to ConvertEPUB() method. The ConvertEPUB() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation.
 
 In the example, we use:
  - Compression property that sets TIFF compression. Available values are LVZ, CCITT3, CCITT4, Rle, and None. We use None compression schema. By default, this property is [LZW](https://apireference.aspose.com/html/net/aspose.html.rendering.image/compression).

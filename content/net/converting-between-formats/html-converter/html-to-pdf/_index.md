@@ -48,7 +48,7 @@ using Aspose.Html.Saving;
 ## **Convert HTML to PDF**
 Converting a file to another format using the ConvertHTML() method is a sequence of operations among which document loading and saving:
 
-1. Load an HTML file using one of HTMLDocument() constructors of the [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument) class. In the example we use [HTMLDocument(string)](https://apireference.aspose.com/html/net/aspose.html/htmldocument/constructors/10) constructor that initialize an HTML document from a file. 
+1. Load an HTML file using one of HTMLDocument() constructors of the [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument) class. In the example we use [HTMLDocument(string)](https://apireference.aspose.com/html/net/aspose.html/htmldocument/constructors/10) constructor that initializes an HTML document from a file. 
 1. Create a new [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) object. 
 1. Use the [ConvertHTML()](https://apireference.aspose.com/net/html/aspose.html.converters.converter/converthtml/methods/7) method of the Converter class to save HTML as a PDF file. You need to pass the HTMLDocument, PdfSaveOptions, and output file path to the ConvertHTML() method to convert HTML to PDF.
 
@@ -148,7 +148,7 @@ using Aspose.Html.Drawing;
     Converter.ConvertHTML(document, options, savePath);
 {{< /highlight >}}
 
-The [PdfSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/constructors/main) constructor initialize an instance of the PdfSaveOptions class that is passed to ConvertHTML() method. The ConvertHTML() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation. The PdfSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting HTML to PDF format. 
+The [PdfSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/constructors/main) constructor initializes an instance of the PdfSaveOptions class that is passed to ConvertHTML() method. The ConvertHTML() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation. The PdfSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting HTML to PDF format. 
 
 In the above example, we use:
  - JpegQuality property that enables you to specify the quality of JPEG compression for images;  

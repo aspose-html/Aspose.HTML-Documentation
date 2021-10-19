@@ -40,7 +40,7 @@ Aspose.HTML offers free online [**Converters**](https://products.aspose.app/html
 
 
 
-Aspose.HTML for .NET offer the static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class  as an understandable and straightforward way to convert HTML, SVG, MHTML, EPUB, MD documents to PDF, XPS, DOCX, MD, MHTML and Image formats. Don't delay! Test the conversion between formats!
+Aspose.HTML for .NET offers the static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class  as an understandable and straightforward way to convert HTML, SVG, MHTML, EPUB, MD documents to PDF, XPS, DOCX, MD, MHTML and Image formats. Don't delay! Test the conversion between formats!
 
 The following example demonstrates converting HTML to PDF with one line of code.
 

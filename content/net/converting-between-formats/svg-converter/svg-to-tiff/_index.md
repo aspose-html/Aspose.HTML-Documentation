@@ -113,7 +113,7 @@ using System.Drawing;
     Converter.ConvertSVG(document, options, savePath);
 {{< /highlight >}}
 
-The [ImageSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/constructors/main) constructor initialize an instance of the ImageSaveOptions class that is passed to ConvertSVG() method. The ConvertSVG() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation.
+The [ImageSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/constructors/main) constructor initializes an instance of the ImageSaveOptions class that is passed to ConvertSVG() method. The ConvertSVG() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation.
 
 In the example, we use:
  - Compression property that sets TIFF compression. We use None compression schema. By default, this property is [LZW](https://apireference.aspose.com/html/net/aspose.html.rendering.image/compression).

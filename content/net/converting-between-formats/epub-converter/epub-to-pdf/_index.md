@@ -137,7 +137,7 @@ using Aspose.Html.Drawing;
 
 {{< /highlight >}}
 
-In the example, we use the OpenRead() method of System.IO.FileStream class to open and read source files from the file system at the specified path. The [PdfSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/constructors/main) constructor initialize an instance of the PdfSaveOptions class that is passed to ConvertEPUB() method. The ConvertEPUB() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation. The PdfSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of EPUB to PDF conversion. 
+In the example, we use the OpenRead() method of System.IO.FileStream class to open and read source files from the file system at the specified path. The [PdfSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/constructors/main) constructor initializes an instance of the PdfSaveOptions class that is passed to ConvertEPUB() method. The ConvertEPUB() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation. The PdfSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of EPUB to PDF conversion. 
 
 In the above example, we use:
 

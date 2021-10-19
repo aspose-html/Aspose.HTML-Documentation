@@ -127,7 +127,7 @@ using System.Drawing;
     Converter.ConvertSVG(document, options, savePath);
 {{< /highlight >}}
 
-The [XpsSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/constructors/main) constructor initialize an instance of the XpsSaveOptions class that is passed to ConvertSVG() method. The ConvertSVG() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation.
+The [XpsSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/constructors/main) constructor initializes an instance of the XpsSaveOptions class that is passed to ConvertSVG() method. The ConvertSVG() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation.
 
 In the above example, we use:
  - BackgroundColor property that sets the color that will fill the background. The default BackgroundColor is Transparent.

@@ -130,7 +130,7 @@ using Aspose.Html.Drawing;
     Converter.ConvertMHTML(stream, options, savePath);
 {{< /highlight >}}
 
-In the example, we use the OpenRead() method of System.IO.FileStream class to open and read source files from the file system at the specified path. The [XpsSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/constructors/main) constructor initialize an instance of the XpsSaveOptions class that is passed to ConvertMHTML() method. The ConvertMHTML() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation. The XpsSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting MHTML to XPS format. 
+In the example, we use the OpenRead() method of System.IO.FileStream class to open and read source files from the file system at the specified path. The [XpsSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/constructors/main) constructor initializes an instance of the XpsSaveOptions class that is passed to ConvertMHTML() method. The ConvertMHTML() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation. The XpsSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting MHTML to XPS format. 
 
 In the above example, we use:
  - BackgroundColor property that specifies the color that the background will be filled in. The default BackgroundColor is Transparent;
