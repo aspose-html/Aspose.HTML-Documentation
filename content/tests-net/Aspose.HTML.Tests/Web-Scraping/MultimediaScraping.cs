@@ -29,8 +29,8 @@ namespace Aspose.HTML.Tests.Web_Scraping
 
             // Initialize an instance of MultimediaScraper class 
             using var multimediaScraper = new MultimediaScraper();
-            
-            // Create a multimedia object that include information from the URL 
+
+            // Create a multimedia object that handles information from the specified URL 
             using (var multimedia = multimediaScraper.GetMultimedia(url))
             {
                 // Get a videoInfo object
@@ -55,14 +55,14 @@ namespace Aspose.HTML.Tests.Web_Scraping
         {
             // Initialize an instance of the MultimediaScraper class 
             using var scraper = new MultimediaScraper();
-            
-            // Create a multimedia object that include information from a URL
+
+            // Create a multimedia object that handles information from the specified URL
             using (var multimedia = scraper.GetMultimedia("https://www.youtube.com/watch?v=Yugq1KyZCI0"))
             {
                 // Check MultimediaHost
                 Assert.Equal(MultimediaHost.YouTube, multimedia.MultimediaHost);
 
-                // Get a videoInfo object
+                // Get a VideoInfo object and check whether it is an instance of the YouTubeVideoInfo class
                 var videoInfo = Assert.IsType<YouTubeVideoInfo>(multimedia.CollectVideoInfo());
 
                 // Show information about video
@@ -103,11 +103,11 @@ namespace Aspose.HTML.Tests.Web_Scraping
 
             // Initialize an instance of the MultimediaScraper class
             using var multimediaScraper = new MultimediaScraper();
-            
-            // Create a multimedia object that include information from the URL
+
+            // Create a multimedia object that includes information from the specified URL
             using (var multimedia = multimediaScraper.GetMultimedia(url))
             {
-                // Get a videoInfo object 
+                // Get a VideoInfo object 
                 var videoInfo = multimedia.CollectVideoInfo();
                 
                 Output.WriteLine("Title: {0}", videoInfo.Title);
@@ -149,7 +149,7 @@ namespace Aspose.HTML.Tests.Web_Scraping
         }
 
 
-        [Fact(DisplayName = "Download Video")]
+        [Fact(DisplayName = "Download a Video")]
         public void DownloadVideoTest()
         {
             // URL of the video you want to extract data from
@@ -165,10 +165,10 @@ namespace Aspose.HTML.Tests.Web_Scraping
             // Initialize an instance of the MultimediaScraper class
             using var multimediaScraper = new MultimediaScraper();
             
-            // Create a multimedia object that include information from the URL
+            // Create a multimedia object that includes information from the URL
             using (var multimedia = multimediaScraper.GetMultimedia(url))
             {
-                // Get a videoInfo object
+                // Get a VideoInfo object
                 var videoInfo = multimedia.CollectVideoInfo();
                 
                 // Get the first element from the formats collection with minimal bitrate and present audio and video codecs
