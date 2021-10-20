@@ -15,7 +15,7 @@ lastmod: 2021-09-03
 
 The main highlight of Aspose.HTML is the conversion feature. EPUB is an open XML-based format for digital books and publications, which can be view and read on smartphones, tablets and computers. The [Aspose.Html.Converters](https://apireference.aspose.com/html/net/aspose.html.converters) namespace implements easy access to conversion methods. It provides a wide range of {{%EPUB %}} conversions to popular formats, such as {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, and {{%GIF%}}.
 
-This section provides information on the list of supported EPUB conversion scenarios and how to perform them using a [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class that groups all low-level conversion operations in a single class to make them comfy and easy to use. In the **EPUB Converter** guide, you find the following articles: 
+This section provides information on the list of supported EPUB conversion scenarios and how to perform them using a [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class that groups all low-level conversion operations in a single class to make them comfy and easy to use. In the **EPUB Converter** guide, you find the following articles: 
 
 [Convert EPUB to PDF](/html/net/converting-between-formats/epub-to-pdf/) - In this guide, you will find information on how to convert an EPUB document into a Portable Document Format ({{%PDF%}}) file format and consider code snippets that illustrate the applying of PdfSaveOptions and ICreateStreamProvider parameters.
 

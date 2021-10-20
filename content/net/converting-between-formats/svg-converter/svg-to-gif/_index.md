@@ -13,7 +13,7 @@ lastmod: 2021-09-03
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
-GIF is a popular image format that is frequently used in web publishing. With Aspose.HTML, you can convert SVG to GIF format programmatically with full control over a wide range of conversion parameters. In this article, you find information on how to convert SVG to {{%GIF%}} by using [ConvertSVG()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods of the Converter class and applying  [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions).
+GIF is a popular image format that is frequently used in web publishing. With Aspose.HTML, you can convert SVG to GIF format programmatically with full control over a wide range of conversion parameters. In this article, you find information on how to convert SVG to {{%GIF%}} by using [ConvertSVG()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods of the Converter class and applying  [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions).
 
 {{% alert color="primary" %}}
 Aspose.HTML offers a free online <a href="https://products.aspose.app/svg/en/conversion/svg-to-gif" target="_blank">**SVG to GIF Converter**</a> that converts SVG to GIF image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
@@ -23,7 +23,7 @@ Aspose.HTML offers a free online <a href="https://products.aspose.app/svg/en/con
 
 ## **SVG to GIF by a single line of code**
 
-The static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an SVG file into various formats. You can convert SVG to GIF in your C# application literally with a single line of code!
+The static methods of the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class are primarily used as the easiest way to convert an SVG file into various formats. You can convert SVG to GIF in your C# application literally with a single line of code!
 
 In the following example, we take an SVG file in a local file system ([shapes.svg](/html/net/converting-between-formats/svg-to-jpg/shapes.svg)), convert and save it in the local file system.
 
@@ -41,7 +41,7 @@ using Aspose.Html.Saving;
 Converting a file to another format using the ConvertSVG() method is a sequence of operations among which document loading and saving. In the following example, we create an SVG file from code. 
 
 1. Prepare code for an SVG document.
-1. Create a new [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) object with GIF ImageFormat. By default, the Format property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
+1. Create a new [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) object with GIF ImageFormat. By default, the Format property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
 1. Use the [ConvertSVG(`content`, `baseUri`, `options`, `outputPath`)](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/51) method of the Converter class to save SVG as a GIF image. 
 
 Please take a look over the following C# code snippet which shows the process of converting SVG to GIF using Aspose.HTML for .NET.
@@ -77,8 +77,8 @@ You can download the complete examples and data files from [**GitHub**](https://
 
 To convert SVG to GIF with ImageSaveOptions specifying, you should follow a few steps: 
 
-1. Load an SVG file using one of the SVGDocument() constructors of the [SVGDocument](https://apireference.aspose.com/net/html/aspose.html.dom.svg/svgdocument) class. ([gradient.svg](/html/net/converting-between-formats/svg-to-gif/gradient.svg)). 
-1. Create a new [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) object with GIF ImageFormat and specify save options. By default, the Format property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
+1. Load an SVG file using one of the SVGDocument() constructors of the [SVGDocument](https://apireference.aspose.com/html/net/aspose.html.dom.svg/svgdocument) class. ([gradient.svg](/html/net/converting-between-formats/svg-to-gif/gradient.svg)). 
+1. Create a new [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) object with GIF ImageFormat and specify save options. By default, the Format property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
 1. Use the [ConvertSVG()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/3) method to save SVG as a GIF image. You need to pass the SVGDocument, ImageSaveOptions, and output file path to the ConvertSVG() method to convert SVG to GIF.
 
 The following C# code snippet shows how to convert SVG to GIF using custom save options:
@@ -120,7 +120,7 @@ In the example, we use:
  - BackgroundColor property that sets the color that will fill the background. The default BackgroundColor is Transparent.
  - HorizontalResolution and VerticalResolution properties that set horizontal/vertical resolution for output images in pixels per inch. By default, these properties are 300 dpi.
 
-The ImageSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting SVG to Image formats. To learn more about [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+The ImageSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting SVG to Image formats. To learn more about [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 
 The figure illustrates the fragment of the gradient-options.gif file.
 

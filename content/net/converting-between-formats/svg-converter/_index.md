@@ -14,7 +14,7 @@ lastmod: 2021-09-03
 
 The main highlight of Aspose.HTML is the conversion feature. Converting between formats is required for various reasons: to work in a familiar, convenient format or to take advantage of different formats for specific tasks. The [Aspose.Html.Converters](https://apireference.aspose.com/html/net/aspose.html.converters) namespace implements easy access to conversion methods. It provides a wide range of {{%SVG%}} conversions to popular formats, such as {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, and {{%GIF%}}.
 
-The articles in this section provide information on the list of supported conversion scenarios and how to perform them using a [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class that groups all low-level conversion operation in a single class to make it comfy and easy to use. 
+The articles in this section provide information on the list of supported conversion scenarios and how to perform them using a [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class that groups all low-level conversion operation in a single class to make it comfy and easy to use. 
 
 In the **SVG Converter** guide, you find the following articles: 
 

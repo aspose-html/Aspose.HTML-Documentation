@@ -15,7 +15,7 @@ lastmod: 2021-09-03
 
 PNG is one of the most used image file formats. It supports lossless image compression that makes it popular among its users.  Converting HTML files to the PNG image may be required, for example, if you want to add a web page in a PowerPoint presentation, insert it on a blog for your readers, or send by e-mail. With Aspose.HTML, you can convert HTML to PNG format programmatically with full control over a wide range of conversion parameters. 
 
-In this article, you find information on how to convert  HTML to {{%PNG%}} by using [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class, and how to apply [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you find information on how to convert  HTML to {{%PNG%}} by using [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class, and how to apply [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}}
 Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/html-to-png" target="_blank">**HTML to PNG Converter**</a> that converts HTML to PNG image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
@@ -26,7 +26,7 @@ Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/co
 
 ## **HTML to PNG by a single line of code**
 
-The static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an HTML code into various formats. You can convert HTML to PNG in your C# application literally with a single line of code!
+The static methods of the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class are primarily used as the easiest way to convert an HTML code into various formats. You can convert HTML to PNG in your C# application literally with a single line of code!
 
 {{< highlight java >}}
 using System.IO;
@@ -41,9 +41,9 @@ using Aspose.Html.Saving;
 ## **Convert HTML to PNG**
 Converting a file to another format using the ConvertHTML() method is a sequence of operations among which document loading and saving:
 
-1. Load an HTML file using the [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument) class.
-1. Create a new [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) object. By default, the Format property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
-1. Use the [ConvertHTML()](https://apireference.aspose.com/net/html/aspose.html.converters.converter/converthtml/methods/3) method of the Converter class to save HTML as a PNG image. You need to pass the [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument), [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions), and output file path to the ConvertHTML() method to convert HTML to PNG.
+1. Load an HTML file using the [HTMLDocument](https://apireference.aspose.com/html/net/aspose.html/htmldocument) class.
+1. Create a new [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) object. By default, the Format property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
+1. Use the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/3) method of the Converter class to save HTML as a PNG image. You need to pass the [HTMLDocument](https://apireference.aspose.com/html/net/aspose.html/htmldocument), [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions), and output file path to the ConvertHTML() method to convert HTML to PNG.
 
 Please take a look over the following C# code snippet which shows the process of converting HTML to PNG using Aspose.HTML for .NET.
 
@@ -77,11 +77,11 @@ You can download the complete examples and data files from [**GitHub**](https://
 {{% /alert %}}
 
 ## **Save Options**
-Aspose.HTML allows converting HTML to PNG using default or custom save options. [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) usage enables you to customize the rendering process; you can specify the [image format](https://apireference.aspose.com/net/html/aspose.html.rendering.image/imageformat), [page size](https://apireference.aspose.com/net/html/aspose.html.rendering/renderingoptions/properties/pagesetup), [margins](https://apireference.aspose.com/net/html/aspose.html.drawing/page/properties/margin), [CSS media-type](https://apireference.aspose.com/net/html/aspose.html.rendering/mediatype), etc. 
+Aspose.HTML allows converting HTML to PNG using default or custom save options. [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) usage enables you to customize the rendering process; you can specify the [image format](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat), [page size](https://apireference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup), [margins](https://apireference.aspose.com/html/net/aspose.html.drawing/page/properties/margin), [CSS media-type](https://apireference.aspose.com/html/net/aspose.html.rendering/mediatype), etc. 
 
 | Property                                                     | Description                                                  |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [Compression](https://apireference.aspose.com/net/html/aspose.html.rendering.image/compression) | Sets Tagged Image File Format (TIFF) [Compression](https://apireference.aspose.com/html/net/aspose.html.rendering.image/compression). By default, this property is [LZW](https://apireference.aspose.com/html/net/aspose.html.rendering.image/compression). |
+| [Compression](https://apireference.aspose.com/html/net/aspose.html.rendering.image/compression) | Sets Tagged Image File Format (TIFF) [Compression](https://apireference.aspose.com/html/net/aspose.html.rendering.image/compression). By default, this property is [LZW](https://apireference.aspose.com/html/net/aspose.html.rendering.image/compression). |
 | [CSS](https://apireference.aspose.com/html/net/aspose.html.rendering/mediatype) | Gets a [CssOptions](https://apireference.aspose.com/html/net/aspose.html.rendering/cssoptions) object which is used for configuration of CSS properties processing. |
 | [Format](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat) | Sets the [ImageFormat](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat) (JPG, PNG, BMP, TIFF, or GIF). By default, this property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat). |
 | [BackgroundColor](https://apireference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/backgroundcolor) | This property sets the color that will fill the background. By default, this property is Transparent. |
@@ -93,7 +93,7 @@ Aspose.HTML allows converting HTML to PNG using default or custom save options. 
 
 {{% alert color="primary" %}} 
 
-To learn more about the [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) class, please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+To learn more about the [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) class, please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 {{% /alert %}}
 
 ## **Convert HTML to PNG using ImageSaveOptions**
@@ -101,8 +101,8 @@ To learn more about the [ImageSaveOptions](https://apireference.aspose.com/net/h
 To convert HTML to PNG with ImageSaveOptions specifying, you should follow a few steps: 
 
 1. Load an HTML file using one of the HTMLDocument() constructors of the HTMLDocument class. 
-1. Create a new [ImageSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/imagesaveoptions) object and specify save options. By default, the Format property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
-1. Use the [ConvertHTML()](https://apireference.aspose.com/net/html/aspose.html.converters.converter/converthtml/methods/3) method of the  Converter class to save HTML as a JPG image. You need to pass the HTMLDocument, ImageSaveOptions, and output file path to the ConvertHTML() method to convert HTML to PNG.
+1. Create a new [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) object and specify save options. By default, the Format property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
+1. Use the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/3) method of the  Converter class to save HTML as a JPG image. You need to pass the HTMLDocument, ImageSaveOptions, and output file path to the ConvertHTML() method to convert HTML to PNG.
 
 The following C# code snippet shows how to convert HTML to PNG using custom save options:
 
@@ -151,7 +151,7 @@ You can download the complete examples and data files from [**GitHub**](https://
 {{% /alert %}}
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement the [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement the [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 

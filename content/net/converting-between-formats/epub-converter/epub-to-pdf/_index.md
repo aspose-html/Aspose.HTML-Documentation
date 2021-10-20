@@ -19,7 +19,7 @@ aliases:
 
 EPUB is an e-book file format that provides a standard digital publication format. It is created by International Digital Publishing Forum ([IDPF](http://idpf.org/)), and now it is supported by many e-readers and software applications. EPUB to PDF conversion is often required to take advantage of PDF format. PDF file format has full capability to contain information like text, images, hyperlinks, form-fields, rich media, metadata, etc. PDF files can be opened in Adobe Acrobat Reader/Writer and most modern browsers like Chrome, Safari, Firefox. They are optimized for printing, and they are ideal for creating physical copies of your documents; you can also configure the security settings for PDF.
 
-In this article, you find information about converting {{%EPUB%}} to {{%PDF%}} and using [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you find information about converting {{%EPUB%}} to {{%PDF%}} and using [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}}
 Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/epub-to-pdf" target="_blank">**EPUB to PDF Converter**</a> that converts EPUB to PDF with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
@@ -29,7 +29,7 @@ Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/co
 
 ## **EPUB to PDF by two lines of code**
 
-The static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an EPUB file into various formats. You can convert {{%EPUB%}} to {{%PDF%}} in your C# application literally with two lines of code!
+The static methods of the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class are primarily used as the easiest way to convert an EPUB file into various formats. You can convert {{%EPUB%}} to {{%PDF%}} in your C# application literally with two lines of code!
 
 {{< highlight java >}}
 using System.IO;
@@ -48,8 +48,8 @@ using Aspose.Html.Saving;
 Using [Converter.ConvertEPUB](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertepub/index) methods is the most common way to convert EPUB files into various formats. To convert EPUB to PDF, you should follow a few steps: 
 
 1. Open an existing EPUB file. In the example, we use the OpenRead() method of System.IO.FileStream class to open and read an EPUB file from the file system at the specified path.
-1. Create an instance of [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions).
-1. Use the [ConvertEPUB()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertepub/methods/29) method of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class to save EPUB as a PDF file. You need to pass the EPUB file stream, PdfSaveOptions, and output file path to the ConvertEPUB() method to convert EPUB to PDF.
+1. Create an instance of [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions).
+1. Use the [ConvertEPUB()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertepub/methods/29) method of the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class to save EPUB as a PDF file. You need to pass the EPUB file stream, PdfSaveOptions, and output file path to the ConvertEPUB() method to convert EPUB to PDF.
 
 The following C# code snippet shows how to convert EPUB to PDF using Aspose.HTML for .NET:
 
@@ -77,7 +77,7 @@ You can download the complete examples and data files from [**GitHub**](https://
 {{% /alert %}}
 
 ## **Save Options**
-With Aspose.HTML, you can convert EPUB to PDF format programmatically with full control over a wide range of conversion parameters. [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) usage enables you to tune the rendering process; you can specify the [page size](https://apireference.aspose.com/net/html/aspose.html.rendering/renderingoptions/properties/pagesetup), [margins](https://apireference.aspose.com/net/html/aspose.html.drawing/page/properties/margin), [file permissions](https://apireference.aspose.com/net/html/aspose.html.rendering.pdf.encryption/pdfencryptioninfo), [CSS media-type](https://apireference.aspose.com/net/html/aspose.html.rendering/mediatype), etc.  
+With Aspose.HTML, you can convert EPUB to PDF format programmatically with full control over a wide range of conversion parameters. [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) usage enables you to tune the rendering process; you can specify the [page size](https://apireference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup), [margins](https://apireference.aspose.com/html/net/aspose.html.drawing/page/properties/margin), [file permissions](https://apireference.aspose.com/html/net/aspose.html.rendering.pdf.encryption/pdfencryptioninfo), [CSS media-type](https://apireference.aspose.com/html/net/aspose.html.rendering/mediatype), etc.  
 
 | Property                                                     | Description                                                  |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
@@ -91,7 +91,7 @@ With Aspose.HTML, you can convert EPUB to PDF format programmatically with full 
 | [Encryption](https://apireference.aspose.com/html/net/aspose.html.rendering.pdf/pdfrenderingoptions/properties/encryption) | This property gets or sets encryption details. If it is not set, then no encryption will be performed. |
 
 {{% alert color="primary" %}}
-To learn more about [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) please read [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+To learn more about [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) please read [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 
 {{% /alert %}}
 
@@ -100,10 +100,10 @@ To learn more about [PdfSaveOptions](https://apireference.aspose.com/net/html/as
 Aspose.HTML allows converting EPUB to PDF using default or custom save options. You should follow a few steps: 
 
 1. Open an existing EPUB file.
-1. Create a new [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) object and specify the required save options.
+1. Create a new [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) object and specify the required save options.
 1. Use the [ConvertEPUB()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertmhtml/methods/29) method to save EPUB as a PDF file. You need to pass the EPUB file stream, PdfSaveOptions, and output file path to the ConvertEPUB () method for EPUB to PDF conversion.
 
-The following example shows how to use [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) and create a PDF file with custom save options:
+The following example shows how to use [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) and create a PDF file with custom save options:
 
 {{< highlight java >}}
 using System.IO;
@@ -142,12 +142,12 @@ In the example, we use the OpenRead() method of System.IO.FileStream class to op
 In the above example, we use:
 
  - BackgroundColor property that specifies the color that the background will be filled in. The default BackgroundColor is Transparent;
- - PageSetup property that specifies the [page size](https://apireference.aspose.com/net/html/aspose.html.rendering/renderingoptions/properties/pagesetup) in pixels.
+ - PageSetup property that specifies the [page size](https://apireference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) in pixels.
 
 Aspose.HTML for .NET provides various types of output formats for rendering operations. Some of these formats produce a single output file (for instance {{%PDF%}}, {{%XPS%}}), others create multiple files (Image formats {{%JPG%}}, {{%PNG%}}, etc.).
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 
 The example below shows how to implement and use your own *MemoryStreamProvider* in the application:
