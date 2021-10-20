@@ -28,12 +28,12 @@ and other formats.
 Following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Getting Started](/html/net/getting-started/)
-- [Supported Features](/html/net/features-list/)
-- [Product Page](https://products.aspose.com/html/net)
+- [Supported Features](/html/net/getting-started/features-list/)
+- [Product Page](https://products.aspose.com/html/net/)
 - [NuGet Package](https://www.nuget.org/packages/Aspose.Html/)
-- [Installing Product](/html/net/installation/)
+- [Installing Product](/html/net/getting-started/installation/)
 - [API Reference](https://apireference.aspose.com/html/net)
-- [Free Support Forum](https://forum.aspose.com/c/html)
+- [Free Support Forum](https://forum.aspose.com/c/html/29)
 - [Paid Support Helpdesk](https://helpdesk.aspose.com/)
 - [Usage Examples GitHub](https://github.com/aspose-html/Aspose.HTML-for-.NET)
 - [Try Online](https://products.aspose.app/html/family)
@@ -55,12 +55,12 @@ Aspose.HTML for Java is an advanced HTML manipulation API built to perform a wid
 Following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Getting Started](/html/java/getting-started/)
-- [Supported Features](/html/java/features-list/)
-- [Product Page](https://products.aspose.com/html/java)
-- [Installing Product](/html/java/installation/)
+- [Supported Features](/html/java/getting-started/features-list/)
+- [Product Page](https://products.aspose.com/html/java/)
+- [Installing Product](/html/java/getting-started/installation/)
 - [Download Aspose.HTML for Java](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-html)
 - [API Reference](https://apireference.aspose.com/html/java)
-- [Free Support Forum](https://forum.aspose.com/c/html)
+- [Free Support Forum](https://forum.aspose.com/c/html/29)
 - [Paid Support Helpdesk](https://helpdesk.aspose.com/)
 - [Usage Examples GitHub](https://github.com/aspose-html/Aspose.HTML-for-Java)
 - [Try Online](https://products.aspose.app/html/family)

@@ -21,10 +21,10 @@ Using Aspose.HTML for Java in your project gives you the following benefits:
 Aspose.HTML for Java is designed to process not only HTML but all the related formats: CSS, SVG, JavaScript, EPUB, MHTML. That's why it offers you a lot of features in many different areas:
 
 - Document object model - created according to the official HTML documentation, which allows you to edit, create and remove nodes.
-- Many accurate, high-performance converters. You can visit [Features List](/html/java/features-list/) or [Converting](/html/java/converting-between-formats/) articles to see the full list of supported file formats.
+- Many accurate, high-performance converters. You can visit [Features List](/html/java/getting-started/features-list/) or [Converting](/html/java/converting-between-formats/) articles to see the full list of supported file formats.
 - Work with CSS, JavaScript and other built-in formats.
 
-You can learn more about all these and other features in [Features List](/html/java/features-list/) article.
+You can learn more about all these and other features in **Features List** article.
 ### **Performance and scalability**
 Aspose.HTML is a single file assembly, written in Java, which supports JSE 1.6 versions. It is a fast, lightweight component which creates, converts and edits {{%XHTML%}}, SVG, MHTML and EPUB documents efficiently.
 
@@ -51,7 +51,7 @@ but on the other hand, you can [fine-tune the conversion process](/html/java/fin
 ## **Technical Support**
 Aspose provides unlimited free technical support for all its products. The support is available to all users, including evaluation. If you need help with Aspose.HTML, consider the following:
 
-- The main avenue for support is the [Aspose.Forums](https://forum.aspose.com/) . Post your question in the [Aspose.HTML Forum](https://forum.aspose.com/c/html) and it will be answered within a few hours.
+- The main avenue for support is the [Aspose.Forums](https://forum.aspose.com/) . Post your question in the [Aspose.HTML Forum](https://forum.aspose.com/c/html/29) and it will be answered within a few hours.
 - Please note, Aspose does not provide technical support over the phone. Phone support is only available for sales and purchase questions.
 - When expecting a reply in the forums, please consider the time zone differences.
 
