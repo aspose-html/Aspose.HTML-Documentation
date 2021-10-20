@@ -5,8 +5,10 @@ type: docs
 weight: 10
 aliases: /net/html-navigation/
 description: In this article, you find the description of how to perform a detailed inspection of the HTML document and its elements using the API, about custom filters usage for iterating over the document elements, how to navigate over the document by using CSS Selector or XPath.
-keywords: HTML navigation, XPath, XPath Query, CSS selector, custom filter
+keywords: HTML navigation, DOM, XPath, XPath Query, CSS selector, custom filter, C# example
 ---
+
+<link href="./../../style.css" rel="stylesheet" type="text/css" />
 
 Using *Aspose.HTML* class library, you can easily create your own application, since our API provides a powerful toolset to analyze and collect information from HTML documents.
 
@@ -60,10 +62,8 @@ Once you implement a filter, you can use HTML navigation as it follows:
 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-WebScraping-WebScraping-NodeFilterUsageExample.cs" >}}
 
-
-
 {{% alert color="primary" %}} 
-You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation). 
+You can download the complete C# examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net). 
 {{% /alert %}}  
 
 ## **XPath  Query**
@@ -81,8 +81,13 @@ In the following example, we use the [QuerySelectorAll()](https://apireference.a
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-WebScraping-WebScraping-CSSSelectorUsageExample.cs" >}}
 
 {{% alert color="primary" %}} 
+
+You can download the complete C# examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net). 
+
 Aspose.HTML offers free online [**Data Scrapers**](https://products.aspose.app/html/en/scrapers) Apps that are a way to get data from websites. Using our web extracting tools, you're able to get data from the Internet in seconds. Our Apps are safe, work on any platform and do not require any software installation. 
 {{% /alert %}}  
+
+<a href="https://products.aspose.app/html/en/scrapers" target="_blank">![Text "Banner Data Scrapers"](./../data-scrapers.png#center)</a> 
 
 
 

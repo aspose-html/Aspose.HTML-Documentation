@@ -40,7 +40,7 @@ namespace Aspose.HTML.Tests.Web_Scraping
             {
                 var youTubeVideoInfo = (YouTubeVideoInfo)info;
                 
-                // Show information about the video
+                // Show YouTube video info
                 Output.WriteLine("Title: {0}", youTubeVideoInfo.Title);
                 Output.WriteLine("Description: {0}", youTubeVideoInfo.Description);
                 Output.WriteLine("Duration: {0}", youTubeVideoInfo.Duration);
@@ -189,10 +189,10 @@ namespace Aspose.HTML.Tests.Web_Scraping
                 // Get the full file path for the output file
                 var filePath = Path.Combine(OutputDir, filename + "." + ext);
 
-                // Download the video
+                // Download YouTube video
                 multimedia.Download(format, filePath);
 
-                // Show information about the video
+                // Show YouTube video info
                 Output.WriteLine("Title: {0}", youTubeVideoInfo.Title);
                 Output.WriteLine("Description: {0}", youTubeVideoInfo.Description);
                 Output.WriteLine("Duration: {0}", youTubeVideoInfo.Duration);

@@ -40,7 +40,7 @@ namespace Aspose.HTML.Tests.Web_Scraping
             {
                 var youKuVideoInfo = (YouKuVideoInfo)info;
 
-                // Show information about the YouKu video
+                // Show YouKu video info
                 Output.WriteLine("Title: {0}", youKuVideoInfo.Title);
                 Output.WriteLine("Description: {0}", youKuVideoInfo.Description);
                 Output.WriteLine("Duration: {0}", youKuVideoInfo.Duration);
@@ -90,10 +90,10 @@ namespace Aspose.HTML.Tests.Web_Scraping
                 // Get the full file path for the output file
                 var filePath = Path.Combine(OutputDir, filename + "." + ext);
 
-                // Download the YouKu video
+                // Download YouKu video
                 multimedia.Download(format, filePath);
 
-                // Show information about the YouKu video
+                // Show YouKu video info
                 Output.WriteLine("Title: {0}", youKuVideoInfo.Title);
                 Output.WriteLine("Description: {0}", youKuVideoInfo.Description);
                 Output.WriteLine("Duration: {0}", youKuVideoInfo.Duration);
@@ -104,7 +104,7 @@ namespace Aspose.HTML.Tests.Web_Scraping
                 Assert.Equal(expectedDuration, youKuVideoInfo.Duration);
             }            
 
-            Assert.True(File.Exists(Path.Combine(OutputDir, "News 24.mp4")));
+            Assert.True(File.Exists(Path.Combine(OutputDir, "News-24.mp4")));
         }
     }
 }

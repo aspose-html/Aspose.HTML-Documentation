@@ -1,12 +1,14 @@
 ---
 title: How to Download a Video | C#
 linktitle: How to Download a Video
-keywords: how to download video, download video, download youtube video, download youku video, download zoom video, video info, video formats, extract data, data scraping
+keywords: how to download video, download video, download youtube video, download youku video, download zoom video, video info, video formats, extract data, data scraping, C# example
 description: In this article, you find the description and a few C# examples of how to download videos using the Aspose.HTML API and get information about them.
 weight: 20
 type: docs
 aliases: /net/how-to-download-video/
 ---
+
+<link href="./../../style.css" rel="stylesheet" type="text/css" />
 
 Aspose.HTML for .NET API provides a powerful toolset to analyze and collect information from HTML documents and gives a possibility to download video by its URL. You can easily create your own application using API functionalities or just download and watch your favorite video offline without any internet connection.
 
@@ -58,6 +60,10 @@ The following code snippet can be used to get information about a video file suc
 
 In the example above, we use the [GetMultimedia(`url`)](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediascraper/methods/getmultimedia) method of MultimediaScraper class for initializing multimedia object that can receive information from the specified page URL. The [CollectVideoInfo()](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimedia/methods/collectvideoinfo) method of the Multimedia class collects and provides video information from the associated URL. These can be the VideoInfo class properties such as Description, Duration, Formats, MultimediaHost, Thumbnails, and Title for a video file. 
 
+{{% alert color="primary" %}} 
+You can download the complete C# examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net). 
+{{% /alert %}} 
+
 ## **Video Formats Info**
 
 You may download a video in different formats: in the best available quality or, for example, in low size when you are on a slow or intermittent connection. Using the  [VideoFormatInfo](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/videoformatinfo) class, you can select a video format based on some criterion or criteria.
@@ -83,7 +89,7 @@ To download a video file with Aspose.HTML, you should follow a few steps:
 6. Specify a video format and full file path for the output file.
 7. Download video using the [Download()](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimedia/methods/download) method.
 
-Here is an example of how to download videos using the API and get information about them.
+Here is a C# example of how to download videos using the API and get information about them.
 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-WebScraping-MultimediaScraping-DownloadVideo.cs" >}}
 
@@ -92,8 +98,12 @@ The Download() method of the Multimedia class takes as parameters the informatio
 
 
 {{% alert color="primary" %}} 
+You can download the complete C# examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net). 
+
 Aspose.HTML offers free online Apps for data scraping that help you extract data from the web on any device in seconds. [**Data Scrapers**](https://products.aspose.app/html/en/scrapers) are free and do not require any software installation. They are easy and clear to use yet forceful and reliable. Try the Data Scrapers Apps and extract data from any web page now!
 {{% /alert %}}   
+
+<a href="https://products.aspose.app/html/en/scrapers" target="_blank">![Text "Banner Data Scrapers"](./../data-scrapers.png#center)</a> 
 
 
 
