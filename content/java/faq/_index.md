@@ -55,7 +55,7 @@ Moreover, we support CSS Selectors and the native navigation mechanism that is c
 
 **Q: How to use the MemoryStream object to store the rendering result instead of the file system?**
 
-**A:** You can implement *Aspose.Html.IO.ICreateStreamProvider* interface to handle the output streams, as it’s described [here](/html/java/output-streams/).
+**A:** You can implement *Aspose.Html.IO.ICreateStreamProvider* interface to handle the output streams, as it’s described [here](/html/java/advanced-programming/output-streams/).
 
 
 **Q: How to check the list of resources that are loaded along with an HTML document?**
@@ -75,4 +75,4 @@ Moreover, we support CSS Selectors and the native navigation mechanism that is c
 
 **Q: I want to see page numbers at the bottom of the document, how to do this?**
 
-**A:** Since CSS is used to describe the visual layout of the document, we designed specialized [CSS Extensions](/html/java/css-extensions/) that can be used to write information on page margins.
+**A:** Since CSS is used to describe the visual layout of the document, we designed specialized [CSS Extensions](/html/java/advanced-programming/css-extensions/) that can be used to write information on page margins.

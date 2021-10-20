@@ -15,4 +15,4 @@ Besides processing HTML5 Canvas as a part of an HTML document, you can work with
 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-AdvancedUsage-HTML5Canvas-ManipulateUsingCode.cs" >}}
 
-To learn more about how to use HTML5 Canvas, you can read the popular public [HTML Canvas Tutorial](http://www.w3schools.com/graphics/canvas_intro.asp).
+To learn more about how to use HTML5 Canvas, you can read the popular public [HTML Canvas Tutorial](https://www.w3schools.com/graphics/canvas_intro.asp).
