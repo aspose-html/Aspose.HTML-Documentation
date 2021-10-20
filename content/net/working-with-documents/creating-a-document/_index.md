@@ -16,15 +16,15 @@ You can download the complete examples and data files from [**GitHub**](https://
 
 ## **HTML Document**
 
-The [**HTMLDocument**](https://apireference.aspose.com/net/html/aspose.html/htmldocument) is a starting point for Aspose.HTML class library. You can load the HTML page into the **Document Object Model (DOM)** by using the [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument) class and then programmatically read, modify the document tree, add and remove nodes, change the node properties in the document as it is described in the official specifications.
+The [**HTMLDocument**](https://apireference.aspose.com/html/net/aspose.html/htmldocument) is a starting point for Aspose.HTML class library. You can load the HTML page into the **Document Object Model (DOM)** by using the [HTMLDocument](https://apireference.aspose.com/html/net/aspose.html/htmldocument) class and then programmatically read, modify the document tree, add and remove nodes, change the node properties in the document as it is described in the official specifications.
 
 {{% alert color="primary" %}} 
 
-The [**HTMLDocument**](https://apireference.aspose.com/net/html/aspose.html/htmldocument)  class provides an in-memory representation of an **HTML DOM** and entirely based on [W3C DOM](http://www.w3.org/DOM/) and [WHATWG DOM](https://dom.spec.whatwg.org/) specifications that are supported in many modern browsers. If you are familiar with [WHATWG DOM](https://dom.spec.whatwg.org/), [WHATWG HTML](https://html.spec.whatwg.org/multipage/), and [JavaScript](https://www.ecma-international.org/ecma-262/10.0/index.html) standards, you will find it quite comfy to use the Aspose.HTML library. Otherwise, you can visit [www.w3schools.com](https://www.w3schools.com/html/default.asp), where you can find a lot of examples and tutorials on how to work with HTML documents.
+The [**HTMLDocument**](https://apireference.aspose.com/html/net/aspose.html/htmldocument)  class provides an in-memory representation of an **HTML DOM** and entirely based on [W3C DOM](http://www.w3.org/DOM/) and [WHATWG DOM](https://dom.spec.whatwg.org/) specifications that are supported in many modern browsers. If you are familiar with [WHATWG DOM](https://dom.spec.whatwg.org/), [WHATWG HTML](https://html.spec.whatwg.org/multipage/), and [JavaScript](https://www.ecma-international.org/ecma-262/10.0/index.html) standards, you will find it quite comfy to use the Aspose.HTML library. Otherwise, you can visit [www.w3schools.com](https://www.w3schools.com/html/default.asp), where you can find a lot of examples and tutorials on how to work with HTML documents.
 
 {{% /alert %}} 
 
-HTML documents can be created from scratch as an empty document with HTML structure, from a string, from a memory stream or loaded from a file or a URL. The [**HTMLDocument**](https://apireference.aspose.com/net/html/aspose.html/htmldocument)  has several overloaded constructors allowing you to create or load HTML documents.
+HTML documents can be created from scratch as an empty document with HTML structure, from a string, from a memory stream or loaded from a file or a URL. The [**HTMLDocument**](https://apireference.aspose.com/html/net/aspose.html/htmldocument)  has several overloaded constructors allowing you to create or load HTML documents.
 
 ### **Create an Empty HTML Document**
 
@@ -72,7 +72,7 @@ using Aspose.Html;
 In the new document, we have created a text node, given the specified string, using the **CreateTextNode()** method and added it to the body element using **AppendChild()** method. How to edit an HTML file is described in detail in the [**Editing an HTML Document**](https://docs.aspose.com/html/net/editing-a-document/) section.
 
 ### **Load from a File**
-Following code snippet shows how to load the [**HTMLDocument**](https://apireference.aspose.com/net/html/aspose.html/htmldocument) from an existing file:
+Following code snippet shows how to load the [**HTMLDocument**](https://apireference.aspose.com/html/net/aspose.html/htmldocument) from an existing file:
 {{< highlight java >}}
 using System;
 using Aspose.Html;
@@ -111,10 +111,10 @@ using Aspose.Html;
 {{< /highlight >}}
 
 ### **Load from a URL**
-The ability to select files and interact with them on the user's local device is one of the most used features of the Internet. In the next code snippet, you can see how to load a web page into the [**HTMLDocument**](https://apireference.aspose.com/net/html/aspose.html/htmldocument).
+The ability to select files and interact with them on the user's local device is one of the most used features of the Internet. In the next code snippet, you can see how to load a web page into the [**HTMLDocument**](https://apireference.aspose.com/html/net/aspose.html/htmldocument).
 
 {{% alert color="primary" %}} 
-In case if you pass a wrong URL that can't be reached right at the moment, the library throws the [DOMException](https://apireference.aspose.com/net/html/aspose.html/htmlexception) with specialized code 'NetworkError' to inform you that the selected resource can not be found.
+In case if you pass a wrong URL that can't be reached right at the moment, the library throws the [DOMException](https://apireference.aspose.com/html/net/aspose.html/htmlexception) with specialized code 'NetworkError' to inform you that the selected resource can not be found.
 {{% /alert %}} 
 {{< highlight java >}}
 using System;
@@ -185,7 +185,7 @@ using Aspose.Html;
 {{< /highlight >}}
 
 ## **SVG Document**
-Since Scalable Vector Graphics ({{%SVG%}}) is a part of [W3C](https://www.w3.org/) standards and could be embedded into the [**HTMLDocument**](https://apireference.aspose.com/net/html/aspose.html/htmldocument), we implemented the [**SVGDocument**](https://apireference.aspose.com/net/html/aspose.html.dom.svg/svgdocument) and all its functionality. Our implementation is based on official [SVG 2 specification](https://www.w3.org/TR/SVG2/), so you can load, read, manipulate SVG documents as it described officially.
+Since Scalable Vector Graphics ({{%SVG%}}) is a part of [W3C](https://www.w3.org/) standards and could be embedded into the [**HTMLDocument**](https://apireference.aspose.com/html/net/aspose.html/htmldocument), we implemented the [**SVGDocument**](https://apireference.aspose.com/html/net/aspose.html.dom.svg/svgdocument) and all its functionality. Our implementation is based on official [SVG 2 specification](https://www.w3.org/TR/SVG2/), so you can load, read, manipulate SVG documents as it described officially.
 
 Since the **SVGDocument** and  the **HTMLDocument** are based on the same [WHATWG DOM](https://dom.spec.whatwg.org/) standard, all operations such as loading, reading, editing, converting and saving are similar for both documents. So, all examples where you can see manipulation with the **HTMLDocument** are applicable for the **SVGDocument** as well.
 
@@ -212,7 +212,7 @@ The Aspose.HTML library supports this format, but with some limitations. We only
 {{%EPUB%}} is a format supported by a majority of eReaders and compatible with most devices you read on - smartphones, tablets, and computers.  For {{%EPUB%}} format, which represents an *electronic publication* format, we have the same limitation as for {{%MHTML%}}. We only support the rendering operations from EPUB to the supported output formats. For more details, please read the [**Converting Between Formats**](/html/net/converting-between-formats/) article.
 
 ## **Asynchronous Operations**
-We realize that loading a document could be a resource-intensive operation since it’s required loading not only the document itself but all linked resources and processing all scripts. So, in the following code snippets, we show you how to use asynchronous operations and load the [**HTMLDocument**](https://apireference.aspose.com/net/html/aspose.html/htmldocument) without blocking the main thread:
+We realize that loading a document could be a resource-intensive operation since it’s required loading not only the document itself but all linked resources and processing all scripts. So, in the following code snippets, we show you how to use asynchronous operations and load the [**HTMLDocument**](https://apireference.aspose.com/html/net/aspose.html/htmldocument) without blocking the main thread:
 
 {{< highlight java >}}
 using System;

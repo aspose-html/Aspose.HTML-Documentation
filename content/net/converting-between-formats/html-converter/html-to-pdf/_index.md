@@ -17,12 +17,12 @@ aliases:
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
-In this guide, you find information on how to convert an HTML document into a Portable Document Format ({{%PDF%}}) file format. HTML to PDF conversion is often required to establish limited access to documents editing or copying; to produce official documentation or send some information, for example, by email. In this article, you find information on how to convert  HTML to PDF using [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class, and how to apply [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
+In this guide, you find information on how to convert an HTML document into a Portable Document Format ({{%PDF%}}) file format. HTML to PDF conversion is often required to establish limited access to documents editing or copying; to produce official documentation or send some information, for example, by email. In this article, you find information on how to convert  HTML to PDF using [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class, and how to apply [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 Any conversion you want to perform involves loading an HTML document and saving it in PDF format. It can be different scenarios but it can be made with a few required steps:
 
 1. Load an HTML document into a Document object using one of [HTMLDocument()](https://apireference.aspose.com/html/net/aspose.html/htmldocument) constructors. You can load HTML from a file, HTML code, stream, or URL (see the [Creating an HTML Document](/html/net/working-with-documents/creating-a-document/) article).
-2. Initialize a [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) object.
+2. Initialize a [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) object.
 3. Invoke one of the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/converthtml/index) methods and pass the required parameters to it.
 
 {{% alert color="primary" %}}
@@ -34,7 +34,7 @@ Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/co
 
 ## **HTML to PDF by a single line of code**
 
-HTML to PDF conversion is very popular. To perform this feature,  Aspose.HTML for .NET offer the static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class  as an understandable and straightforward way to convert HTML code into a PDF file literally with a single line of code!
+HTML to PDF conversion is very popular. To perform this feature,  Aspose.HTML for .NET offer the static methods of the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class  as an understandable and straightforward way to convert HTML code into a PDF file literally with a single line of code!
 
 {{< highlight java >}}
 using System.IO;
@@ -88,7 +88,7 @@ You can download the complete examples and data files from [**GitHub**](https://
 
 
 ## **Save Options**
-Aspose.HTML allows converting HTML to PDF using default or custom save options. [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) usage enables you to customize the rendering process; you can specify the page size, margins, file permissions, Css, etc. 
+Aspose.HTML allows converting HTML to PDF using default or custom save options. [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) usage enables you to customize the rendering process; you can specify the page size, margins, file permissions, Css, etc. 
 
 | Property                                                     | Description                                                  |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
@@ -103,7 +103,7 @@ Aspose.HTML allows converting HTML to PDF using default or custom save options. 
 
 {{% alert color="primary" %}}
 
-To learn more about [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+To learn more about [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 
 {{% /alert %}}
 
@@ -111,11 +111,11 @@ To learn more about [PdfSaveOptions](https://apireference.aspose.com/net/html/as
 
 With Aspose.HTML, you can convert files programmatically with full control over a wide range of conversion parameters. To convert HTML to PDF with PdfSaveOptions specifying, you should follow a few steps: 
 
-1. Load an HTML file using one of the HTMLDocument() constructors of the  [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument) class ([drawing.html](/html/net/converting-between-formats/html-to-pdf/drawing.html)). 
-1. Create a new [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) object and specify the required properties.
-1. Use the [ConvertHTML()](https://apireference.aspose.com/net/html/aspose.html.converters.converter/converthtml/methods/7) method of the  Converter class to save HTML as a PDF file. You need to pass the HTMLDocument, PdfSaveOptions, and output file path to the ConvertHTML() method to convert HTML to PDF.
+1. Load an HTML file using one of the HTMLDocument() constructors of the  [HTMLDocument](https://apireference.aspose.com/html/net/aspose.html/htmldocument) class ([drawing.html](/html/net/converting-between-formats/html-to-pdf/drawing.html)). 
+1. Create a new [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) object and specify the required properties.
+1. Use the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/7) method of the  Converter class to save HTML as a PDF file. You need to pass the HTMLDocument, PdfSaveOptions, and output file path to the ConvertHTML() method to convert HTML to PDF.
 
-The following example shows how to use [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) and create a PDF file with custom save options:
+The following example shows how to use [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) and create a PDF file with custom save options:
 
 {{< highlight java >}}
 using System.IO;
@@ -154,14 +154,14 @@ In the above example, we use:
  - JpegQuality property that enables you to specify the quality of JPEG compression for images;  
  - BackgroundColor property that sets the color that will fill the background. The default BackgroundColor is Transparent;
  - HorizontalResolution and VerticalResolution properties that set horizontal/vertical resolution for output images in pixels per inch. By default, these properties are 300 dpi;
- - PageSetup property that specifies the [page size](https://apireference.aspose.com/net/html/aspose.html.rendering/renderingoptions/properties/pagesetup) and [margins](https://apireference.aspose.com/net/html/aspose.html.drawing/page/properties/margin).
+ - PageSetup property that specifies the [page size](https://apireference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) and [margins](https://apireference.aspose.com/html/net/aspose.html.drawing/page/properties/margin).
 
 The figure illustrates the drawing-options.pdf file.
 
 ![Text "drawing-options.pdf image"](drawing-options.png#center)
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 

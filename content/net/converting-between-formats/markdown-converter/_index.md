@@ -14,7 +14,7 @@ lastmod: 2021-09-03
 
 The main highlight of Aspose.HTML is a conversion feature. The [Aspose.Html.Converters](https://apireference.aspose.com/html/net/aspose.html.converters) namespace implements easy access to conversion methods. It provides a wide range of conversions to popular formats, such as Markdown to HTML, Markdown to DOCX, or Markdown to PDF. 
 
-This section provides information on the list of supported Markdown conversion scenarios and how to perform them using a [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class that groups all low-level conversion operations in a single class to make them comfy and easy to use.
+This section provides information on the list of supported Markdown conversion scenarios and how to perform them using a [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class that groups all low-level conversion operations in a single class to make them comfy and easy to use.
 
 In the **Markdown Converter** guide, you find the following articles:
 

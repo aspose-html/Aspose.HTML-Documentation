@@ -19,7 +19,7 @@ aliases:
 
 MHTML to PDF conversion is often required to take advantage of PDF format for specific tasks. PDF comes with many benefits that other files don't have. For example, many programs and apps support PDF documents; PDF files are optimized for printing, and they are ideal for creating physical copies of your documents; you can configure the security settings for  PDF files - disable printing, editing, using an electronic signature, etc.
 
-In this article, you find information on how to convert {{%MHTML%}} to {{%PDF%}} using ConvertHTML() methods of the Converter class and how to apply [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you find information on how to convert {{%MHTML%}} to {{%PDF%}} using ConvertHTML() methods of the Converter class and how to apply [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}}
 Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/mhtml-to-pdf" target="_blank">**MHTML to PDF Converter**</a> that converts MHTML to PDF file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
@@ -29,7 +29,7 @@ Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/co
 
 ## **MHTML to PDF by two lines of code**
 
-The static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an MHTML code into various formats. For example, you can convert {{%MHTML%}} to {{%PDF%}} in your C# application literally with two lines of code!
+The static methods of the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class are primarily used as the easiest way to convert an MHTML code into various formats. For example, you can convert {{%MHTML%}} to {{%PDF%}} in your C# application literally with two lines of code!
 
 {{< highlight java >}}
 using System.IO;
@@ -50,8 +50,8 @@ Using [Converter.ConvertMHTML](https://apireference.aspose.com/html/net/aspose.h
 The following C# code snippet shows how to convert MHTML to PDF using Aspose.HTML for .NET.
 
 1. Open an existing MHTML file.
-1. Create an instance of the [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) class.
-1. Use the [ConvertMHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertmhtml/methods/29) method of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class to save MHTML as a PDF file. You need to pass the MHTML file stream, PdfSaveOptions, and output file path to the ConvertMHTML() method method for MHTML to PDF conversion.
+1. Create an instance of the [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) class.
+1. Use the [ConvertMHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertmhtml/methods/29) method of the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class to save MHTML as a PDF file. You need to pass the MHTML file stream, PdfSaveOptions, and output file path to the ConvertMHTML() method method for MHTML to PDF conversion.
 
 In the example, we use the OpenRead() method of System.IO.FileStream class to open and read files from the file system at the specified path.
 
@@ -79,7 +79,7 @@ You can download the complete examples and data files from [**GitHub**](https://
 
 ## **Save Options**
 
-Aspose.HTML allows converting MHTML to PDF using default or custom save options. [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) usage enables you to customize the rendering process; you can specify the [page size](https://apireference.aspose.com/net/html/aspose.html.rendering/renderingoptions/properties/pagesetup), [margins](https://apireference.aspose.com/net/html/aspose.html.drawing/page/properties/margin), [file permissions](https://apireference.aspose.com/net/html/aspose.html.rendering.pdf.encryption/pdfencryptioninfo), [CSS media-type](https://apireference.aspose.com/net/html/aspose.html.rendering/mediatype), etc.  
+Aspose.HTML allows converting MHTML to PDF using default or custom save options. [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) usage enables you to customize the rendering process; you can specify the [page size](https://apireference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup), [margins](https://apireference.aspose.com/html/net/aspose.html.drawing/page/properties/margin), [file permissions](https://apireference.aspose.com/html/net/aspose.html.rendering.pdf.encryption/pdfencryptioninfo), [CSS media-type](https://apireference.aspose.com/html/net/aspose.html.rendering/mediatype), etc.  
 
 | Property                                                     | Description                                                  |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
@@ -93,7 +93,7 @@ Aspose.HTML allows converting MHTML to PDF using default or custom save options.
 | [Encryption](https://apireference.aspose.com/html/net/aspose.html.rendering.pdf/pdfrenderingoptions/properties/encryption) | This property gets or sets encryption details. If it is not set, then no encryption will be performed. |
 
 {{% alert color="primary" %}}
-To learn more about [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+To learn more about [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 
 {{% /alert %}}
 
@@ -104,10 +104,10 @@ To learn more about [PdfSaveOptions](https://apireference.aspose.com/net/html/as
 To convert MHTML to PDF with PdfSaveOptions specifying, you should follow a few steps: 
 
 1. Open an existing MHTML file.
-1. Create a new [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) object and specify save options.
+1. Create a new [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) object and specify save options.
 1. Use the [ConvertMHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertmhtml/methods/29) method to save MHTML as a PDF file. You need to pass the MHTML file stream, PdfSaveOptions, and output file path to the ConvertMHTML() method for MHTML to PDF conversion.
 
-The following example shows how to use [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) and create a PDF file with custom save options:
+The following example shows how to use [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) and create a PDF file with custom save options:
 
 {{< highlight java >}}
 using System.IO;
@@ -144,10 +144,10 @@ In the example, we use the OpenRead() method of System.IO.FileStream class to op
 
 In the above example, we use:
  - BackgroundColor property that specifies the color that the background will be filled in. The default BackgroundColor is Transparent;
- - PageSetup property that specifies the [page size](https://apireference.aspose.com/net/html/aspose.html.rendering/renderingoptions/properties/pagesetup) in pixels.
+ - PageSetup property that specifies the [page size](https://apireference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) in pixels.
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 

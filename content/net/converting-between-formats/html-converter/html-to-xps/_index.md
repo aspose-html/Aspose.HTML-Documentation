@@ -20,7 +20,7 @@ XPS is a document storage and viewing format developed by Microsoft.  It has a s
 
 Using [Converter.ConvertHTML](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/converthtml/index) methods is the most common way to convert HTML code into various formats.  With Aspose.HTML, you can convert HTML to XPS format programmatically with full control over a wide range of conversion parameters. 
 
-In this article, you find information on how to convert  HTML to {{%XPS%}} using ConvertHTML() methods of the Converter class, and how to apply [XpsSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you find information on how to convert  HTML to {{%XPS%}} using ConvertHTML() methods of the Converter class, and how to apply [XpsSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}}
 Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/html-to-xps" target="_blank">**HTML to XPS Converter**</a> that converts HTML to XPS with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
@@ -30,7 +30,7 @@ Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/co
 
 ## **HTML to XPS by a single line of code**
 
-The static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an HTML code into various formats. You can convert HTML to XPS in your C# application literally with a single line of code!
+The static methods of the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class are primarily used as the easiest way to convert an HTML code into various formats. You can convert HTML to XPS in your C# application literally with a single line of code!
 
 {{< highlight java >}}
 using System.IO;
@@ -44,9 +44,9 @@ using Aspose.Html.Saving;
 ## **Convert HTML to XPS**
 Converting a file to another format using the ConvertHTML() method is a sequence of operations among which document loading and saving:
 
-1. Load an HTML file using the [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument) class.
-1. Create a new [XpsSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions) object. 
-1. Use the [ConvertHTML()](https://apireference.aspose.com/net/html/aspose.html.converters.converter/converthtml/methods/9) method of the Converter class to save HTML as a XPS file. You need to pass the HTMLDocument, XpsSaveOptions, and output file path to the ConvertHTML() method to convert HTML to XPS.
+1. Load an HTML file using the [HTMLDocument](https://apireference.aspose.com/html/net/aspose.html/htmldocument) class.
+1. Create a new [XpsSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) object. 
+1. Use the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/9) method of the Converter class to save HTML as a XPS file. You need to pass the HTMLDocument, XpsSaveOptions, and output file path to the ConvertHTML() method to convert HTML to XPS.
 
 Please take a look over the following C# code snippet which shows the process of converting HTML to XPS using Aspose.HTML for .NET.
 
@@ -77,7 +77,7 @@ You can download the complete examples and data files from [**GitHub**](https://
 {{% /alert %}}
 
 ## **Save Options**
-Aspose.HTML allows converting HTML to XPS using default or custom save options. [XpsSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions) usage enables you to customize the rendering process. You can specify the page size, margins, Css, etc. 
+Aspose.HTML allows converting HTML to XPS using default or custom save options. [XpsSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) usage enables you to customize the rendering process. You can specify the page size, margins, Css, etc. 
 
 | Property                                                     | Description                                                  |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
@@ -90,7 +90,7 @@ Aspose.HTML allows converting HTML to XPS using default or custom save options. 
 
 {{% alert color="primary" %}}
 
-To learn more about [XpsSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+To learn more about [XpsSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 
 {{% /alert %}}
 
@@ -98,11 +98,11 @@ To learn more about [XpsSaveOptions](https://apireference.aspose.com/net/html/as
 
 To convert HTML to XPS with XpsSaveOptions specifying, you should follow a few steps: 
 
-1. Load an HTML file using one of the HTMLDocument() constructors of the  [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument) class. 
-1. Create a new [XpsSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions) object.
-1. Use the [ConvertHTML()](https://apireference.aspose.com/net/html/aspose.html.converters.converter/converthtml/methods/9) method of the  Converter class to save HTML as a PDF file. You need to pass the HTMLDocument, XpsSaveOptions, and output file path to the ConvertHTML() method to convert HTML to XPS.
+1. Load an HTML file using one of the HTMLDocument() constructors of the  [HTMLDocument](https://apireference.aspose.com/html/net/aspose.html/htmldocument) class. 
+1. Create a new [XpsSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) object.
+1. Use the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/9) method of the  Converter class to save HTML as a PDF file. You need to pass the HTMLDocument, XpsSaveOptions, and output file path to the ConvertHTML() method to convert HTML to XPS.
 
-The following example shows how to use [XpsSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions) and create an XPS file with custom page-size and background color:
+The following example shows how to use [XpsSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) and create an XPS file with custom page-size and background color:
 
 {{< highlight java >}}
 using System.IO;
@@ -140,12 +140,12 @@ The [XpsSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.savi
 In the above example, we use:
 
  - BackgroundColor property that sets the color that will fill the background. The default BackgroundColor is Transparent;
- - PageSetup property that specifies the [page size](https://apireference.aspose.com/net/html/aspose.html.rendering/renderingoptions/properties/pagesetup) and [margins](https://apireference.aspose.com/net/html/aspose.html.drawing/page/properties/margin).
+ - PageSetup property that specifies the [page size](https://apireference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) and [margins](https://apireference.aspose.com/html/net/aspose.html.drawing/page/properties/margin).
 
    
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/net/html/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 

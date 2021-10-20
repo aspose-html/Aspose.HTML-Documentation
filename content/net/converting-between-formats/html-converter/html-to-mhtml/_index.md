@@ -19,7 +19,7 @@ aliases:
 
 MHTML combines normal HTML with external resources like images, animations, audio, etc., into one file with the .mht file extension.  MHTML uses the MIME email protocol to combine items into a single web page archive file. With MHTML, the archival of online web pages becomes much easier and less cluttered.
 
-In this article, you will find information on how to convert  {{%HTML%}} to {{%MHTML%}} and how to use [MHTMLSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/mhtmlsaveoptions).
+In this article, you will find information on how to convert  {{%HTML%}} to {{%MHTML%}} and how to use [MHTMLSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/mhtmlsaveoptions).
 
 {{% alert color="primary" %}}
 Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/html-to-mhtml" target="_blank">**HTML to MHTML Converter**</a> that converts HTML to MHTML with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
@@ -30,7 +30,7 @@ Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/co
 
 ## **HTML to MHTML by a single line of code**
 
-The static methods of the [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an HTML code into various formats. You can convert HTML to MHTML in your C# application literally with a single line of code!
+The static methods of the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class are primarily used as the easiest way to convert an HTML code into various formats. You can convert HTML to MHTML in your C# application literally with a single line of code!
 
 {{< highlight java >}}
 using System.IO;
@@ -45,9 +45,9 @@ using Aspose.Html.Saving;
 
 Converting a file to another format using the ConvertHTML() method is a sequence of operations among which document loading and saving. The next example explains how to convert HTML to MHTML by line by line:
 
-1. Load the HTML file using [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument) class.
-1. Create an instance of the [MHTMLSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/mhtmlsaveoptions) class.
-1. Use the [ConvertHTML()](https://apireference.aspose.com/net/html/aspose.html.converters.converter/converthtml/methods/5) method of [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class to save HTML as an MHTML file. You need to pass the HTMLDocument, MHTMLSaveOptions, and output file path to the ConvertHTML() method to convert HTML to MHTML.
+1. Load the HTML file using [HTMLDocument](https://apireference.aspose.com/html/net/aspose.html/htmldocument) class.
+1. Create an instance of the [MHTMLSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/mhtmlsaveoptions) class.
+1. Use the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/5) method of [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class to save HTML as an MHTML file. You need to pass the HTMLDocument, MHTMLSaveOptions, and output file path to the ConvertHTML() method to convert HTML to MHTML.
 
 {{< highlight java >}}
 using System.IO;
@@ -78,17 +78,17 @@ You can download the complete examples and data files from [**GitHub**](https://
 
 ## **Save Options**
 
-Aspose.HTML allows converting HTML to MHTML using default or custom save options. [MHTMLSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/mhtmlsaveoptions) usage enables you to customize the rendering process; you can specify the [PageUrlRestriction](https://apireference.aspose.com/html/net/aspose.html.saving/resourcehandlingoptions/properties/pageurlrestriction), [ResourceUrlRestriction](https://apireference.aspose.com/html/net/aspose.html.saving/resourcehandlingoptions/properties/resourceurlrestriction), [MaxHandlingDepth](https://apireference.aspose.com/net/html/aspose.html.saving/resourcehandlingoptions/properties/maxhandlingdepth), etc. 
+Aspose.HTML allows converting HTML to MHTML using default or custom save options. [MHTMLSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/mhtmlsaveoptions) usage enables you to customize the rendering process; you can specify the [PageUrlRestriction](https://apireference.aspose.com/html/net/aspose.html.saving/resourcehandlingoptions/properties/pageurlrestriction), [ResourceUrlRestriction](https://apireference.aspose.com/html/net/aspose.html.saving/resourcehandlingoptions/properties/resourceurlrestriction), [MaxHandlingDepth](https://apireference.aspose.com/html/net/aspose.html.saving/resourcehandlingoptions/properties/maxhandlingdepth), etc. 
 
 | Property                                                     | Description                                                  |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
 | [PageUrlRestriction](https://apireference.aspose.com/html/net/aspose.html.saving/resourcehandlingoptions/properties/pageurlrestriction) | This property gets or sets restrictions applied to URLs of handled pages. The default value is [RootAndSubFolders](https://apireference.aspose.com/html/net/aspose.html.saving/urlrestriction). |
 | [ResourceUrlRestriction](https://apireference.aspose.com/html/net/aspose.html.saving/resourcehandlingoptions/properties/resourceurlrestriction) | Gets or sets restrictions applied to URLs of handled resources such as CSS, js, images, etc. The default is [SameHost](https://apireference.aspose.com/html/net/aspose.html.saving/urlrestriction). |
-| [MaxHandlingDepth](https://apireference.aspose.com/net/html/aspose.html.saving/resourcehandlingoptions/properties/maxhandlingdepth) | Gets or sets the maximum depth of pages that will be handled. |
+| [MaxHandlingDepth](https://apireference.aspose.com/html/net/aspose.html.saving/resourcehandlingoptions/properties/maxhandlingdepth) | Gets or sets the maximum depth of pages that will be handled. |
 
 {{% alert color="primary" %}} 
 
-To learn more about [MHTMLSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/mhtmlsaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+To learn more about [MHTMLSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/mhtmlsaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 
 {{% /alert %}}
 
@@ -97,10 +97,10 @@ To learn more about [MHTMLSaveOptions](https://apireference.aspose.com/net/html/
 To convert HTML to MHTML with MHTMLSaveOptions specifying, you should follow a few steps: 
 
 1. Load or prepare an HTML file. 
-1. Create a new [MHTMLSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/xpssaveoptions) object.
-1. Use the [ConvertHTML()](https://apireference.aspose.com/net/html/aspose.html.converters.converter/converthtml/methods/5) method of the  Converter class to save HTML as a MHTML file. You need to pass the HTMLDocument, MHTMLSaveOptions, and output file path to the ConvertHTML() method to convert HTML to MHTML.
+1. Create a new [MHTMLSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) object.
+1. Use the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/5) method of the  Converter class to save HTML as a MHTML file. You need to pass the HTMLDocument, MHTMLSaveOptions, and output file path to the ConvertHTML() method to convert HTML to MHTML.
 
-The following example shows how to use [MHTMLSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/mhtmlsaveoptions) and create an MHTML file with custom save options:
+The following example shows how to use [MHTMLSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/mhtmlsaveoptions) and create an MHTML file with custom save options:
 
 {{< highlight java >}}
 using System.IO;

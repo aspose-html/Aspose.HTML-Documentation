@@ -14,11 +14,11 @@ aliases: /net/converting-between-formats/
 lastmod: 2021-09-03
 ---
 
-Welcome to the "Converting between Formats" guides. The articles in this section provide information on the list of supported conversion scenarios and how to perform them using a [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class that groups all low-level conversion operation in a single class to make it comfy and easy to use.
+Welcome to the "Converting between Formats" guides. The articles in this section provide information on the list of supported conversion scenarios and how to perform them using a [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class that groups all low-level conversion operation in a single class to make it comfy and easy to use.
 
 The main highlight of Aspose.HTML is the conversion feature. Converting between formats is required for various reasons: to work in a familiar, convenient format or to take advantage of different formats for specific tasks. In this chapter, you find the following sections: 
 
- - [HTML Converter](/html/net/converting-between-formats/html-converter/) - You learn how to convert an [HTML document](https://apireference.aspose.com/net/html/aspose.html/htmldocument) to different formats, including {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, {{%GIF%}}, {{%MD%}}, and {{%MHTML %}}.
+ - [HTML Converter](/html/net/converting-between-formats/html-converter/) - You learn how to convert an [HTML document](https://apireference.aspose.com/html/net/aspose.html/htmldocument) to different formats, including {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, {{%GIF%}}, {{%MD%}}, and {{%MHTML %}}.
 
  - [SVG Converter](/html/net/converting-between-formats/svg-converter/)  - You find information on how to convert {{%SVG %}} to {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, and {{%GIF%}} formats.
 

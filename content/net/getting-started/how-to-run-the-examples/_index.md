@@ -13,7 +13,7 @@ Please make sure you meet the following requirements before downloading and runn
 1. Visual Studio 2010 or higher.
 1. Make sure that **NuGet Package Manager** is installed in Visual Studio. For details on how to install **NuGet Package Manager** please check <http://docs.nuget.org/ndocs/guides/install-nuget>.
 1. Go to **Tools**->**Options**->**NuGet Package Manager**->**Package Sources** and make sure that the option **nuget.org** is checked.
-1. Example project uses NuGet Automatic Package Restore feature therefore you should have an active internet connection. If you do not have an active internet connection on the machine where examples are to be executed please check [Installation](/html/net/installation/) and manually add the reference to Aspose.HTML.dll in the example project.
+1. Example project uses NuGet Automatic Package Restore feature therefore you should have an active internet connection. If you do not have an active internet connection on the machine where examples are to be executed please check [Installation](/html/net/getting-started/installation/) and manually add the reference to Aspose.HTML.dll in the example project.
 ## **Download from GitHub**
 All examples of Aspose.HTML for .NET are hosted on [GitHub](https://github.com/aspose-html/Aspose.HTML-for-.NET).
 
@@ -26,7 +26,7 @@ All examples of Aspose.HTML for .NET are hosted on [GitHub](https://github.com/a
 - Open RunExamples.cs file, all the examples are called from here.
 - Uncomment the examples you want to run from within the project.
 
-Please feel free to reach out using our [Forums](https://forum.aspose.com/c/html) if you have any issues setting up or running the examples.
+Please feel free to reach out using our [Forums](https://forum.aspose.com/c/html/29) if you have any issues setting up or running the examples.
 ## **Contribute**
 If you like to add or improve an example, we encourage you to contribute to the project. All examples and showcase projects in this repository are open source and can be freely used in your own applications.
 

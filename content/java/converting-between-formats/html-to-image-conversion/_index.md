@@ -11,7 +11,7 @@ In this article, you will find information on how to convert an HTML to Image Fi
 
 {{% alert color="primary" %}} 
 
-<https://products.aspose.app/html/conversion/> 
+<https://products.aspose.app/html/en/conversion/> 
 
 {{% /alert %}} 
 
@@ -19,7 +19,7 @@ The static methods of the [Converter](https://apireference.aspose.com/html/java/
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertHTMLToImage_WithASingleLine.java" >}}
 ## **Convert HTML to JPG** ## 
-You can check the quality of HTML to JPG conversion at this link: <https://products.aspose.app/html/conversion/html-to-jpg>
+You can check the quality of HTML to JPG conversion at this link: <https://products.aspose.app/html/en/conversion/html-to-jpg>
 
 The following Java code snippet shows how to convert HTML to JPG using Aspose.HTML for Java.
 
@@ -33,7 +33,7 @@ The following Java code snippet shows how to convert HTML to JPG using Aspose.HT
 
 {{% alert color="primary" %}} 
 
-You can check the quality of HTML to PNG conversion at this link: <https://products.aspose.app/html/conversion/html-to-png>
+You can check the quality of HTML to PNG conversion at this link: <https://products.aspose.app/html/en/conversion/html-to-png>
 
 {{% /alert %}} 
 
@@ -45,7 +45,7 @@ The following Java code snippet shows how to convert HTML to PNG using Aspose.HT
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertHTMLToImage_ConvertHTMLToPNG.java" >}}
 ## **Convert HTML to BMP** ## 
-You can check the quality of HTML to BMP conversion at this link: <https://products.aspose.app/html/conversion/html-to-bmp>
+You can check the quality of HTML to BMP conversion at this link: <https://products.aspose.app/html/en/conversion/html-to-bmp>
 
 The following Java code snippet shows how to convert HTML to BMP using Aspose.HTML for Java.
 
@@ -57,7 +57,7 @@ The following Java code snippet shows how to convert HTML to BMP using Aspose.HT
 ## **Convert HTML to GIF** ## 
 {{% alert color="primary" %}} 
 
-You can check the quality of HTML to GIF conversion at this link: <https://products.aspose.app/html/conversion/html-to-gif>
+You can check the quality of HTML to GIF conversion at this link: <https://products.aspose.app/html/en/conversion/html-to-gif>
 
 {{% /alert %}} 
 
@@ -69,7 +69,7 @@ The following Java code snippet shows how to convert HTML to GIF using Aspose.HT
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertHTMLToImage_ConvertHTMLToGIF.java" >}}
 ## **Convert HTML to TIFF** ## 
-You can check the quality of HTML to TIFF conversion at this link: <https://products.aspose.app/html/conversion/html-to-tiff>
+You can check the quality of HTML to TIFF conversion at this link: <https://products.aspose.app/html/en/conversion/html-to-tiff>
 
 The following Java code snippet shows how to convert HTML to TIFF using Aspose.HTML for Java.
 

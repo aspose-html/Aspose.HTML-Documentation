@@ -23,7 +23,7 @@ Any conversion you want to perform involves loading an HTML document and saving 
 2. Invoke one of the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/converthtml/index) methods and pass the required parameters to it.
 {{% /alert %}} 
 
-This section provides information on the list of supported HTML conversion scenarios and how to perform them using a [Converter](https://apireference.aspose.com/net/html/aspose.html.converters/converter) class that groups all low-level conversion operations in a single class to make them comfy and easy to use. In the **HTML Converter** guide, you find the following articles: 
+This section provides information on the list of supported HTML conversion scenarios and how to perform them using a [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class that groups all low-level conversion operations in a single class to make them comfy and easy to use. In the **HTML Converter** guide, you find the following articles: 
 
 [Convert HTML to PDF](/html/net/converting-between-formats/html-to-pdf/) - In this guide, you find information on how to convert HTML to ({{%PDF%}}) and consider code snippets that illustrate the applying of save options and ICreateStreamProvider parameters.
 

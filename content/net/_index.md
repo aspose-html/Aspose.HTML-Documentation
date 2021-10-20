@@ -25,12 +25,12 @@ Aspose.HTML documentation is grouped into different sections that will help you 
 Following are the links to some useful resources you may need to accomplish your tasks.
 
 - [Getting Started](/html/net/getting-started/)
-- [Supported Features](/html/net/features-list/)
-- [Product Page](https://products.aspose.com/html/net)
+- [Supported Features](/html/net/getting-started/features-list/)
+- [Product Page](https://products.aspose.com/html/net/)
 - [NuGet Package](https://www.nuget.org/packages/Aspose.Html/)
-- [Installing Product](/html/net/installation/)
+- [Installing Product](/html/net/getting-started/installation/)
 - [API Reference](https://apireference.aspose.com/html/net)
-- [Free Support Forum](https://forum.aspose.com/c/html)
+- [Free Support Forum](https://forum.aspose.com/c/html/29)
 - [Paid Support Helpdesk](https://helpdesk.aspose.com/)
 - [Usage Examples GitHub](https://github.com/aspose-html/Aspose.HTML-for-.NET)
 - [Try Online](https://products.aspose.app/html/family)

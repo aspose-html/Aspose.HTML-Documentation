@@ -11,11 +11,11 @@ aliases: /java/html-to-markdown-conversion/
 
 {{% alert color="primary" %}} 
 
-<https://products.aspose.app/html/conversion/md>
+<https://products.aspose.app/html/en/conversion/md>
 
 {{% /alert %}} 
 ## **Save Options** ## 
-The [MarkdownSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/markdownsaveoptions) has a number of properties that give you control over the conversion process. The most important option is [MarkdownSaveOptions.Features](https://apireference.aspose.com/java/html/aspose.html.saving/markdownsaveoptions/properties/features). This option allows you to enable/disable the conversion of the particular element.
+The [MarkdownSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/markdownsaveoptions) has a number of properties that give you control over the conversion process. The most important option is [MarkdownSaveOptions.Features](https://apireference.aspose.com/html/java/com.aspose.html.saving/markdownsaveoptions/properties/features). This option allows you to enable/disable the conversion of the particular element.
 
 The following example shows how to process the only links, images, and paragraphs, other HTML elements remain as is.
 
@@ -37,7 +37,7 @@ The original Markdown specification supports these tags: BLOCKQUOTE,H1, H2, H3, 
 
 The GitLab Flavored Markdown extends this list with the next tags: ARTICLE, FOOTER, NAV, ASIDE, HEADER, ADDRESS, HR, DD, FIGURE, FIGCAPTION, ABBR, VIDEO, AUDIO, OUTPUT, CANVAS, SECTION, DETAILS, HGROUP, SUMMARY.
 ### **Features nesting** ### 
-Markdown supports a lot of features, but not all of them can be used together. As an example list elements inside of table elements would not be converted. The following table shows what features can be nested. Each feature is a member of the [MarkdownFeatures](https://apireference.aspose.com/java/html/aspose.html.saving/markdownfeatures) enumeration.
+Markdown supports a lot of features, but not all of them can be used together. As an example list elements inside of table elements would not be converted. The following table shows what features can be nested. Each feature is a member of the [MarkdownFeatures](https://apireference.aspose.com/html/java/com.aspose.html.saving/markdownfeatures) enumeration.
 
 |**Parent feature** |**Features which can be processed inside**|
 | :-: | :-: |

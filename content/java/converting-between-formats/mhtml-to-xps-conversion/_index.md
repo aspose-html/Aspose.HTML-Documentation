@@ -5,27 +5,27 @@ weight: 140
 aliases: /java/mhtml-to-xps-conversion/
 ---
 
-In this article, you will find information on how to convert an {{%MHTML%}} to {{%XPS%}} and how to use [XpsSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/xpssaveoptions) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.
+In this article, you will find information on how to convert an {{%MHTML%}} to {{%XPS%}} and how to use [XpsSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.
 
 {{% alert color="primary" %}} 
 
-<https://products.aspose.app/html/conversion/mhtml-to-xps>
+<https://products.aspose.app/html/en/conversion/mhtml-to-xps>
 
 {{% /alert %}} 
 
-The static methods of the [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class are primarily used as the easiest way to convert an {{%MHTML%}} code into various formats. You can convert {{%MHTML%}} to {{%XPS%}} in your Java application literally with a single line of code!
+The static methods of the [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class are primarily used as the easiest way to convert an {{%MHTML%}} code into various formats. You can convert {{%MHTML%}} to {{%XPS%}} in your Java application literally with a single line of code!
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertMHTMLToXPS_WithASingleLine.java" >}}
 
 The following Java code snippet shows how to convert MHTML to {{%XPS%}} using Aspose.HTML for Java.
 
 1. Open an existing MHTML file;
-1. Create an instance of [XpsSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/xpssaveoptions);
-1. Use the [Converter.ConvertMHTML](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertmhtml/methods/9) method of [Converter](https://apireference.aspose.com/java/html/aspose.html.converters/converter) class to save MHTML as a {{%XPS%}} file. You need to pass the MHTML file stream, [XpsSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/xpssaveoptions), and output file path to the [Converter.ConvertMHTML](https://apireference.aspose.com/java/html/aspose.html.converters.converter/convertmhtml/methods/9) method to convert MHTML to {{%XPS%}} .
+1. Create an instance of [XpsSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions);
+1. Use the [Converter.ConvertMHTML](https://apireference.aspose.com/html/java/com.aspose.html.converters.converter/convertmhtml/methods/9) method of [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class to save MHTML as a {{%XPS%}} file. You need to pass the MHTML file stream, [XpsSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions), and output file path to the [Converter.ConvertMHTML](https://apireference.aspose.com/html/java/com.aspose.html.converters.converter/convertmhtml/methods/9) method to convert MHTML to {{%XPS%}} .
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertMHTMLToXPS_ConvertMHTMLFileToXPS.java" >}}
 ## **Save Options** ## 
-[XpsSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/xpssaveoptions) allows you to customize the rendering process. You can specify the [page size](https://apireference.aspose.com/html/java/com.aspose.html.rendering/RenderingOptions#getPageSetup--), [margins](https://apireference.aspose.com/html/java/com.aspose.html.drawing/Page#getMargin--), [CSS media-type](https://apireference.aspose.com/html/java/com.aspose.html.rendering/MediaType), etc. The following example shows how to use [XpsSaveOptions](https://apireference.aspose.com/java/html/aspose.html.saving/xpssaveoptions) *and* create an {{%XPS%}} file with custom page-size and background color:
+[XpsSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions) allows you to customize the rendering process. You can specify the [page size](https://apireference.aspose.com/html/java/com.aspose.html.rendering/RenderingOptions#getPageSetup--), [margins](https://apireference.aspose.com/html/java/com.aspose.html.drawing/Page#getMargin--), [CSS media-type](https://apireference.aspose.com/html/java/com.aspose.html.rendering/MediaType), etc. The following example shows how to use [XpsSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions) *and* create an {{%XPS%}} file with custom page-size and background color:
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertMHTMLToPDF_SpecifyPdfSaveOptions.java" >}}
 
