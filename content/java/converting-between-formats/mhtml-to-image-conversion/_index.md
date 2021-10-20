@@ -9,7 +9,7 @@ In this article, you will find information on how to convert an {{%MHTML%}} to I
 
 {{% alert color="primary" %}} 
 
-<https://products.aspose.app/html/conversion/mhtml>
+<https://products.aspose.app/html/en/conversion/mhtml>
 
 {{% /alert %}} 
 
@@ -17,7 +17,7 @@ The static methods of the [Converter](https://apireference.aspose.com/html/java/
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertMHTMLToImage_WithASingleLine.java" >}}
 ## **Convert MHTML to JPG** ## 
-You can check the quality of MHTML to JPG conversion at this link: <https://products.aspose.app/html/conversion/mhtml-to-jpg>
+You can check the quality of MHTML to JPG conversion at this link: <https://products.aspose.app/html/en/conversion/mhtml-to-jpg>
 
 The following Java code snippet shows how to convert MHTML to JPG using Aspose.HTML for Java.
 
@@ -29,7 +29,7 @@ The following Java code snippet shows how to convert MHTML to JPG using Aspose.H
 ## **Convert MHTML to PNG** ## 
 {{% alert color="primary" %}} 
 
-You can check the quality of MHTML to PNG conversion at this link: <https://products.aspose.app/html/conversion/mhtml-to-png>
+You can check the quality of MHTML to PNG conversion at this link: <https://products.aspose.app/html/en/conversion/mhtml-to-png>
 
 {{% /alert %}} 
 
@@ -41,7 +41,7 @@ The following Java code snippet shows how to convert MHTML to PNG using Aspose.H
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertMHTMLToImage_ConvertMHTMLToPNG.java" >}}
 ## **Convert MHTML to BMP** ## 
-You can check the quality of MHTML to BMP conversion at this link: <https://products.aspose.app/html/conversion/mhtml-to-bmp>
+You can check the quality of MHTML to BMP conversion at this link: <https://products.aspose.app/html/en/conversion/mhtml-to-bmp>
 
 The following Java code snippet shows how to convert MHTML to BMP using Aspose.HTML for Java.
 
@@ -53,7 +53,7 @@ The following Java code snippet shows how to convert MHTML to BMP using Aspose.H
 ## **Convert MHTML to GIF** ## 
 {{% alert color="primary" %}} 
 
-You can check the quality of MHTML to GIF conversion at this link: <https://products.aspose.app/html/conversion/mhtml-to-gif>
+You can check the quality of MHTML to GIF conversion at this link: <https://products.aspose.app/html/en/conversion/mhtml-to-gif>
 
 {{% /alert %}} 
 
@@ -65,7 +65,7 @@ The following Java code snippet shows how to convert MHTML to GIF using Aspose.H
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertMHTMLToImage_ConvertMHTMLToGIF.java" >}}
 ## **Convert MHTML to TIFF** ## 
-You can check the quality of MHTML to TIFF conversion at this link: <https://products.aspose.app/html/conversion/mhtml-to-tiff>
+You can check the quality of MHTML to TIFF conversion at this link: <https://products.aspose.app/html/en/conversion/mhtml-to-tiff>
 
 The following Java code snippet shows how to convert MHTML to TIFF using Aspose.HTML for Java.
 

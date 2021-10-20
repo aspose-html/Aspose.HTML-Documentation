@@ -9,7 +9,7 @@ In this article, you will find information about how to convert an {{%MHTML%}} t
 
 {{% alert color="primary" %}} 
 
-<https://products.aspose.app/html/conversion/mhtml-to-pdf>
+<https://products.aspose.app/html/en/conversion/mhtml-to-pdf>
 
 {{% /alert %}} 
 

@@ -8,7 +8,7 @@ In this article, you will find information on how to convert an {{%EPUB%}} to {{
 
 {{% alert color="primary" %}} 
 
-<https://products.aspose.app/html/conversion/epub-to-xps>
+<https://products.aspose.app/html/en/conversion/epub-to-xps>
 
 {{% /alert %}} 
 

@@ -9,7 +9,7 @@ In this article, you will find information on how to convert an SVG to Image Fil
 
 {{% alert color="primary" %}} 
 
-<https://products.aspose.app/html/conversion/svg> 
+<https://products.aspose.app/html/en/conversion/svg> 
 
 {{% /alert %}} 
 
@@ -17,7 +17,7 @@ The static methods of the [Converter](https://apireference.aspose.com/html/java/
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertSVGToImage_WithASingleLine.java" >}}
 ## **Convert SVG to JPG** ## 
-You can check the quality of SVG to JPG conversion at this link: <https://products.aspose.app/html/conversion/svg-to-jpg>
+You can check the quality of SVG to JPG conversion at this link: <https://products.aspose.app/html/en/conversion/svg-to-jpg>
 
 The following Java code snippet shows how to convert SVG to JPG using Aspose.HTML for Java.
 
@@ -29,7 +29,7 @@ The following Java code snippet shows how to convert SVG to JPG using Aspose.HTM
 ## **Convert SVG to PNG** ## 
 {{% alert color="primary" %}} 
 
-You can check the quality of SVG to PNG conversion at this link: <https://products.aspose.app/html/conversion/svg-to-png>
+You can check the quality of SVG to PNG conversion at this link: <https://products.aspose.app/html/en/conversion/svg-to-png>
 
 {{% /alert %}} 
 
@@ -41,7 +41,7 @@ The following Java code snippet shows how to convert SVG to PNG using Aspose.HTM
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertSVGToImage_ConvertSVGToPNG.java" >}}
 ## **Convert SVG to BMP** ## 
-You can check the quality of SVG to BMP conversion at this link: <https://products.aspose.app/html/conversion/svg-to-bmp>
+You can check the quality of SVG to BMP conversion at this link: <https://products.aspose.app/html/en/conversion/svg-to-bmp>
 
 The following Java code snippet shows how to convert SVG to BMP using Aspose.HTML for Java.
 
@@ -55,7 +55,7 @@ The following Java code snippet shows how to convert SVG to BMP using Aspose.HTM
 
 {{% alert color="primary" %}} 
 
-You can check the quality of SVG to GIF conversion at this link: <https://products.aspose.app/html/conversion/svg-to-gif>
+You can check the quality of SVG to GIF conversion at this link: <https://products.aspose.app/html/en/conversion/svg-to-gif>
 
 {{% /alert %}} 
 
@@ -67,7 +67,7 @@ The following Java code snippet shows how to convert SVG to GIF using Aspose.HTM
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertSVGToImage_ConvertSVGToGIF.java" >}}
 ## **Convert SVG to TIFF** ## 
-You can check the quality of SVG to TIFF conversion at this link: <https://products.aspose.app/html/conversion/svg-to-tiff>
+You can check the quality of SVG to TIFF conversion at this link: <https://products.aspose.app/html/en/conversion/svg-to-tiff>
 
 The following Java code snippet shows how to convert SVG to TIFF using Aspose.HTML for Java.
 

@@ -9,7 +9,7 @@ In this article, you will find information about how to convert an {{%SVG%}} to 
 
 {{% alert color="primary" %}} 
 
-<https://products.aspose.app/html/conversion/svg-to-pdf>
+<https://products.aspose.app/html/en/conversion/svg-to-pdf>
 
 {{% /alert %}} 
 

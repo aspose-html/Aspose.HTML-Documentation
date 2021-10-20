@@ -9,7 +9,7 @@ In this article, you will find information about how to convert an {{%EPUB%}} to
 
 {{% alert color="primary" %}} 
 
-<https://products.aspose.app/html/conversion/epub-to-pdf>
+<https://products.aspose.app/html/en/conversion/epub-to-pdf>
 
 {{% /alert %}} 
 
