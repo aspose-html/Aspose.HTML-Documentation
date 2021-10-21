@@ -6,7 +6,9 @@ weight: 40
 url: /net/message-handlers/zip-to-pdf-time-logging/
 description: In this article, you find an example of custom message handlers to convert ZIP to PDF and log the execution time of this conversion using Aspose.HTML for .NET.  
 keywords: zip to pdf, convert zip to pdf, message handler, custom message handler, web request, time logging, ZIP archive
-lastmod: 2021-09-29
+lastmod: 2021-10-21
+changefreq: weekly
+priority: 0.7
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />

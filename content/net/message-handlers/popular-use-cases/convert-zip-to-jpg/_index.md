@@ -6,7 +6,9 @@ weight: 20
 url: /net/message-handlers/convert-zip-to-jpg/
 description: In the article, the example of a message handler creating for working with zip archives is considered. The implementation of converting zip to jpg is shown.
 keywords: message handler, zip to jpg, convert zip to jpg
-lastmod: 2021-09-29
+lastmod: 2021-10-21
+changefreq: weekly
+priority: 0.7
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />

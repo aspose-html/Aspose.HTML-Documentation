@@ -5,7 +5,9 @@ type: docs
 weight: 10
 description: The article provides general information on creating custom message handlers using Aspose.HTML for .NET.   
 keywords: message handler, custom message handler, web request
-lastmod: 2021-09-29
+lastmod: 2021-10-21
+changefreq: weekly
+priority: 0.7
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 

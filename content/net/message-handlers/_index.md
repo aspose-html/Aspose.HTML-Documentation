@@ -5,7 +5,9 @@ type: docs
 weight: 50
 description: The section provides general information on creating custom message handlers using Aspose.HTML for .NET. and examples of their implementation for various user tasks.  
 keywords: message handler, web request, time logging, web request
-lastmod: 2021-09-29
+lastmod: 2021-10-21
+changefreq: weekly
+priority: 0.7
 ---
 <link href="./../style.css" rel="stylesheet" type="text/css" />
 

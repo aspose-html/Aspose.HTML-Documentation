@@ -6,7 +6,9 @@ weight: 30
 url: /net/message-handlers/web-request-execution-time/
 description: The article provides information on creating a custom message handler for a web request time logging using Aspose.HTML for .NET.   
 keywords: message handler, custom message handler, web request, time logging
-lastmod: 2021-09-29
+lastmod: 2021-10-21
+changefreq: weekly
+priority: 0.7
 ---
 
 {{% alert color="primary" %}} 
