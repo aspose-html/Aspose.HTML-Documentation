@@ -48,9 +48,9 @@ using Aspose.Html.Saving;
 ## **Convert HTML to PDF**
 Converting a file to another format using the ConvertHTML() method is a sequence of operations among which document loading and saving:
 
-1. Load an HTML file using one of HTMLDocument() constructors of the [HTMLDocument](https://apireference.aspose.com/net/html/aspose.html/htmldocument) class. In the example we use [HTMLDocument(string)](https://apireference.aspose.com/html/net/aspose.html/htmldocument/constructors/10) constructor that initializes an HTML document from a file. 
-1. Create a new [PdfSaveOptions](https://apireference.aspose.com/net/html/aspose.html.saving/pdfsaveoptions) object. 
-1. Use the [ConvertHTML()](https://apireference.aspose.com/net/html/aspose.html.converters.converter/converthtml/methods/7) method of the Converter class to save HTML as a PDF file. You need to pass the HTMLDocument, PdfSaveOptions, and output file path to the ConvertHTML() method to convert HTML to PDF.
+1. Load an HTML file using one of HTMLDocument() constructors of the [HTMLDocument](https://apireference.aspose.com/html/net/aspose.html/htmldocument) class. In the example we use [HTMLDocument(string)](https://apireference.aspose.com/html/net/aspose.html/htmldocument/constructors/10) constructor that initializes an HTML document from a file. 
+1. Create a new [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) object. 
+1. Use the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/7) method of the Converter class to save HTML as a PDF file. You need to pass the HTMLDocument, PdfSaveOptions, and output file path to the ConvertHTML() method to convert HTML to PDF.
 
 Please take a look over the following C# code snippet that shows the HTML to PDF conversion process for the [spring.html](/html/net/converting-between-formats/html-to-pdf/spring.html) file.
 

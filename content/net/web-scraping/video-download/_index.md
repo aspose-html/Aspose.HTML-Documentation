@@ -21,7 +21,7 @@ You can download video to your device from popular video hubs in any format with
 ## **Data Scraping Namespaces**
 Data Scraping is a way to get data from websites. Aspose.HTML API provides [DataScraping.MultimediaScraping Namespace](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping) that implements various multimedia scraping classes:
 
-|[Class](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/videoformatinfocollection)|**Description**|
+|**Class** |**Description**|
 | :- | :- |
 |[Multimedia](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimedia)|This class provides functionality to collect and download [VideoInfo](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/videoinfo) (information about video & audio) from the associated page.|
 |[MultimediaFactory](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediafactory)|This class represents an abstract factory which is used for Multimedia objects creation.|

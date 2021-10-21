@@ -5,7 +5,7 @@ weight: 30
 aliases: /net/editing-a-document/
 description: Document Object Model, DOM Tree, Edit HTML, Edit a Document Tree, Using InnerHTML & OuterHTML properties, Edit CSS, Inline CSS, Internal CSS, External CSS
 ---
-<link href="./../style.css" rel="stylesheet" type="text/css" />
+<link href="./../../style.css" rel="stylesheet" type="text/css" />
 
 As we already mentioned [here](https://docs.aspose.com/html/net/creating-a-document/) the implementation of the [**HTMLDocument**](https://apireference.aspose.com/html/net/aspose.html/htmldocument) as well as the whole DOM are based on [WHATWG DOM](https://dom.spec.whatwg.org/) standard. So, it is easy to use Aspose.HTML having a basic knowledge of {{%HTML%}} and {{%JavaScript%}} languages.
 {{% alert color="primary" %}} 

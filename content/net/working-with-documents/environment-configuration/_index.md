@@ -5,7 +5,7 @@ weight: 10
 aliases: /net/environment-configuration/
 description: Sandboxing, Sandbox.Scripts, User Agent Service, User Style Sheet, Runtime Service, Character Set, FontsSettings property, Network Service, Message Handlers
 ---
-<link href="./../style.css" rel="stylesheet" type="text/css" />
+<link href="./../../style.css" rel="stylesheet" type="text/css" />
 
 It is often helpful to have different configurations based on the environment where the application is running. For example, you may wish to configure the scripts policy, override document style applying a custom user stylesheet, or handle any web requests from the application. Aspose.HTML provides the [**Configuration**](https://apireference.aspose.com/html/net/aspose.html/configuration) class that can be used exactly for these purposes.
 
