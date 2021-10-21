@@ -42,7 +42,7 @@ The example of fulfilling the second goal can be seen in Converter API. On the o
 
 {{< /highlight >}}
 
-but on the other hand, you can [fine-tune the conversion process](/html/net/fine-tuning-converters/), if you want to.
+but on the other hand, you can [fine-tune the conversion process](/html/net/converting-between-formats/fine-tuning-converters/), if you want to.
 ## **Technical Support**
 Aspose provides unlimited free technical support for all its products. The support is available to all users, including evaluation. If you need help with Aspose.HTML, consider the following:
 

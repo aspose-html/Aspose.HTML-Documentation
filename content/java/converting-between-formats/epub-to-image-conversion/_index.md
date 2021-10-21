@@ -90,7 +90,7 @@ The following Java code snippet shows how to convert EPUB to TIFF using Aspose.H
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertEPUBToImage_SpecifyImageSaveOptions.java" >}}
 
-To learn more about [ImageOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/imagesaveoptions) please read [Fine-Tuning Converters](/html/java/fine-tuning-converters/) article.
+To learn more about [ImageOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/imagesaveoptions) please read [Fine-Tuning Converters](/html/java/converting-between-formats/fine-tuning-converters/) article.
 
 ## **Output Stream Providers**
 

@@ -83,7 +83,7 @@ The following Java code snippet shows how to convert HTML to TIFF using Aspose.H
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertHTMLToImage_SpecifyImageSaveOptions.java" >}}
 
-To learn more about [ImageOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/package-frame) please read [Fine-Tuning Converters](/html/java/fine-tuning-converters/) article.
+To learn more about [ImageOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/package-frame) please read [Fine-Tuning Converters](/html/java/converting-between-formats/fine-tuning-converters/) article.
 ## **Output Stream Providers** ## 
 If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
 

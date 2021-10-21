@@ -30,7 +30,7 @@ The following Java code snippet shows how to convert EPUB to {{%XPS%}} using Asp
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertEPUBToXPS_SpecifyXpsSaveOptions.java" >}}
 
-To learn more about [XpsSaveOptions](https://apireference.aspose.com/html/java/aspose.html.saving/xpssaveoptions) please read [Fine-Tuning Converters](/html/java/fine-tuning-converters/) article.
+To learn more about [XpsSaveOptions](https://apireference.aspose.com/html/java/aspose.html.saving/xpssaveoptions) please read [Fine-Tuning Converters](/html/java/converting-between-formats/fine-tuning-converters/) article.
 
 ## **Output Stream Providers**
 

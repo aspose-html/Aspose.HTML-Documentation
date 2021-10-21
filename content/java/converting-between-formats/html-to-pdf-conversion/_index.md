@@ -31,7 +31,7 @@ The next example explains how to convert HTML to PDF by line by line:
 
 Please note that you cannot set values against the **Application** and **Producer** fields, because Aspose Ltd. and Aspose.HTML for Java x.x.x will be displayed against these fields.
 
-To learn more about [PdfSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions) please read [Fine-Tuning Converters](/html/java/fine-tuning-converters/) article.
+To learn more about [PdfSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions) please read [Fine-Tuning Converters](/html/java/converting-between-formats/fine-tuning-converters/) article.
 ## **Output Stream Providers** ## 
 If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
 

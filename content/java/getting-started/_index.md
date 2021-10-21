@@ -47,7 +47,7 @@ com.aspose.html.converters.Converter.convertHTML(
 
 {{< /highlight >}}
 
-but on the other hand, you can [fine-tune the conversion process](/html/java/fine-tuning-converters/), if you want to.
+but on the other hand, you can [fine-tune the conversion process](/html/java/converting-between-formats/fine-tuning-converters/), if you want to.
 ## **Technical Support**
 Aspose provides unlimited free technical support for all its products. The support is available to all users, including evaluation. If you need help with Aspose.HTML, consider the following:
 

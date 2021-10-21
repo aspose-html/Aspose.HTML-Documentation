@@ -20,7 +20,7 @@ John Gruber, the author of {{%Markdown%}}, designed Markdown’s formatting synt
 ## **Basic Markdown Syntax**
 This article provides information on the main Markdown elements, details and examples of the Markdown syntax. A full list of all the Markdown syntax is declared in the [core Markdown specification](https://daringfireball.net/projects/markdown/) and [GitLab Flavored Markdown](https://docs.gitlab.com/ee/user/markdown.html) variation. All these features are supported by Aspose.HTML out-of-the-box.
 ### **Headers**
-Markdown supports two styles of headers, [Setext](http://docutils.sourceforge.net/mirror/setext.html) and [atx](http://www.aaronsw.com/2002/atx/): To create an atx-style heading, add signs (#) at the start of the line. The number of signs you use should correspond to the heading level. **Note:** Always put a space between the number signs (#) and the heading name.
+Markdown supports two styles of headers, [Setext](https://docutils.sourceforge.io/mirror/setext.html) and [atx](http://www.aaronsw.com/2002/atx/): To create an atx-style heading, add signs (#) at the start of the line. The number of signs you use should correspond to the heading level. **Note:** Always put a space between the number signs (#) and the heading name.
 
 Alternatively, to create a setext-style heading, on the line below the text, add any number of `==` characters for heading level 1 or `--` characters for heading level 2.
 

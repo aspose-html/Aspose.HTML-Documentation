@@ -29,4 +29,4 @@ The next example explains how to convert HTML to PDF by line by line:
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertHTMLToMHTML_SpecifyMHTMLSaveOptions.java" >}}
 
-To learn more about [MHTMLSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/MHTMLSaveOptions) please read [Fine-Tuning Converters](/html/java/fine-tuning-converters/) article.
+To learn more about [MHTMLSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/MHTMLSaveOptions) please read [Fine-Tuning Converters](/html/java/converting-between-formats/fine-tuning-converters/) article.

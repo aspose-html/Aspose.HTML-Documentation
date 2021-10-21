@@ -57,34 +57,34 @@ Moreover, we support CSS Selectors and the native navigation mechanism that is c
 
 **Q: Is it possible to disable JavaScript for a Document?**
 
-**A:** Yes. You should use [**sandboxing flags**](/html/net/environment-configuration/) to disable potentially untrusted resources.
+**A:** Yes. You should use [**sandboxing flags**](/html/net/working-with-documents/environment-configuration/#sandboxing) to disable potentially untrusted resources.
 
 
 
 **Q: How to use the MemoryStream object to store the rendering result instead of the file system?**
 
-**A:** You can implement *Aspose.Html.IO.ICreateStreamProvider* interface to handle the output streams, as it’s described [here](/html/net/output-streams/).
+**A:** You can implement *Aspose.Html.IO.ICreateStreamProvider* interface to handle the output streams, as it’s described [here](/html/net/advanced-programming/output-streams/).
 
 
 
 **Q: How to check the list of resources that are loaded along with an HTML document?**
 
-**A:** We have a specialized [Network Service](/html/net/environment-configuration/) that gives you full control over the all request/response messages. You can use it to trace the requests, create a custom cache, substitute the content of response messages and much more.
+**A:** We have a specialized [Network Service](/html/net/working-with-documents/environment-configuration/#network-service) that gives you full control over the all request/response messages. You can use it to trace the requests, create a custom cache, substitute the content of response messages and much more.
 
 
 
 **Q: How to override the document style?**
 
-**A:** There is a ‘[User Style Sheet](/html/net/environment-configuration/)’ property that can be useful exactly for this purpose.
+**A:** There is a ‘[User Style Sheet](/html/net/working-with-documents/environment-configuration/#user-style-sheet)’ property that can be useful exactly for this purpose.
 
 
 
 **Q: My document does not parse properly, I see black-squares instead of letters! How can I fix it?**
 
-**A:** We parse a document headers to detect the character-set (encoding) of the document. If the encoding is not defined we use UTF-8, which is defined as a default for HTML5 specification. If you know that encoding is different from the default UTF-8, please specify it directly as it described [here](/html/net/environment-configuration/).
+**A:** We parse a document headers to detect the character-set (encoding) of the document. If the encoding is not defined we use UTF-8, which is defined as a default for HTML5 specification. If you know that encoding is different from the default UTF-8, please specify it directly as it described [here](/html/net/working-with-documents/environment-configuration/).
 
 
 
 **Q: I want to see page numbers at the bottom of the document, how to do this?**
 
-**A:** Since {{%CSS%}} is used to describe the visual layout of the document, we designed specialized [CSS Extensions](/html/net/css-extensions/) that can be used to write information on page margins.
+**A:** Since {{%CSS%}} is used to describe the visual layout of the document, we designed specialized [CSS Extensions](/html/net/advanced-programming/css-extensions/) that can be used to write information on page margins.

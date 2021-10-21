@@ -30,7 +30,7 @@ One of the main goals of Aspose.HTML - is to provide simple, highly customizable
 
 {{< /highlight >}}
 
-**Сustomizability:** With Aspose.HTML you will be able to [fine-tune](/html/net/fine-tuning-converters/) many aspects of the conversion process. Many other products will allow you to setup page size or image resolution, but with Aspose.HTML you will be able to [customize processing of external resources](/html/net/environment-configuration/#environmentconfiguration-networkservice), or[ specify custom style sheet](/html/net/environment-configuration/#environmentconfiguration-userstylesheet) for your document and much more.
+**Сustomizability:** With Aspose.HTML you will be able to [fine-tune](/html/net/converting-between-formats/fine-tuning-converters/) many aspects of the conversion process. Many other products will allow you to setup page size or image resolution, but with Aspose.HTML you will be able to [customize processing of external resources](/html/net/environment-configuration/#environmentconfiguration-networkservice), or[ specify custom style sheet](/html/net/environment-configuration/#environmentconfiguration-userstylesheet) for your document and much more.
 
 **Precision:** All the components of Aspose.HTML assembly are designed according to the official HTML and SVG documentations. Which leads to high precision conversion results. 
 
@@ -47,7 +47,7 @@ Real world HTML page - is a very complex set of formats, working together. That'
 - Parser works according to the latest [HTML5](https://html.spec.whatwg.org/multipage/parsing.html) specification. Which means, that Aspose.HTML will always provide you the correct DOM tree.
 - Our JavaScript processing engine supports [ECMA 5.1](http://www.ecma-international.org/ecma-262/5.1/) specification. Which mean, that majority of scripts will be processed during parsing or runtime of the document. We also provide you the ability to [specify JavaScript processing timeout](/html/net/environment-configuration/#environmentconfiguration-runtimeservice) or completely [disable scripts execution](/html/net/environment-configuration/#environmentconfiguration-sandboxing).
 - CSS3 is supported out-of-the-box. Aspose.HTML provides an advanced CSS manipulation API and allows to manipulate stylesheets either for the [whole document](/html/net/environment-configuration/#environmentconfiguration-userstylesheet) or for the [particular node](/html/net/editing-a-document/#editingadocument-editcss). 
-- HTML Canvas is also supported by Aspose.HTML. You can draw on it, using [JavaScript](/html/net/edit-html5-canvas-programmatically/) or [HTML Canvas API](/html/net/edit-html5-canvas-programmatically/#edithtml5canvasprogrammatically-canvasrenderingcontext2d).
+- HTML Canvas is also supported by Aspose.HTML. You can draw on it, using [JavaScript](/html/net/advanced-programming/edit-html5-canvas-programmatically/) or [HTML Canvas API](/html/net/advanced-programming/edit-html5-canvas-programmatically/#edithtml5canvasprogrammatically-canvasrenderingcontext2d).
 - SVG parsing and rendering is based on the lates [SVG 2.0 documentation](https://www.w3.org/TR/SVG2/). Which allows you to use such modern elements as filters!
 ## **Platform Independence**
 - You can use Aspose.HTML for .NET to build any type of a 32-bit or 64-bit .NET application including ASP.NET, WCF, WinForms, .NET Core etc. 
@@ -55,5 +55,5 @@ Real world HTML page - is a very complex set of formats, working together. That'
 - Full support of all the .NET Framework versions starting from 2.0 and higher, including Client Profile versions.
 - Aspose.HTML provides you the .NET Standard 2.0 assembly, which can be used with frameworks that implement it, such as .NET Core 2.0.
 ## **Helpful Extensions**
-- **Form Editor** -  is an utility class, which allows you to easily edit and submit HTML forms. You can find usage examples and detailed description on this [page](/html/net/html-form-editor/).
-- **Vendor Specific CSS** - Aspose.HTML provides you its own CSS properties, which extend existing ones. As an example they can be used to [add page numbers](/html/net/css-extensions/).
+- **Form Editor** -  is an utility class, which allows you to easily edit and submit HTML forms. You can find usage examples and detailed description on this [page](/html/net/advanced-programming/html-form-editor/).
+- **Vendor Specific CSS** - Aspose.HTML provides you its own CSS properties, which extend existing ones. As an example they can be used to [add page numbers](/html/net/advanced-programming/css-extensions/).
