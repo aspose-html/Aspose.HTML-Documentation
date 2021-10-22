@@ -72,7 +72,7 @@ Please note, that resources are embedded in to assembly without modification. If
 
 {{% /alert %}} 
 ### **Applying a Metered License**
-Metered license - is a new licensing mechanism, which is used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to the [Metered Licensing FAQ](http://www.aspose.com/corporate/purchase/policies/Licensing-Faqs/metered-faq.aspx) section.
+Metered license - is a new licensing mechanism, which is used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to the [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
 
 The following code snippet demonstrates how to apply the metered license using the private and public keys:
 

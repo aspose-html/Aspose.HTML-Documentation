@@ -289,7 +289,7 @@ using Aspose.Html;
 using Aspose.Html.Rendering.Pdf;
 ...
    // Create an instance of an HTML document with specified content
-   var htmlContent = "<link rel=\"stylesheet\" href=\"https://docs.aspose.com/html/net/editing-a-document/external.css\" type=\"text/css\" />\r\n" +
+   var htmlContent = "<link rel=\"stylesheet\" href=\"https://docs.aspose.com/html/net/working-with-documents/editing-a-document/external.css\" type=\"text/css\" />\r\n" +
                      "<div class=\"rect1\" ></div>\r\n" +
                      "<div class=\"rect2\" ></div>\r\n" +
                      "<div class=\"frame\">\r\n" +

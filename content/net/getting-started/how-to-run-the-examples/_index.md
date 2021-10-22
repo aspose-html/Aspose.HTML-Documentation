@@ -11,7 +11,7 @@ aliases:
 Please make sure you meet the following requirements before downloading and running the examples:
 
 1. Visual Studio 2010 or higher.
-1. Make sure that **NuGet Package Manager** is installed in Visual Studio. For details on how to install **NuGet Package Manager** please check <http://docs.nuget.org/ndocs/guides/install-nuget>.
+1. Make sure that **NuGet Package Manager** is installed in Visual Studio. For details on how to install **NuGet Package Manager** please check <https://docs.microsoft.com/en-us/nuget/install-nuget-client-tools>.
 1. Go to **Tools**->**Options**->**NuGet Package Manager**->**Package Sources** and make sure that the option **nuget.org** is checked.
 1. Example project uses NuGet Automatic Package Restore feature therefore you should have an active internet connection. If you do not have an active internet connection on the machine where examples are to be executed please check [Installation](/html/net/getting-started/installation/) and manually add the reference to Aspose.HTML.dll in the example project.
 ## **Download from GitHub**

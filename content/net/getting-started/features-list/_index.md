@@ -11,7 +11,7 @@ Aspose.HTML provides a rich set of features, related to many different areas:
 ## **Document Manipulation**
 - Create a [new](/html/net/working-with-documents/creating-a-document/#create-a-new-html-document) or open an existing [(X)HTML](/html/net/working-with-documents/creating-a-document/#creatingadocument-loadfromafile) or [SVG](/html/net/working-with-documents/creating-a-document/#svg-document) document. With the help of Aspose.HTML you will be able to open document not only from the local file, but directly from the web!
 - [Save](/html/net/working-with-documents/saving-a-document/#savingadocument-savehtml) the document along with all the referenced resources, such as CSS and images. Aspose.HTML offers you the highly customizable saver, which is able to save not only the document itself, with all the referenced resources, but even other documents, referenced by it!
-- [Create, edit, remove and replace](/html/net/editing-a-document/) HTML nodes via the rich API based on the Document Object Model (DOM) defined in the official [documentation](https://dom.spec.whatwg.org/).
+- [Create, edit, remove and replace](/html/net/working-with-documents/editing-a-document/) HTML nodes via the rich API based on the Document Object Model (DOM) defined in the official [documentation](https://dom.spec.whatwg.org/).
 - Wide possibilities of environment [customization](/html/net/working-with-documents/environment-configuration/). You can specify [user style sheet](/html/net/working-with-documents/environment-configuration/#user-style-sheet), [font folder](/html/net/working-with-documents/environment-configuration/#fontssettings-property), [external resource handler](/html/net/working-with-documents/environment-configuration/#network-service) and much more.
 ## **Web Scraping**
 Although Aspose.HTML is not a web scraper by itself, but it can be used to collect information from the opened document:
@@ -37,16 +37,16 @@ One of the main goals of Aspose.HTML - is to provide simple, highly customizable
 Aspose.HTML implements many converters, which can be split into three groups:
 
 1. Fixed layout converters. These converters are responsible for conversion of HTML, {{%XHTML%}}, SVG, EPUB and MHTML to PDF, {{%XPS%}} and raster image formats (PNG, JPG, BMP). 
-1. Markdown converters. These converters are responsible for conversion of [Markdown to HTML](/html/net/markdown-to-html-conversion/) and [HTML to Markdown](/html/net/html-to-markdown-conversion/).
-1. Template converter. Which is used to create [HTML file from Template](/html/net/html-template/).
+1. Markdown converters. These converters are responsible for conversion of [Markdown to HTML](/html/net/converting-between-formats/markdown-to-html/) and [HTML to Markdown](/html/net/converting-between-formats/html-to-markdown/).
+1. Template converter. Which is used to create [HTML file from Template](/html/net/converting-between-formats/html-template/).
 
 You can explore all the available converters on this [page.](/html/net/converting-between-formats/)
 ## **Built-in Formats**
 Real world HTML page - is a very complex set of formats, working together. That's why development of high quality converter is such a complex task. Aspose.HTML includes implementations of all the HTML related formats:
 
 - Parser works according to the latest [HTML5](https://html.spec.whatwg.org/multipage/parsing.html) specification. Which means, that Aspose.HTML will always provide you the correct DOM tree.
-- Our JavaScript processing engine supports [ECMA 5.1](http://www.ecma-international.org/ecma-262/5.1/) specification. Which mean, that majority of scripts will be processed during parsing or runtime of the document. We also provide you the ability to [specify JavaScript processing timeout](/html/net/working-with-documents/environment-configuration/#runtime-service) or completely [disable scripts execution](/html/net/working-with-documents/environment-configuration/#sandboxing).
-- CSS3 is supported out-of-the-box. Aspose.HTML provides an advanced CSS manipulation API and allows to manipulate stylesheets either for the [whole document](/html/net/working-with-documents/environment-configuration/#user-style-sheet) or for the [particular node](/html/net/editing-a-document/#editingadocument-editcss). 
+- Our JavaScript processing engine supports [ECMA 5.1](https://262.ecma-international.org/5.1/) specification. Which mean, that majority of scripts will be processed during parsing or runtime of the document. We also provide you the ability to [specify JavaScript processing timeout](/html/net/working-with-documents/environment-configuration/#runtime-service) or completely [disable scripts execution](/html/net/working-with-documents/environment-configuration/#sandboxing).
+- CSS3 is supported out-of-the-box. Aspose.HTML provides an advanced CSS manipulation API and allows to manipulate stylesheets either for the [whole document](/html/net/working-with-documents/environment-configuration/#user-style-sheet) or for the [particular node](/html/net/working-with-documents/editing-a-document/#edit-css). 
 - HTML Canvas is also supported by Aspose.HTML. You can draw on it, using [JavaScript](/html/net/advanced-programming/edit-html5-canvas-programmatically/) or [HTML Canvas API](/html/net/advanced-programming/edit-html5-canvas-programmatically/#edithtml5canvasprogrammatically-canvasrenderingcontext2d).
 - SVG parsing and rendering is based on the lates [SVG 2.0 documentation](https://www.w3.org/TR/SVG2/). Which allows you to use such modern elements as filters!
 ## **Platform Independence**

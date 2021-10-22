@@ -45,7 +45,7 @@ using Aspose.Html;
         document.Save(documentPath);
     }
 {{< /highlight >}}
-After the creation, file create-empty-document.html appears with the initial document structure: the empty document includes elements such as `<html>` `<head>` and `<body>`. More details about HTML files saving are in the **[Saving an HTML Document](https://docs.aspose.com/html/net/editing-a-document/)** section.
+After the creation, file create-empty-document.html appears with the initial document structure: the empty document includes elements such as `<html>` `<head>` and `<body>`. More details about HTML files saving are in the **[Saving an HTML Document](https://docs.aspose.com/html/net/working-with-documents/editing-a-document/)** section.
 
 ### **Create a New HTML Document**
 
@@ -69,7 +69,7 @@ using Aspose.Html;
 	    document.Save(documentPath);
 	}
 {{< /highlight >}}
-In the new document, we have created a text node, given the specified string, using the **CreateTextNode()** method and added it to the body element using **AppendChild()** method. How to edit an HTML file is described in detail in the [**Editing an HTML Document**](https://docs.aspose.com/html/net/editing-a-document/) section.
+In the new document, we have created a text node, given the specified string, using the **CreateTextNode()** method and added it to the body element using **AppendChild()** method. How to edit an HTML file is described in detail in the [**Editing an HTML Document**](https://docs.aspose.com/html/net/working-with-documents/editing-a-document/) section.
 
 ### **Load from a File**
 Following code snippet shows how to load the [**HTMLDocument**](https://apireference.aspose.com/html/net/aspose.html/htmldocument) from an existing file:

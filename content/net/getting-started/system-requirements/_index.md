@@ -46,7 +46,7 @@ In order to use Aspose.HTML for .NET on Linux or macOS you will need to install 
 - SUSE Enterprise Linux (SLES) 12 SP2+ (x64)
 - Alpine Linux 3.8+ (x64)
 
-Based on your Linux distribution or macOS version and the fact that Aspose.HTML for .NET uses the *System.Drawing.Common* assembly, you may need to install additional dependencies. The list of all the supported distributions and additional dependencies can be found [here](https://docs.microsoft.com/en-us/dotnet/core/install/dependencies?tabs=netcore21&pivots=os-linux) for Linux and [here](https://docs.microsoft.com/en-us/dotnet/core/install/dependencies?tabs=netcore21&pivots=os-macos) for macOS.
+Based on your Linux distribution or macOS version and the fact that Aspose.HTML for .NET uses the *System.Drawing.Common* assembly, you may need to install additional dependencies. The list of all the supported distributions and additional dependencies can be found [here](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=netcore21&pivots=os-linux) for Linux and [here](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=netcore21&pivots=os-macos) for macOS.
 ## **Supported Frameworks**
 Aspose.HTML for .NET supports the following frameworks:
 ### **.NET Framework**
