@@ -120,7 +120,7 @@ In case if you pass a wrong URL that can't be reached right at the moment, the l
 using System;
 using Aspose.Html;
 ...
-    // Load a document from 'https://docs.aspose.com/html/net/creating-a-document/document.html' web page
+    // Load a document from 'https://docs.aspose.com/html/net/working-with-documents/creating-a-document/document.html' web page
     using (var document = new HTMLDocument("https://docs.aspose.com/html/net/working-with-documents/creating-a-document/document.html"))
     {
         // Write the document content to the output stream

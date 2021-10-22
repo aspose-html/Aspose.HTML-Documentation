@@ -7,7 +7,7 @@ description: Document Object Model, DOM Tree, Edit HTML, Edit a Document Tree, U
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
-As we already mentioned [here](https://docs.aspose.com/html/net/creating-a-document/) the implementation of the [**HTMLDocument**](https://apireference.aspose.com/html/net/aspose.html/htmldocument) as well as the whole DOM are based on [WHATWG DOM](https://dom.spec.whatwg.org/) standard. So, it is easy to use Aspose.HTML having a basic knowledge of {{%HTML%}} and {{%JavaScript%}} languages.
+As we already mentioned [here](https://docs.aspose.com/html/net/working-with-documents/creating-a-document/) the implementation of the [**HTMLDocument**](https://apireference.aspose.com/html/net/aspose.html/htmldocument) as well as the whole DOM are based on [WHATWG DOM](https://dom.spec.whatwg.org/) standard. So, it is easy to use Aspose.HTML having a basic knowledge of {{%HTML%}} and {{%JavaScript%}} languages.
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation). 
 {{% /alert %}} 

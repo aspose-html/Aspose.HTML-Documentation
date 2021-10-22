@@ -31,7 +31,7 @@ For more examples, please visit [Converting Between Formats](/html/net/convertin
 
 **Q: Can I use HTMLDocument to load {{%EPUB%}} file format?**
 
-**A:** In order to load EPUB, MHTML, SVG or other supported formats, we prepared specialized end-points and described it in the [Create Document](/html/net/creating-a-document/) guide. The HTMLDocument class is designed only to work with HTML files.
+**A:** In order to load EPUB, MHTML, SVG or other supported formats, we prepared specialized end-points and described it in the [Create Document](/html/net/working-with-documents/creating-a-document/) guide. The HTMLDocument class is designed only to work with HTML files.
 
 
 
@@ -51,7 +51,7 @@ Moreover, we support CSS Selectors and the native navigation mechanism that is c
 
 **Q: Is it possible to save a few HTML documents at once?**
 
-**A:** Yes, if you have HTML files which are linked to each other, you can use [MaxHandlingDepth](/html/net/saving-a-document/) parameter to save them as a set of files.
+**A:** Yes, if you have HTML files which are linked to each other, you can use [MaxHandlingDepth](/html/net/working-with-documents/saving-a-document/) parameter to save them as a set of files.
 
 
 
