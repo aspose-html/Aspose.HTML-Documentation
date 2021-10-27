@@ -88,14 +88,10 @@ using System.IO;
 ...	
 
     // URL of the video you want to extract data from
-    string url = "https://v.Zoom.com/v_show/id_XMzgyODk3MDk0NA==.html?spm=a2h0c.8166622.PhoneSokuUgc_5.dscreenshot";
-    
-    // Expected video properties, for example, "Title" and "Duration" 
-    string expectedTitle = "News 24";
-    int expectedDuration = 59;
+    string url = "https://zoom.us/recording/play/IMjKs3RC8-QaTcYQSFutPxB6CyrezT9pIqfsVj4nF8UIbyXbsvzMnLgjgP83cDHS";    
     
     // File name for downloading video
-    string filename = "News-24";
+    string filename = "Session1";
     
     // Initialize an instance of the MultimediaScraper class
     using var multimediaScraper = new MultimediaScraper();

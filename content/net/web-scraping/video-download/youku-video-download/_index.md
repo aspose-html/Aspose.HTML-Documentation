@@ -95,11 +95,7 @@ using System.IO;
 ...	
 
     // URL of the video you want to extract data from
-    string url = "https://v.youku.com/v_show/id_XMzgyODk3MDk0NA==.html?spm=a2h0c.8166622.PhoneSokuUgc_5.dscreenshot";
-    
-    // Expected video properties, for example, "Title" and "Duration" 
-    string expectedTitle = "News 24";
-    int expectedDuration = 59;
+    string url = "https://v.youku.com/v_show/id_XMzgyODk3MDk0NA==.html?spm=a2h0c.8166622.PhoneSokuUgc_5.dscreenshot";    
     
     // File name for downloading video
     string filename = "News-24";
