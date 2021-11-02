@@ -18,7 +18,7 @@ The articles in this section provide information on the list of supported conver
 
 In the **SVG Converter** guide, you find the following articles: 
 
-[Convert SVG to PDF](/html/net/converting-between-formats/svg-to-pdf/) -  In this guide, you find information on how to convert SVG to ({{%PDF%}}) and consider code snippets that illustrate the applying of save options and ICreateStreamProvider parameters.
+[Convert SVG to PDF](/html/net/converting-between-formats/svg-to-pdf/) - In this guide, you find information on how to convert SVG to {{%PDF%}} and consider code snippets that illustrate the applying of save options and ICreateStreamProvider parameters.
 
 [Convert SVG to JPG](/html/net/converting-between-formats/svg-to-jpg/) - You learn how to convert SVG to {{%JPG%}} image using the Aspose.HTML API, find out the supported SVG to JPG conversion scenarios and consider examples to illustrate them.
 
@@ -28,7 +28,7 @@ In the **SVG Converter** guide, you find the following articles:
 
 [Convert SVG to TIFF](/html/net/converting-between-formats/svg-to-tiff/) - You learn how to convert SVG to {{%TIFF%}} using the Aspose.HTML API and consider examples to illustrate the conversion.
 
-[Convert SVG to GIF](/html/net/converting-between-formats/svg-to-gif/) - You find out the supported SVG to {{%GIF%}}conversion scenarios and consider examples to illustrate them.
+[Convert SVG to GIF](/html/net/converting-between-formats/svg-to-gif/) - You find out the supported SVG to {{%GIF%}} conversion scenarios and consider C# examples to illustrate them.
 
 [Convert SVG to DOCX](/html/net/converting-between-formats/svg-to-docx/) - You find out how to convert SVG to {{%DOCX%}}, use save options and consider examples to illustrate the conversion.
 
@@ -37,8 +37,6 @@ In the **SVG Converter** guide, you find the following articles:
 
 
 {{% alert color="primary" %}} 
-
-Aspose.HTML offers free online [**SVG Converters**](https://products.aspose.app/svg/en/conversion) for converting SVG files to a variety of popular formats.  You can easily convert  [SVG to PDF](https://products.aspose.app/svg/en/conversion/svg-to-pdf), SVG to XPS, [SVG to JPG](https://products.aspose.app/svg/en/conversion/svg-to-jpg), [SVG to PNG](https://products.aspose.app/svg/en/conversion/svg-to-png), SVG to BMP, SVG to TIFF, or SVG to GIF. Just select the file, choose the format to convert, and you're done. It's fast and completely free!
-
+Aspose.HTML offers free online [**SVG Converters**](https://products.aspose.app/svg/en/conversion) for converting SVG files to a variety of popular formats. You can easily convert  [SVG to PDF](https://products.aspose.app/svg/en/conversion/svg-to-pdf), SVG to XPS, [SVG to JPG](https://products.aspose.app/svg/en/conversion/svg-to-jpg), [SVG to PNG](https://products.aspose.app/svg/en/conversion/svg-to-png), SVG to BMP, SVG to TIFF, or SVG to GIF. Just select the file, choose the format to convert, and you're done. It's fast and completely free!
 {{% /alert %}} 
 

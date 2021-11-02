@@ -13,7 +13,7 @@ url: /net/converting-between-formats/epub-converter/
 lastmod: 2021-09-03
 ---
 
-The main highlight of Aspose.HTML is the conversion feature. EPUB is an open XML-based format for digital books and publications, which can be view and read on smartphones, tablets and computers. The [Aspose.Html.Converters](https://apireference.aspose.com/html/net/aspose.html.converters) namespace implements easy access to conversion methods. It provides a wide range of {{%EPUB %}} conversions to popular formats, such as {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, and {{%GIF%}}.
+The main highlight of Aspose.HTML is the conversion feature. EPUB is an open XML-based format for digital books and publications, which can be viewed and read on smartphones, tablets and computers. The [Aspose.Html.Converters](https://apireference.aspose.com/html/net/aspose.html.converters) namespace implements easy access to conversion methods. It provides a wide range of {{%EPUB %}} conversions to popular formats, such as {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, and {{%GIF%}}.
 
 This section provides information on the list of supported EPUB conversion scenarios and how to perform them using a [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class that groups all low-level conversion operations in a single class to make them comfy and easy to use. In the **EPUB Converter** guide, you find the following articles: 
 
@@ -27,9 +27,9 @@ This section provides information on the list of supported EPUB conversion scena
 
 [Convert EPUB to TIFF](/html/net/converting-between-formats/epub-to-tiff/) - You learn how to convert  EPUB to {{%TIFF%}} using the Aspose.HTML API and consider examples to illustrate the conversion.
 
-[Convert EPUB to GIF](/html/net/converting-between-formats/epub-to-gif/) - You find out the supported EPUB to {{%GIF%}}conversion scenarios and consider examples to illustrate them.
+[Convert EPUB to GIF](/html/net/converting-between-formats/epub-to-gif/) - You find out the supported EPUB to {{%GIF%}} conversion scenarios and consider examples to illustrate them.
 
-[Convert EPUB to DOCX](/html/net/converting-between-formats/epub-to-docx/) - You find out the supported EPUB to {{%DOCX%}}conversion scenarios and consider examples to illustrate them.
+[Convert EPUB to DOCX](/html/net/converting-between-formats/epub-to-docx/) - You find out the supported EPUB to {{%DOCX%}} conversion scenarios and consider examples to illustrate them.
 
 [Convert EPUB to XPS](/html/net/converting-between-formats/epub-to-xps/) - You learn how to convert an EPUB document into XML Paper Specification ({{%XPS%}}) file format, use save options and ICreateStreamProvider parameters.
 
