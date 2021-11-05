@@ -22,7 +22,7 @@ The next example explains how to convert HTML to PDF by line by line:
 
 1. Load the HTML file using [HtmlDocument](https://apireference.aspose.com/html/java/com.aspose.html/HTMLDocument) class
 1. Create an instance of [XpsSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions)
-1. Use the [ConvertHTML()](https://apireference.aspose.com/html/java/com.aspose.html.converters.converter/converthtml/methods/1) method of [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class to save HTML as an {{%XPS%}} file. You need to pass the [HTMLDocument](https://apireference.aspose.com/html/java/com.aspose.html/HTMLDocument), [XpsSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions), and output file path to the ConvertHTML() method to convert HTML to {{%XPS%}}.
+1. Use the [ConvertHTML()](https://apireference.aspose.com/html/java/com.aspose.html.converters.converter/converthtml) method of [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class to save HTML as an {{%XPS%}} file. You need to pass the [HTMLDocument](https://apireference.aspose.com/html/java/com.aspose.html/HTMLDocument), [XpsSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions), and output file path to the ConvertHTML() method to convert HTML to {{%XPS%}}.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertHTMLToXPS_ConvertHTMLDocumentToXPS.java" >}}
 ## **Save Options** ## 

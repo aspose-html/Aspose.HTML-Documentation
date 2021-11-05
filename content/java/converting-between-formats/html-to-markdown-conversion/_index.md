@@ -15,7 +15,7 @@ aliases: /java/html-to-markdown-conversion/
 
 {{% /alert %}} 
 ## **Save Options** ## 
-The [MarkdownSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/markdownsaveoptions) has a number of properties that give you control over the conversion process. The most important option is [MarkdownSaveOptions.Features](https://apireference.aspose.com/html/java/com.aspose.html.saving/markdownsaveoptions/properties/features). This option allows you to enable/disable the conversion of the particular element.
+The [MarkdownSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/markdownsaveoptions) has a number of properties that give you control over the conversion process. The most important option is `MarkdownSaveOptions.Features`. This option allows you to enable/disable the conversion of the particular element.
 
 The following example shows how to process the only links, images, and paragraphs, other HTML elements remain as is.
 

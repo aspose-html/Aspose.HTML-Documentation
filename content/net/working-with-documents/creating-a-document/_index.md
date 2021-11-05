@@ -20,7 +20,7 @@ The [**HTMLDocument**](https://apireference.aspose.com/html/net/aspose.html/html
 
 {{% alert color="primary" %}} 
 
-The [**HTMLDocument**](https://apireference.aspose.com/html/net/aspose.html/htmldocument)  class provides an in-memory representation of an **HTML DOM** and entirely based on [W3C DOM](http://www.w3.org/DOM/) and [WHATWG DOM](https://dom.spec.whatwg.org/) specifications that are supported in many modern browsers. If you are familiar with [WHATWG DOM](https://dom.spec.whatwg.org/), [WHATWG HTML](https://html.spec.whatwg.org/multipage/), and [JavaScript](https://www.ecma-international.org/ecma-262/10.0/index.html) standards, you will find it quite comfy to use the Aspose.HTML library. Otherwise, you can visit [www.w3schools.com](https://www.w3schools.com/html/default.asp), where you can find a lot of examples and tutorials on how to work with HTML documents.
+The [**HTMLDocument**](https://apireference.aspose.com/html/net/aspose.html/htmldocument)  class provides an in-memory representation of an **HTML DOM** and entirely based on [W3C DOM](http://www.w3.org/DOM/) and [WHATWG DOM](https://dom.spec.whatwg.org/) specifications that are supported in many modern browsers. If you are familiar with [WHATWG DOM](https://dom.spec.whatwg.org/), [WHATWG HTML](https://html.spec.whatwg.org/multipage/), and [JavaScript](https://262.ecma-international.org/10.0/) standards, you will find it quite comfy to use the Aspose.HTML library. Otherwise, you can visit [www.w3schools.com](https://www.w3schools.com/html/default.asp), where you can find a lot of examples and tutorials on how to work with HTML documents.
 
 {{% /alert %}} 
 

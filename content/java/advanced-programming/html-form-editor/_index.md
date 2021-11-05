@@ -9,7 +9,7 @@ The [HTML Form Element](https://apireference.aspose.com/html/java/com.aspose.htm
 
 {{% alert color="primary" %}} 
 
-For the testing purpose in this article, we use the form (<https://httpbin.org/forms/post)> designed by <https://httpbin.org> service.
+For the testing purpose in this article, we use the form designed by <https://httpbin.org> service.
 
 {{% /alert %}} 
 

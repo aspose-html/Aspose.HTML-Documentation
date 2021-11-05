@@ -24,7 +24,7 @@ The following Java code snippet shows how to convert {{%EPUB%}} to JPG using Asp
 
 1. Open an existing {{%EPUB%}} file;
 2. Create a new [ImageSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/imagesaveoptions) object with JPG ImageFormat;
-3. Use the [Converter.ConvertEPUB](https://apireference.aspose.com/html/java/com.aspose.html.converters.converter/convertepub/methods/7) method of [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class to save {{%EPUB%}} as a JPG image. You need to pass the EPUB stream, [ImageSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/imagesaveoptions), and output file path to the [Converter.ConvertEPUB](https://apireference.aspose.com/html/java/com.aspose.html.converters.converter/convertepub/methods/7) method to convert EPUB to JPG.
+3. Use the `Converter.ConvertEPUB` method of [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class to save {{%EPUB%}} as a JPG image. You need to pass the EPUB stream, [ImageSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/imagesaveoptions), and output file path to the `Converter.ConvertEPUB` method to convert EPUB to JPG.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertEPUBToImage_ConvertEPUBToJPG.java" >}}
 
@@ -40,7 +40,7 @@ The following Java code snippet shows how to convert EPUB to PNG using Aspose.HT
 
 1. Open an existing EPUB file;
 2. Create a new [ImageSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/imagesaveoptions) object with PNG ImageFormat;
-3. Use the [Converter.ConvertEPUB](https://apireference.aspose.com/html/java/com.aspose.html.converters.converter/convertepub/methods/7) method of [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class to save EPUB as a PNG image. You need to pass the EPUB stream, [ImageSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/imagesaveoptions), and output file path to the [Converter.ConvertEPUB](https://apireference.aspose.com/html/java/com.aspose.html.converters.converter/convertepub/methods/7) method to convert EPUB to PNG.
+3. Use the `Converter.ConvertEPUB` method of [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class to save EPUB as a PNG image. You need to pass the EPUB stream, [ImageSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/imagesaveoptions), and output file path to the `Converter.ConvertEPUB` method to convert EPUB to PNG.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertEPUBToImage_ConvertEPUBToPNG.java" >}}
 
@@ -52,7 +52,7 @@ The following Java code snippet shows how to convert EPUB to BMP using Aspose.HT
 
 1. Open an existing EPUB file;
 2. Create a new [ImageSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/imagesaveoptions) object with BMP ImageFormat;
-3. Use the [Converter.ConvertEPUB](https://apireference.aspose.com/html/java/com.aspose.html.converters.converter/convertepub/methods/7) method of [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class to save EPUB as a BMP image. You need to pass the EPUB stream, [ImageSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/imagesaveoptions), and output file path to the [Converter.ConvertEPUB](https://apireference.aspose.com/html/java/com.aspose.html.converters.converter/convertepub/methods/7) method to convert EPUB to BMP.
+3. Use the `Converter.ConvertEPUB` method of [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class to save EPUB as a BMP image. You need to pass the EPUB stream, [ImageSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/imagesaveoptions), and output file path to the `Converter.ConvertEPUB` method to convert EPUB to BMP.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertEPUBToImage_ConvertEPUBToBMP.java" >}}
 
@@ -68,7 +68,7 @@ The following Java code snippet shows how to convert EPUB to GIF using Aspose.HT
 
 1. Open an existing EPUB file;
 2. Create a new [ImageSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/imagesaveoptions) object with GIF ImageFormat;
-3. Use the [Converter.ConvertEPUB](https://apireference.aspose.com/html/java/com.aspose.html.converters.converter/convertepub/methods/7) method of [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class to save EPUB as a GIF image. You need to pass the EPUB stream, [ImageSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/imagesaveoptions), and output file path to the [Converter.ConvertEPUB](https://apireference.aspose.com/html/java/com.aspose.html.converters.converter/convertepub/methods/7) method to convert EPUB to GIF.
+3. Use the `Converter.ConvertEPUB` method of [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class to save EPUB as a GIF image. You need to pass the EPUB stream, [ImageSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/imagesaveoptions), and output file path to the `Converter.ConvertEPUB` method to convert EPUB to GIF.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertEPUBToImage_ConvertEPUBToGIF.java" >}}
 
@@ -80,7 +80,7 @@ The following Java code snippet shows how to convert EPUB to TIFF using Aspose.H
 
 1. Open an existing EPUB file;
 2. Create a new [ImageSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/imagesaveoptions) object with TIFF ImageFormat;
-3. Use the [Converter.ConvertEPUB](https://apireference.aspose.com/html/java/com.aspose.html.converters.converter/convertepub/methods/7) method of [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class to save EPUB as a TIFF image. You need to pass the EPUB stream, [ImageSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/imagesaveoptions), and output file path to the [Converter.ConvertEPUB](https://apireference.aspose.com/html/java/com.aspose.html.converters.converter/convertepub/methods/7) method to convert EPUB to TIFF.
+3. Use the `Converter.ConvertEPUB` method of [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class to save EPUB as a TIFF image. You need to pass the EPUB stream, [ImageSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/imagesaveoptions), and output file path to the `Converter.ConvertEPUB` method to convert EPUB to TIFF.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertEPUBToImage_ConvertEPUBToTIFF.java" >}}
 

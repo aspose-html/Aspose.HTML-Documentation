@@ -23,10 +23,10 @@ This API mimics the behavior of a headless browser and offers following features
 - Extracting {{%CSS%}} styles for particular HTML node
 - Configuring a document sandbox that affects the processing of HTML documents i.e. {{%CSS%}} styles in some cases are [dependent on screen size](https://www.w3.org/TR/css3-mediaqueries/#width) and we allow to configure environment independently of an execution machine
 - Navigation through HTML document in different ways:
-  - by using [Element Traversal](https://www.w3.org/TR/ElementTraversal)
+  - by using [Element Traversal](https://www.w3.org/TR/ElementTraversal/)
   - by using [Document Traversal](https://www.w3.org/TR/DOM-Level-2-Traversal-Range/traversal.html)
-  - by using [XPath queries](https://www.w3.org/TR/xpath)
-  - by using [CSS Selector queries](https://www.w3.org/TR/selectors-api)
+  - by using [XPath queries](https://www.w3.org/TR/xpath/)
+  - by using [CSS Selector queries](https://www.w3.org/TR/selectors-api/)
 - Scripting that allows to manipulate HTML DOM via JavaScript
 - Converting HTML document into various supported formats: JPEG, PNG, BMP, TIFF, PDF, {{%XPS%}}
 - Converting {{%XHTML%}} and similar formats, such as {{%EPUB%}} and MHTML to above specified formats.

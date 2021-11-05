@@ -21,7 +21,7 @@ The following Java code snippet shows how to convert MHTML to {{%XPS%}} using As
 
 1. Open an existing MHTML file;
 1. Create an instance of [XpsSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions);
-1. Use the [Converter.ConvertMHTML](https://apireference.aspose.com/html/java/com.aspose.html.converters.converter/convertmhtml/methods/9) method of [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class to save MHTML as a {{%XPS%}} file. You need to pass the MHTML file stream, [XpsSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions), and output file path to the [Converter.ConvertMHTML](https://apireference.aspose.com/html/java/com.aspose.html.converters.converter/convertmhtml/methods/9) method to convert MHTML to {{%XPS%}} .
+1. Use the `Converter.convertMHTML` method of [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class to save MHTML as a {{%XPS%}} file. You need to pass the MHTML file stream, [XpsSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions), and output file path to the `Converter.convertMHTML` method to convert MHTML to {{%XPS%}} .
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertMHTMLToXPS_ConvertMHTMLFileToXPS.java" >}}
 ## **Save Options** ## 

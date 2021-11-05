@@ -44,7 +44,7 @@ using Aspose.Html.Saving;
 {{< /highlight >}}
 
 ## **Services**
-All important functional is grouped into separated services for usability purpose and located into [**Aspose.Html.Services**](https://apireference.aspose.com/html/net/aspose.html.services/) namespace.
+All important functional is grouped into separated services for usability purpose and located into [**Aspose.Html.Services**](https://apireference.aspose.com/html/net/aspose.html.services) namespace.
 ### **User Agent Service**
 The **User Agent Service** allows you to specify a custom user stylesheet, a primary character set for the document, language and fonts settings. You can specify your custom style information for a particular document and provide as little or as much environment configuration changes as needed. The [**IUserAgentService**](https://apireference.aspose.com/html/net/aspose.html.services/iuseragentservice) interface describes a user agent environment.
 #### **User Style Sheet**

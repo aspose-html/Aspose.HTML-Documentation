@@ -28,7 +28,7 @@ For more examples, please visit [Converting Between Formats](/html/java/converti
 
 **Q: Can I use HTMLDocument to load {{%EPUB%}} file format?**
 
-**A:** In order to load EPUB, MHTML, SVG or other supported formats, we prepared specialized end-points and described it in the [Create Document](/html/java/creating-a-document/) guide. The HTMLDocument class is designed only to work with HTML files.
+**A:** In order to load EPUB, MHTML, SVG or other supported formats, we prepared specialized end-points and described it in the [Create Document](/html/java/working-with-documents/creating-a-document/) guide. The HTMLDocument class is designed only to work with HTML files.
 
 
 **Q: Can I use Aspose.HTML to extract information from a document?**

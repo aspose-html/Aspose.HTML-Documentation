@@ -14,7 +14,7 @@ You can download the complete examples and data files from [**GitHub**](https://
 
 ## **DOM namespace**
 
-A DOM tree is an in-memory representation of a document. The DOM is an API for accessing and manipulating documents content. HTML documents consist of a tree that contains several kinds of nodes whose root is a **[Document](https://apireference.aspose.com/html/net/aspose.html.dom/document)**. The [**DOM namespace**](https://apireference.aspose.com/html/net/aspose.html.dom/) is represented with the following fundamental data types:
+A DOM tree is an in-memory representation of a document. The DOM is an API for accessing and manipulating documents content. HTML documents consist of a tree that contains several kinds of nodes whose root is a **[Document](https://apireference.aspose.com/html/net/aspose.html.dom/document)**. The [**DOM namespace**](https://apireference.aspose.com/html/net/aspose.html.dom) is represented with the following fundamental data types:
 
 |**Data type** |**Description**|
 | :- | :- |
@@ -36,7 +36,7 @@ The following is a brief list of useful API methods provides by the core data ty
 |[Element.GetAttribute(`name`)](https://apireference.aspose.com/html/net/aspose.html.dom/element/methods/getattribute)|The method returns the value of a specified attribute on the element.|
 |[Element.innerHTML](https://apireference.aspose.com/html/net/aspose.html.dom/element/properties/innerhtml) |The property returns a fragment of markup contained within the element.|
 
-For a complete list of interfaces and methods represented in the DOM namespace please visit [**API Reference Source**](https://apireference.aspose.com/html/net/aspose.html.dom/).
+For a complete list of interfaces and methods represented in the DOM namespace please visit [**API Reference Source**](https://apireference.aspose.com/html/net/aspose.html.dom).
 ## **Edit HTML**
 There are many ways you can edit HTML by using our library. You can modify the document by inserting new nodes, removing, or editing the content of existing nodes. If you need to create a new node, the following methods are ones that need to be invoked:
 

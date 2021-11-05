@@ -7,7 +7,7 @@ aliases: /net/aspose-html-for-net-18-5-0-release-notes/
 
 ### **Aspose.HTML for .NET 18.5.0 Release Notes**
 -----
-As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the May release of Aspose.HTML for .NET. In this release, we have increased numbers of supported platforms and our library is available for .NET Core now. Moreover, we have also extended numbers of supported formats. [W3C HTML Canvas](https://www.w3.org/TR/2dcontext/) is part of our library now, it supports rendering of HTML Canvas elements as a part of HTML document as well as direct access and manipulation of HTML Canvas 2D Context. Additionally, we have improved CSS engine as result we have increased performance of parsing of CSS documents up to 20 percent.
+As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the May release of Aspose.HTML for .NET. In this release, we have increased numbers of supported platforms and our library is available for .NET Core now. Moreover, we have also extended numbers of supported formats. [W3C HTML Canvas](https://html.spec.whatwg.org/multipage/) is part of our library now, it supports rendering of HTML Canvas elements as a part of HTML document as well as direct access and manipulation of HTML Canvas 2D Context. Additionally, we have improved CSS engine as result we have increased performance of parsing of CSS documents up to 20 percent.
 ### **Improvement and Changes**
 
 |**Key**|**Summary**|**Category**|
@@ -121,7 +121,7 @@ ulong Width{ get; set; }
 ulong Height{ get; set; }
 
 {{< /highlight >}}
-HTML Canvas interfaces based on official specification (https://www.w3.org/TR/2dcontext/). All interfaces are located in Aspose.Html.Dom.Canvas namespace.
+HTML Canvas interfaces based on official specification (https://html.spec.whatwg.org/multipage/). All interfaces are located in Aspose.Html.Dom.Canvas namespace.
 {{< highlight java >}}
 
  /// <summary>

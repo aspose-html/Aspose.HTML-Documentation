@@ -20,7 +20,7 @@ The following Java code snippet shows how to convert EPUB to {{%XPS%}} using Asp
 
 1. Open an existing EPUB file;
 2. Create an instance of [XpsSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions);
-3. Use the [Converter.ConvertEPUB](https://apireference.aspose.com/html/java/com.aspose.html.converters.converter/convertepub/methods/9) method of [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class to save EPUB as a {{%XPS%}} file. You need to pass the {{%EPUB%}} file stream, [XpsSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions), and output file path to the [Converter.ConvertEPUB](https://apireference.aspose.com/html/java/com.aspose.html.converters.converter/convertepub/methods/9) method to convert EPUB to {{%XPS%}}.
+3. Use the `Converter.ConvertEPUB` method of [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class to save EPUB as a {{%XPS%}} file. You need to pass the {{%EPUB%}} file stream, [XpsSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions), and output file path to the `Converter.ConvertEPUB` method to convert EPUB to {{%XPS%}}.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertEPUBToXPS_ConvertEPUBFileToXPS.java" >}}
 

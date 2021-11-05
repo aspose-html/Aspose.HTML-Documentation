@@ -5,7 +5,7 @@ weight: 30
 aliases: /java/editing-a-document/
 ---
 
-As we already mentioned [here](/html/java/creating-a-document/) the implementation of [HTMLDocument](https://apireference.aspose.com/html/java/com.aspose.html/HTMLDocument) as well as the whole DOM are based on [WHATWG DOM](https://dom.spec.whatwg.org/) standard. So, it is easy to use Aspose.HTML having a basic knowledge of {{%HTML%}} and {{%JavaScript%}} languages.
+As we already mentioned [here](/html/java/working-with-documents/creating-a-document/) the implementation of [HTMLDocument](https://apireference.aspose.com/html/java/com.aspose.html/HTMLDocument) as well as the whole DOM are based on [WHATWG DOM](https://dom.spec.whatwg.org/) standard. So, it is easy to use Aspose.HTML having a basic knowledge of {{%HTML%}} and {{%JavaScript%}} languages.
 The [DOM package](https://apireference.aspose.com/html/java/com.aspose.html.dom/package-frame) is represented with the following fundamental data types:
 
 |**Data type** |**Description**|

@@ -148,7 +148,7 @@ ulong Width{ get; set; }
 ulong Height{ get; set; }
 
 {{< /highlight >}}
-#### **HTML Canvas interfaces based on official specification (https://www.w3.org/TR/2dcontext/). All interfaces are located in Aspose.Html.Dom.Canvas namespace.** #### 
+#### **HTML Canvas interfaces based on official specification (https://html.spec.whatwg.org/multipage/). All interfaces are located in Aspose.Html.Dom.Canvas namespace.** #### 
 {{< highlight java >}}
 
   /// <summary>

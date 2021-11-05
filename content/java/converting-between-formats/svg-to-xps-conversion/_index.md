@@ -21,7 +21,7 @@ The next example explains how to convert SVG to {{%XPS%}} by line by line:
 
 1. Load the SVG file using [SVGDocument](https://apireference.aspose.com/html/java/com.aspose.html.dom.svg/SVGDocument) class.
 1. Create an instance of [XpsSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions).
-1. Use the [Converter.ConvertSVG](https://apireference.aspose.com/html/java/com.aspose.html.converters.converter/convertsvg/methods/37) method of [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class to save SVG as an {{%XPS%}} file. You need to pass the [SVGDocument](https://apireference.aspose.com/html/java/com.aspose.html.dom.svg/SVGDocument), [XpsSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions), and output file path to the [Converter.ConvertSVG](https://apireference.aspose.com/html/java/com.aspose.html.converters.converter/convertsvg/methods/37) method to convert {{%SVG%}} to {{%XPS%}}.
+1. Use the `Converter.convertSVG` method of [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class to save SVG as an {{%XPS%}} file. You need to pass the [SVGDocument](https://apireference.aspose.com/html/java/com.aspose.html.dom.svg/SVGDocument), [XpsSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions), and output file path to the `Converter.convertSVG` method to convert {{%SVG%}} to {{%XPS%}}.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertSVGToXPS_ConvertSVGDocumentToXPS.java" >}}
 ## **Save Options** ## 
