@@ -23,7 +23,7 @@ namespace Aspose.HTML.Tests.Converting_Between_Formats.HTMLConverter
         [Fact(DisplayName = "Convert HTML to PDF With a Single Line")]
         public void ConvertHTMLWithASingleLineTest()
         {
-            // Invoke the ConvertHTML method to convert the HTML code to PDF           
+            // Invoke the ConvertHTML() method to convert the HTML code to PDF           
             Converter.ConvertHTML(@"<h1>Convert HTML to PDF!</h1>", ".", new PdfSaveOptions(), Path.Combine(OutputDir, "convert-with-single-line.pdf"));
 
             Assert.True(File.Exists(Path.Combine(OutputDir, "convert-with-single-line.pdf")));
