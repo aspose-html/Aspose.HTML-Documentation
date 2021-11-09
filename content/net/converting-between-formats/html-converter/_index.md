@@ -23,8 +23,8 @@ This section gives information on the list of supported HTML conversions and how
 Any conversion you want to perform involves loading an HTML document and saving it in the supported format. It can be different scenarios, but it can be made with a few required steps:
 
 1. Load an HTML document into a Document object using one of [HTMLDocument()](https://apireference.aspose.com/html/net/aspose.html/htmldocument) constructors. You can load HTML from a file, HTML code, stream, or URL.
-
-2. Invoke one of the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/converthtml/index) methods and pass the required parameters to it.
+2. Create a Save Options object.
+3. Invoke one of the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/converthtml/index) methods and pass the required parameters to it.
     {{% /alert %}}   
 
 Please take a look over the following C# code snippet that shows the HTML to PNG conversion using the [ConvertHTML(`document, options, savePath`)](https://apireference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/3) method.
@@ -36,7 +36,7 @@ using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
 ...
         
-    // Initialize an HTML document from the file
+    // Initialize an HTML document from a file
     using var document = new HTMLDocument(Path.Combine(DataDir, "nature.html"));
     
     // Initialize ImageSaveOptions 
