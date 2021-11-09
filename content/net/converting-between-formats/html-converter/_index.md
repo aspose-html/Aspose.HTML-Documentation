@@ -9,10 +9,14 @@ description: In this article, you learn how to convert HTML to PDF, XPS, DOCX,
 weight: 10
 type: docs
 url: /net/converting-between-formats/html-converter/
-lastmod: 2021-10-05
+lastmod: 2021-11-09
 ---
 
-The main highlight of Aspose.HTML is a conversion feature. Converting between formats is required for various reasons: to work in a familiar, convenient format or to take advantage of different formats for specific tasks. The [Aspose.Html.Converters](https://apireference.aspose.com/html/net/aspose.html.converters) namespace implements easy access to conversion methods. It provides a wide range of {{%HTML%}} conversions to popular formats, such as {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, {{%GIF%}}, {{%MHTML%}},  and {{%MD%}}.
+{{%HTML%}} (HyperText Markup Language) is the standard markup language for documents created for display in browsers. Known as the language of the web, HTML has evolved with requirements of new information demands to be displayed as part of web pages. The latest variant is known as HTML 5 that gives a lot of flexibility for working with the language. HTML pages are either received from a server, where these are hosted or can be loaded from a local system as well.
+
+The main highlight of Aspose.HTML is a conversion feature. Converting between formats is required for various reasons: to work in a familiar, convenient format or to take advantage of different formats for specific tasks. The [Aspose.Html.Converters](https://apireference.aspose.com/html/net/aspose.html.converters) namespace implements easy access to conversion methods. It provides a wide range of HTML conversions to popular formats, such as {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, {{%GIF%}}, {{%MHTML%}},  and {{%MD%}}. 
+
+This section gives information on the list of supported HTML conversions and how to perform them using a [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class that groups all low-level conversion operations in a single class to make them comfy and easy to use. 
 
 {{% alert color="primary" %}} 
 
@@ -21,30 +25,54 @@ Any conversion you want to perform involves loading an HTML document and saving 
 1. Load an HTML document into a Document object using one of [HTMLDocument()](https://apireference.aspose.com/html/net/aspose.html/htmldocument) constructors. You can load HTML from a file, HTML code, stream, or URL.
 
 2. Invoke one of the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/converthtml/index) methods and pass the required parameters to it.
-{{% /alert %}} 
+    {{% /alert %}}   
 
-This section provides information on the list of supported HTML conversion scenarios and how to perform them using a [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class that groups all low-level conversion operations in a single class to make them comfy and easy to use. In the **HTML Converter** guide, you find the following articles: 
+Please take a look over the following C# code snippet that shows the HTML to PNG conversion using the [ConvertHTML(`document, options, savePath`)](https://apireference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/3) method.
+{{< highlight java >}}
+using System.IO;
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Rendering.Image;
+using Aspose.Html.Saving;
+...
+        
+    // Initialize an HTML document from the file
+    using var document = new HTMLDocument(Path.Combine(DataDir, "nature.html"));
+    
+    // Initialize ImageSaveOptions 
+    var options = new ImageSaveOptions();
+    
+    // Convert HTML to PNG
+    Converter.ConvertHTML(document, options, Path.Combine(OutputDir, "nature-output.png"));
+{{< /highlight >}}
 
-[Convert HTML to PDF](/html/net/converting-between-formats/html-to-pdf/) - In this guide, you find information on how to convert HTML to {{%PDF%}} and consider code snippets that illustrate the applying of save options and ICreateStreamProvider parameters.
+ The ConvertHTML() method takes as parameters `document`,  `options`, and `savePath` and performs the operation. **Note:** You need to specify the path to the output file in your local file system (`savePath`). Also, for [HTMLDocument(`address`)](https://apireference.aspose.com/html/net/aspose.html/htmldocument/constructors/10) constructor, you need to provide the path to a source HTML file on your local file system. 
 
-[Convert HTML to JPG](/html/net/converting-between-formats/html-to-jpg/) - You learn how to convert HTML to {{%JPG%}} image using the Aspose.HTML API, find out the supported HTML to JPG conversion scenarios and consider C# examples to illustrate them.
 
-[Convert HTML to PNG](/html/net/converting-between-formats/html-to-png/) - You learn how to convert HTML to {{%PNG%}} using the Aspose.HTML API and apply save options or ICreateStreamProvider parameters.
 
-[Convert HTML to BMP](/html/net/converting-between-formats/html-to-bmp/) - You learn how to convert HTML to {{%BMP%}} using the Aspose.HTML API and apply image save options. 
+ **Popular Conversions**
 
-[Convert HTML to TIFF](/html/net/converting-between-formats/html-to-tiff/) - You learn how to convert HTML to {{%TIFF%}} using the Aspose.HTML API and consider C# examples to illustrate the conversion.
 
-[Convert HTML to GIF](/html/net/converting-between-formats/html-to-gif/) - You find out the supported HTML to {{%GIF%}} conversion scenarios and consider examples to illustrate them.
-
-[Convert HTML to DOCX](/html/net/converting-between-formats/html-to-docx/) - You find out how to convert HTML to {{%DOCX%}}, use save options and ICreateStreamProvider parameters and consider examples to illustrate them.
-
-[Convert HTML to XPS](/html/net/converting-between-formats/html-to-xps/) - You learn how to convert an HTML document into XML Paper Specification ({{%XPS%}}) file format, use save options and ICreateStreamProvider parameters.
-
-[Convert HTML to MHTML](/html/net/converting-between-formats/html-to-mhtml/) - You find information on how to convert HTML to {{%MHTML%}} document and consider examples to illustrate the conversion.
-
-[Convert HTML to Markdown](/html/net/converting-between-formats/html-to-markdown/) - You find out the supported HTML to {{%MD%}} conversion scenarios and learn about Features and Limitations for them.
-
+<div class="row">				
+		<ul>
+			<li><a href="/html/net/converting-between-formats/html-to-pdf/">Convert HTML to PDF</a></li>
+			<li><a href="/html/net/converting-between-formats/html-to-docx/">Convert HTML to DOCX</a></li>
+			<li><a href="/html/net/converting-between-formats/html-to-XPS/">Convert HTML to XPS</a></li>					
+		</ul>			
+		<ul>
+			<li><a href="/html/net/converting-between-formats/html-to-jpg/">Convert HTML to JPG</a></li>
+			<li><a href="/html/net/converting-between-formats/html-to-png/">Convert HTML to PNG</a></li>
+			<li><a href="/html/net/converting-between-formats/html-to-bmp/">Convert HTML to BMP</a></li>			
+		</ul>
+		<ul>
+			<li><a href="/html/net/converting-between-formats/html-to-gif/">Convert HTML to GIF</a></li>
+			<li><a href="/html/net/converting-between-formats/html-to-tiff/">Convert HTML to TIFF</a></li>						
+		</ul>
+		<ul>
+			<li><a href="/html/net/converting-between-formats/html-to-markdown/">Convert HTML to Markdown</a></li>
+			<li><a href="/html/net/converting-between-formats/html-to-mhtml/">Convert HTML to MHTML</a></li>			
+		</ul>
+</div>
 {{% alert color="primary" %}} 
 
 Aspose.HTML offers a free online [**HTML Converter**](https://products.aspose.app/html/en/conversion) for converting HTML files to a variety of popular formats. You can easily convert  [HTML to PDF](https://products.aspose.app/html/en/conversion/html-to-pdf), HTML to XPS, [HTML to DOCX](https://products.aspose.app/html/en/conversion/html-to-docx), [HTML to JPG](https://products.aspose.app/html/en/conversion/html-to-jpg), [HTML to PNG](https://products.aspose.app/html/en/conversion/html-to-png), HTML to BMP, HTML to TIFF, [HTML to GIF](https://products.aspose.app/html/en/conversion/html-to-gif), HTML to MD and HTML to MHTML. Just select the file, choose the format to convert, and you're done. It's fast and completely free!

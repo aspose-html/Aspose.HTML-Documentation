@@ -1,11 +1,5 @@
 ﻿using Aspose.Html;
-using Aspose.Html.Converters;
-using Aspose.Html.IO;
 using Aspose.Html.Rendering.Pdf;
-using Aspose.Html.Saving;
-using System;
-using System.Collections.Generic;
-using System.Drawing;
 using System.IO;
 using System.Linq;
 using Xunit;
@@ -24,10 +18,10 @@ namespace Aspose.HTML.Tests.Converting_Between_Formats
         [Fact(DisplayName = "Convert HTML to PDF")]
         public void ConvertHTMLtoPDFTest()
         {
-            // Prepare a path to a source HTML file
+            // Prepare path to a source HTML file
             string documentPath = Path.Combine(DataDir, "spring.html");
 
-            // Prepare a path for converted file saving 
+            // Prepare path for converted file saving 
             string savePath = Path.Combine(OutputDir, "spring-output.pdf");
 
             // Initialize an HTML document from the file

@@ -12,12 +12,7 @@ aliases: /net/converting-between-formats/
 lastmod: 2021-11-09
 ---
 
-Welcome to the "Converting between Formats" guides! The main highlight of Aspose.HTML is the conversion feature. Converting between formats is required for various reasons: to work in a familiar, convenient format or to take advantage of different formats for specific tasks. 
-
-To start work with Aspose.HTML for .NET, please download the latest package from GitHub, or open NuGet package manager,  search for Aspose.HTML and run the following command at NuGet Console Interface:
-{{< highlight java >}}
-PM> Install-Package Aspose.Html
-{{< /highlight >}}
+Welcome to the "Converting between Formats" guides! The main highlight of Aspose.HTML is the conversion feature. Converting between formats is required for various reasons: to work in a familiar, convenient format or to take advantage of different formats for specific tasks. So, Aspose.HTML for .NET offers several ways to convert between formats.
 
 ## **A Few Ways to Convert files**
 
@@ -75,7 +70,7 @@ In the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning
 
 ## **Popular Converters** 
 
-The current chapter describes popular converters, as well as C# examples for most common conversions scenarios. Using the examples, you can understand that the conversion process is quite universal and includes only a few necessary steps. The articles in this chapter provide information on the list of supported conversion scenarios and how to perform them using the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class that groups all low-level conversion operation in a single class to make it comfy and easy to use. Don't delay! Test the conversion between formats!
+The current chapter describes popular converters, as well as C# examples for most common conversions scenarios. Using the examples, you can understand that the conversion process is quite universal and includes only a few necessary steps. The articles in this chapter provide information on the list of supported popular conversions and how to perform them using the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class that groups all low-level conversion operations in a single class to make it comfy and easy to use. Don’t delay! Test the conversion between formats!
 
  - [HTML Converter](/html/net/converting-between-formats/html-converter/) - allows convert an [HTML document](https://apireference.aspose.com/html/net/aspose.html/htmldocument) to {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, {{%GIF%}}, {{%MD%}}, and {{%MHTML %}}.
  - [SVG Converter](/html/net/converting-between-formats/svg-converter/)  - You find information on how to convert {{%SVG %}} to {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, and {{%GIF%}} formats.
