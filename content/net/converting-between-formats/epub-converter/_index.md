@@ -1,12 +1,8 @@
 ---
 title: EPUB Converter | C#
 linktitle: EPUB Converter 
-keywords: epub converter, convert epub, epub to pdf, epub to jpg, convert epub
-  to pdf, convert epub to jpg, epub to xps, epub to png, epub to bmp, epub to
-  gif, epub to tiff.
-description: In this section, you find out how to convert EPUB to PDF, XPS, JPG,
-  PNG, BMP, TIFF and GIF formats using Aspose.HTML API. You consider the
-  supported EPUB conversions and C# examples to illustrate them.
+keywords: epub converter, convert epub, epub to pdf, convert epub to pdf, c# example.
+description: In this article, you will learn about supported EPUB conversions and consider C# example of how to convert EPUB to PDF.
 weight: 40
 type: docs
 url: /net/converting-between-formats/epub-converter/
@@ -52,24 +48,6 @@ In the example, we specify the source path to EPUB file for the ConvertEPUB() me
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}} 
 
- **Popular EPUB Conversions**
-
-<div class="row">				
-		<ul>
-			<li><a href="/html/net/converting-between-formats/epub-to-pdf/">Convert EPUB to PDF</a></li>
-			<li><a href="/html/net/converting-between-formats/epub-to-docx/">Convert EPUB to DOCX</a></li>
-			<li><a href="/html/net/converting-between-formats/epub-to-xps/">Convert EPUB to XPS</a></li>					
-		</ul>			
-		<ul>
-			<li><a href="/html/net/converting-between-formats/epub-to-jpg/">Convert EPUB to JPG</a></li>
-			<li><a href="/html/net/converting-between-formats/epub-to-png/">Convert EPUB to PNG</a></li>
-			<li><a href="/html/net/converting-between-formats/epub-to-bmp/">Convert EPUB to BMP</a></li>			
-		</ul>
-		<ul>
-			<li><a href="/html/net/converting-between-formats/epub-to-gif/">Convert EPUB to GIF</a></li>
-			<li><a href="/html/net/converting-between-formats/epub-to-tiff/">Convert EPUB to TIFF</a></li>						
-		</ul>		
-</div>
 
 {{% alert color="primary" %}} 
 

@@ -1,9 +1,8 @@
 ---
 title: Markdown Converter | C#
 linktitle: Markdown Converter
-keywords: Markdown converter, convert markdown, convert markdown to html, convert
-  markdown to png.
-description: In this article, you will learn how to convert Markdown to other formats using the Aspose.HTML API.
+keywords: Markdown converter, convert markdown, convert markdown to html, markdown to html, convert markdown to jpg, markdown to jpg.
+description: In this article, you learn how to convert Markdown to other formats using Aspose.HTML API and consider C# example of Markdown to JPG conversion.
 weight: 40
 type: docs
 url: /net/converting-between-formats/markdown-converter/
@@ -20,7 +19,7 @@ You can download the complete examples and data files from [**GitHub**](https://
 
 This section provides information on the list of supported Markdown conversions and how to perform them using [ConvertMarkdown()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertmarkdown/index) methods. All of these methods allow for the basic Markdown to HTML conversion. Conversions from Markdown to other formats go through the Markdown to HTML conversion stage.
 
-Please take a look at the following C# example, which shows Markdown to PNG conversion with [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) specifying:
+Please take a look at the following C# example, which shows Markdown to JPG conversion with [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) specifying:
 
 {{< highlight java >}}
 using System.IO;

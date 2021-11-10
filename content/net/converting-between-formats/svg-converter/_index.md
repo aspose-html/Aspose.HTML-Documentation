@@ -1,9 +1,8 @@
 ---
 title: SVG Converter | C#
 linktitle: SVG Converter
-keywords: svg converter, convert svg, svg to pdf, svg to jpg, svg to docx, svg
-  to png, svg to bmp, svg to gif, svg to tiff
-description: In this article, you find out the supported SVG conversions and consider C# examples to illustrate them.
+keywords: svg converter, convert svg, svg to png, convert svg to png, c#example
+description: In this article, you learn how to convert SVG to other formats using Aspose.HTML API and consider a C# example of SVG to PNG conversion.
 weight: 40
 type: docs
 url: /net/converting-between-formats/svg-converter/

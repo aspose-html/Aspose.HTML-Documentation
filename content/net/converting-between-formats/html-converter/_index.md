@@ -1,11 +1,8 @@
 ---
 title: HTML Converter | C#
 linktitle: HTML Converter
-keywords: HTML converter, convert html, html to pdf, html to jpg, html to docx,
-  html to png, html to bmp, html to gif, html to tiff, html to md, html to xps.
-description: In this article, you learn how to convert HTML to PDF, XPS, DOCX,
-  MD, MHTML and Image formats using Aspose.HTML API. You find out the supported
-  HTML conversion scenarios and consider examples to illustrate them.
+keywords: HTML converter, convert html, html to png, convert html to png, c# example.
+description: In this article, you learn how to convert HTML to other formats using Aspose.HTML API. You find a list of supported HTML conversions and consider C# example of HTML to PNG conversion.
 weight: 10
 type: docs
 url: /net/converting-between-formats/html-converter/
@@ -18,7 +15,7 @@ The main highlight of Aspose.HTML is a conversion feature. Converting between fo
 
 ## **How to Convert HTML**
 
-This section gives information on the list of supported HTML conversions and how to perform them using the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class that groups all low-level conversion operations in a single class to make them comfy and easy to use. 
+This article gives information on the list of supported HTML conversions and how to perform them using the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class that groups all low-level conversion operations in a single class to make them comfy and easy to use. 
 
 {{% alert color="primary" %}} 
 
@@ -38,6 +35,7 @@ using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
 ...
         
+
     // Initialize an HTML document from a file
     using var document = new HTMLDocument(Path.Combine(DataDir, "nature.html"));
     
