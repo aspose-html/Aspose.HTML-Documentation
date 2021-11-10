@@ -52,7 +52,6 @@ Please take a look over the following C# code snippet which shows the process of
 
 {{< highlight java >}}
 using System.IO;
-using Aspose.Html;
 using Aspose.Html.Converters;
 using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
@@ -60,6 +59,7 @@ using Aspose.Html.Saving;
     // Open an existing MHTML file for reading
     using var stream = File.OpenRead(DataDir + "sample.mht");
                 
+
     // Create an instance of ImageSaveOptions
     var options = new ImageSaveOptions(ImageFormat.Jpeg);
     
@@ -84,7 +84,6 @@ The following C# code snippet shows how to convert MHTML to PNG using Aspose.HTM
 
 {{< highlight java >}}
 using System.IO;
-using Aspose.Html;
 using Aspose.Html.Converters;
 using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
@@ -111,7 +110,6 @@ Please take a look over the following C# code snippet which shows the process of
 
 {{< highlight java >}}
 using System.IO;
-using Aspose.Html;
 using Aspose.Html.Converters;
 using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
@@ -144,7 +142,6 @@ Please take a look over the following C# code snippet which shows the process of
 
 {{< highlight java >}}
 using System.IO;
-using Aspose.Html;
 using Aspose.Html.Converters;
 using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
@@ -170,7 +167,6 @@ Please take a look over the following C# code snippet, which shows the process o
 
 {{< highlight java >}}
 using System.IO;
-using Aspose.Html;
 using Aspose.Html.Converters;
 using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
@@ -223,7 +219,6 @@ The ImageSaveOptions class provides numerous properties that give you full contr
 
 {{< highlight java >}}
 using System.IO;
-using Aspose.Html;
 using Aspose.Html.Converters;
 using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
@@ -313,7 +308,6 @@ using System.Collections.Generic;
 
 {{< highlight java >}}
 using System.IO;
-using Aspose.Html;
 using System.Linq;
 using Aspose.Html.Converters;
 using Aspose.Html.Saving;

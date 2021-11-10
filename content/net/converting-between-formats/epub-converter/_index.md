@@ -17,19 +17,17 @@ lastmod: 2021-11-10
 
 The main highlight of Aspose.HTML is the conversion feature. EPUB is an open XML-based format for digital books and publications that can be viewed and read on a variety of devices. EPUB conversions are often required to take advantage of other formats.  The [Aspose.Html.Converters](https://apireference.aspose.com/html/net/aspose.html.converters) namespace implements easy access to conversion methods. It provides a wide range of EPUB conversions to popular formats, such as {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, and {{%GIF%}}.
 
-This section provides information on the list of supported EPUB conversions and how to perform them using the [Converter.ConvertEPUB](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertepub/index) methods.  It can be different scenarios, but any EPUB conversion can be made with a few required steps: 
+This section provides information on the list of supported EPUB conversions and how to perform them using  [Converter.ConvertEPUB](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertepub/index) methods.  It can be different scenarios, but any EPUB conversion can be made with a few required steps: 
 
-1. Load an existing EPUB file. In the example, we pass the EPUB file source path to ConvertEPUB() method.
-2. Create an instance of [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions).
-3. Use the [ConvertEPUB()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertepub/methods/45) method of the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class to save EPUB as a PDF file. To convert an EPUB to a PDF, you need to pass the EPUB file source path, PdfSaveOptions, and output file path to the ConvertEPUB() method.
+1. Load an existing EPUB file. 
+2. Create a Save Options object. You may customize the rendering process to get the desired result.
+3. Use one of the [ConvertEPUB()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertepub/index) methods and pass the required parameters to it.
 
 Let's consider the following code snippet that shows how to convert EPUB to PDF:
 
 {{< highlight java >}}
 using System.IO;
-using Aspose.Html;
 using Aspose.Html.Converters;
-using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
 ...        
 
@@ -46,7 +44,13 @@ using Aspose.Html.Saving;
     Converter.ConvertEPUB(sourcePath, options, outputPath);
 {{< /highlight >}}
 
+In the example, we specify the source path to EPUB file for the ConvertEPUB() method. The PdfSaveOptions() constructor creates an instance of [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) with default options. The [ConvertEPUB()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertepub/methods/45) method of the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class takes the EPUB file source path, PdfSaveOptions, and output file path and performs EPUB to PDF conversion.
+
 **Note:** You need to specify the path to the source and output file in *your local file system* (`sourcePath` and `outputPath`). 
+
+{{% alert color="primary" %}}
+You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
+{{% /alert %}} 
 
  **Popular EPUB Conversions**
 

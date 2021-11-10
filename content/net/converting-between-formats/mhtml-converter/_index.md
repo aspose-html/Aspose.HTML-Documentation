@@ -20,7 +20,6 @@ The main highlight of Aspose.HTML is a conversion feature. The [Aspose.Html.Conv
 Please take a look over the following C# code snippet that shows the MHTML to PNG conversion using the [ConvertMHTML(`stream, options, outputPath`)](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertmhtml/methods/27) method.
 {{< highlight java >}}
 using System.IO;
-using Aspose.Html;
 using Aspose.Html.Converters;
 using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
