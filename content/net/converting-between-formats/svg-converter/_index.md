@@ -18,7 +18,7 @@ The main highlight of Aspose.HTML is the conversion feature. Converting between 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}} 
 
-The articles in this section provide information on the list of supported SVG conversions and how to perform them using  [ConverterSVG()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods.  It can be different scenarios, but any SVG conversion can be made with a few required steps: 
+The articles in this section provide information on the list of supported SVG conversions and how to perform them using  [ConvertSVG()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods.  It can be different scenarios, but any SVG conversion can be made with a few required steps: 
 
 1. Load an SVG document. You can load SVG from a file, SVG code, stream, or URL.
 2. Create a Save Options object. You may customize the rendering process to get the desired result.
@@ -30,6 +30,7 @@ Please take a look over the following C# code snippet, which shows the process o
 using System.IO;
 using Aspose.Html.Dom.Svg;
 using Aspose.Html.Converters;
+using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
 using System.Drawing;
 using System.Drawing.Drawing2D;
@@ -55,7 +56,7 @@ using System.Drawing.Drawing2D;
     Converter.ConvertSVG(document, options, outputPath);
 {{< /highlight >}} 
 
-In the example, the [SVGDocument(`address`)](https://apireference.aspose.com/html/net/aspose.html.dom.svg/svgdocument/constructors/10) constructor initializes an SVG document from the file. The ImageSaveOptions() constructor creates a new [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) object with PNG ImageFormat,  SmoothingMode and BackgroundColor properties. By default, the Format property is PNG. Then, the [ConvertSVG()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/3) method takes SVGDocument,  ImageSaveOptionss, and output path and performs SVG to PNG conversion.
+In the example, the [SVGDocument(`address`)](https://apireference.aspose.com/html/net/aspose.html.dom.svg/svgdocument/constructors/10) constructor initializes an SVG document from the file. The ImageSaveOptions() constructor creates a new [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) object with PNG ImageFormat,  SmoothingMode and BackgroundColor properties. By default, the Format property is PNG. Then, the [ConvertSVG()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/3) method takes SVGDocument,  ImageSaveOptions, and output path and performs SVG to PNG conversion.
 
 {{% alert color="primary" %}} 
 Aspose.HTML offers free online [**SVG Converters**](https://products.aspose.app/svg/en/conversion) for converting SVG files to a variety of popular formats. You can easily convert  [SVG to PDF](https://products.aspose.app/svg/en/conversion/svg-to-pdf), SVG to XPS, [SVG to JPG](https://products.aspose.app/svg/en/conversion/svg-to-jpg), [SVG to PNG](https://products.aspose.app/svg/en/conversion/svg-to-png), SVG to BMP, SVG to TIFF, or SVG to GIF. Just select the file, choose the format to convert, and you're done. It's fast and completely free!

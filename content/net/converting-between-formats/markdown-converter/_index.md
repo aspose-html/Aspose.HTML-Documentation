@@ -4,33 +4,54 @@ linktitle: Markdown Converter
 keywords: Markdown converter, convert markdown, convert markdown to pdf, convert
   markdown to jpg, markdown to pdf, markdown to jpg, markdown to docx, markdown
   to png, markdown to xps, markdown to gif, markdown to tiff.
-description: In this article, you find out how to convert Markdown to PDF, DOCX,
-  XPS, JPG, PNG, BMPL, GIF and TIFF formats using Aspose.HTML API.
+description: In this article, you will learn how to convert Markdown to other formats using the Aspose.HTML API.
 weight: 40
 type: docs
 url: /net/converting-between-formats/markdown-converter/
-lastmod: 2021-09-03
+lastmod: 2021-11-10
 ---
+
+Markdown is a lightweight markup language designed to indicate formatting in plain text. MD files use Markdown language that was proposed and developed by John Gruber. They include inline text characters that determine how text is formatted, such as indentation, table formatting, fonts, and headings. In addition, MD files can be converted to HTML, PDF or images to take advantage of other formats for specific tasks. 
 
 The main highlight of Aspose.HTML is a conversion feature. The [Aspose.Html.Converters](https://apireference.aspose.com/html/net/aspose.html.converters) namespace implements easy access to conversion methods. It provides a wide range of conversions to popular formats, such as Markdown to HTML, Markdown to DOCX, or Markdown to PDF. 
 
-This section provides information on the list of supported Markdown conversion scenarios and how to perform them using a [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class that groups all low-level conversion operations in a single class to make them comfy and easy to use.
+{{% alert color="primary" %}}
+You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
+{{% /alert %}} 
 
-In the **Markdown Converter** guide, you find the following articles:
+This section provides information on the list of supported Markdown conversions and how to perform them using [ConvertMarkdown()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertmarkdown/index) methods. All of these methods allow for the basic Markdown to HTML conversion. Conversions from Markdown to other formats go through the Markdown to HTML conversion stage.
 
-[Convert Markdown to HTML](/html/net/converting-between-formats/markdown-to-html/) - You learn how to convert Markdown to {{%HTML%}} file using the Aspose.HTML API and consider examples to illustrate the conversion.
+Please take a look at the following C# example, which shows Markdown to PNG conversion with [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) specifying:
 
-[Convert Markdown to PDF](/html/net/converting-between-formats/markdown-to-pdf/) - You learn how to convert Markdown to {{%PDF%}} file using the Aspose.HTML API, find out the supported Markdown to PDF conversion scenarios and consider examples to illustrate them.
+{{< highlight java >}}
+using System.IO;
+using Aspose.Html.Converters;
+using Aspose.Html.Rendering.Image;
+using Aspose.Html.Saving;
+using System.Drawing;
+...  
 
-[Convert Markdown to XPS](/html/net/converting-between-formats/markdown-to-xps/) - You learn how to convert Markdown to {{%XPS%}} using the Aspose.HTML API.
+    // Prepare a path to a source Markdown file
+    string sourcePath = Path.Combine(DataDir, "nature.md");            
+    
+    // Prepare a path for converted file saving 
+    string outputPath = Path.Combine(OutputDir, "nature-options.jpg");
+    
+    // Convert Markdown to HTML
+    using var document = Converter.ConvertMarkdown(sourcePath);
+    
+    // Initialize an instance of ImageSaveOptions 
+    var options = new ImageSaveOptions(ImageFormat.Jpeg)
+    {
+        BackgroundColor = Color.AliceBlue
+    };
+    
+    // Convert HTML document to JPG image file format
+    Converter.ConvertHTML(document, options, outputPath);
 
-[Convert Markdown to DOCX](/html/net/converting-between-formats/markdown-to-docx/) - You learn how to convert Markdown to {{%DOCX%}} and consider examples to illustrate conversion scenarios.
+{{< /highlight >}} 
 
-[Convert Markdown to Image](/html/net/converting-between-formats/markdown-to-image/) - You learn how to convert Markdown to {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, or {{%GIF%}} images using the Aspose.HTML API and apply image save options.
-
-[Markdown Syntax](/html/net/converting-between-formats/markdown-syntax/) - This article contains information on the main elements of the Markdown markup language and examples of Markdown syntax. 
-
-
+In the example, the [ConvertMarkdown(`sourcePath`)](https://apireference.aspose.com/html/net/aspose.html.dom.svg/svgdocument/constructors/10) method takes the source path of an Markdown file and results an [HTMLDocument](https://apireference.aspose.com/html/net/aspose.html/htmldocument). The ImageSaveOptions() constructor creates a new [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) object with JPG ImageFormat and BackgroundColor properties. Then, the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/3) method takes HTMLDocument, ImageSaveOptions, and output path and completes the Markdown to JPG conversion.
 
 {{% alert color="primary" %}} 
 
