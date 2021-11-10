@@ -16,6 +16,8 @@ lastmod: 2021-11-09
 
 The main highlight of Aspose.HTML is a conversion feature. Converting between formats is required for various reasons: to work in a familiar, convenient format or to take advantage of different formats for specific tasks. The [Aspose.Html.Converters](https://apireference.aspose.com/html/net/aspose.html.converters) namespace implements easy access to conversion methods. It provides a wide range of HTML conversions to popular formats, such as {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, {{%GIF%}}, {{%MHTML%}},  and {{%MD%}}. 
 
+## **How to Convert HTML**
+
 This section gives information on the list of supported HTML conversions and how to perform them using the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class that groups all low-level conversion operations in a single class to make them comfy and easy to use. 
 
 {{% alert color="primary" %}} 
@@ -50,28 +52,44 @@ using Aspose.Html.Saving;
 
 
 
- **Popular Conversions**
+## **Popular HTML Conversions**
 
 
-<div class="row">				
+<div class="row">
+	<div class="col-md-3">
+		<h3>Convert HTML to PDF, XPS</h3>				
 		<ul>
 			<li><a href="/html/net/converting-between-formats/html-to-pdf/">Convert HTML to PDF</a></li>
-			<li><a href="/html/net/converting-between-formats/html-to-docx/">Convert HTML to DOCX</a></li>
+			<li><a href="/html/net/converting-between-formats/html-to-pdf/#convert-html-to-pdf-using-pdfsaveoptions">Convert HTML to PDF using PdfSaveOptions</a></li>
+			<li><a href="/html/net/converting-between-formats/html-to-pdf/#output-stream-providers">Convert HTML to PDF using MemoryStreamProvider</a></li>
 			<li><a href="/html/net/converting-between-formats/html-to-xps/">Convert HTML to XPS</a></li>					
-		</ul>			
+		</ul>
+	</div>
+	<div class="col-md-3">
+		<h3>Convert HTML to Word</h3>	
+		<ul>
+			<li><a href="/html/net/converting-between-formats/html-to-docx/">Convert HTML to DOCX</a></li>
+			<li><a href="/html/net/converting-between-formats/html-to-docx/#convert-html-to-docx-using-docsaveoptions">Convert HTML to DOCX using DocSaveOptions</a></li>
+			<li><a href="/html/net/converting-between-formats/html-to-docx/#output-stream-providers">Convert HTML to DOCX using MemoryStreamProvider</a></li>
+	</div>
+	<div class="col-md-3">
+		<h3>Convert HTML to Image</h3>	
+		</ul>
 		<ul>
 			<li><a href="/html/net/converting-between-formats/html-to-jpg/">Convert HTML to JPG</a></li>
 			<li><a href="/html/net/converting-between-formats/html-to-png/">Convert HTML to PNG</a></li>
-			<li><a href="/html/net/converting-between-formats/html-to-bmp/">Convert HTML to BMP</a></li>			
-		</ul>
-		<ul>
+			<li><a href="/html/net/converting-between-formats/html-to-bmp/">Convert HTML to BMP</a></li>
 			<li><a href="/html/net/converting-between-formats/html-to-gif/">Convert HTML to GIF</a></li>
 			<li><a href="/html/net/converting-between-formats/html-to-tiff/">Convert HTML to TIFF</a></li>						
 		</ul>
+	</div>
+	<div class="col-md-3">
+		<h3>Convert HTML to Web Formats</h3>
 		<ul>
 			<li><a href="/html/net/converting-between-formats/html-to-markdown/">Convert HTML to Markdown</a></li>
 			<li><a href="/html/net/converting-between-formats/html-to-mhtml/">Convert HTML to MHTML</a></li>			
 		</ul>
+	</div>	
 </div>
 {{% alert color="primary" %}} 
 

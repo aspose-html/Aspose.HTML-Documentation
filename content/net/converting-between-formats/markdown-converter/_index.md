@@ -1,9 +1,8 @@
 ---
 title: Markdown Converter | C#
 linktitle: Markdown Converter
-keywords: Markdown converter, convert markdown, convert markdown to pdf, convert
-  markdown to jpg, markdown to pdf, markdown to jpg, markdown to docx, markdown
-  to png, markdown to xps, markdown to gif, markdown to tiff.
+keywords: Markdown converter, convert markdown, convert markdown to html, convert
+  markdown to png.
 description: In this article, you will learn how to convert Markdown to other formats using the Aspose.HTML API.
 weight: 40
 type: docs
