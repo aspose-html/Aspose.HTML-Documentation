@@ -16,7 +16,7 @@ lastmod: 2021-11-09
 
 The main highlight of Aspose.HTML is a conversion feature. Converting between formats is required for various reasons: to work in a familiar, convenient format or to take advantage of different formats for specific tasks. The [Aspose.Html.Converters](https://apireference.aspose.com/html/net/aspose.html.converters) namespace implements easy access to conversion methods. It provides a wide range of HTML conversions to popular formats, such as {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, {{%GIF%}}, {{%MHTML%}},  and {{%MD%}}. 
 
-This section gives information on the list of supported HTML conversions and how to perform them using a [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class that groups all low-level conversion operations in a single class to make them comfy and easy to use. 
+This section gives information on the list of supported HTML conversions and how to perform them using the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class that groups all low-level conversion operations in a single class to make them comfy and easy to use. 
 
 {{% alert color="primary" %}} 
 
@@ -57,7 +57,7 @@ using Aspose.Html.Saving;
 		<ul>
 			<li><a href="/html/net/converting-between-formats/html-to-pdf/">Convert HTML to PDF</a></li>
 			<li><a href="/html/net/converting-between-formats/html-to-docx/">Convert HTML to DOCX</a></li>
-			<li><a href="/html/net/converting-between-formats/html-to-XPS/">Convert HTML to XPS</a></li>					
+			<li><a href="/html/net/converting-between-formats/html-to-xps/">Convert HTML to XPS</a></li>					
 		</ul>			
 		<ul>
 			<li><a href="/html/net/converting-between-formats/html-to-jpg/">Convert HTML to JPG</a></li>
@@ -80,4 +80,3 @@ Aspose.HTML offers a free online [**HTML Converter**](https://products.aspose.ap
 You can download the complete C# examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 
 {{% /alert %}} 
-
