@@ -5,9 +5,10 @@ type: docs
 weight: 20
 description: The article provides general information on creating custom message handlers for different popular use cases using Aspose.HTML for .NET - convert ZIP to PDF, convert ZIP to JPG, log a web request execution time.   
 keywords: message handler, ZIP to PDF, ZIP to JPG, zip archive, web request
-lastmod: 2021-10-21
-changefreq: weekly
-priority: 0.7
+lastmod: "2021-11-17"
+sitemap:
+    changefreq: "monthly"
+    priority: 0.8
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -35,8 +36,6 @@ Sometimes you need to get the total time taken for a Web request to flow through
 {{% alert color="primary" %}} 
 Aspose.HTML offers a free online [**ZIP Converter**](https://products.aspose.app/html/en/conversion/zip) for converting ZIP files to a variety of popular formats. You can easily convert [ZIP to PDF](https://products.aspose.app/html/en/conversion/zip-to-pdf), ZIP to XPS,  [ZIP to JPG](https://products.aspose.app/html/en/conversion/zip-to-jpg), ZIP to DOCX, [ZIP to PNG](https://products.aspose.app/html/en/conversion/zip-to-png), ZIP to BMP, ZIP to TIFF, ZIP to GIF, ZIP to MD and ZIP to MHTML. Just select the file, choose the format to convert, and you’re done. It’s fast and completely free!
 {{% /alert %}}
-
-
 
 
 

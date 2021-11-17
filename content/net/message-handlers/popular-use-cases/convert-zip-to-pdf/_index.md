@@ -6,9 +6,10 @@ weight: 10
 url: /net/message-handlers/convert-zip-to-pdf/
 description: In the article, the example of a message handler creating for working with zip archives is considered. The implementation of converting zip to pdf is shown.
 keywords: zip to pdf, convert zip to pdf, message handler, custom message handler
-lastmod: 2021-10-21
-changefreq: weekly
-priority: 0.7
+lastmod: "2021-11-17"
+sitemap:
+    changefreq: "monthly"
+    priority: 0.8
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />

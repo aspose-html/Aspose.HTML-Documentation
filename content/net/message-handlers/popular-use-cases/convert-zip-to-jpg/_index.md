@@ -6,9 +6,10 @@ weight: 20
 url: /net/message-handlers/convert-zip-to-jpg/
 description: In the article, the example of a message handler creating for working with zip archives is considered. The implementation of converting zip to jpg is shown.
 keywords: message handler, zip to jpg, convert zip to jpg
-lastmod: 2021-10-21
-changefreq: weekly
-priority: 0.7
+lastmod: "2021-11-17"
+sitemap:
+    changefreq: "monthly"
+    priority: 0.8
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
@@ -16,7 +17,7 @@ priority: 0.7
 {{% alert color="primary" %}} 
 In this article, we create a custom Message Handler to do a specific task - convert ZIP to JPG.
 
-You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
+You can download the complete C# examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
 
 Aspose.HTML offers a free online [**ZIP to JPG Converter**](https://products.aspose.app/html/en/conversion/zip-to-jpg) that converts ZIP to JPG with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
