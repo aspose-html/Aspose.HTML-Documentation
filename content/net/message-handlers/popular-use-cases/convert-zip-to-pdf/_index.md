@@ -8,7 +8,7 @@ description: In the article, the example of a message handler creating for worki
 keywords: zip to pdf, convert zip to pdf, message handler, custom message handler
 lastmod: "2021-11-17"
 sitemap:
-    changefreq: "monthly"
+    changefreq: "weekly"
     priority: 0.8
 ---
 

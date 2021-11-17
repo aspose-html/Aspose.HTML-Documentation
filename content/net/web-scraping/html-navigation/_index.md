@@ -6,6 +6,10 @@ weight: 10
 aliases: /net/html-navigation/
 description: In this article, you find the description of how to perform a detailed inspection of the HTML document and its elements using the API, about custom filters usage for iterating over the document elements, how to navigate over the document by using CSS Selector or XPath.
 keywords: HTML navigation, DOM, XPath, XPath Query, CSS selector, custom filter, C# example
+lastmod: "2021-11-17"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.7
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />

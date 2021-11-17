@@ -7,7 +7,7 @@ description: The article provides general information on creating custom message
 keywords: message handler, custom message handler, web request
 lastmod: "2021-11-17"
 sitemap:
-    changefreq: "monthly"
+    changefreq: "weekly"
     priority: 0.8
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />

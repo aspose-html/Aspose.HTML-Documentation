@@ -8,7 +8,7 @@ description: In this article, you find an example of custom message handlers to 
 keywords: zip to pdf, convert zip to pdf, message handler, custom message handler, web request, time logging, ZIP archive
 lastmod: "2021-11-17"
 sitemap:
-    changefreq: "monthly"
+    changefreq: "weekly"
     priority: 0.8
 ---
 

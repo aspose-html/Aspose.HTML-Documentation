@@ -6,6 +6,10 @@ weight: 40
 aliases: /net/web-scraping/
 description: This section describes how to navigate through an HTML document and perform a detailed inspection of its elements and extract data, such as video and audio from the web pages using Aspose.HTML for .NET. You will find C # examples for getting specific video information and downloading YouTube, YouKu and Zoom videos.
 keywords: web scraping, data scrapers, html navigation, XPath, CSS selector, extract data, video download
+lastmod: "2021-11-17"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.7
 ---
 
 <link href="./../style.css" rel="stylesheet" type="text/css" />

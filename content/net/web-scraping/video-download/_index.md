@@ -6,6 +6,10 @@ description: In this article, you find the description and a few C# examples of 
 weight: 20
 type: docs
 aliases: /net/how-to-download-video/
+lastmod: "2021-11-17"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.8
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />

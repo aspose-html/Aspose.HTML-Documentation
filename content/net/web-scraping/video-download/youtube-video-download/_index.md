@@ -7,6 +7,10 @@ description: In this article, you find the description and a few C# examples of 
 weight: 10
 type: docs
 url: /net/web-scraping/download-youtube-videos/
+lastmod: "2021-11-17"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.8
 
 ---
 
