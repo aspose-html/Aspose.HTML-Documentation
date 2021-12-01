@@ -36,6 +36,7 @@ jobs:
 
       - name: hugo build
         run: |
+          go version
            cd ${{secrets.HUGO_SITE_LOCATION}}
            ./bin/hugo mod tidy
            ./bin/hugo mod graph
