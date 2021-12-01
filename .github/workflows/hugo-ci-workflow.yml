@@ -24,8 +24,8 @@ jobs:
           ls -lA
           ls -lA layouts
           ls -lA themes
-          sudo npm install -D --save autoprefixer
-          sudo npm install -D --save postcss-cli
+          # sudo npm install -D --save autoprefixer
+          # sudo npm install -D --save postcss-cli
       - name: preparing workspace clean public folder
         run: |
           cd ${{secrets.HUGO_SITE_LOCATION}}
@@ -37,14 +37,14 @@ jobs:
       - name: hugo build
         run: |
           go version
-          cd ${{secrets.HUGO_SITE_LOCATION}}
-          ./bin/hugo mod tidy
-          ./bin/hugo mod graph
-          ./bin/hugo mod verify
-          ./bin/hugo version
-          # hugo --minify --baseURL https://docs.aspose.com/html
-          sudo ./bin/hugo -c content --debug --log --print-mem --templateMetrics --minify -v --baseURL https://docs.aspose.com/html
-          rsync --recursive --delete --force -e "ssh" --progress public/ ${{ secrets.TRANSFERPATH }}
+          # cd ${{secrets.HUGO_SITE_LOCATION}}
+          # ./bin/hugo mod tidy
+          # ./bin/hugo mod graph
+          # ./bin/hugo mod verify
+          # ./bin/hugo version
+          # # hugo --minify --baseURL https://docs.aspose.com/html
+          # sudo ./bin/hugo -c content --debug --log --print-mem --templateMetrics --minify -v --baseURL https://docs.aspose.com/html
+          # rsync --recursive --delete --force -e "ssh" --progress public/ ${{ secrets.TRANSFERPATH }}
       - name: hugo deploy
         uses: appleboy/ssh-action@master
         with:
