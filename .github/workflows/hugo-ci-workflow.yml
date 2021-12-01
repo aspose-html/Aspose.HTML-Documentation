@@ -19,7 +19,6 @@ jobs:
           git reset --hard origin/main
       - name: preparing workspace npm install dependencies
         run: |
-          sudo apt install golang
           cd ${{secrets.HUGO_SITE_LOCATION}}
           pwd
           ls -lA
@@ -37,15 +36,16 @@ jobs:
 
       - name: hugo build
         run: |
+          export PATH=$PATH:/usr/local/go/bin
           go version
-          # cd ${{secrets.HUGO_SITE_LOCATION}}
-          # ./bin/hugo mod tidy
-          # ./bin/hugo mod graph
-          # ./bin/hugo mod verify
-          # ./bin/hugo version
-          # # hugo --minify --baseURL https://docs.aspose.com/html
-          # sudo ./bin/hugo -c content --debug --log --print-mem --templateMetrics --minify -v --baseURL https://docs.aspose.com/html
-          # rsync --recursive --delete --force -e "ssh" --progress public/ ${{ secrets.TRANSFERPATH }}
+           cd ${{secrets.HUGO_SITE_LOCATION}}
+           ./bin/hugo mod tidy
+           ./bin/hugo mod graph
+           ./bin/hugo mod verify
+           ./bin/hugo version
+           # hugo --minify --baseURL https://docs.aspose.com/html
+           sudo ./bin/hugo -c content --debug --log --print-mem --templateMetrics --minify -v --baseURL https://docs.aspose.com/html
+           rsync --recursive --delete --force -e "ssh" --progress public/ ${{ secrets.TRANSFERPATH }}
       - name: hugo deploy
         uses: appleboy/ssh-action@master
         with:
