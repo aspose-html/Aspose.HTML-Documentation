@@ -2,7 +2,6 @@ baseURL = "/"
 title = "Documentation"
 #defaultContentLanguage = "en"
 
-topbar_search_active = true
 
 enableRobotsTXT = true
 

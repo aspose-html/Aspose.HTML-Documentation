@@ -5,7 +5,7 @@ logo_rel_link = ""
 basePath = "/html"
 # Title of 404 page
 title_404_page = "404 - Page Not Found | Aspose Documentation"
-
+topbar_search_active = true
 # Open Grapgh settings
 title = "Aspose Documentation"
 images = ["images/Aspose-image-for-open-graph.jpg"]
