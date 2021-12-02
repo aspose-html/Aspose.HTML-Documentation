@@ -1,11 +1,10 @@
 copyright = "The Aspose Authors"
 privacy_policy = "https://policies.google.com/privacy"
-topbar_search_active = false
+topbar_search_active = true
 logo_rel_link = ""
 basePath = "/html"
 # Title of 404 page
 title_404_page = "404 - Page Not Found | Aspose Documentation"
-topbar_search_active = true
 # Open Grapgh settings
 title = "Aspose Documentation"
 images = ["images/Aspose-image-for-open-graph.jpg"]
@@ -23,7 +22,7 @@ sidebar_menu_compact = true
 #  Set to true to disable breadcrumb navigation.
 breadcrumb_disable = false
 #  Set to true to hide the sidebar search box (the top nav search box will still be displayed if search is enabled)
-sidebar_search_disable = true
+sidebar_search_disable = false
 #  Set to false if you don't want to display a logo (/assets/icons/logo.svg) in the top nav bar
 navbar_logo = false
 # Set to true to disable the About link in the site footer
