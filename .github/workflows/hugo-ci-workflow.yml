@@ -36,8 +36,6 @@ jobs:
 
       - name: hugo build
         run: |
-          export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/go/bin
-          go version
            cd ${{secrets.HUGO_SITE_LOCATION}}
            ./bin/hugo mod tidy
            ./bin/hugo mod graph
