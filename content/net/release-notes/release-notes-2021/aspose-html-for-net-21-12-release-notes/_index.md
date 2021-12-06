@@ -2,6 +2,7 @@
 title: Aspose.HTML for .NET 21.12 Release Notes
 weight: 10
 type: docs
+url: /net/aspose-html-for-net-21-12-release-notes
 ---
 {{% alert color="primary" %}}
 
@@ -25,7 +26,6 @@ In this release we have made various improvements to our parsing and saving algo
 |HTMLNET-3494|NET 6 - Aspose.HTML.ConvertToHTML throws System.TypeInitializationException|Bug|
 |HTMLNET-3386|Issue while setting license in .NET 6.0 Framework|Bug|
 |HTMLNET-3503|Investigate Aspose.HTML support for .NET 6.0|Task|
-
 
 ## **Public API and Backward Incompatible Changes**
 
