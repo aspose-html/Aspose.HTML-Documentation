@@ -59,7 +59,7 @@ namespace Aspose.Html.Rendering.Fonts
         /// <param name="fontMatchingProperties">Properties of the matched font.</param>
         /// <param name="charCode">Code of the character which will be rendered using the matched font.</param>
         /// <returns>A byte array containing the fonts data or <c>null</c>.</returns>
-        public abstract byte[] MatchFallbackFont(FontMatchingProperties fontMatchingProperties, uint charCode);
+        public abstract byte[] MatchFontFallback(FontMatchingProperties fontMatchingProperties, uint charCode);
     }
 }
 ```
