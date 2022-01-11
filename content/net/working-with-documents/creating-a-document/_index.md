@@ -4,7 +4,6 @@ type: docs
 weight: 20
 aliases:
     - /net/creating-a-document/
-    - /display/htmlnet/Creating+a+Document
 description: Create an Empty HTML Document, Create HTML from a String, Create HTML from a Stream, Load HTML from a File, Load HTML from the Web, Reading HTML with Resources Async, SVG Document, MHTML Document, EPUB Document
 ---
 
