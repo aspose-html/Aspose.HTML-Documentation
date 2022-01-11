@@ -4,7 +4,6 @@ type: docs
 weight: 100
 aliases:
     - /net/aspose-html-for-net-18-4-release-notes/
-    - /display/htmlnet/Aspose.HTML+for+.NET+18.4+Release+Notes
 ---
 
 ### **Aspose.HTML for .NET 18.4 Release Notes**
