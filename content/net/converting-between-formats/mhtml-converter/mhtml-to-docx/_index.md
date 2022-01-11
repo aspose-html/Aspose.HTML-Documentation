@@ -9,7 +9,7 @@ description: This article provides information on how to convert MHTML to DOCX
 weight: 30
 type: docs
 url: /net/converting-between-formats/mhtml-to-docx/
-lastmod: 2021-09-03
+lastmod: 2022-01-11
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -18,10 +18,10 @@ MHTML to DOCX conversion is often required to take advantage of DOCX format for 
 In this article, you find information on how to convert {{%MHTML%}} to {{%DOCX%}} using ConvertMHTML() methods of the Converter class and how to apply [DocSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/mhtml-to-docx" target="_blank">**MHTML to DOCX Converter**</a> that converts MHTML to DOCX file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/mhtml-to-docx" target="_blank">**MHTML to DOCX Converter**</a> that converts MHTML to DOCX file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/en/conversion/mhtml-to-docx" target="_blank">![Text "Banner MHTML to DOCX Converter"](mhtml-to-docx.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/mhtml-to-docx" target="_blank">![Text "Banner MHTML to DOCX Converter"](mhtml-to-docx.png#center)</a>
 
 ## **MHTML to DOCX by two lines of code**
 
@@ -208,7 +208,7 @@ using Aspose.Html.Saving;
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
-You can check the quality of MHTML to DOCX conversion with our online [**MHTML to DOCX Converter**](https://products.aspose.app/html/en/conversion/mhtml-to-docx). You can convert multiple MHTML files to DOCX and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful MHTML to DOCX Converter for free now!
+You can check the quality of MHTML to DOCX conversion with our online [**MHTML to DOCX Converter**](https://products.aspose.app/html/conversion/mhtml-to-docx). You can convert multiple MHTML files to DOCX and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful MHTML to DOCX Converter for free now!
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}

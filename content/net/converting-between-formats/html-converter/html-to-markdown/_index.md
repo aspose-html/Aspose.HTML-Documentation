@@ -10,7 +10,7 @@ aliases:
     - /net/converting-between-formats/html-to-markdown-conversion/
 description: This article provides information on how to convert HTML to Markdown using the Aspose.HTML API. You will learn about the supported HTML to Markdown conversion scenarios and consider examples to illustrate them.  
 keywords: HTML to Markdown, convert HTML to Markdown, HTML to Markdown conversion, HTML to Markdown converter, save options
-lastmod: "2021-09-03"
+lastmod: "2022-01-11"
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
@@ -20,11 +20,11 @@ lastmod: "2021-09-03"
 In this article, you find information on how to convert  HTML to {{%MD%}} using [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class, and how to apply [MarkdownSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions).
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/html-to-md" target="_blank">**HTML to MD Converter**</a> that converts HTML to Markdown with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-md" target="_blank">**HTML to MD Converter**</a> that converts HTML to Markdown with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/en/conversion/html-to-md" target="_blank">![Text "Banner HTML to MD Converter"](html-to-md.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/html-to-md" target="_blank">![Text "Banner HTML to MD Converter"](html-to-md.png#center)</a>
 
 ## **HTML to Markdown by a few lines of code**
 
@@ -168,7 +168,7 @@ Markdown supports a lot of features, but not all of them can be used together. A
 |Strong |Link, InlineCode, Image, LineBreak, Strikethrough, Video|
 
 {{% alert color="primary" %}}
-You can check the quality of HTML to Markdown conversion with our online [**HTML to MD Converter**](https://products.aspose.app/html/en/conversion/html-to-md). You can convert multiple HTML files to MHTML and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to Markdown Converter for free now!
+You can check the quality of HTML to Markdown conversion with our online [**HTML to MD Converter**](https://products.aspose.app/html/conversion/html-to-md). You can convert multiple HTML files to MHTML and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to Markdown Converter for free now!
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}

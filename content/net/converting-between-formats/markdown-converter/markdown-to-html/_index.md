@@ -1,7 +1,7 @@
 ---
 keywords: markdown to html, convert markdown to html, markdown to html
   conversion, markdown to html converter
-lastmod: 2021-09-03
+lastmod: 2022-01-11
 url: /net/converting-between-formats/markdown-to-html/
 title: Convert Markdown to HTML | C#
 linktitle: Convert Markdown to HTML
@@ -20,10 +20,10 @@ aliases:
 {{%Markdown%}} is a markup language with a plain-text-formatting syntax. Markdown is often used as a format for documentation and readme files since it allows writing in an easy-to-read and easy-to-write style. Its design allows it to be easily converted to many output formats, but initially, it was created to convert only to HTML. Using the Aspose.HTML class library in your C# application, you can easily convert Markdown into an HTML file with just a few lines of code!
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/md-to-html" target="_blank">**MD to HTML Converter**</a> that converts Markdown to HTML file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/md-to-html" target="_blank">**MD to HTML Converter**</a> that converts Markdown to HTML file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/en/conversion/md-to-html" target="_blank">![Text "Banner MD to HTML Converter"](md-to-html.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/md-to-html" target="_blank">![Text "Banner MD to HTML Converter"](md-to-html.png#center)</a>
 
 ## **Example 1. Create a source MD file from code and convert Markdown to HTML**
 You can convert Markdown to HTML format using C# and other .NET programming languages. Aspose.HTML provides  ConvertMarkdown() methods as an understandable and straightforward way to perform Markdown to HTML conversion. If your case is to create a Markdown document from a user string directly in your code and save it to a file, the following example could help you: 
@@ -86,5 +86,5 @@ using Aspose.Html.Converters;
 You can view the resulting HTML file by following the link - [nature-output.html](/html/net/converting-between-formats/markdown-to-html/nature-output.html) 
 
 {{% alert color="primary" %}} 
-You can check the quality of Markdown to HTML conversion with our online [**MD to HTML Converter**](https://products.aspose.app/html/en/conversion/md-to-html). Upload, convert your files and get results in a few seconds. Try our forceful Markdown to HTML Converter for free now!
+You can check the quality of Markdown to HTML conversion with our online [**MD to HTML Converter**](https://products.aspose.app/html/conversion/md-to-html). Upload, convert your files and get results in a few seconds. Try our forceful Markdown to HTML Converter for free now!
 {{% /alert %}}

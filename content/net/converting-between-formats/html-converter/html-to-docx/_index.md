@@ -1,7 +1,7 @@
 ---
 keywords: HTML to DOCX, convert HTML to DOCX, HTML to DOCX conversion, HTML to
   DOCX converter, save options
-lastmod: 2021-09-03
+lastmod: 2022-01-11
 url: /net/converting-between-formats/html-to-docx/
 title: Convert HTML to DOCX | C#
 linktitle: Convert HTML to DOCX
@@ -24,11 +24,11 @@ Using [Converter.ConvertHTML](https://apireference.aspose.com/html/net/aspose.ht
 In this article, you find information on how to convert  HTML to {{%DOCX %}} using ConvertHTML() methods of the Converter class, and how to apply [DocSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/html-to-docx" target="_blank">**HTML to DOCX Converter**</a> that converts HTML to DOCX with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-docx" target="_blank">**HTML to DOCX Converter**</a> that converts HTML to DOCX with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/en/conversion/html-to-docx" target="_blank">![Text "Banner HTML to DOCX Converter"](html-to-docx.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/html-to-docx" target="_blank">![Text "Banner HTML to DOCX Converter"](html-to-docx.png#center)</a>
 
 
 ## **HTML to DOCX by a single line of code**
@@ -219,7 +219,7 @@ using Aspose.Html.Saving;
 
 {{% alert color="primary" %}} 
 
-You can check the quality of HTML to DOCX conversion with our online [**HTML to DOCX Converter**](https://products.aspose.app/html/en/conversion/html-to-docx). You can convert multiple HTML files to DOCX and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to DOCX Converter for free now!
+You can check the quality of HTML to DOCX conversion with our online [**HTML to DOCX Converter**](https://products.aspose.app/html/conversion/html-to-docx). You can convert multiple HTML files to DOCX and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to DOCX Converter for free now!
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 

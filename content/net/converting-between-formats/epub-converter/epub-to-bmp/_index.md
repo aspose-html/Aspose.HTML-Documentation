@@ -9,19 +9,19 @@ description: This article provides information on how to convert EPUB to BMP
 weight: 60
 type: docs
 url: /net/converting-between-formats/epub-to-bmp/
-lastmod: 2021-09-03
+lastmod: 2022-01-11
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
 BMP is a bitmap format developed by Microsoft that is used to store virtually any type of bitmap data. The BMP file format supports various color depths, alpha channels, color profiles, and optional data compression, thus making it relatively versatile. With Aspose.HTML, you can convert EPUB to BMP format programmatically with full control over a wide range of conversion parameters.
 
-In this article, you find information on how to convert  {{%EPUB%}} to {{%BMP%}} using [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class, and how to apply [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you find information on how to convert {{%EPUB%}} to {{%BMP%}} using [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class, and how to apply [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}} 
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/epub-to-bmp" target="_blank">**EPUB to BMP Converter**</a> that converts EPUB to BMP image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds! 
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/epub-to-bmp" target="_blank">**EPUB to BMP Converter**</a> that converts EPUB to BMP image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds! 
 {{% /alert %}} 
 
-<a href="https://products.aspose.app/html/en/conversion/epub-to-bmp" target="_blank">![Text "Banner EPUB to BMP Converter"](epub-to-bmp.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/epub-to-bmp" target="_blank">![Text "Banner EPUB to BMP Converter"](epub-to-bmp.png#center)</a>
 
 ## **Convert EPUB to BMP**
 Using [Converter.ConvertEPUB](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertepub/index) methods is the most common way to convert EPUB files into various formats. You should follow a few steps:
@@ -44,10 +44,10 @@ using Aspose.Html.Saving;
 
     // Prepare a path for converted file saving 
     string savePath = Path.Combine(OutputDir, "input-output.bmp");
-
+    
     // Initialize ImageSaveOptions 
     var options = new ImageSaveOptions(ImageFormat.Bmp);
-
+    
     // Call the ConvertEPUB method to convert EPUB to BMP
     Converter.ConvertEPUB(stream, options, savePath);
 {{< /highlight >}}
@@ -102,7 +102,7 @@ using System.Drawing.Drawing2D;
 
     // Prepare a path for converted file saving 
     string savePath = Path.Combine(OutputDir, "input-options.bmp");
-
+    
     // Initialize ImageSaveOptions 
     var options = new ImageSaveOptions(ImageFormat.Bmp)
     {
@@ -111,7 +111,7 @@ using System.Drawing.Drawing2D;
         VerticalResolution = 400,
         BackgroundColor = Color.AliceBlue
     };            
-
+    
     // Call the ConvertEPUB method to convert EPUB to BMP
     Converter.ConvertEPUB(stream, options, savePath);
 {{< /highlight >}}
@@ -125,7 +125,7 @@ In the example, we use:
 
 {{% alert color="primary" %}} 
 
-Check the quality of EPUB to BMP conversion with our online [**EPUB to BMP Converter**](https://products.aspose.app/html/en/conversion/epub-to-bmp). You can convert multiple EPUB files to BMP and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful EPUB to BMP Converter for free now!
+Check the quality of EPUB to BMP conversion with our online [**EPUB to BMP Converter**](https://products.aspose.app/html/conversion/epub-to-bmp). You can convert multiple EPUB files to BMP and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful EPUB to BMP Converter for free now!
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 

@@ -6,17 +6,17 @@ weight: 50
 url: /net/converting-between-formats/markdown-to-image/
 description: This article provides information on how to convert Markdown to images using the Aspose.HTML API. You will learn about the supported Markdown to JPG, PNG, BMP, GIF or TIFF conversion scenarios and consider examples to illustrate them.  
 keywords: markdown to jpg, convert markdown to jpg, markdown to jpg conversion, markdown to jpg converter, markdown to png, markdown to bmp, markdown to gif, markdown to tiff
-lastmod: "2021-09-03"
+lastmod: "2022-01-11"
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
 If you need to preview a Markdown file, you can convert it to image formats. Using the Aspose.HTML class library, you can easily convert Markdown into JPG, PNG, BMP, GIF or TIFF files with just a few lines of code!
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/md-to-jpg" target="_blank">**MD to JPG Converter**</a> that converts Markdown to JPG image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/md-to-jpg" target="_blank">**MD to JPG Converter**</a> that converts Markdown to JPG image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/en/conversion/md-to-jpg" target="_blank">![Text "Banner MD to JPG Converter"](md-to-jpg.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/md-to-jpg" target="_blank">![Text "Banner MD to JPG Converter"](md-to-jpg.png#center)</a>
 
 ## **Convert Markdown to JPG**
 
@@ -202,6 +202,6 @@ using Aspose.Html.Rendering.Image;
 {{< /highlight >}} 
 
 {{% alert color="primary" %}} 
-You can check the quality of Markdown to JPG conversion with our online [**MD to JPG Converter**](https://products.aspose.app/html/en/conversion/md-to-jpg). Upload, convert your files and get results in a few seconds. Try our forceful Markdown to JPG Converter for free now!
+You can check the quality of Markdown to JPG conversion with our online [**MD to JPG Converter**](https://products.aspose.app/html/conversion/md-to-jpg). Upload, convert your files and get results in a few seconds. Try our forceful Markdown to JPG Converter for free now!
 {{% /alert %}}
 

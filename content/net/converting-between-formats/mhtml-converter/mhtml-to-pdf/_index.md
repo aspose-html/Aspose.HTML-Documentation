@@ -1,7 +1,7 @@
 ---
 keywords: mhtml to pdf, convert mhtml to pdf, mhtml to pdf conversion, mhtml to
   pdf converter, save options, stream provider
-lastmod: 2021-09-03
+lastmod: 2022-01-11
 url: /net/converting-between-formats/mhtml-to-pdf/
 title: Convert MHTML to PDF | C#
 linktitle: Convert MHTML to PDF
@@ -22,10 +22,10 @@ MHTML to PDF conversion is often required to take advantage of PDF format for sp
 In this article, you find information on how to convert {{%MHTML%}} to {{%PDF%}} using ConvertHTML() methods of the Converter class and how to apply [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/mhtml-to-pdf" target="_blank">**MHTML to PDF Converter**</a> that converts MHTML to PDF file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/mhtml-to-pdf" target="_blank">**MHTML to PDF Converter**</a> that converts MHTML to PDF file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/en/conversion/mhtml-to-pdf" target="_blank">![Text "Banner MHTML to PDF Converter"](mhtml-to-pdf.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/mhtml-to-pdf" target="_blank">![Text "Banner MHTML to PDF Converter"](mhtml-to-pdf.png#center)</a>
 
 ## **MHTML to PDF by two lines of code**
 
@@ -227,7 +227,7 @@ using Aspose.Html.Saving;
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
-You can check the quality of MHTML to PDF conversion with our online [**MHTML to PDF Converter**](https://products.aspose.app/html/en/conversion/mhtml-to-pdf). You can convert multiple MHTML files to PDF and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful MHTML to PDF Converter for free now!
+You can check the quality of MHTML to PDF conversion with our online [**MHTML to PDF Converter**](https://products.aspose.app/html/conversion/mhtml-to-pdf). You can convert multiple MHTML files to PDF and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful MHTML to PDF Converter for free now!
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}

@@ -1,7 +1,7 @@
 ---
 keywords: epub to jpg, convert epub to jpg, epub to jpg conversion, epub to jpg
   converter, save options
-lastmod: 2021-09-03
+lastmod: 2022-01-11
 url: /net/converting-between-formats/epub-to-jpg/
 title: Convert EPUB to JPG | C#
 linktitle: Convert EPUB to JPG
@@ -21,10 +21,10 @@ JPG files can contain high-quality image data with lossless compression. This un
 In this article, you find information on how to convert  {{%EPUB%}} to {{%JPG%}} using [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class, and how to apply [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/epub-to-jpg" target="_blank">**EPUB to JPG Converter**</a> that converts EPUB to JPG image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/epub-to-jpg" target="_blank">**EPUB to JPG Converter**</a> that converts EPUB to JPG image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/en/conversion/epub-to-jpg" target="_blank">![Text "Banner EPUB to JPG Converter"](epub-to-jpg.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/epub-to-jpg" target="_blank">![Text "Banner EPUB to JPG Converter"](epub-to-jpg.png#center)</a>
 
 ## **EPUB to JPG by two lines of code**
 
@@ -235,7 +235,7 @@ The ConvertEPUB(`Stream`, `ImageSaveOptions`, `ICreateStreamProvider`) method ta
 
 {{% alert color="primary" %}} 
 
-You can check the quality of EPUB to JPG conversion with our online [**EPUB to JPG Converter**](https://products.aspose.app/html/en/conversion/epub-to-jpg). Upload, convert your files and get results in a few seconds. Try our forceful EPUB to JPG Converter for free now!
+You can check the quality of EPUB to JPG conversion with our online [**EPUB to JPG Converter**](https://products.aspose.app/html/conversion/epub-to-jpg). Upload, convert your files and get results in a few seconds. Try our forceful EPUB to JPG Converter for free now!
 
 {{% /alert %}}
 

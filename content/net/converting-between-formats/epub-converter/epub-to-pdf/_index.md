@@ -1,7 +1,7 @@
 ---
 keywords: epub to pdf, convert epub to pdf, epub to pdf conversion, epub to pdf
   converter, save options, stream provider
-lastmod: 2021-09-03
+lastmod: 2022-01-11
 url: /net/converting-between-formats/epub-to-pdf/
 title: Convert EPUB to PDF | C#
 linktitle: Convert EPUB to PDF
@@ -22,10 +22,10 @@ EPUB is an e-book file format that provides a standard digital publication forma
 In this article, you find information about converting {{%EPUB%}} to {{%PDF%}} and using [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/epub-to-pdf" target="_blank">**EPUB to PDF Converter**</a> that converts EPUB to PDF with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/epub-to-pdf" target="_blank">**EPUB to PDF Converter**</a> that converts EPUB to PDF with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/en/conversion/epub-to-pdf" target="_blank">![Text "Banner EPUB to PDF Converter"](epub-to-pdf.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/epub-to-pdf" target="_blank">![Text "Banner EPUB to PDF Converter"](epub-to-pdf.png#center)</a>
 
 ## **EPUB to PDF by two lines of code**
 
@@ -226,7 +226,7 @@ The ConvertEPUB(`Stream`, `PdfSaveOptions`, `ICreateStreamProvider`) method take
 
 {{% alert color="primary" %}} 
 
-You can check the quality of EPUB to PDF conversion with our online [**EPUB to PDF Converter**](https://products.aspose.app/html/en/conversion/epub-to-pdf). You can convert multiple EPUB files to PDF and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful EPUB to PDF Converter for free now!
+You can check the quality of EPUB to PDF conversion with our online [**EPUB to PDF Converter**](https://products.aspose.app/html/conversion/epub-to-pdf). You can convert multiple EPUB files to PDF and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful EPUB to PDF Converter for free now!
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 

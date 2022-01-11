@@ -1,6 +1,6 @@
 ---
 keywords: epub to xps, convert epub to xps, epub to xps converter, save options
-lastmod: 2021-09-03
+lastmod: 2022-01-11
 url: /net/converting-between-formats/epub-to-xps/
 title: Convert EPUB to XPS | C#
 linktitle: Convert EPUB to XPS
@@ -18,10 +18,10 @@ aliases:
 In this article, you will find information on how to convert {{%EPUB%}} to {{%XPS%}} and how to use [XpsSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/epub-to-xps" target="_blank">**EPUB to XPS Converter**</a> that converts EPUB to XPS file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/epub-to-xps" target="_blank">**EPUB to XPS Converter**</a> that converts EPUB to XPS file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/en/conversion/epub-to-xps" target="_blank">![Text "Banner EPUB to XPS Converter"](epub-to-xps.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/epub-to-xps" target="_blank">![Text "Banner EPUB to XPS Converter"](epub-to-xps.png#center)</a>
 
 ## **EPUB to XPS by two lines of code**
 
@@ -215,7 +215,7 @@ The ConvertEPUB(`Stream`, `XpsSaveOptions`, `ICreateStreamProvider`) method take
 
 {{% alert color="primary" %}} 
 
-You can check the quality of EPUB to XPS conversion with our online [**EPUB to XPS Converter**](https://products.aspose.app/html/en/conversion/epub-to-xps). You can convert multiple EPUB files to XPS and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful EPUB to XPS Converter for free now!
+You can check the quality of EPUB to XPS conversion with our online [**EPUB to XPS Converter**](https://products.aspose.app/html/conversion/epub-to-xps). You can convert multiple EPUB files to XPS and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful EPUB to XPS Converter for free now!
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 

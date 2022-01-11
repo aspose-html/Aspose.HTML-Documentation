@@ -6,7 +6,7 @@ weight: 60
 url: /net/converting-between-formats/markdown-syntax/
 description: This article provides information on the main elements of the Markdown markup language and the details of the Markdown syntax. 
 keywords: markdown syntax, markdown language, markdown table syntax, markdown elements, markdown code blocks
-lastmod: "2021-09-03"
+lastmod: "2022-01-11"
 ---
  <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -112,7 +112,7 @@ Inline image Markdown syntax looks like this:
 
 You should add an exclamation mark (!), followed by alt text in square brackets, and the URL or path to the image in the parentheses. Where `Alt text for image` is a brief description of the image and `/path/to/img.jpg` is a relative path to the image. Alternate text is useful if the image can't render. The rendered output for the example Georgia.jpg looks like this:
 
-![Ananuri Fortress Complex in Georgia](../Georgia.jpg#center)
+![Ananuri Fortress Complex in Georgia](../georgia-castle.jpg#center)
 
 ## **Extended Markdown Syntax**
 
@@ -120,11 +120,11 @@ You should add an exclamation mark (!), followed by alt text in square brackets,
 
 To create a link, write the link text in square brackets, and then follow it with the URL in parentheses. Links syntax looks like this:
 
- 	Use [Markdown Converter](https://products.aspose.app/html/en/conversion/md) for converting Markdown files to a variety of popular formats.
+ 	Use [Markdown Converter](https://products.aspose.app/html/conversion/md) for converting Markdown files to a variety of popular formats.
 
 The rendered link text looks like this:
 
-Use [Markdown Converter](https://products.aspose.app/html/en/conversion/md) for converting Markdown files to a variety of popular formats.
+Use [Markdown Converter](https://products.aspose.app/html/conversion/md) for converting Markdown files to a variety of popular formats.
 
 **URLs and Email Addresses**
 
@@ -145,11 +145,11 @@ The rendered links to the URL and email address look like this:
 
 To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses. Markdown syntax for an image as a link  looks like this:
 ```
- [![Text "Banner MD to PDF Converter"](../markdown-to-pdf/md-to-pdf.png)](https://products.aspose.app/html/en/conversion/md-to-pdf)
+ [![Text "Banner MD to PDF Converter"](../markdown-to-pdf/md-to-pdf.png)](https://products.aspose.app/html/conversion/md-to-pdf)
 ```
 The rendered image as a link looks like this:
 
-​    [![Text "Banner MD to PDF Converter"](../markdown-to-pdf/md-to-pdf.png)](https://products.aspose.app/html/en/conversion/md-to-pdf)
+​    [![Text "Banner MD to PDF Converter"](../markdown-to-pdf/md-to-pdf.png)](https://products.aspose.app/html/conversion/md-to-pdf)
 
 ### **Markdown table syntax**
 Tables are often the best way to present some data, but formatting tables in Markdown is one of the trickiest. 

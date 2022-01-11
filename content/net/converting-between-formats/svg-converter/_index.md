@@ -6,7 +6,7 @@ description: In this article, you learn how to convert SVG to other formats usin
 weight: 40
 type: docs
 url: /net/converting-between-formats/svg-converter/
-lastmod: 2021-11-10
+lastmod: 2022-01-11
 ---
 
 {{%SVG%}} files are Scalable Vector Graphics Files that use XML based text format for describing the appearance of an image. The word Scalable refers to the fact that SVG can be scaled to different sizes without losing any quality. A text-based description of such files makes them independent of resolution. It is one of the most used formats for website building and print graphics to achieve scalability.
@@ -58,6 +58,6 @@ using System.Drawing.Drawing2D;
 In the example, the [SVGDocument(`address`)](https://apireference.aspose.com/html/net/aspose.html.dom.svg/svgdocument/constructors/10) constructor initializes an SVG document from the file. The ImageSaveOptions() constructor creates a new [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) object with PNG ImageFormat,  SmoothingMode and BackgroundColor properties. By default, the Format property is PNG. Then, the [ConvertSVG()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/3) method takes SVGDocument,  ImageSaveOptions, and output path and performs SVG to PNG conversion.
 
 {{% alert color="primary" %}} 
-Aspose.HTML offers free online [**SVG Converters**](https://products.aspose.app/svg/en/conversion) for converting SVG files to a variety of popular formats. You can easily convert  [SVG to PDF](https://products.aspose.app/svg/en/conversion/svg-to-pdf), SVG to XPS, [SVG to JPG](https://products.aspose.app/svg/en/conversion/svg-to-jpg), [SVG to PNG](https://products.aspose.app/svg/en/conversion/svg-to-png), SVG to BMP, SVG to TIFF, or SVG to GIF. Just select the file, choose the format to convert, and you're done. It's fast and completely free!
+Aspose.HTML offers free online [**SVG Converters**](https://products.aspose.app/svg/conversion) for converting SVG files to a variety of popular formats. You can easily convert  [SVG to PDF](https://products.aspose.app/svg/conversion/svg-to-pdf), SVG to XPS, [SVG to JPG](https://products.aspose.app/svg/conversion/svg-to-jpg), [SVG to PNG](https://products.aspose.app/svg/conversion/svg-to-png), SVG to BMP, SVG to TIFF, or SVG to GIF. Just select the file, choose the format to convert, and you're done. It's fast and completely free!
 {{% /alert %}} 
 

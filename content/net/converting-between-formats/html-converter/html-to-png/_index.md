@@ -9,7 +9,7 @@ description: This article provides information on how to convert HTML to PNG
 weight: 30
 type: docs
 url: /net/converting-between-formats/html-to-png/
-lastmod: 2021-09-03
+lastmod: 2022-01-11
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -18,11 +18,11 @@ PNG is one of the most used image file formats. It supports lossless image compr
 In this article, you find information on how to convert  HTML to {{%PNG%}} by using [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class, and how to apply [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/html-to-png" target="_blank">**HTML to PNG Converter**</a> that converts HTML to PNG image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-png" target="_blank">**HTML to PNG Converter**</a> that converts HTML to PNG image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/en/conversion/html-to-png" target="_blank">![Text "Banner HTML to PNG Converter"](html-to-png.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/html-to-png" target="_blank">![Text "Banner HTML to PNG Converter"](html-to-png.png#center)</a>
 
 ## **HTML to PNG by a single line of code**
 
@@ -229,7 +229,7 @@ using Aspose.Html.Saving;
 
 {{% alert color="primary" %}} 
 
-You can check the quality of HTML to PNG conversion with our online  [**HTML to PNG Converter**](https://products.aspose.app/html/en/conversion/html-to-png). You can convert multiple HTML files to PNG and merge them into a single document. Try our forceful HTML to PNG Converter for free now!
+You can check the quality of HTML to PNG conversion with our online  [**HTML to PNG Converter**](https://products.aspose.app/html/conversion/html-to-png). You can convert multiple HTML files to PNG and merge them into a single document. Try our forceful HTML to PNG Converter for free now!
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 

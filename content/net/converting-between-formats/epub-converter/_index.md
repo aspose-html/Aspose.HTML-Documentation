@@ -6,7 +6,7 @@ description: In this article, you will learn about supported EPUB conversions an
 weight: 40
 type: docs
 url: /net/converting-between-formats/epub-converter/
-lastmod: 2021-11-10
+lastmod: 2022-01-11
 ---
 
 {{%EPUB %}} is an e-book file format that provides a standard digital publication format for publishers and consumers. The format has been so common by now that many e-readers and software applications support it. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, a variety of compatible software is available for smartphones, tablets and computers. EPUB file standards are maintained by the International Digital Publishing Forum (IDPF).
@@ -51,7 +51,7 @@ You can download the complete examples and data files from [**GitHub**](https://
 
 {{% alert color="primary" %}} 
 
-Aspose.HTML offers a free online [**EPUB Converter**](https://products.aspose.app/html/en/conversion/epub) for converting EPUB files to a variety of popular formats. You can easily convert  [EPUB to PDF](https://products.aspose.app/html/en/conversion/epub-to-pdf), EPUB  to XPS, EPUB  to DOCX, [EPUB to JPG](https://products.aspose.app/html/en/conversion/epub-to-pdf), EPUB to PNG, EPUB to BMP, EPUB to TIFF, or EPUB to GIF. Just select the file, choose the format to convert, and you're done. It's fast and completely free!
+Aspose.HTML offers a free online [**EPUB Converter**](https://products.aspose.app/html/conversion/epub) for converting EPUB files to a variety of popular formats. You can easily convert  [EPUB to PDF](https://products.aspose.app/html/conversion/epub-to-pdf), EPUB  to XPS, EPUB  to DOCX, [EPUB to JPG](https://products.aspose.app/html/conversion/epub-to-pdf), EPUB to PNG, EPUB to BMP, EPUB to TIFF, or EPUB to GIF. Just select the file, choose the format to convert, and you're done. It's fast and completely free!
 
 {{% /alert %}} 
 

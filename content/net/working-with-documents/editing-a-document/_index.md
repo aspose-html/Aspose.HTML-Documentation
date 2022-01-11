@@ -213,7 +213,7 @@ using Aspose.Html.Rendering.Pdf;
 
 In this particular example, color, font-size and font-family apply to the `<p>` element. The fragment of rendered pdf page looks like this:
 
-![Text "Inline CSS"](inline_CSS.png#center)
+![Text "Inline CSS"](inline-css.png#center)
 
 ### **Internal CSS**
 

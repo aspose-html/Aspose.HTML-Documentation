@@ -9,7 +9,7 @@ description: This chapter provides a general description of conversion features
 weight: 30
 type: docs
 aliases: /net/converting-between-formats/
-lastmod: 2021-11-09
+lastmod: 2022-01-11
 ---
 
 Welcome to the "Converting between Formats" guides! The main highlight of Aspose.HTML is the conversion feature. Converting between formats is required for various reasons: to work in a familiar, convenient format or to take advantage of different formats for specific tasks. So, Aspose.HTML for .NET offers several ways to convert between formats.
@@ -80,4 +80,5 @@ The current chapter describes popular converters, as well as C# examples for mos
 
 {{% alert color="primary" %}} 
 
-Aspose.HTML offers free online [**Converters**](https://products.aspose.app/html/en/conversion) for converting HTML, XHTML, MHTML, EPUB, XML and Markdown files to a variety of popular formats.  You can easily convert  [HTML to PDF](https://products.aspose.app/html/en/conversion/html-to-pdf), [HTML to JPG](https://products.aspose.app/html/en/conversion/html-to-jpg), [SVG to PDF](https://products.aspose.app/svg/en/conversion/svg-to-pdf), [MHTML to PDF](https://products.aspose.app/html/en/conversion/mhtml-to-pdf) or [MD to HTML](https://products.aspose.app/html/en/conversion/md-to-html). Just select the file, choose the format to convert, and you're done. It's fast and completely free!{{% /alert %}} 
+Aspose.HTML offers free online [**Converters**](https://products.aspose.app/html/conversion) for converting HTML, XHTML, MHTML, EPUB, XML and Markdown files to a variety of popular formats.  You can easily convert  [HTML to PDF](https://products.aspose.app/html/conversion/html-to-pdf), [HTML to JPG](https://products.aspose.app/html/conversion/html-to-jpg), [SVG to PDF](https://products.aspose.app/svg/conversion/svg-to-pdf), [MHTML to PDF](https://products.aspose.app/html/conversion/mhtml-to-pdf) or [MD to HTML](https://products.aspose.app/html/conversion/md-to-html). Just select the file, choose the format to convert, and you're done. It's fast and completely free!{{% /alert %}} 
+

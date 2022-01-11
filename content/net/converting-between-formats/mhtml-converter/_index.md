@@ -5,10 +5,8 @@ keywords: MHTML converter, convert mhtml, convert mhtml to png, mhtml to png, c#
 description: In this article, you learn how to convert MHTML to other formats using Aspose.HTML API and consider C# example of MHTML to PNG conversion.
 weight: 30
 type: docs
-lastmod: 2021-09-03
+lastmod: 2022-01-11
 ---
-
-
 
 Files with {{%MHTML%}} extension represent a web page archive format that a number of different applications can create. The format is known as archive format because it saves the web HTML code and associated resources in a single file. These resources include anything linked to the webpage such as images, applets, animations, audio files and so on. MHTML files can be opened in a variety of applications such as Internet Explorer and Microsoft Word. The actual specifications of the format are as detailed by RFC 2557.
 
@@ -40,7 +38,7 @@ In the example, we use the OpenRead(`path`) method of System.IO.FileStream class
 
 {{% alert color="primary" %}} 
 
-Aspose.HTML offers a free online [**MHTML Converter**](https://products.aspose.app/html/en/conversion) for converting MHTML files to a variety of popular formats.  You can easily convert  [MHTML to PDF](https://products.aspose.app/html/en/conversion/mhtml-to-pdf), MHTML to XPS, [MHTML to JPG](https://products.aspose.app/html/en/conversion/mhtml-to-jpg), MHTML to PNG, MHTML to BMP, MHTML to TIFF, and MHTML to GIF. Just select the file, choose the format to convert, and you're done. It's fast and completely free!
+Aspose.HTML offers a free online [**MHTML Converter**](https://products.aspose.app/html/conversion) for converting MHTML files to a variety of popular formats.  You can easily convert  [MHTML to PDF](https://products.aspose.app/html/conversion/mhtml-to-pdf), MHTML to XPS, [MHTML to JPG](https://products.aspose.app/html/conversion/mhtml-to-jpg), MHTML to PNG, MHTML to BMP, MHTML to TIFF, and MHTML to GIF. Just select the file, choose the format to convert, and you're done. It's fast and completely free!
 
 {{% /alert %}} 
 

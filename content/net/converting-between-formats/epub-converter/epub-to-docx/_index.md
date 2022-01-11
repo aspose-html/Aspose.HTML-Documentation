@@ -19,10 +19,10 @@ DOCX is a well-known format for Microsoft Word documents. This format is popular
 In this article, you find information on how to convert {{%EPUB%}} to {{%DOCX%}} using ConvertEPUB() methods of the Converter class and how to apply [DocSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/epub-to-docx" target="_blank">**EPUB to DOCX Converter**</a> that converts EPUB to DOCX with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/epub-to-docx" target="_blank">**EPUB to DOCX Converter**</a> that converts EPUB to DOCX with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/en/conversion/epub-to-docx" target="_blank">![Text "Banner EPUB to DOCX Converter"](epub-to-docx.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/epub-to-docx" target="_blank">![Text "Banner EPUB to DOCX Converter"](epub-to-docx.png#center)</a>
 
 ## **EPUB to DOCX by two lines of code**
 
@@ -205,7 +205,7 @@ using Aspose.Html.Saving;
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
-You can check the quality of EPUB to DOCX conversion with our online [**EPUB to DOCX Converter**](https://products.aspose.app/html/en/conversion/epub-to-docx). You can convert multiple EPUB files to DOCX and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful EPUB to DOCX Converter for free now!
+You can check the quality of EPUB to DOCX conversion with our online [**EPUB to DOCX Converter**](https://products.aspose.app/html/conversion/epub-to-docx). You can convert multiple EPUB files to DOCX and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful EPUB to DOCX Converter for free now!
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}

@@ -6,7 +6,7 @@ weight: 40
 url: /net/converting-between-formats/markdown-to-xps/
 description: This article provides information on how to convert Markdown to XPS using the Aspose.HTML API. You will learn about the supported Markdown to XPS conversion scenarios and consider examples to illustrate them.  
 keywords: Markdown to XPS, convert Markdown to XPS, Markdown to XPS conversion, Markdown to XPS converter
-lastmod: "2021-09-03"
+lastmod: "2022-01-11"
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
@@ -14,10 +14,10 @@ lastmod: "2021-09-03"
 {{%Markdown%}} is a markup language with a plain-text-formatting syntax. Markdown is often used as a format for documentation and readme files since it allows writing in an easy-to-read and easy-to-write style. Its design allows it to be easily converted to many output formats, but initially, it was created to convert only to HTML. Using the Aspose.HTML class library in your C# application, you can easily convert Markdown into an XPS file with just a few lines of code!
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/md-to-xps" target="_blank">**MD to XPS Converter**</a> that converts Markdown to XPS file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/md-to-xps" target="_blank">**MD to XPS Converter**</a> that converts Markdown to XPS file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/en/conversion/md-to-xps" target="_blank">![Text "Banner MD to XPS Converter"](md-to-xps.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/md-to-xps" target="_blank">![Text "Banner MD to XPS Converter"](md-to-xps.png#center)</a>
 
 ## **Convert Markdown to XPS**
 
@@ -111,6 +111,6 @@ In the example, we use:
  - PageSetup property that specifies the [page size](https://apireference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) and [margins](https://apireference.aspose.com/html/net/aspose.html.drawing/page/properties/margin).
 
 {{% alert color="primary" %}} 
-You can check the quality of Markdown to XPS conversion with our online [**MD to XPS Converter**](https://products.aspose.app/html/en/conversion/md-to-xps). Upload, convert your files and get results in a few seconds. Try our forceful Markdown to XPS Converter for free now!
+You can check the quality of Markdown to XPS conversion with our online [**MD to XPS Converter**](https://products.aspose.app/html/conversion/md-to-xps). Upload, convert your files and get results in a few seconds. Try our forceful Markdown to XPS Converter for free now!
 {{% /alert %}}
 

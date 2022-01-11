@@ -1,7 +1,7 @@
 ---
 keywords: html to pdf, convert html to pdf, html to pdf conversion, html to pdf
   converter, save options, stream provider
-lastmod: 2021-09-03
+lastmod: 2022-01-11
 url: /net/converting-between-formats/html-to-pdf/
 title: Convert HTML to PDF | C#
 linktitle: Convert HTML to PDF
@@ -26,11 +26,11 @@ Any conversion you want to perform involves loading an HTML document and saving 
 3. Invoke one of the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/converthtml/index) methods and pass the required parameters to it.
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/html-to-pdf" target="_blank">**HTML to PDF Converter**</a> that converts HTML to PDF with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-pdf" target="_blank">**HTML to PDF Converter**</a> that converts HTML to PDF with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/en/conversion/html-to-pdf" target="_blank">![Text "Banner HTML to PDF Converter"](html-to-pdf.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/html-to-pdf" target="_blank">![Text "Banner HTML to PDF Converter"](html-to-pdf.png#center)</a>
 
 ## **HTML to PDF by a single line of code**
 
@@ -239,7 +239,7 @@ using Aspose.Html.Saving;
 
 {{% alert color="primary" %}} 
 
-Check the quality of HTML to PDF conversion with our online [**HTML to PDF Converter**](https://products.aspose.app/html/en/conversion/html-to-pdf). You can convert multiple HTML files to PDF and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to PDF Converter for free now!
+Check the quality of HTML to PDF conversion with our online [**HTML to PDF Converter**](https://products.aspose.app/html/conversion/html-to-pdf). You can convert multiple HTML files to PDF and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to PDF Converter for free now!
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 

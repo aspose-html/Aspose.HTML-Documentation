@@ -1,7 +1,7 @@
 ---
 keywords: html to jpg, convert html to jpg, html to jpg conversion, html to jpg
   converter, save options
-lastmod: 2021-09-03
+lastmod: 2022-01-11
 url: /net/converting-between-formats/html-to-jpg/
 title: Convert HTML to JPG | C#
 linktitle: Convert HTML to JPG
@@ -23,11 +23,11 @@ JPG files can contain high-quality image data with lossless compression. This un
 In this article, you find information on converting HTML to {{%JPG%}} by using [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class and applying  [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/html-to-jpg" target="_blank">**HTML to JPG Converter**</a> that converts HTML to JPG image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-jpg" target="_blank">**HTML to JPG Converter**</a> that converts HTML to JPG image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/en/conversion/html-to-jpg" target="_blank">![Text "Banner HTML to JPG Converter"](html-to-jpg.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/html-to-jpg" target="_blank">![Text "Banner HTML to JPG Converter"](html-to-jpg.png#center)</a>
 
 ## **HTML to JPG by a single line of code**
 
@@ -279,7 +279,7 @@ using Aspose.Html.Saving;
 
 {{% alert color="primary" %}} 
 
-Check the quality of HTML to JPG conversion with our online [**HTML to JPG Converter**](https://products.aspose.app/html/en/conversion/html-to-jpg). You can convert multiple HTML files to JPG and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to JPG Converter for free now!
+Check the quality of HTML to JPG conversion with our online [**HTML to JPG Converter**](https://products.aspose.app/html/conversion/html-to-jpg). You can convert multiple HTML files to JPG and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to JPG Converter for free now!
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 

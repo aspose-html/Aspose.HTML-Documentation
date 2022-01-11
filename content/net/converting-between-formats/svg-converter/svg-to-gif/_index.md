@@ -9,17 +9,17 @@ description: This article provides information on how to convert SVG to GIF
 weight: 50
 type: docs
 url: /net/converting-between-formats/svg-to-gif/
-lastmod: 2021-09-03
+lastmod: 2022-01-11
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
 GIF is a popular image format that is frequently used in web publishing. With Aspose.HTML, you can convert SVG to GIF format programmatically with full control over a wide range of conversion parameters. In this article, you find information on how to convert SVG to {{%GIF%}} by using [ConvertSVG()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods of the Converter class and applying  [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions).
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/svg/en/conversion/svg-to-gif" target="_blank">**SVG to GIF Converter**</a> that converts SVG to GIF image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/svg/conversion/svg-to-gif" target="_blank">**SVG to GIF Converter**</a> that converts SVG to GIF image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/svg/en/conversion/svg-to-gif" target="_blank">![Text "Banner SVG to GIF Converter"](svg-to-gif.png#center)</a>
+<a href="https://products.aspose.app/svg/conversion/svg-to-gif" target="_blank">![Text "Banner SVG to GIF Converter"](svg-to-gif.png#center)</a>
 
 ## **SVG to GIF by a single line of code**
 
@@ -33,7 +33,7 @@ using Aspose.Html.Converters;
 using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
 ...
-     // Invoke the ConvertSVG method for SVG to GIF conversion          
+     // Invoke the ConvertSVG method for SVG to GIF conversion
      Converter.ConvertSVG(Path.Combine(DataDir, "shapes.svg"), new ImageSaveOptions(ImageFormat.Gif), Path.Combine(OutputDir, "convert-with-single-line.gif"));
 {{< /highlight >}}
 
@@ -129,11 +129,9 @@ The figure illustrates the fragment of the gradient-options.gif file.
 
 
 {{% alert color="primary" %}} 
-
-Check the quality of SVG to GIF conversion with our online [**SVG to GIF Converter**](https://products.aspose.app/svg/en/conversion/svg-to-gif). Upload, convert your files and get results in a few seconds. Try our forceful SVG to GIF Converter for free now!
+Check the quality of SVG to GIF conversion with our online [**SVG to GIF Converter**](https://products.aspose.app/svg/conversion/svg-to-gif). Upload, convert your files and get results in a few seconds. Try our forceful SVG to GIF Converter for free now!
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
-
 {{% /alert %}}
 
 

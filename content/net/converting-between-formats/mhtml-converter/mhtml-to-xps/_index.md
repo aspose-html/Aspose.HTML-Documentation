@@ -1,7 +1,7 @@
 ---
 keywords: MHTML to XPS, convert MHTML to XPS, MHTML to XPS conversion, MHTML to
   XPS converter, save options, stream provider
-lastmod: 2021-09-03
+lastmod: 2022-01-11
 url: /net/converting-between-formats/mhtml-to-xps/
 title: Convert MHTML to XPS | C#
 linktitle: Convert MHTML to XPS
@@ -22,10 +22,10 @@ MHTML to XPS conversion is often required to take advantage of XPS format for sp
 In this article, you find information on how to convert {{%MHTML%}} to {{%XPS %}} using ConvertHTML() methods of the Converter class and how to apply [XpsSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/mhtml-to-xps" target="_blank">**MHTML to XPS Converter**</a> that converts MHTML to XPS file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/mhtml-to-xps" target="_blank">**MHTML to XPS Converter**</a> that converts MHTML to XPS file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/en/conversion/mhtml-to-xps" target="_blank">![Text "Banner MHTML to XPS Converter"](mhtml-to-xps.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/mhtml-to-xps" target="_blank">![Text "Banner MHTML to XPS Converter"](mhtml-to-xps.png#center)</a>
 
 
 ## **MHTML to XPS by two lines of code**
@@ -217,7 +217,7 @@ using Aspose.Html.Saving;
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
-You can check the quality of MHTML to XPS conversion with our online [**MHTML to XPS Converter**](https://products.aspose.app/html/en/conversion/mhtml-to-xps). You can convert multiple MHTML files to XPS and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful MHTML to XPS Converter for free now!
+You can check the quality of MHTML to XPS conversion with our online [**MHTML to XPS Converter**](https://products.aspose.app/html/conversion/mhtml-to-xps). You can convert multiple MHTML files to XPS and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful MHTML to XPS Converter for free now!
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}

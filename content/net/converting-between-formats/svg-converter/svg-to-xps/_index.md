@@ -1,7 +1,7 @@
 ---
 keywords: svg to xps, convert svg to xps, svg to xps conversion, svg to xps
   converter, save options
-lastmod: 2021-09-03
+lastmod: 2022-01-11
 url: /net/converting-between-formats/svg-to-xps/
 title: Convert SVG to XPS | C#
 linktitle: Convert SVG to XPS
@@ -21,10 +21,10 @@ XPS is a document storage and viewing format developed by Microsoft. An XPS file
 In this article, you find information on how to convert SVG to {{%XPS%}} by using [ConvertSVG()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods of the Converter class and applying  [XpsSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/svg/en/conversion/svg-to-xps" target="_blank">**SVG to XPS Converter**</a> that converts SVG to XPS file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/svg/conversion/svg-to-xps" target="_blank">**SVG to XPS Converter**</a> that converts SVG to XPS file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/svg/en/conversion/svg-to-xps" target="_blank">![Text "Banner SVG to XPS Converter"](svg-to-xps.png#center)</a>
+<a href="https://products.aspose.app/svg/conversion/svg-to-xps" target="_blank">![Text "Banner SVG to XPS Converter"](svg-to-xps.png#center)</a>
 
 ## **SVG to XPS by a single line of code**
 
@@ -219,7 +219,7 @@ using Aspose.Html.Saving;
 
 {{% alert color="primary" %}} 
 
-Check the quality of SVG to XPS conversion with our online [**SVG to XPS Converter**](https://products.aspose.app/svg/en/conversion/svg-to-xps). Upload, convert your files and get results in a few seconds. Try our forceful SVG to XPS Converter for free now!
+Check the quality of SVG to XPS conversion with our online [**SVG to XPS Converter**](https://products.aspose.app/svg/conversion/svg-to-xps). Upload, convert your files and get results in a few seconds. Try our forceful SVG to XPS Converter for free now!
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 

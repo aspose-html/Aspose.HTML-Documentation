@@ -1,7 +1,7 @@
 ---
 keywords: HTML to MHTML, convert HTML to MHTML, HTML to MHTML conversion, HTML
   to MHTML converter, save options
-lastmod: 2021-09-03
+lastmod: 2022-01-11
 url: /net/converting-between-formats/html-to-mhtml/
 title: Convert HTML to MHTML | C#
 linktitle: Convert HTML to MHTML
@@ -22,11 +22,11 @@ MHTML combines normal HTML with external resources like images, animations, audi
 In this article, you will find information on how to convert  {{%HTML%}} to {{%MHTML%}} and how to use [MHTMLSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/mhtmlsaveoptions).
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/html-to-mhtml" target="_blank">**HTML to MHTML Converter**</a> that converts HTML to MHTML with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-mhtml" target="_blank">**HTML to MHTML Converter**</a> that converts HTML to MHTML with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/en/conversion/html-to-mhtml" target="_blank">![Text "Banner HTML to MHTML Converter"](html-to-mhtml.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/html-to-mhtml" target="_blank">![Text "Banner HTML to MHTML Converter"](html-to-mhtml.png#center)</a>
 
 ## **HTML to MHTML by a single line of code**
 
@@ -138,7 +138,7 @@ In the above example, we use the property `MaxHandlingDepth = 1` means that only
 
 {{% alert color="primary" %}} 
 
-You can check the quality of HTML to MHTML conversion with our online [**HTML to MHTML Converter**](https://products.aspose.app/html/en/conversion/html-to-mhtmls). You can convert multiple HTML files to MHTML and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to MHTML Converter for free now!
+You can check the quality of HTML to MHTML conversion with our online [**HTML to MHTML Converter**](https://products.aspose.app/html/conversion/html-to-mhtmls). You can convert multiple HTML files to MHTML and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to MHTML Converter for free now!
 
 {{% /alert %}}
 

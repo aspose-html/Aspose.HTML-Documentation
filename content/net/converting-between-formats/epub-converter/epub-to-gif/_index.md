@@ -9,17 +9,17 @@ description: This article provides information on how to convert EPUB to GIF
 weight: 70
 type: docs
 url: /net/converting-between-formats/epub-to-gif/
-lastmod: 2021-09-03
+lastmod: 2022-10-11
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
 GIF is a popular image format that is frequently used in web publishing. With Aspose.HTML, you can convert EPUB to GIF format programmatically with full control over a wide range of conversion parameters. In this article, you find information on how to convert  {{%EPUB%}} to {{%GIF%}} using [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class, and how to apply [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/epub-to-gif" target="_blank">**EPUB to GIF Converter**</a> that converts EPUB to GIF image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/epub-to-gif" target="_blank">**EPUB to GIF Converter**</a> that converts EPUB to GIF image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/en/conversion/epub-to-gif" target="_blank">![Text "Banner EPUB to GIF Converter"](epub-to-gif.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/epub-to-gif" target="_blank">![Text "Banner EPUB to GIF Converter"](epub-to-gif.png#center)</a>
 
 ## **Convert EPUB to GIF**
 Using [Converter.ConvertEPUB](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertepub/index) methods is the most common way to convert EPUB files into various formats. You should follow a few steps:
@@ -126,7 +126,7 @@ In the example, we use:
 
 {{% alert color="primary" %}} 
 
-Check the quality of EPUB to GIF conversion with our online [**EPUB to GIF Converter**](https://products.aspose.app/html/en/conversion/epub-to-gif). You can convert multiple EPUB files to GIF and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful EPUB to GIF Converter for free now!
+Check the quality of EPUB to GIF conversion with our online [**EPUB to GIF Converter**](https://products.aspose.app/html/conversion/epub-to-gif). You can convert multiple EPUB files to GIF and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful EPUB to GIF Converter for free now!
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 

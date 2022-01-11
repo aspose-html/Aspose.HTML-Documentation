@@ -9,7 +9,7 @@ description: This article provides information on how to convert HTML to GIF
 weight: 60
 type: docs
 url: /net/converting-between-formats/html-to-gif/
-lastmod: 2021-09-03
+lastmod: 2022-01-11
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -18,11 +18,11 @@ Using [Converter.ConvertHTML](https://apireference.aspose.com/html/net/aspose.ht
 GIF is a popular image format that supports animated images and frequently used in web publishing. HTML to GIF conversion allows you to save an HTML document as a GIF image. In this article, you find information on how to convert  HTML to {{%GIF%}} using ConvertHTML() methods of the Converter class, and how to apply [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/html-to-gif" target="_blank">**HTML to GIF Converter**</a> that converts HTML to GIF image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-gif" target="_blank">**HTML to GIF Converter**</a> that converts HTML to GIF image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/en/conversion/html-to-gif" target="_blank">![Text "Banner HTML to GIF Converter"](html-to-gif.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/html-to-gif" target="_blank">![Text "Banner HTML to GIF Converter"](html-to-gif.png#center)</a>
 
 ## **Convert HTML to GIF**
 Converting a file to another format using the ConvertHTML() method is a sequence of operations among which document loading and saving:
@@ -144,7 +144,7 @@ The figure illustrates the convert-to-gif-options.gif file.
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 
-You can check the quality of HTML to GIF conversion with our online [**HTML to GIF Converter**](https://products.aspose.app/html/en/conversion/html-to-gif). You can convert multiple HTML files to GIF and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to GIF Converter for free now!
+You can check the quality of HTML to GIF conversion with our online [**HTML to GIF Converter**](https://products.aspose.app/html/conversion/html-to-gif). You can convert multiple HTML files to GIF and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to GIF Converter for free now!
 
 {{% /alert %}}
 

@@ -6,7 +6,7 @@ weight: 20
 url: /net/converting-between-formats/markdown-to-pdf/
 description: This article provides information on how to convert Markdown to PDF using the Aspose.HTML API. You will learn about the supported Markdown to PDF conversion scenarios and consider examples to illustrate them.  
 keywords: markdown to pdf, convert markdown to pdf, markdown to pdf conversion, markdown to pdf converter
-lastmod: "2021-09-03"
+lastmod: "2022-01-11"
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
@@ -14,10 +14,10 @@ lastmod: "2021-09-03"
 {{%Markdown%}} is a markup language with a plain-text-formatting syntax. Markdown is often used as a format for documentation and readme files since it allows writing in an easy-to-read and easy-to-write style. Its design allows it to be easily converted to many output formats, but initially, it was created to convert only to HTML. Using the Aspose.HTML class library in your C# application, you can easily convert Markdown into a PDF file with just a few lines of code!
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/md-to-pdf" target="_blank">**MD to PDF Converter**</a> that converts Markdown to PDF file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/md-to-pdf" target="_blank">**MD to PDF Converter**</a> that converts Markdown to PDF file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/en/conversion/md-to-pdf" target="_blank">![Text "Banner MD to PDF Converter"](md-to-pdf.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/md-to-pdf" target="_blank">![Text "Banner MD to PDF Converter"](md-to-pdf.png#center)</a>
 
 ## **Convert Markdown to PDF**
 
@@ -110,6 +110,6 @@ In the above example, we use:
 
 
 {{% alert color="primary" %}} 
-You can check the quality of Markdown to PDF conversion with our online [**MD to PDF Converter**](https://products.aspose.app/html/en/conversion/md-to-pdf). Upload, convert your files and get results in a few seconds. Try our forceful Markdown to PDF Converter for free now!
+You can check the quality of Markdown to PDF conversion with our online [**MD to PDF Converter**](https://products.aspose.app/html/conversion/md-to-pdf). Upload, convert your files and get results in a few seconds. Try our forceful Markdown to PDF Converter for free now!
 {{% /alert %}}
 

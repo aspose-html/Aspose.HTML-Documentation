@@ -9,7 +9,7 @@ description: This article provides information on how to convert EPUB to PNG
 weight: 50
 type: docs
 url: /net/converting-between-formats/epub-to-png/
-lastmod: 2021-09-03
+lastmod: 2022-01-11
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -18,10 +18,10 @@ PNG file format supports lossless image compression that makes it popular among 
 In this article, you find information on how to convert  {{%EPUB%}} to {{%PNG%}} using [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class, and how to apply [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/epub-to-png" target="_blank">**EPUB to PNG Converter**</a> that converts EPUB to PNG image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/epub-to-png" target="_blank">**EPUB to PNG Converter**</a> that converts EPUB to PNG image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/en/conversion/epub-to-png" target="_blank">![Text "Banner EPUB to PNG Converter"](epub-to-png.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/epub-to-png" target="_blank">![Text "Banner EPUB to PNG Converter"](epub-to-png.png#center)</a>
 
 ## **EPUB to PNG by a single line of code**
 
@@ -140,7 +140,7 @@ In the example, we use:
 
 {{% alert color="primary" %}} 
 
-Check the quality of EPUB to PNG conversion with our online [**EPUB to PNG Converter**](https://products.aspose.app/html/en/conversion/epub-to-png). You can convert multiple EPUB files to JPG and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful EPUB to PNG Converter for free now!
+Check the quality of EPUB to PNG conversion with our online [**EPUB to PNG Converter**](https://products.aspose.app/html/conversion/epub-to-png). You can convert multiple EPUB files to JPG and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful EPUB to PNG Converter for free now!
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 

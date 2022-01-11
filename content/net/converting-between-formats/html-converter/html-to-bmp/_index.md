@@ -9,7 +9,7 @@ description: This article provides information on how to convert HTML to BMP
 weight: 40
 type: docs
 url: /net/converting-between-formats/html-to-bmp/
-lastmod: 2021-09-03
+lastmod: 2022-01-11
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -19,11 +19,11 @@ In this article, you find information on how to convert  HTML to {{%BMP%}} by us
 
 {{% alert color="primary" %}} 
 
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/html-to-bmp" target="_blank">**HTML to BMP Converter**</a> that converts HTML to BMP image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-bmp" target="_blank">**HTML to BMP Converter**</a> that converts HTML to BMP image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 
 {{% /alert %}} 
 
-<a href="https://products.aspose.app/html/en/conversion/html-to-bmp" target="_blank">![Text "Banner HTML to BMP Converter"](html-to-bmp.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/html-to-bmp" target="_blank">![Text "Banner HTML to BMP Converter"](html-to-bmp.png#center)</a>
 
 ## **Convert HTML to BMP**
 Converting a file to another format using the ConvertHTML() method is a sequence of operations among which document loading and saving:
@@ -140,7 +140,7 @@ The figure shows the bmp-output-options.bmp file.
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 
-You can check the quality of HTML to BMP conversion with our online [**HTML to BMP Converter**](https://products.aspose.app/html/en/conversion/html-to-bmp). You can convert multiple HTML files to BMP and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to BMP Converter for free now!
+You can check the quality of HTML to BMP conversion with our online [**HTML to BMP Converter**](https://products.aspose.app/html/conversion/html-to-bmp). You can convert multiple HTML files to BMP and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to BMP Converter for free now!
 
 {{% /alert %}}
 
