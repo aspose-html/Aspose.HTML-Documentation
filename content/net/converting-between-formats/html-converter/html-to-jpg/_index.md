@@ -13,7 +13,6 @@ type: docs
 aliases:
   - /net/converting-between-formats/html-to-image-conversion/
   - /net/html-to-image-conversion/
-  - /display/htmlnet/HTML+to+Image+Conversion
   - /htmlnet/HTML+to+Image+Conversion
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
