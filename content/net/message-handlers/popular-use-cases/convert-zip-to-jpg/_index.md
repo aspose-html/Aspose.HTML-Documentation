@@ -6,7 +6,7 @@ weight: 20
 url: /net/message-handlers/convert-zip-to-jpg/
 description: In the article, the example of a message handler creating for working with zip archives is considered. The implementation of converting zip to jpg is shown.
 keywords: message handler, zip to jpg, convert zip to jpg
-lastmod: "2021-11-17"
+lastmod: "2022-01-11"
 sitemap:
     changefreq: "monthly"
     priority: 0.8
@@ -20,9 +20,9 @@ In this article, we create a custom Message Handler to do a specific task - conv
 You can download the complete C# examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
 
-Aspose.HTML offers a free online [**ZIP to JPG Converter**](https://products.aspose.app/html/en/conversion/zip-to-jpg) that converts ZIP to JPG with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online [**ZIP to JPG Converter**](https://products.aspose.app/html/conversion/zip-to-jpg) that converts ZIP to JPG with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 
-<a href="https://products.aspose.app/html/en/conversion/zip-to-jpg" target="_blank">![Text "Banner ZIP to JPG Converter"](zip-to-jpg.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/zip-to-jpg" target="_blank">![Text "Banner ZIP to JPG Converter"](zip-to-jpg.png#center)</a>
 
 There are many reasons why would you require to convert ZIP to {{%JPG%}} format. For example, if you want to convert an HTML(XHTML) document containing linked resources to JPG, you should pack all these resources along with the document into a single ZIP archive and convert ZIP to JPG. Aspose.HTML for .NET provides functionality for creating custom message handlers for working with ZIP archives.
 
@@ -195,5 +195,5 @@ In the example, the ZIP archive (test.zip) has the HTML document (test.html) in 
 For more information on how to convert HTML to JPG using [Renderto(`device`)](https://apireference.aspose.com/html/net/aspose.html/htmldocument/methods/renderto) method, please read the **[Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/)** article.
 
 {{% alert color="primary" %}} 
-Aspose.HTML provides a free online [**ZIP to JPG Converter**](https://products.aspose.app/html/en/conversion/zip-to-JPG) that allows you to quickly, easily and clearly convert ZIP to JPG.  Upload, convert files and get results in seconds. Try our forceful ZIP to JPG Converter for free now!
+Aspose.HTML provides a free online [**ZIP to JPG Converter**](https://products.aspose.app/html/conversion/zip-to-JPG) that allows you to quickly, easily and clearly convert ZIP to JPG.  Upload, convert files and get results in seconds. Try our forceful ZIP to JPG Converter for free now!
 {{% /alert %}}

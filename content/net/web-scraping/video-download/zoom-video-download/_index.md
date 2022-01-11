@@ -7,7 +7,6 @@ description: In this article, you find the description and a few C# examples of 
 weight: 30
 type: docs
 url: /net/web-scraping/download-zoom-videos/
-
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
@@ -15,10 +14,10 @@ url: /net/web-scraping/download-zoom-videos/
 Nowadays, communication via the Internet has become more relevant than ever. The Zoom platform helps organizations lead virtual meetings with team members and their clients, solves learning challenges through distance learning, and enables teachers to present lessons and give homework to their students over the Internet. Aspose.HTML for .NET API provides a powerful toolset to analyze and collect information from HTML documents and allows you to download Zoom video by its URL. You can easily create your own application using API functionalities or just download and watch your favorite video offline without any internet connection.
 
 {{% alert color="primary" %}} 
-Aspose.HTML offers a Free Online [**Zoom Video Downloader**](https://products.aspose.app/html/en/zoom-video-downloader) for your favorite videos. Just click on the button and save the favorite video to review it at any time! 
+Aspose.HTML offers a Free Online [**Zoom Video Downloader**](https://products.aspose.app/html/video-downloader/zoom) for your favorite videos. Just click on the button and save the favorite video to review it at any time! 
 {{% /alert %}}  
 
-<a href="https://products.aspose.app/html/en/zoom-video-downloader" target="_blank">![Text "Banner Zoom Video Downloader"](download-zoom.png#center)</a>
+<a href="https://products.aspose.app/html/video-downloader/zoom" target="_blank">![Text "Banner Zoom Video Downloader"](download-zoom.png#center)</a>
 
 **Note:** Video downloading becomes illegal when non publicly available data becomes extracted. You should be especially careful about the information you collect and comply with copyright laws. We do not support downloading copyrighted videos and using other people’s videos for commercial purposes without their express permission. We are not responsible for any copyright infringement that may occur when using the Aspose.HTML library.
 
@@ -133,7 +132,7 @@ The [Download(`format`, `filePath`)](https://apireference.aspose.com/html/net/as
 {{% alert color="primary" %}} 
 You can download the complete C# examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 
-Aspose.HTML offers free online Apps for data scraping that help you extract data from the web on any device in seconds. [**Data Scrapers**](https://products.aspose.app/html/en/scrapers) are free and do not require any software installation. They are easy and clear to use yet forceful and reliable. Try the Data Scrapers Apps and extract data from any web page now! 
+Aspose.HTML offers free online Apps for data scraping that help you extract data from the web on any device in seconds. [**Data Scrapers**](https://products.aspose.app/html/data-scrapers) are free and do not require any software installation. They are easy and clear to use yet forceful and reliable. Try the Data Scrapers Apps and extract data from any web page now! 
 {{% /alert %}} 
 
 

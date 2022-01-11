@@ -6,7 +6,7 @@ weight: 40
 aliases: /net/web-scraping/
 description: This section describes how to navigate through an HTML document and perform a detailed inspection of its elements and extract data, such as video and audio from the web pages using Aspose.HTML for .NET. You will find C # examples for getting specific video information and downloading YouTube, YouKu and Zoom videos.
 keywords: web scraping, data scrapers, html navigation, XPath, CSS selector, extract data, video download
-lastmod: "2021-11-17"
+lastmod: "2022-01-11"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -25,10 +25,10 @@ Web Scraping section describes how to inspect, capture and extract data,  such a
 **Note**: Web scraping becomes illegal when non publicly available data becomes extracted. You should be especially careful about the data you collect and comply with copyright laws. We do not support downloading copyrighted videos and using other people's videos for commercial purposes without their express permission. We are not responsible for any copyright infringement that may occur when using the Aspose.HTML library.
 
 {{% alert color="primary" %}} 
-Aspose.HTML offers free online [**Data Scrapers**](https://products.aspose.app/html/en/scrapers) Apps that are a way to get data from websites. Using our web extracting tools, you're able to get data from the Internet in seconds. Our Apps are safe, work on any platform and do not require any software installation. You can extract data from websites on any device. Data Scrapers can be used for image extracting, getting keywords from a webpage, video downloading, etc. They are easy and clear to use, yet forceful and reliable. Try the Data Scrapers Apps and extract data from any web page now!
+Aspose.HTML offers free online [**Data Scrapers**](https://products.aspose.app/html/data-scrapers) Apps that are a way to get data from websites. Using our web extracting tools, you're able to get data from the Internet in seconds. Our Apps are safe, work on any platform and do not require any software installation. You can extract data from websites on any device. Data Scrapers can be used for image extracting, getting keywords from a webpage, video downloading, etc. They are easy and clear to use, yet forceful and reliable. Try the Data Scrapers Apps and extract data from any web page now!
 {{% /alert %}} 
 
-<a href="https://products.aspose.app/html/en/scrapers" target="_blank">![Text "Banner Data Scrapers"](data-scrapers.png#center)</a> 
+<a href="https://products.aspose.app/html/data-scrapers" target="_blank">![Text "Banner Data Scrapers"](data-scrapers.png#center)</a> 
 
 
 

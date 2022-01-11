@@ -6,7 +6,7 @@ weight: 70
 aliases: /net/FAQ
 description: This article includes frequently asked questions about using the functionality of the Aspose.HTML for .NET library.  
 keywords: HTML document,  XPath, convert html, CSS
-lastmod: 2021-09-29
+lastmod: 2022-01-11
 ---
 
 **Q: How to convert HTML document to PDF?**

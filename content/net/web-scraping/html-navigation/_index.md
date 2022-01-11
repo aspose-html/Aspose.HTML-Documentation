@@ -6,7 +6,7 @@ weight: 10
 aliases: /net/html-navigation/
 description: In this article, you find the description of how to perform a detailed inspection of the HTML document and its elements using the API, about custom filters usage for iterating over the document elements, how to navigate over the document by using CSS Selector or XPath.
 keywords: HTML navigation, DOM, XPath, XPath Query, CSS selector, custom filter, C# example
-lastmod: "2021-11-17"
+lastmod: "2022-01-11"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -88,10 +88,10 @@ In the following example, we use the [QuerySelectorAll()](https://apireference.a
 
 You can download the complete C# examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net). 
 
-Aspose.HTML offers free online [**Data Scrapers**](https://products.aspose.app/html/en/scrapers) Apps that are a way to get data from websites. Using our web extracting tools, you're able to get data from the Internet in seconds. Our Apps are safe, work on any platform and do not require any software installation. 
+Aspose.HTML offers free online [**Data Scrapers**](https://products.aspose.app/html/data-scrapers) Apps that are a way to get data from websites. Using our web extracting tools, you're able to get data from the Internet in seconds. Our Apps are safe, work on any platform and do not require any software installation. 
 {{% /alert %}}  
 
-<a href="https://products.aspose.app/html/en/scrapers" target="_blank">![Text "Banner Data Scrapers"](./../data-scrapers.png#center)</a> 
+<a href="https://products.aspose.app/html/data-scrapers" target="_blank">![Text "Banner Data Scrapers"](./../data-scrapers.png#center)</a> 
 
 
 

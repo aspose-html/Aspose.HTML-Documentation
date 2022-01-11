@@ -7,7 +7,7 @@ description: In this article, you find the description and a few C# examples of 
 weight: 20
 type: docs
 url: /net/web-scraping/download-youku-videos/
-lastmod: "2021-11-17"
+lastmod: "2022-01-11"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -19,10 +19,10 @@ sitemap:
 Youku is a Chinese Internet video giant that allows people to search, upload, view and share high-quality videos. As the fastest growing video sharing website in China, Youku has more than 500 million active users and offers over 100 million videos for daily viewing.  Youku is called China's YouTube. It attracts people worldwide and covers news, TV series, music videos, movies, animations, documentaries, sports, and others, inside and outside of China.  You can easily create your own application using Aspose.HTML API functionalities or just download and watch your favorite video offline without any internet connection.
 
 {{% alert color="primary" %}} 
-Aspose.HTML offers a Free Online [**YouKu Video Downloader**](https://products.aspose.app/html/en/youku-video-downloader) for your favorite videos. Just click on the button and save the favorite video to review it at any time! 
+Aspose.HTML offers a Free Online [**YouKu Video Downloader**](https://products.aspose.app/html/video-downloader/youku) for your favorite videos. Just click on the button and save the favorite video to review it at any time! 
 {{% /alert %}}  
 
-<a href="https://products.aspose.app/html/en/youku-video-downloader" target="_blank">![Text "Banner YouKu Video Downloader"](download-youku.png#center)</a>
+<a href="https://products.aspose.app/html/video-downloader/youku" target="_blank">![Text "Banner YouKu Video Downloader"](download-youku.png#center)</a>
 
 **Note:** Video downloading becomes illegal when non publicly available data becomes extracted. You should be especially careful about the information you collect and comply with copyright laws. We do not support downloading copyrighted videos and using other people’s videos for commercial purposes without their express permission. We are not responsible for any copyright infringement that may occur when using the Aspose.HTML library.
 
