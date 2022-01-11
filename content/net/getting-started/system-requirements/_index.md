@@ -3,7 +3,6 @@ title: System Requirements
 aliases: 
     - /net/supported-platforms/
     - /net/system-requirements/
-    - /display/htmlnet/System+Requirements
 type: docs
 weight: 50
 ---
