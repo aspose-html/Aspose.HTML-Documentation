@@ -1,5 +1,5 @@
 ---
-title: Aspose.HTML for .NET 21.1 Release Notes
+title: Aspose.HTML for .NET 22.1 Release Notes
 weight: 120
 type: docs
 aliases: /net/aspose-html-for-net-21-1-release-notes/
