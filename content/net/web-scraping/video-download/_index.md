@@ -17,10 +17,10 @@ sitemap:
 Aspose.HTML for .NET API provides a powerful toolset to analyze and collect information from HTML documents and gives a possibility to download video by its URL. You can easily create your own application using API functionalities or just download and watch your favorite video offline without any internet connection.
 
 {{% alert color="primary" %}} 
-You can download video to your device from popular video hubs in any format with our Free Online [**Video Grabber**](https://products.aspose.app/html/en/video-grabber) App. 
+You can download video to your device from popular video hubs in any format with our Free Online [**Video Grabber**](https://products.aspose.app/html/video-grabber) App. 
 {{% /alert %}}  
 
-<a href="https://products.aspose.app/html/en/video-grabber" target="_blank">![Text "Banner Video Grabber"](video-grabber.png#center)</a>
+<a href="https://products.aspose.app/html/video-grabber" target="_blank">![Text "Banner Video Grabber"](video-grabber.png#center)</a>
 
 ## **Data Scraping Namespaces**
 Data Scraping is a way to get data from websites. Aspose.HTML API provides [DataScraping.MultimediaScraping Namespace](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping) that implements various multimedia scraping classes:
@@ -104,10 +104,10 @@ The Download() method of the Multimedia class takes as parameters the informatio
 {{% alert color="primary" %}} 
 You can download the complete C# examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net). 
 
-Aspose.HTML offers free online Apps for data scraping that help you extract data from the web on any device in seconds. [**Data Scrapers**](https://products.aspose.app/html/en/scrapers) are free and do not require any software installation. They are easy and clear to use yet forceful and reliable. Try the Data Scrapers Apps and extract data from any web page now!
+Aspose.HTML offers free online Apps for data scraping that help you extract data from the web on any device in seconds. [**Data Scrapers**](https://products.aspose.app/html/data-scrapers) are free and do not require any software installation. They are easy and clear to use yet forceful and reliable. Try the Data Scrapers Apps and extract data from any web page now!
 {{% /alert %}}   
 
-<a href="https://products.aspose.app/html/en/scrapers" target="_blank">![Text "Banner Data Scrapers"](./../data-scrapers.png#center)</a> 
+<a href="https://products.aspose.app/html/data-scrapers" target="_blank">![Text "Banner Data Scrapers"](./../data-scrapers.png#center)</a> 
 
 
 

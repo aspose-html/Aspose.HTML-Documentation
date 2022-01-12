@@ -7,7 +7,7 @@ description: In this article, you find the description and a few C# examples of 
 weight: 10
 type: docs
 url: /net/web-scraping/download-youtube-videos/
-lastmod: "2021-11-17"
+lastmod: "2022-01-11"
 sitemap:
     changefreq: "weekly"
     priority: 0.8
@@ -20,10 +20,10 @@ sitemap:
 YouTube is a free service and a great place to find what you love. Many people use YouTube to watch music videos, how-to guides, comedy shows,  recipes, funny science lessons, fashion tips, and more. YouTube is popular among over a billion users who record and share their own videos, watch and upload all kinds of video content.
 
 {{% alert color="primary" %}} 
-Aspose.HTML offers a Free Online [**YouTube Video Downloader**](https://products.aspose.app/html/en/youtube-video-downloader) for your favorite videos. Just click on the button and save the favorite video to review it at any time! 
+Aspose.HTML offers a Free Online [**YouTube Video Downloader**](https://products.aspose.app/html/video-downloader/youtube) for your favorite videos. Just click on the button and save the favorite video to review it at any time! 
 {{% /alert %}}  
 
-<a href="https://products.aspose.app/html/en/youtube-video-downloader" target="_blank">![Text "Banner YouTube Video Downloader"](download-youtube.png#center)</a>
+<a href="https://products.aspose.app/html/video-downloader/youtube" target="_blank">![Text "Banner YouTube Video Downloader"](download-youtube.png#center)</a>
 
 Aspose.HTML for .NET API provides a powerful toolset to analyze and collect information from HTML documents and gives a possibility to download YouTube video by its URL.  Using API functionalities, you can easily create your own application or just download and watch your favorite video offline without any internet connection.
 
@@ -205,10 +205,10 @@ The Download() method of the Multimedia class takes as parameters the informatio
 {{% alert color="primary" %}} 
 You can download the complete C# examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net). 
 
-Aspose.HTML offers free online Apps for data scraping that help you extract data from the web on any device in seconds. [**Data Scrapers**](https://products.aspose.app/html/en/scrapers) are free and do not require any software installation. They are easy and clear to use yet forceful and reliable. Try the Data Scrapers Apps and extract data from any web page now!
+Aspose.HTML offers free online Apps for data scraping that help you extract data from the web on any device in seconds. [**Data Scrapers**](https://products.aspose.app/html/data-scrapers) are free and do not require any software installation. They are easy and clear to use yet forceful and reliable. Try the Data Scrapers Apps and extract data from any web page now!
 {{% /alert %}}   
 
-<a href="https://products.aspose.app/html/en/scrapers" target="_blank">![Text "Banner Data Scrapers"](./../data-scrapers.png#center)</a> 
+<a href="https://products.aspose.app/html/data-scraperss" target="_blank">![Text "Banner Data Scrapers"](./../data-scrapers.png#center)</a> 
 
 
 
