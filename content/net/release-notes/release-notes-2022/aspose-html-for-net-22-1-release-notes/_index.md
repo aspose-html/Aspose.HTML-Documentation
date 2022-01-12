@@ -2,37 +2,24 @@
 title: Aspose.HTML for .NET 22.1 Release Notes
 weight: 120
 type: docs
+url: /net/aspose-html-for-net-22-1-release-notes
 ---
 {{% alert color="primary" %}} 
 
-
-
 This page contains release notes information for Aspose.HTML for .NET 22.1.
-
-
 
 {{% /alert %}} 
 
-
-
 As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the January release of Aspose.HTML for .NET.
-
-
 
 In this release we have improved various elements of rendering and JavaScript engines, here are some of them:
 
-
-
-- improved the table splitting algorithm;
-- introduced DOMTokenList support;
-- extended jQuery support;
-- improved the counter processing algorithm.
-
-
+* improved the table splitting algorithm;
+* introduced DOMTokenList support;
+* extended jQuery support;
+* improved the counter processing algorithm.
 
 ## **Improvements and Changes**
-
-
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
@@ -41,12 +28,9 @@ In this release we have improved various elements of rendering and JavaScript en
 |HTMLNET-3363|HTML to PDF - Generated PDF is either blank or images are missing|Bug|
 |HTMLNET-3504|Non breaking spaces are converted to invalid characters in output PDF|Bug|
 
-
-
 ## **Public API and Backward Incompatible Changes**
+
 ### **Added APIs**
-
-
 
 ```
 namespace Aspose.Html.Rendering
