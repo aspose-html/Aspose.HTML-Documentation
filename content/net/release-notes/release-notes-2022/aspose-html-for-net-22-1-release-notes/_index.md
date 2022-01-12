@@ -12,7 +12,7 @@ This page contains release notes information for Aspose.HTML for .NET 22.1.
 
 As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the January release of Aspose.HTML for .NET.
 
-In this release, we have added a new feature - page scaling. It will allow you to scale the content of the rendered document so that it does not go beyond the bounds of the page. We also made many improvements to the parsing, saving and rendering algorithms, here are some of them:
+In this release, we have added a new feature - page scaling. It will allow you to scale the content of the rendered document so that it does not go beyond the bounds of the page. We also made many improvements to other algorithms, here are some of them:
 
 * Improved the conversion of documents to MHTML format by adding support for the "quoted-printable" encoding.
 * Increased the accuracy of SVG filter size calculation.
