@@ -1,3 +1,2 @@
-home = ["HTML"]
-#home = ["HTML", "nginx_redirects"]
+home = ["HTML", "nginx_redirects"]
 #section = [ "HTML", "RSS"]

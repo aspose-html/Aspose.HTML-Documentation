@@ -4,6 +4,7 @@ type: docs
 weight: 10
 aliases: 
     - /net/
+    - /display/htmlnet/Home
 is_root: true
 ---
 

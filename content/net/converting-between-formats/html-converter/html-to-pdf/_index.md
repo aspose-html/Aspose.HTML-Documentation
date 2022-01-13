@@ -13,6 +13,7 @@ type: docs
 aliases:
   - /net/converting-between-formats/html-to-pdf-conversion/
   - /net/html-to-pdf-conversion/
+  - /display/htmlnet/HTML+to+PDF+Conversion
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 

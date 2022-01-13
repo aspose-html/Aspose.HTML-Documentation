@@ -1,5 +1,5 @@
-#[[imports]]
-#path = "github.com/tpavel-aspose/hugo-module-nginx-redirects"
+[[imports]]
+path = "github.com/tpavel-aspose/hugo-module-nginx-redirects"
 [[imports]]
 path = "github.com/tpavel-aspose/hugo-module-local-editor"
 #[[imports]]

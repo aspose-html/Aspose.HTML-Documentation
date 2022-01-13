@@ -4,6 +4,7 @@ weight: 40
 type: docs
 aliases:
   - /net/licensing/
+  - /display/htmlnet/Licensing
 ---
 
 ## **Evaluate Aspose.HTML for .NET**
