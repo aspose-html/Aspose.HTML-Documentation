@@ -138,7 +138,7 @@ In the above example, we use the property `MaxHandlingDepth = 1` means that only
 
 {{% alert color="primary" %}} 
 
-You can check the quality of HTML to MHTML conversion with our online [**HTML to MHTML Converter**](https://products.aspose.app/html/conversion/html-to-mhtmls). You can convert multiple HTML files to MHTML and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to MHTML Converter for free now!
+You can check the quality of HTML to MHTML conversion with our online [**HTML to MHTML Converter**](https://products.aspose.app/html/conversion/html-to-mhtml). You can convert multiple HTML files to MHTML and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to MHTML Converter for free now!
 
 {{% /alert %}}
 
