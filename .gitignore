@@ -7,6 +7,7 @@ package-lock.json
 go.sum
 log.txt
 _vendor
+.hugo_build.lock
 ...*
 # User-specific files
 content/tests-net/**/*.rsuser
