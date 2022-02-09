@@ -50,3 +50,27 @@ namespace Aspose.Html.Rendering
     }
 }
 ```
+
+### **Changed APIs**
+```
+namespace Aspose.Html.Rendering
+{
+    //From
+    public class TextInfo
+    {
+        public IList<CharacterInfo> CharacterInfos { get; }
+    }
+
+    //To
+    public class TextInfo
+    {
+        /// <summary>
+        /// Gets information about rendered glyphs.
+        /// </summary>
+        /// <value>
+        /// A <see cref="IList{GlyphInfo}" /> that contains information about rendered glyphs.
+        /// </value>
+        public IList<GlyphInfo> GlyphInfos { get; }
+    }
+}
+```
