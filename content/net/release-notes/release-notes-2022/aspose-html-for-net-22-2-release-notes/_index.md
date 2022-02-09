@@ -11,47 +11,30 @@ This page contains release notes information for Aspose.HTML for .NET 22.2.
 
 As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the February release of Aspose.HTML for .NET.
 
-In this release, we have added a new feature - page scaling. It will allow you to scale the content of the rendered document so that it does not go beyond the bounds of the page. We also made many improvements to other algorithms, here are some of them:
+In this release, we have significantly redesigned text processing algorithms. Now, when processing text, the features declared in fonts will be applied, dramatically improving the quality of rendering for some languages. We have also made many improvements to other algorithms, here are some of them:
 
-* Improved the conversion of documents to MHTML format by adding support for the "quoted-printable" encoding.
-* Increased the accuracy of SVG filter size calculation.
-* Updated CSS and HTML parsing algorithms according to the latest documentation.
+
+* Improved the table header splitting algorithm. Now the situation when the header is larger than the free space is correctly handled.
+* Improved the font selection algorithm used in SVG rendering.
+* Implemented an algorithm for handling obsolete CSS properties.
+
 
 ## **Improvements and Changes**
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-|HTMLNET-3073|HTML to MHT - characters are garbled in the output|Bug|
-|HTMLNET-3338|Issue converting HTML to PDF with \<figcaption> element and counters|Bug|
-|HTMLNET-3363|HTML to PDF - Generated PDF is either blank or images are missing|Bug|
-|HTMLNET-3504|Non breaking spaces are converted to invalid characters in output PDF|Bug|
+|HTMLNET-3568|HTML to PDF: right side is cut off|Bug|
+|HTMLNET-2682|Support for .NET 5|Investigation|
+|HTMLNET-3618|HTML to PDF conversion does not work for page-break-inside|Bug|
+|HTMLNET-3569|HTM to PDF content is cut off on the right side|Bug|
+|HTMLNET-3567|Convert from Template HTML (with Template Data Json), then save file .html - Failed to parse URL|Bug|
 
 ## **Public API and Backward Incompatible Changes**
 
-### **Added APIs**
-
-```
-namespace Aspose.Html.Rendering
-{
-    public enum PageLayoutOptions
-    {
-        /// <summary>
-        /// This flag indicates that the content of the document will be scaled to fit the page where the difference between the available page width and the overlapping content is greatest.
-        /// It collides with <see cref="FitToContentWidth"/> flag and if both flags are specified only <see cref="ScaleToPageWidth"/> will take affect.
-        /// </summary>
-        ScaleToPageWidth = 0x100,
-
-        /// <summary>
-        /// This flag indicates that the content of the document will be scaled to fit the height of the first page.
-        /// It collides with <see cref="FitToContentHeight"/> flag and if both flags are specified only <see cref="ScaleToPageHeight"/> will take affect.
-        /// All document content will be placed on the single page only.
-        /// </summary>
-        ScaleToPageHeight = 0x1000
-    }
-}
-```
-
 ### **Changed APIs**
+
+Some classes have been replaced due to the transition to the new text processing logic.
+
 ```
 namespace Aspose.Html.Rendering
 {
@@ -71,6 +54,50 @@ namespace Aspose.Html.Rendering
         /// A <see cref="IList{GlyphInfo}" /> that contains information about rendered glyphs.
         /// </value>
         public IList<GlyphInfo> GlyphInfos { get; }
+    }
+}
+```
+
+```
+namespace Aspose.Html.Rendering
+{
+    //From
+    public struct CharacterInfo
+    {
+        public float Width { get; }
+
+        public float Offset { get; }
+    }
+
+    //To
+    /// <summary>
+    /// Contains glyph related information.
+    /// </summary>
+    public struct GlyphInfo
+    {
+        /// <summary>
+        /// Gets the width of the glyph, in points.
+        /// </summary>
+        /// <value>
+        /// Width in points.
+        /// </value>
+        public float Width { get; }
+
+        /// <summary>
+        /// Gets the offset to the next glyph in points.
+        /// </summary>
+        /// <value>
+        /// Offset in points.
+        /// </value>
+        public float Offset { get; }
+
+        /// <summary>
+        /// Gets the index of this glyph in the font.
+        /// </summary>
+        /// <value>
+        /// Index of the glyph.
+        /// </value>
+        public uint Index { get; }
     }
 }
 ```
