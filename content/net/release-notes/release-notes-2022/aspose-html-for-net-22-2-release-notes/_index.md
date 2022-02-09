@@ -29,6 +29,8 @@ In this release, we have significantly redesigned text processing algorithms. No
 |HTMLNET-3618|HTML to PDF conversion does not work for page-break-inside|Bug|
 |HTMLNET-3569|HTM to PDF content is cut off on the right side|Bug|
 |HTMLNET-3567|Convert from Template HTML (with Template Data Json), then save file .html - Failed to parse URL|Bug|
+|HTMLNET-2774|Issue with Arabic characters|Bug|
+
 
 ## **Public API and Backward Incompatible Changes**
 
