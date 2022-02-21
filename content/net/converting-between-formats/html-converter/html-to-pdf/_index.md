@@ -1,11 +1,11 @@
 ---
-keywords: html to pdf, convert html to pdf, html to pdf conversion, html to pdf
+keywords: html to pdf, convert html to pdf c#, convert html to pdf, html to pdf conversion, html to pdf
   converter, save options, stream provider
 lastmod: 2022-01-11
 url: /net/converting-between-formats/html-to-pdf/
 title: Convert HTML to PDF | C#
 linktitle: Convert HTML to PDF
-description: This article provides information on how to convert HTML to PDF
+description: This article provides information on how to convert HTML to PDF in C# or .NET
   using Aspose.HTML API. You will learn about the supported HTML to PDF
   conversion scenarios and consider examples to illustrate them.
 weight: 10
@@ -45,7 +45,7 @@ using Aspose.Html.Saving;
      Converter.ConvertHTML(@"<h1>Convert HTML to PDF!</h1>", ".", new PdfSaveOptions(), Path.Combine(OutputDir, "convert-with-single-line.pdf"));
 {{< /highlight >}}
 
-## **Convert HTML to PDF**
+## **Convert HTML to PDF in C#**
 Converting a file to another format using the ConvertHTML() method is a sequence of operations among which document loading and saving:
 
 1. Load an HTML file using one of HTMLDocument() constructors of the [HTMLDocument](https://apireference.aspose.com/html/net/aspose.html/htmldocument) class. In the example we use [HTMLDocument(string)](https://apireference.aspose.com/html/net/aspose.html/htmldocument/constructors/10) constructor that initializes an HTML document from a file. 
@@ -107,7 +107,7 @@ To learn more about [PdfSaveOptions](https://apireference.aspose.com/html/net/as
 
 {{% /alert %}}
 
-## **Convert HTML to PDF using PdfSaveOptions**
+## **Convert HTML to PDF in C# using PdfSaveOptions**
 
 With Aspose.HTML, you can convert files programmatically with full control over a wide range of conversion parameters. To convert HTML to PDF with PdfSaveOptions specifying, you should follow a few steps: 
 
