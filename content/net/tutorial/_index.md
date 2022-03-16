@@ -5,7 +5,7 @@ type: docs
 weight: 5
 description: HTML Tutorial section helps you to learn some basic HTML, including how to use HTML elements and tags, place text on a page, add images, use HTML colors, etc.
 keywords: html, html tutorial, html learning, 
-lastmod: "2022-03-11"
+lastmod: "2022-03-16"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -25,8 +25,8 @@ If you are a novice developer and want to create web pages, the first skill you 
 - Learning HTML will help you better understand how the World Wide Web works. If you want to SEO optimize your website, improve its speed and performance, it is useful to know HTML for the best results.
 
 HTML Tutorial section helps you to learn some basic HTML, including how to use HTML elements and tags, place text on a page, add images, use HTML colors, etc. This section is in progress and currently includes articles:
- - [HTML Colors](https://docs.aspose.com/html/net/web-scraping/html-navigation/) - In this article, you learn how to perform a detailed inspection of the HTML document and its elements using the API, about custom filters usage for iterating over the document elements, and how to navigate over the document by using CSS Selector or XPath.
- - [How to Use HTML Colors](https://docs.aspose.com/html/net/web-scraping/video-download/) - This article describes how to get video information, select a required video format and download a video by its URL.
+ - [HTML Colors](https://docs.aspose.com/html/net/tutorial/html-colors/) - In this article, you  will find information about HTML color codes for your website - HTML color names with hex color codes, RGB, RGBA, HSL and HSLA values.
+ - How to Use HTML Colors - In this article, we'll cover how to add the color of your HTML text, background, border or iFrame using HEX color codes, HTML color names, RGB and HSL values.
 
 {{% alert color="primary" %}} 
 
