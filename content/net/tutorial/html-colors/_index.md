@@ -5,7 +5,7 @@ type: docs
 weight: 10
 description: You will find information about HTML color codes for your website - HTML color names with hex color codes, RGB, RGBA, HSL and HSLA values.
 keywords: html colors, html color codes, color names, hex colors, hex code, hex color codes, rgb, rgb color, rgba, hsl, hsla, color values, color codes
-lastmod: "2022-03-16"
+lastmod: "2022-03-17"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -66,7 +66,7 @@ For an RGBA value, unlike RGB values, there is no hexadecimal notation.
 
 ### **HSL Colors**
 
-Many consider the RGB color code is non-intuitive and hardware-oriented. The HSL color model was developed in the 1970s by computer graphics researchers to more closely match how human vision perceives color-producing attributes. In the HSL model, colors of each hue are arranged in a radial slice around a central axis of neutral colors, ranging from black at the bottom to white at the top. The HSL representation rearranges the colors to make them more intuitive than the RGB representation. It is often used for computer graphics applications such as color pickers and image analysis.
+Many people consider the RGB color code is non-intuitive and hardware-oriented. The HSL color model was developed in the 1970s by computer graphics researchers to more closely match how human vision perceives color-producing attributes. In the HSL model, colors of each hue are arranged in a radial slice around a central axis of neutral colors, ranging from black at the bottom to white at the top. The HSL representation rearranges the colors to make them more intuitive than the RGB representation. It is often used for computer graphics applications such as color pickers and image analysis.
 
 The figure shows a 3D graphical interpretation of the HSL model (a), the image is taken from commons.wikimedia.org/wiki/. Figure (b) shows a 2D graphical interpretation of the HSL model for a lightness value of 50%.
 
@@ -74,7 +74,7 @@ The figure shows a 3D graphical interpretation of the HSL model (a), the image i
 
 HSL is a representation of the RGB color model in cylindrical coordinates. Hue defines the basic color. Hue is basically any color on the color wheel; it's a degree on the color wheel from 0 to 360. So, 0 is red, 120 is green, 240 is blue. Saturation is the intensity or purity of a color. It determines how vivid the color will be. Zero percent is gray, and 100 percent is a fully saturated color. Lightness is the amount of brightness or light in color. Lightness determines how much black or white tint the color has. For example, 50 percent has no tint, zero percent is entirely black, and 100 percent is fully white.
 
-**HSL Examples**
+**HSL Color Examples**
 
 The table below represents one hue. Red color has been chosen from the color circle. Hue=0. The X-axis of the table represents the saturation (100%, 75%, 50%, 25%, 0%). The Y-axis represents lightness. 50% is “normal”.
 
@@ -84,13 +84,20 @@ The table below represents one hue. Red color has been chosen from the color cir
 
 **HSLA** color values are an extension of HSL color values with an alpha channel that determines the opacity of the color. The HSLA color value is specified with hue, saturation, lightness, and alpha, where the alpha parameter specifies the opacity. The alpha parameter is a number between 0.0, meaning "fully transparent", and 1.0, meaning "fully opaque". For example, hsla(0, 100%, 50%, 1) is displayed as pure red, hsla(0, 100%, 50%, 0.5)  is displayed as red with 50% opacity:
 
-![Text "HSLA color codes for magenta with different opacity"](hsla-color.png#center)
+![Text "HSLA color codes for Red with different opacity"](hsla-color.png#center)
+
+## **Conclusion**
+HTML colors can be defined by a name, RGB, RGBA, HEX, HSL or HSLA values and applied to the background or text in HTML documents. 
+
+The figure below illustrates how to specify teal color  by name, RGB, RGBA, HEX, HSL and HSLA values:
+
+![Text "Teal Color is represented by name, HEX, RGB, RGBA, HSL and HSLA values"](html-colors.png#center)
 
 {{% alert color="primary" %}} 
 Aspose.HTML offers a free online <a href="https://products.aspose.app/html/color-wheel" target="_blank">**Color Wheel Picker**</a>  that allows you to create a set of colors in the HEX color code. You can use this free online application to find color harmonies by using the rules of color combinations, but also it is essential to experiment with color. Color Wheel Picker suggests an excellent way to experiment with color and create exciting color combinations independently. The application runs for computers, tablets and mobile devices. So make your unique palette for any project! 
 {{% /alert %}} 
 
-<a href="https://products.aspose.app/html/color-wheel" target="_blank">![Text "Banner Color Wheel Picker"](color-wheel-picker.png#center)</a> 
+<a href="https://products.aspose.app/html/color-wheel" target="_blank">![Text "Banner Color Wheel Picker"](../color-wheel-picker.png#center)</a> 
 
 
 
