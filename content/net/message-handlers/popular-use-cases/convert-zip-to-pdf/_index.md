@@ -3,10 +3,10 @@ title: Convert ZIP to PDF | C# example
 linktitle: Convert ZIP to PDF
 type: docs
 weight: 10
-url: /net/message-handlers/convert-zip-to-pdf/
+url: /net/message-handlers/zip-to-pdf/
 description: In the article, the example of a message handler creating for working with zip archives is considered. The implementation of converting zip to pdf is shown.
 keywords: zip to pdf, convert zip to pdf, message handler, custom message handler
-lastmod: "2022-03-16"
+lastmod: "2022-03-17"
 sitemap:
     changefreq: "weekly"
     priority: 0.8

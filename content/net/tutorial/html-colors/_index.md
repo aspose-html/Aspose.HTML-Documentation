@@ -5,7 +5,7 @@ type: docs
 weight: 10
 description: You will find information about HTML color codes for your website - HTML color names with hex color codes, RGB, RGBA, HSL and HSLA values.
 keywords: html colors, html color codes, color names, hex colors, hex code, hex color codes, rgb, rgb color, rgba, hsl, hsla, color values, color codes
-lastmod: "2022-03-16"
+lastmod: "2022-03-17"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -97,7 +97,7 @@ The figure below illustrates how to specify teal color  by name, RGB, RGBA, HEX,
 Aspose.HTML offers a free online <a href="https://products.aspose.app/html/color-wheel" target="_blank">**Color Wheel Picker**</a>  that allows you to create a set of colors in the HEX color code. You can use this free online application to find color harmonies by using the rules of color combinations, but also it is essential to experiment with color. Color Wheel Picker suggests an excellent way to experiment with color and create exciting color combinations independently. The application runs for computers, tablets and mobile devices. So make your unique palette for any project! 
 {{% /alert %}} 
 
-<a href="https://products.aspose.app/html/color-wheel" target="_blank">![Text "Banner Color Wheel Picker"](color-wheel-picker.png#center)</a> 
+<a href="https://products.aspose.app/html/color-wheel" target="_blank">![Text "Banner Color Wheel Picker"](../color-wheel-picker.png#center)</a> 
 
 
 

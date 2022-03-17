@@ -25,7 +25,7 @@ Suppose you want to convert an HTML(XHTML) document containing linked resources 
 
 Sometimes you need to get the total time taken for a Web request to flow through handlers, out to the endpoint, and receive the response. So, another popular use case for message handlers - logging the Web request execution time.
 
-[Convert ZIP to PDF](/html/net/message-handlers/convert-zip-to-pdf/) - In the article, you will find a message handler implementation for working with ZIP archives and an example of converting ZIP to PDF. 
+[Convert ZIP to PDF](/html/net/message-handlers/zip-to-pdf/) - In the article, you will find a message handler implementation for working with ZIP archives and an example of converting ZIP to PDF. 
 
 [Convert ZIP to JPG](/html/net/message-handlers/convert-zip-to-jpg/) - This article provides an example of implementing a message handler for converting ZIP to JPG using Aspose.HTML for .NET.
 
