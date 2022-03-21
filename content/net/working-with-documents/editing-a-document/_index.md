@@ -3,7 +3,12 @@ title: Editing an HTML Document
 type: docs
 weight: 30
 aliases: /net/editing-a-document/
-description: Document Object Model, DOM Tree, Edit HTML, Edit a Document Tree, Using InnerHTML & OuterHTML properties, Edit CSS, Inline CSS, Internal CSS, External CSS
+description: This article gives you basic information on how to read or modify the Document Object Model (DOM). You'll explore how to create an HTML Element and how to use Inline CSS, Internal CSS, and External CSS.
+keywords: Document Object Model, DOM Tree, Edit HTML, Edit a Document Tree, InnerHTML, OuterHTML, Edit CSS, Inline CSS, Internal CSS, External CSS
+lastmod: "2022-03-21"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.7
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -245,11 +250,11 @@ using Aspose.Html.Dom.Css;
         var lastParagraph = (HTMLElement)document.GetElementsByTagName("p").Last();
         lastParagraph.ClassName = "frame2";
                                                        
-        // Set a color to the first paragraph
+        // Set a font-size to the first paragraph
         paragraph.Style.FontSize = "250%";
         paragraph.Style.TextAlign = "center";                
     
-        // Set a font-size to the last paragraph
+        // Set a color and font-size to the last paragraph
         lastParagraph.Style.Color = "#434343";
         lastParagraph.Style.FontSize= "150%";
         lastParagraph.Style.FontFamily = "verdana";
