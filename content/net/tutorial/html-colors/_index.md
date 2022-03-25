@@ -1,6 +1,6 @@
 ---
-title: HTML Colors | HTML Color Codes
-linktitle: HTML Colors
+title: HTML Color Codes | HEX, RGB, RGBA, HSL and HSLA values
+linktitle: HTML Color Codes
 type: docs
 weight: 10
 description: You will find information about HTML color codes for your website - HTML color names with hex color codes, RGB, RGBA, HSL and HSLA values.
@@ -15,7 +15,7 @@ sitemap:
 
 ## **HTML Colors**
 
-HTML colors are the colors used to display web pages on the web.  They are closely linked to the methods of describing and defining these colors using their respective color codes. For example, HTML colors may be specified as the common English color names, or with hexadecimal values, RGB triplets, HSL, RGBA, and HSLA values. 
+HTML colors are the colors used to display web pages on the web.  They are closely linked to the methods of describing and defining these colors using their respective color codes. For example, HTML colors may be specified as the common English color names, or with HEX values, RGB triplets, HSL, RGBA, and HSLA values. 
 
 Colors play an essential role in forming the perceived value of web content and the emotions a person experiences when viewing it. In HTML and XHTML, colors can be used for text, background, frame borders, tables, and individual table cells.
 
@@ -45,8 +45,6 @@ Since there are 256 different quantity options for each color. So, there can be 
 One of the most typical ways to convey color is through visual systems such as diagrams or graphical models where each color has its own individual set of coordinates. For example, the RGB color system can be represented as a cube with 255 discrete points on each side:
 
 ![Text "The RGB cube as a graphical model for representing the RGB color system"](rgb-cube.png#center)
-
-
 
 ### **HEX Colors**
 
