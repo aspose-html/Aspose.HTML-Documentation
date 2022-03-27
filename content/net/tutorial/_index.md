@@ -4,8 +4,8 @@ linktitle: HTML Tutorial
 type: docs
 weight: 5
 description: HTML Tutorial section helps you to learn some basic HTML, including how to use HTML elements and tags, place text on a page, add images, use HTML colors, etc.
-keywords: html, html tutorial, html learning, 
-lastmod: "2022-03-17"
+keywords: html, html tutorial, html learning, html code example, html code 
+lastmod: "2022-03-28"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -25,8 +25,8 @@ If you are a novice developer and want to create web pages, the first skill you 
 - Learning HTML will help you better understand how the World Wide Web works. If you want to SEO optimize your website, improve its speed and performance, it is useful to know HTML for the best results.
 
 HTML Tutorial section helps you to learn some basic HTML, including how to use HTML elements and tags, place text on a page, add images, use HTML colors, etc. This section is in progress and currently includes articles:
- - [HTML Colors](https://docs.aspose.com/html/net/tutorial/html-colors/) - In this article, you  will find information about HTML color codes for your website - HTML color names with hex color codes, RGB, RGBA, HSL and HSLA values.
- - [Working with HTML Color](https://docs.aspose.com/html/net/tutorial/working-with-html-color/) - In this article, we'll cover how to add the color of your HTML text, background, or border using HTML color names, HEX color codes, RGB, RGBA, HSL and HSLA values.
+ - [HTML Color Codes](https://docs.aspose.com/html/net/tutorial/html-colors/) - In this article, you  will find information about HTML color codes for your website - HTML color names with HEX color codes, RGB, RGBA, HSL and HSLA values.
+ - [Working with HTML Color](https://docs.aspose.com/html/net/tutorial/working-with-html-color/) - In this article, we'll cover HTML code examples of how to add the color of your HTML text, background, or border using HTML color names, HEX color codes, RGB, RGBA, HSL and HSLA values.
 
 {{% alert color="primary" %}} 
 

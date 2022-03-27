@@ -4,8 +4,8 @@ linktitle: HTML Color Codes
 type: docs
 weight: 10
 description: You will find information about HTML color codes for your website - HTML color names with hex color codes, RGB, RGBA, HSL and HSLA values.
-keywords: html colors, html color codes, color names, hex colors, hex code, hex color codes, rgb, rgb color, rgba, hsl, hsla, color values, color codes
-lastmod: "2022-03-17"
+keywords: html colors, html color codes, color names, HTML color names, hex colors, hex code, hex color codes, rgb, rgb color, rgba, hsl, hsla, color values, color codes
+lastmod: "2022-03-28"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -21,7 +21,7 @@ Colors play an essential role in forming the perceived value of web content and 
 
   
 
- ## **Color Names**
+ ## **HTML Color Names**
 
 <a href="https://www.w3.org/TR/css-color-4/#named-colors" rel='noopener nofollow' target="_blank">W3C</a> specification of color names distinguishes basic and extended colors. The 16  basic colors are aqua, black, blue, fuchsia, gray, green, lime, maroon, navy, olive, purple, red, silver, teal, white, and yellow. Modern browsers support <a href="https://www.w3.org/TR/css-color-4/#named-colors" rel='noopener nofollow' target="_blank">147 HTML color names</a>.
 
@@ -29,7 +29,7 @@ The figure illustrates 16  basic colors with HEX and RGB codes:
 
 ![Text "16 basic HTML colors with HEX codes and RGB codes"](basic-html-colors.png#center)
 
-## **Color Codes**
+## **HTML Color Codes**
 
 HTML color codes are a means of representing a color format that a computer can read and display. Color codes are used in HTML and CSS to create web design color schemes. They are mainly used by web designers, front-end developers, programmers and digital illustrators.
 
@@ -54,7 +54,7 @@ The code is expressed as follows: #RRGGBB, where each of the two-digit values is
 
 ### **RGBA Colors**
 
-**RGBA** color values are an extension of RGB color values with an alpha channel that determines the opacity of the color. The alpha parameter is a number between 0.0, meaning "fully transparent", and 1.0, meaning "fully opaque". For example, rgba(255, 0, 0) is displayed as pure red, rgba(255, 0, 0, 0.5) is displayed as red with 50% opacity.
+**RGBA**(Red, Green, Blue, Alpha) color values are an extension of RGB color values with an alpha channel that determines the opacity of the color. The alpha parameter is a number between 0.0, meaning "fully transparent", and 1.0, meaning "fully opaque". For example, rgba(255, 0, 0) is displayed as pure red, rgba(255, 0, 0, 0.5) is displayed as red with 50% opacity.
 
 The figure shows RGBA values of name "YellowGreen" color, with different transparent:
 
@@ -64,7 +64,7 @@ For an RGBA value, unlike RGB values, there is no hexadecimal notation.
 
 ### **HSL Colors**
 
-Many people consider the RGB color code is non-intuitive and hardware-oriented. The HSL color model was developed in the 1970s by computer graphics researchers to more closely match how human vision perceives color-producing attributes. In the HSL model, colors of each hue are arranged in a radial slice around a central axis of neutral colors, ranging from black at the bottom to white at the top. The HSL representation rearranges the colors to make them more intuitive than the RGB representation. It is often used for computer graphics applications such as color pickers and image analysis.
+Many people consider the RGB color code is non-intuitive and hardware-oriented. The **HSL**(Hue, Saturation, Lightness) color model was developed in the 1970s by computer graphics researchers to more closely match how human vision perceives color-producing attributes. In the HSL model, colors of each hue are arranged in a radial slice around a central axis of neutral colors, ranging from black at the bottom to white at the top. The HSL representation rearranges the colors to make them more intuitive than the RGB representation. It is often used for computer graphics applications such as color pickers and image analysis.
 
 The figure shows a 3D graphical interpretation of the HSL model (a), the image is taken from commons.wikimedia.org/wiki/. Figure (b) shows a 2D graphical interpretation of the HSL model for a lightness value of 50%.
 
@@ -80,7 +80,7 @@ The table below represents one hue. Red color has been chosen from the color cir
 
 ### **HSLA Colors**
 
-**HSLA** color values are an extension of HSL color values with an alpha channel that determines the opacity of the color. The HSLA color value is specified with hue, saturation, lightness, and alpha, where the alpha parameter specifies the opacity. The alpha parameter is a number between 0.0, meaning "fully transparent", and 1.0, meaning "fully opaque". For example, hsla(0, 100%, 50%, 1) is displayed as pure red, hsla(0, 100%, 50%, 0.5)  is displayed as red with 50% opacity:
+**HSLA**(Hue, Saturation, Lightness, Alpha) color values are an extension of HSL color values with an alpha channel that determines the opacity of the color. The HSLA color value is specified with hue, saturation, lightness, and alpha, where the alpha parameter specifies the opacity. The alpha parameter is a number between 0.0, meaning "fully transparent", and 1.0, meaning "fully opaque". For example, hsla(0, 100%, 50%, 1) is displayed as pure red, hsla(0, 100%, 50%, 0.5)  is displayed as red with 50% opacity:
 
 ![Text "HSLA color codes for Red with different opacity"](hsla-color.png#center)
 

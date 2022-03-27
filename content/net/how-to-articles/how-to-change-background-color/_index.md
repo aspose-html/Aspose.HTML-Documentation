@@ -1,8 +1,8 @@
 ---
-title: How-to Articles | HTML questions in C# examples
-linktitle: How-to Articles
+title: How to Change Background Color? 
+linktitle: How to Change Background Color
 type: docs
-weight: 60
+weight: 20
 description: How-to articles chapter helps you to learn some basic HTML, including how to use HTML elements and tags, place text on a page, add images, use HTML colors, etc.
 keywords: how to article, html questions, html learning, c# examples
 lastmod: "2022-03-28"
