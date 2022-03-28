@@ -17,10 +17,10 @@ Welcome to the "How-to Articles" chapter. The articles in this chapter answer po
 
 This section is in progress and currently, the following topics are available:
 
-- [How to change text color?](/html/net/how-to-articles/)
+- [How to change text color?](/html/net/how-to-articles/how-to-change-text-color/)
   In this article, you will learn how to change color for text in paragraph, headers, etc. using Aspose.HTML class library. 
   
-- [How to change background color?](/html/net/how-to-articles/)
+- [How to change background color?]()
   In this article, you will explore how to change background color for text in paragraphs, headers, or entire pages using Aspose.HTML class library. 
 
 - [How to change border color?]()

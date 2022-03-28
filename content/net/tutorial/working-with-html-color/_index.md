@@ -21,7 +21,7 @@ Design is not a central feature of HTML, so, there is no special HTML color tag.
 2. **Using internal CSS.** The internal CSS styling option is popular for applying properties to individual pages by encasing all styles in the `<style>`  element placed it in the `<head>` of HTML documents.
 
 {{% alert color="primary" %}} 
-For more information on how to use HTML color codes, please visit the [**HTML Color Codes**](https://docs.aspose.com/html/net/tutorial/html-colors/) article.
+For more information on how to use HTML color codes, please visit the [**HTML Color Codes**](https://docs.aspose.com/html/net/tutorial/html-colors/) article. 
 {{% /alert %}} 
 
 ## **Text Color**
@@ -74,7 +74,7 @@ The rendered HTML code looks as follows:
 ![Text "The image renders the html code above"](text-color.png#center)
 
 {{% alert color="primary" %}} 
-You can learn more about applying inline, internal and external CSS and editing them using Aspose.HTML API from the [**Edit CSS**](https://docs.aspose.com/html/net/working-with-documents/editing-a-document/#edit-css) section.
+You can learn more about applying inline, internal and external CSS and editing them using Aspose.HTML API from the [**Edit CSS**](https://docs.aspose.com/html/net/working-with-documents/editing-a-document/#edit-css) section. C# examples of how to change text color using Aspose.HTML API you can find in the article [**How to Change Text Color in HTML**](/html/net/how-to-articles/how-to-change-text-color/).
 {{% /alert %}} 
 
 ### **Text color using RGB, RGBA or HEX color codes**
@@ -123,7 +123,11 @@ The rendered HTML code looks as follows:
 
  ## **Background Color**
 
-You can use the `style` attribute to specify the background color and then set the value using the `background-color` property. The `background-color` property accepts color names, RGB, RGBA, HEX, HSL, or HSLA values.
+### **Background Color for Specific HTML Element**
+
+You can use the `style` attribute to specify the background color for the HTML element and then set the value using the `background-color` property. The `background-color` property accepts color names, RGB, RGBA, HEX, HSL, or HSLA values.
+
+Determine which element you want to change the background color for. If it's a paragraph, look for the `<p>` opening tag. It can also be an `<h1`>...`<h6>`, `<div>` or `<table>` tag. In this example, we are adding a background color to the` <h2> `elements:
 
 ```html
 <html>
@@ -147,15 +151,16 @@ You can use the `style` attribute to specify the background color and then set t
 ```
 
 
+
 The rendered HTML code looks as follows:
 
 ![Text "The image renders the html code for setting background color using HEX, RGB, RGBA, HSL and HSLA color codes"](background-color.png#center)
 
-It's important to note that in the example above, the `background-color` property provides a color for the background of the text, but not for the whole document. If you wish to change the HTML color for the whole page, you should use the `bgcolor` attribute in the opening tag of the `<body>` section:
+### **Background Color for the Entire Web Page**
+It's important to note that in the example above, the `background-color` property provides a color for the background of the text, but not for the whole document. If you wish to change the HTML color for the whole page, you should use the `background-color` property of the `style` attribute in the opening tag of the `<body>` section:
 ```html
 <html>
-	<body bgcolor="#e0e0e0">
-		<p>Using the bgcolor attribute in the opening tag of the `body` section allows you to change the HTML color for the whole page.</p>
+	<body style="background-color:#e0e0e0">
 		<h2 style="background-color:YellowGreen;">YellowGreen</h2>
 		<h2 style="background-color:rgb(154, 205, 50);">rgb(154, 205, 50)</h2>
 		<h2 style="background-color:rgba(154, 205, 50, 1.0);">rgba(154, 205, 50, 1.0)</h2>
@@ -165,11 +170,11 @@ It's important to note that in the example above, the `background-color` propert
 	</body>
 </html>
 ```
-The image renders the html code for setting background color for both the text and the whole web page.
+The image renders the HTML code for setting the background color for the text (YellowGreen color name is specified in different color codes) and the whole web page.
 
 ![Text "The image renders the html code for setting background color for both the text and the whole web page."](background-color-body.png#center)
 
-You can achieve the effect of colorizing the background for the whole web page by using the `style` attribute with the `background-color` property in the opening tag of the `<body>` section:
+One more example to achieve the effect of colorizing the background for the whole web page by using the `style` attribute with the `background-color` property in the opening tag of the `<body>` section:
 ```html
 <html>
 	<body style="background-color:#ffe0e0;">
@@ -178,7 +183,7 @@ You can achieve the effect of colorizing the background for the whole web page b
 	</body>
 </html>
 ```
-![Text "The image renders the html code for setting background color for the whole web page. "](background-color-body1.png#center)
+![Text "The image renders the html code for setting background color for the whole web page."](background-color-body1.png#center)
 
  ## **Border Color**
 
