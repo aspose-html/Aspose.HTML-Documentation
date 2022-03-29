@@ -1,6 +1,6 @@
 ---
 title: Release Notes
 type: docs
-weight: 60
+weight: 70
 aliases: /net/release-notes/
 ---

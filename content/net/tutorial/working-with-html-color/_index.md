@@ -4,7 +4,7 @@ linktitle: Working with HTML Color
 type: docs
 weight: 20
 description: In this article, you  will find information about HTML color codes for your website - HTML color names with hex color codes, RGB, RGBA, HSL and HSLA values.
-keywords: html colors, color names, hex colors, rgb, rgba, hsl, hsla, background color, text color, border color, color values, color codes
+keywords: html colors, color names, hex color, rgb color, background color, text color, border color, color values, color codes, html style, html style tag
 lastmod: "2022-03-17"
 sitemap:
     changefreq: "weekly"
@@ -15,15 +15,22 @@ sitemap:
 
 ## **How to Use HTML Color**
 
-Design is not a central feature of HTML, so, there is no special HTML color tag. Adding color to a web page is a part of inline CSS styling. To set the text or background color in HTML you need to use the `style` attribute. You can apply the `style` attribute with the HTML `<p>`, `<h1>` or `<h2>`  tags and etc. Keep in mind, that the usage of a style attribute overrides any style set in the HTML `<style>` tag or external style sheet.
+Design is not a central feature of HTML, so, there is no special HTML color tag.  However, you can change the color of any text using the following ways:
+1. **Using inline `style` attribute.** Adding color to a web page is a part of inline CSS styling. To set the text or background color in HTML you need to use the `style` attribute. You can apply the `style` attribute with the HTML `<body>`, `<p>`, `<h1>` or `<h2>`  tags and etc. Keep in mind, that the usage of a style attribute overrides any style set in the HTML `<style>` tag or external style sheet.
+
+2. **Using internal CSS.** The internal CSS styling option is popular for applying properties to individual pages by encasing all styles in the `<style>`  element placed it in the `<head>` of HTML documents.
+
+{{% alert color="primary" %}} 
+For more information on how to use HTML color codes, please visit the [**HTML Color Codes**](https://docs.aspose.com/html/net/tutorial/html-colors/) article. 
+{{% /alert %}} 
 
 ## **Text Color**
 
-You can use the `style` attribute to change the text color and then set the value using the `color` property. The `color` property sets the foreground color value for an element's text and text decoration. The `color` property accepts color names, RGB, RGBA, HEX, HSL, or HSLA values.
+You can use the inline  `style` attribute or the `<style>`  element to change the text color and then set the value using the `color` property. The `color` property sets the foreground color value for an element's text and text decoration. The `color` property accepts color names, RGB, RGBA, HEX, HSL, or HSLA values.
 
 ### **Text Color Using HTML Color Names**
 
-The color name depicts the specific name for the HTML color. Modern browsers support <a href="https://www.w3.org/TR/css-color-4/#named-colors" rel='noopener nofollow' target="_blank">140+ HTML color names</a>, and you can use any of them for your elements. For example, you can colorize text as shown in the following example:
+The color name depicts the specific name for the HTML color. Modern browsers support <a href="https://www.w3.org/TR/css-color-4/#named-colors" rel='noopener nofollow' target="_blank">140+ HTML color names</a>, and you can use any of them for your elements. For example, you can colorize text using inline `style` attribute as shown in the following example:
 
 ```html
 <html>
@@ -35,15 +42,46 @@ The color name depicts the specific name for the HTML color. Modern browsers sup
 </html>
 ```
 
+The same text colorization result can be achieved using internal CSS, as shown in the following example:
+
+```html
+<html>
+<head>  
+<style>  
+h2  
+{  
+color:DarkCyan;  
+}  
+h3  
+{  
+color:DarkRed;  
+} 
+h4
+{color:DarkBlue;
+}
+</style>  
+</head> 
+	<body>
+		<h2>How to set text color using HTML color names?</h2>
+		<h3>Add a style attribute to the text element you want to colorize and use the color name to specify the color.</h3>
+        <h4>There are over 140 named colors to choose from that you can use.</h4>
+	</body>
+</html>
+```
+
 The rendered HTML code looks as follows:
 
 ![Text "The image renders the html code above"](text-color.png#center)
 
+{{% alert color="primary" %}} 
+You can learn more about applying inline, internal and external CSS and editing them using Aspose.HTML API from the [**Edit CSS**](https://docs.aspose.com/html/net/working-with-documents/editing-a-document/#edit-css) section. C# examples of how to change text color using Aspose.HTML API you can find in the article [**How to Change Text Color in HTML**](/html/net/how-to-articles/how-to-change-text-color/).
+{{% /alert %}} 
+
 ### **Text color using RGB, RGBA or HEX color codes**
 
-For coloring HTML text, you can use RGB or HEX that are the most used color codes. The RGB value determines the HTML color by mixing red, green, and blue values. The HEX color value works almost the same as RGB but looks different. If you want to know more about RGB, RGBA and HEX codes, please visit the [HTML Colors](https://docs.aspose.com/html/net/tutorial/html-colors/) article.
+For coloring HTML text, you can use RGB or HEX that are the most used color codes. The RGB value determines the HTML color by mixing red, green, and blue values. The HEX color value works almost the same as RGB but looks different. If you want to know more about RGB, RGBA and HEX codes, please visit the [**HTML Color Codes**](https://docs.aspose.com/html/net/tutorial/html-colors/) article.
 
-Using RGB or HEX color codes is the most common way to add color to web pages. It is necessary to add a `style` attribute to the text element you want to color. In the example below, we use the `<h2>` and `<h3>` elements to apply the `color` property with RGB, RGBA and HEX codes:
+Using RGB or HEX color codes is the most common way to add color to web pages. It is necessary to add a `style` attribute to the text element you want to color. In the example below, we use the `<h2>` and `<h3>` elements to apply the inline  `style` attribute and  `color` property with RGB, RGBA and HEX codes:
 
 ```html
 <html>
@@ -85,7 +123,11 @@ The rendered HTML code looks as follows:
 
  ## **Background Color**
 
-You can use the `style` attribute to specify the background color and then set the value using the `background-color` property. The `background-color` property accepts color names, RGB, RGBA, HEX, HSL, or HSLA values.
+### **Background Color for Specific HTML Element**
+
+You can use the `style` attribute to specify the background color for the HTML element and then set the value using the `background-color` property. The `background-color` property accepts color names, RGB, RGBA, HEX, HSL, or HSLA values.
+
+Determine which element you want to change the background color for. If it's a paragraph, look for the `<p>` opening tag. It can also be an `<h1`>...`<h6>`, `<div>` or `<table>` tag. In this example, we are adding a background color to the` <h2> `elements:
 
 ```html
 <html>
@@ -109,15 +151,16 @@ You can use the `style` attribute to specify the background color and then set t
 ```
 
 
+
 The rendered HTML code looks as follows:
 
 ![Text "The image renders the html code for setting background color using HEX, RGB, RGBA, HSL and HSLA color codes"](background-color.png#center)
 
-It's important to note that in the example above, the `background-color` property provides a color for the background of the text, but not for the whole document. If you wish to change the HTML color for the whole page, you should use the `bgcolor` attribute in the opening tag of the `<body>` section:
+### **Background Color for the Entire Web Page**
+It's important to note that in the example above, the `background-color` property provides a color for the background of the text, but not for the whole document. If you wish to change the HTML color for the whole page, you should use the `background-color` property of the `style` attribute in the opening tag of the `<body>` section:
 ```html
 <html>
-	<body bgcolor="#e0e0e0">
-		<p>Using the bgcolor attribute in the opening tag of the `body` section allows you to change the HTML color for the whole page.</p>
+	<body style="background-color:#e0e0e0">
 		<h2 style="background-color:YellowGreen;">YellowGreen</h2>
 		<h2 style="background-color:rgb(154, 205, 50);">rgb(154, 205, 50)</h2>
 		<h2 style="background-color:rgba(154, 205, 50, 1.0);">rgba(154, 205, 50, 1.0)</h2>
@@ -127,11 +170,11 @@ It's important to note that in the example above, the `background-color` propert
 	</body>
 </html>
 ```
-The image renders the html code for setting background color for both the text and the whole web page.
+The image renders the HTML code for setting the background color for the text (YellowGreen color name is specified in different color codes) and the whole web page.
 
 ![Text "The image renders the html code for setting background color for both the text and the whole web page."](background-color-body.png#center)
 
-You can achieve the effect of colorizing the background for the whole web page by using the `style` attribute with the `background-color` property in the opening tag of the `<body>` section:
+One more example to achieve the effect of colorizing the background for the whole web page by using the `style` attribute with the `background-color` property in the opening tag of the `<body>` section:
 ```html
 <html>
 	<body style="background-color:#ffe0e0;">
@@ -140,14 +183,14 @@ You can achieve the effect of colorizing the background for the whole web page b
 	</body>
 </html>
 ```
-![Text "The image renders the html code for setting background color for the whole web page. "](background-color-body1.png#center)
+![Text "The image renders the html code for setting background color for the whole web page."](background-color-body1.png#center)
 
  ## **Border Color**
 
 You can use the `style` attribute with the `border-style`  and  `border-color` properties to specify the border color for the text elements. CSS `border-color` property defines the color of the four borders of element. The `border-color` property will only work when the `border-style` property is defined first, which is used to set the borders. This property will not work alone. If this property is not set, it inherits the element's colour. The `border-color` property accepts color names, RGB, RGBA, HEX, HSL, or HSLA values.
 ```html
 <html>
-	<body style="background-color:#ffe0e0;">
+	<body>
 		<p> The border-color property only works when the border-style property is defined first, which is used to set the borders.</p>	
 		<h2 style="color:rgb(50,150,200); border-style:solid;  border-color:rgb(220,30,100);">How to define border color?</h2>
 		<p> If the border-style property is defined and the border-color property is not set, the border inherits the element's color.</p>
