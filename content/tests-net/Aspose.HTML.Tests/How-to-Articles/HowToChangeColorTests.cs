@@ -121,12 +121,38 @@ namespace Aspose.HTML.Tests.Working_with_HTML_Documents
         }       
 
 
+        [Fact(DisplayName = "How to Change Background Color for Paragraph")]
+        public void HowToChangeBackgroundColorPTest()
+        {
+            // Prepare output path for document saving
+            string savePath = Path.Combine(OutputDir, "change-background-color-p-inline-css.html");
+
+            // Prepare path to source HTML file
+            string documentPath = Path.Combine(DataDir, "file.html");
+
+            // Create an instance of an HTML document
+            var document = new HTMLDocument(documentPath);
+
+            // Find the paragraph element to set a style attribute
+            var paragraph = (HTMLElement)document.GetElementsByTagName("p").First();
+
+            // Set the style attribute with background-color property
+            paragraph.Style.BackgroundColor = "#e5f3fd";
+            
+            // Save the HTML document to a file
+            document.Save(Path.Combine(savePath));
+
+            Assert.True(File.Exists(savePath));
+        }
+
+       
         [Fact(DisplayName = "How to Change Background Color")]
         public void HowToChangeBackgroundColorTest1()
         {
-            // Prepare an output path for a document saving
+            // Prepare output path for document saving
             string savePath = Path.Combine(OutputDir, "change-background-color-inline-css.html");
 
+            // Prepare path to source HTML file
             string documentPath = Path.Combine(DataDir, "file.html");
 
             // Create an instance of an HTML document
@@ -137,7 +163,7 @@ namespace Aspose.HTML.Tests.Working_with_HTML_Documents
 
             // Set the style attribute with background-color property
             body.Style.BackgroundColor = "#e5f3fd";
-            
+
             // Save the HTML document to a file
             document.Save(Path.Combine(savePath));
 
@@ -147,29 +173,30 @@ namespace Aspose.HTML.Tests.Working_with_HTML_Documents
         [Fact(DisplayName = "How to Change Background Color")]
         public void HowToChangeBackgroundColorTest2()
         {
-            // Prepare an output path for a document saving
+            // Prepare output path for document saving
             string savePath = Path.Combine(OutputDir, "change-background-color-internal-css.html");
 
+            // Prepare path to source HTML file
             string documentPath = Path.Combine(DataDir, "file.html");
 
             // Create an instance of an HTML document
             var document = new HTMLDocument(documentPath);
 
-            // Find the body element to set a style attribute
+            // Find the body element
             var body = (HTMLElement)document.GetElementsByTagName("body").First();
 
-            // Set the style attribute without background-color property
-            body.Style.BackgroundColor = "";
+            // Remove the background-color property from the style attribute
+            body.Style.RemoveProperty("background-color");
 
-            // Create a style element and assign the color value for body element
+            // Create a style element and assign the background-color value for body element
             var style = document.CreateElement("style");
-            style.TextContent = "body { background-color:#e5f3fd }";
+            style.TextContent = "body { background-color: rgb(229, 243, 253) }";
 
             // Find the document head element and append style element to the head
             var head = document.GetElementsByTagName("head").First();
             head.AppendChild(style);
 
-            // Save the HTML document to a file
+            // Save the HTML document
             document.Save(Path.Combine(savePath));
 
             Assert.True(File.Exists(savePath));

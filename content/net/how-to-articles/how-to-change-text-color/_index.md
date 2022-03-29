@@ -1,5 +1,5 @@
 ---
-title: How to Change Text Color in HTML?
+title: How to Change Text Color in HTML? C# Examples
 linktitle: How to Change Text Color
 type: docs
 weight: 10
