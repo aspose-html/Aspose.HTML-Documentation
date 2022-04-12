@@ -84,7 +84,7 @@ namespace Aspose.HTML.Tests.Working_with_HTML_Documents
             // Find the h1 element to set a style attribute
             var header = (HTMLElement)document.GetElementsByTagName("h1").First();
 
-            // Set the style attribute
+            // Set the style attribute with color property
             header.Style.Color = "DarkRed";
 
             // Save the HTML document to a file
@@ -204,23 +204,76 @@ namespace Aspose.HTML.Tests.Working_with_HTML_Documents
 
 
         [Fact(DisplayName = "How to Change Border Color")]
-        public void HowToChangeBorderColorTest()
+        public void HowToChangeBorderColorTest1()
         {
             // Prepare an output path for a document saving
             string savePath = Path.Combine(OutputDir, "change-border-color.html");
 
+            // Prepare path to source HTML file
             string documentPath = Path.Combine(DataDir, "file.html");
 
             // Create an instance of an HTML document
             var document = new HTMLDocument(documentPath);
 
-            // Find the paragraph element to set a style attribute
+            // Find the h1 element to set a style attribute
             var header = (HTMLElement)document.GetElementsByTagName("h1").First();
 
-            // Set the style attribute
+            // Set the style attribute properties
             header.Style.Color = "#8B0000";
             header.Style.BorderStyle = "solid";
             header.Style.BorderColor = "rgb(220,30,100)";
+
+            // Save the HTML document to a file
+            document.Save(Path.Combine(savePath));
+
+            Assert.True(File.Exists(savePath));
+        }
+
+
+        [Fact(DisplayName = "How to Change Border Color")]
+        public void HowToChangeBorderColorTest2()
+        {
+            // Prepare an output path for a document saving
+            string savePath = Path.Combine(OutputDir, "change-four-border-color.html");
+
+            // Prepare path to source HTML file
+            string documentPath = Path.Combine(DataDir, "change-border-color.html");
+
+            // Create an instance of an HTML document
+            var document = new HTMLDocument(documentPath);
+
+            // Find the h1 element to set a style attribute
+            var header = (HTMLElement)document.GetElementsByTagName("h1").First();
+
+            // Set the style attribute properties
+            header.Style.BorderStyle = "solid";
+            header.Style.BorderColor = "red blue green gray";
+
+            // Save the HTML document to a file
+            document.Save(Path.Combine(savePath));
+
+            Assert.True(File.Exists(savePath));
+        }
+
+        [Fact(DisplayName = "How to Change Border Color")]
+        public void HowToChangeBorderColorTest3()
+        {
+            // Prepare an output path for a document saving
+            string savePath = Path.Combine(OutputDir, "change-border-color-internal-css.html");
+
+            // Prepare path to source HTML file
+            string documentPath = Path.Combine(DataDir, "file.html");
+
+            // Create an instance of an HTML document
+            var document = new HTMLDocument(documentPath);
+
+            // Create a style element and assign the color border-style and border-color values for h1 element
+            var style = document.CreateElement("style");
+            style.TextContent = "h1 {color:DarkRed; border-style:solid; border-color:rgb(220,30,100) }";
+
+            // Find the document head element and append style element to the head
+            var head = document.GetElementsByTagName("head").First();
+            head.AppendChild(style);             
 
             // Save the HTML document to a file
             document.Save(Path.Combine(savePath));

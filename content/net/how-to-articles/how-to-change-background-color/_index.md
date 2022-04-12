@@ -4,7 +4,7 @@ linktitle: How to Change Background Color
 type: docs
 weight: 20
 description: In this article, we will use C# examples to show different ways to change background color in HTML files using Aspose.HTML class library.
-keywords: how to change background color in html, how to change background color, html background color, change background color, html background color, c# examples, inline css, internal css
+keywords: how to change background color in html, how to change background color, html background color, change background color, c# examples, inline css, internal css
 lastmod: "2022-03-28"
 sitemap:
     changefreq: "weekly"
@@ -91,6 +91,10 @@ using System.IO;
     // Save the HTML document to a file
     document.Save(Path.Combine(savePath));
 {{< /highlight >}}
+
+{{% alert color="primary" %}}
+You can download the complete examples and data files from <a href="https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net" rel='noopener nofollow' target="_blank">**GitHub**</a>.
+{{% /alert %}}
 
 ### **Change Background Color Using Internal CSS**
 

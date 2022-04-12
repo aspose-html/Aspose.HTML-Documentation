@@ -23,7 +23,7 @@ This section is in progress and currently, the following topics are available:
 - [How to change background color?](/html/net/how-to-articles/how-to-change-background-color/)
   In this article, you will explore how to change background color for text in paragraphs, headers, or entire pages using Aspose.HTML class library. 
 
-- [How to change border color?]()
+- [How to change border color?](/html/net/how-to-articles/how-to-change-border-color/)
   This article gives you information and C# examples on how to add or change border color for your text in HTML file. Here  you learn  different ways to make your HTML texts look good.
   
   

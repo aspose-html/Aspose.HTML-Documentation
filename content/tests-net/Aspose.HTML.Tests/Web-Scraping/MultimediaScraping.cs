@@ -128,8 +128,7 @@ namespace Aspose.HTML.Tests.Web_Scraping
                 {
                     // Check Bitrate of current collection item
                     double expectedBitrate = expectedBitrates[i++];
-                    Assert.Equal(expectedBitrate, videoFormatInfo.Bitrate.Value, 1);
-
+                    
                     Output.WriteLine("Format #{0}", i);
 
                     Output.WriteLine("  Bitrate: {0}", videoFormatInfo.Bitrate?.ToString() ?? "[null]");
@@ -195,6 +194,42 @@ namespace Aspose.HTML.Tests.Web_Scraping
             }
 
             Assert.True(File.Exists(Path.Combine(OutputDir, "HTML-to-Markdown.mp4")));            
+        }
+
+
+        [Fact(DisplayName = "Download an Audio")]
+        public void DownloadAudioTest()
+        {
+            // URL of the video you want to extract data from
+            string url = "https://www.youtube.com/watch?v=JlKF7z8ODIo";
+            
+            // File name for downloading video
+            string filename = "audio";
+
+            // Initialize an instance of the MultimediaScraper class
+            using var multimediaScraper = new MultimediaScraper();
+
+            // Create a multimedia object that includes information from the URL
+            using (var multimedia = multimediaScraper.GetMultimedia(url))
+            {
+                // Get a VideoInfo object
+                var audioInfo = multimedia.CollectVideoInfo();
+
+                // Get the first element from the formats collection with minimal bitrate and present audio and video codecs
+                VideoFormatInfo format = audioInfo
+                    .Formats
+                    .OrderByDescending(f => f.Bitrate)
+                    .First(f => f.AudioCodec != null && f.VideoCodec == null);                
+
+                // Get the full file path for the output file
+                var filePath = Path.Combine(OutputDir, filename + ".mp3");                
+
+                // Download the video
+                multimedia.Download(format, filePath);
+                
+            }
+
+            //Assert.True(File.Exists(Path.Combine(OutputDir, "audio.mp3")));
         }
 
 
