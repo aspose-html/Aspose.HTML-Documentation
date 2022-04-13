@@ -12,6 +12,9 @@ sitemap:
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
+{{% alert color="primary" %}} 
+For more information on how to change text, background, or border color, please visit the [**How-to Articles**](https://docs.aspose.com/html/net/how-to-articles/) chapter.  The articles in this chapter answer popular questions and contain C# examples that provide the necessary information about using the Aspose.HTML class library to solve specific tasks.
+{{% /alert %}} 
 
 ## **HTML Colors**
 

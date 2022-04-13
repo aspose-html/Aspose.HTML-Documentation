@@ -35,7 +35,7 @@ Getting information about a video file using Aspose.HTML API, the following step
 
 1. Initialize an instance of the [MultimediaScraper](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimediascraper) class.
 2. Create a multimedia object that collects information from the specified  URL.
-3. Create a [VideoInfo](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/videoinfo) object and check whether it is an instance of the YouTubeVideoInfo class.
+3. Create a [VideoInfo](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/videoinfo) object and check whether it is an instance of the [YouTubeVideoInfo](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping.youtube/youtubevideoinfo) class.
 4. Get information about the video and display it in the console.
 
 The following code snippet can be used to get information about a video file such as Title, Description, Duration, Thumbnails, and Formats Count.
@@ -104,31 +104,27 @@ using System.Linq;
 	// Show video format information from the collection of available formats
 	int i = 0;
 	foreach (var videoFormatInfo in videoInfo.Formats.OrderByDescending(f => f.Bitrate))
-	{
-	    // Check Bitrate of current collection item
-	    double expectedBitrate = expectedBitrates[i++];
-	    Assert.Equal(expectedBitrate, videoFormatInfo.Bitrate.Value, 1);
+	{	
+	    Console.WriteLine("Format #{0}", ++i);
 	
-	    Console.WriteLine("Format #{0}", i);
+	    Console.WriteLine("Bitrate: {0}", videoFormatInfo.Bitrate?.ToString() ?? "[null]");
 	
-	    Console.WriteLine("  Bitrate: {0}", videoFormatInfo.Bitrate?.ToString() ?? "[null]");
+	    Console.WriteLine("Audio Codec: {0}", videoFormatInfo.AudioCodec ?? "[null]");
+	    Console.WriteLine("Video Codec: {0}", videoFormatInfo.VideoCodec ?? "[null]");
 	
-	    Console.WriteLine("  Audio Codec: {0}", videoFormatInfo.AudioCodec ?? "[null]");
-	    Console.WriteLine("  Video Codec: {0}", videoFormatInfo.VideoCodec ?? "[null]");
+	    Console.WriteLine("Width: {0}", videoFormatInfo.Width?.ToString() ?? "[null]");
+	    Console.WriteLine("Height: {0}", videoFormatInfo.Height?.ToString() ?? "[null]");
 	
-	    Console.WriteLine("  Width: {0}", videoFormatInfo.Width?.ToString() ?? "[null]");
-	    Console.WriteLine("  Height: {0}", videoFormatInfo.Height?.ToString() ?? "[null]");
-	
-	    Console.WriteLine("  Extension: {0}", videoFormatInfo.Extension ?? "[null]");
-	    Console.WriteLine("  File Size: {0}", videoFormatInfo.FileSize?.ToString() ?? "[null]");
-	    Console.WriteLine("  FPS: {0}", videoFormatInfo.FPS?.ToString() ?? "[null]");
-	    Console.WriteLine("  Sampling Rate: {0}", videoFormatInfo.SamplingRate?.ToString() ?? "[null]");
+	    Console.WriteLine("Extension: {0}", videoFormatInfo.Extension ?? "[null]");
+	    Console.WriteLine("File Size: {0}", videoFormatInfo.FileSize?.ToString() ?? "[null]");
+	    Console.WriteLine("FPS: {0}", videoFormatInfo.FPS?.ToString() ?? "[null]");
+	    Console.WriteLine("Sampling Rate: {0}", videoFormatInfo.SamplingRate?.ToString() ?? "[null]");
 	}            
 
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
-You can download the complete C# examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net). 
+You can download the complete C# examples and data files from [<a href="https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net" rel='noopener nofollow' target="_blank">**GitHub**</a>](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}  
 
 ## **How to Download YouTube Videos**
@@ -158,10 +154,6 @@ using System.IO;
 	// URL of the video you want to extract data from
     string url = "https://www.youtube.com/watch?v=JlKF7z8ODIo";
 
-    // Expected video properties, for example, "Title" and "Duration" 
-    string expectedTitle = "How to convert HTML file to Markdown";
-    int expectedDuration = 56;
-    
     // File name for downloading video
     string filename = "HTML-to-Markdown";
     
@@ -200,10 +192,10 @@ using System.IO;
     } 
 {{< /highlight >}}
 
-The Download() method of the Multimedia class takes as parameters the information about the video file to download (it is a local VideoFormatInfo variable `format`) and a local path to the output file `filePath`; then, it downloads the video file to your local file system. 
+The [Download(`format`, `filePath`)](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimedia/methods/download) method of the [Multimedia](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimedia) class takes as parameters the information about the video file to download (it is a local VideoFormatInfo variable `format`) and a local path to the output file `filePath`; then, it downloads the video file to your local file system. 
 
 {{% alert color="primary" %}} 
-You can download the complete C# examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net). 
+You can download the complete C# examples and data files from [<a href="https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net" rel='noopener nofollow' target="_blank">**GitHub**</a>](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 
 Aspose.HTML offers free online Apps for data scraping that help you extract data from the web on any device in seconds. [**Data Scrapers**](https://products.aspose.app/html/data-scrapers) are free and do not require any software installation. They are easy and clear to use yet forceful and reliable. Try the Data Scrapers Apps and extract data from any web page now!
 {{% /alert %}}   

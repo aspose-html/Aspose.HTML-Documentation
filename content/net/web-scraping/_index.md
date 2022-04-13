@@ -5,8 +5,8 @@ type: docs
 weight: 40
 aliases: /net/web-scraping/
 description: This section describes how to navigate through an HTML document and perform a detailed inspection of its elements and extract data, such as video and audio from the web pages using Aspose.HTML for .NET. You will find C # examples for getting specific video information and downloading YouTube, YouKu and Zoom videos.
-keywords: web scraping, data scrapers, html navigation, XPath, CSS selector, extract data, video download
-lastmod: "2022-01-11"
+keywords: web scraping, data scrapers, html navigation, XPath, CSS selector, extract data, video download, download audio
+lastmod: "2022-04-13"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -19,6 +19,7 @@ sitemap:
 Web Scraping section describes how to inspect, capture and extract data,  such as images, video, audio,  etc., from the web pages automatically using Aspose.HTML for .NET. This chapter includes articles:
  - [HTML Navigation](https://docs.aspose.com/html/net/web-scraping/html-navigation/) - In this article, you learn how to perform a detailed inspection of the HTML document and its elements using the API, about custom filters usage for iterating over the document elements, and how to navigate over the document by using CSS Selector or XPath.
  - [How to Download a Video](https://docs.aspose.com/html/net/web-scraping/video-download/) - This article describes how to get video information, select a required video format and download a video by its URL.
+ - [Download YouTube Audio](https://docs.aspose.com/html/net/web-scraping/download-youtube-audio/) - In this article, you find the description and a few C# examples of how to download YouTube audio using the Aspose.HTML API.
 
    
 
