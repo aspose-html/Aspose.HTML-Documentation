@@ -21,8 +21,10 @@ Design is not a central feature of HTML, so, there is no special HTML color tag.
 2. **Using internal CSS.** The internal CSS styling option is popular for applying properties to individual pages by encasing all styles in the `<style>`  element placed it in the `<head>` of HTML documents.
 
 {{% alert color="primary" %}} 
-For more information on how to use HTML color codes, please visit the [**HTML Color Codes**](https://docs.aspose.com/html/net/tutorial/html-colors/) article. 
-{{% /alert %}} 
+For more information on how to use HTML color codes, please visit the [**HTML Color Codes**](https://docs.aspose.com/html/net/tutorial/html-colors/) article.
+
+If you want to change text, background, or border color in an HTML file programmatically, please visit the [**How-to Articles**](https://docs.aspose.com/html/net/how-to-articles/) chapter. The articles in this chapter answer popular questions and contain C# examples that provide the necessary information about using the Aspose.HTML class library to solve specific tasks.
+{{% /alert %}}
 
 ## **Text Color**
 

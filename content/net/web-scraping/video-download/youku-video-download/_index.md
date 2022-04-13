@@ -71,7 +71,7 @@ In the example above, we use the [GetMultimedia(`url`)](https://apireference.asp
 You can get information about available video formats and download YouKu videos in different formats. For more information, please see the article [**How to Download a Video**](/html/net/web-scraping/video-download/).
 
 {{% alert color="primary" %}} 
-You can download the complete C# examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net). 
+You can download the complete C# examples and data files from [<a href="https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net" rel='noopener nofollow' target="_blank">**GitHub**</a>](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net). 
 {{% /alert %}}  
 
 ## **How to Download YouKu Videos**
@@ -142,7 +142,7 @@ using System.IO;
 The [Download(`format`, `filePath`)](https://apireference.aspose.com/html/net/aspose.html.datascraping.multimediascraping/multimedia/methods/download) method of the Multimedia class takes as parameters the information about the video file to download (it is a local VideoFormatInfo variable `format`) and a local path to the output file `filePath`; then, it downloads the video file to your local file system. 
 
 {{% alert color="primary" %}} 
-You can download the complete C# examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net). 
+You can download the complete C# examples and data files from [<a href="https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net" rel='noopener nofollow' target="_blank">**GitHub**</a>](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}} 
 
 

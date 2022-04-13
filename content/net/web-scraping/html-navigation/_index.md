@@ -67,7 +67,7 @@ Once you implement a filter, you can use HTML navigation as it follows:
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-WebScraping-WebScraping-NodeFilterUsageExample.cs" >}}
 
 {{% alert color="primary" %}} 
-You can download the complete C# examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net). 
+You can download the complete C# examples and data files from [<a href="https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net" rel='noopener nofollow' target="_blank">**GitHub**</a>](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}  
 
 ## **XPath  Query**
@@ -86,7 +86,7 @@ In the following example, we use the [QuerySelectorAll()](https://apireference.a
 
 {{% alert color="primary" %}} 
 
-You can download the complete C# examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net). 
+You can download the complete C# examples and data files from [<a href="https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net" rel='noopener nofollow' target="_blank">**GitHub**</a>](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 
 Aspose.HTML offers free online [**Data Scrapers**](https://products.aspose.app/html/data-scrapers) Apps that are a way to get data from websites. Using our web extracting tools, you're able to get data from the Internet in seconds. Our Apps are safe, work on any platform and do not require any software installation. 
 {{% /alert %}}  
