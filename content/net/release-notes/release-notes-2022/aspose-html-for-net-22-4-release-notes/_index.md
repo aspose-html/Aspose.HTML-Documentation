@@ -16,7 +16,7 @@ In this release, we have improved various parts of the parsing and rendering alg
 * Improved handling of glyph substitution tables. Now fonts containing complex substitution tables are displayed more correctly.
 * Updated the document normalization algorithm in accordance with the latest documentation.
 * Improved the performance of the entity parsing algorithm.
-* Improved performance of the bidirectional text positioning algorithm.
+* Improved the performance of the bidirectional text positioning algorithm.
 
 
 ## **Improvements and Changes**
