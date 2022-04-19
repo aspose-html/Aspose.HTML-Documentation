@@ -5,7 +5,7 @@ type: docs
 weight: 30
 description: In this article, we will use C# examples to show different ways to change border color in HTML files using Aspose.HTML class library.
 keywords: how to change border color in html, how to change border color, html border color, change border color, border color, table border color, html table border color, c# examples, inline css, internal css
-lastmod: "2022-04-12"
+lastmod: "2022-04-19"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -41,21 +41,21 @@ using System.Linq;
 
     // Prepare an output path for a document saving
     string savePath = Path.Combine(OutputDir, "change-border-color.html");
-
+    
     // Prepare path to source HTML file
-	string documentPath = Path.Combine(DataDir, "file.html");
-
+    string documentPath = Path.Combine(DataDir, "file.html");
+    
     // Create an instance of an HTML document
     var document = new HTMLDocument(documentPath);
-
+    
     // Find the h1 element to set a style attribute
     var header = (HTMLElement)document.GetElementsByTagName("h1").First();
-
+    
     // Set style attribute properties
     header.Style.Color = "#8B0000";
     header.Style.BorderStyle = "solid";
     header.Style.BorderColor = "rgb(220,30,100)";
-
+    
     // Save the HTML document to a file
     document.Save(Path.Combine(savePath));
 {{< /highlight >}}
@@ -86,11 +86,11 @@ using System.Linq;
     
     // Find the h1 element to set a style attribute
     var header = (HTMLElement)document.GetElementsByTagName("h1").First();
-
+    
     // Set style attribute properties
     header.Style.BorderStyle = "solid";
     header.Style.BorderColor = "red blue green gray";
-
+    
     // Save the HTML document to a file
     document.Save(Path.Combine(savePath));
 {{< /highlight >}}
@@ -130,21 +130,21 @@ using System.Linq;
 
     // Prepare an output path for a document saving
     string savePath = Path.Combine(OutputDir, "change-border-color-internal-css.html");
-
+    
     // Prepare path to source HTML file
     string documentPath = Path.Combine(DataDir, "file.html");
-
+    
     // Create an instance of an HTML document
     var document = new HTMLDocument(documentPath);
-
+    
     // Create a style element and assign the color border-style and border-color values for h1 element
     var style = document.CreateElement("style");
     style.TextContent = "h1 { color:DarkRed; border-style:solid; border-color:rgb(220,30,100) }";
-
+    
     // Find the document head element and append style element to the head
     var head = document.GetElementsByTagName("head").First();
     head.AppendChild(style);             
-
+    
     // Save the HTML document to a file
     document.Save(Path.Combine(savePath));
 {{< /highlight >}}

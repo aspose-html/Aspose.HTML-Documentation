@@ -3,9 +3,9 @@ title: CSS Selectors | CSS and HTML Examples
 linktitle: CSS Selectors
 type: docs
 weight: 30
-description: You will find information about HTML color codes for your website - HTML color names with hex color codes, RGB, RGBA, HSL and HSLA values.
-keywords: css selector, css selectors, css attribute selector, css id selector, css class selector, css type selector, css element selector, css multiple selectors, css multiple class selector, css selectors examples
-lastmod: "2022-04-18"
+description: In this article discover how to effectively apply CSS Selectors to select the elements you want to style.
+keywords: css selector, css selectors, css attribute selector, css id selector, css class selector, css type selector, css element selector, css pseudo selector, css universal selectors, css conbinator selector, css selectors examples
+lastmod: "2022-04-19"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -14,9 +14,12 @@ sitemap:
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 {{% alert color="primary" %}} 
 For more information on how to use CSS Selectors to navigate an HTML document, please visit the [**How-to Articles**](https://docs.aspose.com/html/net/how-to-articles/) chapter. The articles in this chapter answer popular questions and contain C# examples that provide the necessary information about using the Aspose.HTML class library to solve specific tasks.
+
+To learn how to use the [QuerySelector()](https://apireference.aspose.com/html/net/aspose.html.dom/document/methods/queryselector) and [QuerySelectorAll()](https://apireference.aspose.com/html/net/aspose.html.dom/document/methods/queryselectorall) methods to query DOM elements that match a CSS selector, please see the article [**How to use CSS Selector**](https://docs.aspose.com/html/net/how-to-articles/how-to-use-css-selector/). In this article, discover how to effectively apply selectors to select the elements you want to style. 
+
 {{% /alert %}} 
 
-In this article discover how to effectively apply selectors to select the elements you want to style. You will cover basic selectors, combinator selectors, attribute selectors, and the universal selector. Knowledge of CSS selectors will be useful for both front-end developers, web designers, and all developers who use CSS and work with (X)HTML documents. 
+In this article discover how to effectively apply selectors to select the elements you want to style. You will cover basic selectors, combinator selectors, attribute selectors, and pseudo selectors. Knowledge of CSS selectors will be useful for both front-end developers, web designers, and all developers who use CSS and work with (X)HTML documents. 
 
 ## **CSS Selectors**
 
