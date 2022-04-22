@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.2/styles/darcula.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+    <link rel="stylesheet" href='{{ "/css/html.css" | urlize | relURL }}'>
+</head>
+<body>
+<p>The following example demonstrates how to convert a document in C#. Load a file from the local drive, then simply save it, passing the required file format to 'document.Save()' method. For both input and output files you can specify fully qualified filenames. The output content and formatting will be identical to the original document.</p>
+
+</div>
+<p id="alertMessage" class="alert alert-danger d-none" role="alert"></p>
+<div class="panelContainer">
+
+    <div >
+        <div id="code" class="parametersblock">
+            <div class="h3">
+                Code example in C# to convert document formats
+            </div>
+            <div class="parametersBox">
+                <div class="row pt-3">
+                    <div class="col-2 description">
+                        Input file
+                    </div>
+                    <div class="col action">
+                        <form id="fileInputContainer">
+                            <input type="file" class="fileInput" id="fileInput" accept="*">
+                            <label class="actionButton backgroundBlue" for="fileInput">Upload a file</label>
+                        </form>
+                    </div>
+                    <div class="col description">
+                        <span id="fileName">Upload a file you want to convert</span>
+                    </div>
+                    <div class="col action">
+                        <a class="actionButton disabled" id="runCodeButton" type="button" onclick="runCode()">Run code</a>
+                    </div>
+                </div>
+<script>
+    const fileInput = document.getElementById('fileInput');
+    fileInput.onchange = () => {
+    const selectedFile = fileInput.files[0];
+    console.log(selectedFile);
+    if(selectedFile.name != ""){
+        let input = document.getElementById('fileName');
+        let runBtn = document.getElementById('runCodeButton');
+        input.innerText = selectedFile.name;
+        runBtn.classList.remove('disabled');
+    }
+
+    function copyCode(){
+        hljs.copyCode();
+    }
+}
+</script>
+                <div class="row pb-3">
+                    <div class="col-2 description">
+                        Output format
+                    </div>
+                    {{ $formats :=  .Params }}
+                    <div class="col action">
+                        <select class="actionButton backgroundBlue" id="selectOutputFormat" onchange="changeOutputFileInSnippet(this.options[this.selectedIndex].value)">
+                            {{range $formats}}
+                                <option value={{.}}>{{.}}</option>
+                            {{end}}
+                        </select>
+                    </div>
+                    <div class="col description">
+                        Select the target format from the list
+                    </div>
+                    <div class="col action">
+
+                    </div>
+                </div>
+                <div class="rowLine"></div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div id="code" class="codeblock">
+            <div class="highlight">
+			<pre class="codeBox"><code id="snippet" class="cs hljs">
+                {{ .Inner }}
+            </code></pre>
+            </div>
+            <div class="h3">
+                &ensp;&ensp;
+                <div class="clipboard">
+                    <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-clipboard" viewBox="0 0 16 16">
+                        <path d="M4 1.5H3a2 2 0 0 0-2 2V14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V3.5a2 2 0 0 0-2-2h-1v1h1a1 1 0 0 1 1 1V14a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3.5a1 1 0 0 1 1-1h1v-1z"></path>
+                        <path d="M9.5 1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-3a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5h3zm-3-1A1.5 1.5 0 0 0 5 1.5v1A1.5 1.5 0 0 0 6.5 4h3A1.5 1.5 0 0 0 11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3z"></path>
+                    </svg>
+                    <a class="copyCodeButton" href="javascript:void(0)" onclick="copyCode()">Copy C# code to the clipboard</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var code = document.getElementById('snippet').textContent;
+    document.addEventListener('DOMContentLoaded', (event) => {
+        document.querySelectorAll('pre code').forEach((el) => {
+        hljs.highlightElement(el);
+        });
+    });
+
+  function copyCode(){
+      navigator.clipboard.writeText(code);
+  }
+</script>
+</body>
+</html>

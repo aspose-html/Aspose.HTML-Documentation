@@ -36,8 +36,32 @@ Aspose.HTML offers free online <a href="https://products.aspose.app/html/applica
 
 <a href="https://products.aspose.app/html/applications" target="_blank">![Text "Banner HTML Web Applications"](html-web-apps.png#center)</a> 
 
+<!--
+{{< codeblock PDF DOC HTML MD >}}
+using Aspose.Html;
+using Aspose.Html.Rendering.Pdf;
+using System.IO;
 
+    // Prepare path to a source HTML file
+    string documentPath = Path.Combine(DataDir, "inputDoc.ext");
+    
+    // Prepare path for converted file saving 
+    string savePath = Path.Combine(OutputDir, "output.pdf");
+    
+    // Initialize an HTML document from the file
+    using var document = new HTMLDocument(documentPath);
+    
+    // Create an instance of the PdfRenderingOptions class
+    var pdfOptions = new PdfRenderingOptions();
+    
+    // Create the PDF Device and specify the output file to render
+    using var device = new PdfDevice(pdfOptions, savePath);
+    
+    // Render HTML to PDF
+    document.RenderTo(device);
+{{< /codeblock >}}
 
+-->
 
 
 
