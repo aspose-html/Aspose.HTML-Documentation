@@ -29,6 +29,8 @@ This section is in progress and currently, the following topics are available:
 - [How to use CSS Selector - QuerySelector() and QuerySelectorAll()](/html/net/how-to-articles/how-to-use-css-selector/)
   In this article, discover how to effectively apply selectors to select the elements you want to style. QuerySelector() and QuerySelectorAll() are methods that are used to query DOM elements that match a CSS selector. You can select elements by class, id or name, or any complex CSS selector.
   
+- [How to use XPath - Evaluate() method](/html/net/how-to-articles/how-to-use-xpath/) This article introduces how to use [Evaluate()](https://apireference.aspose.com/html/net/aspose.html.dom.xpath/ixpathevaluator/methods/evaluate) method to navigate through the HTML document and select nodes by various criteria. You will learn with C# examples, how to select all Nodes with specified Name using XPath Query.
+  
   
   
   
