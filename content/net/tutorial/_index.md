@@ -36,14 +36,16 @@ Aspose.HTML offers free online <a href="https://products.aspose.app/html/applica
 
 <a href="https://products.aspose.app/html/applications" target="_blank">![Text "Banner HTML Web Applications"](html-web-apps.png#center)</a> 
 
-<!--
-{{< codeblock PDF DOC HTML MD >}}
+
+<!-- First extension - Input format, then - output formats -->
+
+{{< codeblock HTML PDF DOC MD >}}
 using Aspose.Html;
 using Aspose.Html.Rendering.Pdf;
 using System.IO;
 
     // Prepare path to a source HTML file
-    string documentPath = Path.Combine(DataDir, "inputDoc.ext");
+    string documentPath = Path.Combine(DataDir, "input.html");
     
     // Prepare path for converted file saving 
     string savePath = Path.Combine(OutputDir, "output.pdf");
@@ -61,7 +63,6 @@ using System.IO;
     document.RenderTo(device);
 {{< /codeblock >}}
 
--->
 
 
 
