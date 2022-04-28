@@ -1,6 +1,6 @@
 ---
 title: How to use XPath - Evaluate() method 
-linktitle: How to use XPath
+linktitle: How to use XPath in HTML
 type: docs
 weight: 50
 description: This article introduces how to use Evaluate() method to navigate through the HTML document and select nodes by XPath Query. You will learn, how to select all photos from an HTML document using XPath expressions.
@@ -131,7 +131,7 @@ As a result, we got a list containing only links to photos. So the only thing le
 
 Let's consider the C# example of how to use Evaluate() method to select all photos from an HTML document using XPath expressions. You should follow a few steps:
 
-1. Load an existing HTML file ( [xpath-image.htm](/html/net/how-to-articles/how-to-use-xpath/xpath-image.htm).).
+1. Load an existing HTML file ( [xpath-image.htm](/html/net/how-to-articles/how-to-use-xpath/xpath-image.htm)).
 2. Use the  [Evaluate()](https://apireference.aspose.com/html/net/aspose.html.dom/document/methods/evaluate) method of the [Document](https://apireference.aspose.com/html/net/aspose.html.dom/document) class and pass XPath expression and other parameters to it.
 3. Iterate over the resulted nodes and print them to the console.
 4. You will get a list containing only links to photos from the HTML document.
@@ -156,7 +156,7 @@ using System.IO;
 	        var img = (HTMLImageElement)node;
 	        Console.WriteLine(img.Src);
 	    }       
-	}​        
+	}        
 {{< /highlight >}}
 
 
