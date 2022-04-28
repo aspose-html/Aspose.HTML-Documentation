@@ -19,7 +19,7 @@ namespace Aspose.HTML.Tests.How_to_Articles
 
 
         [Fact(DisplayName = "Use XPath")]
-        public void CSSSelectorUsageTest1()
+        public void XPathUsageTest1()
         {
             using (var doc = new HTMLDocument(Path.Combine(DataDir, "xpath-image.htm")))
             {
@@ -36,7 +36,7 @@ namespace Aspose.HTML.Tests.How_to_Articles
 
 
         [Fact(DisplayName = "Use XPath")]
-        public void CSSSelectorUsageTest2()
+        public void XPathUsageTest2()
         {
             using (var doc = new HTMLDocument(Path.Combine(DataDir, "xpath-image.htm")))
             {
@@ -53,7 +53,7 @@ namespace Aspose.HTML.Tests.How_to_Articles
 
 
         [Fact(DisplayName = "Use XPath")]
-        public void CSSSelectorUsageTest3()
+        public void XPathUsageTest3()
         {            
             using (var doc = new HTMLDocument(Path.Combine(DataDir, "xpath-image.htm")))
             {
@@ -70,7 +70,7 @@ namespace Aspose.HTML.Tests.How_to_Articles
 
 
         [Fact(DisplayName = "Use XPath")]
-        public void CSSSelectorUsageTest4()
+        public void XPathUsageTest4()
         {            
             using (var doc = new HTMLDocument(Path.Combine(DataDir, "xpath-image.htm")))
             {
@@ -82,6 +82,101 @@ namespace Aspose.HTML.Tests.How_to_Articles
                     Output.WriteLine(img.Src);
                 }
                 Assert.True(doc.QuerySelectorAll(".photo").Length > 0);
+            }
+        }
+
+
+        [Fact(DisplayName = "Use XPath in XML")]
+        public void XPathUsageInXMLTest1()
+        {
+            using (var doc = new HTMLDocument(Path.Combine(DataDir, "cars.xml")))
+            {
+                var dealers = doc.Evaluate("//Dealer", doc, doc.CreateNSResolver(doc), XPathResultType.Any, null);
+                Node dealer;
+
+                while ((dealer = dealers.IterateNext()) != null)
+                {
+                    Output.WriteLine(dealer.TextContent);
+                }
+                Assert.True(doc.QuerySelectorAll("Car").Length > 0);
+            }
+        }
+
+
+        [Fact(DisplayName = "Use XPath in XML")]
+        public void XPathUsageInXMLTest2()
+        {
+            using (var doc = new HTMLDocument(Path.Combine(DataDir, "cars.xml")))
+            {
+                var dealers = doc.Evaluate("//Dealer[descendant::Car[descendant::Model > 2005]]", doc, doc.CreateNSResolver(doc), XPathResultType.Any, null);
+                Node dealer;
+
+                while ((dealer = dealers.IterateNext()) != null)
+                {
+                    Output.WriteLine(dealer.TextContent);
+                }
+                Assert.True(doc.QuerySelectorAll("Cars").Length > 0);
+            }
+        }
+
+
+        [Fact(DisplayName = "Use XPath in XML")]
+        public void XPathUsageInXMLTest3()
+        {
+            using (var doc = new HTMLDocument(Path.Combine(DataDir, "cars.xml")))
+            {
+                var dealers = doc.Evaluate("//Dealer[descendant::Car[descendant::Model > 2005 and descendant::Price < 25000]]", doc, doc.CreateNSResolver(doc), XPathResultType.Any, null);
+                Node dealer;
+
+                while ((dealer = dealers.IterateNext()) != null)
+                {
+                    Output.WriteLine(dealer.TextContent);
+                }
+                Assert.True(doc.QuerySelectorAll("Name").Length > 0);
+            }
+        }
+
+
+        [Fact(DisplayName = "Use XPath in XML")]
+        public void XPathUsageInXMLTest4()
+        {
+            using (var doc = new HTMLDocument(Path.Combine(DataDir, "cars.xml")))
+            {
+                var dealers = doc.Evaluate("//Dealer[descendant::Car[descendant::Model > 2005 and descendant::Price < 25000]]", doc, doc.CreateNSResolver(doc), XPathResultType.Any, null);
+                Node dealer;
+
+                while ((dealer = dealers.IterateNext()) != null)
+                {
+                    var dealerInfo = doc.Evaluate("concat('Dealer name: ', Name/text(), ' Telephone: ', Telephone/text())", dealer, doc.CreateNSResolver(doc), XPathResultType.String, null);
+                    Output.WriteLine(dealerInfo.StringValue);
+                }
+                Assert.True(doc.QuerySelectorAll("Type").Length > 0);
+            }
+        }
+
+
+        [Fact(DisplayName = "Use XPath in XML")]
+        public void XPathUsageInXMLTest5()
+        {
+            using (var doc = new HTMLDocument(Path.Combine(DataDir, "cars.xml")))
+            {
+                var dealers = doc.Evaluate("//Dealer[descendant::Car[descendant::Model > 2005 and descendant::Price < 25000]]", doc, doc.CreateNSResolver(doc), XPathResultType.Any, null);
+                Node dealer;
+
+                while ((dealer = dealers.IterateNext()) != null)
+                {
+                    var dealerInfo = doc.Evaluate("concat('Dealer name: ', Name/text(), ' Telephone: ', Telephone/text())", dealer, doc.CreateNSResolver(doc), XPathResultType.String, null);
+                    Output.WriteLine(dealerInfo.StringValue);
+
+                    var carIds = doc.Evaluate(".//Car[descendant::Model > 2005 and descendant::Price < 25000]/@CarID", dealer, doc.CreateNSResolver(doc), XPathResultType.Any, null);
+                    Node carId;
+
+                    while ((carId = carIds.IterateNext()) != null)
+                    {
+                        Output.WriteLine("Car id: " + carId.TextContent);
+                    }
+                }
+                Assert.True(doc.QuerySelectorAll("Price").Length > 0);
             }
         }
     }
