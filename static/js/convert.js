@@ -1,5 +1,8 @@
-const uploadUrl = 'https://localhost:5001/files';
-const convertUrl = 'https://localhost:5001/conversion';
+// const uploadUrl = 'https://localhost:5001/files';
+// const convertUrl = 'https://localhost:5001/conversion';
+
+const uploadUrl = 'https://api.products-qa.aspose.app/html/api/files';
+const convertUrl = 'https://api.products-qa.aspose.app/html/api/conversion';
 
 function run(){
 
@@ -106,8 +109,11 @@ function processError(err){
 
 function showLoader(){
     document.body.style.cursor = 'wait';
+    document.getElementById("roller").style.display = 'inline-block';
+
 }
 
 function hideLoader(){
     document.body.style.cursor = 'auto';
+    document.getElementById("roller").style.display = 'none';
 }

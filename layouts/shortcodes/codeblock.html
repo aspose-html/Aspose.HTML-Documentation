@@ -35,10 +35,12 @@
                     <div class="col description">
                         <span id="fileName">Upload a file you want to convert</span>
                     </div>
+                    
                     <div class="col action">
                         <a class="actionButton disabled" type="button" id="runCodeButton" onclick="run()">Run code</a>
                     </div>
                 </div>
+
 <script>
     const fileInput = document.getElementById('fileInput');
     fileInput.onchange = () => {
@@ -66,12 +68,13 @@
                                 <option value={{.}}>{{.}}</option>
                             {{end}}
                         </select>
+
                     </div>
                     <div class="col description">
                         Select the target format from the list
                     </div>
                     <div class="col action">
-
+                        <div class="lds-roller" id="roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
                     </div>
                 </div>
                 <div class="rowLine"></div>
@@ -84,6 +87,7 @@
 			<pre class="codeBox"><code id="snippet" class="cs hljs">
                 {{ .Inner }}
             </code></pre>
+            
             </div>
             <div class="h3">
                 &ensp;&ensp;
