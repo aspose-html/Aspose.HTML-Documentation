@@ -280,5 +280,57 @@ namespace Aspose.HTML.Tests.Working_with_HTML_Documents
 
             Assert.True(File.Exists(savePath));
         }
+
+
+        [Fact(DisplayName = "How to Change Table Border Color")]
+        public void HowToChangeTableBorderColorTest1()
+        {
+            // Prepare an output path for a document saving
+            string savePath = Path.Combine(OutputDir, "change-table-border-color-inline-css.html");
+
+            // Prepare path to source HTML file
+            string documentPath = Path.Combine(DataDir, "table.html");
+
+            // Create an instance of an HTML document
+            var document = new HTMLDocument(documentPath);
+
+            // Create a CSS Selector that selects the first table element
+            var element = document.QuerySelector("table");
+
+            // Set style attribute with properties for the selected element               
+            element.SetAttribute("style", "border: 2px #0000ff solid");
+
+            // Save the HTML document to a file
+            document.Save(Path.Combine(savePath));
+
+            Assert.True(File.Exists(savePath));
+        }
+
+
+        [Fact(DisplayName = "How to Change Table Border Color")]
+        public void HowToChangeTableBorderColorTest2()
+        {
+            // Prepare an output path for a document saving
+            string savePath = Path.Combine(OutputDir, "change-table-border-color-internal-css.html");
+
+            // Prepare path to source HTML file
+            string documentPath = Path.Combine(DataDir, "table.html");
+
+            // Create an instance of an HTML document
+            var document = new HTMLDocument(documentPath);
+
+            // Create a style element and assign the color border-style and border-color values for table element
+            var style = document.CreateElement("style");
+            style.TextContent = "table { border-style:solid; border-color:rgb(0, 0, 255) }";
+
+            // Find the document head element and append style element to the head
+            var head = document.GetElementsByTagName("head").First();
+            head.AppendChild(style);
+
+            // Save the HTML document to a file
+            document.Save(Path.Combine(savePath));
+
+            Assert.True(File.Exists(savePath));
+        }
     }
 }

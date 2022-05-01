@@ -5,7 +5,7 @@ type: docs
 weight: 50
 description: This article introduces how to use Evaluate() method to navigate through the HTML document and select nodes by XPath Query. You will learn, how to select all photos from an HTML document using XPath expressions.
 keywords: xpath, xpath query, Evaluate(), Evaluate() method, how to use xpath, xpath expressions, xpath expression examples, c# code, html document, javascript code
-lastmod: "2022-04-26"
+lastmod: "2022-05-01"
 sitemap:
     changefreq: "weekly"
     priority: 0.7

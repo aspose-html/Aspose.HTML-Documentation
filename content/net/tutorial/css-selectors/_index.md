@@ -5,7 +5,7 @@ type: docs
 weight: 30
 description: In this article discover how to effectively apply CSS Selectors to select the elements you want to style.
 keywords: css selector, css selectors, css attribute selector, css id selector, css class selector, css type selector, css element selector, css pseudo selector, css universal selectors, css conbinator selector, css selectors examples
-lastmod: "2022-04-19"
+lastmod: "2022-04-29"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -101,8 +101,8 @@ The Universal Selector is used to select all the elements on the web pages. For 
 
 ```css
 * {
-  text-align: center;
-  color: #0154a2;
+    text-align: center;
+    color: #0154a2;
 }
 ```
 **HTML Example**
@@ -134,7 +134,7 @@ Let's consider one of the CSS Attribute Selectors as an example:
 
 ```css
 h3[class*="1"] {
-  background-color: #b4e8fd;
+    background-color: #b4e8fd;
 }
 ```
 **HTML Example**
@@ -186,7 +186,7 @@ Let's consider one of the CSS Combinators Selectors as an example. The Child Sel
 ```css
 div > p {
 	background-color: #d4e9fc;
-	}
+}
 ```
 **HTML Example**
 ```html

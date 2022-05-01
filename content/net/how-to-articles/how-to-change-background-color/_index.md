@@ -4,8 +4,8 @@ linktitle: How to Change Background Color
 type: docs
 weight: 20
 description: In this article, we will use C# examples to show different ways to change background color in HTML files using Aspose.HTML class library.
-keywords: how to change background color in html, how to change background color, html background color, change background color, c# examples, inline css, internal css
-lastmod: "2022-03-28"
+keywords: how to change background color in html, how to change background color, html background color, change background color, c# examples, javascript code, inline css, internal css
+lastmod: "2022-05-01"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -32,6 +32,8 @@ To change background color for HTML element using Aspose.HTML API you should fol
 
 You can set or change background color for various HTML elements such as `<p>`,  `<h1>`…`<h6>`, `<div>` or `<table>`.  The following C# example shows the background color change for the first `<p>`element:
 
+### **C# example**
+
 {{< highlight java >}}
 using Aspose.Html;
 using System.IO;
@@ -46,7 +48,7 @@ using System.IO;
     // Create an instance of an HTML document
     var document = new HTMLDocument(documentPath);
     
-    // Find the paragraph element to set a style attribute
+    // Find the first paragraph element to set a style attribute
     var paragraph = (HTMLElement)document.GetElementsByTagName("p").First();
     
     // Set the style attribute with background-color property
@@ -54,6 +56,17 @@ using System.IO;
     
     // Save the HTML document to a file
     document.Save(Path.Combine(savePath));
+{{< /highlight >}}
+
+### **JavaScript code**
+{{< highlight java >}}
+<script>		
+	// Find the paragraph element to set a style attribute
+	var paragraph = document.getElementsByTagName("p")[0];
+
+	// Set the style attribute with background-color property
+	paragraph.style.backgroundColor = "#e5f3fd";		
+	</script>
 {{< /highlight >}}
 
 The figure illustrates the results of changing background color for the first paragraph in the HTML file using inline CSS:
@@ -67,6 +80,8 @@ You can change the background color using inline `style` attribute or using inte
 ### **Change Background Color Using Inline CSS**
 
 If you want to change the color of the entire HTML document, you should use the `background-color` property of the `style` attribute in the opening tag of the `<body>` section. 
+
+#### **C# example**
 
 {{< highlight java >}}
 using Aspose.Html;
@@ -90,6 +105,17 @@ using System.IO;
     
     // Save the HTML document to a file
     document.Save(Path.Combine(savePath));
+{{< /highlight >}}
+
+#### **JavaScript code**
+{{< highlight java >}}
+<script>
+	// Find the body element to set a style attribute
+	var body = document.getElementsByTagName("body")[0];   
+
+	// Set style attribute with background-color property
+	body.style.backgroundColor = "#e5f3fd";
+</script>
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
@@ -118,6 +144,8 @@ The next C# example demonstrates how to realize internal CSS to change backgroun
 3. Create a `<style>` element and assign the `background-color` value for `<body>` element.
 4. Find the  `<head>` element  in your document and add the `<style>` element into it.
 5. Save the modified HTML document.
+
+#### **C# example**
 
 {{< highlight java >}}
 using Aspose.Html;
@@ -149,6 +177,25 @@ using System.IO;
     
     // Save the HTML document
     document.Save(Path.Combine(savePath));
+{{< /highlight >}}
+
+#### **JavaScript code**
+{{< highlight java >}}
+<script>
+	// Find the body element
+	var body = document.getElementsByTagName("body")[0];
+
+	// Remove the background-color property from style attribute
+	body.style.removeProperty("background-color");
+	
+	// Create a style element and assign the background-color value for body element
+	var style = document.createElement("style");
+	style.textContent = "body { background-color: rgb(229, 243, 253) }";
+	
+	// Find the document head element and append style element to the head
+	var head = document.getElementsByTagName("head")[0];
+	head.appendChild(style);
+</script>
 {{< /highlight >}}
 
 The figure shows two fragments of the HTML file before (a) and after (b) changing the background color for the entire document:
