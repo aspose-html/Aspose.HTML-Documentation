@@ -5,7 +5,7 @@ type: docs
 weight: 60
 description: How-to articles chapter helps you to learn some basic HTML, including how to use HTML elements and tags, place text on a page, add images, use HTML colors, etc.
 keywords: how to article, html questions, html learning, c# examples
-lastmod: "2022-04-28"
+lastmod: "2022-05-01"
 sitemap:
     changefreq: "weekly"
     priority: 0.7

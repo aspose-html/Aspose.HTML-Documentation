@@ -5,7 +5,7 @@ type: docs
 weight: 40
 description: In this article, discover how to effectively apply selectors to select the elements you want to style using QuerySelector() and QuerySelectorAll() methods.
 keywords: css selector, query selector, queryselector, query selector all, document query selector, how to use css selector, c# examples, JavaScript querySelector(), JavaScript querySelectorAll()
-lastmod: "2022-04-19"
+lastmod: "2022-05-01"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -32,7 +32,7 @@ The  [QuerySelector()](https://apireference.aspose.com/html/net/aspose.html.dom/
 
 {{< highlight java >}}
 using Aspose.Html;
-using System;
+using System.IO;
 ...	
 
     // Prepare path to source HTML file
@@ -79,7 +79,7 @@ Moreover, in the C# example, the text color and background color were changed fo
 
 ## **QuerySelector() to Style Selected Element**
 
-[QuerySelector()](https://apireference.aspose.com/html/net/aspose.html.dom/document/methods/queryselector) method accepts selector to determine what an element should be returned and returns the first matching element in the node's subtree. If no matching node is found, null is returned. In the following C# example, QuerySelector() method takes as a parameter `div:last-child` selector that means to select  `<div>` element that is the last child of its parent. **Note**: The QuerySelector() method returns the **first** element that matches the selector.
+The [QuerySelector()](https://apireference.aspose.com/html/net/aspose.html.dom/document/methods/queryselector) method accepts selector to determine what an element should be returned and returns the first matching element in the node's subtree. If no matching node is found, null is returned. In the following C# example, QuerySelector() method takes as a parameter `div:last-child` selector that means to select  `<div>` element that is the last child of its parent. **Note**: The QuerySelector() method returns the **first** element that matches the selector.
 ### **C# Example**
 
 {{< highlight java >}}
