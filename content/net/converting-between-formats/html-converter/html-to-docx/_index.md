@@ -76,11 +76,22 @@ using Aspose.Html.Saving;
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
-
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
-
 {{% /alert %}}
 
+### **Live Example**
+
+The following live example demonstrates how to convert HTML to DOCX using Aspose.HTML for .NET API. First, please load an HTML file from the local drive, then run the example. You will get the HTML to DOCX conversion result as a separate file.
+
+{{< codeblock HTML DOC >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+
+    using var document = new HTMLDocument(input.html);    
+    var options = new DocSaveOptions();    
+    Converter.ConvertHTML(document, options, output.docx);   
+{{< /codeblock >}}
 
 ## **Save Options**
 Aspose.HTML allows converting HTML to DOCX using default or custom save options. [DocSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions) usage enables you to customize the rendering process; you can specify the page size, margins, resolutions, CSS, etc. 

@@ -39,6 +39,7 @@ Basic CSS selectors select HTML elements according to its id, class, type, or se
 ### **Type Selector or CSS Element Selector**
 
 The Type Selector or Element Selector specifies to which elements a rule should apply, by naming the type of the element, such as `<h1>`. In other words, the Element Selector selects HTML elements based on the element name.
+
 **CSS**
 ```css
 h1 {
@@ -57,6 +58,7 @@ h1 {
 ### **ID Selector**
 
 The ID Selector selects a specific element using the `id` attribute of an HTML element. An element will be selected if its `id` attribute exactly matches the value specified in the ID Selector.
+
 **CSS**
 
 ```css
@@ -76,6 +78,7 @@ The ID Selector selects a specific element using the `id` attribute of an HTML e
 ### **Class Selector**
 
 The Class Selector matches HTML elements with a specific `class` attribute. You can use the `class` attribute for all HTML elements that are valid in the `body` section of an HTML document, including the `<body>` element itself. To select elements with a specific class, write a dot (.) character, followed by the class name. For example, if we want all elements with a class of `"main"` to have a different background color, text color and font size we would use the following CSS rule:
+
 **CSS**
 
 ```css
@@ -97,6 +100,7 @@ The Class Selector matches HTML elements with a specific `class` attribute. You 
 ### **Universal Selector**
 
 The Universal Selector is used to select all the elements on the web pages. For example, if we want every element to have a center text-align and blue text color, we would use the following CSS rule:
+
 **CSS**
 
 ```css
