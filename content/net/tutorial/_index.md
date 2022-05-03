@@ -39,7 +39,7 @@ Aspose.HTML offers free online <a href="https://products.aspose.app/html/applica
 
 
 <!-- First extension - Input format, then - output formats -->
-<!--
+
 {{< codeblock HTML PDF DOC MD >}}
 using Aspose.Html;
 using Aspose.Html.Rendering.Pdf;
@@ -64,7 +64,6 @@ using System.IO;
     document.RenderTo(device);
 {{< /codeblock >}}
 
- -->
 
 
 

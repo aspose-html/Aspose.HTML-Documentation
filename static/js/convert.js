@@ -1,8 +1,8 @@
 // const uploadUrl = 'https://localhost:5001/files';
 // const convertUrl = 'https://localhost:5001/conversion';
 
-const uploadUrl = 'https://api.products-qa.aspose.app/html/api/files';
-const convertUrl = 'https://api.products-qa.aspose.app/html/api/conversion';
+const uploadUrl = 'https://api.products.aspose.app/html/api/files';
+const convertUrl = 'https://api.products.aspose.app/html/api/conversion';
 
 function run(){
 
@@ -25,6 +25,9 @@ function run(){
         } else {
             processError("Conversion faulted");
         }
+    };
+    xrs.onerror = () =>{
+        processError("Unable upload file.");
     };
 
     let formData = new FormData();
@@ -61,6 +64,9 @@ function convert(params){
             ProcessError("Conversion faulted");
         }
     };
+    xrs.onerror = () =>{
+        processError("Conversion faulted");
+    };
 }
 
 function checkStatus(id) {
@@ -88,7 +94,11 @@ function checkStatus(id) {
         } else {
             processError("Error");
         }
-    }
+    };
+
+    xrs.onerror = () =>{
+        processError("Conversion faulted");
+    };
 }
 
 function downloadResult(f){
@@ -105,15 +115,30 @@ function downloadResult(f){
 function processError(err){
     console.log(err);
     hideLoader();
+
+    document.getElementById("alertMessage").style.display = 'block';
+    setTimeout(function () {
+        document.getElementById("alertMessage").style.display = 'none';
+    }, 3000);
 }
 
-function showLoader(){
-    document.body.style.cursor = 'wait';
-    document.getElementById("roller").style.display = 'inline-block';
 
+function showLoader(){
+    document.body.style.cursor = 'wait'; 
+    document.getElementById("roller").style.display = 'inline-block';
+    let runBtn = document.getElementById('runCodeButton');
+    let select = document.getElementById('selectOutputFormat');
+    document.getElementById('fileInput').disabled = true;;
+    runBtn.classList.add('disabled');
+    select.classList.add('disabled');
 }
 
 function hideLoader(){
     document.body.style.cursor = 'auto';
     document.getElementById("roller").style.display = 'none';
+    let runBtn = document.getElementById('runCodeButton');
+    let select = document.getElementById('selectOutputFormat');
+    document.getElementById('fileInput').disabled = false;
+    runBtn.classList.remove('disabled');
+    select.classList.remove('disabled');
 }
