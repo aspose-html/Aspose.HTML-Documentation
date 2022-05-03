@@ -3,9 +3,9 @@ title: How to Change Text Color in HTML? C# Examples
 linktitle: How to Change Text Color
 type: docs
 weight: 10
-description: In this article, we will use C# examples to show different ways to change text color in HTML.
+description: With C# examples you will learn how to change text color in an HTML file using inline and internal CSS.
 keywords: how to change text color in html, how to change text color, html font color, change text color, html text color, c# examples, inline css, internal css
-lastmod: "2022-03-28"
+lastmod: "2022-04-29"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -18,7 +18,11 @@ In this article, we will use C# examples to show different ways to change text c
 To change the text color on a web page is easy with the CSS color property. There are a few ways you can set this property value. You can use inline, internal or external CSS, and HTML color values may be specified as the standard English color names or with HEX, RGB, RGBA, HSL, and HSLA values.
 In the examples below, we’ll use HEX and RGB color codes because they’re the most used.
 
- If you want to know more about RGB, RGBA,  HSL, HSLA and HEX color codes, please visit the [**HTML Color Codes**](https://docs.aspose.com/html/net/tutorial/html-colors/) article.
+{{% alert color="primary" %}} 
+
+If you want to know more about RGB, RGBA,  HSL, HSLA and HEX color codes, please visit the [**HTML Color Codes**](https://docs.aspose.com/html/net/tutorial/html-colors/) article. HTML code examples of how to change text color you can find in the article [**Working with HTML Color**](https://docs.aspose.com/html/net/tutorial/working-with-html-color/).
+
+{{% /alert %}}
 
 ## **Change Text Color Using Inline CSS**
 
@@ -30,6 +34,8 @@ For example, in the following code snippet, you can see how to specify the CSS `
 2. Find, for example, the first paragraph element to set a style attribute.  Use the [GetElementsByTagName(`name`)](https://apireference.aspose.com/html/net/aspose.html.dom/element/methods/getelementsbytagname) method of the [Element](https://apireference.aspose.com/html/net/aspose.html.dom/element) class that returns the first element with a given tag name in document order.
 3. Use the [Style](https://apireference.aspose.com/html/net/aspose.html/htmlelement/properties/style) property of the [HTMLElement](https://apireference.aspose.com/html/net/aspose.html/htmlelement) class to set the `style` attribute with `color` property.
 4. Save the modified HTML document.
+
+### **C# code**
 
 {{< highlight java >}}
 using Aspose.Html;
@@ -55,6 +61,18 @@ using System.IO;
     document.Save(Path.Combine(savePath));
 {{< /highlight >}}
 
+### **JavaScript code**
+
+{{< highlight java >}}
+<script> 	
+	// Find the first paragraph element to set a style attribute
+	var paragraph = document.getElementsByTagName("p")[0];
+
+	// Set the style attribute with color property
+	paragraph.style.color = "#8B0000";		
+</script>
+{{< /highlight >}}
+
 As a result, the text of the first paragraph in the HTML file will be recolored to `#8B0000` DarkRed color (see figure a).
 
 {{% alert color="primary" %}} 
@@ -70,6 +88,7 @@ The internal CSS is popular for applying style properties to individual pages. Y
 3. Find the document `<head>` element and append `<style>` element to the head.
 4. Save the modified HTML document.
 
+### **C# code**
 {{< highlight java >}}
 using Aspose.Html;
 using System.IO;
@@ -94,6 +113,19 @@ using System.IO;
     
     // Save the HTML document to a file
     document.Save(Path.Combine(savePath));
+{{< /highlight >}}
+### **JavaScript code**
+
+{{< highlight java >}}
+<script> 	
+	// Create a style element and assign the text color value for all paragraph elements
+	var style = document.createElement("style");
+	style.textContent = "p { color:#8B0000 }";
+
+	// Find the document head element and append style element to the head
+	var head = document.getElementsByTagName("head")[0];
+	head.appendChild(style);	
+</script>
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 

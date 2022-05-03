@@ -5,7 +5,7 @@ type: docs
 weight: 60
 description: How-to articles chapter helps you to learn some basic HTML, including how to use HTML elements and tags, place text on a page, add images, use HTML colors, etc.
 keywords: how to article, html questions, html learning, c# examples
-lastmod: "2022-03-28"
+lastmod: "2022-05-01"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -25,6 +25,13 @@ This section is in progress and currently, the following topics are available:
 
 - [How to change border color?](/html/net/how-to-articles/how-to-change-border-color/)
   This article gives you information and C# examples on how to add or change border color for your text in HTML file. Here  you learn  different ways to make your HTML texts look good.
+  
+- [How to use CSS Selector - QuerySelector() and QuerySelectorAll()](/html/net/how-to-articles/how-to-use-css-selector/)
+  In this article, discover how to effectively apply selectors to select the elements you want to style. QuerySelector() and QuerySelectorAll() are methods that are used to query DOM elements that match a CSS selector. You can select elements by class, id or name, or any complex CSS selector.
+  
+- [How to use XPath Query in HTML - Evaluate() method](/html/net/how-to-articles/how-to-use-xpath/) This article introduces how to use [Evaluate()](https://apireference.aspose.com/html/net/aspose.html.dom.xpath/ixpathevaluator/methods/evaluate) method to navigate through an HTML document and select nodes by various criteria. You will learn with C# examples, how to select all Nodes with specified Name using XPath query.
+  
+- [How To Use XPath To Select XML Nodes](/html/net/how-to-articles/how-to-use-xpath-to-select-xml-nodes/) You will learn how to navigate through an XML document and select nodes using XPath. The article considers a С# example of selecting the required information from an XML file using XPath queries.
   
   
 

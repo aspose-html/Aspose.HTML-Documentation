@@ -16,7 +16,7 @@ sitemap:
 ## **How to Use HTML Color**
 
 Design is not a central feature of HTML, so, there is no special HTML color tag.  However, you can change the color of any text using the following ways:
-1. **Using inline `style` attribute.** Adding color to a web page is a part of inline CSS styling. To set the text or background color in HTML you need to use the `style` attribute. You can apply the `style` attribute with the HTML `<body>`, `<p>`, `<h1>` or `<h2>`  tags and etc. Keep in mind, that the usage of a style attribute overrides any style set in the HTML `<style>` tag or external style sheet.
+1. **Using inline `style` attribute.** Adding color to a web page is a part of inline CSS styling. To set the text or background color in HTML you need to use the `style` attribute. You can apply the `style` attribute with the HTML `<body>`, `<p>`,  `<table>`, `<div>`, `<h1>` or `<h2>`  tags and etc. Keep in mind, that the usage of a style attribute overrides any style set in the HTML `<style>` tag or external style sheet.
 
 2. **Using internal CSS.** The internal CSS styling option is popular for applying properties to individual pages by encasing all styles in the `<style>`  element placed it in the `<head>` of HTML documents.
 
@@ -50,16 +50,14 @@ The same text colorization result can be achieved using internal CSS, as shown i
 <html>
 <head>  
 <style>  
-h2  
-{  
-color:DarkCyan;  
+h2 {  
+	color:DarkCyan;  
 }  
-h3  
-{  
-color:DarkRed;  
+h3 {  
+	color:DarkRed;  
 } 
-h4
-{color:DarkBlue;
+h4 {
+	color:DarkBlue;
 }
 </style>  
 </head> 

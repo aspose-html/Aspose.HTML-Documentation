@@ -59,9 +59,9 @@ The code is expressed as follows: #RRGGBB, where each of the two-digit values is
 
 **RGBA**(Red, Green, Blue, Alpha) color values are an extension of RGB color values with an alpha channel that determines the opacity of the color. The alpha parameter is a number between 0.0, meaning "fully transparent", and 1.0, meaning "fully opaque". For example, rgba(255, 0, 0) is displayed as pure red, rgba(255, 0, 0, 0.5) is displayed as red with 50% opacity.
 
-The figure shows RGBA values of name "YellowGreen" color, with different transparent:
+The figure shows RGBA values of the color name "Yellow-Green" with different transparency:
 
-![Text "RGBA values of name "YellowGreen" color, with different transparent"](rgba.png#center)
+![Text "RGBA values of the color name "YellowGreen", with different transparency"](rgba.png#center)
 
 For an RGBA value, unlike RGB values, there is no hexadecimal notation.
 

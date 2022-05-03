@@ -176,7 +176,7 @@ namespace Aspose.HTML.Tests.Web_Scraping
             // Initialize a document based on the prepared code
             using (var document = new HTMLDocument(code, "."))
             {
-                // Here we create a CSS Selector that extract all elements whose 'class' attribute equals to 'happy' and their child SPAN elements
+                // Here we create a CSS Selector that extracts all elements whose 'class' attribute equals 'happy' and their child SPAN elements
                 var elements = document.QuerySelectorAll(".happy span");
 
                 // Iterate over the resulted list of elements

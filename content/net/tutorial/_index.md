@@ -5,7 +5,7 @@ type: docs
 weight: 5
 description: HTML Tutorial section helps you to learn some basic HTML, including how to use HTML elements and tags, place text on a page, add images, use HTML colors, etc.
 keywords: html, html tutorial, html learning, html code example, html code 
-lastmod: "2022-03-28"
+lastmod: "2022-04-16"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -27,6 +27,7 @@ If you are a novice developer and want to create web pages, the first skill you 
 HTML Tutorial section helps you to learn some basic HTML, including how to use HTML elements and tags, place text on a page, add images, use HTML colors, etc. This section is in progress and currently includes articles:
  - [HTML Color Codes](https://docs.aspose.com/html/net/tutorial/html-colors/) - In this article, you  will find information about HTML color codes for your website - HTML color names with HEX color codes, RGB, RGBA, HSL and HSLA values.
  - [Working with HTML Color](https://docs.aspose.com/html/net/tutorial/working-with-html-color/) - In this article, we'll cover HTML code examples of how to add the color of your HTML text, background, or border using HTML color names, HEX color codes, RGB, RGBA, HSL and HSLA values.
+ - [CSS Selectors](https://docs.aspose.com/html/net/tutorial/css-selectors/) - In this article discover how to effectively apply selectors to select the elements you want to style. You will cover basic selectors, combinator selectors, attribute selectors, and the universal selector.
 
 {{% alert color="primary" %}} 
 

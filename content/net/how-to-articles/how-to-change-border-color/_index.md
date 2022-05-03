@@ -5,7 +5,7 @@ type: docs
 weight: 30
 description: In this article, we will use C# examples to show different ways to change border color in HTML files using Aspose.HTML class library.
 keywords: how to change border color in html, how to change border color, html border color, change border color, border color, table border color, html table border color, c# examples, inline css, internal css
-lastmod: "2022-04-12"
+lastmod: "2022-05-01"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -41,21 +41,21 @@ using System.Linq;
 
     // Prepare an output path for a document saving
     string savePath = Path.Combine(OutputDir, "change-border-color.html");
-
+    
     // Prepare path to source HTML file
-	string documentPath = Path.Combine(DataDir, "file.html");
-
+    string documentPath = Path.Combine(DataDir, "file.html");
+    
     // Create an instance of an HTML document
     var document = new HTMLDocument(documentPath);
-
+    
     // Find the h1 element to set a style attribute
     var header = (HTMLElement)document.GetElementsByTagName("h1").First();
-
+    
     // Set style attribute properties
     header.Style.Color = "#8B0000";
     header.Style.BorderStyle = "solid";
     header.Style.BorderColor = "rgb(220,30,100)";
-
+    
     // Save the HTML document to a file
     document.Save(Path.Combine(savePath));
 {{< /highlight >}}
@@ -86,11 +86,11 @@ using System.Linq;
     
     // Find the h1 element to set a style attribute
     var header = (HTMLElement)document.GetElementsByTagName("h1").First();
-
+    
     // Set style attribute properties
     header.Style.BorderStyle = "solid";
     header.Style.BorderColor = "red blue green gray";
-
+    
     // Save the HTML document to a file
     document.Save(Path.Combine(savePath));
 {{< /highlight >}}
@@ -130,21 +130,21 @@ using System.Linq;
 
     // Prepare an output path for a document saving
     string savePath = Path.Combine(OutputDir, "change-border-color-internal-css.html");
-
+    
     // Prepare path to source HTML file
     string documentPath = Path.Combine(DataDir, "file.html");
-
+    
     // Create an instance of an HTML document
     var document = new HTMLDocument(documentPath);
-
+    
     // Create a style element and assign the color border-style and border-color values for h1 element
     var style = document.CreateElement("style");
     style.TextContent = "h1 { color:DarkRed; border-style:solid; border-color:rgb(220,30,100) }";
-
+    
     // Find the document head element and append style element to the head
     var head = document.GetElementsByTagName("head").First();
     head.AppendChild(style);             
-
+    
     // Save the HTML document to a file
     document.Save(Path.Combine(savePath));
 {{< /highlight >}}
@@ -166,9 +166,104 @@ The С# code execution that we have given above will result in the `<style>` ele
 </head>
 ```
 The result is similar to the one shown in Figure (a) above.
+
+## **Change Table Border Color** 
+
+If you want to change the table border color, you can use inline or internal CSS. 
+
+You can apply the `style` attribute with the HTML `<table>` element. Keep in mind, that the usage of a style attribute overrides any style set in the HTML `<style>` tag or external style sheet. To change the table border color using inline CSS style attribute you can use the [QuerySelector()](https://apireference.aspose.com/html/net/aspose.html.dom/document/methods/queryselector) method to navigate DOM and find the  `<table>` element. Then set the style attribute with the required properties for the `<table>` element:
+
+**C# example 1**
+
+{{< highlight java >}}
+using Aspose.Html;
+using System.IO;
+using System.Linq;
+...
+
+    // Prepare an output path for a document saving
+    string savePath = Path.Combine(OutputDir, "change-table-border-color.html");
+    
+    // Prepare path to source HTML file
+    string documentPath = Path.Combine(DataDir, "table.html");
+    
+    // Create an instance of an HTML document
+    var document = new HTMLDocument(documentPath);
+    
+    // Create a CSS Selector that selects the first table element
+    var element = document.QuerySelector("table");
+    
+    // Set style attribute with properties for the selected element               
+    element.SetAttribute("style", "border: 2px #0000ff solid");
+    
+    // Save the HTML document to a file
+    document.Save(Path.Combine(savePath));
+{{< /highlight >}}
+
+**JavaScript code 1**
+{{< highlight java >}}
+
+<script> 	
+	// Create a CSS Selector that selects the first table element
+    var element = document.querySelector("table");
+
+    // Set style attribute with properties for the selected element               
+    element.setAttribute("style", "border: 2px #0000ff solid");		
+</script>
+{{< /highlight >}}
+
+The same table border colorization result can be achieved using internal CSS, as shown in the following C# code example 2:
+
+**C# example 2**
+
+{{< highlight java >}}
+using Aspose.Html;
+using System.IO;
+using System.Linq;
+...
+
+    // Prepare an output path for a document saving
+    string savePath = Path.Combine(OutputDir, "change-table-border-color.html");
+    
+    // Prepare path to source HTML file
+    string documentPath = Path.Combine(DataDir, "table.html");
+    
+    // Create an instance of an HTML document
+    var document = new HTMLDocument(documentPath);
+    
+    // Create a style element and assign the color border-style and border-color values for table element
+    var style = document.CreateElement("style");
+    style.TextContent = "table { border-style:solid; border-color:rgb(0, 0, 255) }";
+    
+    // Find the document head element and append style element to the head
+    var head = document.GetElementsByTagName("head").First();
+    head.AppendChild(style);
+    
+    // Save the HTML document to a file
+    document.Save(Path.Combine(savePath));
+{{< /highlight >}}
+
+**JavaScript code 2**
+{{< highlight java >}}
+	// Create a style element and assign the border-style and border-color values for table element
+		var style = document.createElement("style");
+		style.textContent = "table { border-style:solid; border-color:rgb(0, 0, 255) }";
+    
+
+		// Find the document head element and append style element to the head
+		var head = document.getElementsByTagName("head")[0];
+		head.appendChild(style); 
+{{< /highlight >}}
+
+The figure shows the HTML table [table.html](/html/net/how-to-articles/how-to-change-border-color/table.html) after changing the border color from red to blue:
+
+![Text "Rendered the change-table-border-color.html file with changed table border color from red to blue"](change-table-border-color.png#center)
+
 {{% alert color="primary" %}}
-Aspose.HTML offers free <a href="https://products.aspose.app/html/applications" target="_blank">**HTML Web Applications**</a> that are an online collection of free converters, mergers, downloaders, SEO tools, HTML code generators, URL tools and more. The applications work on any operating system with a web browser and do not require any additional software installation. It's a fast and easy way to efficiently and effectively solve your HTML-related tasks.
+
+<a href="https://products.aspose.app/html/table-generator" target="_blank">**HTML Table Generator**</a> is an online application for creating tables with customizable options. It's free and clear to use. Just fill in all required options and get a result!
+
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/applications" target="_blank">![Text "Banner HTML Web Applications"](../../tutorial/html-web-apps.png#center)</a> 
+<a href="https://products.aspose.app/html/table-generator" target="_blank">![Text "Banner HTML Table Generator"](html-table-generator.png#center)</a> 
 
