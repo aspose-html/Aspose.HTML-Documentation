@@ -83,7 +83,7 @@ You can download the complete examples and data files from [**GitHub**](https://
 
 The following live example demonstrates how to convert HTML to DOCX using Aspose.HTML for .NET API. First, please load an HTML file from the local drive, then run the example. You will get the HTML to DOCX conversion result as a separate file.
 
-{{< codeblock HTML DOCX >}}
+{{< html-converter HTML DOCX >}}
 using Aspose.Html;
 using Aspose.Html.Converters;
 using Aspose.Html.Saving;
@@ -91,7 +91,7 @@ using Aspose.Html.Saving;
     using var document = new HTMLDocument(input.html);    
     var options = new DocSaveOptions();    
     Converter.ConvertHTML(document, options, output.docx);   
-{{< /codeblock >}}
+{{< /html-converter >}}
 
 
 ## **Save Options**
