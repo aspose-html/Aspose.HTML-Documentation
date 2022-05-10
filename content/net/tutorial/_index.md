@@ -39,8 +39,8 @@ Aspose.HTML offers free online <a href="https://products.aspose.app/html/applica
 
 
 <!-- First extension - Input format, then - output formats -->
-<!--
-{{< html-converter HTML PDF DOCX MD >}}
+
+{{< svg-converter SVG PDF, XPS, JPG, PNG, BMP, GIF, TIFF >}}
 using Aspose.Html;
 using Aspose.Html.Rendering.Pdf;
 using System.IO;
@@ -62,6 +62,6 @@ using System.IO;
     
     // Render HTML to PDF
     document.RenderTo(device);
-{{< /html-converter >}}
+{{< /svg-converter >}}
 
--->
+
