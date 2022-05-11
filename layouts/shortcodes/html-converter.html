@@ -404,7 +404,7 @@ const uploadUrl = 'https://api.products.aspose.app/html/api/files';
 const convertUrl = 'https://api.products.aspose.app/html/api/conversion';
 
 function run(){
-
+    
     showLoader();
     const data = document.querySelector('[name=fileupload]').files[0];
 
@@ -412,7 +412,7 @@ function run(){
     let e = document.getElementById("selectOutputFormat");
     let outputFormat = e.options[e.selectedIndex].text;
     let inputFormat = document.getElementById("inputFormat").value;
-
+    ga('send', 'event', 'html-documentation', 'html-converter', inputFormat + ' to ' + outputFormat)
     xrs.onload = () => {
         if(xrs.status == 200){
             let params = JSON.stringify({
@@ -576,6 +576,7 @@ function hideLoader(){
             </div>
 
 <script>
+    ga('create', 'UA-3109235-2', 'auto');
     const fileInput = document.getElementById('fileInput');
     fileInput.onchange = () => {
     const selectedFile = fileInput.files[0];
