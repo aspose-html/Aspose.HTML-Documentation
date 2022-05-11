@@ -21,7 +21,6 @@ In this article, you find information on how to convert  HTML to {{%MD%}} using 
 
 {{% alert color="primary" %}}
 Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-md" target="_blank">**HTML to MD Converter**</a> that converts HTML to Markdown with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
-
 {{% /alert %}}
 
 <a href="https://products.aspose.app/html/conversion/html-to-md" target="_blank">![Text "Banner HTML to MD Converter"](html-to-md.png#center)</a>
@@ -44,6 +43,20 @@ using Aspose.Html.Saving;
     // Call ConvertHTML() method to convert HTML to Markdown
     Converter.ConvertHTML("singl-line.html", new MarkdownSaveOptions(), Path.Combine(OutputDir, "convert-with-single-line.md"));
 {{< /highlight >}}
+
+### **Free App**
+
+You can convert HTML to Markdown with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the result of the HTML to Markdown conversion as a separate Markdown file.
+
+{{< html-converter HTML MD >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+
+    using var document = new HTMLDocument(input.html);    
+    var options = new MarkdownSaveOptions();    
+    Converter.ConvertHTML(document, options, output.md);   
+{{< /html-converter >}}
 
 ## **Save Options**
 The [MarkdownSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions) has a number of properties that give you control over the conversion process. The most important option is [MarkdownSaveOptions.Features](https://apireference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions/properties/features). This option allows you to enable/disable the conversion of the particular element.
