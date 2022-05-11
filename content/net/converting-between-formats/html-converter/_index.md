@@ -31,10 +31,8 @@ Please take a look over the following C# code snippet that shows the HTML to PNG
 using System.IO;
 using Aspose.Html;
 using Aspose.Html.Converters;
-using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
-...
-        
+...        
 
     // Initialize an HTML document from a file
     using var document = new HTMLDocument(Path.Combine(DataDir, "nature.html"));
