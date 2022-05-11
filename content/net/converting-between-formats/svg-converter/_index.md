@@ -56,7 +56,7 @@ using System.Drawing.Drawing2D;
 
 In the example, the [SVGDocument(`address`)](https://apireference.aspose.com/html/net/aspose.html.dom.svg/svgdocument/constructors/10) constructor initializes an SVG document from the file. The ImageSaveOptions() constructor creates a new [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) object with PNG ImageFormat, SmoothingMode and BackgroundColor properties. By default, the Format property is PNG. Then, the [ConvertSVG()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/3) method takes SVGDocument, ImageSaveOptions, and output path and performs SVG to PNG conversion.
 
-You can convert SVG to PNG with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the result of the SVG to PNG conversion as a separate PNG file.
+You can convert SVG to PNG with Aspose.HTML API in real time. First, load an SVG file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the result of the SVG to PNG conversion as a separate PNG file.
 
 {{< svg-converter SVG PNG  >}}
 using Aspose.Html.Dom.Svg;

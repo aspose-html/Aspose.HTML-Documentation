@@ -74,7 +74,7 @@ You can download the complete examples and data files from [**GitHub**](https://
 {{% /alert %}}
 
 ### **Free App**
-You can convert SVG to PNG with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the result of the SVG to PNG conversion as a separate PNG file.
+You can convert SVG to PNG with Aspose.HTML API in real time. First, load an SVG file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the result of the SVG to PNG conversion as a separate PNG file.
 
 {{< svg-converter SVG PNG  >}}
 using Aspose.Html.Dom.Svg;

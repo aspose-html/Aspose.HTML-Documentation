@@ -72,7 +72,7 @@ You can download the complete examples and data files from [**GitHub**](https://
 {{% /alert %}}
 
 ### **Free App**
-You can convert SVG to TIFF with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the result as a separate TIFF file.
+You can convert SVG to TIFF with Aspose.HTML API in real time. First, load an SVG file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the result as a separate TIFF file.
 
 {{< svg-converter SVG TIFF  >}}
 using Aspose.Html.Dom.Svg;
