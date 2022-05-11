@@ -245,14 +245,15 @@ using System.Linq;
 
 **JavaScript code 2**
 {{< highlight java >}}
+<script> 
 	// Create a style element and assign the border-style and border-color values for table element
-		var style = document.createElement("style");
-		style.textContent = "table { border-style:solid; border-color:rgb(0, 0, 255) }";
-    
+	var style = document.createElement("style");
+	style.textContent = "table { border-style:solid; border-color:rgb(0, 0, 255) }";    
 
-		// Find the document head element and append style element to the head
-		var head = document.getElementsByTagName("head")[0];
-		head.appendChild(style); 
+	// Find the document head element and append style element to the head
+	var head = document.getElementsByTagName("head")[0];
+	head.appendChild(style);
+</script>	
 {{< /highlight >}}
 
 The figure shows the HTML table [table.html](/html/net/how-to-articles/how-to-change-border-color/table.html) after changing the border color from red to blue:
