@@ -72,9 +72,9 @@ You can download the complete examples and data files from [**GitHub**](https://
 {{% /alert %}}
 
 ### **Free App**
-You can convert SVG to GIF with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the result as a separate GIF file.
+You can convert SVG to GIF with Aspose.HTML API in real time. First, load an SVG file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the result as a separate GIF file.
 
-{{< svg-converter SVG GIG  >}}
+{{< svg-converter SVG GIF  >}}
 using Aspose.Html.Dom.Svg;
 using Aspose.Html.Converters;
 using Aspose.Html.Rendering.Image;

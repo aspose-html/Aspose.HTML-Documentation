@@ -77,7 +77,7 @@ You can download the complete examples and data files from [**GitHub**](https://
 {{% /alert %}}
 
 ### **Free App**
-You can convert SVG to JPG with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the result as a separate JPG file.
+You can convert SVG to JPG with Aspose.HTML API in real time. First, load an SVG file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the result as a separate JPG file.
 
 {{< svg-converter SVG JPG  >}}
 using Aspose.Html.Dom.Svg;
