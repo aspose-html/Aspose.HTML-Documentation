@@ -85,7 +85,7 @@ using Aspose.Html.Converters;
 using Aspose.Html.Rendering.Image;
 using Aspose.Html.Saving;
 
-   using var document = new SVGDocument("input.html");
+   using var document = new SVGDocument("input.svg");
    var options = new ImageSaveOptions(ImageFormat.Jpeg);
    Converter.ConvertSVG(document, options, "output.jpeg");    
 {{< /svg-converter >}}
