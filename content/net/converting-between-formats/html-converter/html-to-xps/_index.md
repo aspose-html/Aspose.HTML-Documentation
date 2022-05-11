@@ -76,6 +76,19 @@ using Aspose.Html.Saving;
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
 
+### **Free App**
+You can convert HTML to XPS with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the result as a separate XPS file.
+
+{{< html-converter HTML XPS >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+
+    using var document = new HTMLDocument(input.html);    
+    var options = new XpsSaveOptions();   
+    Converter.ConvertHTML(document, options, output.xps);   
+{{< /html-converter >}}
+
 ## **Save Options**
 Aspose.HTML allows converting HTML to XPS using default or custom save options. [XpsSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) usage enables you to customize the rendering process. You can specify the page size, margins, Css, etc. 
 
