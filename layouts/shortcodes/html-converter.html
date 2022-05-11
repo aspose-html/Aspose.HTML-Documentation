@@ -399,7 +399,7 @@
 <script>
 // const uploadUrl = 'https://localhost:5001/files';
 // const convertUrl = 'https://localhost:5001/conversion';
-
+ga('create', 'UA-3109235-2', 'auto');
 const uploadUrl = 'https://api.products.aspose.app/html/api/files';
 const convertUrl = 'https://api.products.aspose.app/html/api/conversion';
 
@@ -412,7 +412,7 @@ function run(){
     let e = document.getElementById("selectOutputFormat");
     let outputFormat = e.options[e.selectedIndex].text;
     let inputFormat = document.getElementById("inputFormat").value;
-    ga('send', 'event', 'html-documentation', 'html-converter', inputFormat + ' to ' + outputFormat)
+    ga('send', 'event', 'html-documentation', 'html-converter', inputFormat + ' to ' + outputFormat);
     xrs.onload = () => {
         if(xrs.status == 200){
             let params = JSON.stringify({
@@ -501,6 +501,7 @@ function checkStatus(id) {
 }
 
 function downloadResult(f){
+    ga('send', 'event', 'html-documentation', 'html-converter', 'downloadResult');
     let link = document.createElement("a");
     let name = 'output.pdf';
     link.setAttribute('download', name);
@@ -576,9 +577,9 @@ function hideLoader(){
             </div>
 
 <script>
-    ga('create', 'UA-3109235-2', 'auto');
     const fileInput = document.getElementById('fileInput');
     fileInput.onchange = () => {
+    ga('send', 'event', 'html-documentation', 'html-converter', 'fileInputChange');
     const selectedFile = fileInput.files[0];
     if(selectedFile && selectedFile.name != ""){
         let input = document.getElementById('fileName');
