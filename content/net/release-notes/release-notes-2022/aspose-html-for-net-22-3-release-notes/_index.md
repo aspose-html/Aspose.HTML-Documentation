@@ -2,7 +2,6 @@
 title: Aspose.HTML for .NET 22.3 Release Notes
 weight: 100
 type: docs
-url: /net/aspose-html-for-net-22-3-release-notes
 ---
 {{% alert color="primary" %}} 
 
@@ -30,5 +29,3 @@ In this release we made many bug fixes and improvements, here are some of them:
 |HTMLNET-3678|HTML to PNG - freeze and memory increase|Bug|
 |HTMLNET-3687|HTML to PNG - Capital letters became small|Bug|
 |HTMLNET-3700|HTML to PNG - ArgumentException : Incompatible unit types|Bug|
-
-

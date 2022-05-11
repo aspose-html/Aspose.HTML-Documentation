@@ -2,7 +2,7 @@
 title: Frequently Asked Questions | Aspose.HTML for .NET
 linktitle: FAQ
 type: docs
-weight: 70
+weight: 80
 aliases: /net/FAQ
 description: This article includes frequently asked questions about using the functionality of the Aspose.HTML for .NET library.  
 keywords: HTML document,  XPath, convert html, CSS

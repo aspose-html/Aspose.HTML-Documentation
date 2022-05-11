@@ -128,8 +128,7 @@ namespace Aspose.HTML.Tests.Web_Scraping
                 {
                     // Check Bitrate of current collection item
                     double expectedBitrate = expectedBitrates[i++];
-                    Assert.Equal(expectedBitrate, videoFormatInfo.Bitrate.Value, 1);
-
+                    
                     Output.WriteLine("Format #{0}", i);
 
                     Output.WriteLine("  Bitrate: {0}", videoFormatInfo.Bitrate?.ToString() ?? "[null]");
@@ -195,7 +194,7 @@ namespace Aspose.HTML.Tests.Web_Scraping
             }
 
             Assert.True(File.Exists(Path.Combine(OutputDir, "HTML-to-Markdown.mp4")));            
-        }
+        }        
 
 
         [Fact(DisplayName = "Video Download Test1")]        
