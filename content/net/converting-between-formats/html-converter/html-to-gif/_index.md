@@ -68,9 +68,9 @@ using Aspose.Html.Converters;
 using Aspose.Html.Saving;
 using Aspose.Html.Rendering.Image;
 
-    using var document = new HTMLDocument(input.html);    
+    using var document = new HTMLDocument("input.html");    
     var options = new ImageSaveOptions(ImageFormat.Gif);   
-    Converter.ConvertHTML(document, options, output.gif);   
+    Converter.ConvertHTML(document, options, "output.gif");   
 {{< /html-converter >}}
 
 ## **Save Options**
