@@ -84,9 +84,9 @@ using Aspose.Html.Converters;
 using Aspose.Html.Saving;
 using Aspose.Html.Rendering.Image;
 
-    using var document = new HTMLDocument(input.html);    
+    using var document = new HTMLDocument("input.html");    
     var options = new ImageSaveOptions(ImageFormat.Png);   
-    Converter.ConvertHTML(document, options, output.png);   
+    Converter.ConvertHTML(document, options, "output.png");   
 {{< /html-converter >}}
 
 ## **Save Options**

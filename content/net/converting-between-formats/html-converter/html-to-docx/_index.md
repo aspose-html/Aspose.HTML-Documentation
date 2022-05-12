@@ -88,9 +88,9 @@ using Aspose.Html;
 using Aspose.Html.Converters;
 using Aspose.Html.Saving;
 
-    using var document = new HTMLDocument(input.html);    
+    using var document = new HTMLDocument("input.html");    
     var options = new DocSaveOptions();    
-    Converter.ConvertHTML(document, options, output.docx);   
+    Converter.ConvertHTML(document, options, "output.docx");   
 {{< /html-converter >}}
 
 ## **Save Options**

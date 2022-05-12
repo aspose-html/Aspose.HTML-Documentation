@@ -68,10 +68,22 @@ using Aspose.Html.Saving;
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
-
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
-
 {{% /alert %}}
+
+### **Free App**
+You can convert SVG to TIFF with Aspose.HTML API in real time. First, load an SVG file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the result as a separate TIFF file.
+
+{{< svg-converter SVG TIFF  >}}
+using Aspose.Html.Dom.Svg;
+using Aspose.Html.Converters;
+using Aspose.Html.Rendering.Image;
+using Aspose.Html.Saving;
+
+   using var document = new SVGDocument("input.svg");
+   var options = new ImageSaveOptions(ImageFormat.Tiff);
+   Converter.ConvertSVG(document, options, "output.tiff");    
+{{< /svg-converter >}}
 
 ## **Convert SVG to TIFF using ImageSaveOptions**
 

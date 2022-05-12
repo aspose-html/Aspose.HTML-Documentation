@@ -53,9 +53,9 @@ using Aspose.Html;
 using Aspose.Html.Converters;
 using Aspose.Html.Saving;
 
-    using var document = new HTMLDocument(input.html);    
+    using var document = new HTMLDocument("input.html");    
     var options = new MarkdownSaveOptions();    
-    Converter.ConvertHTML(document, options, output.md);   
+    Converter.ConvertHTML(document, options, "output.md");   
 {{< /html-converter >}}
 
 ## **Save Options**
