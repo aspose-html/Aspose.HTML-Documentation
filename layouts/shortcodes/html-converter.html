@@ -399,12 +399,11 @@
 <script>
 // const uploadUrl = 'https://localhost:5001/files';
 // const convertUrl = 'https://localhost:5001/conversion';
-
 const uploadUrl = 'https://api.products.aspose.app/html/api/files';
 const convertUrl = 'https://api.products.aspose.app/html/api/conversion';
 
 function run(){
-
+    
     showLoader();
     const data = document.querySelector('[name=fileupload]').files[0];
 
@@ -412,7 +411,12 @@ function run(){
     let e = document.getElementById("selectOutputFormat");
     let outputFormat = e.options[e.selectedIndex].text;
     let inputFormat = document.getElementById("inputFormat").value;
-
+    dataLayer.push({
+      'OutputFormat': outputFormat,
+      'InputFormat': inputFormat,
+      'operation': 'run',
+      'event': 'html-conversion'
+    });
     xrs.onload = () => {
         if(xrs.status == 200){
             let params = JSON.stringify({
@@ -501,10 +505,16 @@ function checkStatus(id) {
 }
 
 function downloadResult(f){
+    
     let link = document.createElement("a");
     let name = 'output.pdf';
     link.setAttribute('download', name);
     link.href = uploadUrl + '?uri=' + f;
+    dataLayer.push({
+      'href': link.href,
+      'operation': 'downloadResult',
+      'event': 'html-conversion'
+    });
     document.body.appendChild(link);
     link.click();
     link.remove();
@@ -579,6 +589,12 @@ function hideLoader(){
     const fileInput = document.getElementById('fileInput');
     fileInput.onchange = () => {
     const selectedFile = fileInput.files[0];
+    dataLayer.push({
+      'selectedFile': selectedFile,
+      'operation': 'fileInput',
+      'event': 'html-conversion'
+    });
+
     if(selectedFile && selectedFile.name != ""){
         let input = document.getElementById('fileName');
         let runBtn = document.getElementById('runCodeButton');
