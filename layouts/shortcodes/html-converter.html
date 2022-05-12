@@ -588,7 +588,6 @@ function hideLoader(){
 <script>
     const fileInput = document.getElementById('fileInput');
     fileInput.onchange = () => {
-    ga('send', 'event', 'html-documentation', 'html-converter', 'fileInputChange');
     const selectedFile = fileInput.files[0];
     dataLayer.push({
       'selectedFile': selectedFile,
