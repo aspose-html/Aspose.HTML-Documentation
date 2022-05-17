@@ -56,8 +56,8 @@ namespace Aspose.Html.Saving
         /// Gets or sets the output document type.
         /// </summary>
         public byte DocumentType { get; set; }
-	}
     }
+
     /// <summary>
     /// Specifies format in which document is saved.
     /// </summary>
@@ -96,7 +96,7 @@ namespace Aspose.Html.Saving
     public enum HTMLSaveFormat
     {
        [Obsolete("This value was replaced with 'Original', it will be removed in version 22.7.0.")]
-	HTML = 0;
+        HTML = 0;
     }
 }
 
