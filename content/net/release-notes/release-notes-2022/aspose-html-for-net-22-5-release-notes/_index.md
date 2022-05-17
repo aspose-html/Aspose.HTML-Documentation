@@ -55,7 +55,7 @@ namespace Aspose.Html.Saving
 	/// <summary>
         /// Gets or sets the output document type.
         /// </summary>
-        public byte DocumentType{get; set;}
+        public byte DocumentType { get; set;}
 	}
 	
 	/// <summary>
