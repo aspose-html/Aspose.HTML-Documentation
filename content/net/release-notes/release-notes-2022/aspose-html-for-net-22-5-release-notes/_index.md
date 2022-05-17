@@ -3,7 +3,7 @@ title: Aspose.HTML for .NET 22.5 Release Notes
 weight: 80
 type: docs
 ---
-{{% alert color="primary" %}} 
+  {{% alert color="primary" %}} 
 
 This page contains release notes information for Aspose.HTML for .NET 22.5.
 
@@ -55,10 +55,10 @@ namespace Aspose.Html.Saving
 	/// <summary>
         /// Gets or sets the output document type.
         /// </summary>
-        public byte DocumentType { get; set;}
+        public byte DocumentType { get; set; }
 	}
-	
-	/// <summary>
+    }
+    /// <summary>
     /// Specifies format in which document is saved.
     /// </summary>
     public enum HTMLSaveFormat
@@ -66,8 +66,8 @@ namespace Aspose.Html.Saving
         /// <summary>
         /// The document will be saved in its original format.
         /// </summary>
-        Original = 0
-	}
+        Original = 0;
+    }
 }
 ```
 
