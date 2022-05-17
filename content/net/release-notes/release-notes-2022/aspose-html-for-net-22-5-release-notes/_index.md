@@ -96,7 +96,7 @@ namespace Aspose.Html.Saving
     public enum HTMLSaveFormat
     {
        [Obsolete("This value was replaced with 'Original', it will be removed in version 22.7.0.")]
-		Aspose.Html.Saving.HTMLSaveFormat.HTML = 0;
+	HTML = 0;
     }
 }
 
