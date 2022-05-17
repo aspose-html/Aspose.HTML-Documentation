@@ -13,7 +13,7 @@ As per regular monthly update process of all APIs being offered by Aspose, we ar
 
 In this release, we have improved various parts of the parsing and rendering algorithms, here are some of them:
 
-* Improved handling of Combining Diacritical Marks for Symbols. Now it is better to choose a font for this Unicode character range .
+* Improved handling of Combining Diacritical Marks for Symbols. This will allow you to more accurately select the font for this range of Unicode characters.
 * Improved the processing of the XPath Query.
 * Added (X)HTML to (X)HTML conversion. This will allow you to convert documents from one format to another more flexibly.
 * Improved the performance of the table treatment algorithm.
