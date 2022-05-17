@@ -52,10 +52,10 @@ namespace Aspose.Html.Saving
         /// </summary>
         public const byte XHTML = 2;
 		
-		/// <summary>
+	/// <summary>
         /// Gets or sets the output document type.
         /// </summary>
-        public byte DocumentType;
+        public byte DocumentType{get; set;}
 	}
 	
 	/// <summary>
