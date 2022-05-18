@@ -411,12 +411,7 @@ function run(){
     let e = document.getElementById("selectOutputFormat");
     let outputFormat = e.options[e.selectedIndex].text;
     let inputFormat = document.getElementById("inputFormat").value;
-    dataLayer.push({
-      'OutputFormat': outputFormat,
-      'InputFormat': inputFormat,
-      'operation': 'run',
-      'event': 'html-conversion'
-    });
+
     xrs.onload = () => {
         if(xrs.status == 200){
             let params = JSON.stringify({
@@ -510,11 +505,6 @@ function downloadResult(f){
     let name = 'output.pdf';
     link.setAttribute('download', name);
     link.href = uploadUrl + '?uri=' + f;
-    dataLayer.push({
-      'href': link.href,
-      'operation': 'downloadResult',
-      'event': 'html-conversion'
-    });
     document.body.appendChild(link);
     link.click();
     link.remove();
@@ -589,11 +579,6 @@ function hideLoader(){
     const fileInput = document.getElementById('fileInput');
     fileInput.onchange = () => {
     const selectedFile = fileInput.files[0];
-    dataLayer.push({
-      'selectedFile': selectedFile,
-      'operation': 'fileInput',
-      'event': 'html-conversion'
-    });
 
     if(selectedFile && selectedFile.name != ""){
         let input = document.getElementById('fileName');
