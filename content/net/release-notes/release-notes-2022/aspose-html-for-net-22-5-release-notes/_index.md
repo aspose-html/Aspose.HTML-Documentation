@@ -52,7 +52,7 @@ namespace Aspose.Html.Saving
         /// The document will be saved as XHTML.
         /// </summary>
         public const byte XHTML = 2;
-		
+
         /// <summary>
         /// Gets or sets the output document type.
         /// </summary>
@@ -79,13 +79,13 @@ namespace Aspose.Html.Saving
 {
     public class ResourceHandlingOptions
     {
-		//Default MaxHandlingDepth value:
-		//From 
-		MaxHandlingDepth = 3;
-		
-		//To
-		MaxHandlingDepth = 0;
-	}
+        //Default MaxHandlingDepth value:
+        //From
+        MaxHandlingDepth = 3;
+
+        //To
+        MaxHandlingDepth = 0;
+    }
 }
 ```
 
