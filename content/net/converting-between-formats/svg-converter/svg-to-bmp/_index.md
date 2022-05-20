@@ -74,7 +74,7 @@ You can download the complete examples and data files from [**GitHub**](https://
 ### **Free App**
 You can convert SVG to BMP with Aspose.HTML API in real time. First, load an SVG file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the result as a separate BMP file.
 
-{{< svg-converter SVG BMP  >}}
+{{< app/svg/converter HTML PNG >}}
 using Aspose.Html.Dom.Svg;
 using Aspose.Html.Converters;
 using Aspose.Html.Rendering.Image;
@@ -82,8 +82,8 @@ using Aspose.Html.Saving;
 
    using var document = new SVGDocument("input.svg");
    var options = new ImageSaveOptions(ImageFormat.Bmp);
-   Converter.ConvertSVG(document, options, "output.bmp");    
-{{< /svg-converter >}}
+   Converter.ConvertSVG(document, options, "output.bmp"); 
+{{< /app/svg/converter>}}
 
 ## **Convert SVG to BMP using ImageSaveOptions**
 

@@ -48,15 +48,16 @@ using Aspose.Html.Saving;
 
 You can convert HTML to Markdown with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the result of the HTML to Markdown conversion as a separate Markdown file.
 
-{{< html-converter HTML MD >}}
+{{< app/html/converter HTML MD >}}
 using Aspose.Html;
 using Aspose.Html.Converters;
 using Aspose.Html.Saving;
+using Aspose.Html.Rendering.Image;
 
     using var document = new HTMLDocument("input.html");    
-    var options = new MarkdownSaveOptions();    
-    Converter.ConvertHTML(document, options, "output.md");   
-{{< /html-converter >}}
+    var options = new MarkdownSaveOptions();
+    Converter.ConvertHTML(document, options, "output.md");
+{{< /app/html/converter>}}
 
 ## **Save Options**
 The [MarkdownSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions) has a number of properties that give you control over the conversion process. The most important option is [MarkdownSaveOptions.Features](https://apireference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions/properties/features). This option allows you to enable/disable the conversion of the particular element.

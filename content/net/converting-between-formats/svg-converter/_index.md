@@ -58,15 +58,16 @@ In the example, the [SVGDocument(`address`)](https://apireference.aspose.com/htm
 
 You can convert SVG to PNG with Aspose.HTML API in real time. First, load an SVG file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the result of the SVG to PNG conversion as a separate PNG file.
 
-{{< svg-converter SVG PNG  >}}
-using Aspose.Html.Dom.Svg;
+{{< app/html/converter HTML PNG >}}
+using Aspose.Html;
 using Aspose.Html.Converters;
 using Aspose.Html.Saving;
+using Aspose.Html.Rendering.Image;
 
-   using var document = new SVGDocument("input.svg");
-   var options = new ImageSaveOptions();
-   Converter.ConvertSVG(document, options, "output.png");    
-{{< /svg-converter >}}
+    using var document = new HTMLDocument("input.html");    
+    var options = new ImageSaveOptions(ImageFormat.{{output|camel}});
+    Converter.ConvertHTML(document, options, "output.{{output|lower}}");
+{{< /app/html/converter>}}
 
 {{% alert color="primary" %}} 
 Aspose.HTML offers free online [**SVG Converters**](https://products.aspose.app/svg/conversion) for converting SVG files to a variety of popular formats. You can easily convert  [SVG to PDF](https://products.aspose.app/svg/conversion/svg-to-pdf), SVG to XPS, [SVG to JPG](https://products.aspose.app/svg/conversion/svg-to-jpg), [SVG to PNG](https://products.aspose.app/svg/conversion/svg-to-png), SVG to BMP, SVG to TIFF, or SVG to GIF. Just select the file, choose the format to convert, and you're done. It's fast and completely free!

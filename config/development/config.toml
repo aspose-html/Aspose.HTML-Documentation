@@ -1,0 +1,6 @@
+# Hugo allows theme composition (and inheritance). The precedence is from left to right.
+#theme = ["lutsk-aspose-theme"]
+#theme = [
+#    "github.com/tpavel-aspose/hugo-module-fileformat-shortcodes",
+#    "./../../tpavel-aspose/lutsk-aspose-theme"
+#]
