@@ -78,14 +78,14 @@ You can download the complete examples and data files from [**GitHub**](https://
 ### **Free App**
 You can convert HTML to Markdown with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the result of the HTML to Markdown conversion as a separate Markdown file.
 
-{{< app/html/converter HTML MD >}}
+{{< app/html/converter HTML MHTML >}}
 using Aspose.Html;
 using Aspose.Html.Converters;
 using Aspose.Html.Saving;
 
-    using var document = new HTMLDocument("input.html");    
+    using var document = new HTMLDocument("input.html");
     var options = new MHTMLSaveOptions();   
-    Converter.ConvertHTML(document, options, "output.mht");   
+    Converter.ConvertHTML(document, options, "output.mht");
 {{< /app/html/converter>}}
 
 ## **Save Options**

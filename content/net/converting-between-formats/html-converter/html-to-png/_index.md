@@ -78,15 +78,15 @@ You can download the complete examples and data files from [**GitHub**](https://
 
 You can convert HTML to PNG with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. You will immediately get the result as a separate PNG file.
 
-{{< app/html/converter HTML MD >}}
+{{< app/html/converter HTML PNG >}}
 using Aspose.Html;
 using Aspose.Html.Converters;
 using Aspose.Html.Saving;
 using Aspose.Html.Rendering.Image;
 
-    using var document = new HTMLDocument("input.html");    
-    var options = new ImageSaveOptions(ImageFormat.Png);   
-    Converter.ConvertHTML(document, options, "output.png");   
+    using var document = new HTMLDocument("input.html");
+    var options = new ImageSaveOptions(ImageFormat.Png);
+    Converter.ConvertHTML(document, options, "output.png");
 {{< /app/html/converter>}}
 
 ## **Save Options**

@@ -69,8 +69,8 @@ using Aspose.Html.Saving;
 using Aspose.Html.Rendering.Image;
 
     using var document = new HTMLDocument("input.html");    
-    var options = new ImageSaveOptions(ImageFormat.Bmp);   
-    Converter.ConvertHTML(document, options, "output.{{output|lower}}");   
+    var options = new ImageSaveOptions(ImageFormat.{{output camel}});   
+    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
 {{< /app/html/converter>}}
 
 ## **Save Options**
