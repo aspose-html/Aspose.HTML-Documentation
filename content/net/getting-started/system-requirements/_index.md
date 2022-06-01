@@ -48,24 +48,32 @@ In order to use Aspose.HTML for .NET on Linux or macOS you will need to install 
 
 Based on your Linux distribution or macOS version and the fact that Aspose.HTML for .NET uses the *System.Drawing.Common* assembly, you may need to install additional dependencies. The list of all the supported distributions and additional dependencies can be found [here](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=netcore21&pivots=os-linux) for Linux and [here](https://docs.microsoft.com/en-us/dotnet/core/install/windows?tabs=netcore21&pivots=os-macos) for macOS.
 ## **Supported Frameworks**
-Aspose.HTML for .NET supports the following frameworks:
-### **.NET Framework**
-- .NET Framework 2.0
-- .NET Framework 3.5
-- .NET Framework 3.5_ClientProfile
-- .NET Framework 4.0
-- .NET Framework 4.0_ClientProfile
-- .NET Framework 4.5.0
-- .NET Framework 4.5.1
-- .NET Framework 4.5.2
-- .NET Framework 4.6.0
-- .NET Framework 4.6.2
-- .NET Framework 4.7
-- .NET Framework 4.7.2
-### **.NET Standard**
-- .NET Standard 2.0
-### **.NET Core**
-- .NET Core 2.1
+Aspose.HTML for .NET provides assemblies compiled for the following frameworks:
+**.NET Framework**|**.NET Standard**
+--|--
+.NET Framework 2.0|.NET Standard 2.0
+.NET Framework 3.5
+.NET Framework 3.5_ClientProfile
+.NET Framework 4.0
+.NET Framework 4.0_ClientProfile
+
+Therefore it is compatible with:
+
+**.NET Framework**|**.NET Standard**|**.NET Core**|**.NET**
+--|--|--|--
+.NET Framework 2.0|.NET Standard 2.0|.NET Core 2.0|.NET 5.0
+.NET Framework 3.5|.NET Standard 2.1|.NET Core 2.1
+.NET Framework 3.5_ClientProfile
+.NET Framework 4.0
+.NET Framework 4.0_ClientProfile
+.NET Framework 4.5.0
+.NET Framework 4.5.1
+.NET Framework 4.5.2
+.NET Framework 4.6.0
+.NET Framework 4.6.2
+.NET Framework 4.7
+.NET Framework 4.7.2
+
 ## **Development Environments**
 You can use Aspose.HTML for .NET to develop applications in any development environment that targets the .NET platform, but the following environments are explicitly supported:
 
