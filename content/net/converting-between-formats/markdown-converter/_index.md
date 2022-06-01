@@ -6,7 +6,7 @@ description: In this article, you learn how to convert Markdown to other formats
 weight: 40
 type: docs
 url: /net/converting-between-formats/markdown-converter/
-lastmod: 2022-01-11
+lastmod: 2022-06-01
 ---
 
 Markdown is a lightweight markup language designed to indicate formatting in plain text. MD files use Markdown language that was proposed and developed by John Gruber. They include inline text characters that determine how text is formatted, such as indentation, table formatting, fonts, and headings. In addition, MD files can be converted to HTML, PDF or images to take advantage of other formats for specific tasks. 
@@ -52,9 +52,7 @@ using System.Drawing;
 In the example, the [ConvertMarkdown(`sourcePath`)](https://apireference.aspose.com/html/net/aspose.html.dom.svg/svgdocument/constructors/10) method takes the source path of an Markdown file and results an [HTMLDocument](https://apireference.aspose.com/html/net/aspose.html/htmldocument). The ImageSaveOptions() constructor creates a new [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) object with JPG ImageFormat and BackgroundColor properties. Then, the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/3) method takes HTMLDocument, ImageSaveOptions, and output path and completes the Markdown to JPG conversion.
 
 {{% alert color="primary" %}} 
-
 Aspose.HTML offers a free online [**Markdown Converter**](https://products.aspose.app/html/conversion/md) for converting Markdown files to a variety of popular formats.  You can easily convert  [Markdown to HTML](https://products.aspose.app/html/conversion/md-to-html), [Markdown to PDF](https://products.aspose.app/html/conversion/md-to-pdf), [Markdown to JPG](https://products.aspose.app/html/conversion/md-to-jpg), or [MHTML to DOCX](https://products.aspose.app/html/conversion/md-to-docx). Just select the file, choose the format to convert, and you're done. It's fast and completely free!
-
 {{% /alert %}} 
 
 

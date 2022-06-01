@@ -2,11 +2,11 @@
 title: HTML Converter | C#
 linktitle: HTML Converter
 keywords: HTML converter, convert html, html to png, convert html to png, c# example.
-description: In this article, you learn how to convert HTML to other formats using Aspose.HTML API. You find a list of supported HTML conversions and consider C# example of HTML to PNG conversion.
+description: You learn how to convert HTML to other formats using Aspose.HTML API, find a list of supported HTML conversions, and consider C# example of HTML to PNG transforming.
 weight: 10
 type: docs
 url: /net/converting-between-formats/html-converter/
-lastmod: 2022-01-11
+lastmod: 2022-06-01
 ---
 
 {{%HTML%}} (HyperText Markup Language) is the standard markup language for documents created for display in browsers. Known as the language of the web, HTML has evolved with requirements of new information demands to be displayed as part of web pages. The latest variant is known as HTML 5 that gives a lot of flexibility for working with the language. HTML pages are either received from a server, where these are hosted or can be loaded from a local system as well.

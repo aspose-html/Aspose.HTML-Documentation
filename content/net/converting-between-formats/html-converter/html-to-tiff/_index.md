@@ -6,7 +6,7 @@ weight: 50
 url: /net/converting-between-formats/html-to-tiff/
 description: This article provides information on how to convert HTML to TIFF using Aspose.HTML API. You will learn about the supported HTML to TIFF conversion scenarios and consider examples to illustrate them.  
 keywords: HTML to TIFF, convert HTML to TIFF, HTML to TIFF conversion, HTML to TIFF converter, save options
-lastmod: "2022-01-11"
+lastmod: "2022-06-01"
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -57,18 +57,35 @@ using Aspose.Html.Saving;
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
 
-### **Live Example**
+### **HTML Converter Live Demos**
 The following live example demonstrates how to convert HTML to TIFF using Aspose.HTML for .NET API. First, please load an HTML file from the local drive, then run the example. You will get the result as a separate TIFF file.
 
-{{< app/html/converter HTML BMP JPG PNG GIF TIFF >}}
+{{< app/html/converter HTML TIFF GIF BMP "JPG|JPEG" PNG PDF XPS DOCX MD MHTML >}}
 using Aspose.Html;
 using Aspose.Html.Converters;
 using Aspose.Html.Saving;
 using Aspose.Html.Rendering.Image;
 
-    using var document = new HTMLDocument("input.html");    
-    var options = new ImageSaveOptions(ImageFormat.{{output camel}});
-    Converter.ConvertHTML(document, options, "output.{{output lower}}");
+    using var document = new HTMLDocument("document.{{input lower}}");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'MD'}}
+    var options = new MarkdownSaveOptions();
+{{/if_output}}
+{{#if_output 'MHTML'}}
+    var options = new MHTMLSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
 {{< /app/html/converter>}}
 
 ## **Save Options**

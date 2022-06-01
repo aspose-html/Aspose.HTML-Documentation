@@ -1,7 +1,7 @@
 ---
 keywords: html to pdf, convert html to pdf c#, convert html to pdf, html to pdf conversion, html to pdf
   converter, save options, stream provider
-lastmod: 2022-01-11
+lastmod: 2022-06-01
 url: /net/converting-between-formats/html-to-pdf/
 title: Convert HTML to PDF | C#
 linktitle: Convert HTML to PDF
@@ -81,11 +81,38 @@ The figure illustrates the spring-output.pdf file.
 ![Text "spring-output.pdf image"](../spring-output.png#center)
 
 {{% alert color="primary" %}} 
-
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
-
 {{% /alert %}}
 
+### **HTML Converter Live Demos**
+You can convert HTML to PDF with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the conversion result as a separate file.
+
+{{< app/html/converter HTML PDF "JPG|JPEG" TIFF PNG GIF XPS DOCX MD MHTML >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+
+    using var document = new HTMLDocument("document.{{input lower}}");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'MD'}}
+    var options = new MarkdownSaveOptions();
+{{/if_output}}
+{{#if_output 'MHTML'}}
+    var options = new MHTMLSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
+{{< /app/html/converter>}}
 
 ## **Save Options**
 Aspose.HTML allows converting HTML to PDF using default or custom save options. [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) usage enables you to customize the rendering process; you can specify the page size, margins, file permissions, Css, etc. 

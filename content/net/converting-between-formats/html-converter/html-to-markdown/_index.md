@@ -8,9 +8,9 @@ aliases:
     - /net/html-to-markdown/
     - /net/html-to-markdown-conversion/
     - /net/converting-between-formats/html-to-markdown-conversion/
-description: This article provides information on how to convert HTML to Markdown using the Aspose.HTML API. You will learn about the supported HTML to Markdown conversion scenarios and consider examples to illustrate them.  
+description: You will learn about the supported HTML to Markdown conversion scenarios using the Aspose.HTML API and consider C# examples to illustrate them.  
 keywords: HTML to Markdown, convert HTML to Markdown, HTML to Markdown conversion, HTML to Markdown converter, save options
-lastmod: "2022-01-11"
+lastmod: "2022-06-01"
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
@@ -44,19 +44,35 @@ using Aspose.Html.Saving;
     Converter.ConvertHTML("singl-line.html", new MarkdownSaveOptions(), Path.Combine(OutputDir, "convert-with-single-line.md"));
 {{< /highlight >}}
 
-### **Free App**
+### **HTML Converter Live Demos**
 
 You can convert HTML to Markdown with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the result of the HTML to Markdown conversion as a separate Markdown file.
 
-{{< app/html/converter HTML MD >}}
+{{< app/html/converter HTML MD BMP "JPG|JPEG" TIFF PNG GIF PDF XPS DOCX MHTML >}}
 using Aspose.Html;
 using Aspose.Html.Converters;
 using Aspose.Html.Saving;
-using Aspose.Html.Rendering.Image;
 
-    using var document = new HTMLDocument("input.html");
+    using var document = new HTMLDocument("document.{{input lower}}");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'MD'}}
     var options = new MarkdownSaveOptions();
-    Converter.ConvertHTML(document, options, "output.md");
+{{/if_output}}
+{{#if_output 'MHTML'}}
+    var options = new MHTMLSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
 {{< /app/html/converter>}}
 
 ## **Save Options**

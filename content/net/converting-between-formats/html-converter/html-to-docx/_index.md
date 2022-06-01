@@ -1,7 +1,7 @@
 ---
 keywords: HTML to DOCX, convert HTML to DOCX, HTML to DOCX conversion, HTML to
   DOCX converter, save options
-lastmod: 2022-01-11
+lastmod: 2022-06-01
 url: /net/converting-between-formats/html-to-docx/
 title: Convert HTML to DOCX | C#
 linktitle: Convert HTML to DOCX
@@ -79,18 +79,35 @@ using Aspose.Html.Saving;
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
 
-### **Free App**
+### **HTML Converter Live Demos**
 
 You can convert HTML to DOCX with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the result of the HTML to DOCX conversion as a separate DOCX file.
 
-{{< app/html/converter HTML DOCX >}}
+{{< app/html/converter HTML DOCX BMP "JPG|JPEG" TIFF PNG GIF PDF XPS MD MHTML >}}
 using Aspose.Html;
 using Aspose.Html.Converters;
 using Aspose.Html.Saving;
 
-    using var document = new HTMLDocument("input.html");    
-    var options = new DocSaveOptions();    
-    Converter.ConvertHTML(document, options, "output.docx");   
+    using var document = new HTMLDocument("document.{{input lower}}");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'MD'}}
+    var options = new MarkdownSaveOptions();
+{{/if_output}}
+{{#if_output 'MHTML'}}
+    var options = new MHTMLSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
 {{< /app/html/converter>}}
 
 ## **Save Options**

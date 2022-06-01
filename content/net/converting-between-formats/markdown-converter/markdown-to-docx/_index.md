@@ -6,7 +6,7 @@ weight: 30
 url: /net/converting-between-formats/markdown-to-docx/
 description: This article provides information on how to convert Markdown to DOCX using the Aspose.HTML API. You will learn about the supported Markdown to DOCX conversion scenarios and consider examples to illustrate them.  
 keywords: markdown to docx, convert markdown to docx, markdown to docx conversion, markdown to docx converter
-lastmod: "2022-01-11"
+lastmod: "2022-06-01"
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
@@ -56,10 +56,32 @@ using Aspose.Html.Saving;
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
-
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
-
 {{% /alert %}}
+
+### **Markdown Converter Live Demos**
+You can convert Markdown to other formats with Aspose.HTML for .NET API in real time. First, load an MD file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the conversion result as a separate file.
+
+{{< app/html/converter MD DOCX "JPG|JPEG" TIFF PNG GIF BMP XPS PDF >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+
+    using var document = new HTMLDocument("document.{{input lower}}");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
+{{< /app/html/converter>}}
 
 ## **Convert Markdown to DOCX using DocSaveOptions**
 If your case is to convert an existing Markdown document from a local file system, the following example could help you. You need to follow a few steps:

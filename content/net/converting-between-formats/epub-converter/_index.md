@@ -6,7 +6,7 @@ description: In this article, you will learn about supported EPUB conversions an
 weight: 40
 type: docs
 url: /net/converting-between-formats/epub-converter/
-lastmod: 2022-01-11
+lastmod: 2022-06-01
 ---
 
 {{%EPUB %}} is an e-book file format that provides a standard digital publication format for publishers and consumers. The format has been so common by now that many e-readers and software applications support it. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, a variety of compatible software is available for smartphones, tablets and computers. EPUB file standards are maintained by the International Digital Publishing Forum (IDPF).
@@ -48,9 +48,31 @@ In the example, we specify the source path to EPUB file for the ConvertEPUB() me
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}} 
 
+## **EPUB Converter Live Demos**
+You can convert EPUB to other formats with Aspose.HTML for .NET API in real time. First, load an EPUB file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the conversion result as a separate file.
+
+{{< app/html/converter EPUB PDF XPS DOCX "JPG|JPEG" TIFF PNG GIF BMP >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+
+    using var document = new HTMLDocument("document.{{input lower}}");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
+{{< /app/html/converter>}}
 
 {{% alert color="primary" %}} 
-
 Aspose.HTML offers a free online [**EPUB Converter**](https://products.aspose.app/html/conversion/epub) for converting EPUB files to a variety of popular formats. You can easily convert  [EPUB to PDF](https://products.aspose.app/html/conversion/epub-to-pdf), EPUB  to XPS, EPUB  to DOCX, [EPUB to JPG](https://products.aspose.app/html/conversion/epub-to-pdf), EPUB to PNG, EPUB to BMP, EPUB to TIFF, or EPUB to GIF. Just select the file, choose the format to convert, and you're done. It's fast and completely free!
 
 {{% /alert %}} 

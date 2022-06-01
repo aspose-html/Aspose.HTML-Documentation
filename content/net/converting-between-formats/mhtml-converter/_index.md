@@ -33,13 +33,33 @@ using Aspose.Html.Saving;
 
 In the example, we use the OpenRead(`path`) method of System.IO.FileStream class to open and read an MHTML file from the file system at the specified path. You need to pass the MHTML file stream, ImageSaveOptions, and output file path to the [ConvertMHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertmhtml/methods/27) method for MHTML to PNG conversion.  **Note:** You need to specify the path to the output file in *your local file system* (`outputPath`). Also, for OpenRead(`path`), you need to provide the path to a source MHTML file in *your local file system*. 
 
+## **MHTML Converter Live Demos**
+You can convert MHTML to other formats with Aspose.HTML for .NET API in real time. First, load an MHTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the conversion result as a separate file.
 
+{{< app/html/converter MHTML PDF "JPG|JPEG" TIFF PNG GIF DOCX XPS BMP >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+
+    using var document = new HTMLDocument("document.{{input lower}}");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
+{{< /app/html/converter>}}
 
 
 {{% alert color="primary" %}} 
-
 Aspose.HTML offers a free online [**MHTML Converter**](https://products.aspose.app/html/conversion) for converting MHTML files to a variety of popular formats.  You can easily convert  [MHTML to PDF](https://products.aspose.app/html/conversion/mhtml-to-pdf), MHTML to XPS, [MHTML to JPG](https://products.aspose.app/html/conversion/mhtml-to-jpg), MHTML to PNG, MHTML to BMP, MHTML to TIFF, and MHTML to GIF. Just select the file, choose the format to convert, and you're done. It's fast and completely free!
-
 {{% /alert %}} 
 
 
