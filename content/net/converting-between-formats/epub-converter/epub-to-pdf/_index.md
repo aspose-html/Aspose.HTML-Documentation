@@ -1,7 +1,7 @@
 ---
 keywords: epub to pdf, convert epub to pdf, epub to pdf conversion, epub to pdf
   converter, save options, stream provider
-lastmod: 2022-01-11
+lastmod: 2022-06-01
 url: /net/converting-between-formats/epub-to-pdf/
 title: Convert EPUB to PDF | C#
 linktitle: Convert EPUB to PDF
@@ -75,6 +75,30 @@ using Aspose.Html.Saving;
 {{% alert color="primary" %}}
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
+
+### **EPUB Converter Live Demos**
+You can convert EPUB to other formats with Aspose.HTML for .NET API in real time. First, load an EPUB file from your local drive and then run the example. The save options in the example are set by default. You will immediately receive the conversion result as a separate file.
+
+{{< app/html/converter EPUB PDF DOCX XPS "JPG|JPEG" TIFF PNG GIF BMP >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+
+    using var document = new HTMLDocument("document.{{input lower}}");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
+{{< /app/html/converter>}}
 
 ## **Save Options**
 With Aspose.HTML, you can convert EPUB to PDF format programmatically with full control over a wide range of conversion parameters. [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) usage enables you to tune the rendering process; you can specify the [page size](https://apireference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup), [margins](https://apireference.aspose.com/html/net/aspose.html.drawing/page/properties/margin), [file permissions](https://apireference.aspose.com/html/net/aspose.html.rendering.pdf.encryption/pdfencryptioninfo), [CSS media-type](https://apireference.aspose.com/html/net/aspose.html.rendering/mediatype), etc.  

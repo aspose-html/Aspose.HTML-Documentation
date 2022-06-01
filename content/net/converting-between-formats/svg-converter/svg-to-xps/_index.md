@@ -1,7 +1,7 @@
 ---
 keywords: svg to xps, convert svg to xps, svg to xps conversion, svg to xps
   converter, save options
-lastmod: 2022-01-11
+lastmod: 2022-06-01
 url: /net/converting-between-formats/svg-to-xps/
 title: Convert SVG to XPS | C#
 linktitle: Convert SVG to XPS
@@ -70,11 +70,37 @@ using Aspose.Html.Saving;
     Converter.ConvertSVG(code, ".", options, savePath);
 {{< /highlight >}}
 
-{{% alert color="primary" %}} 
-
+{{% alert color="primary" %}}
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
-
 {{% /alert %}}
+
+### **SVG Converter Live Demos**
+You can convert SVG to other formats with Aspose.HTML API in real time. First, load an SVG file from your local drive and then run the example. The save options are set by default. You will immediately receive the conversion result as a separate file.
+
+{{< app/svg/converter SVG XPS "JPG|JPEG" BMP PDF GIF TIFF PNG DOCX>}}
+using Aspose.Html;
+using Aspose.Html.Dom.Svg;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+
+    using var document = new SVGDocument("image.svg");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'MD'}}
+    var options = new MarkdownSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertSVG(document, options, "output.{{output lower}}");   
+{{< /app/svg/converter>}}
 
 ## **Save Options**
 Aspose.HTML allows converting SVG to XPS using default or custom save options. [XpsSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) usage enables you to customize the rendering process; you can specify the page size, margins, background color, etc. 

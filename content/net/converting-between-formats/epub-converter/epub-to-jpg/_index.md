@@ -1,7 +1,7 @@
 ---
 keywords: epub to jpg, convert epub to jpg, epub to jpg conversion, epub to jpg
   converter, save options
-lastmod: 2022-01-11
+lastmod: 2022-06-01
 url: /net/converting-between-formats/epub-to-jpg/
 title: Convert EPUB to JPG | C#
 linktitle: Convert EPUB to JPG
@@ -72,11 +72,34 @@ using Aspose.Html.Saving;
     Converter.ConvertEPUB(stream, options, savePath);
 {{< /highlight >}}
 
-{{% alert color="primary" %}} 
-
+{{% alert color="primary" %}}
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
-
 {{% /alert %}}
+
+### **EPUB Converter Live Demos**
+You can convert EPUB to other formats with Aspose.HTML for .NET API in real time. First, load an EPUB file from your local drive and then run the example. The save options in the example are set by default. You will immediately receive the conversion result as a separate file.
+
+{{< app/html/converter EPUB "JPG|JPEG" TIFF PNG GIF BMP DOCX PDF XPS >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+using Aspose.Html.Rendering.Image;
+
+    using var document = new HTMLDocument("document.{{input lower}}");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
+{{< /app/html/converter>}}
 
 ## **Save Options**
 Aspose.HTML allows converting EPUB to JPG using default or custom save options. [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) usage enables you to tune the rendering process. You can specify the [image format](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat), [page size](https://apireference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup), [margins](https://apireference.aspose.com/html/net/aspose.html.drawing/page/properties/margin), [CSS media-type](https://apireference.aspose.com/html/net/aspose.html.rendering/mediatype), etc. 
