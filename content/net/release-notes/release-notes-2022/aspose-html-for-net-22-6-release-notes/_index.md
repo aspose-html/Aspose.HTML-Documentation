@@ -25,10 +25,7 @@ In this release, we have improved various parts of the parsing and rendering alg
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-|HTMLNET-2377|Reggresion: HTML not properly converted to PDF|Bug|
-|HTMLNET-3808|Reggresion: Implement the possiblility to make the timout configurable within the Configuration object|Feature|
-|HTMLNET-1862|Reggresion: Problem in Arabic Character when convert HTML to PDF|Bug|
-|HTMLNET-2258|Reggresion: SVG is not showing up in PDF|Bug|
+
 
 ## **Public API and Backward Incompatible Changes**
 ### **Added APIs**
