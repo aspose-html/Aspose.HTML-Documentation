@@ -176,10 +176,23 @@ namespace Aspose.Html.Drawing
         string ToOkLabStringDecimal();
     }
 }
+
+namespace Aspose.Html.Converters
+{
+    /// <summary>
+    ///The ColorConverter class parses colors (RGB, HEX, HSL, HWB, CMYK, NCOL, LCH, OKLCH, LAB, OKLAB) from a string and returns the <see cref="IConvertibleColor"/> interface for converting to various color spaces.
+    /// </summary>
+    public static class ColorConverter
+    {
+        /// <summary>
+        /// Parses color from string representation and returns the <see cref="IConvertibleColor"/> interface to convert it to various color spaces.
+        /// </summary>
+        /// <param name="color">color string.</param>
+        /// <returns><see cref="IConvertibleColor"/> interface.</returns>
+        public static IConvertibleColor ConvertFrom(string color)
+    }
+}
 ```
-### **Changed APIs**
 
-
-### **Obsolete APIs**
 
 
