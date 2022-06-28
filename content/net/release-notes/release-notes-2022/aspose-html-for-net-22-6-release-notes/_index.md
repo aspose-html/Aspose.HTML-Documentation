@@ -192,6 +192,7 @@ namespace Aspose.Html.Converters
         public static IConvertibleColor ConvertFrom(string color)
     }
 }
+
 namespace Aspose.Html
 {
     /// <summary>
@@ -199,74 +200,61 @@ namespace Aspose.Html
     /// <para>See also the <a href='http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109'>Document object Model (DOM) Level 2 HTML Specification</a>.
     /// </para>
     /// </summary>
-    [DOMObject]
-    [DOMName("HTMLAnchorElement")]
     public class HTMLAnchorElement : HTMLElement
     {
         /// <summary>
         /// Returns a live DOMTokenList which contains tokens received from parsing the "rel" attribute.
         /// </summary>
-        [DOMName("relList")]
         public DOMTokenList RelList { get; }
         
         /// <summary>
         /// Gets a string representation of the origin segment of the associated URL.
         /// </summary>
-        [DOMName("origin")]
         public string Origin { get; }
         
         /// <summary>
         /// Gets or sets a string representation of the scheme segment of the associated URL.
         /// </summary>
-        [DOMName("protocol")]
         public string Protocol { get; set; }
         
          /// <summary>
         /// Gets or sets a string representation of the username segment of the associated URL.
         /// </summary>
-        [DOMName("username")]
         public string Username { get; set; }
         
          /// <summary>
         /// Gets or sets a string representation of the password segment of the associated URL.
         /// </summary>
-        [DOMName("password")]
         public string Password { get; set; }
         
          /// <summary>
         /// Gets or sets a string representation of the host and port segments of the associated URL.
         /// </summary>
-        [DOMName("host")]
         public string Host { get; set; }
         
           /// <summary>
         /// Gets or sets a string representation of the host segment of the associated URL.
         /// </summary>
-        [DOMName("hostname")]
         public string Hostname { get; set; }
         
          /// <summary>
         /// Gets or sets a string representation of the port segment of the associated URL.
         /// </summary>
-        [DOMName("port")]
         public string Port { get; set; }
         
          /// <summary>
         /// Gets or sets a string representation of the path segment of the associated URL.
         /// </summary>
-        [DOMName("pathname")]
         public string Pathname { get; set; }
         
            /// <summary>
         /// Gets or sets a string representation of the search segment of the associated URL.
         /// </summary>
-        [DOMName("search")]
         public string Search { get; set; }
         
            /// <summary>
         /// Gets or sets a string representation of the hash segment of the associated URL.
         /// </summary>
-        [DOMName("hash")]
         public string Hash { get; set; }
         
         /// <summary>
@@ -278,6 +266,20 @@ namespace Aspose.Html
     }
     
     /// <summary>
+    /// Client-side image map area definition. See the AREA element definition in 
+    /// HTML 4.01.
+    /// <para>See also the <a href='http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109'>Document object Model (DOM) Level 2 HTML Specification</a>.
+    /// </para>
+    /// </summary>
+    public class HTMLAreaElement : HTMLElement
+    {
+        /// <summary>
+        /// Returns a live DOMTokenList which contains tokens received from parsing the "rel" attribute.
+        /// </summary>
+        public DOMTokenList RelList
+    }
+    
+    /// <summary>
     /// The <c>LINK</c> element specifies a link to an external resource, and 
     /// defines this document's relationship to that resource (or vice versa). 
     /// See the LINK element definition in HTML 4.01 (see also the 
@@ -285,14 +287,11 @@ namespace Aspose.Html
     /// <para>See also the <a href='http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109'>Document object Model (DOM) Level 2 HTML Specification</a>.
     /// </para>
     /// </summary>
-    [DOMObject]
-    [DOMName("HTMLLinkElement")]
     public class HTMLLinkElement : HTMLElement, ILinkStyle
     {
         /// <summary>
         /// Returns a live DOMTokenList which contains tokens received from parsing the "rel" attribute.
         /// </summary>
-        [DOMName("relList")]
         public DOMTokenList RelList{ get; }
     }
 }
