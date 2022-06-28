@@ -264,6 +264,19 @@ namespace Aspose.Html
         
     }
     
+     /// <summary>
+    /// Client-side image map area definition. See the AREA element definition in 
+    /// HTML 4.01.
+    /// <para>See also the <a href='http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109'>Document object Model (DOM) Level 2 HTML Specification</a>.
+    /// </para>
+    /// </summary>
+    public class HTMLAreaElement : HTMLElement
+    {
+        /// <summary>
+        /// Returns a live DOMTokenList which contains tokens received from parsing the "rel" attribute.
+        /// </summary>
+        public DOMTokenList RelList
+    }
     /// <summary>
     /// The <c>LINK</c> element specifies a link to an external resource, and 
     /// defines this document's relationship to that resource (or vice versa). 
@@ -279,5 +292,6 @@ namespace Aspose.Html
         /// </summary>
         public DOMTokenList RelList{ get; }
     }
+    
 }
 ```
