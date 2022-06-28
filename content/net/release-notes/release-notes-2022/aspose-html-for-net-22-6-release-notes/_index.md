@@ -10,26 +10,25 @@ This page contains release notes information for Aspose.HTML for .NET 22.6.
 
 {{% /alert %}} 
 
-As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the May release of Aspose.HTML for .NET.
+As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the June release of Aspose.HTML for .NET.
 
 In this release, we have improved various parts of the parsing and rendering algorithms, here are some of them:
-
-
 
 * Fixed the memory usage issue.
 * Improved JS and AngularJS applications processing.
 * Improved processing of the box-sizing property.
 * Improved the rendering and page splitting layout algorithms.
 
-
 ## **Improvements and Changes**
 
-|**Key**|**Summary**|**Category**|
-| :- | :- | :- |
-|HTMLNET-3839|Reggresion: HTML to JPEG: Text gets rendered off the image in the top-left|Bug|
+| **Key**      | **Summary**                                                                | **Category** |
+| ------------ | -------------------------------------------------------------------------- | ------------ |
+| HTMLNET-3839 | Reggresion: HTML to JPEG: Text gets rendered off the image in the top-left | Bug          |
 
 ## **Public API and Backward Incompatible Changes**
+
 ### **Added APIs**
+
 ```
 namespace Aspose.Html.Drawing
 {
@@ -193,7 +192,108 @@ namespace Aspose.Html.Converters
         public static IConvertibleColor ConvertFrom(string color)
     }
 }
+namespace Aspose.Html
+{
+    /// <summary>
+    /// The anchor element. See the A element definition in HTML 4.01.
+    /// <para>See also the <a href='http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109'>Document object Model (DOM) Level 2 HTML Specification</a>.
+    /// </para>
+    /// </summary>
+    [DOMObject]
+    [DOMName("HTMLAnchorElement")]
+    public class HTMLAnchorElement : HTMLElement
+    {
+        /// <summary>
+        /// Returns a live DOMTokenList which contains tokens received from parsing the "rel" attribute.
+        /// </summary>
+        [DOMName("relList")]
+        public DOMTokenList RelList { get; }
+        
+        /// <summary>
+        /// Gets a string representation of the origin segment of the associated URL.
+        /// </summary>
+        [DOMName("origin")]
+        public string Origin { get; }
+        
+        /// <summary>
+        /// Gets or sets a string representation of the scheme segment of the associated URL.
+        /// </summary>
+        [DOMName("protocol")]
+        public string Protocol { get; set; }
+        
+         /// <summary>
+        /// Gets or sets a string representation of the username segment of the associated URL.
+        /// </summary>
+        [DOMName("username")]
+        public string Username { get; set; }
+        
+         /// <summary>
+        /// Gets or sets a string representation of the password segment of the associated URL.
+        /// </summary>
+        [DOMName("password")]
+        public string Password { get; set; }
+        
+         /// <summary>
+        /// Gets or sets a string representation of the host and port segments of the associated URL.
+        /// </summary>
+        [DOMName("host")]
+        public string Host { get; set; }
+        
+          /// <summary>
+        /// Gets or sets a string representation of the host segment of the associated URL.
+        /// </summary>
+        [DOMName("hostname")]
+        public string Hostname { get; set; }
+        
+         /// <summary>
+        /// Gets or sets a string representation of the port segment of the associated URL.
+        /// </summary>
+        [DOMName("port")]
+        public string Port { get; set; }
+        
+         /// <summary>
+        /// Gets or sets a string representation of the path segment of the associated URL.
+        /// </summary>
+        [DOMName("pathname")]
+        public string Pathname { get; set; }
+        
+           /// <summary>
+        /// Gets or sets a string representation of the search segment of the associated URL.
+        /// </summary>
+        [DOMName("search")]
+        public string Search { get; set; }
+        
+           /// <summary>
+        /// Gets or sets a string representation of the hash segment of the associated URL.
+        /// </summary>
+        [DOMName("hash")]
+        public string Hash { get; set; }
+        
+        /// <summary>
+        /// Releases unmanaged and - optionally - managed resources.
+        /// </summary>
+        /// <param name="disposing"><c>true</c> to release both managed and unmanaged resources; <c>false</c> to release only unmanaged resources.</param>
+        protected override void Dispose(bool disposing)
+        
+    }
+    
+    /// <summary>
+    /// The <c>LINK</c> element specifies a link to an external resource, and 
+    /// defines this document's relationship to that resource (or vice versa). 
+    /// See the LINK element definition in HTML 4.01 (see also the 
+    /// <c>LinkStyle</c> interface in the StyleSheet module [<a href='http://www.w3.org/TR/2000/REC-DOM-Level-2-Style-20001113'>DOM Level 2 Style Sheets and CSS</a>]).
+    /// <para>See also the <a href='http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109'>Document object Model (DOM) Level 2 HTML Specification</a>.
+    /// </para>
+    /// </summary>
+    [DOMObject]
+    [DOMName("HTMLLinkElement")]
+    public class HTMLLinkElement : HTMLElement, ILinkStyle
+    {
+        /// <summary>
+        /// Returns a live DOMTokenList which contains tokens received from parsing the "rel" attribute.
+        /// </summary>
+        [DOMName("relList")]
+        public DOMTokenList RelList{ get; }
+    }
+}
 ```
-
-
-
