@@ -192,6 +192,7 @@ namespace Aspose.Html.Converters
         public static IConvertibleColor ConvertFrom(string color)
     }
 }
+
 namespace Aspose.Html
 {
     /// <summary>
@@ -264,7 +265,7 @@ namespace Aspose.Html
         
     }
     
-     /// <summary>
+    /// <summary>
     /// Client-side image map area definition. See the AREA element definition in 
     /// HTML 4.01.
     /// <para>See also the <a href='http://www.w3.org/TR/2003/REC-DOM-Level-2-HTML-20030109'>Document object Model (DOM) Level 2 HTML Specification</a>.
@@ -277,6 +278,7 @@ namespace Aspose.Html
         /// </summary>
         public DOMTokenList RelList
     }
+    
     /// <summary>
     /// The <c>LINK</c> element specifies a link to an external resource, and 
     /// defines this document's relationship to that resource (or vice versa). 
@@ -292,6 +294,5 @@ namespace Aspose.Html
         /// </summary>
         public DOMTokenList RelList{ get; }
     }
-    
 }
 ```
