@@ -25,7 +25,7 @@ In this release, we have improved various parts of the parsing and rendering alg
 
 |**Key**|**Summary**|**Category**|
 | :- | :- | :- |
-
+|HTMLNET-3839|Reggresion: HTML to JPEG: Text gets rendered off the image in the top-left|Bug|
 
 ## **Public API and Backward Incompatible Changes**
 ### **Added APIs**
