@@ -10,26 +10,25 @@ This page contains release notes information for Aspose.HTML for .NET 22.6.
 
 {{% /alert %}} 
 
-As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the May release of Aspose.HTML for .NET.
+As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the June release of Aspose.HTML for .NET.
 
 In this release, we have improved various parts of the parsing and rendering algorithms, here are some of them:
-
-
 
 * Fixed the memory usage issue.
 * Improved JS and AngularJS applications processing.
 * Improved processing of the box-sizing property.
 * Improved the rendering and page splitting layout algorithms.
 
-
 ## **Improvements and Changes**
 
-|**Key**|**Summary**|**Category**|
-| :- | :- | :- |
-|HTMLNET-3839|Reggresion: HTML to JPEG: Text gets rendered off the image in the top-left|Bug|
+| **Key**      | **Summary**                                                                | **Category** |
+| ------------ | -------------------------------------------------------------------------- | ------------ |
+| HTMLNET-3839 | Reggresion: HTML to JPEG: Text gets rendered off the image in the top-left | Bug          |
 
 ## **Public API and Backward Incompatible Changes**
+
 ### **Added APIs**
+
 ```
 namespace Aspose.Html.Drawing
 {
@@ -194,6 +193,3 @@ namespace Aspose.Html.Converters
     }
 }
 ```
-
-
-
