@@ -276,7 +276,7 @@ namespace Aspose.Html
         /// <summary>
         /// Returns a live DOMTokenList which contains tokens received from parsing the "rel" attribute.
         /// </summary>
-        public DOMTokenList RelList
+        public DOMTokenList RelList { get; }
     }
     
     /// <summary>
@@ -292,7 +292,7 @@ namespace Aspose.Html
         /// <summary>
         /// Returns a live DOMTokenList which contains tokens received from parsing the "rel" attribute.
         /// </summary>
-        public DOMTokenList RelList{ get; }
+        public DOMTokenList RelList { get; }
     }
 }
 ```
