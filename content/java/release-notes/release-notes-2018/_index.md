@@ -1,7 +1,7 @@
 ---
 title: Release Notes - 2018
 type: docs
-weight: 20
+weight: 29
 aliases: /java/release-notes-2018/
 ---
 
