@@ -13,4 +13,8 @@ Aspose.HTML for Java 22.7
 
 We are honored to announce the Jule release of Aspose.HTML for Java.
 
-## **Major Features**
+In this release, we added facility converter HTML to text
+
+## **Public API and Backward Incompatible Changes**
+### **Added APIs**
+
