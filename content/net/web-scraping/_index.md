@@ -4,7 +4,7 @@ linktitle: Web Scraping
 type: docs
 weight: 40
 aliases: /net/web-scraping/
-description: This section describes how to navigate through an HTML document and perform a detailed inspection of its elements and extract data, such as video and audio from the web pages using Aspose.HTML for .NET.
+description: This section describes how to navigate through an HTML document and perform a detailed inspection of its elements and extract data from the web pages using Aspose.HTML for .NET.
 keywords: web scraping, data scrapers, html navigation, XPath, CSS selector, extract data
 lastmod: "2022-07-06"
 sitemap:
