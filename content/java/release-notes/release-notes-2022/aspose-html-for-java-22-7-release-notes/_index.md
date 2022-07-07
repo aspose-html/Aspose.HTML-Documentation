@@ -19,9 +19,10 @@ In this release, we added facility converter HTML to text
 
 ### **Added APIs**
 
-Class [com.aspose.html.converters.Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/Converter#convertHTML-com.aspose.HTMLDocument-com.aspose.saving.TextSaveOptions-java.lang.String-)
+\* Class [com.aspose.html.converters.Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/Converter#convertHTML-com.aspose.HTMLDocument-com.aspose.saving.TextSaveOptions-java.lang.String-)
 
-added 4method
+Added the following
+methods
 
 
 
