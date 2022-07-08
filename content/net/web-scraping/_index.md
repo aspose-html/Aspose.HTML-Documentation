@@ -3,7 +3,13 @@ title: Web Scraping | .NET
 linktitle: Web Scraping
 type: docs
 weight: 40
-aliases: /net/web-scraping/
+aliases:
+  - /net/how-to-download-video/
+  - /net/web-scraping/video-download/
+  - /net/web-scraping/download-youku-videos/
+  - /net/web-scraping/download-youtube-videos/
+  - /net/web-scraping/download-zoom-videos/
+  - /net/web-scraping/download-youtube-audio/   
 description: This section describes how to navigate through an HTML document and perform a detailed inspection of its elements and extract data from the web pages using Aspose.HTML for .NET.
 keywords: web scraping, data scrapers, html navigation, XPath, CSS selector, extract data
 lastmod: "2022-07-06"
