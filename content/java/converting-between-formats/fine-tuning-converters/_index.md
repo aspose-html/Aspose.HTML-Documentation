@@ -7,25 +7,25 @@ aliases:
     - /java/specify-rendering-options-when-converting-to-pdf/
 ---
 
-Using the [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/Converter).ConvertHTML method is the most common way to convert HTML code into various formats. However, Aspose.HTML API also provides alternative ways to render HTML documents with that can give you more control over the rendering process in your Java application.
+Using the [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/Converter).ConvertHTML method is the most common way to convert HTML code into various formats. However, Aspose.HTML API also provides alternative ways to render HTML documents with that can give you more control over the rendering process in your Java application.
 ## **Output Device**
-The output device encapsulates a 2D drawing surface, whose API is implemented using the [IDevice](https://apireference.aspose.com/html/java/com.aspose.html.rendering/idevice) interface. Currently, API provides the following implementations: [PdfDevice](https://apireference.aspose.com/html/java/com.aspose.html.rendering.pdf/pdfdevice), [XpsDevice](https://apireference.aspose.com/html/java/com.aspose.html.rendering.xps/xpsdevice) and [ImageDevice](https://apireference.aspose.com/html/java/com.aspose.html.rendering.image/imagedevice), which are used to generate PDF, {{%XPS%}} and Image file formats, respectively.
+The output device encapsulates a 2D drawing surface, whose API is implemented using the [IDevice](https://reference.aspose.com/html/java/com.aspose.html.rendering/idevice) interface. Currently, API provides the following implementations: [PdfDevice](https://reference.aspose.com/html/java/com.aspose.html.rendering.pdf/pdfdevice), [XpsDevice](https://reference.aspose.com/html/java/com.aspose.html.rendering.xps/xpsdevice) and [ImageDevice](https://reference.aspose.com/html/java/com.aspose.html.rendering.image/imagedevice), which are used to generate PDF, {{%XPS%}} and Image file formats, respectively.
 
-The next example shows how to use [PdfDevice](https://apireference.aspose.com/html/java/com.aspose.html.rendering.pdf/pdfdevice) to render HTML document into PDF file:
+The next example shows how to use [PdfDevice](https://reference.aspose.com/html/java/com.aspose.html.rendering.pdf/pdfdevice) to render HTML document into PDF file:
 
 1. Create an instance of HTML document.
 1. Create an instance of PDF Output Device.
-1. Call [HTMLDocument](https://apireference.aspose.com/html/java/com.aspose.html/HTMLDocument).RenderTo method with specified device.
+1. Call [HTMLDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument).RenderTo method with specified device.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_FineTuningConverters_SpecifyOutputDevice.java" >}}
 ## **Device Options**
-Rendering Options gives you additional control over the output device. You can change the page size, configure margins and colors, set a security password in case of PDF device, etc. Every output device [PdfDevice](https://apireference.aspose.com/html/java/com.aspose.html.rendering.pdf/pdfdevice), [XpsDevice](https://apireference.aspose.com/html/java/com.aspose.html.rendering.xps/xpsdevice) and [ImageDevice](https://apireference.aspose.com/html/java/com.aspose.html.rendering.image/imagedevice) has his own unique set of options and implemented with classes [***PdfRenderingOptions***](https://apireference.aspose.com/html/java/com.aspose.html.rendering.pdf/pdfrenderingoptions), [***XpsRenderingOptions***](https://apireference.aspose.com/html/java/com.aspose.html.rendering.xps/xpsrenderingoptions) and [***ImageRenderingOptions***](https://apireference.aspose.com/html/java/com.aspose.html.rendering.image/imagerenderingoptions), respectively.
+Rendering Options gives you additional control over the output device. You can change the page size, configure margins and colors, set a security password in case of PDF device, etc. Every output device [PdfDevice](https://reference.aspose.com/html/java/com.aspose.html.rendering.pdf/pdfdevice), [XpsDevice](https://reference.aspose.com/html/java/com.aspose.html.rendering.xps/xpsdevice) and [ImageDevice](https://reference.aspose.com/html/java/com.aspose.html.rendering.image/imagedevice) has his own unique set of options and implemented with classes [***PdfRenderingOptions***](https://reference.aspose.com/html/java/com.aspose.html.rendering.pdf/pdfrenderingoptions), [***XpsRenderingOptions***](https://reference.aspose.com/html/java/com.aspose.html.rendering.xps/xpsrenderingoptions) and [***ImageRenderingOptions***](https://reference.aspose.com/html/java/com.aspose.html.rendering.image/imagerenderingoptions), respectively.
 
 Following is a demonstration of how to use Rendering Options to customize the page-size:
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_FineTuningConverters_SpecifyRenderingOptions.java" >}}
 ### **General Options**
-Rendering Options gives you additional control over the output device. You can change the page size, configure margins and colors, set a security password in case of PDF device, etc. Every output device [PdfDevice](https://apireference.aspose.com/html/java/com.aspose.html.rendering.pdf/pdfdevice), [XpsDevice](https://apireference.aspose.com/html/java/com.aspose.html.rendering.xps/xpsdevice) and [ImageDevice](https://apireference.aspose.com/html/java/com.aspose.html.rendering.image/imagedevice) has his own unique set of options and implemented with classes [***PdfRenderingOptions***](https://apireference.aspose.com/html/java/com.aspose.html.rendering.pdf/pdfrenderingoptions), [***XpsRenderingOptions***](https://apireference.aspose.com/html/java/com.aspose.html.rendering.xps/xpsrenderingoptions) and [***ImageRenderingOptions***](https://apireference.aspose.com/html/java/com.aspose.html.rendering.image/imagerenderingoptions), respectively.
+Rendering Options gives you additional control over the output device. You can change the page size, configure margins and colors, set a security password in case of PDF device, etc. Every output device [PdfDevice](https://reference.aspose.com/html/java/com.aspose.html.rendering.pdf/pdfdevice), [XpsDevice](https://reference.aspose.com/html/java/com.aspose.html.rendering.xps/xpsdevice) and [ImageDevice](https://reference.aspose.com/html/java/com.aspose.html.rendering.image/imagedevice) has his own unique set of options and implemented with classes [***PdfRenderingOptions***](https://reference.aspose.com/html/java/com.aspose.html.rendering.pdf/pdfrenderingoptions), [***XpsRenderingOptions***](https://reference.aspose.com/html/java/com.aspose.html.rendering.xps/xpsrenderingoptions) and [***ImageRenderingOptions***](https://reference.aspose.com/html/java/com.aspose.html.rendering.image/imagerenderingoptions), respectively.
 
 Following is a demonstration of how to use Rendering Options to customize the page-size:
 
@@ -81,7 +81,7 @@ Aspose.HTML API supports this feature, so you can convert HTML documents as they
 
 {{% alert color="primary" %}} 
 
-Please note that the default value of the [CssOptions](https://apireference.aspose.com/html/java/com.aspose.html.rendering/cssoptions).MediaType is Print. It means that the document will be converting with applying style sheets related to the printing device and looks like on paper (you can use print preview of your browser to see the difference). If you want the document to look the way it is rendered on screen, you should use [MediaType.Screen](https://apireference.aspose.com/html/java/com.aspose.html.rendering/MediaType).
+Please note that the default value of the [CssOptions](https://reference.aspose.com/html/java/com.aspose.html.rendering/cssoptions).MediaType is Print. It means that the document will be converting with applying style sheets related to the printing device and looks like on paper (you can use print preview of your browser to see the difference). If you want the document to look the way it is rendered on screen, you should use [MediaType.Screen](https://reference.aspose.com/html/java/com.aspose.html.rendering/MediaType).
 
 {{% /alert %}} 
 #### **Background Color**
@@ -101,23 +101,23 @@ In some cases, the content of the HTML page could be wider than the page-size de
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_FineTuningConverters_AdjustPageSizeToContent.java" >}}
 ### **PDF Options**
-Using a specialized [PdfRenderingOptions](https://apireference.aspose.com/html/java/com.aspose.html.rendering.pdf/pdfrenderingoptions) object, you can configure permissions for the PDF file. The next example demonstrates this feature.
+Using a specialized [PdfRenderingOptions](https://reference.aspose.com/html/java/com.aspose.html.rendering.pdf/pdfrenderingoptions) object, you can configure permissions for the PDF file. The next example demonstrates this feature.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_FineTuningConverters_SpecifyPDFPermissions.java" >}}
 ### **Image Options**
-[ImageRenderingOptions](https://apireference.aspose.com/html/java/com.aspose.html.rendering.image/imagerenderingoptions) allows you to customize a wide range of setting from smoothing (antialiasing), image resolution, and formats to image compression.
+[ImageRenderingOptions](https://reference.aspose.com/html/java/com.aspose.html.rendering.image/imagerenderingoptions) allows you to customize a wide range of setting from smoothing (antialiasing), image resolution, and formats to image compression.
 
 Following example demonstrates how to change resolution and antialiasing for the resulted image.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_FineTuningConverters_SpecifyImageSpecificOptions.java" >}}
 ### **XPS Options**
-{{%XPS%}} files generated by our library do not have any specific parameters. All parameters of [XpsRenderingOptions](https://apireference.aspose.com/html/java/com.aspose.html.rendering.xps/xpsrenderingoptions) are inherited from the base [RenderingOptions ](https://apireference.aspose.com/html/java/com.aspose.html.rendering/RenderingOptions#getPageSetup--)class and described [here](/html/java/converting-between-formats/fine-tuning-converters/#fine-tuningconverters-generaloptions).
+{{%XPS%}} files generated by our library do not have any specific parameters. All parameters of [XpsRenderingOptions](https://reference.aspose.com/html/java/com.aspose.html.rendering.xps/xpsrenderingoptions) are inherited from the base [RenderingOptions ](https://reference.aspose.com/html/java/com.aspose.html.rendering/RenderingOptions#getPageSetup--)class and described [here](/html/java/converting-between-formats/fine-tuning-converters/#fine-tuningconverters-generaloptions).
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_FineTuningConverters_SpecifyXpsRenderingOptions.java" >}}
 ## **Renderers**
-While the [Document](https://apireference.aspose.com/html/java/com.aspose.html.dom/Document).RenderTo method gives you the ability to send a single document to the output rendering device, using the [Renderer](https://apireference.aspose.com/html/java/com.aspose.html.rendering/renderer) instances directly you can send multiple files at once. Aspose.HTML API provides the following implementation of renderers: [HtmlRenderer](https://apireference.aspose.com/html/java/com.aspose.html.rendering.pdf/pdfdevice), [SvgRenderer](https://apireference.aspose.com/html/java/com.aspose.html.rendering.xps/xpsdevice), [MhtmlRenderer](https://apireference.aspose.com/html/java/com.aspose.html.rendering/mhtmlrenderer) and [EpubRenderer](https://apireference.aspose.com/html/java/com.aspose.html.rendering.image/imagedevice), which are used to render HTML, SVG, MHTML and {{%EPUB%}} documents, respectively.
+While the [Document](https://reference.aspose.com/html/java/com.aspose.html.dom/Document).RenderTo method gives you the ability to send a single document to the output rendering device, using the [Renderer](https://reference.aspose.com/html/java/com.aspose.html.rendering/renderer) instances directly you can send multiple files at once. Aspose.HTML API provides the following implementation of renderers: [HtmlRenderer](https://reference.aspose.com/html/java/com.aspose.html.rendering.pdf/pdfdevice), [SvgRenderer](https://reference.aspose.com/html/java/com.aspose.html.rendering.xps/xpsdevice), [MhtmlRenderer](https://reference.aspose.com/html/java/com.aspose.html.rendering/mhtmlrenderer) and [EpubRenderer](https://reference.aspose.com/html/java/com.aspose.html.rendering.image/imagedevice), which are used to render HTML, SVG, MHTML and {{%EPUB%}} documents, respectively.
 
-The next example demonstrates how to use [HtmlRenderer](https://apireference.aspose.com/html/java/com.aspose.html.rendering/htmlrenderer) to render multiple documents:
+The next example demonstrates how to use [HtmlRenderer](https://reference.aspose.com/html/java/com.aspose.html.rendering/htmlrenderer) to render multiple documents:
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_FineTuningConverters_CombineMultipleHTMLToPDF.java" >}}
 ### **Timeout**

@@ -29,7 +29,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Product Page](https://products.aspose.com/html/net/)
 - [NuGet Package](https://www.nuget.org/packages/Aspose.Html/)
 - [Installing Product](/html/net/getting-started/installation/)
-- [API Reference](https://apireference.aspose.com/html/net)
+- [API Reference](https://reference.aspose.com/html/net)
 - [Free Support Forum](https://forum.aspose.com/c/html/29)
 - [Paid Support Helpdesk](https://helpdesk.aspose.com/)
 - [Usage Examples GitHub](https://github.com/aspose-html/Aspose.HTML-for-.NET)

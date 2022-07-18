@@ -19,7 +19,7 @@ aliases:
 
 MHTML to XPS conversion is often required to take advantage of XPS format for specific tasks. An XPS file represents page layout files that are based on XML Paper Specifications, created by Microsoft. 
 
-In this article, you find information on how to convert {{%MHTML%}} to {{%XPS %}} using ConvertHTML() methods of the Converter class and how to apply [XpsSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you find information on how to convert {{%MHTML%}} to {{%XPS %}} using ConvertHTML() methods of the Converter class and how to apply [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}}
 Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/mhtml-to-xps" target="_blank">**MHTML to XPS Converter**</a> that converts MHTML to XPS file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
@@ -30,7 +30,7 @@ Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conve
 
 ## **MHTML to XPS by two lines of code**
 
-The static methods of the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class are primarily used as the easiest way to convert an MHTML code into various formats. For example, you can convert {{%MHTML%}} to {{%XPS %}} in your C# application literally with two lines of code!
+The static methods of the [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter) class are primarily used as the easiest way to convert an MHTML code into various formats. For example, you can convert {{%MHTML%}} to {{%XPS %}} in your C# application literally with two lines of code!
 
 {{< highlight java >}}
 using System.IO;
@@ -46,13 +46,13 @@ using Aspose.Html.Saving;
 
 ## **Convert MHTML to XPS**
 
-Using [Converter.ConvertMHTML](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertmhtml/index) methods is the most common way to convert MHTML code into various formats.  With Aspose.HTML, you can convert MHTML to XPS format programmatically with full control over a wide range of conversion parameters. 
+Using [Converter.ConvertMHTML](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/convertmhtml/index) methods is the most common way to convert MHTML code into various formats.  With Aspose.HTML, you can convert MHTML to XPS format programmatically with full control over a wide range of conversion parameters. 
 
 The following C# code snippet shows how to convert MHTML to XPS using Aspose.HTML for .NET.
 
 1. Open an existing MHTML file.
-1. Create an instance of the [XpsSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) class.
-1. Use the [ConvertMHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertmhtml/methods/29) method of the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class to save MHTML as a XPS file. You need to pass the MHTML file stream, XpsSaveOptions, and output file path to the ConvertMHTML() method method for MHTML to XPS conversion.
+1. Create an instance of the [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) class.
+1. Use the [ConvertMHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/convertmhtml/methods/29) method of the [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter) class to save MHTML as a XPS file. You need to pass the MHTML file stream, XpsSaveOptions, and output file path to the ConvertMHTML() method method for MHTML to XPS conversion.
 
 In the example, we use the OpenRead() method of System.IO.FileStream class to open and read files from the file system at the specified path.
 
@@ -104,19 +104,19 @@ Converter.ConvertHTML(document, options, "output.{{output lower}}");
 
 ## **Save Options**
 
-Aspose.HTML allows converting MHTML to XPS using default or custom save options. [XpsSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) usage enables you to customize the rendering process; you can specify the page size, margins, background color, resolutions, etc.  
+Aspose.HTML allows converting MHTML to XPS using default or custom save options. [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) usage enables you to customize the rendering process; you can specify the page size, margins, background color, resolutions, etc.  
 
 
 | Property                                                     | Description                                                  |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [PageSetup](https://apireference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) | This property gets a page setup object and uses it for configuration output page-set. |
-| [Css](https://apireference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/css) | Gets a [CssOptions](https://apireference.aspose.com/html/net/aspose.html.rendering/cssoptions) object which is used for configuration of CSS properties processing. |
-| [BackgroundColor](https://apireference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/backgroundcolor) | This property sets the color that will fill the background of every page. By default, this property is Transparent. |
-| [HorizontalResolution](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/horizontalresolution) | Sets horizontal resolution for output images in pixels per inch. The default value is 300 dpi. |
-| [VerticalResolution](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/verticalresolution) | Sets vertical resolution for output images in pixels per inch. The default value is 300 dpi. |
+| [PageSetup](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) | This property gets a page setup object and uses it for configuration output page-set. |
+| [Css](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/css) | Gets a [CssOptions](https://reference.aspose.com/html/net/aspose.html.rendering/cssoptions) object which is used for configuration of CSS properties processing. |
+| [BackgroundColor](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/backgroundcolor) | This property sets the color that will fill the background of every page. By default, this property is Transparent. |
+| [HorizontalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/horizontalresolution) | Sets horizontal resolution for output images in pixels per inch. The default value is 300 dpi. |
+| [VerticalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/verticalresolution) | Sets vertical resolution for output images in pixels per inch. The default value is 300 dpi. |
 
 {{% alert color="primary" %}}
-To learn more about [XpsSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+To learn more about [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 
 {{% /alert %}}
 
@@ -126,10 +126,10 @@ To learn more about [XpsSaveOptions](https://apireference.aspose.com/html/net/as
 To convert MHTML to XPS with XpsSaveOptions specifying, you should follow a few steps: 
 
 1. Open an existing MHTML file.
-1. Create a new [XpsSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) object and specify save options.
-1. Use the [ConvertMHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertmhtml/methods/29) method to save MHTML as a XPS file. You need to pass the MHTML file stream, XpsSaveOptions, and output file path to the ConvertMHTML() method for MHTML to XPS conversion.
+1. Create a new [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) object and specify save options.
+1. Use the [ConvertMHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/convertmhtml/methods/29) method to save MHTML as a XPS file. You need to pass the MHTML file stream, XpsSaveOptions, and output file path to the ConvertMHTML() method for MHTML to XPS conversion.
 
-The following example shows how to use [XpsSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) and create an XPS file with custom save options:
+The following example shows how to use [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) and create an XPS file with custom save options:
 
 {{< highlight java >}}
 using System.IO;
@@ -154,14 +154,14 @@ using Aspose.Html.Drawing;
     Converter.ConvertMHTML(stream, options, savePath);
 {{< /highlight >}}
 
-In the example, we use the OpenRead() method of System.IO.FileStream class to open and read source files from the file system at the specified path. The [XpsSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/constructors/main) constructor initializes an instance of the XpsSaveOptions class that is passed to ConvertMHTML() method. The ConvertMHTML() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation. The XpsSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting MHTML to XPS format. 
+In the example, we use the OpenRead() method of System.IO.FileStream class to open and read source files from the file system at the specified path. The [XpsSaveOptions()](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/constructors/main) constructor initializes an instance of the XpsSaveOptions class that is passed to ConvertMHTML() method. The ConvertMHTML() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation. The XpsSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting MHTML to XPS format. 
 
 In the above example, we use:
  - BackgroundColor property that specifies the color that the background will be filled in. The default BackgroundColor is Transparent;
- - PageSetup property that specifies the [page size](https://apireference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) in pixels.
+ - PageSetup property that specifies the [page size](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) in pixels.
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 

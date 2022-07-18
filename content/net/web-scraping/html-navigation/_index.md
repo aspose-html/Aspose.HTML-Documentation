@@ -33,13 +33,13 @@ We consider how the DOM represents an HTML document in memory and how to use API
 
 |**Property**|**Description**|
 | :- | :- |
-|[FirstChild](https://apireference.aspose.com/html/net/aspose.html.dom/node/properties/firstchild)|Accessing this property of an element must return a reference to the first child node.|
-|[LastChild](https://apireference.aspose.com/html/net/aspose.html.dom/node/properties/lastchild)|Accessing this property of an element must return a reference to the last child node|
-|[NextSibling](https://apireference.aspose.com/html/net/aspose.html.dom/node/properties/nextsibling)|Accessing this property of an element must return a reference to the sibling node of that element which most immediately follows that element.|
-|[PreviousSibling](https://apireference.aspose.com/html/net/aspose.html.dom/node/properties/previoussibling)|Accessing this property of an element must return a reference to the sibling node of that element which most immediately precedes that element.|
-|[ChildNodes](https://apireference.aspose.com/html/net/aspose.html.dom/node/properties/childnodes)|Returns a [list](https://apireference.aspose.com/html/net/aspose.html.collections/nodelist) that contains all children of that element.|
+|[FirstChild](https://reference.aspose.com/html/net/aspose.html.dom/node/properties/firstchild)|Accessing this property of an element must return a reference to the first child node.|
+|[LastChild](https://reference.aspose.com/html/net/aspose.html.dom/node/properties/lastchild)|Accessing this property of an element must return a reference to the last child node|
+|[NextSibling](https://reference.aspose.com/html/net/aspose.html.dom/node/properties/nextsibling)|Accessing this property of an element must return a reference to the sibling node of that element which most immediately follows that element.|
+|[PreviousSibling](https://reference.aspose.com/html/net/aspose.html.dom/node/properties/previoussibling)|Accessing this property of an element must return a reference to the sibling node of that element which most immediately precedes that element.|
+|[ChildNodes](https://reference.aspose.com/html/net/aspose.html.dom/node/properties/childnodes)|Returns a [list](https://reference.aspose.com/html/net/aspose.html.collections/nodelist) that contains all children of that element.|
 
-Four of the [Node](https://apireference.aspose.com/html/net/aspose.html.dom/node)  class properties - FirstChild, LastChild, NextSibling, and PreviousSibling, each provides a live reference to another element with the defined relationship to the current element if the related element exists. For a complete list of classes and methods represented in the Aspose.Html.Dom Namespace, please visit [API Reference Source](https://apireference.aspose.com/html/net/aspose.html.dom).
+Four of the [Node](https://reference.aspose.com/html/net/aspose.html.dom/node)  class properties - FirstChild, LastChild, NextSibling, and PreviousSibling, each provides a live reference to another element with the defined relationship to the current element if the related element exists. For a complete list of classes and methods represented in the Aspose.Html.Dom Namespace, please visit [API Reference Source](https://reference.aspose.com/html/net/aspose.html.dom).
 
 Using the mentioned properties, you can navigate through an HTML document as it follows:
 
@@ -52,13 +52,13 @@ Aspose.HTML contains a list of methods that are based on the [Element Traversal 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-WebScraping-HtmlNavigation-InspectionOfTheHtmlDocument.cs" >}}
 **Note:** You need to specify the path to the source HTML file in **your local file system** (`documentPath`).
 
-The [DocumentElement](https://apireference.aspose.com/html/net/aspose.html.dom/document/properties/documentelement) property of the Document class gives direct access to the `<html>` element of the document ([html_file.html](https://docs.aspose.com/html/net/web-scraping/html-navigation/html_file.html)). The LastElementChild property of the Document class returns the last child element of the `<html>` element. It is the `<body>` element. According to the code snippet above, the variable "element" is overloaded again, and the FirstElementChild property returns the first child of the `<body>` element. It is the `<h1>` element.
+The [DocumentElement](https://reference.aspose.com/html/net/aspose.html.dom/document/properties/documentelement) property of the Document class gives direct access to the `<html>` element of the document ([html_file.html](https://docs.aspose.com/html/net/web-scraping/html-navigation/html_file.html)). The LastElementChild property of the Document class returns the last child element of the `<html>` element. It is the `<body>` element. According to the code snippet above, the variable "element" is overloaded again, and the FirstElementChild property returns the first child of the `<body>` element. It is the `<h1>` element.
 
 ### **Custom Filter Usage**
 
-For the more complicated scenarios, when you need to find a node based on a specific pattern (e.g., get the list of headers, links, etc.), you can use a specialized [TreeWalker](https://apireference.aspose.com/html/net/aspose.html.dom.document/createtreewalker/methods/2) or [NodeIterator](https://apireference.aspose.com/html/net/aspose.html.dom.document/createnodeiterator/methods/2) object with a custom [Filter](https://apireference.aspose.com/html/net/aspose.html.dom.traversal.filters/nodefilter) implementation.
+For the more complicated scenarios, when you need to find a node based on a specific pattern (e.g., get the list of headers, links, etc.), you can use a specialized [TreeWalker](https://reference.aspose.com/html/net/aspose.html.dom.document/createtreewalker/methods/2) or [NodeIterator](https://reference.aspose.com/html/net/aspose.html.dom.document/createnodeiterator/methods/2) object with a custom [Filter](https://reference.aspose.com/html/net/aspose.html.dom.traversal.filters/nodefilter) implementation.
 
-The following example shows how to implement your own [NodeFilter](https://apireference.aspose.com/html/net/aspose.html.dom.traversal.filters/nodefilter) to skip all elements except images:
+The following example shows how to implement your own [NodeFilter](https://reference.aspose.com/html/net/aspose.html.dom.traversal.filters/nodefilter) to skip all elements except images:
 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-WebScraping-WebScraping-OnlyImageFilter.cs" >}}
 
@@ -80,7 +80,7 @@ The following example shows how to use XPath queries within Aspose.HTML API:
 ## **CSS Selector**
 Along with *HTML Navigation* and *XPath*, you can use [CSS Selector API](http://www.w3.org/TR/selectors-4/) that is also supported by our library. This API is designed to create a search pattern to match elements in a document tree based on [CSS Selectors](https://www.w3.org/TR/selectors-3/#selectors) syntax.
 
-In the following example, we use the [QuerySelectorAll()](https://apireference.aspose.com/html/net/aspose.html.dom/document/methods/queryselectorall) method for navigation through an HTML document and search the needed elements. This method takes as a parameter the query selector and returns a NodeList of all the elements, which match the specified selector.
+In the following example, we use the [QuerySelectorAll()](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/queryselectorall) method for navigation through an HTML document and search the needed elements. This method takes as a parameter the query selector and returns a NodeList of all the elements, which match the specified selector.
 
 {{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-WebScraping-WebScraping-CSSSelectorUsageExample.cs" >}}
 

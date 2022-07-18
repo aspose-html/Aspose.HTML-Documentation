@@ -26,11 +26,11 @@ Sometimes, in order to optimize the performance, you may need to find out the we
 
 Let's create a custom handler that you can use for custom schema (protocol) implementation. Take the next steps:
 
-1. Use the necessary Namespace, which is the [Aspose.Html.Net](https://apireference.aspose.com/html/net/aspose.html.net).
-2. Define your own CustomSchemaMessageHandler class that will be derived from the [MessageHandler](https://apireference.aspose.com/html/net/aspose.html.net/messagehandler) class.
+1. Use the necessary Namespace, which is the [Aspose.Html.Net](https://reference.aspose.com/html/net/aspose.html.net).
+2. Define your own CustomSchemaMessageHandler class that will be derived from the [MessageHandler](https://reference.aspose.com/html/net/aspose.html.net/messagehandler) class.
 3. Initialize an instance of the CustomSchemaMessageHandler class and define a Filter property for it. 
-4. Create the CustomSchemaMessageFilter class that is derived from the [MessageFilter](https://apireference.aspose.com/html/net/aspose.html.net/messagefilter) class.
-5. Override the [Match()](https://apireference.aspose.com/html/net/aspose.html.net/messagefilter/methods/match) method of the MessageFilter class to implement the custom message handler behaviour.
+4. Create the CustomSchemaMessageFilter class that is derived from the [MessageFilter](https://reference.aspose.com/html/net/aspose.html.net/messagefilter) class.
+5. Override the [Match()](https://reference.aspose.com/html/net/aspose.html.net/messagefilter/methods/match) method of the MessageFilter class to implement the custom message handler behaviour.
 
 The following code snippet shows how to create the CustomSchemaMessageHandler class:
 
@@ -123,7 +123,7 @@ using Aspose.Zip;
 	}
  {{< /highlight >}}
 
-In the above example, searching for a resource (zip archive) at its URI is realized. If a resource is found, [FromFileExtension()](https://apireference.aspose.com/html/net/aspose.html/mimetype/methods/fromfileextension) method returns the [MimeType](https://apireference.aspose.com/html/net/aspose.html/mimetype) of the resource.
+In the above example, searching for a resource (zip archive) at its URI is realized. If a resource is found, [FromFileExtension()](https://reference.aspose.com/html/net/aspose.html/mimetype/methods/fromfileextension) method returns the [MimeType](https://reference.aspose.com/html/net/aspose.html/mimetype) of the resource.
 
 ### **Message Handler for a Web Request Execution Time Logging**
 
@@ -235,11 +235,11 @@ using Aspose.Zip;
     document.RenderTo(device);
 {{< /highlight >}}
 
-The Configuration() constructor creates an instance of the [Configuration](https://apireference.aspose.com/html/net/aspose.html/configuration) class. After the configuration is created, the GetService&lt;INetworkService&gt;(), MessageHandlers.Add()  and MessageHandlers.Insert() methods are invoked. The Insert() and Add() methods append the custom message handlers in the collection of existing message handlers. The figure shows the chain of message handlers for this example:
+The Configuration() constructor creates an instance of the [Configuration](https://reference.aspose.com/html/net/aspose.html/configuration) class. After the configuration is created, the GetService&lt;INetworkService&gt;(), MessageHandlers.Add()  and MessageHandlers.Insert() methods are invoked. The Insert() and Add() methods append the custom message handlers in the collection of existing message handlers. The figure shows the chain of message handlers for this example:
 
 ![The chain of message handlers](message-handlers-chain.png#center)
 
-**Note:** The [HTMLDocument(`address, configuration`)](https://apireference.aspose.com/html/net/aspose.html/htmldocument/constructors/11) constructor takes the absolute path to the ZIP archive. But all related resources have relative paths in the HTML document and in the example’s code.
+**Note:** The [HTMLDocument(`address, configuration`)](https://reference.aspose.com/html/net/aspose.html/htmldocument/constructors/11) constructor takes the absolute path to the ZIP archive. But all related resources have relative paths in the HTML document and in the example’s code.
 
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).

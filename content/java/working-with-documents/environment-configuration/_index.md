@@ -5,7 +5,7 @@ weight: 10
 aliases: /java/environment-configuration/
 ---
 
-It is often helpful to have different configurations based on the environment where the application is running. For example, you may wish to configure the scripts policy, override document style applying a custom user stylesheet, or handle any web requests from the application. Aspose.HTML provides the [Configuration](https://apireference.aspose.com/html/java/com.aspose.html/Configuration) object that can be used exactly for these purposes.
+It is often helpful to have different configurations based on the environment where the application is running. For example, you may wish to configure the scripts policy, override document style applying a custom user stylesheet, or handle any web requests from the application. Aspose.HTML provides the [Configuration](https://reference.aspose.com/html/java/com.aspose.html/Configuration) object that can be used exactly for these purposes.
 ## **Sandboxing** ## 
 A *sandboxing flag* set is a set of zero or more of the flags, which are used to restrict the abilities that potentially untrusted resources.
 
@@ -13,7 +13,7 @@ The following example demonstrates how to mark ‘Scripts’ as an untrusted res
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_WorkingWithDocuments_EnvironmentConfiguration_DisableScriptsExecution.java" >}}
 ## **Services** ## 
-All important functional is grouped into separated services for usability purpose and located into [Aspose.Html.Services](https://apireference.aspose.com/html/java/com.aspose.html.services/package-frame) namespace.
+All important functional is grouped into separated services for usability purpose and located into [Aspose.Html.Services](https://reference.aspose.com/html/java/com.aspose.html.services/package-frame) namespace.
 ### **User Agent Service** ### 
 This service allows you to specify a custom user stylesheet, a primary character set for the document, language and fonts settings.
 #### **User Style Sheet** #### 
@@ -29,11 +29,11 @@ For a situation when you need to use the custom fonts instead of the fonts insta
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_WorkingWithDocuments_EnvironmentConfiguration_SpecifyFontFolder.java" >}}
 ### **Runtime Service** ### 
-This service gives you control over the lifetime of the internal processes. For instance, using [IRuntimeService](https://apireference.aspose.com/html/java/com.aspose.html.services/package-frame) you can specify timeouts for JavaScripts. It is important to have such a timeout in case if a script contains an endless loop. The next code snippet demonstrates how to use timeouts.
+This service gives you control over the lifetime of the internal processes. For instance, using [IRuntimeService](https://reference.aspose.com/html/java/com.aspose.html.services/package-frame) you can specify timeouts for JavaScripts. It is important to have such a timeout in case if a script contains an endless loop. The next code snippet demonstrates how to use timeouts.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_WorkingWithDocuments_EnvironmentConfiguration_JavaScriptExecutionTimeout.java" >}}
 ### **Network Service** ### 
-[INetworkService](https://apireference.aspose.com/html/java/com.aspose.html.services/INetworkService) allows you to control all incoming/outcoming traffic and implement your custom message handlers. It can be used for different purposes, such as: create custom caching mechanism, trace/logging request messages, etc.
+[INetworkService](https://reference.aspose.com/html/java/com.aspose.html.services/INetworkService) allows you to control all incoming/outcoming traffic and implement your custom message handlers. It can be used for different purposes, such as: create custom caching mechanism, trace/logging request messages, etc.
 #### **Message Handlers** #### 
 The following example demonstrates how to use message handlers to log information about unreachable resources. First of all, you need to create a custom message handler:
 

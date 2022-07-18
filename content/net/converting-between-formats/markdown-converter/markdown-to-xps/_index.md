@@ -25,8 +25,8 @@ If your scenario is required rendering Markdown document, for instance, to the X
 
 1. Prepare a source Markdown document. In the example, we create a Markdown file from code. 
 1. Prepare a path for converted file saving. 
-1. Convert Markdown to HTML. Use the [ConvertMarkdown(`sourcePath`)](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertmarkdown/methods/4) method to save Markdown as an HTML document. 
-1. Use the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/9) method to render the intermediary HTML document to XPSformat. You need to pass the HTMLDocument, XpsSaveOptions, and output file path to the ConvertHTML() method for HTML to XPS conversion.
+1. Convert Markdown to HTML. Use the [ConvertMarkdown(`sourcePath`)](https://reference.aspose.com/html/net/aspose.html.converters.converter/convertmarkdown/methods/4) method to save Markdown as an HTML document. 
+1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/9) method to render the intermediary HTML document to XPSformat. You need to pass the HTMLDocument, XpsSaveOptions, and output file path to the ConvertHTML() method for HTML to XPS conversion.
 
 If your case is to create a Markdown document from a user string directly in your code and convert it to an XPS file, the following example could help you: 
 
@@ -89,9 +89,9 @@ If your case is to convert an existing Markdown document from a local file syste
 
 1. Open an existing Markdown document. In the example, we load a Markdown file from a local file system ([nature.md](https://github.com/aspose-html/Aspose.HTML-Documentation/blob/main/content/tests-net/tests-data/nature.md)). 
 1. Prepare a path for converted XPS file saving. 
-1. Convert Markdown to HTML. Use the [ConvertMarkdown(`sourcePath`)](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertmarkdown/methods/4) method of the Converter class to save Markdown as an HTML document. 
-1. Create a new [XpsSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) object and specify the required properties.
-1. Use the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/9) method for HTML to XPS conversion. You need to pass the HTMLDocument, XpsSaveOptions, and output file path to the ConvertHTML() method.
+1. Convert Markdown to HTML. Use the [ConvertMarkdown(`sourcePath`)](https://reference.aspose.com/html/net/aspose.html.converters.converter/convertmarkdown/methods/4) method of the Converter class to save Markdown as an HTML document. 
+1. Create a new [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) object and specify the required properties.
+1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/9) method for HTML to XPS conversion. You need to pass the HTMLDocument, XpsSaveOptions, and output file path to the ConvertHTML() method.
 
 The following code snippet shows how to convert Markdown to XPS using Aspose.HTML for .NET.
 
@@ -124,13 +124,13 @@ using System.Drawing;
     Converter.ConvertHTML(document, options, savePath);
 {{< /highlight >}}
 
-The XpsSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting Markdown to XPS format. To learn more about [XpsSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/xpssaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+The XpsSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting Markdown to XPS format. To learn more about [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 
 In the example, we use:
 
  - BackgroundColor property that sets the color that will fill the background. The default BackgroundColor is Transparent;
  - HorizontalResolution and VerticalResolution properties that set horizontal/vertical resolution for output images in pixels per inch. By default, these properties are 300 dpi;
- - PageSetup property that specifies the [page size](https://apireference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) and [margins](https://apireference.aspose.com/html/net/aspose.html.drawing/page/properties/margin).
+ - PageSetup property that specifies the [page size](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) and [margins](https://reference.aspose.com/html/net/aspose.html.drawing/page/properties/margin).
 
 {{% alert color="primary" %}} 
 You can check the quality of Markdown to XPS conversion with our online [**MD to XPS Converter**](https://products.aspose.app/html/conversion/md-to-xps). Upload, convert your files and get results in a few seconds. Try our forceful Markdown to XPS Converter for free now!

@@ -15,7 +15,7 @@ lastmod: 2022-06-06
 
 BMP files represent Bitmap Image files that are used to store high-quality bitmap digital images. The BMP file format can store data as two-dimensional digital images in both monochrome as well as color format with various color depths. It can save color data for each pixel in an image without any compression. With Aspose.HTML, you can convert HTML to BMP format programmatically with full control over a wide range of conversion parameters. 
 
-In this article, you find information on how to convert  HTML to {{%BMP%}} by using [ConvertHTML(](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/index)) methods of the Converter class, and how to apply [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you find information on how to convert  HTML to {{%BMP%}} by using [ConvertHTML(](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/index)) methods of the Converter class, and how to apply [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}} 
 Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-bmp" target="_blank">**HTML to BMP Converter**</a> that converts HTML to BMP image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
@@ -26,9 +26,9 @@ Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conve
 ## **Convert HTML to BMP**
 Converting a file to another format using the ConvertHTML() method is a sequence of operations among which document loading and saving:
 
-1. Load an HTML file using the [HTMLDocument](https://apireference.aspose.com/html/net/aspose.html/htmldocument) class ([bmp.html](/html/net/converting-between-formats/html-to-bmp/bmp.html)).
-1. Create a new [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) object with BMP ImageFormat. By default, the Format property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
-1. Use the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/3) method of the Converter class to save HTML as a BMP image. You need to pass the HTMLDocument, ImageSaveOptions, and output file path to the ConvertHTML() method to convert HTML to BMP.
+1. Load an HTML file using the [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument) class ([bmp.html](/html/net/converting-between-formats/html-to-bmp/bmp.html)).
+1. Create a new [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) object with BMP ImageFormat. By default, the Format property is [PNG](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
+1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/3) method of the Converter class to save HTML as a BMP image. You need to pass the HTMLDocument, ImageSaveOptions, and output file path to the ConvertHTML() method to convert HTML to BMP.
 
 Please take a look over the following C# code snippet which shows the process of converting HTML to BMP using Aspose.HTML for .NET.
 
@@ -90,22 +90,22 @@ using Aspose.Html.Saving;
 {{< /app/html/converter>}}
 
 ## **Save Options**
-Aspose.HTML allows converting HTML to BMP using default or custom save options. [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) usage enables you to customize the rendering process; you can specify the [image format](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat), [page size](https://apireference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup), [margins](https://apireference.aspose.com/html/net/aspose.html.drawing/page/properties/margin), [compression level](https://apireference.aspose.com/html/net/aspose.html.rendering.image/compression), [CSS media-type](https://apireference.aspose.com/html/net/aspose.html.rendering/mediatype), etc. 
+Aspose.HTML allows converting HTML to BMP using default or custom save options. [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) usage enables you to customize the rendering process; you can specify the [image format](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat), [page size](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup), [margins](https://reference.aspose.com/html/net/aspose.html.drawing/page/properties/margin), [compression level](https://reference.aspose.com/html/net/aspose.html.rendering.image/compression), [CSS media-type](https://reference.aspose.com/html/net/aspose.html.rendering/mediatype), etc. 
 
 | Property                                                     | Description                                                  |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [Compression](https://apireference.aspose.com/html/net/aspose.html.rendering.image/compression) | Sets Tagged Image File Format (TIFF) [Compression](https://apireference.aspose.com/html/net/aspose.html.rendering.image/compression). By default, this property is [LZW](https://apireference.aspose.com/html/net/aspose.html.rendering.image/compression). |
-| [CSS](https://apireference.aspose.com/html/net/aspose.html.rendering/mediatype) | Gets a [CssOptions](https://apireference.aspose.com/html/net/aspose.html.rendering/cssoptions) object which is used for configuration of CSS properties processing. |
-| [Format](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat) | Sets the [ImageFormat](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat) (JPG, PNG, BMP, TIFF, or GIF). By default, this property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat). |
-| [BackgroundColor](https://apireference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/backgroundcolor) | This property sets the color that will fill the background. By default, this property is Transparent. |
-| [PageSetup](https://apireference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) | This property gets a page setup object and uses it for configuration output page-set. |
-| [HorizontalResolution](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/horizontalresolution) | Sets horizontal resolution for output images in pixels per inch. The default value is 300 dpi. |
-| [VerticalResolution](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/verticalresolution) | Sets vertical resolution for output images in pixels per inch. The default value is 300 dpi. |
-| [SmoothingMode](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/smoothingmode) | This property sets the rendering quality for this image.  Available values are Invalid, Default, HighSpeed, HighQuality, None, and AntiAlias. |
-| [Text](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/text) | Gets a [TextOptions](https://apireference.aspose.com/html/net/aspose.html.rendering.image/textoptions) object which is used for configuration of text rendering. |
+| [Compression](https://reference.aspose.com/html/net/aspose.html.rendering.image/compression) | Sets Tagged Image File Format (TIFF) [Compression](https://reference.aspose.com/html/net/aspose.html.rendering.image/compression). By default, this property is [LZW](https://reference.aspose.com/html/net/aspose.html.rendering.image/compression). |
+| [CSS](https://reference.aspose.com/html/net/aspose.html.rendering/mediatype) | Gets a [CssOptions](https://reference.aspose.com/html/net/aspose.html.rendering/cssoptions) object which is used for configuration of CSS properties processing. |
+| [Format](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat) | Sets the [ImageFormat](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat) (JPG, PNG, BMP, TIFF, or GIF). By default, this property is [PNG](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat). |
+| [BackgroundColor](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/backgroundcolor) | This property sets the color that will fill the background. By default, this property is Transparent. |
+| [PageSetup](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) | This property gets a page setup object and uses it for configuration output page-set. |
+| [HorizontalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/horizontalresolution) | Sets horizontal resolution for output images in pixels per inch. The default value is 300 dpi. |
+| [VerticalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/verticalresolution) | Sets vertical resolution for output images in pixels per inch. The default value is 300 dpi. |
+| [SmoothingMode](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/smoothingmode) | This property sets the rendering quality for this image.  Available values are Invalid, Default, HighSpeed, HighQuality, None, and AntiAlias. |
+| [Text](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/text) | Gets a [TextOptions](https://reference.aspose.com/html/net/aspose.html.rendering.image/textoptions) object which is used for configuration of text rendering. |
 
 {{% alert color="primary" %}} 
-To learn more about the [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) class, please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+To learn more about the [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) class, please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 {{% /alert %}}
 
 ## **Convert HTML to BMP using ImageSaveOptions**
@@ -113,8 +113,8 @@ To learn more about the [ImageSaveOptions](https://apireference.aspose.com/html/
 To convert HTML to BMP with ImageSaveOptions specifying, you should follow a few steps: 
 
 1. Load an HTML file using one of the HTMLDocument() constructors of the HTMLDocument class ([bmp.html](/html/net/converting-between-formats/html-to-bmp/bmp.html)). 
-1. Create a new [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) object with BMP ImageFormat and specify save options. By default, the Format property is [PNG](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
-1. Use the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/3) method of the  Converter class to save HTML as a BMP image. You need to pass the [HTMLDocument](https://apireference.aspose.com/html/net/aspose.html/htmldocument), [ImageSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions), and output file path to the ConvertHTML() method to convert HTML to BMP.
+1. Create a new [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) object with BMP ImageFormat and specify save options. By default, the Format property is [PNG](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
+1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/3) method of the  Converter class to save HTML as a BMP image. You need to pass the [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument), [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions), and output file path to the ConvertHTML() method to convert HTML to BMP.
 
 The following C# code snippet shows how to convert HTML to BMP using custom save options:
 
@@ -149,7 +149,7 @@ using System.Drawing.Drawing2D;
     Converter.ConvertHTML(document, options, savePath);    
 {{< /highlight >}}
 
-The [ImageSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/constructors/main) constructor initializes an instance of the ImageSaveOptions class that is passed to ConvertHTML() method. The ConvertHTML() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation.
+The [ImageSaveOptions()](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/constructors/main) constructor initializes an instance of the ImageSaveOptions class that is passed to ConvertHTML() method. The ConvertHTML() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation.
 
 In the above example, we apply:
  - BackgroundColor property that sets the color that will fill the background. The default BackgroundColor is Transparent;

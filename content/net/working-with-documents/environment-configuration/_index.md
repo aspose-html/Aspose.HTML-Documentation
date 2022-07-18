@@ -7,7 +7,7 @@ description: Sandboxing, Sandbox.Scripts, User Agent Service, User Style Sheet, 
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
-It is often helpful to have different configurations based on the environment where the application is running. For example, you may wish to configure the scripts policy, override document style applying a custom user stylesheet, or handle any web requests from the application. Aspose.HTML provides the [**Configuration**](https://apireference.aspose.com/html/net/aspose.html/configuration) class that can be used exactly for these purposes.
+It is often helpful to have different configurations based on the environment where the application is running. For example, you may wish to configure the scripts policy, override document style applying a custom user stylesheet, or handle any web requests from the application. Aspose.HTML provides the [**Configuration**](https://reference.aspose.com/html/net/aspose.html/configuration) class that can be used exactly for these purposes.
 
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation). 
@@ -44,9 +44,9 @@ using Aspose.Html.Saving;
 {{< /highlight >}}
 
 ## **Services**
-All important functional is grouped into separated services for usability purpose and located into [**Aspose.Html.Services**](https://apireference.aspose.com/html/net/aspose.html.services) namespace.
+All important functional is grouped into separated services for usability purpose and located into [**Aspose.Html.Services**](https://reference.aspose.com/html/net/aspose.html.services) namespace.
 ### **User Agent Service**
-The **User Agent Service** allows you to specify a custom user stylesheet, a primary character set for the document, language and fonts settings. You can specify your custom style information for a particular document and provide as little or as much environment configuration changes as needed. The [**IUserAgentService**](https://apireference.aspose.com/html/net/aspose.html.services/iuseragentservice) interface describes a user agent environment.
+The **User Agent Service** allows you to specify a custom user stylesheet, a primary character set for the document, language and fonts settings. You can specify your custom style information for a particular document and provide as little or as much environment configuration changes as needed. The [**IUserAgentService**](https://reference.aspose.com/html/net/aspose.html.services/iuseragentservice) interface describes a user agent environment.
 #### **User Style Sheet**
 The user is able to specify a custom style information for a particular document. This information applies to the document according to the [cascading rules](https://www.w3.org/TR/css-cascade-3/#cascading-origins) and may affect the presentation of the document. The next code snippet shows how to use the **UserStyleSheet** property:
 {{< highlight java >}}
@@ -166,7 +166,7 @@ The figure illustrates the result of the **FontsSettings** and **UserStyleSheet*
 
 ![Text "FontsSettings property"](font-setting.png#center)
 ### **Runtime Service**
-This service gives you control over the lifetime of the internal processes. For instance, using [**IRuntimeService**](https://apireference.aspose.com/html/net/aspose.html.services/iruntimeservice) you can specify timeouts for JavaScripts. It is important to have such a timeout in case if a script contains an endless loop. The next code snippet demonstrates how to use timeouts.
+This service gives you control over the lifetime of the internal processes. For instance, using [**IRuntimeService**](https://reference.aspose.com/html/net/aspose.html.services/iruntimeservice) you can specify timeouts for JavaScripts. It is important to have such a timeout in case if a script contains an endless loop. The next code snippet demonstrates how to use timeouts.
 {{< highlight java >}}
 using System.IO;
 using Aspose.Html;
@@ -197,7 +197,7 @@ using Aspose.Html.Services;
     }            
 {{< /highlight >}}
 ### **Network Service**
-Aspose.HTML for .Net offers the [**INetworkService**](https://apireference.aspose.com/html/net/aspose.html.services/inetworkservice)  that allows you to control all incoming/outcoming traffic and implement your custom message handlers. It can be used for different purposes, such as: create custom caching mechanism, trace/logging request messages, etc.
+Aspose.HTML for .Net offers the [**INetworkService**](https://reference.aspose.com/html/net/aspose.html.services/inetworkservice)  that allows you to control all incoming/outcoming traffic and implement your custom message handlers. It can be used for different purposes, such as: create custom caching mechanism, trace/logging request messages, etc.
 #### **Message Handlers**
 The following example demonstrates how to use message handlers to log information about unreachable resources. First of all, you need to create a custom message handler:
 {{< highlight java >}}

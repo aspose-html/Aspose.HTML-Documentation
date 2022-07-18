@@ -25,8 +25,8 @@ If your scenario is required rendering Markdown document, for instance, to the P
 
 1. Prepare a source Markdown document. In the example, we create a Markdown file from code. 
 1. Prepare a path for converted file saving. 
-1. Convert Markdown to HTML. Use the [ConvertMarkdown(`sourcePath`)](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertmarkdown/methods/4) method to save Markdown as an HTML document. 
-1. Use the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/7) method to render the intermediary HTML document to PDF format. You need to pass the HTMLDocument, PdfSaveOptions, and output file path to the ConvertHTML() method for HTML to PDF conversion.
+1. Convert Markdown to HTML. Use the [ConvertMarkdown(`sourcePath`)](https://reference.aspose.com/html/net/aspose.html.converters.converter/convertmarkdown/methods/4) method to save Markdown as an HTML document. 
+1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/7) method to render the intermediary HTML document to PDF format. You need to pass the HTMLDocument, PdfSaveOptions, and output file path to the ConvertHTML() method for HTML to PDF conversion.
 
 If your case is to create a Markdown document from a user string directly in your code and convert it to a PDF file, the following example could help you: 
 
@@ -88,9 +88,9 @@ If your case is to convert an existing Markdown document from a local file syste
 
 1. Open an existing Markdown document. In the example, we load a Markdown file from a local file system ([nature.md](https://github.com/aspose-html/Aspose.HTML-Documentation/blob/main/content/tests-net/tests-data/nature.md)). 
 1. Prepare a path for converted PDF file saving. 
-1. Convert Markdown to HTML. Use the [ConvertMarkdown(`sourcePath`)](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertmarkdown/methods/4) method of the Converter class to save Markdown as an HTML document. 
-1. Create a new [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) object and specify the required properties.
-1. Use the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/7) method to render the intermediary HTML document to PDF format. You need to pass the HTMLDocument, PdfSaveOptions, and output file path to the ConvertHTML() method.
+1. Convert Markdown to HTML. Use the [ConvertMarkdown(`sourcePath`)](https://reference.aspose.com/html/net/aspose.html.converters.converter/convertmarkdown/methods/4) method of the Converter class to save Markdown as an HTML document. 
+1. Create a new [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) object and specify the required properties.
+1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/7) method to render the intermediary HTML document to PDF format. You need to pass the HTMLDocument, PdfSaveOptions, and output file path to the ConvertHTML() method.
 
 The following code snippet shows how to convert Markdown to PDF using Aspose.HTML for .NET.
 
@@ -122,7 +122,7 @@ using System.Drawing;
     Converter.ConvertHTML(document, options, savePath);
 {{< /highlight >}}
 
-The PdfSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting Markdown to PDF format. To learn more about [PdfSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+The PdfSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting Markdown to PDF format. To learn more about [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 
 In the above example, we use:
 

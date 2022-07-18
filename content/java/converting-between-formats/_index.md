@@ -4,13 +4,13 @@ type: docs
 weight: 30
 aliases: /java/converting-between-formats/
 ---
-Welcome to the "Converting between Formats" guides. The articles in this section provide information on the list of supported conversion scenarios and how to perform them by using a [Converter](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) class that is group all low-level conversion operation in a single class to make it comfy and easy to use.
+Welcome to the "Converting between Formats" guides. The articles in this section provide information on the list of supported conversion scenarios and how to perform them by using a [Converter](https://reference.aspose.com/html/java/com.aspose.html/package-frame) class that is group all low-level conversion operation in a single class to make it comfy and easy to use.
 
 The following conversion scenarios are supported:
 
 ## **HTML Converter**
 
-In **HTML Converter** guides, you learn how to convert an [HTML document](https://apireference.aspose.com/html/java/com.aspose.html/HTMLDocument) into various formats.
+In **HTML Converter** guides, you learn how to convert an [HTML document](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument) into various formats.
 
 * [HTML to Image](/html/java/converting-between-formats/html-to-image-conversion/)
   In this guide, you will find information how convert an HTML document into image file formats, such as {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, etc.
@@ -25,7 +25,7 @@ In **HTML Converter** guides, you learn how to convert an [HTML document](https:
 
 ## **SVG Converter**
 
-In **SVG Converter** guides, you learn how to convert an [SVG document](https://apireference.aspose.com/html/java/com.aspose.html.dom.svg/SVGDocument) into various formats.
+In **SVG Converter** guides, you learn how to convert an [SVG document](https://reference.aspose.com/html/java/com.aspose.html.dom.svg/SVGDocument) into various formats.
 
 * [SVG to Image](/html/java/converting-between-formats/svg-to-image-conversion/)
   In this guide, you will find information how convert an HTML document into image file formats, such as {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, etc.
