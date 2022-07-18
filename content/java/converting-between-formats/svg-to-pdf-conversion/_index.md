@@ -5,7 +5,7 @@ weight: 70
 aliases: /java/svg-to-pdf-conversion/
 ---
 
-In this article, you will find information about how to convert an {{%SVG%}} to {{%PDF%}} and how to use [PdfSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions) and [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) parameters.
+In this article, you will find information about how to convert an {{%SVG%}} to {{%PDF%}} and how to use [PdfSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions) and [MemoryStreamProvider](https://reference.aspose.com/html/java/com.aspose.html/package-frame) parameters.
 
 {{% alert color="primary" %}} 
 
@@ -13,27 +13,27 @@ In this article, you will find information about how to convert an {{%SVG%}} to 
 
 {{% /alert %}} 
 
-The static methods of the [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class are primarily used as the easiest way to convert an {{%SVG%}} code into various formats. You can convert {{%SVG%}} to {{%PDF%}} in your Java application literally with a single line of code!
+The static methods of the [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/converter) class are primarily used as the easiest way to convert an {{%SVG%}} code into various formats. You can convert {{%SVG%}} to {{%PDF%}} in your Java application literally with a single line of code!
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertSVGToPDF_WithASingleLine.java" >}}
 
 The next example explains how to convert SVG to PDF by line by line:
 
-1. Load the SVG file using [SVGDocument](https://apireference.aspose.com/html/java/com.aspose.html.dom.svg/SVGDocument) class.
-1. Create an instance of [PdfSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions).
-1. Use the `Converter.convertSVG` method of [Converter](https://apireference.aspose.com/html/java/com.aspose.html.converters/converter) class to save SVG as a PDF file. You need to pass the [SVGDocument](https://apireference.aspose.com/html/java/com.aspose.html.dom.svg/SVGDocument), [PdfSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptionsQ), and output file path to the `Converter.convertSVG` method to convert {{%SVG%}} to {{%PDF%}}.
+1. Load the SVG file using [SVGDocument](https://reference.aspose.com/html/java/com.aspose.html.dom.svg/SVGDocument) class.
+1. Create an instance of [PdfSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions).
+1. Use the `Converter.convertSVG` method of [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/converter) class to save SVG as a PDF file. You need to pass the [SVGDocument](https://reference.aspose.com/html/java/com.aspose.html.dom.svg/SVGDocument), [PdfSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptionsQ), and output file path to the `Converter.convertSVG` method to convert {{%SVG%}} to {{%PDF%}}.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertSVGToPDF_ConvertSVGDocumentToPDF.java" >}}
 ## **Save Options** ## 
-[PdfSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions) allows you to customize the rendering process. You can specify the [page size](https://apireference.aspose.com/html/java/com.aspose.html.rendering/RenderingOptions#getPageSetup--), [margins](https://apireference.aspose.com/html/java/com.aspose.html.drawing/Page#getMargin--), [file permissions](https://apireference.aspose.com/html/java/com.aspose.html.rendering.pdf.encryption/pdfencryptioninfo), [CSS media-type](https://apireference.aspose.com/html/java/com.aspose.html.rendering/MediaType), etc. The following example shows how to use [PdfSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions) *and* create a PDF file with custom page-size and background color:
+[PdfSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions) allows you to customize the rendering process. You can specify the [page size](https://reference.aspose.com/html/java/com.aspose.html.rendering/RenderingOptions#getPageSetup--), [margins](https://reference.aspose.com/html/java/com.aspose.html.drawing/Page#getMargin--), [file permissions](https://reference.aspose.com/html/java/com.aspose.html.rendering.pdf.encryption/pdfencryptioninfo), [CSS media-type](https://reference.aspose.com/html/java/com.aspose.html.rendering/MediaType), etc. The following example shows how to use [PdfSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions) *and* create a PDF file with custom page-size and background color:
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertSVGToPDF_SpecifyPdfSaveOptions.java" >}}
 
 Please note that you cannot set values against the **Application** and **Producer** fields, because Aspose Ltd. and Aspose.HTML for Java x.x.x will be displayed against these fields.
 
-To learn more about [PdfSaveOptions](https://apireference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions) please read [Fine-Tuning Converters](/html/java/converting-between-formats/fine-tuning-converters/) article.
+To learn more about [PdfSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions) please read [Fine-Tuning Converters](/html/java/converting-between-formats/fine-tuning-converters/) article.
 ## **Output Stream Providers** ## 
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [MemoryStreamProvider](https://apireference.aspose.com/html/java/com.aspose.html/package-frame) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [MemoryStreamProvider](https://reference.aspose.com/html/java/com.aspose.html/package-frame) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
 
 {{% alert color="primary" %}} 
 

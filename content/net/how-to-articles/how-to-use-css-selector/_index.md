@@ -15,7 +15,7 @@ sitemap:
 
 CSS selectors are used to select the HTML elements you want to style and apply a set of CSS rules. Moreover, you can navigate an HTML document using CSS Selectors and extract information about selected elements or edit them.  CSS Selectors are used to declare which of the markup elements a style applies to, a kind of match expression. Aspose.HTML API allows you to create a search pattern to match elements in a document tree based on CSS Selectors syntax.
 
-In this article, discover how to effectively apply selectors to select the elements you want to style using [QuerySelector(`selector`)](https://apireference.aspose.com/html/net/aspose.html.dom/document/methods/queryselector) and [QuerySelectorAll(`selector`)](https://apireference.aspose.com/html/net/aspose.html.dom/document/methods/queryselectorall) methods of the [Document](https://apireference.aspose.com/html/net/aspose.html.dom/document) class.  Methods allow you to quickly and easily retrieve element nodes from the DOM by matching against selectors. You can select elements by class, id or name, or any complex CSS selector.
+In this article, discover how to effectively apply selectors to select the elements you want to style using [QuerySelector(`selector`)](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/queryselector) and [QuerySelectorAll(`selector`)](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/queryselectorall) methods of the [Document](https://reference.aspose.com/html/net/aspose.html.dom/document) class.  Methods allow you to quickly and easily retrieve element nodes from the DOM by matching against selectors. You can select elements by class, id or name, or any complex CSS selector.
 
 {{% alert color="primary" %}} 
 For more information on how to effectively apply selectors to select the elements you want to style, please visit the article [**CSS Selectors**](/html/net/tutorial/css-selectors/). You will cover Basic Selectors, Combinator Selectors, Attribute Selectors, Group Selectors and Pseudo Selectors.
@@ -26,7 +26,7 @@ You can download the complete examples and data files from <a href="https://gith
 
 ## **QuerySelector() to Navigate HTML**
 
-The  [QuerySelector()](https://apireference.aspose.com/html/net/aspose.html.dom/document/methods/queryselector) method is used to query a DOM element that matchs a CSS selector. It returns the first element in the document that matches the specified selector. If no matches are found, null is returned. In the following example we use CSS Element Selector to find the first paragraph element and output its contents to the Console:
+The  [QuerySelector()](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/queryselector) method is used to query a DOM element that matchs a CSS selector. It returns the first element in the document that matches the specified selector. If no matches are found, null is returned. In the following example we use CSS Element Selector to find the first paragraph element and output its contents to the Console:
 
 ### **C# Example**
 
@@ -79,7 +79,7 @@ Moreover, in the C# example, the text color and background color were changed fo
 
 ## **QuerySelector() to Style Selected Element**
 
-The [QuerySelector()](https://apireference.aspose.com/html/net/aspose.html.dom/document/methods/queryselector) method accepts selector to determine what an element should be returned and returns the first matching element in the node's subtree. If no matching node is found, null is returned. In the following C# example, QuerySelector() method takes as a parameter `div:last-child` selector that means to select  `<div>` element that is the last child of its parent. **Note**: The QuerySelector() method returns the **first** element that matches the selector.
+The [QuerySelector()](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/queryselector) method accepts selector to determine what an element should be returned and returns the first matching element in the node's subtree. If no matching node is found, null is returned. In the following C# example, QuerySelector() method takes as a parameter `div:last-child` selector that means to select  `<div>` element that is the last child of its parent. **Note**: The QuerySelector() method returns the **first** element that matches the selector.
 ### **C# Example**
 
 {{< highlight java >}}
@@ -126,7 +126,7 @@ Let's look at the result of using the QuerySelector() method to restyle the `<di
 
 If you want a list of all elements that match the specified selectors, you should use the QuerySelectorAll() method.
 
-In the following example, we use the [QuerySelectorAll()](https://apireference.aspose.com/html/net/aspose.html.dom/document/methods/queryselectorall) method for navigation through an HTML document and searching for the needed elements. This method takes as a parameter the query selector and returns a NodeList of all the elements, which match the specified selector. We select all elements whose 'class' attribute equals 'square2' and recolor them:
+In the following example, we use the [QuerySelectorAll()](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/queryselectorall) method for navigation through an HTML document and searching for the needed elements. This method takes as a parameter the query selector and returns a NodeList of all the elements, which match the specified selector. We select all elements whose 'class' attribute equals 'square2' and recolor them:
 ### **C# Example**
 
 {{< highlight java >}}

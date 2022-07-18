@@ -15,7 +15,7 @@ sitemap:
 {{% alert color="primary" %}} 
 For more information on how to use CSS Selectors to navigate an HTML document, please visit the [**How-to Articles**](https://docs.aspose.com/html/net/how-to-articles/) chapter. The articles in this chapter answer popular questions and contain C# examples that provide the necessary information about using the Aspose.HTML class library to solve specific tasks.
 
-To learn how to use the [QuerySelector()](https://apireference.aspose.com/html/net/aspose.html.dom/document/methods/queryselector) and [QuerySelectorAll()](https://apireference.aspose.com/html/net/aspose.html.dom/document/methods/queryselectorall) methods to query DOM elements that match a CSS selector, please see the article [**How to use CSS Selector**](https://docs.aspose.com/html/net/how-to-articles/how-to-use-css-selector/). In this article, discover how to effectively apply selectors to select the elements you want to style. 
+To learn how to use the [QuerySelector()](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/queryselector) and [QuerySelectorAll()](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/queryselectorall) methods to query DOM elements that match a CSS selector, please see the article [**How to use CSS Selector**](https://docs.aspose.com/html/net/how-to-articles/how-to-use-css-selector/). In this article, discover how to effectively apply selectors to select the elements you want to style. 
 
 {{% /alert %}} 
 

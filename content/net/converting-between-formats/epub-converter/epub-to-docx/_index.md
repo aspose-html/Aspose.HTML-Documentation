@@ -16,7 +16,7 @@ lastmod: 2022-06-01
 
 DOCX is a well-known format for Microsoft Word documents. This format is popular because it supports a wide range of formatting features and offers users a variety of options to write any type of document. DOCX files can be opened with Word 2007 and lateral versions but not with the earlier versions of MS Word, which support DOC file extensions. EPUB to DOCX conversion is often required to take advantage of DOCX format for specific user tasks. 
 
-In this article, you find information on how to convert {{%EPUB%}} to {{%DOCX%}} using ConvertEPUB() methods of the Converter class and how to apply [DocSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions) and [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you find information on how to convert {{%EPUB%}} to {{%DOCX%}} using ConvertEPUB() methods of the Converter class and how to apply [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
 {{% alert color="primary" %}}
 Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/epub-to-docx" target="_blank">**EPUB to DOCX Converter**</a> that converts EPUB to DOCX with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
@@ -26,7 +26,7 @@ Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conve
 
 ## **EPUB to DOCX by two lines of code**
 
-The static methods of the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class are primarily used as the easiest way to convert an EPUB file into various formats. For example, you can convert {{%EPUB%}} to {{%DOCX%}} in your C# application literally with two lines of code!
+The static methods of the [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter) class are primarily used as the easiest way to convert an EPUB file into various formats. For example, you can convert {{%EPUB%}} to {{%DOCX%}} in your C# application literally with two lines of code!
 
 {{< highlight java >}}
 using System.IO;
@@ -42,11 +42,11 @@ using Aspose.Html.Saving;
 
 ## **Convert EPUB to DOCX**
 
-Using [Converter.ConvertMHTML](https://apireference.aspose.com/html/net/aspose.html.converters/converter/methods/convertmhtml/index) methods is the most common way to convert MHTML code into various formats. The following C# code snippet shows how to convert EPUB to DOCX using Aspose.HTML for .NET.
+Using [Converter.ConvertMHTML](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/convertmhtml/index) methods is the most common way to convert MHTML code into various formats. The following C# code snippet shows how to convert EPUB to DOCX using Aspose.HTML for .NET.
 
 1. Open an existing EPUB file.
-1. Create an instance of the [DocSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions) class.
-1. Use the [ConvertEPUB()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertepub/methods/25) method of the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class to save EPUB as a DOCX file. You need to pass the EPUB file stream, DocSaveOptions, and output file path to the ConvertEPUB() method for EPUB to DOCX conversion.
+1. Create an instance of the [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions) class.
+1. Use the [ConvertEPUB()](https://reference.aspose.com/html/net/aspose.html.converters.converter/convertepub/methods/25) method of the [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter) class to save EPUB as a DOCX file. You need to pass the EPUB file stream, DocSaveOptions, and output file path to the ConvertEPUB() method for EPUB to DOCX conversion.
 
 In the example, we use the OpenRead() method of System.IO.FileStream class to open and read EPUB files from the file system at the specified path.
 
@@ -98,20 +98,20 @@ using Aspose.Html.Saving;
 
 ## **Save Options**
 
-Aspose.HTML allows converting EPUB to DOCX using default or custom save options. [DocSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions) usage enables you to tune the rendering process; you can specify the page size, margins, resolutions, CSS, etc. 
+Aspose.HTML allows converting EPUB to DOCX using default or custom save options. [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions) usage enables you to tune the rendering process; you can specify the page size, margins, resolutions, CSS, etc. 
 
 | Property                                                     | Description                                                  |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [FontEmbeddingRule](https://apireference.aspose.com/html/net/aspose.html.rendering.doc/docrenderingoptions/properties/fontembeddingrule) | This property gets or sets the font embedding rule. Available values are Full and None. The default value is [None](https://apireference.aspose.com/html/net/aspose.html.rendering.doc/fontembeddingrule). |
-| [Css](https://apireference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/css) | Gets a [CssOptions](https://apireference.aspose.com/html/net/aspose.html.rendering/cssoptions) object which is used for configuration of CSS properties processing. |
-| [DocumentFormat](https://apireference.aspose.com/html/net/aspose.html.rendering.doc/docrenderingoptions/properties/documentformat) | This property gets or sets the file format of the output document. The default value is [DOCX](https://apireference.aspose.com/html/net/aspose.html.rendering.doc/documentformat). |
-| [PageSetup](https://apireference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) | This property gets a page setup object and uses it for configuration output page-set. |
-| [HorizontalResolution](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/horizontalresolution) | Sets horizontal resolution for output images in pixels per inch. The default value is 300 dpi. |
-| [VerticalResolution](https://apireference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/verticalresolution) | Sets vertical resolution for output images in pixels per inch. The default value is 300 dpi. |
+| [FontEmbeddingRule](https://reference.aspose.com/html/net/aspose.html.rendering.doc/docrenderingoptions/properties/fontembeddingrule) | This property gets or sets the font embedding rule. Available values are Full and None. The default value is [None](https://reference.aspose.com/html/net/aspose.html.rendering.doc/fontembeddingrule). |
+| [Css](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/css) | Gets a [CssOptions](https://reference.aspose.com/html/net/aspose.html.rendering/cssoptions) object which is used for configuration of CSS properties processing. |
+| [DocumentFormat](https://reference.aspose.com/html/net/aspose.html.rendering.doc/docrenderingoptions/properties/documentformat) | This property gets or sets the file format of the output document. The default value is [DOCX](https://reference.aspose.com/html/net/aspose.html.rendering.doc/documentformat). |
+| [PageSetup](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) | This property gets a page setup object and uses it for configuration output page-set. |
+| [HorizontalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/horizontalresolution) | Sets horizontal resolution for output images in pixels per inch. The default value is 300 dpi. |
+| [VerticalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/verticalresolution) | Sets vertical resolution for output images in pixels per inch. The default value is 300 dpi. |
 
 {{% alert color="primary" %}}
 
-To learn more about [DocSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+To learn more about [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 
 {{% /alert %}}
 
@@ -120,10 +120,10 @@ To learn more about [DocSaveOptions](https://apireference.aspose.com/html/net/as
 With Aspose.HTML, you can convert EPUB to DOCX format programmatically with full control over a wide range of conversion parameters. To convert EPUB to DOCX with DocSaveOptions specifying, you should follow a few steps: 
 
 1. Open an existing EPUB file.
-1. Create a new [DocSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions) object and specify the required save options.
-1. Use the [ConvertEPUB()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertepub/methods/25) method to save EPUB as a DOCX file. You need to pass the EPUB file stream, DocSaveOptions, and output file path to the ConvertEPUB() method for EPUB to DOCX conversion.
+1. Create a new [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions) object and specify the required save options.
+1. Use the [ConvertEPUB()](https://reference.aspose.com/html/net/aspose.html.converters.converter/convertepub/methods/25) method to save EPUB as a DOCX file. You need to pass the EPUB file stream, DocSaveOptions, and output file path to the ConvertEPUB() method for EPUB to DOCX conversion.
 
-The following example shows how to use [DocSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions) and create a DOCX file with custom save options:
+The following example shows how to use [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions) and create a DOCX file with custom save options:
 
 {{< highlight java >}}
 using System.IO;
@@ -146,10 +146,10 @@ using Aspose.Html.Drawing;
     Converter.ConvertEPUB(stream, options, savePath); 
 {{< /highlight >}}
 
-In the example, we use the OpenRead() method of System.IO.FileStream class to open and read source files from the file system at the specified path. The [DocSaveOptions()](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions/constructors/main) constructor initializes an instance of the DocSaveOptions class that is passed to ConvertEPUB() method. The ConvertEPUB() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation. The DocSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting EPUB to DOCX format. In the example, we use the PageSetup property that specifies the page size of the DOCX document.
+In the example, we use the OpenRead() method of System.IO.FileStream class to open and read source files from the file system at the specified path. The [DocSaveOptions()](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions/constructors/main) constructor initializes an instance of the DocSaveOptions class that is passed to ConvertEPUB() method. The ConvertEPUB() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation. The DocSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting EPUB to DOCX format. In the example, we use the PageSetup property that specifies the page size of the DOCX document.
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://apireference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 

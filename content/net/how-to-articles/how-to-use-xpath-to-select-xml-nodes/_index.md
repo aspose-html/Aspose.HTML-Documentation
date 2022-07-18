@@ -30,7 +30,7 @@ These examples will show how to select the required information from an XML file
 Let's sequentially compose XPath expressions that will select names, phone numbers and a list of cars of interest to you. XPath is powerful, as you will see in the following examples:
 
 ### **Select all "Dealer" nodes in the XML file**
-XPath is used programmatically to evaluate expressions and pick specific nodes in an XML document. To select nodes from XML, use the  [Evaluate()](https://apireference.aspose.com/html/net/aspose.html.dom/document/methods/evaluate) method. 
+XPath is used programmatically to evaluate expressions and pick specific nodes in an XML document. To select nodes from XML, use the  [Evaluate()](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/evaluate) method. 
 
 Let's start with a straightforward XPath Query for all "Dealer" nodes in the XML document. The following uses the XPath expression `//Dealer`.  It selects all `Dealer` elements no matter where they are in the document:
 
@@ -91,7 +91,7 @@ As a result, only dealers will be selected if they have a car with a manufacture
 Let's consider how to select dealers from an XML file that have a car with a manufacture date no older than 2005 and a price of less than 25,000, and print the required information to the console. You should follow a few steps:
 
 1. Load an existing XML file ([cars.xml](/html/net/how-to-articles/how-to-use-xpath-to-select-xml-nodes/cars.xml)).
-2. Use the  [Evaluate()](https://apireference.aspose.com/html/net/aspose.html.dom/document/methods/evaluate) method of the [Document](https://apireference.aspose.com/html/net/aspose.html.dom/document) class and pass XPath expression  `//Dealer[descendant::Car[descendant::Model > 2005 and descendant::Price < 25000]]`and other parameters to it.
+2. Use the  [Evaluate()](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/evaluate) method of the [Document](https://reference.aspose.com/html/net/aspose.html.dom/document) class and pass XPath expression  `//Dealer[descendant::Car[descendant::Model > 2005 and descendant::Price < 25000]]`and other parameters to it.
 3. Iterate over the resulted nodes and print their contents to the console.
 4. You will get a list of dealers with the entire content of the "Dealer" nodes.
 
@@ -121,7 +121,7 @@ using System.IO;
 
 In the previous part of the example, the XPath query selects all the contents of the "Dealer" node that matched the XPath expression `//Dealer[descendant::Car[descendant::Model > 2005 and descendant::Price < 25000]]`. But you can choose and print only the information you are interested in from the entire contents of the selected "Dealer".
 
-In this example ([cars.xml](/html/net/how-to-articles/how-to-use-xpath-to-select-xml-nodes/cars.xml)), an internal query was added within the loop to the selected "Dealer" nodes. The query collects as a string the information about the dealer such as the "Name" and "Telephone": `concat('Dealer name: ', Name, 'Telephone: ', Telephone)"`. Pay attention to the second parameter passed to the [Evaluate(`expression`, `contextNode`, `resolver`, `type`, `result`)](https://apireference.aspose.com/html/net/aspose.html.dom/document/methods/evaluate) method. This is the node relative to which the query will be executed - the current "Dealer" node. This query concatenates content from nodes with the names "Name" and "Telephone". **Note:** the query uses the expected result type of the string `XPathResultType.String`, and the result value is obtained through the `StringValue` property and not through the node iterator.
+In this example ([cars.xml](/html/net/how-to-articles/how-to-use-xpath-to-select-xml-nodes/cars.xml)), an internal query was added within the loop to the selected "Dealer" nodes. The query collects as a string the information about the dealer such as the "Name" and "Telephone": `concat('Dealer name: ', Name, 'Telephone: ', Telephone)"`. Pay attention to the second parameter passed to the [Evaluate(`expression`, `contextNode`, `resolver`, `type`, `result`)](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/evaluate) method. This is the node relative to which the query will be executed - the current "Dealer" node. This query concatenates content from nodes with the names "Name" and "Telephone". **Note:** the query uses the expected result type of the string `XPathResultType.String`, and the result value is obtained through the `StringValue` property and not through the node iterator.
 
 To the list of the selected dealers, you can add the "CarID" attribute, which points to a specific car. A query should be made with the XPath expression `.//Car[descendant::Model > 2005 and descendant::Price < 25000]/@CarID`. There are several features in the added query; let's look at them:
 

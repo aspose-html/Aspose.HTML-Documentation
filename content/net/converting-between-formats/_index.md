@@ -16,13 +16,13 @@ Welcome to the "Converting between Formats" guides! The main highlight of Aspose
 
 ## **A Few Ways to Convert files**
 
-Converting between formats can perform by using methods of the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class or the [RenderTo()](https://apireference.aspose.com/html/net/aspose.html/htmldocument/methods/renderto) method.
+Converting between formats can perform by using methods of the [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter) class or the [RenderTo()](https://reference.aspose.com/html/net/aspose.html/htmldocument/methods/renderto) method.
 
 1. The static Converter class is a shared facade that provides HTML, MHTML, EPUB, Markdown and SVG file conversions to the popular formats and allows to make these operations convenient and easy. The static methods as an understandable and straightforward way to convert HTML, SVG, MHTML, EPUB, MD documents to PDF, XPS, DOCX, MD, MHTML and Image formats. 
 
 2. The RenderTo() method is used to render HTML or SVG to another format and send a document to the output device. Aspose.HTML API provides the following output devices implementation: the PdfDevice, XpsDevice, DocDevise, and ImageDevice classes, which perform rendering to PDF, XPS, DOCX and Image file formats respectively.
 
-The following example demonstrates converting HTML to PDF using  the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class, with one line of code:
+The following example demonstrates converting HTML to PDF using  the [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter) class, with one line of code:
 
 {{< highlight java >}}
 using System.IO;
@@ -33,13 +33,13 @@ using Aspose.Html.Saving;
      Converter.ConvertHTML(@"<h1>Hello, World!</h1>", ".", new PdfSaveOptions(), Path.Combine(OutputDir, "convert-with-single-line.pdf"));
 {{< /highlight >}}
 
-In the example, we use the [ConvertHTML(`content, baseUri, options, outputPath`)](https://apireference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/67) method of the Converter class. Despite the HTML to PDF conversion is required only one line of code, the following operations were performed:
+In the example, we use the [ConvertHTML(`content, baseUri, options, outputPath`)](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/67) method of the Converter class. Despite the HTML to PDF conversion is required only one line of code, the following operations were performed:
 
 1. Prepare code for an HTML document.
 2. Create a new PdfSaveOptions object with default options. 
 3. Use the ConvertHTML() method that takes as parameters `content`, `baseUri`, `options`, and `outputPath`. **Note:** You need to specify the path to the output file in your local file system (`outputPath`).
 
-To convert HTML to PDF using the  [RenderTo()](https://apireference.aspose.com/html/net/aspose.html/htmldocument/methods/renderto) method, you can use the following code snippet:
+To convert HTML to PDF using the  [RenderTo()](https://reference.aspose.com/html/net/aspose.html/htmldocument/methods/renderto) method, you can use the following code snippet:
 
 {{< highlight java >}}
 using Aspose.Html;
@@ -70,9 +70,9 @@ In the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning
 
 ## **Popular Converters** 
 
-The current chapter describes popular converters, as well as C# examples for most common conversions scenarios. Using the examples, you can understand that the conversion process is quite universal and includes only a few necessary steps. The articles in this chapter provide information on the list of supported popular conversions and how to perform them using the [Converter](https://apireference.aspose.com/html/net/aspose.html.converters/converter) class that groups all low-level conversion operations in a single class to make it comfy and easy to use. Don’t delay! Test the conversion between formats!
+The current chapter describes popular converters, as well as C# examples for most common conversions scenarios. Using the examples, you can understand that the conversion process is quite universal and includes only a few necessary steps. The articles in this chapter provide information on the list of supported popular conversions and how to perform them using the [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter) class that groups all low-level conversion operations in a single class to make it comfy and easy to use. Don’t delay! Test the conversion between formats!
 
- - [HTML Converter](/html/net/converting-between-formats/html-converter/) - allows convert an [HTML document](https://apireference.aspose.com/html/net/aspose.html/htmldocument) to {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, {{%GIF%}}, {{%MD%}}, and {{%MHTML %}}.
+ - [HTML Converter](/html/net/converting-between-formats/html-converter/) - allows convert an [HTML document](https://reference.aspose.com/html/net/aspose.html/htmldocument) to {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, {{%GIF%}}, {{%MD%}}, and {{%MHTML %}}.
  - [SVG Converter](/html/net/converting-between-formats/svg-converter/)  - You find information on how to convert {{%SVG %}} to {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, and {{%GIF%}} formats.
  - [EPUB Converter](/html/net/converting-between-formats/epub-converter/)  - You find out how to convert {{%EPUB %}} to {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, and {{%GIF%}} formats.
  - [MHTML Converter](/html/net/converting-between-formats/mhtml-converter/) provides a general description of how to convert {{%MHTML %}} to {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, and {{%GIF%}} formats.

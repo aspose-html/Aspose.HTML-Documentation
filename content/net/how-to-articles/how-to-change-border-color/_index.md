@@ -27,8 +27,8 @@ To change border color for HTML element using Aspose.HTML API you should follow 
 
 1. Load an existing HTML file.
 2. Create an instance of an HTML document.
-3. Determine which element you want to change the border color for and find this element to set a style attribute for it. Use the [GetElementsByTagName(`name`)](https://apireference.aspose.com/html/net/aspose.html.dom/element/methods/getelementsbytagname) method of the [Element](https://apireference.aspose.com/html/net/aspose.html.dom/element) class that returns HTML element with a given tag name.
-4. Set the `style` attribute with `border-style` and `border-color` properties:  use the [Style](https://apireference.aspose.com/html/net/aspose.html/htmlelement/properties/style) property of the [HTMLElement](https://apireference.aspose.com/html/net/aspose.html/htmlelement) class. 
+3. Determine which element you want to change the border color for and find this element to set a style attribute for it. Use the [GetElementsByTagName(`name`)](https://reference.aspose.com/html/net/aspose.html.dom/element/methods/getelementsbytagname) method of the [Element](https://reference.aspose.com/html/net/aspose.html.dom/element) class that returns HTML element with a given tag name.
+4. Set the `style` attribute with `border-style` and `border-color` properties:  use the [Style](https://reference.aspose.com/html/net/aspose.html/htmlelement/properties/style) property of the [HTMLElement](https://reference.aspose.com/html/net/aspose.html/htmlelement) class. 
 5. Save the modified HTML document.
 
 You can set or change border color for various HTML elements such as `<p>`,  `<h1>`…`<h6>`, `<div>` or `<table>`.  The following C# example shows the border color change for the `<h1>`element:
@@ -171,7 +171,7 @@ The result is similar to the one shown in Figure (a) above.
 
 If you want to change the table border color, you can use inline or internal CSS. 
 
-You can apply the `style` attribute with the HTML `<table>` element. Keep in mind, that the usage of a style attribute overrides any style set in the HTML `<style>` tag or external style sheet. To change the table border color using inline CSS style attribute you can use the [QuerySelector()](https://apireference.aspose.com/html/net/aspose.html.dom/document/methods/queryselector) method to navigate DOM and find the  `<table>` element. Then set the style attribute with the required properties for the `<table>` element:
+You can apply the `style` attribute with the HTML `<table>` element. Keep in mind, that the usage of a style attribute overrides any style set in the HTML `<style>` tag or external style sheet. To change the table border color using inline CSS style attribute you can use the [QuerySelector()](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/queryselector) method to navigate DOM and find the  `<table>` element. Then set the style attribute with the required properties for the `<table>` element:
 
 **C# example 1**
 

@@ -25,8 +25,8 @@ If your scenario is required converting Markdown document, for instance, to the 
 
 1. Prepare a source Markdown document. In the example, we create a Markdown file from code. 
 1. Prepare a path for converted DOCX file saving. 
-1. Convert Markdown to HTML. Use the [ConvertMarkdown(`sourcePath`)](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertmarkdown/methods/4) method to save Markdown as an HTML document. 
-1. Use the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/1) method. You need to pass the HTMLDocument, DocSaveOptions, and output file path to the ConvertHTML() method for HTML to DOCX conversion.
+1. Convert Markdown to HTML. Use the [ConvertMarkdown(`sourcePath`)](https://reference.aspose.com/html/net/aspose.html.converters.converter/convertmarkdown/methods/4) method to save Markdown as an HTML document. 
+1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/1) method. You need to pass the HTMLDocument, DocSaveOptions, and output file path to the ConvertHTML() method for HTML to DOCX conversion.
 
 If your case is to create a Markdown document from a user string directly in your code and convert it to a DOCX file, the following example could help you: 
 
@@ -88,9 +88,9 @@ If your case is to convert an existing Markdown document from a local file syste
 
 1. Open an existing Markdown document. In the example, we load a Markdown file from a local file system ([nature.md](https://github.com/aspose-html/Aspose.HTML-Documentation/blob/main/content/tests-net/tests-data/nature.md)). 
 1. Prepare a path for converted DOCX file saving. 
-1. Convert Markdown to HTML. Use the [ConvertMarkdown(`sourcePath`)](https://apireference.aspose.com/html/net/aspose.html.converters.converter/convertmarkdown/methods/4) method of the Converter class to save Markdown as an HTML document. 
-1. Create a new [DocSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions) object and specify the required properties.
-1. Use the [ConvertHTML()](https://apireference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/1) method. You need to pass the HTMLDocument, PdfSaveOptions, and output file path to the ConvertHTML() method.
+1. Convert Markdown to HTML. Use the [ConvertMarkdown(`sourcePath`)](https://reference.aspose.com/html/net/aspose.html.converters.converter/convertmarkdown/methods/4) method of the Converter class to save Markdown as an HTML document. 
+1. Create a new [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions) object and specify the required properties.
+1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/1) method. You need to pass the HTMLDocument, PdfSaveOptions, and output file path to the ConvertHTML() method.
 
 The following code snippet shows how to convert Markdown to DOCX with custom save options:
 
@@ -117,7 +117,7 @@ using Aspose.Html.Saving;
     Converter.ConvertHTML(document, options, savePath);
 {{< /highlight >}}
 
-The [DocSaveOptions](https://apireference.aspose.com/html/net/aspose.html.saving/docsaveoptions) class provides properties that give you full control over a wide range of parameters and improve the process of converting Markdown to DOCX format. In the example, we use the PageSetup property that specifies the page size of the DOCX document. To learn more about DocSaveOptions, please read the [Fine-Tuning Converters](http://localhost:1313/html/net/converting-between-formats/fine-tuning-converters/) article.
+The [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions) class provides properties that give you full control over a wide range of parameters and improve the process of converting Markdown to DOCX format. In the example, we use the PageSetup property that specifies the page size of the DOCX document. To learn more about DocSaveOptions, please read the [Fine-Tuning Converters](http://localhost:1313/html/net/converting-between-formats/fine-tuning-converters/) article.
 
 {{% alert color="primary" %}} 
 You can check the quality of Markdown to DOCX conversion with our online [**MD to DOCX Converter**](https://products.aspose.app/html/conversion/md-to-docx). Upload, convert your files and get results in a few seconds. Try our forceful Markdown to DOCX Converter for free now!

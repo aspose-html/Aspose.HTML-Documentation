@@ -9,27 +9,27 @@ aliases:
 ---
 
 ## **HTML Document** ## 
-The [HTMLDocument](https://apireference.aspose.com/html/java/com.aspose.html/HTMLDocument) is a starting point for Aspose.HTML class library. You can load the HTML page into the **Document Object Model (DOM)** by using the [HTMLDocument](https://apireference.aspose.com/html/java/com.aspose.html/HTMLDocument) class, and then programmatically read, modify, and remove HTML in the document.
+The [HTMLDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument) is a starting point for Aspose.HTML class library. You can load the HTML page into the **Document Object Model (DOM)** by using the [HTMLDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument) class, and then programmatically read, modify, and remove HTML in the document.
 
 {{% alert color="primary" %}} 
 
-The [HTMLDocument](https://apireference.aspose.com/html/java/com.aspose.html/HTMLDocument) provides an in-memory representation of an **HTML DOM** and entirely based on [W3C DOM](http://www.w3.org/DOM/) and [WHATWG DOM](https://dom.spec.whatwg.org/) specifications that are supported in many modern browsers. If you are familiar with [WHATWG DOM](https://dom.spec.whatwg.org/), [WHATWG HTML](https://html.spec.whatwg.org/multipage/), and [JavaScript](https://262.ecma-international.org/10.0/) standards, you will find it quite comfy to use the Aspose.HTML library. Otherwise, you can visit [www.w3schools.com](https://www.w3schools.com/html/default.asp), where you can find a lot of examples and tutorials how to work with HTML documents.
+The [HTMLDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument) provides an in-memory representation of an **HTML DOM** and entirely based on [W3C DOM](http://www.w3.org/DOM/) and [WHATWG DOM](https://dom.spec.whatwg.org/) specifications that are supported in many modern browsers. If you are familiar with [WHATWG DOM](https://dom.spec.whatwg.org/), [WHATWG HTML](https://html.spec.whatwg.org/multipage/), and [JavaScript](https://262.ecma-international.org/10.0/) standards, you will find it quite comfy to use the Aspose.HTML library. Otherwise, you can visit [www.w3schools.com](https://www.w3schools.com/html/default.asp), where you can find a lot of examples and tutorials how to work with HTML documents.
 
 {{% /alert %}} 
 
-The [HTMLDocument](https://apireference.aspose.com/html/java/com.aspose.html/HTMLDocument) has several overloaded constructors allowing you to create a blank document or to load it from a file or stream:
+The [HTMLDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument) has several overloaded constructors allowing you to create a blank document or to load it from a file or stream:
 ### **Create a New HTML Document** ### 
 If you want to generate a document programmatically from scratch, please use constructor without parameters as specified in the following code snippet:
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_WorkingWithDocuments_CreatingADocument_HTMLDocumentFromScratch.java" >}}
 ### **Load from a File** ### 
-Following code snippet shows how to load the [HTMLDocument](https://apireference.aspose.com/html/java/com.aspose.html/HTMLDocument) from an existing file:
+Following code snippet shows how to load the [HTMLDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument) from an existing file:
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_WorkingWithDocuments_CreatingADocument_HTMLDocumentFromFile.java" >}}
 ### **Load from a URL** ### 
-In the next code snippet you can see how to load a web page into [HTMLDocument](https://apireference.aspose.com/html/java/com.aspose.html/HTMLDocument)** 
+In the next code snippet you can see how to load a web page into [HTMLDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument)** 
 
-In case if you pass a wrong URL that can't be reached right at the moment, the library throws the [DOMException](https://apireference.aspose.com/html/java/com.aspose.html.dom/DOMException) with specialized code 'NetworkError' to inform you that the selected resource can not be found.
+In case if you pass a wrong URL that can't be reached right at the moment, the library throws the [DOMException](https://reference.aspose.com/html/java/com.aspose.html.dom/DOMException) with specialized code 'NetworkError' to inform you that the selected resource can not be found.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_WorkingWithDocuments_CreatingADocument_HTMLDocumentFromURL.java" >}}
 ### **Load from HTML Code** ### 
@@ -45,9 +45,9 @@ In case your HTML code has the linked resources (styles, scripts, images, etc.),
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_WorkingWithDocuments_CreatingADocument_HTMLDocumentFromMemoryStream.java" >}}
 ## **SVG Document** ## 
-Since Scalable Vector Graphics ({{%SVG%}}) is a part of [W3C](https://www.w3.org/) standards and could be embedded into [HTMLDocument](https://apireference.aspose.com/html/java/com.aspose.html/HTMLDocument), we implemented [SVGDocument](https://apireference.aspose.com/html/java/com.aspose.html.dom.svg/SVGDocument) and all its functionality. Our implementation is based on official specification [SVG 2 specification](https://www.w3.org/TR/SVG2/), so you can load, read, manipulate SVG documents as it described officially.
+Since Scalable Vector Graphics ({{%SVG%}}) is a part of [W3C](https://www.w3.org/) standards and could be embedded into [HTMLDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument), we implemented [SVGDocument](https://reference.aspose.com/html/java/com.aspose.html.dom.svg/SVGDocument) and all its functionality. Our implementation is based on official specification [SVG 2 specification](https://www.w3.org/TR/SVG2/), so you can load, read, manipulate SVG documents as it described officially.
 
-Since [SVGDocument](https://apireference.aspose.com/html/java/com.aspose.html.dom.svg/SVGDocument) and [HTMLDocument](https://apireference.aspose.com/html/java/com.aspose.html/HTMLDocument) are based on the same [WHATWG DOM](https://dom.spec.whatwg.org/) standard, the all operations such as loading, reading, editing, converting and saving are similar for both documents. So, the all examples where you can see manipulation with [HTMLDocument](https://apireference.aspose.com/html/java/com.aspose.html/HTMLDocument) are applicable for [SVGDocument](https://apireference.aspose.com/html/java/com.aspose.html.dom.svg/SVGDocument) as well.
+Since [SVGDocument](https://reference.aspose.com/html/java/com.aspose.html.dom.svg/SVGDocument) and [HTMLDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument) are based on the same [WHATWG DOM](https://dom.spec.whatwg.org/) standard, the all operations such as loading, reading, editing, converting and saving are similar for both documents. So, the all examples where you can see manipulation with [HTMLDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument) are applicable for [SVGDocument](https://reference.aspose.com/html/java/com.aspose.html.dom.svg/SVGDocument) as well.
 
 The example below shows you how to load the SVG Document from the in-memory [Class String](https://cr.openjdk.java.net/~iris/se/15/latestSpec/api/java.base/java/lang/String.html) variable:
 
@@ -57,7 +57,7 @@ The example below shows you how to load the SVG Document from the in-memory [Cla
 ## **EPUB Document** ## 
 For {{%EPUB%}} format, which represents an *electronic publication* format, we have the same limitation as for {{%MHTML%}}. We only support the rendering operations from {{%EPUB%}} to the supported output formats. For more details, please read [Converting Between Formats](/html/java/converting-between-formats/) article.
 ## **Asynchronous Operations** ## 
-We realize that loading a document could be a resource-intensive operation since it’s required loading not only the document itself but all linked resources and processing all scripts. So, in the following code snippets, we show you how to use asynchronous operations and load [HTMLDocument](https://apireference.aspose.com/html/java/com.aspose.html/HTMLDocument) without blocking the main thread:
+We realize that loading a document could be a resource-intensive operation since it’s required loading not only the document itself but all linked resources and processing all scripts. So, in the following code snippets, we show you how to use asynchronous operations and load [HTMLDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument) without blocking the main thread:
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_WorkingWithDocuments_CreatingADocument_HTMLDocumentAsynchronouslyOnReadyStateChange.java" >}}
 

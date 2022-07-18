@@ -26,8 +26,8 @@ For more information on how to use HTML color codes, please visit the [**HTML Co
 To change background color for HTML element using Aspose.HTML API you should follow a few steps:
 
 1. Load an existing HTML file.
-2. Determine which element you want to change the background color for and find this element to set a style attribute for it. Use the [GetElementsByTagName(`name`)](https://apireference.aspose.com/html/net/aspose.html.dom/element/methods/getelementsbytagname) method of the [Element](https://apireference.aspose.com/html/net/aspose.html.dom/element) class that returns HTML element with a given tag name.
-3. Set the `style` attribute with `background-color` property:  use the [Style](https://apireference.aspose.com/html/net/aspose.html/htmlelement/properties/style) property of the [HTMLElement](https://apireference.aspose.com/html/net/aspose.html/htmlelement) class. 
+2. Determine which element you want to change the background color for and find this element to set a style attribute for it. Use the [GetElementsByTagName(`name`)](https://reference.aspose.com/html/net/aspose.html.dom/element/methods/getelementsbytagname) method of the [Element](https://reference.aspose.com/html/net/aspose.html.dom/element) class that returns HTML element with a given tag name.
+3. Set the `style` attribute with `background-color` property:  use the [Style](https://reference.aspose.com/html/net/aspose.html/htmlelement/properties/style) property of the [HTMLElement](https://reference.aspose.com/html/net/aspose.html/htmlelement) class. 
 4. Save the modified HTML document.
 
 You can set or change background color for various HTML elements such as `<p>`,  `<h1>`…`<h6>`, `<div>` or `<table>`.  The following C# example shows the background color change for the first `<p>`element:
