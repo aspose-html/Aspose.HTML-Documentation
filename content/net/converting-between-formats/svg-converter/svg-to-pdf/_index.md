@@ -1,7 +1,6 @@
 ---
-keywords: svg to pdf, convert svg to pdf, svg to pdf conversion, svg to pdf
-  converter, save options
-lastmod: 2022-06-01
+keywords: svg to pdf, convert svg to pdf, svg to pdf conversion, svg to pdf converter, save options, c# code, online converter
+lastmod: 2022-07-28
 url: /net/converting-between-formats/svg-to-pdf/
 title: Convert SVG to PDF | C#
 linktitle: Convert SVG to PDF

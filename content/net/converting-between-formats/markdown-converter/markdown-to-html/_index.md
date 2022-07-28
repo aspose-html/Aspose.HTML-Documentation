@@ -1,7 +1,6 @@
 ---
-keywords: markdown to html, convert markdown to html, markdown to html
-  conversion, markdown to html converter
-lastmod: 2022-01-11
+keywords: markdown to html, convert markdown to html, markdown to html conversion, markdown to html converter, c# code, online converter
+lastmod: 2022-07-28
 url: /net/converting-between-formats/markdown-to-html/
 title: Convert Markdown to HTML | C#
 linktitle: Convert Markdown to HTML

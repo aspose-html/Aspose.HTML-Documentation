@@ -1,33 +1,59 @@
 ---
-title: Convert HTML to BMP | C#
+title: Convert HTML to BMP | C# code and Online Converter
 linktitle: Convert HTML to BMP
-keywords: html to bmp, convert html to bmp, html to bmp conversion, html to bmp
-  converter, save options
-description: This article provides information on how to convert HTML to BMP
-  using the Aspose.HTML API. You will learn about the supported HTML to BMP
-  conversion scenarios and consider examples to illustrate them.
+keywords: html to bmp, convert html to bmp, html to bmp conversion, html to bmp converter, save options, online converter, c# code
+description: Convert HTML to BMP in C# using Aspose.HTML API. Consider various HTML to BMP conversion scenarios in C# examples. Try online HTML Converter.
 weight: 40
 type: docs
 url: /net/converting-between-formats/html-to-bmp/
-lastmod: 2022-06-06
+lastmod: 2022-07-27
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
 BMP files represent Bitmap Image files that are used to store high-quality bitmap digital images. The BMP file format can store data as two-dimensional digital images in both monochrome as well as color format with various color depths. It can save color data for each pixel in an image without any compression. With Aspose.HTML, you can convert HTML to BMP format programmatically with full control over a wide range of conversion parameters. 
 
-In this article, you find information on how to convert  HTML to {{%BMP%}} by using [ConvertHTML(](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/index)) methods of the Converter class, and how to apply [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you find information on how to convert  HTML to {{%BMP%}} by using [ConvertHTML(](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/index)) methods of the Converter class, and how to apply [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider/) parameters.
 
-{{% alert color="primary" %}} 
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-bmp" target="_blank">**HTML to BMP Converter**</a> that converts HTML to BMP image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
-{{% /alert %}} 
 
-<a href="https://products.aspose.app/html/conversion/html-to-bmp" target="_blank">![Text "Banner HTML to BMP Converter"](html-to-bmp.png#center)</a>
+## **Online HTML Converter**
+
+You can check the Aspose.HTML API functionality and convert HTML in real-time. Please load HTML from the local file system, select the output format and run the example. In the example, the save options are set by default. You will immediately receive the result as a separate file.
+
+{{< app/html/converter HTML BMP PDF "JPG|JPEG" TIFF PNG GIF XPS DOCX MD MHTML >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+using Aspose.Html.Rendering.Image;
+
+    using var document = new HTMLDocument("document.{{input lower}}");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'MD'}}
+    var options = new MarkdownSaveOptions();
+{{/if_output}}
+{{#if_output 'MHTML'}}
+    var options = new MHTMLSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
+{{< /app/html/converter>}}
+
+If you want to convert HTML to BMP programmatically, please see the following C# code examples.
 
 ## **Convert HTML to BMP**
 Converting a file to another format using the ConvertHTML() method is a sequence of operations among which document loading and saving:
 
-1. Load an HTML file using the [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument) class ([bmp.html](/html/net/converting-between-formats/html-to-bmp/bmp.html)).
-1. Create a new [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) object with BMP ImageFormat. By default, the Format property is [PNG](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
+1. Load an HTML file using the [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/) class ([bmp.html](/html/net/converting-between-formats/html-to-bmp/bmp.html)).
+1. Create a new [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/) object with BMP ImageFormat. By default, the Format property is [PNG](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat/).
 1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/3) method of the Converter class to save HTML as a BMP image. You need to pass the HTMLDocument, ImageSaveOptions, and output file path to the ConvertHTML() method to convert HTML to BMP.
 
 Please take a look over the following C# code snippet which shows the process of converting HTML to BMP using Aspose.HTML for .NET.
@@ -59,38 +85,8 @@ using Aspose.Html.Saving;
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
 
-### **HTML Converter Live Demos**
-You can convert HTML to BMP with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the conversion result as a separate file.
-
-{{< app/html/converter HTML BMP "JPG|JPEG" TIFF PNG GIF PDF XPS DOCX MD MHTML >}}
-using Aspose.Html;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-
-    using var document = new HTMLDocument("document.{{input lower}}");
-{{#if_output 'PDF'}}
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'MD'}}
-    var options = new MarkdownSaveOptions();
-{{/if_output}}
-{{#if_output 'MHTML'}}
-    var options = new MHTMLSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
-{{< /app/html/converter>}}
-
 ## **Save Options**
-Aspose.HTML allows converting HTML to BMP using default or custom save options. [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) usage enables you to customize the rendering process; you can specify the [image format](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat), [page size](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup), [margins](https://reference.aspose.com/html/net/aspose.html.drawing/page/properties/margin), [compression level](https://reference.aspose.com/html/net/aspose.html.rendering.image/compression), [CSS media-type](https://reference.aspose.com/html/net/aspose.html.rendering/mediatype), etc. 
+Aspose.HTML allows converting HTML to BMP using default or custom save options. [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/) usage enables you to customize the rendering process; you can specify the [image format](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat), [page size](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup), [margins](https://reference.aspose.com/html/net/aspose.html.drawing/page/properties/margin), [compression level](https://reference.aspose.com/html/net/aspose.html.rendering.image/compression), [CSS media-type](https://reference.aspose.com/html/net/aspose.html.rendering/mediatype), etc. 
 
 | Property                                                     | Description                                                  |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
@@ -105,7 +101,8 @@ Aspose.HTML allows converting HTML to BMP using default or custom save options. 
 | [Text](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/text) | Gets a [TextOptions](https://reference.aspose.com/html/net/aspose.html.rendering.image/textoptions) object which is used for configuration of text rendering. |
 
 {{% alert color="primary" %}} 
-To learn more about the [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) class, please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+To learn more about the [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/) class, please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+
 {{% /alert %}}
 
 ## **Convert HTML to BMP using ImageSaveOptions**
@@ -113,8 +110,8 @@ To learn more about the [ImageSaveOptions](https://reference.aspose.com/html/net
 To convert HTML to BMP with ImageSaveOptions specifying, you should follow a few steps: 
 
 1. Load an HTML file using one of the HTMLDocument() constructors of the HTMLDocument class ([bmp.html](/html/net/converting-between-formats/html-to-bmp/bmp.html)). 
-1. Create a new [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) object with BMP ImageFormat and specify save options. By default, the Format property is [PNG](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
-1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/3) method of the  Converter class to save HTML as a BMP image. You need to pass the [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument), [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions), and output file path to the ConvertHTML() method to convert HTML to BMP.
+1. Create a new [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/) object with BMP ImageFormat and specify save options. By default, the Format property is [PNG](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat/).
+1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/3) method of the  Converter class to save HTML as a BMP image. You need to pass the [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/), [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/), and output file path to the ConvertHTML() method to convert HTML to BMP.
 
 The following C# code snippet shows how to convert HTML to BMP using custom save options:
 
@@ -163,11 +160,10 @@ The figure shows the bmp-output-options.bmp file.
 ![Text "BMP image"](bmp-output-options.png#center)
 
 {{% alert color="primary" %}} 
-You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-bmp" target="_blank">**HTML to BMP Converter**</a> that converts HTML to BMP image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+{{% /alert %}} 
 
-You can check the quality of HTML to BMP conversion with our online [**HTML to BMP Converter**](https://products.aspose.app/html/conversion/html-to-bmp). You can convert multiple HTML files to BMP and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to BMP Converter for free now!
-
-{{% /alert %}}
+<a href="https://products.aspose.app/html/conversion/html-to-bmp" target="_blank">![Text "Banner HTML to BMP Converter"](html-to-bmp.png#center)</a>
 
 
 

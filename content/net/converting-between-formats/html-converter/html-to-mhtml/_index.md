@@ -1,9 +1,8 @@
 ---
-keywords: HTML to MHTML, convert HTML to MHTML, HTML to MHTML conversion, HTML
-  to MHTML converter, save options
-lastmod: 2022-06-01
+keywords: HTML to MHTML, convert HTML to MHTML, HTML to MHTML conversion, HTML to MHTML converter, save options, online converter, c# code
+lastmod: 2022-07-28
 url: /net/converting-between-formats/html-to-mhtml/
-title: Convert HTML to MHTML | C#
+title: Convert HTML to MHTML | C# code and Online Converter
 linktitle: Convert HTML to MHTML
 description: This article provides information on how to convert HTML to MHTML
   using Aspose.HTML API. You will learn about the supported HTML to MHTML
@@ -19,14 +18,40 @@ aliases:
 
 MHTML combines normal HTML with external resources like images, animations, audio, etc., into one file with the .mht file extension.  MHTML uses the MIME email protocol to combine items into a single web page archive file. With MHTML, the archival of online web pages becomes much easier and less cluttered.
 
-In this article, you will find information on how to convert  {{%HTML%}} to {{%MHTML%}} and how to use [MHTMLSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/mhtmlsaveoptions).
+In this article, you will find information on how to convert  {{%HTML%}} to {{%MHTML%}} and how to use [MHTMLSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/mhtmlsaveoptions/).
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-mhtml" target="_blank">**HTML to MHTML Converter**</a> that converts HTML to MHTML with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+## **Online HTML Converter**
 
-{{% /alert %}}
+You can convert HTML to MHTML with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the conversion result as a separate file.
 
-<a href="https://products.aspose.app/html/conversion/html-to-mhtml" target="_blank">![Text "Banner HTML to MHTML Converter"](html-to-mhtml.png#center)</a>
+{{< app/html/converter HTML MHTML BMP "JPG|JPEG" TIFF PNG GIF PDF XPS DOCX MD >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+
+    using var document = new HTMLDocument("document.{{input lower}}");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'MD'}}
+    var options = new MarkdownSaveOptions();
+{{/if_output}}
+{{#if_output 'MHTML'}}
+    var options = new MHTMLSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
+{{< /app/html/converter>}}
+
+If you want to convert HTML to MHTML programmatically, please see the following C# code examples.
 
 ## **HTML to MHTML by a single line of code**
 
@@ -75,39 +100,9 @@ using Aspose.Html.Saving;
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
 
-### **HTML Converter Live Demos**
-You can convert HTML to MHTML with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the conversion result as a separate file.
-
-{{< app/html/converter HTML MHTML BMP "JPG|JPEG" TIFF PNG GIF PDF XPS DOCX MD >}}
-using Aspose.Html;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-
-    using var document = new HTMLDocument("document.{{input lower}}");
-{{#if_output 'PDF'}}
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'MD'}}
-    var options = new MarkdownSaveOptions();
-{{/if_output}}
-{{#if_output 'MHTML'}}
-    var options = new MHTMLSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
-{{< /app/html/converter>}}
-
 ## **Save Options**
 
-Aspose.HTML allows converting HTML to MHTML using default or custom save options. [MHTMLSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/mhtmlsaveoptions) usage enables you to customize the rendering process; you can specify the [PageUrlRestriction](https://reference.aspose.com/html/net/aspose.html.saving/resourcehandlingoptions/properties/pageurlrestriction), [ResourceUrlRestriction](https://reference.aspose.com/html/net/aspose.html.saving/resourcehandlingoptions/properties/resourceurlrestriction), [MaxHandlingDepth](https://reference.aspose.com/html/net/aspose.html.saving/resourcehandlingoptions/properties/maxhandlingdepth), etc. 
+Aspose.HTML allows converting HTML to MHTML using default or custom save options. [MHTMLSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/mhtmlsaveoptions) usage enables you to customize the rendering process; you can specify the PageUrlRestriction, ResourceUrlRestriction, MaxHandlingDepth, etc. 
 
 | Property                                                     | Description                                                  |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
@@ -165,11 +160,15 @@ The [MHTMLSaveOptions()](https://reference.aspose.com/html/net/aspose.html.savin
 
 In the above example, we use the property `MaxHandlingDepth = 1` means that only pages directly referenced from the saved document will be handled.
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 
-You can check the quality of HTML to MHTML conversion with our online [**HTML to MHTML Converter**](https://products.aspose.app/html/conversion/html-to-mhtml). You can convert multiple HTML files to MHTML and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to MHTML Converter for free now!
+You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
+
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-mhtml" target="_blank">**HTML to MHTML Converter**</a> that converts HTML to MHTML with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 
 {{% /alert %}}
+
+<a href="https://products.aspose.app/html/conversion/html-to-mhtml" target="_blank">![Text "Banner HTML to MHTML Converter"](html-to-mhtml.png#center)</a>
 
 
 

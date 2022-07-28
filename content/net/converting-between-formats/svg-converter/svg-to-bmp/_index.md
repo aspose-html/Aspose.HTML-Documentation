@@ -1,15 +1,14 @@
 ---
 title: Convert SVG to BMP | C#
 linktitle: Convert SVG to BMP
-keywords: svg to bmp, convert svg to bmp, svg to bmp conversion, svg to bmp
-  converter, save options
+keywords: svg to bmp, convert svg to bmp, svg to bmp conversion, svg to bmp converter, save options, c# code, online converter
 description: This article provides information on how to convert SVG to BMP
   using the Aspose.HTML API. You will learn about the supported SVG to BMP
   conversion scenarios and consider C# examples to illustrate them.
 weight: 40
 type: docs
 url: /net/converting-between-formats/svg-to-bmp/
-lastmod: 2022-06-01
+lastmod: 2022-07-28
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 

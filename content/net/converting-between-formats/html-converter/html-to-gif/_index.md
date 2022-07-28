@@ -1,27 +1,53 @@
 ---
 title: Convert HTML to GIF | C#
 linktitle: Convert HTML to GIF
-keywords: HTML to GIF, convert HTML to GIF, HTML to GIF conversion, HTML to GIF
-  converter, save options
-description: This article provides information on how to convert HTML to GIF
-  using the Aspose.HTML API. You will learn about the supported HTML to GIF
-  conversion scenarios and consider C# examples to illustrate them.
+keywords: HTML to GIF, convert HTML to GIF, HTML to GIF conversion, HTML to GIF converter, save options, online converter, c# code
+description: Convert HTML to GIF in C# using Aspose.HTML API. Consider various HTML to GIF conversion scenarios in C# examples. Try online HTML Converter.
 weight: 60
 type: docs
 url: /net/converting-between-formats/html-to-gif/
-lastmod: 2022-06-01
+lastmod: 2022-07-28
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
 Using [Converter.ConvertHTML](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/converthtml/index) methods is the most common way to convert HTML code into various formats. With Aspose.HTML, you can convert HTML to GIF format programmatically with full control over a wide range of conversion parameters. 
 
-GIF is a popular image format that supports animated images and frequently used in web publishing. HTML to GIF conversion allows you to save an HTML document as a GIF image. In this article, you find information on how to convert  HTML to {{%GIF%}} using ConvertHTML() methods of the Converter class, and how to apply [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
+GIF is a popular image format that supports animated images and frequently used in web publishing. HTML to GIF conversion allows you to save an HTML document as a GIF image. In this article, you find information on how to convert  HTML to {{%GIF%}} using ConvertHTML() methods of the Converter class, and how to apply [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider/) parameters.
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-gif" target="_blank">**HTML to GIF Converter**</a> that converts HTML to GIF image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
-{{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/html-to-gif" target="_blank">![Text "Banner HTML to GIF Converter"](html-to-gif.png#center)</a>
+## **Online HTML Converter**
+
+You can check the Aspose.HTML API functionality and convert HTML in real-time. Please load HTML from the local file system, select the output format and run the example. In the example, the save options are set by default. You will immediately receive the result as a separate file.
+
+{{< app/html/converter HTML GIF BMP "JPG|JPEG" TIFF PNG  PDF XPS DOCX MD MHTML >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+using Aspose.Html.Rendering.Image;
+
+    using var document = new HTMLDocument("document.{{input lower}}");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'MD'}}
+    var options = new MarkdownSaveOptions();
+{{/if_output}}
+{{#if_output 'MHTML'}}
+    var options = new MHTMLSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
+{{< /app/html/converter>}}
+
+If you want to convert HTML to GIF programmatically, please see the following C# code examples.
 
 ## **Convert HTML to GIF**
 Converting a file to another format using the ConvertHTML() method is a sequence of operations among which document loading and saving:
@@ -59,37 +85,6 @@ using Aspose.Html.Saving;
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
 
-### **HTML Converter Live Demos**
-You can convert HTML to GIF with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. You will immediately get the result as a separate file.
-
-{{< app/html/converter HTML GIF BMP "JPG|JPEG" TIFF PNG PDF XPS DOCX MD MHTML >}}
-using Aspose.Html;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-using Aspose.Html.Rendering.Image;
-
-    using var document = new HTMLDocument("document.{{input lower}}");
-{{#if_output 'PDF'}}
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'MD'}}
-    var options = new MarkdownSaveOptions();
-{{/if_output}}
-{{#if_output 'MHTML'}}
-    var options = new MHTMLSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
-{{< /app/html/converter>}}
-
 ## **Save Options**
 Aspose.HTML allows converting HTML to GIF using default or custom save options. [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) usage enables you to customize the rendering process; you can specify the [image format](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat), [page size](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup), [margins](https://reference.aspose.com/html/net/aspose.html.drawing/page/properties/margin), [compression level](https://reference.aspose.com/html/net/aspose.html.rendering.image/compression), [CSS media-type](https://reference.aspose.com/html/net/aspose.html.rendering/mediatype), etc. 
 
@@ -107,7 +102,7 @@ Aspose.HTML allows converting HTML to GIF using default or custom save options. 
 
 {{% alert color="primary" %}} 
 
-To learn more about the [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) class, please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+To learn more about the [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/) class, please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 {{% /alert %}}
 
 ## **Convert HTML to GIF using ImageSaveOptions**
@@ -115,7 +110,7 @@ To learn more about the [ImageSaveOptions](https://reference.aspose.com/html/net
 To convert HTML to GIF with ImageSaveOptions specifying, you should follow a few steps: 
 
 1. Load an HTML file using one of the HTMLDocument() constructors of the HTMLDocument class (color.html). 
-1. Create a new [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) object with GIF ImageFormat and specify save options. By default, the Format property is [PNG](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
+1. Create a new [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/) object with GIF ImageFormat and specify save options. By default, the Format property is [PNG](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat/).
 1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/3) method of the  Converter class to save HTML as a GIF image. You need to pass the HTMLDocument, ImageSaveOptions, and output file path to the ConvertHTML() method to convert HTML to GIF.
 
 The following C# code snippet shows how to convert HTML to GIF using custom save options:
@@ -169,14 +164,14 @@ The figure illustrates the convert-to-gif-options.gif file.
 
 ![Text "convert-to-gif-options.gif image"](convert-to-gif-options.gif#center)
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
+
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 
-You can check the quality of HTML to GIF conversion with our online [**HTML to GIF Converter**](https://products.aspose.app/html/conversion/html-to-gif). You can convert multiple HTML files to GIF and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to GIF Converter for free now!
-
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-gif" target="_blank">**HTML to GIF Converter**</a> that converts HTML to GIF image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
 
-
+<a href="https://products.aspose.app/html/conversion/html-to-gif" target="_blank">![Text "Banner HTML to GIF Converter"](html-to-gif.png#center)</a>
 
 
 

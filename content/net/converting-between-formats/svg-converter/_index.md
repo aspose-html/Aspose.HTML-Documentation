@@ -1,12 +1,12 @@
 ---
 title: SVG Converter | C#
 linktitle: SVG Converter
-keywords: svg converter, convert svg, svg to png, convert svg to png, c#example
+keywords: svg converter, convert svg, svg to png, convert svg to png, c#example, c# code, online converter
 description: In this article, you learn how to convert SVG to other formats using Aspose.HTML API and consider a C# example of SVG to PNG conversion.
 weight: 40
 type: docs
 url: /net/converting-between-formats/svg-converter/
-lastmod: 2022-06-01
+lastmod: 2022-07-28
 ---
 
 {{%SVG%}} files are Scalable Vector Graphics Files that use XML based text format for describing the appearance of an image. The word Scalable refers to the fact that SVG can be scaled to different sizes without losing any quality. A text-based description of such files makes them independent of resolution. It is one of the most used formats for website building and print graphics to achieve scalability.

@@ -5,8 +5,8 @@ type: docs
 weight: 40
 url: /net/converting-between-formats/markdown-to-xps/
 description: This article provides information on how to convert Markdown to XPS using the Aspose.HTML API. You will learn about the supported Markdown to XPS conversion scenarios and consider examples to illustrate them.  
-keywords: Markdown to XPS, convert Markdown to XPS, Markdown to XPS conversion, Markdown to XPS converter
-lastmod: "2022-01-11"
+keywords: Markdown to XPS, convert Markdown to XPS, Markdown to XPS conversion, Markdown to XPS converter, c# code, online converter
+lastmod: "2022-07-28"
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />

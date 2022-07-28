@@ -1,7 +1,6 @@
 ---
-keywords: svg to jpg, convert svg to jpg, svg to jpg conversion, svg to jpg
-  converter, save options
-lastmod: 2022-01-11
+keywords: svg to jpg, convert svg to jpg, svg to jpg conversion, svg to jpg converter, save options, c# code, online converter
+lastmod: 2022-07-28
 url: /net/converting-between-formats/svg-to-jpg/
 title: Convert SVG to JPG | C#
 linktitle: Convert SVG to JPG

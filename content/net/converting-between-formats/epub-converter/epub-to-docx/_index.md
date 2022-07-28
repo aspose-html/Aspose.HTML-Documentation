@@ -1,15 +1,12 @@
 ---
 title: Convert EPUB to DOCX | C#
 linktitle: Convert EPUB to DOCX
-keywords: EPUB to DOCX, convert EPUB to DOCX, EPUB to DOCX conversion, EPUB to
-  DOCX converter, save options, stream provider
-description: This article provides information on how to convert EPUB to DOCX
-  using the Aspose.HTML API. You will learn about the supported EPUB to DOCX
-  conversion scenarios and consider examples to illustrate them.
+keywords: EPUB to DOCX, convert EPUB to DOCX, EPUB to DOCX conversion, EPUB to DOCX converter, save options, stream provider, online converter, c# code
+description: Convert EPUB to DOCX in C# using Aspose.HTML API. Consider various EPUB to DOCX conversion scenarios in C# examples. Try online EPUB Converter.
 weight: 20
 type: docs
 url: /net/converting-between-formats/epub-to-docx/
-lastmod: 2022-06-01
+lastmod: 2022-07-28
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
@@ -18,11 +15,33 @@ DOCX is a well-known format for Microsoft Word documents. This format is popular
 
 In this article, you find information on how to convert {{%EPUB%}} to {{%DOCX%}} using ConvertEPUB() methods of the Converter class and how to apply [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/epub-to-docx" target="_blank">**EPUB to DOCX Converter**</a> that converts EPUB to DOCX with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
-{{% /alert %}}
+## **Online EPUB Converter**
 
-<a href="https://products.aspose.app/html/conversion/epub-to-docx" target="_blank">![Text "Banner EPUB to DOCX Converter"](epub-to-docx.png#center)</a>
+You can convert EPUB to other formats with Aspose.HTML for .NET API in real time. First, load an EPUB file from your local drive and then run the example. The save options in the example are set by default. You will immediately receive the conversion result as a separate file.
+
+{{< app/html/converter EPUB  DOCX "JPG|JPEG" PNG TIFF XPS GIF BMP PDF >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+using Aspose.Html.Rendering.Image;
+
+    using var stream = File.OpenRead(DataDir + "input.epub");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertEPUB(stream, options, "output.{{output lower}}");   
+{{< /app/html/converter>}}
+
+If you want to convert EPUB to DOCX programmatically, please see the following C# code examples.
 
 ## **EPUB to DOCX by two lines of code**
 
@@ -71,30 +90,6 @@ using Aspose.Html.Saving;
 {{% alert color="primary" %}}
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
-
-### **EPUB Converter Live Demos**
-You can convert EPUB to other formats with Aspose.HTML for .NET API in real time. First, load an EPUB file from your local drive and then run the example. The save options in the example are set by default. You will immediately receive the conversion result as a separate file.
-
-{{< app/html/converter EPUB DOCX PDF XPS "JPG|JPEG" TIFF PNG GIF BMP >}}
-using Aspose.Html;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-
-    using var document = new HTMLDocument("document.{{input lower}}");
-{{#if_output 'PDF'}}
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
-{{< /app/html/converter>}}
 
 ## **Save Options**
 
@@ -229,10 +224,13 @@ using Aspose.Html.Saving;
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
-You can check the quality of EPUB to DOCX conversion with our online [**EPUB to DOCX Converter**](https://products.aspose.app/html/conversion/epub-to-docx). You can convert multiple EPUB files to DOCX and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful EPUB to DOCX Converter for free now!
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
+
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/epub-to-docx" target="_blank">**EPUB to DOCX Converter**</a> that converts EPUB to DOCX with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
+
+<a href="https://products.aspose.app/html/conversion/epub-to-docx" target="_blank">![Text "Banner EPUB to DOCX Converter"](epub-to-docx.png#center)</a>
 
 
 

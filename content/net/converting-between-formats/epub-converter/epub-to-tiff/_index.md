@@ -1,25 +1,45 @@
 ---
 title: Convert EPUB to TIFF | C#
 linktitle: Convert EPUB to TIFF
-keywords: epub to tiff, convert epub to tiff, epub to tiff conversion, epub to
-  tiff converter, save options
-description: This article provides information on how to convert EPUB to TIFF
-  using the Aspose.HTML API. You will learn about the supported EPUB to TIFF
-  conversion scenarios and consider examples to illustrate them.
+keywords: epub to tiff, convert epub to tiff, epub to tiff conversion, epub to tiff converter, save options, online converter, c# code
+description: Convert EPUB to TIFF in C# using Aspose.HTML API. Consider various EPUB to TIFF conversion scenarios in C# examples. Try online EPUB Converter.
 weight: 80
 type: docs
 url: /net/converting-between-formats/epub-to-tiff/
-lastmod: 2022-06-01
+lastmod: 2022-07-28
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
-With Aspose.HTML, you can convert EPUB to TIFF format programmatically with full control over a wide range of conversion parameters. In this article, you find information on how to convert  {{%EPUB%}} to {{%TIFF %}} using [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class, and how to apply [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
+With Aspose.HTML, you can convert EPUB to TIFF format programmatically with full control over a wide range of conversion parameters. In this article, you find information on how to convert  {{%EPUB%}} to {{%TIFF %}} using [ConvertEPUB()](https://reference.aspose.com/html/net/aspose.html.converters/converter/convertepub/) methods of the Converter class, and how to apply [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/epub-to-tiff" target="_blank">**EPUB to TIFF Converter**</a> that converts EPUB to TIFF image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
-{{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/epub-to-tiff" target="_blank">![Text "Banner EPUB to TIFF Converter"](epub-to-tiff.png#center)</a> 
+## **Online EPUB Converter**
+
+You can check the Aspose.HTML API functionality and convert EPUB in real-time. Please load an EPUB file from the local file system, select the output format and run the example. In the example, the save options are set by default. You will immediately receive the result as a separate file.
+
+{{< app/html/converter EPUB TIFF GIF BMP PDF DOCX "JPG|JPEG" PNG XPS >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+using Aspose.Html.Rendering.Image;
+
+    using var stream = File.OpenRead(DataDir + "input.epub");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertEPUB(stream, options, "output.{{output lower}}");   
+{{< /app/html/converter>}}
+
+If you want to convert EPUB to TIFF programmatically, please see the following C# code examples.
 
 ## **Convert EPUB to TIFF**
 Using [Converter.ConvertEPUB](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/convertepub/index) methods is the most common way to convert EPUB files into various formats. To convert EPUB to TIFF, you should follow a few steps:
@@ -53,31 +73,6 @@ using Aspose.Html.Saving;
 {{% alert color="primary" %}}
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
-
-### **EPUB Converter Live Demos**
-You can convert EPUB to other formats with Aspose.HTML for .NET API in real time. First, load an EPUB file from your local drive and then run the example. The save options in the example are set by default. You will immediately receive the conversion result as a separate file.
-
-{{< app/html/converter EPUB TIFF PNG BMP "JPG|JPEG" GIF DOCX PDF XPS >}}
-using Aspose.Html;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-using Aspose.Html.Rendering.Image;
-
-    using var document = new HTMLDocument("document.{{input lower}}");
-{{#if_output 'PDF'}}
-var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-Converter.ConvertHTML(document, options, "output.{{output lower}}");   
-{{< /app/html/converter>}}
 
 ## **Save Options**
 Aspose.HTML allows converting EPUB to TIFF using default or custom save options. [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) usage enables you to tune the rendering process. You can specify the page size, margins, CSS, compression, etc. 
@@ -151,9 +146,10 @@ In the example, we use:
 
 {{% alert color="primary" %}} 
 
-Check the quality of EPUB to TIFF conversion with our online [**EPUB to TIFF Converter**](https://products.aspose.app/html/conversion/epub-to-tiff). You can convert multiple EPUB files to TIFF and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful EPUB to TIFF Converter for free now!
-
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/epub-to-tiff" target="_blank">**EPUB to TIFF Converter**</a> that converts EPUB to TIFF image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
+
+<a href="https://products.aspose.app/html/conversion/epub-to-tiff" target="_blank">![Text "Banner EPUB to TIFF Converter"](epub-to-tiff.png#center)</a> 
 

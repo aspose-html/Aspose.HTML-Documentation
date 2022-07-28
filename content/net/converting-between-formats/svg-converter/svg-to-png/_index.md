@@ -1,15 +1,14 @@
 ---
 title: Convert SVG to PNG | C#
 linktitle: Convert SVG to PNG
-keywords: svg to png, convert svg to png, svg to png conversion, svg to png
-  converter, save options
+keywords: svg to png, convert svg to png, svg to png conversion, svg to png converter, save options, c# code, online converter
 description: This article provides information on how to convert SVG to PNG
   using Aspose.HTML API. You will learn about the supported SVG to PNG
   conversion scenarios and consider examples to illustrate them.
 weight: 30
 type: docs
 url: /net/converting-between-formats/svg-to-png/
-lastmod: 2022-01-11
+lastmod: 2022-07-28
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 

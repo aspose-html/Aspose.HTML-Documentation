@@ -1,7 +1,6 @@
 ---
-keywords: svg to xps, convert svg to xps, svg to xps conversion, svg to xps
-  converter, save options
-lastmod: 2022-06-01
+keywords: svg to xps, convert svg to xps, svg to xps conversion, svg to xps converter, save options, c# code, online converter
+lastmod: 2022-07-28
 url: /net/converting-between-formats/svg-to-xps/
 title: Convert SVG to XPS | C#
 linktitle: Convert SVG to XPS

@@ -1,12 +1,12 @@
 ---
 title: Markdown Converter | C#
 linktitle: Markdown Converter
-keywords: Markdown converter, convert markdown, convert markdown to html, markdown to html, convert markdown to jpg, markdown to jpg.
+keywords: Markdown converter, convert markdown, convert markdown to html, markdown to html, convert markdown to jpg, markdown to jpg, c# code, online converter
 description: In this article, you learn how to convert Markdown to other formats using Aspose.HTML API and consider C# example of Markdown to JPG conversion.
 weight: 40
 type: docs
 url: /net/converting-between-formats/markdown-converter/
-lastmod: 2022-06-01
+lastmod: 2022-07-28
 ---
 
 Markdown is a lightweight markup language designed to indicate formatting in plain text. MD files use Markdown language that was proposed and developed by John Gruber. They include inline text characters that determine how text is formatted, such as indentation, table formatting, fonts, and headings. In addition, MD files can be converted to HTML, PDF or images to take advantage of other formats for specific tasks. 

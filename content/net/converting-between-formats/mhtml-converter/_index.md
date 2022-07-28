@@ -1,11 +1,11 @@
 ---
 title: MHTML Converter | C#
 linktitle: MHTML Converter
-keywords: MHTML converter, convert mhtml, convert mhtml to png, mhtml to png, c# example.
+keywords: mhtmlconverter, convert mhtml, convert mhtml to png, mhtml to png, c# example, online converter
 description: In this article, you learn how to convert MHTML to other formats using Aspose.HTML API and consider C# example of MHTML to PNG conversion.
 weight: 30
 type: docs
-lastmod: 2022-01-11
+lastmod: 2022-07-28
 ---
 
 Files with {{%MHTML%}} extension represent a web page archive format that a number of different applications can create. The format is known as archive format because it saves the web HTML code and associated resources in a single file. These resources include anything linked to the webpage such as images, applets, animations, audio files and so on. MHTML files can be opened in a variety of applications such as Internet Explorer and Microsoft Word. The actual specifications of the format are as detailed by RFC 2557.
@@ -33,15 +33,15 @@ using Aspose.Html.Saving;
 
 In the example, we use the OpenRead(`path`) method of System.IO.FileStream class to open and read an MHTML file from the file system at the specified path. You need to pass the MHTML file stream, ImageSaveOptions, and output file path to the [ConvertMHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/convertmhtml/methods/27) method for MHTML to PNG conversion.  **Note:** You need to specify the path to the output file in *your local file system* (`outputPath`). Also, for OpenRead(`path`), you need to provide the path to a source MHTML file in *your local file system*. 
 
-## **MHTML Converter Live Demos**
+## **Online MHTML Converter**
 You can convert MHTML to other formats with Aspose.HTML for .NET API in real time. First, load an MHTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the conversion result as a separate file.
 
-{{< app/html/converter MHTML PDF "JPG|JPEG" TIFF PNG GIF DOCX XPS BMP >}}
+{{< app/html/converter MHTML PNG BMP "JPG|JPEG" GIF TIFF DOCX PDF XPS >}}
 using Aspose.Html;
 using Aspose.Html.Converters;
 using Aspose.Html.Saving;
 
-    using var document = new HTMLDocument("document.{{input lower}}");
+    using var stream = File.OpenRead("sample.mht");
 {{#if_output 'PDF'}}
     var options = new PdfSaveOptions();
 {{/if_output}}
@@ -54,8 +54,8 @@ using Aspose.Html.Saving;
 {{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
     var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
 {{/if_output}}
-    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
-{{< /app/html/converter>}}
+    Converter.ConvertMHTML(stream, options, "output.{{output lower}}");   
+{{< /app/html/converter>}} 
 
 
 {{% alert color="primary" %}} 

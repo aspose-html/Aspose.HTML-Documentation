@@ -1,13 +1,10 @@
 ---
-keywords: MHTML to XPS, convert MHTML to XPS, MHTML to XPS conversion, MHTML to
-  XPS converter, save options, stream provider
-lastmod: 2022-06-01
+keywords: MHTML to XPS, convert MHTML to XPS, MHTML to XPS conversion, MHTML to XPS converter, save options, stream provider, c# code, online converter
+lastmod: 2022-07-28
 url: /net/converting-between-formats/mhtml-to-xps/
 title: Convert MHTML to XPS | C#
 linktitle: Convert MHTML to XPS
-description: This article provides information on how to convert MHTML to XPS
-  using the Aspose.HTML API. You will learn about the supported MHTML to XPS
-  conversion scenarios and consider examples to illustrate them.
+description: Convert MHTML to XPS using Aspose.HTML API. Consider the supported MHTML to XPS conversion scenarios in C# examples. Try online MHTML Converter.
 weight: 20
 type: docs
 aliases:
@@ -19,13 +16,34 @@ aliases:
 
 MHTML to XPS conversion is often required to take advantage of XPS format for specific tasks. An XPS file represents page layout files that are based on XML Paper Specifications, created by Microsoft. 
 
-In this article, you find information on how to convert {{%MHTML%}} to {{%XPS %}} using ConvertHTML() methods of the Converter class and how to apply [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you find information on how to convert {{%MHTML%}} to {{%XPS %}} using ConvertMHTML() methods of the Converter class and how to apply [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/mhtml-to-xps" target="_blank">**MHTML to XPS Converter**</a> that converts MHTML to XPS file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
-{{% /alert %}}
+## **Online MHTML Converter**
 
-<a href="https://products.aspose.app/html/conversion/mhtml-to-xps" target="_blank">![Text "Banner MHTML to XPS Converter"](mhtml-to-xps.png#center)</a>
+You can check the Aspose.HTML API functionality and convert MHTML in real-time. Please load an MHTML file from the local file system, select the output format and run the example. In the example, the save options are set by default. You will immediately receive the result as a separate file.
+
+{{< app/html/converter MHTML XPS BMP "JPG|JPEG" GIF TIFF DOCX PDF >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+
+    using var stream = File.OpenRead("sample.mht");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertMHTML(stream, options, "output.{{output lower}}"); 
+{{< /app/html/converter>}} 
+
+If you want to convert MHTML to XPS format programmatically, please see the following C# code examples.
 
 
 ## **MHTML to XPS by two lines of code**
@@ -78,33 +96,9 @@ using Aspose.Html.Saving;
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
 
-### **MHTML Converter Live Demos**
-You can convert MHTML to other formats with Aspose.HTML for .NET API in real time. First, load an MHTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the conversion result as a separate file.
-
-{{< app/html/converter MHTML XPS DOCX PDF "JPG|JPEG" TIFF PNG GIF BMP >}}
-using Aspose.Html;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-
-    using var document = new HTMLDocument("document.{{input lower}}");
-{{#if_output 'PDF'}}
-var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-Converter.ConvertHTML(document, options, "output.{{output lower}}");   
-{{< /app/html/converter>}}
-
 ## **Save Options**
 
-Aspose.HTML allows converting MHTML to XPS using default or custom save options. [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) usage enables you to customize the rendering process; you can specify the page size, margins, background color, resolutions, etc.  
+Aspose.HTML allows converting MHTML to XPS using default or custom save options. [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/) usage enables you to customize the rendering process; you can specify the page size, margins, background color, resolutions, etc.  
 
 
 | Property                                                     | Description                                                  |
@@ -126,10 +120,10 @@ To learn more about [XpsSaveOptions](https://reference.aspose.com/html/net/aspos
 To convert MHTML to XPS with XpsSaveOptions specifying, you should follow a few steps: 
 
 1. Open an existing MHTML file.
-1. Create a new [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) object and specify save options.
+1. Create a new [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/) object and specify save options.
 1. Use the [ConvertMHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/convertmhtml/methods/29) method to save MHTML as a XPS file. You need to pass the MHTML file stream, XpsSaveOptions, and output file path to the ConvertMHTML() method for MHTML to XPS conversion.
 
-The following example shows how to use [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) and create an XPS file with custom save options:
+The following example shows how to use XpsSaveOptions and create an XPS file with custom save options:
 
 {{< highlight java >}}
 using System.IO;
@@ -161,7 +155,7 @@ In the above example, we use:
  - PageSetup property that specifies the [page size](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) in pixels.
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider/) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 
@@ -240,11 +234,11 @@ using Aspose.Html.Saving;
      }
 {{< /highlight >}}
 
-{{% alert color="primary" %}} 
-You can check the quality of MHTML to XPS conversion with our online [**MHTML to XPS Converter**](https://products.aspose.app/html/conversion/mhtml-to-xps). You can convert multiple MHTML files to XPS and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful MHTML to XPS Converter for free now!
-
-You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
+{{% alert color="primary" %}}
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/mhtml-to-xps" target="_blank">**MHTML to XPS Converter**</a> that converts MHTML to XPS file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
+
+<a href="https://products.aspose.app/html/conversion/mhtml-to-xps" target="_blank">![Text "Banner MHTML to XPS Converter"](mhtml-to-xps.png#center)</a>
 
 
 
