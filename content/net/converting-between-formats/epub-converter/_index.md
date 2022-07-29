@@ -1,12 +1,12 @@
 ---
 title: EPUB Converter | C#
 linktitle: EPUB Converter 
-keywords: epub converter, convert epub, epub to pdf, convert epub to pdf, c# example.
+keywords: epub converter, convert epub, epub to pdf, convert epub to pdf, c# example, online converter, c# code
 description: In this article, you will learn about supported EPUB conversions and consider C# example of how to convert EPUB to PDF.
 weight: 40
 type: docs
 url: /net/converting-between-formats/epub-converter/
-lastmod: 2022-06-01
+lastmod: 2022-07-28
 ---
 
 {{%EPUB %}} is an e-book file format that provides a standard digital publication format for publishers and consumers. The format has been so common by now that many e-readers and software applications support it. For example, on Mac OS, the pre-installed Books software provides the support for opening such files. In addition, a variety of compatible software is available for smartphones, tablets and computers. EPUB file standards are maintained by the International Digital Publishing Forum (IDPF).
@@ -48,15 +48,17 @@ In the example, we specify the source path to EPUB file for the ConvertEPUB() me
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}} 
 
-## **EPUB Converter Live Demos**
-You can convert EPUB to other formats with Aspose.HTML for .NET API in real time. First, load an EPUB file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the conversion result as a separate file.
 
-{{< app/html/converter EPUB PDF XPS DOCX "JPG|JPEG" TIFF PNG GIF BMP >}}
+## **Online EPUB Converter**
+
+You can check the Aspose.HTML API functionality and convert EPUB in real-time. Please load an EPUB file from the local file system, select the output format and run the example. In the example, the save options are set by default. You will immediately receive the result as a separate file.
+
+{{< app/html/converter EPUB PDF GIF BMP DOCX "JPG|JPEG" PNG TIFF XPS >}}
 using Aspose.Html;
 using Aspose.Html.Converters;
 using Aspose.Html.Saving;
 
-    using var document = new HTMLDocument("document.{{input lower}}");
+    using var stream = File.OpenRead(DataDir + "input.epub");
 {{#if_output 'PDF'}}
     var options = new PdfSaveOptions();
 {{/if_output}}
@@ -69,7 +71,7 @@ using Aspose.Html.Saving;
 {{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
     var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
 {{/if_output}}
-    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
+    Converter.ConvertEPUB(stream, options, "output.{{output lower}}");   
 {{< /app/html/converter>}}
 
 {{% alert color="primary" %}} 

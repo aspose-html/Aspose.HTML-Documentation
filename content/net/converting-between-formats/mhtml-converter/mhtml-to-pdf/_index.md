@@ -1,13 +1,10 @@
 ---
-keywords: mhtml to pdf, convert mhtml to pdf, mhtml to pdf conversion, mhtml to
-  pdf converter, save options, stream provider
-lastmod: 2022-06-01
+keywords: mhtml to pdf, convert mhtml to pdf, mhtml to pdf conversion, mhtml to pdf converter, save options, stream provider, c# code, online converter
+lastmod: 2022-07-28
 url: /net/converting-between-formats/mhtml-to-pdf/
-title: Convert MHTML to PDF | C#
+title: Convert MHTML to PDF | C# code and Online Converter
 linktitle: Convert MHTML to PDF
-description: This article provides information on how to convert MHTML to PDF
-  using the Aspose.HTML API. You will learn about the supported MHTML to PDF
-  conversion scenarios and consider examples to illustrate them.
+description: Convert MHTML to PDF using Aspose.HTML API. Consider the supported MHTML to PDF conversion scenarios in C# examples. Try online MHTML Converter.
 weight: 10
 type: docs
 aliases:
@@ -19,13 +16,34 @@ aliases:
 
 MHTML to PDF conversion is often required to take advantage of PDF format for specific tasks. PDF comes with many benefits that other files don't have. For example, many programs and apps support PDF documents; PDF files are optimized for printing, and they are ideal for creating physical copies of your documents; you can configure the security settings for  PDF files - disable printing, editing, using an electronic signature, etc.
 
-In this article, you find information on how to convert {{%MHTML%}} to {{%PDF%}} using ConvertHTML() methods of the Converter class and how to apply [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you find information on how to convert {{%MHTML%}} to {{%PDF%}} using ConvertMHTML() methods of the Converter class and how to apply [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/mhtml-to-pdf" target="_blank">**MHTML to PDF Converter**</a> that converts MHTML to PDF file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
-{{% /alert %}}
+## **Online MHTML Converter**
 
-<a href="https://products.aspose.app/html/conversion/mhtml-to-pdf" target="_blank">![Text "Banner MHTML to PDF Converter"](mhtml-to-pdf.png#center)</a>
+You can check the Aspose.HTML API functionality and convert MHTML in real-time.  Please load an MHTML file from the local file system, select the output format and run the example. In the example, the save options are set by default. You will immediately receive the result as a separate file.
+
+{{< app/html/converter MHTML PDF PNG BMP "JPG|JPEG" GIF TIFF DOCX XPS >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+
+    using var stream = File.OpenRead("sample.mht");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertMHTML(stream, options, "output.{{output lower}}"); 
+{{< /app/html/converter>}} 
+
+If you want to convert MHTML to PDF format programmatically, please see the following C# code examples.
 
 ## **MHTML to PDF by two lines of code**
 
@@ -77,30 +95,6 @@ using Aspose.Html.Saving;
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
 
-### **MHTML Converter Live Demos**
-You can convert MHTML to other formats with Aspose.HTML for .NET API in real time. First, load an MHTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the conversion result as a separate file.
-
-{{< app/html/converter MHTML PDF DOCX XPS "JPG|JPEG" TIFF PNG GIF BMP >}}
-using Aspose.Html;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-
-    using var document = new HTMLDocument("document.{{input lower}}");
-{{#if_output 'PDF'}}
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
-{{< /app/html/converter>}}
-
 ## **Save Options**
 
 Aspose.HTML allows converting MHTML to PDF using default or custom save options. [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) usage enables you to customize the rendering process; you can specify the [page size](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup), [margins](https://reference.aspose.com/html/net/aspose.html.drawing/page/properties/margin), [file permissions](https://reference.aspose.com/html/net/aspose.html.rendering.pdf.encryption/pdfencryptioninfo), [CSS media-type](https://reference.aspose.com/html/net/aspose.html.rendering/mediatype), etc.  
@@ -120,8 +114,6 @@ Aspose.HTML allows converting MHTML to PDF using default or custom save options.
 To learn more about [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 
 {{% /alert %}}
-
-
 
 ## **Convert MHTML to PDF using PdfSaveOptions**
 
@@ -251,10 +243,13 @@ using Aspose.Html.Saving;
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
-You can check the quality of MHTML to PDF conversion with our online [**MHTML to PDF Converter**](https://products.aspose.app/html/conversion/mhtml-to-pdf). You can convert multiple MHTML files to PDF and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful MHTML to PDF Converter for free now!
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
+
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/mhtml-to-pdf" target="_blank">**MHTML to PDF Converter**</a> that converts MHTML to PDF file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
+
+<a href="https://products.aspose.app/html/conversion/mhtml-to-pdf" target="_blank">![Text "Banner MHTML to PDF Converter"](mhtml-to-pdf.png#center)</a>
 
 
 

@@ -1,26 +1,50 @@
 ---
-title: Convert Markdown to Image | C#
+title: Convert Markdown to Image | MD to JPG, PNG, BMP, GIF, TIFF
 linktitle: Convert Markdown to Image
 type: docs
 weight: 50
 url: /net/converting-between-formats/markdown-to-image/
-description: This article provides information on how to convert Markdown to images using the Aspose.HTML API. You will learn about the supported Markdown to JPG, PNG, BMP, GIF or TIFF conversion scenarios and consider examples to illustrate them.  
-keywords: markdown to jpg, convert markdown to jpg, markdown to jpg conversion, markdown to jpg converter, markdown to png, markdown to bmp, markdown to gif, markdown to tiff
-lastmod: "2022-06-01"
+description: Convert Markdown to Image formats in C# using Aspose.HTML API. Consider Markdown to JPG, PNG, BMP, GIF, and TIFF conversions in C# examples. Try online Markdown Converter.  
+keywords: markdown to jpg, convert markdown to jpg, markdown to jpg conversion, markdown to jpg converter, markdown to png, markdown to bmp, markdown to gif, markdown to tiff, c# code, online converter
+lastmod: "2022-07-28"
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
-If you need to preview a Markdown file, you can convert it to image formats. Using the Aspose.HTML class library, you can easily convert Markdown into JPG, PNG, BMP, GIF or TIFF files with just a few lines of code!
+If you need to preview a Markdown file, you can convert it to image formats. Using the Aspose.HTML class library, you can easily convert Markdown into JPG, PNG, BMP, GIF or TIFF files with just a few lines of code! 
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/md-to-jpg" target="_blank">**MD to JPG Converter**</a> that converts Markdown to JPG image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
-{{% /alert %}}
+This article provides information on how to convert Markdown to Image formats using the Aspose.HTML API. You will learn about the supported conversion scenarios and consider C# examples to illustrate them. Also, you can try an Online Markdown Converter to test the Aspose.HTML API functionality and convert Markdown on the fly.
 
-<a href="https://products.aspose.app/html/conversion/md-to-jpg" target="_blank">![Text "Banner MD to JPG Converter"](md-to-jpg.png#center)</a>
+## **Online Markdown Converter**
 
-## **Convert Markdown to JPG**
+You can convert Markdown to other formats with Aspose.HTML for .NET API in real time. Please load Markdown from the local file system, select the output format and run the example.  The save options are set by default. You will immediately receive the conversion result as a separate file.
 
-If your scenario is required rendering Markdown document, for instance, to the JPG image file format, the following example demonstrates how that is simple: 
+{{< app/html/converter MD "JPG|JPEG" GIF BMP XPS TIFF PNG PDF DOCX >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+using Aspose.Html.Rendering.Image;
+
+    using var document = Converter.ConvertMarkdown("input.md");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertHTML(document, options, "output.{{output lower}}");
+{{< /app/html/converter>}}
+
+If you want to convert Markdown to Image formats programmatically, please see the following C# code examples.
+
+## **Convert Markdown to JPG in C#**
+
+Conversions from Markdown to other formats go through the Markdown to HTML conversion stage. If your scenario is required rendering Markdown document, for instance, to the JPG image file format, the following example demonstrates how that is simple: 
 
 1. Prepare a source Markdown document. In the example, we create a Markdown file from code. 
 1. Prepare a path for converted file saving. 
@@ -58,31 +82,6 @@ using Aspose.Html.Rendering.Image;
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
-
-### **Markdown Converter Live Demos**
-You can convert Markdown to other formats with Aspose.HTML for .NET API in real time. First, load an MD file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the conversion result as a separate file.
-
-{{< app/html/converter MD "JPG|JPEG" TIFF PNG GIF BMP PDF DOCX XPS >}}
-using Aspose.Html;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-using Aspose.Html.Rendering.Image;
-
-    using var document = new HTMLDocument("document.{{input lower}}");
-{{#if_output 'PDF'}}
-   var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-   var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-   var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-   var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-   Converter.ConvertHTML(document, options, "output.{{output lower}}");   
-{{< /app/html/converter>}}
 
 ## **Convert Markdown to JPG using ImageSaveOptions**
 If your case is to convert an existing Markdown document from a local file system, the following example could help you. You need to follow a few steps:
@@ -136,7 +135,7 @@ In the above example, we use:
  - BackgroundColor property that sets the color that will fill the background. The default BackgroundColor is Transparent;
  - PageSetup property that specifies the [page size](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) and [margins](https://reference.aspose.com/html/net/aspose.html.drawing/page/properties/margin) in pixels.
 
-## **Convert Markdown to PNG**
+## **Convert Markdown to PNG in C#**
 The following code snippet demonstrates how to convert Markdown to PNG: 
 
 {{< highlight java >}}
@@ -158,7 +157,11 @@ using Aspose.Html.Rendering.Image;
    Converter.ConvertHTML(document, new ImageSaveOptions(), savePath);
 {{< /highlight >}} 
 
-## **Convert Markdown to BMP**
+{{% alert color="primary" %}}
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/md-to-png" target="_blank">**MD to PNG Converter**</a> that converts Markdown to PNG image with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
+{{% /alert %}}
+
+## **Convert Markdown to BMP in C#**
 The following code snippet demonstrates how to convert Markdown to BMP: 
 
 {{< highlight java >}}
@@ -180,7 +183,7 @@ using Aspose.Html.Rendering.Image;
    Converter.ConvertHTML(document, new ImageSaveOptions(ImageFormat.Bmp), savePath);
 {{< /highlight >}} 
 
-## **Convert Markdown to GIF**
+## **Convert Markdown to GIF in C#**
 The following code snippet demonstrates how to convert Markdown to GIF: 
 
 {{< highlight java >}}
@@ -202,7 +205,7 @@ using Aspose.Html.Rendering.Image;
    Converter.ConvertHTML(document, new ImageSaveOptions(ImageFormat.Gif), savePath);
 {{< /highlight >}} 
 
-## **Convert Markdown to TIFF**
+## **Convert Markdown to TIFF in C#**
 The following code snippet demonstrates how to convert Markdown to TIFF: 
 
 {{< highlight java >}}
@@ -227,4 +230,6 @@ using Aspose.Html.Rendering.Image;
 {{% alert color="primary" %}} 
 You can check the quality of Markdown to JPG conversion with our online [**MD to JPG Converter**](https://products.aspose.app/html/conversion/md-to-jpg). Upload, convert your files and get results in a few seconds. Try our forceful Markdown to JPG Converter for free now!
 {{% /alert %}}
+
+<a href="https://products.aspose.app/html/conversion/md-to-jpg" target="_blank">![Text "Banner MD to JPG Converter"](md-to-jpg.png#center)</a>
 

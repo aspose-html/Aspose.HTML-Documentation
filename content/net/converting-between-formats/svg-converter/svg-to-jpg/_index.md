@@ -1,13 +1,10 @@
 ---
-keywords: svg to jpg, convert svg to jpg, svg to jpg conversion, svg to jpg
-  converter, save options
-lastmod: 2022-01-11
+keywords: svg to jpg, convert svg to jpg, svg to jpg conversion, svg to jpg converter, save options, c# code, online converter
+lastmod: 2022-07-28
 url: /net/converting-between-formats/svg-to-jpg/
 title: Convert SVG to JPG | C#
 linktitle: Convert SVG to JPG
-description: This article provides information on how to convert SVG to JPG
-  using Aspose.HTML API. You will learn about the supported SVG to JPG
-  conversion scenarios and consider examples to illustrate them.
+description: Convert SVG to JPG in C# using Aspose.HTML API. Consider various SVG to JPG conversion scenarios in C# examples. Try online SVG Converter.
 weight: 20
 type: docs
 aliases:
@@ -18,13 +15,36 @@ aliases:
 
 JPG files can contain high-quality image data with lossless compression. This unique compression feature allows to quickly and efficiently share JPG images and use them widely on the Web, computers, and mobile devices. Using [ConvertSVG()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods is the most common way to convert SVG into various formats. With Aspose.HTML, you can convert SVG to JPG format programmatically with full control over a wide range of conversion parameters. 
 
-In this article, you find information on SVG to {{%JPG%}} conversion by using [ConvertSVG()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods of the Converter class and applying  [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you find information on how to convert SVG to {{%JPG%}} using ConvertSVG() methods of the Converter class and how to apply [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider/) parameters.  Also, you can try an Online SVG Converter to test the Aspose.HTML API functionality and convert SVG on the fly.
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/svg/conversion/svg-to-jpg" target="_blank">**SVG to JPG Converter**</a> that converts SVG to JPG image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
-{{% /alert %}}
+## **Online SVG Converter**
 
-<a href="https://products.aspose.app/svg/conversion/svg-to-jpg" target="_blank">![Text "Banner SVG to JPG Converter"](svg-to-jpg.png#center)</a>
+You can convert SVG to other formats with Aspose.HTML API in real time. Please load SVG from the local file system, select the output format and run the example. The save options are set by default. You will immediately receive the conversion result as a separate file.
+
+{{< app/svg/converter SVG "JPG|JPEG" BMP GIF XPS TIFF PNG DOCX PDF>}}
+using Aspose.Html;
+using Aspose.Html.Dom.Svg;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+using Aspose.Html.Rendering.Image;
+
+    using var document = new SVGDocument("image.svg");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertSVG(document, options, "output.{{output lower}}");
+{{< /app/svg/converter>}}
+
+If you want to convert SVG to JPG image programmatically, please see the following C# code examples.
 
 ## **SVG to JPG by a single line of code**
 
@@ -42,7 +62,7 @@ using Aspose.Html.Saving;
      Converter.ConvertSVG(Path.Combine(DataDir, "shapes.svg"), new ImageSaveOptions(ImageFormat.Jpeg), Path.Combine(OutputDir, "convert-with-single-line.jpg"));
 {{< /highlight >}}
 
-## **Convert SVG to JPG**
+## **Convert SVG to JPG in C#**
 Converting a file to another format using the ConvertSVG() method is a sequence of operations among which document loading and saving. In the following example, we create an SVG file from code. 
 
 1. Prepare code for an SVG document.
@@ -75,35 +95,6 @@ using Aspose.Html.Saving;
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
-
-### **SVG Converter Live Demos**
-You can convert SVG to other formats with Aspose.HTML API in real time. First, load an SVG file from your local drive and then run the example. The save options are set by default. You will immediately receive the conversion result as a separate file.
-
-{{< app/svg/converter SVG "JPG|JPEG" BMP PDF GIF XPS TIFF PNG DOCX>}}
-using Aspose.Html;
-using Aspose.Html.Dom.Svg;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-using Aspose.Html.Rendering.Image;
-
-    using var document = new SVGDocument("image.svg");
-{{#if_output 'PDF'}}
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'MD'}}
-    var options = new MarkdownSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-    Converter.ConvertSVG(document, options, "output.{{output lower}}");   
-{{< /app/svg/converter>}}
 
 ## **Save Options**
 Aspose.HTML allows converting SVG to JPG using default or custom save options. [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) usage enables you to customize the rendering process. You can specify the image format, page size, margins, background color, etc. 
@@ -259,6 +250,8 @@ Check the quality of SVG to JPG conversion with our online [**SVG to JPG Convert
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
+
+<a href="https://products.aspose.app/svg/conversion/svg-to-jpg" target="_blank">![Text "Banner SVG to JPG Converter"](svg-to-jpg.png#center)</a>
 
 
 

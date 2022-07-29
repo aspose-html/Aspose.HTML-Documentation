@@ -1,11 +1,8 @@
 ---
 title: Convert HTML to PNG | C#
 linktitle: Convert HTML to PNG
-keywords: HTML to PNG, convert HTML to PNG, HTML to PNG converter, save options,
-  stream provider
-description: This article provides information on how to convert HTML to PNG
-  using Aspose.HTML API. You will learn about the supported HTML to PNG
-  conversion scenarios and consider c# examples to illustrate them.
+keywords: HTML to PNG, convert HTML to PNG, HTML to PNG converter, save options, stream provider, online converter, c# code
+description: Convert HTML to PNG in C# using Aspose.HTML API. Consider various HTML to PNG conversion scenarios in C# examples. Try online HTML Converter.
 weight: 30
 type: docs
 url: /net/converting-between-formats/html-to-png/
@@ -15,14 +12,42 @@ lastmod: 2022-06-01
 
 PNG is one of the most used image file formats. It supports lossless image compression that makes it popular among its users.  Converting HTML files to the PNG image may be required, for example, if you want to add a web page in a PowerPoint presentation, insert it on a blog for your readers, or send by e-mail. With Aspose.HTML, you can convert HTML to PNG format programmatically with full control over a wide range of conversion parameters. 
 
-In this article, you find information on how to convert  HTML to {{%PNG%}} by using [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class, and how to apply [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you find information on how to convert  HTML to {{%PNG%}} by using [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class, and how to apply [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider/) parameters.
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-png" target="_blank">**HTML to PNG Converter**</a> that converts HTML to PNG image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 
-{{% /alert %}}
+## **Online HTML Converter**
 
-<a href="https://products.aspose.app/html/conversion/html-to-png" target="_blank">![Text "Banner HTML to PNG Converter"](html-to-png.png#center)</a>
+You can check the Aspose.HTML API functionality and convert HTML in real-time. Please load HTML from the local file system, select the output format and run the example. In the example, the save options are set by default. You will immediately receive the result as a separate file.
+
+{{< app/html/converter HTML PNG GIF BMP "JPG|JPEG" TIFF PDF XPS DOCX MD MHTML >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+using Aspose.Html.Rendering.Image;
+
+    using var document = new HTMLDocument("document.{{input lower}}");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'MD'}}
+    var options = new MarkdownSaveOptions();
+{{/if_output}}
+{{#if_output 'MHTML'}}
+    var options = new MHTMLSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
+{{< /app/html/converter>}}
+
+If you want to convert HTML to PNG programmatically, please see the following C# code examples.
 
 ## **HTML to PNG by a single line of code**
 
@@ -74,38 +99,6 @@ using Aspose.Html.Saving;
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
 
-### **HTML Converter Live Demos**
-
-You can convert HTML to PNG with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. You will immediately get the result as a separate PNG file.
-
-{{< app/html/converter HTML PNG GIF BMP "JPG|JPEG" TIFF PDF XPS DOCX MD MHTML >}}
-using Aspose.Html;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-using Aspose.Html.Rendering.Image;
-
-    using var document = new HTMLDocument("document.{{input lower}}");
-{{#if_output 'PDF'}}
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'MD'}}
-    var options = new MarkdownSaveOptions();
-{{/if_output}}
-{{#if_output 'MHTML'}}
-    var options = new MHTMLSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
-{{< /app/html/converter>}}
-
 ## **Save Options**
 Aspose.HTML allows converting HTML to PNG using default or custom save options. [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) usage enables you to customize the rendering process; you can specify the [image format](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat), [page size](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup), [margins](https://reference.aspose.com/html/net/aspose.html.drawing/page/properties/margin), [CSS media-type](https://reference.aspose.com/html/net/aspose.html.rendering/mediatype), etc. 
 
@@ -123,7 +116,7 @@ Aspose.HTML allows converting HTML to PNG using default or custom save options. 
 
 {{% alert color="primary" %}} 
 
-To learn more about the [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) class, please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+To learn more about the [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/) class, please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 {{% /alert %}}
 
 ## **Convert HTML to PNG using ImageSaveOptions**
@@ -257,13 +250,15 @@ using Aspose.Html.Saving;
     }
 {{< /highlight >}}
 
-{{% alert color="primary" %}} 
-
-You can check the quality of HTML to PNG conversion with our online  [**HTML to PNG Converter**](https://products.aspose.app/html/conversion/html-to-png). You can convert multiple HTML files to PNG and merge them into a single document. Try our forceful HTML to PNG Converter for free now!
+{{% alert color="primary" %}}
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-png" target="_blank">**HTML to PNG Converter**</a> that converts HTML to PNG image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+
 {{% /alert %}}
+
+<a href="https://products.aspose.app/html/conversion/html-to-png" target="_blank">![Text "Banner HTML to PNG Converter"](html-to-png.png#center)</a>
 
 
 

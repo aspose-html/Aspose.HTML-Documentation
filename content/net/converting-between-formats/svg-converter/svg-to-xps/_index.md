@@ -1,13 +1,10 @@
 ---
-keywords: svg to xps, convert svg to xps, svg to xps conversion, svg to xps
-  converter, save options
-lastmod: 2022-06-01
+keywords: svg to xps, convert svg to xps, svg to xps conversion, svg to xps converter, save options, c# code, online converter
+lastmod: 2022-07-28
 url: /net/converting-between-formats/svg-to-xps/
 title: Convert SVG to XPS | C#
 linktitle: Convert SVG to XPS
-description: This article provides information on how to convert SVG to XPS
-  using Aspose.HTML API. You will learn about the supported SVG to XPS
-  conversion scenarios and consider examples to illustrate them.
+description: Convert SVG to XPS in C# using Aspose.HTML API. Consider various SVG to XPS conversion scenarios in C# examples. Try online SVG Converter.
 weight: 70
 type: docs
 aliases:
@@ -18,13 +15,35 @@ aliases:
 
 XPS is a document storage and viewing format developed by Microsoft. An XPS file has a set of advantages that support security features, such as digital signatures to provide greater document security and more. With Aspose.HTML, you can convert SVG to XPS format programmatically with full control over a wide range of conversion parameters. 
 
-In this article, you find information on how to convert SVG to {{%XPS%}} by using [ConvertSVG()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods of the Converter class and applying  [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you find information on how to convert SVG to {{%XPS%}} using [ConvertSVG()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods of the Converter class and how to apply  [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider/) parameters.  Also, you can try an Online SVG Converter to test the Aspose.HTML API functionality and convert SVG on the fly.
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/svg/conversion/svg-to-xps" target="_blank">**SVG to XPS Converter**</a> that converts SVG to XPS file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
-{{% /alert %}}
+## **Online SVG Converter**
 
-<a href="https://products.aspose.app/svg/conversion/svg-to-xps" target="_blank">![Text "Banner SVG to XPS Converter"](svg-to-xps.png#center)</a>
+You can convert SVG to other formats with Aspose.HTML API in real time. Please load SVG from the local file system, select the output format and run the example. The save options are set by default. You will immediately receive the conversion result as a separate file.
+
+{{< app/svg/converter SVG XPS PDF "JPG|JPEG" GIF BMP TIFF PNG DOCX>}}
+using Aspose.Html;
+using Aspose.Html.Dom.Svg;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+
+    using var document = new SVGDocument("image.svg");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertSVG(document, options, "output.{{output lower}}");
+{{< /app/svg/converter>}}
+
+If you want to convert SVG to XPS file programmatically, please see the following C# code examples.
 
 ## **SVG to XPS by a single line of code**
 
@@ -73,34 +92,6 @@ using Aspose.Html.Saving;
 {{% alert color="primary" %}}
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
-
-### **SVG Converter Live Demos**
-You can convert SVG to other formats with Aspose.HTML API in real time. First, load an SVG file from your local drive and then run the example. The save options are set by default. You will immediately receive the conversion result as a separate file.
-
-{{< app/svg/converter SVG XPS "JPG|JPEG" BMP PDF GIF TIFF PNG DOCX>}}
-using Aspose.Html;
-using Aspose.Html.Dom.Svg;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-
-    using var document = new SVGDocument("image.svg");
-{{#if_output 'PDF'}}
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'MD'}}
-    var options = new MarkdownSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-    Converter.ConvertSVG(document, options, "output.{{output lower}}");   
-{{< /app/svg/converter>}}
 
 ## **Save Options**
 Aspose.HTML allows converting SVG to XPS using default or custom save options. [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) usage enables you to customize the rendering process; you can specify the page size, margins, background color, etc. 
@@ -250,6 +241,8 @@ Check the quality of SVG to XPS conversion with our online [**SVG to XPS Convert
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 
 {{% /alert %}}
+
+<a href="https://products.aspose.app/svg/conversion/svg-to-xps" target="_blank">![Text "Banner SVG to XPS Converter"](svg-to-xps.png#center)</a>
 
 
 

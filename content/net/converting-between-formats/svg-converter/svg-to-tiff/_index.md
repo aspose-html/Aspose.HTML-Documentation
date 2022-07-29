@@ -1,24 +1,45 @@
 ---
 title: Convert SVG to TIFF | C#
 linktitle: Convert SVG to TIFF
-keywords: svg to tiff, convert svg to tiff, svg to tiff conversion, svg to tiff converter
-description: This article provides information on how to convert SVG to TIFF
-  using the Aspose.HTML API. You will learn about the supported SVG to TIFF
-  conversion scenarios and consider examples to illustrate them.
+keywords: svg to tiff, convert svg to tiff, svg to tiff conversion, svg to tiff converter, c# code, online converter
+description: Convert SVG to TIFF in C# using Aspose.HTML API. Consider various SVG to TIFF conversion scenarios in C# examples. Try online SVG Converter.
 weight: 60
 type: docs
 url: /net/converting-between-formats/svg-to-tiff/
-lastmod: 2022-01-11
+lastmod: 2022-07-28
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
-With Aspose.HTML, you can convert SVG to TIFF format programmatically with full control over a wide range of conversion parameters. In this article, you find information on how to convert SVG to {{%TIFF%}} by using [ConvertSVG()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods of the Converter class and applying  [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions).
+With Aspose.HTML, you can convert SVG to TIFF format programmatically with full control over a wide range of conversion parameters. In this article, you find information on how to convert SVG to {{%TIFF%}} by using [ConvertSVG()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods of the Converter class and how to apply  [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions).  Also, you can try an Online SVG Converter to test the Aspose.HTML API functionality and convert SVG on the fly.
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/svg/conversion/svg-to-tiff" target="_blank">**SVG to TIFF Converter**</a> that converts SVG to TIFF image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
-{{% /alert %}}
+## **Online SVG Converter**
 
-<a href="https://products.aspose.app/svg/conversion/svg-to-tiff" target="_blank">![Text "Banner SVG to TIFF Converter"](svg-to-tiff.png#center)</a>
+You can convert SVG to other formats with Aspose.HTML API in real time. Please load SVG from the local file system, select the output format and run the example. The save options are set by default. You will immediately receive the conversion result as a separate file.
+
+{{< app/svg/converter SVG TIFF BMP PDF "JPG|JPEG" GIF XPS PNG DOCX>}}
+using Aspose.Html;
+using Aspose.Html.Dom.Svg;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+using Aspose.Html.Rendering.Image;
+
+    using var document = new SVGDocument("image.svg");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertSVG(document, options, "output.{{output lower}}");
+{{< /app/svg/converter>}}
+
+If you want to convert SVG to TIFF  image programmatically, please see the following C# code examples.
 
 ## **SVG to TIFF by a single line of code**
 
@@ -70,35 +91,6 @@ using Aspose.Html.Saving;
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
-
-### **SVG Converter Live Demos**
-You can convert SVG to other formats with Aspose.HTML API in real time. First, load an SVG file from your local drive and then run the example. The save options are set by default. You will immediately receive the conversion result as a separate file.
-
-{{< app/svg/converter SVG TIFF "JPG|JPEG" BMP PDF GIF XPS PNG DOCX>}}
-using Aspose.Html;
-using Aspose.Html.Dom.Svg;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-using Aspose.Html.Rendering.Image;
-
-    using var document = new SVGDocument("image.svg");
-{{#if_output 'PDF'}}
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'MD'}}
-    var options = new MarkdownSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-    Converter.ConvertSVG(document, options, "output.{{output lower}}");   
-{{< /app/svg/converter>}}
 
 ## **Convert SVG to TIFF using ImageSaveOptions**
 
@@ -162,6 +154,8 @@ Check the quality of SVG to TIFF conversion with our online [**SVG to TIFF Conve
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
+
+<a href="https://products.aspose.app/svg/conversion/svg-to-tiff" target="_blank">![Text "Banner SVG to TIFF Converter"](svg-to-tiff.png#center)</a>
 
 
 

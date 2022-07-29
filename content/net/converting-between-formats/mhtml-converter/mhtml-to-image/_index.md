@@ -1,13 +1,10 @@
 ---
-keywords: MHTML to JPG, convert MHTML to JPG, MHTML to JPG converter, MHTML to
-  PNG, MHTML to BMP, MHTML to GIF, MHTML to TIFF, save options
-lastmod: 2022-06-01
+keywords: MHTML to JPG, convert MHTML to JPG, MHTML to JPG converter, MHTML to PNG, MHTML to BMP, MHTML to GIF, MHTML to TIFF, save options, c# code, online converter
+lastmod: 2022-07-28
 url: /net/converting-between-formats/mhtml-to-image/
 title: Convert MHTML to Image | C#
 linktitle: Convert MHTML to Image
-description: This article provides information on how to convert MHTML to Image
-  file formats using Aspose.HTML API. You will learn about the supported MHTML
-  to Image conversion scenarios and consider examples to illustrate them.
+description: Convert MHTML to Image using Aspose.HTML API. Consider the supported MHTML to Image conversion scenarios in C# examples. Try online MHTML Converter.
 weight: 40
 type: docs
 aliases:
@@ -18,11 +15,34 @@ aliases:
 
 In this article, you will find information on how to convert an {{%MHTML%}} file to Image File Formats such as {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, or {{%GIF%}} and how to use [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/mhtml-to-jpg" target="_blank">**MHTML to JPG Converter**</a> that converts MHTML to JPG image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
-{{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/mhtml-to-jpg" target="_blank">![Text "Banner MHTML to JPG Converter"](mhtml-to-jpg.png#center)</a>
+## **Online MHTML Converter**
+
+You can check the Aspose.HTML API functionality and convert MHTML in real-time.  Please load an MHTML file from the local file system, select the output format and run the example. In the example, the save options are set by default. You will immediately receive the result as a separate file.
+
+{{< app/html/converter MHTML PNG BMP "JPG|JPEG" GIF TIFF DOCX PDF XPS >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Rendering.Image;
+using Aspose.Html.Saving;
+
+    using var stream = File.OpenRead("sample.mht");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertMHTML(stream, options, "output.{{output lower}}"); 
+{{< /app/html/converter>}} 
+
+If you want to convert MHTML to Image formats programmatically, please see the following C# code examples.
 
 ## **MHTML to JPG by two lines of code**
 
@@ -70,31 +90,6 @@ using Aspose.Html.Saving;
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
-
-### **MHTML Converter Live Demos**
-You can convert MHTML to other formats with Aspose.HTML for .NET API in real time. First, load an MHTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the conversion result as a separate file.
-
-{{< app/html/converter MHTML "JPG|JPEG" TIFF PNG GIF BMP XPS DOCX PDF >}}
-using Aspose.Html;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-using Aspose.Html.Rendering.Image;
-
-    using var document = new HTMLDocument("document.{{input lower}}");
-{{#if_output 'PDF'}}
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
-{{< /app/html/converter>}}
 
 ## **Convert MHTML to PNG**
 Converting a file to another format using the ConvertMHTML() method is a sequence of operations among which document loading and saving:
@@ -362,8 +357,11 @@ using Aspose.Html.Saving;
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
-You can check the quality of MHTML to JPG, PNG, BMP, GIF or TIFF conversion with our online [**MHTML Converter**](https://products.aspose.app/html/conversion/mhtml). You can convert multiple MHTML files to JPG or other image formats and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful MHTML Converter for free now!
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
+
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/mhtml-to-jpg" target="_blank">**MHTML to JPG Converter**</a> that converts MHTML to JPG image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
+
+<a href="https://products.aspose.app/html/conversion/mhtml-to-jpg" target="_blank">![Text "Banner MHTML to JPG Converter"](mhtml-to-jpg.png#center)</a>
 

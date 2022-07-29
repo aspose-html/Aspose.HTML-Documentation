@@ -1,13 +1,10 @@
 ---
-keywords: html to jpg, convert html to jpg, html to jpg conversion, html to jpg
-  converter, save options
-lastmod: 2022-06-01
+keywords: html to jpg, convert html to jpg, html to jpg conversion, html to jpg converter, save options, online converter, c# code
+lastmod: 2022-07-28
 url: /net/converting-between-formats/html-to-jpg/
 title: Convert HTML to JPG | C#
 linktitle: Convert HTML to JPG
-description: This article provides information on how to convert HTML to JPG
-  using the Aspose.HTML API. You will learn about the supported HTML to JPG
-  conversion scenarios and consider C# examples to illustrate them.
+description: Convert HTML to JPG in C# using Aspose.HTML API. Consider various HTML to JPG conversion scenarios in C# examples. Try online HTML Converter.
 weight: 20
 type: docs
 aliases:
@@ -20,18 +17,46 @@ aliases:
 
 JPG files can contain high-quality image data with lossless compression. This unique compression feature allows to quickly and efficiently share JPG images and use them widely on the Web, computers, and mobile devices. Converting HTML files to the JPG image may be required, for example, if you want to add a web page in a PowerPoint presentation or send it by e-mail. Using [Converter.ConvertHTML](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/converthtml/index) methods is the most common way to convert HTML code into various formats. JPG is a commonly used format for storing images, and HTML to JPG conversion is very popular. With Aspose.HTML, you can convert HTML to JPG format programmatically with full control over a wide range of conversion parameters. 
 
-In this article, you find information on converting HTML to {{%JPG%}} by using [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class and applying  [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you find information on converting HTML to {{%JPG%}} by using [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class and applying  [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider/) parameters.
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-jpg" target="_blank">**HTML to JPG Converter**</a> that converts HTML to JPG image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 
-{{% /alert %}}
+## **Online HTML Converter**
 
-<a href="https://products.aspose.app/html/conversion/html-to-jpg" target="_blank">![Text "Banner HTML to JPG Converter"](html-to-jpg.png#center)</a>
+You can check the Aspose.HTML API functionality and convert HTML in real-time. Please load HTML from the local file system, select the output format and run the example. In the example, the save options are set by default. You will immediately receive the result as a separate file.
+
+{{< app/html/converter HTML  "JPG|JPEG" TIFF PNG GIF BMP PDF XPS DOCX MD MHTML >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+using Aspose.Html.Rendering.Image;
+
+    using var document = new HTMLDocument("document.{{input lower}}");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'MD'}}
+    var options = new MarkdownSaveOptions();
+{{/if_output}}
+{{#if_output 'MHTML'}}
+    var options = new MHTMLSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
+{{< /app/html/converter>}}
+
+If you want to convert HTML to JPG programmatically, please see the following C# code examples.
 
 ## **HTML to JPG by a single line of code**
 
-The static methods of the [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter) class are primarily used as the easiest way to convert HTML code into various formats. You can convert HTML to JPG in your C# application literally with a single line of code!
+The static methods of the [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter/) class are primarily used as the easiest way to convert HTML code into various formats. You can convert HTML to JPG in your C# application literally with a single line of code!
 
 {{< highlight java >}}
 using System.IO;
@@ -46,8 +71,8 @@ using Aspose.Html.Saving;
 ## **Convert HTML to JPG**
 Converting a file to another format using the ConvertHTML() method is a sequence of operations among which document loading and saving:
 
-1. Load an HTML file using the [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument) class ([spring.html](/html/net/converting-between-formats/html-to-pdf/spring.html)).
-1. Create a new [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) object with JPG ImageFormat. By default, the Format property is [PNG](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
+1. Load an HTML file using the [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/) class ([spring.html](/html/net/converting-between-formats/html-to-pdf/spring.html)).
+1. Create a new [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/) object with JPG ImageFormat. By default, the Format property is [PNG](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat/).
 1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/3) method of the Converter class to save HTML as a JPG image. You need to pass the HTMLDocument, ImageSaveOptions, and output file path to the ConvertHTML() method to convert HTML to JPG.
 
 Please take a look over the following C# code snippet which shows the process of converting HTML to JPG using Aspose.HTML for .NET.
@@ -82,37 +107,6 @@ The figure illustrates the spring-output.jpg file.
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
-
-### **HTML Converter Live Demos**
-You can convert HTML to JPG with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. You will immediately get the result as a separate JPG file.
-
-{{< app/html/converter HTML "JPG|JPEG" PDF XPS DOCX BMP TIFF PNG GIF MD MHTML >}}
-using Aspose.Html;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-using Aspose.Html.Rendering.Image;
-
-    using var document = new HTMLDocument("document.{{input lower}}");
-{{#if_output 'PDF'}}
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'MD'}}
-    var options = new MarkdownSaveOptions();
-{{/if_output}}
-{{#if_output 'MHTML'}}
-    var options = new MHTMLSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
-{{< /app/html/converter>}}
 
 ## **Save Options**
 Aspose.HTML allows converting HTML to JPG using default or custom save options. [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) usage enables you to customize the rendering process. You can specify the [image format](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat), [page size](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup), [margins](https://reference.aspose.com/html/net/aspose.html.drawing/page/properties/margin), [CSS media-type](https://reference.aspose.com/html/net/aspose.html.rendering/mediatype), etc. 
@@ -165,7 +159,7 @@ using Aspose.Html.Drawing;
 
 {{% alert color="primary" %}} 
 
-To learn more about the [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) class, please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+To learn more about the [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/) class, please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 {{% /alert %}}
 
 ## **Convert HTML to JPG using ImageSaveOptions**
@@ -173,7 +167,7 @@ To learn more about the [ImageSaveOptions](https://reference.aspose.com/html/net
 To convert HTML to JPG with ImageSaveOptions specifying, you should follow a few steps: 
 
 1. Load an HTML file using one of the HTMLDocument() constructors of the HTMLDocument class ([color.html](/html/net/converting-between-formats/html-to-jpg/color.html)). 
-1. Create a new [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) object with JPG ImageFormat and specify save options. By default, the Format property is [PNG](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
+1. Create a new [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/) object with JPG ImageFormat and specify save options. By default, the Format property is [PNG](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat).
 1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/3) method of the  Converter class to save HTML as a JPG image. You need to pass the HTMLDocument, ImageSaveOptions, and output file path to the ConvertHTML() method to convert HTML to JPG.
 
 The following C# code snippet shows how to convert HTML to JPG using custom save options:
@@ -306,13 +300,15 @@ using Aspose.Html.Saving;
     }
 {{< /highlight >}}
 
-{{% alert color="primary" %}} 
-
-Check the quality of HTML to JPG conversion with our online [**HTML to JPG Converter**](https://products.aspose.app/html/conversion/html-to-jpg). You can convert multiple HTML files to JPG and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to JPG Converter for free now!
+{{% alert color="primary" %}}
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-jpg" target="_blank">**HTML to JPG Converter**</a> that converts HTML to JPG image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+
 {{% /alert %}}
+
+<a href="https://products.aspose.app/html/conversion/html-to-jpg" target="_blank">![Text "Banner HTML to JPG Converter"](html-to-jpg.png#center)</a>
 
 
 

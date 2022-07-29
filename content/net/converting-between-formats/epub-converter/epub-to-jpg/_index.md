@@ -1,13 +1,10 @@
 ---
-keywords: epub to jpg, convert epub to jpg, epub to jpg conversion, epub to jpg
-  converter, save options
-lastmod: 2022-06-01
+keywords: epub to jpg, convert epub to jpg, epub to jpg conversion, epub to jpg converter, save options, online converter, c# code
+lastmod: 2022-07-28
 url: /net/converting-between-formats/epub-to-jpg/
 title: Convert EPUB to JPG | C#
 linktitle: Convert EPUB to JPG
-description: This article provides information on how to convert EPUB to JPG
-  using Aspose.HTML API. You will learn about the supported EPUB to JPG
-  conversion scenarios and consider examples to illustrate them.
+description: Convert EPUB to JPG in C# using Aspose.HTML API. Consider various EPUB to JPG conversion scenarios in C# examples. Try online EPUB Converter.
 weight: 40
 type: docs
 aliases:
@@ -18,13 +15,35 @@ aliases:
 
 JPG files can contain high-quality image data with lossless compression. This unique compression feature allows to quickly and efficiently share JPG images and use them widely on the Web, computers, and mobile devices. With Aspose.HTML, you can convert EPUB to JPG format programmatically with full control over a wide range of conversion parameters.
 
-In this article, you find information on how to convert  {{%EPUB%}} to {{%JPG%}} using [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class, and how to apply [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you find information on how to convert  {{%EPUB%}} to {{%JPG%}} using [ConvertEPUB()](https://reference.aspose.com/html/net/aspose.html.converters/converter/convertepub/) methods of the Converter class, and how to apply [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/epub-to-jpg" target="_blank">**EPUB to JPG Converter**</a> that converts EPUB to JPG image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
-{{% /alert %}}
+## **Online EPUB Converter**
 
-<a href="https://products.aspose.app/html/conversion/epub-to-jpg" target="_blank">![Text "Banner EPUB to JPG Converter"](epub-to-jpg.png#center)</a>
+You can convert EPUB to other formats with Aspose.HTML for .NET API in real time. First, load an EPUB file from your local drive and then run the example. The save options in the example are set by default. You will immediately receive the conversion result as a separate file.
+
+{{< app/html/converter EPUB  "JPG|JPEG" PNG TIFF GIF BMP PDF DOCX XPS >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+using Aspose.Html.Rendering.Image;
+
+    using var stream = File.OpenRead(DataDir + "input.epub");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertEPUB(stream, options, "output.{{output lower}}");   
+{{< /app/html/converter>}}
+
+If you want to convert EPUB to JPG programmatically, please see the following C# code examples.
 
 ## **EPUB to JPG by two lines of code**
 
@@ -75,31 +94,6 @@ using Aspose.Html.Saving;
 {{% alert color="primary" %}}
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
-
-### **EPUB Converter Live Demos**
-You can convert EPUB to other formats with Aspose.HTML for .NET API in real time. First, load an EPUB file from your local drive and then run the example. The save options in the example are set by default. You will immediately receive the conversion result as a separate file.
-
-{{< app/html/converter EPUB "JPG|JPEG" TIFF PNG GIF BMP DOCX PDF XPS >}}
-using Aspose.Html;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-using Aspose.Html.Rendering.Image;
-
-    using var document = new HTMLDocument("document.{{input lower}}");
-{{#if_output 'PDF'}}
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
-{{< /app/html/converter>}}
 
 ## **Save Options**
 Aspose.HTML allows converting EPUB to JPG using default or custom save options. [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) usage enables you to tune the rendering process. You can specify the [image format](https://reference.aspose.com/html/net/aspose.html.rendering.image/imageformat), [page size](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup), [margins](https://reference.aspose.com/html/net/aspose.html.drawing/page/properties/margin), [CSS media-type](https://reference.aspose.com/html/net/aspose.html.rendering/mediatype), etc. 
@@ -256,9 +250,9 @@ using Aspose.Html.Saving;
 
 The ConvertEPUB(`Stream`, `ImageSaveOptions`, `ICreateStreamProvider`) method takes the conversion source, options, and instance of MemoryStreamProvider, which will be used to get an output stream, and performs the conversion operation.
 
-{{% alert color="primary" %}} 
-
-You can check the quality of EPUB to JPG conversion with our online [**EPUB to JPG Converter**](https://products.aspose.app/html/conversion/epub-to-jpg). Upload, convert your files and get results in a few seconds. Try our forceful EPUB to JPG Converter for free now!
-
+{{% alert color="primary" %}}
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/epub-to-jpg" target="_blank">**EPUB to JPG Converter**</a> that converts EPUB to JPG image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
+
+<a href="https://products.aspose.app/html/conversion/epub-to-jpg" target="_blank">![Text "Banner EPUB to JPG Converter"](epub-to-jpg.png#center)</a>
 

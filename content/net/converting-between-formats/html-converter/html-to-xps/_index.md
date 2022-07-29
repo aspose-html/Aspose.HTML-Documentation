@@ -1,9 +1,8 @@
 ---
-keywords: HTML to XPS, convert HTML to XPS, HTML to XPS conversion, HTML to XPS
-  converter, save options, stream provider
-lastmod: 2022-06-01
+keywords: HTML to XPS, convert HTML to XPS, HTML to XPS conversion, HTML to XPS converter, save options, stream provider, online converter, c# code
+lastmod: 2022-07-28
 url: /net/converting-between-formats/html-to-xps/
-title: Convert HTML to XPS | C#
+title: Convert HTML to XPS | C# code and Online Converter
 linktitle: Convert HTML to XPS
 description: You will learn about the supported HTML to XPS conversion scenarios using Aspose.HTML API and consider C# examples to illustrate them.
 weight: 70
@@ -16,15 +15,41 @@ aliases:
 
 XPS is a document storage and viewing format developed by Microsoft.  It has a set of advantages that support security features, such as digital signatures to provide greater document security and more. HTML to XPS conversion is often required to establish limited access to document editing or copying. XPS file format provides access rights management and gives high-quality printable documents. XPS files can be used to share documents, and you can be sure that what you see on the page is the same as what other people see when using the XPS Viewer. 
 
-Using [Converter.ConvertHTML](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/converthtml/index) methods is the most common way to convert HTML code into various formats.  With Aspose.HTML, you can convert HTML to XPS format programmatically with full control over a wide range of conversion parameters. 
+Using [Converter.ConvertHTML](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/converthtml/index) methods is the most common way to convert HTML code into various formats.  With Aspose.HTML, you can convert HTML to XPS format programmatically with full control over a wide range of conversion parameters. In this article, you find information on how to convert  HTML to {{%XPS%}} using ConvertHTML() methods of the Converter class, and how to apply [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
-In this article, you find information on how to convert  HTML to {{%XPS%}} using ConvertHTML() methods of the Converter class, and how to apply [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/html-to-xps" target="_blank">**HTML to XPS Converter**</a> that converts HTML to XPS with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+## **Online HTML Converter**
 
-{{% /alert %}}
-<a href="https://products.aspose.app/html/en/conversion/html-to-xps" target="_blank">![Text "Banner HTML to XPS Converter"](html-to-xps.png#center)</a>
+You can check the Aspose.HTML API functionality and convert HTML in real-time. Please load HTML from the local file system, select the output format and run the example. In the example, the save options are set by default. You will immediately receive the result as a separate file.
+
+{{< app/html/converter HTML XPS GIF BMP "JPG|JPEG" TIFF PNG  PDF DOCX MD MHTML >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+
+    using var document = new HTMLDocument("document.{{input lower}}");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'MD'}}
+    var options = new MarkdownSaveOptions();
+{{/if_output}}
+{{#if_output 'MHTML'}}
+    var options = new MHTMLSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
+{{< /app/html/converter>}}
+
+If you want to convert HTML to XPS programmatically, please see the following C# code examples.
 
 ## **HTML to XPS by a single line of code**
 
@@ -73,36 +98,6 @@ using Aspose.Html.Saving;
 {{% alert color="primary" %}}
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
-
-### **HTML Converter Live Demos**
-You can convert HTML to XPS with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the result as a separate file.
-
-{{< app/html/converter HTML XPS PDF "JPG|JPEG" TIFF PNG GIF DOCX MD MHTML >}}
-using Aspose.Html;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-
-    using var document = new HTMLDocument("document.{{input lower}}");
-{{#if_output 'PDF'}}
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'MD'}}
-    var options = new MarkdownSaveOptions();
-{{/if_output}}
-{{#if_output 'MHTML'}}
-    var options = new MHTMLSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
-{{< /app/html/converter>}}
 
 ## **Save Options**
 Aspose.HTML allows converting HTML to XPS using default or custom save options. [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) usage enables you to customize the rendering process. You can specify the page size, margins, Css, etc. 
@@ -251,11 +246,12 @@ using Aspose.Html.Saving;
 
 {{% alert color="primary" %}} 
 
-You can check the quality of HTML to XPS conversion with our online [**HTML to XPS Converter**](https://products.aspose.app/html/en/conversion/html-to-xps). You can convert multiple HTML files to XPS and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to XPS Converter for free now!
-
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/html-to-xps" target="_blank">**HTML to XPS Converter**</a> that converts HTML to XPS with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+
 {{% /alert %}}
+<a href="https://products.aspose.app/html/en/conversion/html-to-xps" target="_blank">![Text "Banner HTML to XPS Converter"](html-to-xps.png#center)</a>
 
 
 

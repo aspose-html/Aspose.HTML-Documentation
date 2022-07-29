@@ -1,13 +1,11 @@
 ---
-keywords: html to pdf, convert html to pdf c#, convert html to pdf, html to pdf conversion, html to pdf
-  converter, save options, stream provider
-lastmod: 2022-06-01
+keywords: html to pdf, convert html to pdf c#, online html converter, convert html to pdf, html to pdf conversion, html to pdf
+  converter, save options, stream provider, c# code
+lastmod: 2022-07-28
 url: /net/converting-between-formats/html-to-pdf/
-title: Convert HTML to PDF | C#
+title: Convert HTML to PDF | C# code and Online Converter
 linktitle: Convert HTML to PDF
-description: This article provides information on how to convert HTML to PDF in C# or .NET
-  using Aspose.HTML API. You will learn about the supported HTML to PDF
-  conversion scenarios and consider examples to illustrate them.
+description: Convert HTML to PDF in C# using Aspose.HTML API. Consider various HTML to PDF conversion scenarios in C# examples. Try online HTML Converter.
 weight: 10
 type: docs
 aliases:
@@ -17,20 +15,41 @@ aliases:
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
-In this guide, you find information on how to convert an HTML document into a Portable Document Format ({{%PDF%}}) file format. HTML to PDF conversion is often required to establish limited access to documents editing or copying; to produce official documentation or send some information, for example, by email. In this article, you find information on how to convert  HTML to PDF using [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class, and how to apply [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
+In this guide, you find information on how to convert an HTML document into a Portable Document Format ({{%PDF%}}) file format. HTML to PDF conversion is often required to establish limited access to documents editing or copying; to produce official documentation or send some information, for example, by email. In this article, you find information on how to convert  HTML to PDF using [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class, and how to apply [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider/) parameters.
 
-Any conversion you want to perform involves loading an HTML document and saving it in PDF format. It can be different scenarios but it can be made with a few required steps:
 
-1. Load an HTML document into a Document object using one of [HTMLDocument()](https://reference.aspose.com/html/net/aspose.html/htmldocument) constructors. You can load HTML from a file, HTML code, stream, or URL (see the [Creating an HTML Document](/html/net/working-with-documents/creating-a-document/) article).
-2. Initialize a [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) object.
-3. Invoke one of the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/converthtml/index) methods and pass the required parameters to it.
+## **Online HTML Converter**
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-pdf" target="_blank">**HTML to PDF Converter**</a> that converts HTML to PDF with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+You can convert HTML to PDF with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the conversion result as a separate file.
 
-{{% /alert %}}
+{{< app/html/converter HTML PDF "JPG|JPEG" TIFF PNG GIF BMP XPS DOCX MD MHTML >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
 
-<a href="https://products.aspose.app/html/conversion/html-to-pdf" target="_blank">![Text "Banner HTML to PDF Converter"](html-to-pdf.png#center)</a>
+    using var document = new HTMLDocument("document.{{input lower}}");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'MD'}}
+    var options = new MarkdownSaveOptions();
+{{/if_output}}
+{{#if_output 'MHTML'}}
+    var options = new MHTMLSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
+{{< /app/html/converter>}}
+
+If you want to convert HTML to PDF programmatically, please see the following C# code examples.
 
 ## **HTML to PDF by a single line of code**
 
@@ -46,10 +65,10 @@ using Aspose.Html.Saving;
 {{< /highlight >}}
 
 ## **Convert HTML to PDF in C#**
-Converting a file to another format using the ConvertHTML() method is a sequence of operations among which document loading and saving:
+Any conversion you want to perform involves loading an HTML document and saving it in PDF format.  You can load HTML from a file, HTML code, stream, or URL (see the [Creating an HTML Document](/html/net/working-with-documents/creating-a-document/) article). It can be different scenarios but it can be made with a few required steps: 
 
-1. Load an HTML file using one of HTMLDocument() constructors of the [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument) class. In the example we use [HTMLDocument(string)](https://reference.aspose.com/html/net/aspose.html/htmldocument/constructors/10) constructor that initializes an HTML document from a file. 
-1. Create a new [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) object. 
+1. Load an HTML file using one of HTMLDocument() constructors of the [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/) class. In the example we use [HTMLDocument(string)](https://reference.aspose.com/html/net/aspose.html/htmldocument/constructors/10) constructor that initializes an HTML document from a file. 
+1. Create a new [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/) object. 
 1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/7) method of the Converter class to save HTML as a PDF file. You need to pass the HTMLDocument, PdfSaveOptions, and output file path to the ConvertHTML() method to convert HTML to PDF.
 
 Please take a look over the following C# code snippet that shows the HTML to PDF conversion process for the [spring.html](/html/net/converting-between-formats/html-to-pdf/spring.html) file.
@@ -80,40 +99,6 @@ The figure illustrates the spring-output.pdf file.
 
 ![Text "spring-output.pdf image"](../spring-output.png#center)
 
-{{% alert color="primary" %}} 
-You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
-{{% /alert %}}
-
-### **HTML Converter Live Demos**
-You can convert HTML to PDF with Aspose.HTML for .NET API in real time. First, load an HTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the conversion result as a separate file.
-
-{{< app/html/converter HTML PDF "JPG|JPEG" TIFF PNG GIF XPS DOCX MD MHTML >}}
-using Aspose.Html;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-
-    using var document = new HTMLDocument("document.{{input lower}}");
-{{#if_output 'PDF'}}
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'MD'}}
-    var options = new MarkdownSaveOptions();
-{{/if_output}}
-{{#if_output 'MHTML'}}
-    var options = new MHTMLSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
-{{< /app/html/converter>}}
-
 ## **Save Options**
 Aspose.HTML allows converting HTML to PDF using default or custom save options. [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) usage enables you to customize the rendering process; you can specify the page size, margins, file permissions, Css, etc. 
 
@@ -130,7 +115,7 @@ Aspose.HTML allows converting HTML to PDF using default or custom save options. 
 
 {{% alert color="primary" %}}
 
-To learn more about [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+To learn more about [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 
 {{% /alert %}}
 
@@ -138,11 +123,11 @@ To learn more about [PdfSaveOptions](https://reference.aspose.com/html/net/aspos
 
 With Aspose.HTML, you can convert files programmatically with full control over a wide range of conversion parameters. To convert HTML to PDF with PdfSaveOptions specifying, you should follow a few steps: 
 
-1. Load an HTML file using one of the HTMLDocument() constructors of the  [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument) class ([drawing.html](/html/net/converting-between-formats/html-to-pdf/drawing.html)). 
-1. Create a new [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) object and specify the required properties.
+1. Load an HTML file using one of the HTMLDocument() constructors of the  [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/) class ([drawing.html](/html/net/converting-between-formats/html-to-pdf/drawing.html)). 
+1. Create a new [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/) object and specify the required properties.
 1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/7) method of the  Converter class to save HTML as a PDF file. You need to pass the HTMLDocument, PdfSaveOptions, and output file path to the ConvertHTML() method to convert HTML to PDF.
 
-The following example shows how to use [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) and create a PDF file with custom save options:
+The following example shows how to use [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/) and create a PDF file with custom save options:
 
 {{< highlight java >}}
 using System.IO;
@@ -187,8 +172,16 @@ The figure illustrates the drawing-options.pdf file.
 
 ![Text "drawing-options.pdf image"](drawing-options.png#center)
 
+{{% alert color="primary" %}} 
+
+Check the quality of HTML to PDF conversion with our online [**HTML to PDF Converter**](https://products.aspose.app/html/conversion/html-to-pdf). Upload, convert your files and get the result in a few seconds. Try our forceful HTML to PDF Converter for free now!
+
+You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
+
+{{% /alert %}}
+
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider/) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 
@@ -264,13 +257,12 @@ using Aspose.Html.Saving;
     }
 {{< /highlight >}}
 
-{{% alert color="primary" %}} 
-
-Check the quality of HTML to PDF conversion with our online [**HTML to PDF Converter**](https://products.aspose.app/html/conversion/html-to-pdf). You can convert multiple HTML files to PDF and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful HTML to PDF Converter for free now!
-
-You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
+{{% alert color="primary" %}}
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-pdf" target="_blank">**HTML to PDF Converter**</a> that converts HTML to PDF with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
 
 {{% /alert %}}
+
+<a href="https://products.aspose.app/html/conversion/html-to-pdf" target="_blank">![Text "Banner HTML to PDF Converter"](html-to-pdf.png#center)</a>
 
 
 

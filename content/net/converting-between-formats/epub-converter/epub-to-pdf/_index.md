@@ -1,13 +1,10 @@
 ---
-keywords: epub to pdf, convert epub to pdf, epub to pdf conversion, epub to pdf
-  converter, save options, stream provider
-lastmod: 2022-06-01
+keywords: epub to pdf, convert epub to pdf, epub to pdf conversion, epub to pdf converter, save options, stream provider, online converter, c# code
+lastmod: 2022-07-28
 url: /net/converting-between-formats/epub-to-pdf/
 title: Convert EPUB to PDF | C#
 linktitle: Convert EPUB to PDF
-description: This article provides information on how to convert EPUB to PDF
-  using Aspose.HTML API. You will learn about the supported EPUB to PDF
-  conversion scenarios and consider examples to illustrate them.
+description: Convert EPUB to PDF in C# using Aspose.HTML API. Consider various EPUB to PDF conversion scenarios in C# examples. Try online EPUB Converter.
 weight: 10
 type: docs
 aliases:
@@ -21,11 +18,33 @@ EPUB is an e-book file format that provides a standard digital publication forma
 
 In this article, you find information about converting {{%EPUB%}} to {{%PDF%}} and using [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/epub-to-pdf" target="_blank">**EPUB to PDF Converter**</a> that converts EPUB to PDF with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
-{{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/epub-to-pdf" target="_blank">![Text "Banner EPUB to PDF Converter"](epub-to-pdf.png#center)</a>
+## **Online EPUB Converter**
+
+You can check the Aspose.HTML API functionality and convert EPUB in real-time. Please load an EPUB file from the local file system, select the output format and run the example. In the example, the save options are set by default. You will immediately receive the result as a separate file.
+
+{{< app/html/converter EPUB PDF GIF BMP DOCX "JPG|JPEG" PNG TIFF XPS >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+
+    using var stream = File.OpenRead(DataDir + "input.epub");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertEPUB(stream, options, "output.{{output lower}}");   
+{{< /app/html/converter>}}
+
+If you want to convert EPUB to PDF programmatically, please see the following C# code examples.
 
 ## **EPUB to PDF by two lines of code**
 
@@ -75,30 +94,6 @@ using Aspose.Html.Saving;
 {{% alert color="primary" %}}
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
-
-### **EPUB Converter Live Demos**
-You can convert EPUB to other formats with Aspose.HTML for .NET API in real time. First, load an EPUB file from your local drive and then run the example. The save options in the example are set by default. You will immediately receive the conversion result as a separate file.
-
-{{< app/html/converter EPUB PDF DOCX XPS "JPG|JPEG" TIFF PNG GIF BMP >}}
-using Aspose.Html;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-
-    using var document = new HTMLDocument("document.{{input lower}}");
-{{#if_output 'PDF'}}
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
-{{< /app/html/converter>}}
 
 ## **Save Options**
 With Aspose.HTML, you can convert EPUB to PDF format programmatically with full control over a wide range of conversion parameters. [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) usage enables you to tune the rendering process; you can specify the [page size](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup), [margins](https://reference.aspose.com/html/net/aspose.html.drawing/page/properties/margin), [file permissions](https://reference.aspose.com/html/net/aspose.html.rendering.pdf.encryption/pdfencryptioninfo), [CSS media-type](https://reference.aspose.com/html/net/aspose.html.rendering/mediatype), etc.  
@@ -250,11 +245,12 @@ The ConvertEPUB(`Stream`, `PdfSaveOptions`, `ICreateStreamProvider`) method take
 
 {{% alert color="primary" %}} 
 
-You can check the quality of EPUB to PDF conversion with our online [**EPUB to PDF Converter**](https://products.aspose.app/html/conversion/epub-to-pdf). You can convert multiple EPUB files to PDF and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful EPUB to PDF Converter for free now!
-
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/epub-to-pdf" target="_blank">**EPUB to PDF Converter**</a> that converts EPUB to PDF with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
+
+<a href="https://products.aspose.app/html/conversion/epub-to-pdf" target="_blank">![Text "Banner EPUB to PDF Converter"](epub-to-pdf.png#center)</a>
 
 
 

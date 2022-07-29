@@ -1,25 +1,45 @@
 ---
 title: Convert SVG to BMP | C#
 linktitle: Convert SVG to BMP
-keywords: svg to bmp, convert svg to bmp, svg to bmp conversion, svg to bmp
-  converter, save options
-description: This article provides information on how to convert SVG to BMP
-  using the Aspose.HTML API. You will learn about the supported SVG to BMP
-  conversion scenarios and consider C# examples to illustrate them.
+keywords: svg to bmp, convert svg to bmp, svg to bmp conversion, svg to bmp converter, save options, c# code, online converter
+description: Convert SVG to BMP in C# using Aspose.HTML API. Consider various SVG to BMP conversion scenarios in C# examples. Try online SVG Converter.
 weight: 40
 type: docs
 url: /net/converting-between-formats/svg-to-bmp/
-lastmod: 2022-06-01
+lastmod: 2022-07-28
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
-BMP files represent Bitmap Image files that are used to store high-quality bitmap digital images. With Aspose.HTML, you can convert SVG to BMP format programmatically with full control over a wide range of conversion parameters. In this article, you find information on SVG to {{%BMP%}} conversion by using [ConvertSVG()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods of the Converter class and applying  [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions).
+BMP files represent Bitmap Image files that are used to store high-quality bitmap digital images. With Aspose.HTML, you can convert SVG to BMP format programmatically with full control over a wide range of conversion parameters. In this article, you find information about converting SVG to {{%BMP%}} using [ConvertSVG()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods of the Converter class, and  how to apply  [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions/). Also, you can try an Online SVG Converter to test the Aspose.HTML API functionality and convert SVG on the fly.
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/svg/conversion/svg-to-bmp" target="_blank">**SVG to BMP Converter**</a> that converts SVG to BMP image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
-{{% /alert %}}
+## **Online SVG Converter**
 
-<a href="https://products.aspose.app/svg/conversion/svg-to-bmp" target="_blank">![Text "Banner SVG to BMP Converter"](svg-to-bmp.png#center)</a>
+You can convert SVG to other formats with Aspose.HTML API in real time. Please load SVG from the local file system, select the output format and run the example. The save options are set by default. You will immediately receive the conversion result as a separate file.
+
+{{< app/svg/converter SVG BMP PDF "JPG|JPEG" GIF XPS TIFF PNG DOCX>}}
+using Aspose.Html;
+using Aspose.Html.Dom.Svg;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+using Aspose.Html.Rendering.Image;
+
+    using var document = new SVGDocument("image.svg");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertSVG(document, options, "output.{{output lower}}");
+{{< /app/svg/converter>}}
+
+If you want to convert SVG to BMP image programmatically, please see the following C# code examples.
 
 ## **SVG to BMP by a single line of code**
 
@@ -70,35 +90,6 @@ using Aspose.Html.Saving;
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
-
-### **SVG Converter Live Demos**
-You can convert SVG to other formats with Aspose.HTML API in real time. First, load an SVG file from your local drive and then run the example. The save options are set by default. You will immediately receive the conversion result as a separate file.
-
-{{< app/svg/converter SVG BMP PDF "JPG|JPEG" GIF XPS TIFF PNG DOCX>}}
-using Aspose.Html;
-using Aspose.Html.Dom.Svg;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-using Aspose.Html.Rendering.Image;
-
-    using var document = new SVGDocument("image.svg");
-{{#if_output 'PDF'}}
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'MD'}}
-    var options = new MarkdownSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-    Converter.ConvertSVG(document, options, "output.{{output lower}}");   
-{{< /app/svg/converter>}}
 
 ## **Convert SVG to BMP using ImageSaveOptions**
 
@@ -154,15 +145,13 @@ The figure illustrates the fragment of the flower-options.bmp file.
 
 ![Text ""flower-options" image"](../flower-options.png#center)
 
-
-
 {{% alert color="primary" %}} 
-
 Check the quality of SVG to BMP conversion with our online [**SVG to BMP Converter**](https://products.aspose.app/svg/conversion/svg-to-bmp). Upload, convert your files and get results in a few seconds. Try our forceful SVG to BMP Converter for free now!
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
-
 {{% /alert %}}
+
+<a href="https://products.aspose.app/svg/conversion/svg-to-bmp" target="_blank">![Text "Banner SVG to BMP Converter"](svg-to-bmp.png#center)</a>
 
 
 

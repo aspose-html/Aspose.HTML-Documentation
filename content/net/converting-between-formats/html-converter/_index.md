@@ -1,27 +1,60 @@
 ---
-title: HTML Converter | C#
+title: HTML Converter | HTML Conversions in C#
 linktitle: HTML Converter
-keywords: HTML converter, convert html, html to png, convert html to png, c# example.
-description: You learn how to convert HTML to other formats using Aspose.HTML API, find a list of supported HTML conversions, and consider C# example of HTML to PNG transforming.
+keywords: html converter, html conversions, convert html, html to png, convert html to png, c# example, online converter, c# code
+description: Convert HTML to other formats using Aspose.HTML API or Online HTML Converter. Consider C# example of HTML to PNG transforming.
 weight: 10
 type: docs
 url: /net/converting-between-formats/html-converter/
-lastmod: 2022-06-01
+lastmod: 2022-07-28
 ---
 
 {{%HTML%}} (HyperText Markup Language) is the standard markup language for documents created for display in browsers. Known as the language of the web, HTML has evolved with requirements of new information demands to be displayed as part of web pages. The latest variant is known as HTML 5 that gives a lot of flexibility for working with the language. HTML pages are either received from a server, where these are hosted or can be loaded from a local system as well.
 
 The main highlight of Aspose.HTML is a conversion feature. Converting between formats is required for various reasons: to work in a familiar, convenient format or to take advantage of different formats for specific tasks. The [Aspose.Html.Converters](https://reference.aspose.com/html/net/aspose.html.converters) namespace implements easy access to conversion methods. It provides a wide range of HTML conversions to popular formats, such as {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, {{%GIF%}}, {{%MHTML%}},  and {{%MD%}}. 
 
-## **How to Convert HTML**
+## **Online HTML Converter**
 
-This article gives information on the list of supported HTML conversions and how to perform them using the [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter) class that groups all low-level conversion operations in a single class to make them comfy and easy to use. 
+You can check the Aspose.HTML API functionality and convert HTML in real-time. First, load an HTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the conversion result as a separate file.
+
+{{< app/html/converter HTML PNG PDF "JPG|JPEG" TIFF BMP GIF XPS DOCX MD MHTML >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+
+    using var document = new HTMLDocument("document.{{input lower}}");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'MD'}}
+    var options = new MarkdownSaveOptions();
+{{/if_output}}
+{{#if_output 'MHTML'}}
+    var options = new MHTMLSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
+{{< /app/html/converter>}}
+
+If you want to convert HTML to PNG programmatically, please see the following C# code examples.
+
+## **How to Convert HTML in C#**
+
+This article gives information on the list of supported HTML conversions and how to perform them using the [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter/) class that groups all low-level conversion operations in a single class to make them comfy and easy to use. 
 
 {{% alert color="primary" %}} 
 
 Any conversion you want to perform involves loading an HTML document and saving it in the supported format. It can be different scenarios, but it can be made with a few required steps:
 
-1. Load an HTML document into a Document object using one of [HTMLDocument()](https://reference.aspose.com/html/net/aspose.html/htmldocument) constructors. You can load HTML from a file, HTML code, stream, or URL.
+1. Load an HTML document into a Document object using one of [HTMLDocument()](https://reference.aspose.com/html/net/aspose.html/htmldocument/) constructors. You can load HTML from a file, HTML code, stream, or URL.
 2. Create a Save Options object.
 3. Invoke one of the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/converthtml/index) methods and pass the required parameters to it.
     {{% /alert %}}   

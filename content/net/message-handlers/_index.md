@@ -28,9 +28,7 @@ In this chapter, we consider several **popular cases of message handlers usage**
 
 [Popular Use Cases for Message Handlers](/html/net/message-handlers/popular-use-cases/) -  You will learn how to create  message handlers to implement a custom schema, work with a ZIP archive, and log a Web request execution time.
 
-
-
-## **What is Message Handlers?** 
+## **What are Message Handlers?** 
 
 Message handlers are a sequence of classes that are part of a process of a Web request and response through a pipeline. The key concept of message handlers work is chaining them together. The first handler receives a Web request, does some processing, and passes the request on to the next handler. At some point, the response is created and returned along the chain. This pattern is called a **delegating** handler.
 

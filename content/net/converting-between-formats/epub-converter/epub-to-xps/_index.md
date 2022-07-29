@@ -1,12 +1,10 @@
 ---
-keywords: epub to xps, convert epub to xps, epub to xps converter, save options
-lastmod: 2022-06-01
+keywords: epub to xps, convert epub to xps, epub to xps converter, save options, online converter, c# code
+lastmod: 2022-07-28
 url: /net/converting-between-formats/epub-to-xps/
 title: Convert EPUB to XPS | C#
 linktitle: Convert EPUB to XPS
-description: This article provides information on how to convert EPUB to XPS
-  using Aspose.HTML API. You will learn about the supported EPUB to XPS
-  conversion scenarios and consider examples to illustrate them.
+description: Convert EPUB to XPS in C# using Aspose.HTML API. Consider various EPUB to XPS conversion scenarios in C# examples. Try online EPUB Converter.
 weight: 30
 type: docs
 aliases:
@@ -17,11 +15,33 @@ aliases:
 
 In this article, you will find information on how to convert {{%EPUB%}} to {{%XPS%}} and how to use [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/epub-to-xps" target="_blank">**EPUB to XPS Converter**</a> that converts EPUB to XPS file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
-{{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/epub-to-xps" target="_blank">![Text "Banner EPUB to XPS Converter"](epub-to-xps.png#center)</a>
+## **Online EPUB Converter**
+
+You can check the Aspose.HTML API functionality and convert EPUB in real-time. Please load an EPUB file from the local file system, select the output format and run the example. In the example, the save options are set by default. You will immediately receive the result as a separate file.
+
+{{< app/html/converter EPUB XPS GIF BMP PDF DOCX "JPG|JPEG" PNG TIFF  >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+
+    using var stream = File.OpenRead(DataDir + "input.epub");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertEPUB(stream, options, "output.{{output lower}}");   
+{{< /app/html/converter>}}
+
+If you want to convert EPUB to XPS programmatically, please see the following C# code examples.
 
 ## **EPUB to XPS by two lines of code**
 
@@ -68,30 +88,6 @@ using Aspose.Html.Saving;
 {{% alert color="primary" %}}
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
-
-### **EPUB Converter Live Demos**
-You can convert EPUB to other formats with Aspose.HTML for .NET API in real time. First, load an EPUB file from your local drive and then run the example. The save options in the example are set by default. You will immediately receive the conversion result as a separate file.
-
-{{< app/html/converter EPUB XPS DOCX PDF "JPG|JPEG" TIFF PNG GIF BMP>}}
-using Aspose.Html;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-
-    using var document = new HTMLDocument("document.{{input lower}}");
-{{#if_output 'PDF'}}
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
-{{< /app/html/converter>}}
 
 ## **Save Options**
 With Aspose.HTML, you can convert EPUB to XPS format programmatically with full control over a wide range of conversion parameters. [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) usage enables you to tune the rendering process; you can specify the page size, margins, CSS, etc.  
@@ -237,10 +233,8 @@ using Aspose.Html.Saving;
 
 The ConvertEPUB(`Stream`, `XpsSaveOptions`, `ICreateStreamProvider`) method takes the conversion source, options, and instance of MemoryStreamProvider, which will be used to get an output stream, and performs the conversion operation.
 
-{{% alert color="primary" %}} 
-
-You can check the quality of EPUB to XPS conversion with our online [**EPUB to XPS Converter**](https://products.aspose.app/html/conversion/epub-to-xps). You can convert multiple EPUB files to XPS and merge them into a single document. Upload, convert your files and get results in a few seconds. Try our forceful EPUB to XPS Converter for free now!
-
-You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
-
+{{% alert color="primary" %}}
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/epub-to-xps" target="_blank">**EPUB to XPS Converter**</a> that converts EPUB to XPS file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
+
+<a href="https://products.aspose.app/html/conversion/epub-to-xps" target="_blank">![Text "Banner EPUB to XPS Converter"](epub-to-xps.png#center)</a>
