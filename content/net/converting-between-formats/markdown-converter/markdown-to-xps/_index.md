@@ -4,7 +4,7 @@ linktitle: Convert Markdown to XPS
 type: docs
 weight: 40
 url: /net/converting-between-formats/markdown-to-xps/
-description: This article provides information on how to convert Markdown to XPS using the Aspose.HTML API. You will learn about the supported Markdown to XPS conversion scenarios and consider examples to illustrate them.  
+description: Convert Markdown to XPS in C# using Aspose.HTML API. Consider various Markdown to XPS conversion scenarios in C# examples. Try online Markdown Converter. 
 keywords: Markdown to XPS, convert Markdown to XPS, Markdown to XPS conversion, Markdown to XPS converter, c# code, online converter
 lastmod: "2022-07-28"
 ---
@@ -13,15 +13,36 @@ lastmod: "2022-07-28"
 
 {{%Markdown%}} is a markup language with a plain-text-formatting syntax. Markdown is often used as a format for documentation and readme files since it allows writing in an easy-to-read and easy-to-write style. Its design allows it to be easily converted to many output formats, but initially, it was created to convert only to HTML. Using the Aspose.HTML class library in your C# application, you can easily convert Markdown into an XPS file with just a few lines of code!
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/md-to-xps" target="_blank">**MD to XPS Converter**</a> that converts Markdown to XPS file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
-{{% /alert %}}
+## **Online Markdown Converter**
 
-<a href="https://products.aspose.app/html/conversion/md-to-xps" target="_blank">![Text "Banner MD to XPS Converter"](md-to-xps.png#center)</a>
+You can convert Markdown to other formats with Aspose.HTML for .NET API in real time. Please load a Markdown file from the local file system, select the output format and run the example.  The save options are set by default. You will immediately receive the conversion result as a separate file.
 
-## **Convert Markdown to XPS**
+{{< app/html/converter MD XPS "JPG|JPEG" GIF BMP TIFF PNG PDF DOCX >}}
+using Aspose.Html;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
 
-If your scenario is required rendering Markdown document, for instance, to the XPS file format, the following example demonstrates how that is simple: 
+    using var document = Converter.ConvertMarkdown("input.md");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertHTML(document, options, "output.{{output lower}}");
+{{< /app/html/converter>}}
+
+If you want to convert Markdown to XPS programmatically, please see the following C# code examples.
+
+## **Convert Markdown to XPS in C#**
+
+Conversions from Markdown to other formats go through the Markdown to HTML conversion stage. If your scenario is required rendering Markdown document, for instance, to the XPS file format, the following example demonstrates how that is simple: 
 
 1. Prepare a source Markdown document. In the example, we create a Markdown file from code. 
 1. Prepare a path for converted file saving. 
@@ -55,34 +76,9 @@ using Aspose.Html.Saving;
      Converter.ConvertHTML(document, new XpsSaveOptions(), savePath);
 {{< /highlight >}}
 
-
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
-
-### **Markdown Converter Live Demos**
-You can convert Markdown to other formats with Aspose.HTML for .NET API in real time. First, load an MD file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the conversion result as a separate file.
-
-{{< app/html/converter MD XPS DOCX "JPG|JPEG" TIFF PNG GIF BMP PDF >}}
-using Aspose.Html;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-
-    using var document = new HTMLDocument("document.{{input lower}}");
-{{#if_output 'PDF'}} 
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
-{{< /app/html/converter>}}
 
 ## **Convert Markdown to XPS using XpsSaveOptions**
 If your case is to convert an existing Markdown document from a local file system, the following example could help you. You need to follow a few steps:
@@ -136,3 +132,4 @@ In the example, we use:
 You can check the quality of Markdown to XPS conversion with our online [**MD to XPS Converter**](https://products.aspose.app/html/conversion/md-to-xps). Upload, convert your files and get results in a few seconds. Try our forceful Markdown to XPS Converter for free now!
 {{% /alert %}}
 
+<a href="https://products.aspose.app/html/conversion/md-to-xps" target="_blank">![Text "Banner MD to XPS Converter"](md-to-xps.png#center)</a>

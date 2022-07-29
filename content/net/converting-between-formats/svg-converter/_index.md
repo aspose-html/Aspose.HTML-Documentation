@@ -55,10 +55,10 @@ using System.Drawing.Drawing2D;
 {{< /highlight >}} 
 
 In the example, the [SVGDocument(`address`)](https://reference.aspose.com/html/net/aspose.html.dom.svg/svgdocument/constructors/10) constructor initializes an SVG document from the file. The ImageSaveOptions() constructor creates a new [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions) object with PNG ImageFormat, SmoothingMode and BackgroundColor properties. By default, the Format property is PNG. Then, the [ConvertSVG()](https://reference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/3) method takes SVGDocument, ImageSaveOptions, and output path and performs SVG to PNG conversion.
-## **SVG Converter Live Demos**
+## **Online SVG Converter**
 You can convert SVG to other formats with Aspose.HTML API in real time. First, load an SVG file from your local drive and then run the example. The save options in the example are set by default. You will immediately receive the conversion result as a separate file.
 
-{{< app/svg/converter SVG PDF "JPG|JPEG" GIF BMP XPS TIFF PNG DOCX>}}
+{{< app/svg/converter SVG PNG "JPG|JPEG" GIF BMP XPS TIFF PDF DOCX>}}
 using Aspose.Html;
 using Aspose.Html.Dom.Svg;
 using Aspose.Html.Converters;
@@ -73,9 +73,6 @@ using Aspose.Html.Saving;
 {{/if_output}}
 {{#if_output 'XPS'}}
     var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'MD'}}
-    var options = new MarkdownSaveOptions();
 {{/if_output}}
 {{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
     var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});

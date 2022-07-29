@@ -4,9 +4,7 @@ lastmod: 2022-07-28
 url: /net/converting-between-formats/markdown-to-html/
 title: Convert Markdown to HTML | C#
 linktitle: Convert Markdown to HTML
-description: This article provides information on how to convert Markdown to
-  HTML using the Aspose.HTML API. You will learn about the supported Markdown to
-  HTML conversion scenarios and consider examples to illustrate them.
+description: Convert Markdown to HTML in C# using Aspose.HTML API. Consider various Markdown to HTML conversion scenarios in C# examples. Try online Markdown Converter.
 weight: 10
 type: docs
 aliases:
@@ -18,11 +16,19 @@ aliases:
 
 {{%Markdown%}} is a markup language with a plain-text-formatting syntax. Markdown is often used as a format for documentation and readme files since it allows writing in an easy-to-read and easy-to-write style. Its design allows it to be easily converted to many output formats, but initially, it was created to convert only to HTML. Using the Aspose.HTML class library in your C# application, you can easily convert Markdown into an HTML file with just a few lines of code!
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/md-to-html" target="_blank">**MD to HTML Converter**</a> that converts Markdown to HTML file with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
-{{% /alert %}}
+This article provides information on how to convert Markdown to HTML using the Aspose.HTML API. You will learn about the supported Markdown to HTML conversion scenarios and consider C# examples to illustrate them. Also, you can try an Online Markdown Converter to test the Aspose.HTML API functionality and convert Markdown on the fly.
 
-<a href="https://products.aspose.app/html/conversion/md-to-html" target="_blank">![Text "Banner MD to HTML Converter"](md-to-html.png#center)</a>
+## **Online Markdown Converter**
+
+You can convert Markdown to HTML with Aspose.HTML for .NET API in real time. Please load a Markdown file from the local file system and run the example.  The save options are set by default. You will immediately receive the conversion result as a separate file.
+
+{{< app/html/converter MD HTML>}}
+using Aspose.Html.Converters;
+
+    Converter.ConvertMarkdown("document.{{input lower}}", "output.{{output lower}}");
+{{< /app/html/converter>}} 
+
+If you want to convert Markdown to HTML programmatically, please see the following C# code examples.
 
 ## **Example 1. Create a source MD file from code and convert Markdown to HTML**
 You can convert Markdown to HTML format using C# and other .NET programming languages. Aspose.HTML provides  ConvertMarkdown() methods as an understandable and straightforward way to perform Markdown to HTML conversion. If your case is to create a Markdown document from a user string directly in your code and save it to a file, the following example could help you: 
@@ -87,3 +93,5 @@ You can view the resulting HTML file by following the link - [nature-output.html
 {{% alert color="primary" %}} 
 You can check the quality of Markdown to HTML conversion with our online [**MD to HTML Converter**](https://products.aspose.app/html/conversion/md-to-html). Upload, convert your files and get results in a few seconds. Try our forceful Markdown to HTML Converter for free now!
 {{% /alert %}}
+
+<a href="https://products.aspose.app/html/conversion/md-to-html" target="_blank">![Text "Banner MD to HTML Converter"](md-to-html.png#center)</a>

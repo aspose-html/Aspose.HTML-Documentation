@@ -2,9 +2,7 @@
 title: Convert SVG to DOCX | C#
 linktitle: Convert SVG to DOCX
 keywords: svg to docx, convert svg to docx, svg to docx conversion, svg to docx converter, c# code, online converter
-description: This article provides information on how to convert SVG to DOCX
-  using Aspose.HTML API. You will learn about the supported SVG to DOCX
-  conversion scenarios and consider examples to illustrate them.
+description: Convert SVG to DOCX in C# using Aspose.HTML API. Consider various SVG to DOCX conversion scenarios in C# examples. Try online SVG Converter.
 weight: 40
 type: docs
 url: /net/converting-between-formats/svg-to-docx/
@@ -12,13 +10,35 @@ lastmod: 2022-07-28
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
-A DOCX format is popular because of the variety of options it offers users to write any type of documents. This file format is one of the most widely used and is available through numerous programs. With Aspose.HTML, you can convert SVG to DOCX format programmatically. In this article, you find information on how to convert SVG to {{%DOCX%}} by using [ConvertSVG()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods of the Converter class and applying  [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions).
+A DOCX format is popular because of the variety of options it offers users to write any type of documents. This file format is one of the most widely used and is available through numerous programs. With Aspose.HTML, you can convert SVG to DOCX format programmatically. In this article, you find information on how to convert SVG to {{%DOCX%}} by using [ConvertSVG()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods of the Converter class and how to apply  [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions).  Also, you can try an Online SVG Converter to test the Aspose.HTML API functionality and convert SVG on the fly.
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/svg/conversion/svg" target="_blank">**SVG Converter**</a> that converts SVG files to a variety of popular formats with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
-{{% /alert %}}
+## **Online SVG Converter**
 
-<a href="https://products.aspose.app/svg/conversion/svg" target="_blank">![Text "Banner SVG Converter"](svg.png#center)</a>
+You can convert SVG to other formats with Aspose.HTML API in real time. Please load SVG from the local file system, select the output format and run the example. The save options are set by default. You will immediately receive the conversion result as a separate file.
+
+{{< app/svg/converter SVG DOCX BMP PDF "JPG|JPEG" GIF XPS TIFF PNG >}}
+using Aspose.Html;
+using Aspose.Html.Dom.Svg;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+
+    using var document = new SVGDocument("image.svg");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertSVG(document, options, "output.{{output lower}}");
+{{< /app/svg/converter>}}
+
+If you want to convert SVG to DOCX file programmatically, please see the following C# code examples.
 
 ## **SVG to DOCX by a single line of code**
 
@@ -69,34 +89,6 @@ using Aspose.Html.Saving;
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
 
-### **SVG Converter Live Demos**
-You can convert SVG to other formats with Aspose.HTML API in real time. First, load an SVG file from your local drive and then run the example. The save options are set by default. You will immediately receive the conversion result as a separate file.
-
-{{< app/svg/converter SVG DOCX "JPG|JPEG" BMP PDF GIF XPS TIFF PNG >}}
-using Aspose.Html;
-using Aspose.Html.Dom.Svg;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-
-    using var document = new SVGDocument("image.svg");
-{{#if_output 'PDF'}}
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'MD'}}
-    var options = new MarkdownSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-    Converter.ConvertSVG(document, options, "output.{{output lower}}");   
-{{< /app/svg/converter>}}
-
 ## **Convert SVG to DOCX using DocSaveOptions**
 
 To convert SVG to DOCX with DocSaveOptions specifying, you should follow a few steps: 
@@ -138,6 +130,8 @@ Check the quality of SVG conversion with our online [**SVG Converter**](https://
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
+
+<a href="https://products.aspose.app/svg/conversion/svg" target="_blank">![Text "Banner SVG Converter"](svg.png#center)</a>
 
 
 

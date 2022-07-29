@@ -2,9 +2,7 @@
 title: Convert SVG to GIF | C#
 linktitle: Convert SVG to GIF
 keywords: svg to gif, convert svg to gif, svg to gif conversion, svg to gif converter, save options, c# code, online converter
-description: This article provides information on how to convert SVG to GIF
-  using Aspose.HTML API. You will learn about the supported SVG to GIF
-  conversion scenarios and consider examples to illustrate them.
+description: Convert SVG to GIF in C# using Aspose.HTML API. Consider various SVG to GIF conversion scenarios in C# examples. Try online SVG Converter.
 weight: 50
 type: docs
 url: /net/converting-between-formats/svg-to-gif/
@@ -12,13 +10,36 @@ lastmod: 2022-07-28
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
-GIF is a popular image format that is frequently used in web publishing. With Aspose.HTML, you can convert SVG to GIF format programmatically with full control over a wide range of conversion parameters. In this article, you find information on how to convert SVG to {{%GIF%}} by using [ConvertSVG()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods of the Converter class and applying  [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions).
+GIF is a popular image format that is frequently used in web publishing. With Aspose.HTML, you can convert SVG to GIF format programmatically with full control over a wide range of conversion parameters. In this article, you find information on how to convert SVG to {{%GIF%}} by using [ConvertSVG()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods of the Converter class and how to apply  [ImageSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/imagesaveoptions).  Also, you can try Online SVG Converter to test the Aspose.HTML API functionality and convert SVG on the fly.
 
-{{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/svg/conversion/svg-to-gif" target="_blank">**SVG to GIF Converter**</a> that converts SVG to GIF image with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
-{{% /alert %}}
+## **Online SVG Converter**
 
-<a href="https://products.aspose.app/svg/conversion/svg-to-gif" target="_blank">![Text "Banner SVG to GIF Converter"](svg-to-gif.png#center)</a>
+You can convert SVG to other formats with Aspose.HTML API in real time. Please load SVG from the local file system, select the output format and run the example. The save options are set by default. You will immediately receive the conversion result as a separate file.
+
+{{< app/svg/converter SVG GIF BMP "JPG|JPEG" TIFF PNG PDF DOCX XPS >}}
+using Aspose.Html;
+using Aspose.Html.Dom.Svg;
+using Aspose.Html.Converters;
+using Aspose.Html.Saving;
+using Aspose.Html.Rendering.Image;
+
+    using var document = new SVGDocument("image.svg");
+{{#if_output 'PDF'}}
+    var options = new PdfSaveOptions();
+{{/if_output}}
+{{#if_output 'DOCX'}}
+    var options = new DocSaveOptions();
+{{/if_output}}
+{{#if_output 'XPS'}}
+    var options = new XpsSaveOptions();
+{{/if_output}}
+{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
+    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
+{{/if_output}}
+    Converter.ConvertSVG(document, options, "output.{{output lower}}");
+{{< /app/svg/converter>}}
+
+If you want to convert SVG to GIF image programmatically, please see the following C# code examples.
 
 ## **SVG to GIF by a single line of code**
 
@@ -69,35 +90,6 @@ using Aspose.Html.Saving;
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
-
-### **SVG Converter Live Demos**
-You can convert SVG to other formats with Aspose.HTML API in real time. First, load an SVG file from your local drive and then run the example. The save options are set by default. You will immediately receive the conversion result as a separate file.
-
-{{< app/svg/converter SVG GIF BMP PDF "JPG|JPEG" XPS TIFF PNG DOCX>}}
-using Aspose.Html;
-using Aspose.Html.Dom.Svg;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-using Aspose.Html.Rendering.Image;
-
-    using var document = new SVGDocument("image.svg");
-{{#if_output 'PDF'}}
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'MD'}}
-    var options = new MarkdownSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-    Converter.ConvertSVG(document, options, "output.{{output lower}}");   
-{{< /app/svg/converter>}}
 
 ## **Convert SVG to GIF using ImageSaveOptions**
 
@@ -159,6 +151,8 @@ Check the quality of SVG to GIF conversion with our online [**SVG to GIF Convert
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 {{% /alert %}}
+
+<a href="https://products.aspose.app/svg/conversion/svg-to-gif" target="_blank">![Text "Banner SVG to GIF Converter"](svg-to-gif.png#center)</a>
 
 
 
