@@ -31,8 +31,8 @@ You can change text color inside an HTML tag using the `color` property of the `
 For example, in the following code snippet, you can see how to specify the CSS `color` property for HTML `<p>` element in the existing file.html file. Take a few steps:
 
 1. Load an existing HTML file.
-2. Find, for example, the first paragraph element to set a style attribute.  Use the [GetElementsByTagName(`name`)](https://reference.aspose.com/html/net/aspose.html.dom/element/methods/getelementsbytagname) method of the [Element](https://reference.aspose.com/html/net/aspose.html.dom/element) class that returns the first element with a given tag name in document order.
-3. Use the [Style](https://reference.aspose.com/html/net/aspose.html/htmlelement/properties/style) property of the [HTMLElement](https://reference.aspose.com/html/net/aspose.html/htmlelement) class to set the `style` attribute with `color` property.
+2. Find, for example, the first paragraph element to set a style attribute.  Use the [GetElementsByTagName(`name`)](https://reference.aspose.com/html/net/aspose.html.dom/element/getelementsbytagname/) method of the [Element](https://reference.aspose.com/html/net/aspose.html.dom/element/) class that returns the first element with a given tag name in document order.
+3. Use the [Style](https://reference.aspose.com/html/net/aspose.html/htmlelement/style/) property of the [HTMLElement](https://reference.aspose.com/html/net/aspose.html/htmlelement/) class to set the `style` attribute with `color` property.
 4. Save the modified HTML document.
 
 ### **C# code**
@@ -84,7 +84,7 @@ You can download the complete examples and data files from <a href="https://gith
 The internal CSS is popular for applying style properties to individual pages. You can apply internal CSS stylesheets by placing the `<style>` element in the `<head>` section of a page. For example,  you want to change the color of all paragraphs on a web page. To do this, you should add `p {color: #8B0000; }` to the head section of an HTML file. Take a few steps:
 
 1. Load an existing HTML file.
-2. Create a `<style>` element and assign the text color value for all paragraph elements.  Use the [CreateElement(`localName`)](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/createelement) method of the [Element](https://reference.aspose.com/html/net/aspose.html.dom/element) class that creates an element of the type specified.
+2. Create a `<style>` element and assign the text color value for all paragraph elements.  Use the [CreateElement(`localName`)](https://reference.aspose.com/html/net/aspose.html.dom/document/createelement/) method of the [Element](https://reference.aspose.com/html/net/aspose.html.dom/element/) class that creates an element of the type specified.
 3. Find the document `<head>` element and append `<style>` element to the head.
 4. Save the modified HTML document.
 

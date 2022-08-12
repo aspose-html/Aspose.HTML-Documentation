@@ -35,7 +35,7 @@ You can convert Markdown to HTML format using C# and other .NET programming lang
 
 1. Prepare a source Markdown document. In the example, we create a Markdown file from code. 
 1. Prepare a path for converted file saving. 
-1. Use the [ConvertMarkdown()](https://reference.aspose.com/html/net/aspose.html.converters.converter/convertmarkdown/methods/7) method of the Converter class to save Markdown as an HTML file. You need to pass the `sourcePath` and `savePath` to the ConvertMarkdown() method for Markdown to HTML conversion.
+1. Use the [ConvertMarkdown()](https://reference.aspose.com/html/net/aspose.html.converters/converter/convertmarkdown/) method of the Converter class to save Markdown as an HTML file. You need to pass the `sourcePath` and `savePath` to the ConvertMarkdown() method for Markdown to HTML conversion.
 
 {{< highlight java >}}
 using System.IO;
@@ -70,7 +70,7 @@ If your case is to convert an existing Markdown document from a local file syste
 
 1. Open an existing Markdown document. In the example, we load a Markdown file from a local file system ([nature.md](https://github.com/aspose-html/Aspose.HTML-Documentation/blob/main/content/tests-net/tests-data/nature.md)). 
 1. Prepare a path for converted file saving. 
-1. Use the [ConvertMarkdown()](https://reference.aspose.com/html/net/aspose.html.converters.converter/convertmarkdown/methods/7) method of the Converter class to save Markdown as an HTML file. You need to pass the `sourcePath` and `savePath` to the ConvertMarkdown() method for Markdown to HTML conversion.
+1. Use the [ConvertMarkdown()](https://reference.aspose.com/html/net/aspose.html.converters/converter/convertmarkdown/) method of the Converter class to save Markdown as an HTML file. You need to pass the `sourcePath` and `savePath` to the ConvertMarkdown() method for Markdown to HTML conversion.
 
 The following code snippet shows how to convert Markdown to HTML using Aspose.HTML for .NET.
 

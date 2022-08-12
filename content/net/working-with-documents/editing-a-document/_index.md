@@ -12,58 +12,58 @@ sitemap:
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
-As we already mentioned [here](https://docs.aspose.com/html/net/working-with-documents/creating-a-document/) the implementation of the [**HTMLDocument**](https://reference.aspose.com/html/net/aspose.html/htmldocument) as well as the whole DOM are based on [WHATWG DOM](https://dom.spec.whatwg.org/) standard. So, it is easy to use Aspose.HTML having a basic knowledge of {{%HTML%}} and {{%JavaScript%}} languages.
+As we already mentioned [here](https://docs.aspose.com/html/net/working-with-documents/creating-a-document/) the implementation of the [**HTMLDocument**](https://reference.aspose.com/html/net/aspose.html/htmldocument/) as well as the whole DOM are based on [WHATWG DOM](https://dom.spec.whatwg.org/) standard. So, it is easy to use Aspose.HTML having a basic knowledge of {{%HTML%}} and {{%JavaScript%}} languages.
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation). 
 {{% /alert %}} 
 
 ## **DOM namespace**
 
-A DOM tree is an in-memory representation of a document. The DOM is an API for accessing and manipulating documents content. HTML documents consist of a tree that contains several kinds of nodes whose root is a **[Document](https://reference.aspose.com/html/net/aspose.html.dom/document)**. The [**DOM namespace**](https://reference.aspose.com/html/net/aspose.html.dom) is represented with the following fundamental data types:
+A DOM tree is an in-memory representation of a document. The DOM is an API for accessing and manipulating documents content. HTML documents consist of a tree that contains several kinds of nodes whose root is a **[Document](https://reference.aspose.com/html/net/aspose.html.dom/document/)**. The [**DOM namespace**](https://reference.aspose.com/html/net/aspose.html.dom/) is represented with the following fundamental data types:
 
 |**Data type** |**Description**|
 | :- | :- |
-|[Document](https://reference.aspose.com/html/net/aspose.html.dom/document)|The Document class represents the entire HTML, XML or SVG document. Conceptually, it is the root of the document tree and provides the primary access to the document's data.|
-|[EventTarget](https://reference.aspose.com/html/net/aspose.html.dom/eventtarget)|The EventTarget class is implemented by all Nodes in an implementation that supports the *DOM Event Model*. An EventTarget object represents a target to which an event can be dispatched when something has occurred.|
-|[Node](https://reference.aspose.com/html/net/aspose.html.dom/node)|The Node class is the primary datatype for the entire *Document Object Model*. It represents a single node in the document tree.|
-|[Element](https://reference.aspose.com/html/net/aspose.html.dom/element)|The element type is based on node and represents a base class for *HTML*, *XML* or *SVG DOM.*|
-|[Attr](https://reference.aspose.com/html/net/aspose.html.dom/attr)|The Attr class represents an attribute in an Element object. Typically the allowable values for the attribute are defined in a schema associated with the document.|
+|[Document](https://reference.aspose.com/html/net/aspose.html.dom/document/)|The Document class represents the entire HTML, XML or SVG document. Conceptually, it is the root of the document tree and provides the primary access to the document's data.|
+|[EventTarget](https://reference.aspose.com/html/net/aspose.html.dom/eventtarget/)|The EventTarget class is implemented by all Nodes in an implementation that supports the *DOM Event Model*. An EventTarget object represents a target to which an event can be dispatched when something has occurred.|
+|[Node](https://reference.aspose.com/html/net/aspose.html.dom/node/)|The Node class is the primary datatype for the entire *Document Object Model*. It represents a single node in the document tree.|
+|[Element](https://reference.aspose.com/html/net/aspose.html.dom/element/)|The element type is based on node and represents a base class for *HTML*, *XML* or *SVG DOM.*|
+|[Attr](https://reference.aspose.com/html/net/aspose.html.dom/attr/)|The Attr class represents an attribute in an Element object. Typically the allowable values for the attribute are defined in a schema associated with the document.|
 
 The following is a brief list of useful API methods provides by the core data types:
 
 |**Method** |**Description**|
 | :- | :- |
-|[Document.GetElementById(`elementId`)](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/getelementbyid) |The method, when invoked, must return the first element whose ID is elementId and null if there is no such element otherwise.|
-|[Document.GetElementsByTagName(`tagname`) ](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/getelementsbytagname)|The method must return the list of elements with the given name.|
-|[Document.CreateElement(`localname`)](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/createelement)|The method creates an element of the type specified, or an  [HTMLUnknownElement](https://reference.aspose.com/html/net/aspose.html/htmlunknownelement) if tagname isn't recognized.|
-|[Node.AppendChild(`node`)](https://reference.aspose.com/html/net/aspose.html.dom/node/methods/appendchild)|The method adds a node to the end of the list of children of a specified parent node.|
-|[Element.SetAttribute(`name, value`)](https://reference.aspose.com/html/net/aspose.html.dom/element/methods/setattribute)|Sets the value of an attribute on the specified element.|
-|[Element.GetAttribute(`name`)](https://reference.aspose.com/html/net/aspose.html.dom/element/methods/getattribute)|The method returns the value of a specified attribute on the element.|
-|[Element.innerHTML](https://reference.aspose.com/html/net/aspose.html.dom/element/properties/innerhtml) |The property returns a fragment of markup contained within the element.|
+|[Document.GetElementById(`elementId`)](https://reference.aspose.com/html/net/aspose.html.dom/document/getelementbyid/) |The method, when invoked, must return the first element whose ID is elementId and null if there is no such element otherwise.|
+|[Document.GetElementsByTagName(`tagname`) ](https://reference.aspose.com/html/net/aspose.html.dom/document/getelementsbytagname/)|The method must return the list of elements with the given name.|
+|[Document.CreateElement(`localname`)](https://reference.aspose.com/html/net/aspose.html.dom/document/createelement/)|The method creates an element of the type specified, or an  [HTMLUnknownElement](https://reference.aspose.com/html/net/aspose.html/htmlunknownelement/) if tagname isn't recognized.|
+|[Node.AppendChild(`node`)](https://reference.aspose.com/html/net/aspose.html.dom/node/appendchild/)|The method adds a node to the end of the list of children of a specified parent node.|
+|[Element.SetAttribute(`name, value`)](https://reference.aspose.com/html/net/aspose.html.dom/element/setattribute/)|Sets the value of an attribute on the specified element.|
+|[Element.GetAttribute(`name`)](https://reference.aspose.com/html/net/aspose.html.dom/element/getattribute/)|The method returns the value of a specified attribute on the element.|
+|[Element.innerHTML](https://reference.aspose.com/html/net/aspose.html.dom/element/innerhtml/) |The property returns a fragment of markup contained within the element.|
 
-For a complete list of interfaces and methods represented in the DOM namespace please visit [**API Reference Source**](https://reference.aspose.com/html/net/aspose.html.dom).
+For a complete list of interfaces and methods represented in the DOM namespace please visit [**API Reference Source**](https://reference.aspose.com/html/net/aspose.html.dom/).
 ## **Edit HTML**
 There are many ways you can edit HTML by using our library. You can modify the document by inserting new nodes, removing, or editing the content of existing nodes. If you need to create a new node, the following methods are ones that need to be invoked:
 
 |**Method** |**Description** |
 | :- | :- |
-|[Document.CreateCDATASection(`data`)](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/createcdatasection) |Creates a CDATASection node whose value is the specified string. |
-|[Document.CreateComment(`data`)](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/createcomment) |Creates a Comment node given the specified string. |
-|[Document.CreateDocumentFragment()](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/createdocumentfragment) |Creates an empty DocumentFragment object. |
-|[Document.CreateElement(`localname`)](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/createelement) |Creates an element of the type specified. |
-|[Document.CreateEntityReference(`name`)](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/createentityreference) |Creates an EntityReference object. |
-|[Document.CreateProcessingInstruction(`target, data`)](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/createprocessinginstruction) |Creates an ProcessingInstruction with the specified name and data. |
-|[Document.CreateTextNode(`data`)](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/createtextnode) |Creates a Text node given the specified string. |
+|[Document.CreateCDATASection(`data`)](https://reference.aspose.com/html/net/aspose.html.dom/document/createcdatasection/) |Creates a CDATASection node whose value is the specified string. |
+|[Document.CreateComment(`data`)](https://reference.aspose.com/html/net/aspose.html.dom/document/createcomment/) |Creates a Comment node given the specified string. |
+|[Document.CreateDocumentFragment()](https://reference.aspose.com/html/net/aspose.html.dom/document/createdocumentfragment/) |Creates an empty DocumentFragment object. |
+|[Document.CreateElement(`localname`)](https://reference.aspose.com/html/net/aspose.html.dom/document/createelement/) |Creates an element of the type specified. |
+|[Document.CreateEntityReference(`name`)](https://reference.aspose.com/html/net/aspose.html.dom/document/createentityreference/) |Creates an EntityReference object. |
+|[Document.CreateProcessingInstruction(`target, data`)](https://reference.aspose.com/html/net/aspose.html.dom/document/createprocessinginstruction/) |Creates an ProcessingInstruction with the specified name and data. |
+|[Document.CreateTextNode(`data`)](https://reference.aspose.com/html/net/aspose.html.dom/document/createtextnode/) |Creates a Text node given the specified string. |
 
 
 Once you have new nodes are created, there are several methods in the DOM that can help you to insert nodes into the document tree. The following list describes the most common way of inserting nodes: 
 
 |**Method** |**Description** |
 | :- | :- |
-|[Node.InsertBefore(`node, child`)](https://reference.aspose.com/html/net/aspose.html.dom/node/methods/insertbefore) |Inserts the node before the reference *child* node.|
-|[Node.AppendChild(`node`)](https://reference.aspose.com/html/net/aspose.html.dom/node/methods/appendchild) |Adds the node to the list of children of the current node. |
-|[Node.RemoveChild(`child`)](https://reference.aspose.com/html/net/aspose.html.dom/node/methods/removechild) | Removes the child node from the list of children. |
-|[Element.Remove()](https://reference.aspose.com/html/net/aspose.html.dom/node/methods/removechild) | Removes this instance from the HTML DOM tree. |
+|[Node.InsertBefore(`node, child`)](https://reference.aspose.com/html/net/aspose.html.dom/node/insertbefore/) |Inserts the node before the reference *child* node.|
+|[Node.AppendChild(`node`)](https://reference.aspose.com/html/net/aspose.html.dom/node/appendchild/) |Adds the node to the list of children of the current node. |
+|[Node.RemoveChild(`child`)](https://reference.aspose.com/html/net/aspose.html.dom/node/removechild/) | Removes the child node from the list of children. |
+|[Element.Remove()](https://reference.aspose.com/html/net/aspose.html.dom/node/removechild/) | Removes this instance from the HTML DOM tree. |
 
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation). 
@@ -160,7 +160,7 @@ You can download the complete examples and data files from [**GitHub**](https://
 
 
 ## **Using InnerHTML & OuterHTML properties**
-Having DOM objects gives you a powerful tool to manipulate with an HTML Document. However, sometime much better to work just with [System.String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.8). The following code snippet shows you how to use the [**InnerHTML**](https://reference.aspose.com/html/net/aspose.html.dom/element/properties/innerhtml) & [**OuterHTML**](https://reference.aspose.com/html/net/aspose.html.dom/element/properties/outerhtml) properties to edit HTML.
+Having DOM objects gives you a powerful tool to manipulate with an HTML Document. However, sometime much better to work just with [System.String](https://docs.microsoft.com/en-us/dotnet/api/system.string?view=netframework-4.8). The following code snippet shows you how to use the [**InnerHTML**](https://reference.aspose.com/html/net/aspose.html.dom/element/innerhtml/) & [**OuterHTML**](https://reference.aspose.com/html/net/aspose.html.dom/element/outerhtml/) properties to edit HTML.
 
 {{< highlight java >}}
 using System;
@@ -275,7 +275,7 @@ The figure illustrates the fragment of rendered "edit-internal-css.pdf" file:
 
 ![Text "Internal CSS"](internal_css.png#center)
 
-In this example, we use internal CSS and also declare additional style properties for individual elements using the **Style** property of the **[HTMLElement](https://reference.aspose.com/html/net/aspose.html/htmlelement)** class.
+In this example, we use internal CSS and also declare additional style properties for individual elements using the **Style** property of the **[HTMLElement](https://reference.aspose.com/html/net/aspose.html/htmlelement/)** class.
 
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation). 

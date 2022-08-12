@@ -21,7 +21,7 @@ The following Java code snippet shows how to convert {{%EPUB%}} to PDF using Asp
 
 1. Open an existing {{%EPUB%}} file;
 1. Create an instance of [PdfSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions);
-1. Use the `Converter.ConvertEPUB` method of [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/converter) class to save {{%EPUB%}} as a PDF file. You need to pass the {{%EPUB%}} file stream, [PdfSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptionsQ), and output file path to the `Converter.ConvertEPUB` method to convert {{%EPUB%}} to PDF.
+1. Use the `Converter.ConvertEPUB` method of [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/converter) class to save {{%EPUB%}} as a PDF file. You need to pass the {{%EPUB%}} file stream, [PdfSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions), and output file path to the `Converter.ConvertEPUB` method to convert {{%EPUB%}} to PDF.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertEPUBToPDF_ConvertEPUBFileToPDF.java" >}}
 ## **Save Options** ## 

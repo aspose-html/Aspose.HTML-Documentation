@@ -17,7 +17,7 @@ lastmod: "2022-06-01"
 
 {{%Markdown%}} is a markup language with a plain-text-formatting syntax. Markdown is often used as a format for documentation and readme files since it allows writing in an easy-to-read and easy-to-write style. It is popular with technical writers for its simplicity of use, lightweight learning and broad support. Its design allows it to be easily converted to many output formats, but initially, it was created to convert only to HTML.  Aspose.HTML class library provides a reversed conversion from HTML to Markdown. You can access and edit Markdown files or create new content from any device in any text editor.
 
-In this article, you find information on how to convert  HTML to {{%MD%}} using [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class, and how to apply [MarkdownSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions).
+In this article, you find information on how to convert  HTML to {{%MD%}} using [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/) methods of the Converter class, and how to apply [MarkdownSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions/).
 
 ## **Online HTML Converter**
 
@@ -52,7 +52,7 @@ using Aspose.Html.Saving;
 
 ## **HTML to Markdown by a few lines of code**
 
-You can convert HTML to Markdown format using C# and other .NET programming languages. The static methods of the [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter) class are primarily used as the easiest way to convert an HTML code into various formats.  The following code snippet shows how to convert HTML to Markdown literally with a few lines of code!
+You can convert HTML to Markdown format using C# and other .NET programming languages. The static methods of the [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter/) class are primarily used as the easiest way to convert an HTML code into various formats.  The following code snippet shows how to convert HTML to Markdown literally with a few lines of code!
 
 {{< highlight java >}}
 using System.IO;
@@ -70,20 +70,20 @@ using Aspose.Html.Saving;
 {{< /highlight >}}
 
 ## **Save Options**
-The [MarkdownSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions) has a number of properties that give you control over the conversion process. The most important option is [MarkdownSaveOptions.Features](https://reference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions/properties/features). This option allows you to enable/disable the conversion of the particular element.
+The [MarkdownSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions/) has a number of properties that give you control over the conversion process. The most important option is [MarkdownSaveOptions.Features](https://reference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions/features/). This option allows you to enable/disable the conversion of the particular element.
 
 | Property                                                     | Description                                                  |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [Default](https://reference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions/properties/default) | This property returns a set of options that are compatible with default Markdown documentation. |
-| [Features](https://reference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions/properties/features) | A flag set that controls which HTML elements are converted to Markdown. |
-| [Formatter](https://reference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions/properties/formatter) | This property gets or sets the Markdown formatting style.    |
-| [Git](https://reference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions/properties/git) | This property returns a set of options that are compatible with GitLab Flavored Markdown. |
-| [ResourceHandlingOptions](https://reference.aspose.com/html/net/aspose.html.saving/saveoptions/properties/resourcehandlingoptions) | Gets a [ResourceHandlingOptions](https://reference.aspose.com/html/net/aspose.html.saving/resourcehandlingoptions) object which is used for configuration of resources handling. |
+| [Default](https://reference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions/default/) | This property returns a set of options that are compatible with default Markdown documentation. |
+| [Features](https://reference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions/features/) | A flag set that controls which HTML elements are converted to Markdown. |
+| [Formatter](https://reference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions/formatter/) | This property gets or sets the Markdown formatting style.    |
+| [Git](https://reference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions/git/) | This property returns a set of options that are compatible with GitLab Flavored Markdown. |
+| [ResourceHandlingOptions](https://reference.aspose.com/html/net/aspose.html.saving/saveoptions/resourcehandlingoptions/) | Gets a [ResourceHandlingOptions](https://reference.aspose.com/html/net/aspose.html.saving/resourcehandlingoptions/) object which is used for configuration of resources handling. |
 
 
 {{% alert color="primary" %}}
 
-To learn more about [MarkdownSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+To learn more about [MarkdownSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions/), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 
 {{% /alert %}}
 
@@ -92,8 +92,8 @@ To learn more about [MarkdownSaveOptions](https://reference.aspose.com/html/net/
 To convert HTML to Markdown with Markdown SaveOptions specifying, you should follow a few steps: 
 
 1. Load an HTML file using one of the HTMLDocument() constructors of the HTMLDocument class. 
-1. Create a new [MarkdownSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions) object.
-1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/3) method of the Converter class to save HTML as a Markdown file. You need to pass the HTMLDocument, MarkdownSaveOptions, and output file path to the ConvertHTML() method to convert HTML to Markdown .
+1. Create a new [MarkdownSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions/) object.
+1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/converthtml/) method of the Converter class to save HTML as a Markdown file. You need to pass the HTMLDocument, MarkdownSaveOptions, and output file path to the ConvertHTML() method to convert HTML to Markdown .
 
 The following example shows how to process only links and paragraphs, other HTML elements remain as is:
 
@@ -177,7 +177,7 @@ The original Markdown specification supports these tags: BLOCKQUOTE,H1, H2, H3, 
 The GitLab Flavored Markdown extends this list with the next tags: ARTICLE, FOOTER, NAV, ASIDE, HEADER, ADDRESS, HR, DD, FIGURE, FIGCAPTION, ABBR, VIDEO, AUDIO, OUTPUT, CANVAS, SECTION, DETAILS, HGROUP, SUMMARY.
 
 ### **Features nesting**
-Markdown supports a lot of features, but not all of them can be used together. As an example list elements inside of table elements would not be converted. The following table shows what features can be nested. Each feature is a member of the [MarkdownFeatures](https://reference.aspose.com/html/net/aspose.html.saving/markdownfeatures) enumeration.
+Markdown supports a lot of features, but not all of them can be used together. As an example list elements inside of table elements would not be converted. The following table shows what features can be nested. Each feature is a member of the [MarkdownFeatures](https://reference.aspose.com/html/net/aspose.html.saving/markdownfeatures/) enumeration.
 
 |**Parent feature** |**Features which can be processed inside**|
 | :- | :- |

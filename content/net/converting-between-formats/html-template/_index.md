@@ -178,7 +178,7 @@ As it was mentioned earlier, the data source could be represented in XML and JSO
 
 ### **Convert Template to HTML by a single line of code**
 
-Once you have prepared an HTML Template, you can convert Template to HTML in your C# application literally with a single line of code! To make this, you need to pass the required parameters to the  [ConvertTemplate](https://reference.aspose.com/html/net/aspose.html.converters.converter/converttemplate/methods/9) (`sourcePath`, `data`, `options`, `outputPath`) method.
+Once you have prepared an HTML Template, you can convert Template to HTML in your C# application literally with a single line of code! To make this, you need to pass the required parameters to the  [ConvertTemplate](https://reference.aspose.com/html/net/aspose.html.converters/converter/converttemplate/) (`sourcePath`, `data`, `options`, `outputPath`) method.
 
 {{< highlight java >}}
 using System.IO;
@@ -198,10 +198,10 @@ using Aspose.Html.Loading;
 
 If your case involves specifying data and creating a template on-the-fly, you have to follow a few steps:
 
-1. Prepare a JSON & XML data source and save it to a file. The [TemplateData()](https://reference.aspose.com/html/net/aspose.html.converters/templatedata/constructors/1) constructor takes the path to this data file and creates a data object (`data`) for the ConvertTemplate()method.
+1. Prepare a JSON & XML data source and save it to a file. The [TemplateData()](https://reference.aspose.com/html/net/aspose.html.converters/templatedata/templatedata/) constructor takes the path to this data file and creates a data object (`data`) for the ConvertTemplate()method.
 2. Prepare an HTML Template and save it to a file. The ConvertTemplate() method takes the template file's path as a parameter (`sourcePath`).
-3. Initialize an instance of the [TemplateLoadOptions](https://reference.aspose.com/html/net/aspose.html.loading/templateloadoptions) class to determine whether the template and data item names match, regardless of case or not (`options`).
-4. Invoke the [ConvertTemplate()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converttemplate/methods/9) method and pass `sourcePath`, `data`, `options`, and `outputPath` for it. OutputPath is a path for data-filled template file saving. 
+3. Initialize an instance of the [TemplateLoadOptions](https://reference.aspose.com/html/net/aspose.html.loading/templateloadoptions/) class to determine whether the template and data item names match, regardless of case or not (`options`).
+4. Invoke the [ConvertTemplate()](https://reference.aspose.com/html/net/aspose.html.converters/converter/converttemplate/) method and pass `sourcePath`, `data`, `options`, and `outputPath` for it. OutputPath is a path for data-filled template file saving. 
 
 {{< highlight java >}}
 using System.IO;

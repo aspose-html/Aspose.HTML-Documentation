@@ -17,9 +17,9 @@ sitemap:
 
 XPath (XML Path Language) provides a flexible way of pointing to different parts of an XML-based document using a non-XML syntax. The name of the XPath derives from the path expression, which provides a means of hierarchic addressing of the nodes in a document tree. XPath is a query language, with lots of possibilities. XPath allows the processing of values conforming to the DOM data model;  it is based on a DOM representation of the HTML document and selects nodes by various criteria. XPath expressions can also be used in C and C++, JavaScript, XML Schema, PHP, Python,  and many other languages.
 
-XPath is primarily used to navigate the DOM of an XML-based language document using XPath expressions. You can use XPath in HTML and SVG instead of relying on the [GetElement()](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/createelement) or [QuerySelectorAll()](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/queryselectorall)  methods and other DOM functions.
+XPath is primarily used to navigate the DOM of an XML-based language document using XPath expressions. You can use XPath in HTML and SVG instead of relying on the [GetElement()](https://reference.aspose.com/html/net/aspose.html.dom/document/createelement/) or [QuerySelectorAll()](https://reference.aspose.com/html/net/aspose.html.dom/document/queryselectorall/)  methods and other DOM functions.
 
-This article introduces how to use [Evaluate()](https://reference.aspose.com/html/net/aspose.html.dom.xpath/ixpathevaluator/methods/evaluate) method to navigate through the HTML document and select nodes by XPath Query. You will learn, how to select all photos from an HTML document using XPath expressions.
+This article introduces how to use [Evaluate()](https://reference.aspose.com/html/net/aspose.html.dom.xpath/ixpathevaluator/evaluate/) method to navigate through the HTML document and select nodes by XPath Query. You will learn, how to select all photos from an HTML document using XPath expressions.
 
 {{% alert color="primary" %}} 
 
@@ -29,7 +29,7 @@ You can download the data files and complete C# examples that demonstrate the us
 
 ## **Evaluate() method**
 
-XPath queries are mainly made using the [Document](https://reference.aspose.com/html/net/aspose.html.dom/document) class's [Evaluate()](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/evaluate) method. The Evaluate(`expression`, `contextNode`, `resolver`, `type`, `result`) method accepts an XPath expression and other given parameters and returns a result of the specified type:
+XPath queries are mainly made using the [Document](https://reference.aspose.com/html/net/aspose.html.dom/document/) class's [Evaluate()](https://reference.aspose.com/html/net/aspose.html.dom/document/evaluate/) method. The Evaluate(`expression`, `contextNode`, `resolver`, `type`, `result`) method accepts an XPath expression and other given parameters and returns a result of the specified type:
 
 - `expression` is a string representation of the XPath to be evaluated.
 - `contextNode` specifies the context node for the evaluation of the XPath expression. It's common to pass the document as the context node.
@@ -132,7 +132,7 @@ As a result, we got a list containing only links to photos. So the only thing le
 Let's consider the C# example of how to use Evaluate() method to select all photos from an HTML document using XPath expressions. You should follow a few steps:
 
 1. Load an existing HTML file ( [xpath-image.htm](/html/net/how-to-articles/how-to-use-xpath/xpath-image.htm)).
-2. Use the  [Evaluate()](https://reference.aspose.com/html/net/aspose.html.dom/document/methods/evaluate) method of the [Document](https://reference.aspose.com/html/net/aspose.html.dom/document) class and pass XPath expression and other parameters to it.
+2. Use the  [Evaluate()](https://reference.aspose.com/html/net/aspose.html.dom/document/evaluate/) method of the [Document](https://reference.aspose.com/html/net/aspose.html.dom/document/) class and pass XPath expression and other parameters to it.
 3. Iterate over the resulted nodes and print them to the console.
 4. You will get a list containing only links to photos from the HTML document.
 

@@ -235,6 +235,6 @@ As it was mentioned earlier, the data-source could be represented in XML and JSO
 ## **Usage Example** ## 
 Once you have prepared an HTML Template, you can convert Template to HTML in your Java application literally with a single line of code!
 
-Please note that you can use [**TemplateLoadOptions.NamesAreCaseSensitive**](https://reference.aspose.com/html/java/com.aspose.html.loading/templateloadoptions/properties/namesarecasesensitive) property to define whether the template and data element names will be matched regardless of the character case or not.
+Please note that you can use [**TemplateLoadOptions.NamesAreCaseSensitive**](https://reference.aspose.com/html/java/com.aspose.html.loading/TemplateLoadOptions) property to define whether the template and data element names will be matched regardless of the character case or not.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_HTMLTemplate_CreateHTMLFromTemplate.java" >}}

@@ -30,9 +30,9 @@ There are many reasons why would you require to convert ZIP to {{%JPG%}} format.
 
  Aspose.HTML for .NET offers functionality for a custom message handler creating. Let's design the custom handler that we can use to work with ZIP archives. Take the following steps:
 
-1.	Use the necessary Namespace, which is the [Aspose.Html.Net](https://reference.aspose.com/html/net/aspose.html.net). This Namespace is presented by classes and interfaces which are responsible for helping easy network processing. 
+1.	Use the necessary Namespace, which is the [Aspose.Html.Net](https://reference.aspose.com/html/net/aspose.html.net/). This Namespace is presented by classes and interfaces which are responsible for helping easy network processing. 
 
-2.	To create a custom Message Handler, you need to define your own class that will be derived from the [MessageHandler](https://reference.aspose.com/html/net/aspose.html.net/messagehandler) class. The MessageHandler class represents a base type for message handlers. 
+2.	To create a custom Message Handler, you need to define your own class that will be derived from the [MessageHandler](https://reference.aspose.com/html/net/aspose.html.net/messagehandler/) class. The MessageHandler class represents a base type for message handlers. 
 
 {{< highlight java >}}
 using Aspose.Html.Net;
@@ -45,7 +45,7 @@ using Aspose.Html.Net;
 
 3. Initialize an instance of the ZipArchiveMessageHandler class and define a Filter property for it. 
 
-4. Override the [Invoke()](https://reference.aspose.com/html/net/aspose.html.net/messagehandler/methods/invoke) method of the MessageHandler class to implement the custom message handler behaviour. 
+4. Override the [Invoke()](https://reference.aspose.com/html/net/aspose.html.net/messagehandler/invoke/) method of the MessageHandler class to implement the custom message handler behaviour. 
 
 {{< highlight java >}}	
 using System.Net;
@@ -99,13 +99,13 @@ Let's consider closer the code snippet:
 
 - The message handler has the concept of filtering. In this case, a protocol (schema) filter is added, this message handler will only work with the `"zip"` protocol.
 
-   Filtering messages by resource protocol is implemented using the [ProtocolMessageFilter](https://reference.aspose.com/html/net/aspose.html.net.messagefilters/protocolmessagefilter) class. The ProtocolMessageFilter() constructor initializes a new instance of the ProtocolMessageFilter class. It takes the `"zip"` protocols as a parameter.
+   Filtering messages by resource protocol is implemented using the [ProtocolMessageFilter](https://reference.aspose.com/html/net/aspose.html.net.messagefilters/protocolmessagefilter/) class. The ProtocolMessageFilter() constructor initializes a new instance of the ProtocolMessageFilter class. It takes the `"zip"` protocols as a parameter.
 
-- The  [Invoke()](https://reference.aspose.com/html/net/aspose.html.net/messagehandler/methods/invoke)  method implements the message handler behaviour. It is called for each handler in the pipeline and takes a `context` as a parameter. The GetFile() method defines the logic in the Invoke() method. It implements the chain of duties, after which the next Next(`context`) handler is called. 
+- The  [Invoke()](https://reference.aspose.com/html/net/aspose.html.net/messagehandler/invoke/)  method implements the message handler behaviour. It is called for each handler in the pipeline and takes a `context` as a parameter. The GetFile() method defines the logic in the Invoke() method. It implements the chain of duties, after which the next Next(`context`) handler is called. 
 
   The GetFile() method realizes a search for data as a byte array in a zip archive based on Request and forms Response.
 
-- `context` provides contextual information for network services, the entity of the operation is passed through it, and the result of the operation is returned. In Aspose.HTML, the `context` is realized by [INetworkOperationContext](https://reference.aspose.com/html/net/aspose.html.net/inetworkoperationcontext)  interface that has two properties (parameters) - [Request](https://reference.aspose.com/html/net/aspose.html.net/inetworkoperationcontext/properties/request) and [Response](https://reference.aspose.com/html/net/aspose.html.net/inetworkoperationcontext/properties/response). 
+- `context` provides contextual information for network services, the entity of the operation is passed through it, and the result of the operation is returned. In Aspose.HTML, the `context` is realized by [INetworkOperationContext](https://reference.aspose.com/html/net/aspose.html.net/inetworkoperationcontext/)  interface that has two properties (parameters) - [Request](https://reference.aspose.com/html/net/aspose.html.net/inetworkoperationcontext/request/) and [Response](https://reference.aspose.com/html/net/aspose.html.net/inetworkoperationcontext/response/). 
 
 ## **Define the GetFile(), GetArchive(), and  Dispose() Methods**
 
@@ -145,7 +145,7 @@ using Aspose.Zip;
 
 ## **Add ZipArchiveMessageHandler to the Pipeline and Convert ZIP to JPG**
 
-The key concept of message handlers work is chaining them together, and you would now need to add ZipArchiveMessageHandler in the pipeline. The Configuration() constructor creates an instance of the [Configuration](https://reference.aspose.com/html/net/aspose.html/configuration) class. After the configuration is created, the GetService&lt;INetworkService&gt;(),  and MessageHandlers.Add() methods are invoked. The Add() method takes a `zip` object as a parameter and appends ZipArchiveMessageHandler to the end of the message handlers' collection.
+The key concept of message handlers work is chaining them together, and you would now need to add ZipArchiveMessageHandler in the pipeline. The Configuration() constructor creates an instance of the [Configuration](https://reference.aspose.com/html/net/aspose.html/configuration/) class. After the configuration is created, the GetService&lt;INetworkService&gt;(),  and MessageHandlers.Add() methods are invoked. The Add() method takes a `zip` object as a parameter and appends ZipArchiveMessageHandler to the end of the message handlers' collection.
 
 {{< highlight java >}}
 using System;
@@ -190,9 +190,9 @@ using Aspose.Html.Services;
 
 In the example, the ZIP archive (test.zip) has the HTML document (test.html) in which all related resources have paths relative to the HTML document.
 
-**Note:** The [HTMLDocument(`address, configuration`)](https://reference.aspose.com/html/net/aspose.html/htmldocument/constructors/11) constructor takes the absolute path to the ZIP archive. But all related resources have relative paths in the HTML document and in the example's code.
+**Note:** The [HTMLDocument(`address, configuration`)](https://reference.aspose.com/html/net/aspose.html/htmldocument/htmldocument/) constructor takes the absolute path to the ZIP archive. But all related resources have relative paths in the HTML document and in the example's code.
 
-For more information on how to convert HTML to JPG using [Renderto(`device`)](https://reference.aspose.com/html/net/aspose.html/htmldocument/methods/renderto) method, please read the **[Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/)** article.
+For more information on how to convert HTML to JPG using [Renderto(`device`)](https://reference.aspose.com/html/net/aspose.html/htmldocument/renderto/) method, please read the **[Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/)** article.
 
 {{% alert color="primary" %}} 
 Aspose.HTML provides a free online [**ZIP to JPG Converter**](https://products.aspose.app/html/conversion/zip-to-JPG) that allows you to quickly, easily and clearly convert ZIP to JPG.  Upload, convert files and get results in seconds. Try our forceful ZIP to JPG Converter for free now!
