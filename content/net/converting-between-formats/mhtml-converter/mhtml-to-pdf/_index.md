@@ -2,7 +2,7 @@
 keywords: mhtml to pdf, convert mhtml to pdf, mhtml to pdf conversion, mhtml to pdf converter, save options, stream provider, c# code, online converter
 lastmod: 2022-07-28
 url: /net/converting-between-formats/mhtml-to-pdf/
-title: Convert MHTML to PDF | C# code and Online Converter
+title: Convert MHTML to PDF | C# Examples
 linktitle: Convert MHTML to PDF
 description: Convert MHTML to PDF using Aspose.HTML API. Consider the supported MHTML to PDF conversion scenarios in C# examples. Try online MHTML Converter.
 weight: 10

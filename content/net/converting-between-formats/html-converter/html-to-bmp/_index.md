@@ -1,5 +1,5 @@
 ---
-title: Convert HTML to BMP | C# code and Online Converter
+title: Convert HTML to BMP | C# Examples
 linktitle: Convert HTML to BMP
 keywords: html to bmp, convert html to bmp, html to bmp conversion, html to bmp converter, save options, online converter, c# code
 description: Convert HTML to BMP in C# using Aspose.HTML API. Consider various HTML to BMP conversion scenarios in C# examples. Try online HTML Converter.

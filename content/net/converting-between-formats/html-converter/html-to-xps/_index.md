@@ -2,7 +2,7 @@
 keywords: HTML to XPS, convert HTML to XPS, HTML to XPS conversion, HTML to XPS converter, save options, stream provider, online converter, c# code
 lastmod: 2022-07-28
 url: /net/converting-between-formats/html-to-xps/
-title: Convert HTML to XPS | C# code and Online Converter
+title: Convert HTML to XPS | C# Examples
 linktitle: Convert HTML to XPS
 description: You will learn about the supported HTML to XPS conversion scenarios using Aspose.HTML API and consider C# examples to illustrate them.
 weight: 70

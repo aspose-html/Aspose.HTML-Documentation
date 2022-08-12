@@ -2,7 +2,7 @@
 keywords: HTML to MHTML, convert HTML to MHTML, HTML to MHTML conversion, HTML to MHTML converter, save options, online converter, c# code
 lastmod: 2022-07-28
 url: /net/converting-between-formats/html-to-mhtml/
-title: Convert HTML to MHTML | C# code and Online Converter
+title: Convert HTML to MHTML | C# Examples
 linktitle: Convert HTML to MHTML
 description: This article provides information on how to convert HTML to MHTML
   using Aspose.HTML API. You will learn about the supported HTML to MHTML

@@ -1,5 +1,5 @@
 ---
-title: Convert MHTML to DOCX | C# code and Online Converter
+title: Convert MHTML to DOCX | C# Examples
 linktitle: Convert MHTML to DOCX
 keywords: MHTML to DOCX, convert MHTML to DOCX, MHTML to DOCX conversion, MHTML to DOCX converter, save options, stream provider, c# code, online converter
 description: Convert MHTML to DOCX using Aspose.HTML API. Consider the supported MHTML to DOCX conversion scenarios in C# examples. Try online MHTML Converter.
