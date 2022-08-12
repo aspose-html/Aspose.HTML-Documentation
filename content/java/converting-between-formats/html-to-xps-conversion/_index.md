@@ -22,7 +22,7 @@ The next example explains how to convert HTML to PDF by line by line:
 
 1. Load the HTML file using [HtmlDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument) class
 1. Create an instance of [XpsSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions)
-1. Use the [ConvertHTML()](https://reference.aspose.com/html/java/com.aspose.html.converters.converter/converthtml) method of [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/converter) class to save HTML as an {{%XPS%}} file. You need to pass the [HTMLDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument), [XpsSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions), and output file path to the ConvertHTML() method to convert HTML to {{%XPS%}}.
+1. Use the [ConvertHTML()](https://reference.aspose.com/html/java/com.aspose.html.converters/Converter#convertHTML-com.aspose.HTMLDocument-com.aspose.saving.ImageSaveOptions-java.util.Collection-) method of [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/converter) class to save HTML as an {{%XPS%}} file. You need to pass the [HTMLDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument), [XpsSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions), and output file path to the ConvertHTML() method to convert HTML to {{%XPS%}}.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertHTMLToXPS_ConvertHTMLDocumentToXPS.java" >}}
 ## **Save Options** ## 
@@ -30,7 +30,7 @@ The next example explains how to convert HTML to PDF by line by line:
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertHTMLToXPS_SpecifyXpsSaveOptions.java" >}}
 
-To learn more about [XpsSaveOptions](https://reference.aspose.com/html/java/aspose.html.saving/xpssaveoptions) please read [Fine-Tuning Converters](/html/java/converting-between-formats/fine-tuning-converters/) article.
+To learn more about [XpsSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/XpsSaveOptions) please read [Fine-Tuning Converters](/html/java/converting-between-formats/fine-tuning-converters/) article.
 ## **Output Stream Providers** ## 
 If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [MemoryStreamProvider](https://reference.aspose.com/html/java/com.aspose.html/package-frame) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
 

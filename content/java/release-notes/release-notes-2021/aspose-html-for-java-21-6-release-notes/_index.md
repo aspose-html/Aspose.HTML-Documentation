@@ -19,4 +19,4 @@ announce the June release of Aspose.HTML for Java
 
 In this release, we have added directory 
 settings for font lookup. 
-See class [com.aspose.html.FontsSettings](https://reference.aspose.com/html/java/com.aspose.html/FontsSettings) 
+See class [com.aspose.html.FontsSettings](https://reference.aspose.com/html/java/com.aspose.html/HTMLFontElement) 

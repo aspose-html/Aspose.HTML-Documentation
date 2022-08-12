@@ -57,9 +57,9 @@ Use the Stopwatch class in the System.Diagnostics Namespace to accurately measur
 
 ### **Adding the TimeLoggerMessageHandler to the Pipeline and Implement the Example**
 
-The Configuration() constructor initializes an instance of the [Configuration](https://reference.aspose.com/html/net/aspose.html/configuration) class. After the configuration is created, the GetService &lt;INetworkService&gt;() and MessageHandlers.Insert() methods are invoked. The Insert() method adds the TimeLoggerMessageHandler at the first place in the collection of message handlers. 
+The Configuration() constructor initializes an instance of the [Configuration](https://reference.aspose.com/html/net/aspose.html/configuration/) class. After the configuration is created, the GetService &lt;INetworkService&gt;() and MessageHandlers.Insert() methods are invoked. The Insert() method adds the TimeLoggerMessageHandler at the first place in the collection of message handlers. 
 
-Use the [HTMLDocument(`address, configuration`)](https://reference.aspose.com/html/net/aspose.html/htmldocument/constructors/11) constructor to initialize an HTML Document and implement the example for logging the document's loading time.
+Use the [HTMLDocument(`address, configuration`)](https://reference.aspose.com/html/net/aspose.html/htmldocument/htmldocument/) constructor to initialize an HTML Document and implement the example for logging the document's loading time.
 
 {{< highlight java >}}
 using Aspose.Html;

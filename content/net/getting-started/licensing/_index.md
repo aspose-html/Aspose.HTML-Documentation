@@ -27,7 +27,7 @@ If you want to test Aspose.HTML for .NET without the evaluation version limitati
 ## **Applying a License**
 Aspose.HTML for .NET provides you the number of ways to apply a license. They will be described in the following paragraphs.
 
-If you are using any other Aspose for .NET component along with Aspose.HTML for .NET, please specify complete namespace for License like[ Aspose.Html.License](https://reference.aspose.com/html/net/aspose.html/license) or [Aspose.Html.Metered](https://reference.aspose.com/html/net/aspose.html/metered),
+If you are using any other Aspose for .NET component along with Aspose.HTML for .NET, please specify complete namespace for License like[ Aspose.Html.License](https://reference.aspose.com/html/net/aspose.html/license/) or [Aspose.Html.Metered](https://reference.aspose.com/html/net/aspose.html/metered/),
 ### **Applying a License from Disk or Stream**
 The easiest way to apply a license is to put the license file in the same folder as the Aspose.HTML.dll file and specify just the file name without a path.
 
@@ -57,7 +57,7 @@ To include the license file as an embedded resource, perform the following steps
 
 1. In Visual Studio, include the .lic file into your project by right clicking it and choosing **Add -> Existing Item...** from the opened menu.
 1. Select the file in the Solution Explorer and set **Build Action** **to Embedded resource** in the **Properties** window.
-1. In your code, invoke [SetLicense](https://reference.aspose.com/html/net/aspose.html.license/setlicense/methods/1) passing only the short name of the resource file.
+1. In your code, invoke [SetLicense](https://reference.aspose.com/html/net/aspose.html/license/setlicense/) passing only the short name of the resource file.
 
 {{< highlight java >}}
  // Instantiate the License object.

@@ -30,7 +30,7 @@ We have also made some minor usability improvements in this release such as clar
 |HTMLNET-2205|HTML to Image - no borders for table|Bug|
 |HTMLNET-2493|HTML not properly converted to PDF|Bug|
 ## **Public API and Backward Incompatible Changes**
-We have added new signatures to the Document creation methods. Now you can specify a base URL using the [URL](https://reference.aspose.com/html/net/aspose.html/url) class.
+We have added new signatures to the Document creation methods. Now you can specify a base URL using the [URL](https://reference.aspose.com/html/net/aspose.html/url/) class.
 
 
 

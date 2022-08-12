@@ -24,8 +24,8 @@ Authentication is the process of determining whether a client has the right to a
 
 Basic Authentication is a method for an HTTP user agent (such as a web browser) to provide a username and password when making a request. Let's create a custom handler that you can use for Basic Authentication. Take the next steps:
 
-1. Use the necessary Namespace, which is the [Aspose.Html.Net](https://reference.aspose.com/html/net/aspose.html.net).
-2. Define your own CredentialHandler class that will be derived from the [MessageHandler](https://reference.aspose.com/html/net/aspose.html.net/messagehandler) class.
+1. Use the necessary Namespace, which is the [Aspose.Html.Net](https://reference.aspose.com/html/net/aspose.html.net/).
+2. Define your own CredentialHandler class that will be derived from the [MessageHandler](https://reference.aspose.com/html/net/aspose.html.net/messagehandler/) class.
 3. Override the Invoke() method to implement the custom message handler behaviour.
 
 The following code snippet shows how to create a CredentialHandler to access on remote source with authorization using HTTP Basic Authentication:
@@ -72,7 +72,7 @@ using Aspose.Html.Services;
 	using var document = new HTMLDocument("https://httpbin.org/basic-auth/username/securelystoredpassword", configuration);	
  {{< /highlight >}}
 
-The Configuration() constructor initializes an instance of the Configuration class. After the configuration is created, the GetService <INetworkService>() and MessageHandlers.Insert() methods are invoked. The Insert() method adds the CredentialHandler at the first place in the collection of message handlers. Use the [HTMLDocument(`url, configuration`)](https://reference.aspose.com/html/net/aspose.html/htmldocument/constructors/5) constructor to initialize an HTML Document and implement the example for HTTP Basic Authentication.
+The Configuration() constructor initializes an instance of the Configuration class. After the configuration is created, the GetService <INetworkService>() and MessageHandlers.Insert() methods are invoked. The Insert() method adds the CredentialHandler at the first place in the collection of message handlers. Use the [HTMLDocument(`url, configuration`)](https://reference.aspose.com/html/net/aspose.html/htmldocument/htmldocument/) constructor to initialize an HTML Document and implement the example for HTTP Basic Authentication.
 
 ## **Authentication Schemes**
 

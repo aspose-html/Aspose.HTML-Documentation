@@ -1,5 +1,5 @@
 ---
-title: Convert MHTML to DOCX | C# code and Online Converter
+title: Convert MHTML to DOCX | C# Examples
 linktitle: Convert MHTML to DOCX
 keywords: MHTML to DOCX, convert MHTML to DOCX, MHTML to DOCX conversion, MHTML to DOCX converter, save options, stream provider, c# code, online converter
 description: Convert MHTML to DOCX using Aspose.HTML API. Consider the supported MHTML to DOCX conversion scenarios in C# examples. Try online MHTML Converter.
@@ -12,7 +12,7 @@ lastmod: 2022-07-28
 
 MHTML to DOCX conversion is often required to take advantage of DOCX format for specific tasks. DOCX is a well-known format for Microsoft Word documents. It can contain a wide range of data, including text, tables, raster and vector graphics, video, sounds and diagrams. This format is popular because it supports a wide range of formatting features and offers users a variety of options to write any type of document. 
 
-In this article, you find information on how to convert {{%MHTML%}} to {{%DOCX%}} using ConvertMHTML() methods of the Converter class and how to apply [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) parameters.
+In this article, you find information on how to convert {{%MHTML%}} to {{%DOCX%}} using ConvertMHTML() methods of the Converter class and how to apply [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions/) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider/) parameters.
 
 
 ## **Online MHTML Converter**
@@ -44,7 +44,7 @@ If you want to convert MHTML to DOCX programmatically, please see the following 
 
 ## **MHTML to DOCX by two lines of code**
 
-The static methods of the [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter) class are primarily used as the easiest way to convert an MHTML code into various formats. For example, you can convert {{%MHTML%}} to {{%DOCX%}} in your C# application literally with two lines of code!
+The static methods of the [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter/) class are primarily used as the easiest way to convert an MHTML code into various formats. For example, you can convert {{%MHTML%}} to {{%DOCX%}} in your C# application literally with two lines of code!
 
 {{< highlight java >}}
 using System.IO;
@@ -60,13 +60,13 @@ using Aspose.Html.Saving;
 
 ## **Convert MHTML to DOCX**
 
-Using [Converter.ConvertMHTML](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/convertmhtml/index) methods is the most common way to convert MHTML code into various formats.  With Aspose.HTML, you can convert MHTML to DOCX format programmatically with full control over a wide range of conversion parameters. 
+Using [Converter.ConvertMHTML](https://reference.aspose.com/html/net/aspose.html.converters/converter/convertmhtml/) methods is the most common way to convert MHTML code into various formats.  With Aspose.HTML, you can convert MHTML to DOCX format programmatically with full control over a wide range of conversion parameters. 
 
 The following C# code snippet shows how to convert MHTML to DOCX using Aspose.HTML for .NET.
 
 1. Open an existing MHTML file.
-1. Create an instance of the [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions) class.
-1. Use the [ConvertMHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/convertmhtml/methods/25) method of the [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter) class to save MHTML as a DOCX file. You need to pass the MHTML file stream, DocSaveOptions, and output file path to the ConvertMHTML() method method for MHTML to DOCX conversion.
+1. Create an instance of the [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions/) class.
+1. Use the [ConvertMHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/convertmhtml/) method of the [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter/) class to save MHTML as a DOCX file. You need to pass the MHTML file stream, DocSaveOptions, and output file path to the ConvertMHTML() method method for MHTML to DOCX conversion.
 
 In the example, we use the OpenRead() method of System.IO.FileStream class to open and read files from the file system at the specified path.
 
@@ -94,21 +94,21 @@ You can download the complete examples and data files from [**GitHub**](https://
 
 ## **Save Options**
 
-Aspose.HTML allows converting MHTML to DOCX using default or custom save options. [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions) usage enables you to customize the rendering process; you can specify the page size, margins, resolutions, CSS, etc. 
+Aspose.HTML allows converting MHTML to DOCX using default or custom save options. [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions/) usage enables you to customize the rendering process; you can specify the page size, margins, resolutions, CSS, etc. 
 
 
 | Property                                                     | Description                                                  |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [FontEmbeddingRule](https://reference.aspose.com/html/net/aspose.html.rendering.doc/docrenderingoptions/properties/fontembeddingrule) | This property gets or sets the font embedding rule. Available values are Full and None. The default value is [None](https://reference.aspose.com/html/net/aspose.html.rendering.doc/fontembeddingrule). |
-| [Css](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/css) | Gets a [CssOptions](https://reference.aspose.com/html/net/aspose.html.rendering/cssoptions) object which is used for configuration of CSS properties processing. |
-| [DocumentFormat](https://reference.aspose.com/html/net/aspose.html.rendering.doc/docrenderingoptions/properties/documentformat) | This property gets or sets the file format of the output document. The default value is [DOCX](https://reference.aspose.com/html/net/aspose.html.rendering.doc/documentformat). |
-| [PageSetup](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) | This property gets a page setup object and uses it for configuration output page-set. |
-| [HorizontalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/horizontalresolution) | Sets horizontal resolution for output images in pixels per inch. The default value is 300 dpi. |
-| [VerticalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/verticalresolution) | Sets vertical resolution for output images in pixels per inch. The default value is 300 dpi. |
+| [FontEmbeddingRule](https://reference.aspose.com/html/net/aspose.html.rendering.doc/docrenderingoptions/fontembeddingrule/) | This property gets or sets the font embedding rule. Available values are Full and None. The default value is [None](https://reference.aspose.com/html/net/aspose.html.rendering.doc/fontembeddingrule/). |
+| [Css](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/css/) | Gets a [CssOptions](https://reference.aspose.com/html/net/aspose.html.rendering/cssoptions/) object which is used for configuration of CSS properties processing. |
+| [DocumentFormat](https://reference.aspose.com/html/net/aspose.html.rendering.doc/docrenderingoptions/documentformat/) | This property gets or sets the file format of the output document. The default value is [DOCX](https://reference.aspose.com/html/net/aspose.html.rendering.doc/documentformat/). |
+| [PageSetup](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/pagesetup/) | This property gets a page setup object and uses it for configuration output page-set. |
+| [HorizontalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/horizontalresolution/) | Sets horizontal resolution for output images in pixels per inch. The default value is 300 dpi. |
+| [VerticalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/verticalresolution/) | Sets vertical resolution for output images in pixels per inch. The default value is 300 dpi. |
 
 {{% alert color="primary" %}}
 
-To learn more about [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+To learn more about [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions/), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 
 {{% /alert %}}
 
@@ -118,10 +118,10 @@ To learn more about [DocSaveOptions](https://reference.aspose.com/html/net/aspos
 To convert MHTML to DOCX with DocSaveOptions specifying, you should follow a few steps: 
 
 1. Open an existing MHTML file.
-1. Create a new [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions) object and specify save options.
-1. Use the [ConvertMHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/convertmhtml/methods/25) method to save MHTML as a DOCX file. You need to pass the MHTML file stream, DocSaveOptions, and output file path to the ConvertMHTML() method for MHTML to DOCX conversion.
+1. Create a new [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions/) object and specify save options.
+1. Use the [ConvertMHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/convertmhtml/) method to save MHTML as a DOCX file. You need to pass the MHTML file stream, DocSaveOptions, and output file path to the ConvertMHTML() method for MHTML to DOCX conversion.
 
-The following example shows how to use [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions) and create a DOCX file with custom save options:
+The following example shows how to use [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions/) and create a DOCX file with custom save options:
 
 {{< highlight java >}}
 using System.IO;
@@ -144,10 +144,10 @@ using Aspose.Html.Drawing;
     Converter.ConvertMHTML(stream, options, savePath); 
 {{< /highlight >}}
 
-In the example, we use the OpenRead() method of System.IO.FileStream class to open and read source files from the file system at the specified path. The [DocSaveOptions()](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions/constructors/main) constructor initializes an instance of the DocSaveOptions class that is passed to ConvertMHTML() method. The ConvertMHTML() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation. The DocSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting MHTML to DOCX format. In the example, we use the PageSetup property that specifies the page size of the DOCX document.
+In the example, we use the OpenRead() method of System.IO.FileStream class to open and read source files from the file system at the specified path. The [DocSaveOptions()](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions/docsaveoptions/) constructor initializes an instance of the DocSaveOptions class that is passed to ConvertMHTML() method. The ConvertMHTML() method takes the `stream`, `options`,  output file path `savePath` and performs the conversion operation. The DocSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting MHTML to DOCX format. In the example, we use the PageSetup property that specifies the page size of the DOCX document.
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider/) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 

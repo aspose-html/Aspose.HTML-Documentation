@@ -15,7 +15,7 @@ aliases:
 
 XPS is a document storage and viewing format developed by Microsoft. An XPS file has a set of advantages that support security features, such as digital signatures to provide greater document security and more. With Aspose.HTML, you can convert SVG to XPS format programmatically with full control over a wide range of conversion parameters. 
 
-In this article, you find information on how to convert SVG to {{%XPS%}} using [ConvertSVG()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/convertsvg/index) methods of the Converter class and how to apply  [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider/) parameters.  Also, you can try an Online SVG Converter to test the Aspose.HTML API functionality and convert SVG on the fly.
+In this article, you find information on how to convert SVG to {{%XPS%}} using [ConvertSVG()](https://reference.aspose.com/html/net/aspose.html.converters/converter/convertsvg/) methods of the Converter class and how to apply  [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider/) parameters.  Also, you can try an Online SVG Converter to test the Aspose.HTML API functionality and convert SVG on the fly.
 
 ## **Online SVG Converter**
 
@@ -47,7 +47,7 @@ If you want to convert SVG to XPS file programmatically, please see the followin
 
 ## **SVG to XPS by a single line of code**
 
-The static methods of the [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter) class are primarily used as the easiest way to convert an SVG file into various formats. You can convert SVG to XPS in your C# application literally with a single line of code!
+The static methods of the [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter/) class are primarily used as the easiest way to convert an SVG file into various formats. You can convert SVG to XPS in your C# application literally with a single line of code!
 
 In the following example, we take an SVG file in a local file system ([shapes.svg](/html/net/converting-between-formats/svg-to-jpg/shapes.svg)), convert and save it in the local file system.
 
@@ -64,8 +64,8 @@ using Aspose.Html.Saving;
 Converting a file to another format using the ConvertSVG() method is a sequence of operations among which document loading and saving. In the following example, we create an SVG file from code. 
 
 1. Prepare code for an SVG document.
-1. Create a new [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) object.
-1. Use the [ConvertSVG(`content`, `baseUri`, `options`, `outputPath`)](https://reference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/51) method of the Converter class to save SVG as an XPS file. 
+1. Create a new [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/) object.
+1. Use the [ConvertSVG(`content`, `baseUri`, `options`, `outputPath`)](https://reference.aspose.com/html/net/aspose.html.converters/converter/convertsvg/) method of the Converter class to save SVG as an XPS file. 
 
 Please take a look over the following C# code snippet which shows the process of converting SVG to XPS using Aspose.HTML for .NET.
 
@@ -94,23 +94,23 @@ You can download the complete examples and data files from [**GitHub**](https://
 {{% /alert %}}
 
 ## **Save Options**
-Aspose.HTML allows converting SVG to XPS using default or custom save options. [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) usage enables you to customize the rendering process; you can specify the page size, margins, background color, etc. 
+Aspose.HTML allows converting SVG to XPS using default or custom save options. [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/) usage enables you to customize the rendering process; you can specify the page size, margins, background color, etc. 
 
 | Property                                                     | Description                                                  |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [PageSetup](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) | This property gets a page setup object and uses it for configuration output page-set. |
-| [Css](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/css) | Gets a [CssOptions](https://reference.aspose.com/html/net/aspose.html.rendering/cssoptions) object which is used for configuration of CSS properties processing. |
-| [BackgroundColor](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/backgroundcolor) | This property sets the color that will fill the background of every page. By default, this property is Transparent. |
-| [HorizontalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/horizontalresolution) | Sets horizontal resolution for output images in pixels per inch. The default value is 300 dpi. |
-| [VerticalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/verticalresolution) | Sets vertical resolution for output images in pixels per inch. The default value is 300 dpi. |
+| [PageSetup](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/pagesetup/) | This property gets a page setup object and uses it for configuration output page-set. |
+| [Css](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/css/) | Gets a [CssOptions](https://reference.aspose.com/html/net/aspose.html.rendering/cssoptions/) object which is used for configuration of CSS properties processing. |
+| [BackgroundColor](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/backgroundcolor/) | This property sets the color that will fill the background of every page. By default, this property is Transparent. |
+| [HorizontalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/horizontalresolution/) | Sets horizontal resolution for output images in pixels per inch. The default value is 300 dpi. |
+| [VerticalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/verticalresolution/) | Sets vertical resolution for output images in pixels per inch. The default value is 300 dpi. |
 
 ## **Convert SVG to XPS using XpsSaveOptions**
 
 To convert SVG to XPS with XpsSaveOptions specifying, you should follow a few steps: 
 
-1. Load an SVG file using one of the SVGDocument() constructors of the [SVGDocument](https://reference.aspose.com/html/net/aspose.html.dom.svg/svgdocument) class. ([aspose.svg](/html/net/converting-between-formats/svg-to-pdf/aspose.svg)). 
-1. Create a new [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions) object and specify save options. 
-1. Use the [ConvertSVG()](https://reference.aspose.com/html/net/aspose.html.converters.converter/convertsvg/methods/3) method to save SVG as an XPS file. You need to pass the SVGDocument, XpsSaveOptions, and output file path to the ConvertSVG() method for SVG to XPS conversion.
+1. Load an SVG file using one of the SVGDocument() constructors of the [SVGDocument](https://reference.aspose.com/html/net/aspose.html.dom.svg/svgdocument/) class. ([aspose.svg](/html/net/converting-between-formats/svg-to-pdf/aspose.svg)). 
+1. Create a new [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/) object and specify save options. 
+1. Use the [ConvertSVG()](https://reference.aspose.com/html/net/aspose.html.converters/converter/convertsvg/) method to save SVG as an XPS file. You need to pass the SVGDocument, XpsSaveOptions, and output file path to the ConvertSVG() method for SVG to XPS conversion.
 
 The following C# code snippet shows how to convert SVG to XPS using custom save options:
 
@@ -144,21 +144,21 @@ using System.Drawing;
     Converter.ConvertSVG(document, options, savePath);
 {{< /highlight >}}
 
-The [XpsSaveOptions()](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/constructors/main) constructor initializes an instance of the XpsSaveOptions class that is passed to ConvertSVG() method. The ConvertSVG() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation.
+The [XpsSaveOptions()](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/xpssaveoptions/) constructor initializes an instance of the XpsSaveOptions class that is passed to ConvertSVG() method. The ConvertSVG() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation.
 
 In the above example, we use:
  - BackgroundColor property that sets the color that will fill the background. The default BackgroundColor is Transparent.
  - HorizontalResolution and VerticalResolution properties that set horizontal/vertical resolution for output images in pixels per inch. By default, these properties are 300 dpi.
- - PageSetup property that specifies the [page size](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) and [margins](https://reference.aspose.com/html/net/aspose.html.drawing/page/properties/margin).
+ - PageSetup property that specifies the [page size](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/pagesetup/) and [margins](https://reference.aspose.com/html/net/aspose.html.drawing/page/margin/).
 
-The XpsSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting SVG to XPS format. To learn more about [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
+The XpsSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting SVG to XPS format. To learn more about [XpsSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/), please read the [Fine-Tuning Converters](/html/net/converting-between-formats/fine-tuning-converters/) article.
 
 The figure illustrates the aspose-options.xps file with specified page size, background color, etc.
 
 ![Text "Image of the Aspose logo"](../aspose-options.png#center)
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement the [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement the [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider/) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 

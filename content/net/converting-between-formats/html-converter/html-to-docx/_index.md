@@ -16,7 +16,7 @@ aliases:
 A DOCX file is a Microsoft Word document that typically contains the text but can contain a wide range of data, including tables, raster and vector graphics, video, sounds and diagrams. The DOCX file is highly editable, easy to use and manageable in size. This format is popular because of the variety of options it offers users to write any type of documents. This file format is one of the most widely used and is available through numerous programs.
 
 
-Using [Converter.ConvertHTML](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/converthtml/index) methods is the most common way to convert HTML code into various formats.  With Aspose.HTML, you can convert HTML to DOCX format programmatically with full control over a wide range of conversion parameters. In this article, you find information on how to convert  HTML to {{%DOCX %}} using ConvertHTML() methods of the Converter class, and how to apply [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions/) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider/) parameters.
+Using [Converter.ConvertHTML](https://reference.aspose.com/html/net/aspose.html.converters/converter/converthtml/) methods is the most common way to convert HTML code into various formats.  With Aspose.HTML, you can convert HTML to DOCX format programmatically with full control over a wide range of conversion parameters. In this article, you find information on how to convert  HTML to {{%DOCX %}} using ConvertHTML() methods of the Converter class, and how to apply [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions/) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider/) parameters.
 
 
 ## **Online HTML Converter**
@@ -71,7 +71,7 @@ Converting a file to another format using the ConvertHTML() method is a sequence
 
 1. Load an HTML file using the [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/) class.
 1. Create a new [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions/) object. 
-1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/1) method of the Converter class to save HTML as a DOCX file. You need to pass the HTMLDocument, DocSaveOptions, and output file path to the ConvertHTML() method to convert HTML to DOCX.
+1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/converthtml/) method of the Converter class to save HTML as a DOCX file. You need to pass the HTMLDocument, DocSaveOptions, and output file path to the ConvertHTML() method to convert HTML to DOCX.
 
 Please take a look over the following C# code snippet which shows the process of converting HTML to DOCX using Aspose.HTML for .NET.
 
@@ -106,12 +106,12 @@ Aspose.HTML allows converting HTML to DOCX using default or custom save options.
 
 | Property                                                     | Description                                                  |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [FontEmbeddingRule](https://reference.aspose.com/html/net/aspose.html.rendering.doc/docrenderingoptions/properties/fontembeddingrule) | This property gets or sets the font embedding rule. Available values are Full and None. The default value is [None](https://reference.aspose.com/html/net/aspose.html.rendering.doc/fontembeddingrule). |
-| [Css](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/css) | Gets a [CssOptions](https://reference.aspose.com/html/net/aspose.html.rendering/cssoptions) object which is used for configuration of CSS properties processing. |
-| [DocumentFormat](https://reference.aspose.com/html/net/aspose.html.rendering.doc/docrenderingoptions/properties/documentformat) | This property gets or sets the file format of the output document. The default value is [DOCX](https://reference.aspose.com/html/net/aspose.html.rendering.doc/documentformat). |
-| [PageSetup](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) | This property gets a page setup object and uses it for configuration output page-set. |
-| [HorizontalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/horizontalresolution) | Sets horizontal resolution for output images in pixels per inch. The default value is 300 dpi. |
-| [VerticalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/verticalresolution) | Sets vertical resolution for output images in pixels per inch. The default value is 300 dpi. |
+| [FontEmbeddingRule](https://reference.aspose.com/html/net/aspose.html.rendering.doc/docrenderingoptions/fontembeddingrule/) | This property gets or sets the font embedding rule. Available values are Full and None. The default value is [None](https://reference.aspose.com/html/net/aspose.html.rendering.doc/fontembeddingrule/). |
+| [Css](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/css/) | Gets a [CssOptions](https://reference.aspose.com/html/net/aspose.html.rendering/cssoptions/) object which is used for configuration of CSS properties processing. |
+| [DocumentFormat](https://reference.aspose.com/html/net/aspose.html.rendering.doc/docrenderingoptions/documentformat/) | This property gets or sets the file format of the output document. The default value is [DOCX](https://reference.aspose.com/html/net/aspose.html.rendering.doc/documentformat/). |
+| [PageSetup](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/pagesetup/) | This property gets a page setup object and uses it for configuration output page-set. |
+| [HorizontalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/horizontalresolution/) | Sets horizontal resolution for output images in pixels per inch. The default value is 300 dpi. |
+| [VerticalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/verticalresolution/) | Sets vertical resolution for output images in pixels per inch. The default value is 300 dpi. |
 
 {{% alert color="primary" %}}
 
@@ -125,7 +125,7 @@ To convert HTML to DOCX with DocSaveOptions specifying, you should follow a few 
 
 1. Load an HTML file using one of the HTMLDocument() constructors of the  [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/) class. 
 1. Create a new [DocSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions/) object.
-1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/1) method of the  Converter class to save HTML as a DOCX file. You need to pass the HTMLDocument, DocSaveOptions, and output file path to the ConvertHTML() method to convert HTML to DOCX.
+1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/converthtml/) method of the  Converter class to save HTML as a DOCX file. You need to pass the HTMLDocument, DocSaveOptions, and output file path to the ConvertHTML() method to convert HTML to DOCX.
 
 The following example shows how to use DocSaveOptions and create a DOCX file with custom save options:
 
@@ -156,11 +156,11 @@ using Aspose.Html.Drawing;
     Converter.ConvertHTML(document, options, savePath);   
 {{< /highlight >}}
 
-The [DocSaveOptions()](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions/constructors/main) constructor initializes an instance of the DocSaveOptions class that is passed to ConvertHTML() method. The ConvertHTML() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation. The DocSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting HTML to DOCX format. In the above example, we use the PageSetup property that specifies the [page size](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) of the DOCX document.
+The [DocSaveOptions()](https://reference.aspose.com/html/net/aspose.html.saving/docsaveoptions/docsaveoptions/) constructor initializes an instance of the DocSaveOptions class that is passed to ConvertHTML() method. The ConvertHTML() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation. The DocSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting HTML to DOCX format. In the above example, we use the PageSetup property that specifies the [page size](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/pagesetup/) of the DOCX document.
 
 
 ## **Output Stream Providers**
-If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
+If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider/) interface to have manual control over the file creating process. This interface is designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering the document/page.
 
 {{% alert color="primary" %}} 
 

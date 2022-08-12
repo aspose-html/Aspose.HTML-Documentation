@@ -3,7 +3,7 @@ keywords: html to pdf, convert html to pdf c#, online html converter, convert ht
   converter, save options, stream provider, c# code
 lastmod: 2022-07-28
 url: /net/converting-between-formats/html-to-pdf/
-title: Convert HTML to PDF | C# code and Online Converter
+title: Convert HTML to PDF | C# Examples and Online Converter
 linktitle: Convert HTML to PDF
 description: Convert HTML to PDF in C# using Aspose.HTML API. Consider various HTML to PDF conversion scenarios in C# examples. Try online HTML Converter.
 weight: 10
@@ -15,7 +15,7 @@ aliases:
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
-In this guide, you find information on how to convert an HTML document into a Portable Document Format ({{%PDF%}}) file format. HTML to PDF conversion is often required to establish limited access to documents editing or copying; to produce official documentation or send some information, for example, by email. In this article, you find information on how to convert  HTML to PDF using [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/index) methods of the Converter class, and how to apply [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider/) parameters.
+In this guide, you find information on how to convert an HTML document into a Portable Document Format ({{%PDF%}}) file format. HTML to PDF conversion is often required to establish limited access to documents editing or copying; to produce official documentation or send some information, for example, by email. In this article, you find information on how to convert  HTML to PDF using [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/) methods of the Converter class, and how to apply [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/) and [ICreateStreamProvider](https://reference.aspose.com/html/net/aspose.html.io/icreatestreamprovider/) parameters.
 
 
 ## **Online HTML Converter**
@@ -53,7 +53,7 @@ If you want to convert HTML to PDF programmatically, please see the following C#
 
 ## **HTML to PDF by a single line of code**
 
-HTML to PDF conversion is very popular. To perform this feature,  Aspose.HTML for .NET offer the static methods of the [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter) class  as an understandable and straightforward way to convert HTML code into a PDF file literally with a single line of code!
+HTML to PDF conversion is very popular. To perform this feature,  Aspose.HTML for .NET offer the static methods of the [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter/) class  as an understandable and straightforward way to convert HTML code into a PDF file literally with a single line of code!
 
 {{< highlight java >}}
 using System.IO;
@@ -67,9 +67,9 @@ using Aspose.Html.Saving;
 ## **Convert HTML to PDF in C#**
 Any conversion you want to perform involves loading an HTML document and saving it in PDF format.  You can load HTML from a file, HTML code, stream, or URL (see the [Creating an HTML Document](/html/net/working-with-documents/creating-a-document/) article). It can be different scenarios but it can be made with a few required steps: 
 
-1. Load an HTML file using one of HTMLDocument() constructors of the [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/) class. In the example we use [HTMLDocument(string)](https://reference.aspose.com/html/net/aspose.html/htmldocument/constructors/10) constructor that initializes an HTML document from a file. 
+1. Load an HTML file using one of HTMLDocument() constructors of the [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/) class. In the example we use [HTMLDocument(string)](https://reference.aspose.com/html/net/aspose.html/htmldocument/htmldocument/) constructor that initializes an HTML document from a file. 
 1. Create a new [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/) object. 
-1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/7) method of the Converter class to save HTML as a PDF file. You need to pass the HTMLDocument, PdfSaveOptions, and output file path to the ConvertHTML() method to convert HTML to PDF.
+1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/converthtml/) method of the Converter class to save HTML as a PDF file. You need to pass the HTMLDocument, PdfSaveOptions, and output file path to the ConvertHTML() method to convert HTML to PDF.
 
 Please take a look over the following C# code snippet that shows the HTML to PDF conversion process for the [spring.html](/html/net/converting-between-formats/html-to-pdf/spring.html) file.
 
@@ -100,18 +100,18 @@ The figure illustrates the spring-output.pdf file.
 ![Text "spring-output.pdf image"](../spring-output.png#center)
 
 ## **Save Options**
-Aspose.HTML allows converting HTML to PDF using default or custom save options. [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions) usage enables you to customize the rendering process; you can specify the page size, margins, file permissions, Css, etc. 
+Aspose.HTML allows converting HTML to PDF using default or custom save options. [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/) usage enables you to customize the rendering process; you can specify the page size, margins, file permissions, Css, etc. 
 
 | Property                                                     | Description                                                  |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
-| [JpegQuality](https://reference.aspose.com/html/net/aspose.html.rendering.pdf/pdfrenderingoptions/properties/jpegquality) | Specifies the quality of JPEG compression for images. The default value is 95. |
-| [Css](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/css) | Gets a [CssOptions](https://reference.aspose.com/html/net/aspose.html.rendering/cssoptions) object which is used for configuration of CSS properties processing. |
-| [DocumentInfo](https://reference.aspose.com/html/net/aspose.html.rendering.pdf/pdfrenderingoptions/properties/documentinfo) | This property contains information about the output PDF document. |
-| [BackgroundColor](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/backgroundcolor) | This property sets the color that will fill the background of every page. By default, this property is Transparent. |
-| [PageSetup](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) | This property gets a page setup object and uses it for configuration output page-set. |
-| [HorizontalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/horizontalresolution) | Sets horizontal resolution for output images in pixels per inch. The default value is 300 dpi. |
-| [VerticalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/properties/verticalresolution) | Sets vertical resolution for output images in pixels per inch. The default value is 300 dpi. |
-| [Encryption](https://reference.aspose.com/html/net/aspose.html.rendering.pdf/pdfrenderingoptions/properties/encryption) | This property gets or sets encryption details. If it is not set, then no encryption will be performed. |
+| [JpegQuality](https://reference.aspose.com/html/net/aspose.html.rendering.pdf/pdfrenderingoptions/jpegquality/) | Specifies the quality of JPEG compression for images. The default value is 95. |
+| [Css](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/css/) | Gets a [CssOptions](https://reference.aspose.com/html/net/aspose.html.rendering/cssoptions/) object which is used for configuration of CSS properties processing. |
+| [DocumentInfo](https://reference.aspose.com/html/net/aspose.html.rendering.pdf/pdfrenderingoptions/documentinfo/) | This property contains information about the output PDF document. |
+| [BackgroundColor](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/backgroundcolor/) | This property sets the color that will fill the background of every page. By default, this property is Transparent. |
+| [PageSetup](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/pagesetup/) | This property gets a page setup object and uses it for configuration output page-set. |
+| [HorizontalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/horizontalresolution/) | Sets horizontal resolution for output images in pixels per inch. The default value is 300 dpi. |
+| [VerticalResolution](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/verticalresolution/) | Sets vertical resolution for output images in pixels per inch. The default value is 300 dpi. |
+| [Encryption](https://reference.aspose.com/html/net/aspose.html.rendering.pdf/pdfrenderingoptions/encryption/) | This property gets or sets encryption details. If it is not set, then no encryption will be performed. |
 
 {{% alert color="primary" %}}
 
@@ -125,7 +125,7 @@ With Aspose.HTML, you can convert files programmatically with full control over 
 
 1. Load an HTML file using one of the HTMLDocument() constructors of the  [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/) class ([drawing.html](/html/net/converting-between-formats/html-to-pdf/drawing.html)). 
 1. Create a new [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/) object and specify the required properties.
-1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/7) method of the  Converter class to save HTML as a PDF file. You need to pass the HTMLDocument, PdfSaveOptions, and output file path to the ConvertHTML() method to convert HTML to PDF.
+1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/converthtml/) method of the  Converter class to save HTML as a PDF file. You need to pass the HTMLDocument, PdfSaveOptions, and output file path to the ConvertHTML() method to convert HTML to PDF.
 
 The following example shows how to use [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/) and create a PDF file with custom save options:
 
@@ -160,13 +160,13 @@ using Aspose.Html.Drawing;
     Converter.ConvertHTML(document, options, savePath);
 {{< /highlight >}}
 
-The [PdfSaveOptions()](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/constructors/main) constructor initializes an instance of the PdfSaveOptions class that is passed to ConvertHTML() method. The ConvertHTML() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation. The PdfSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting HTML to PDF format. 
+The [PdfSaveOptions()](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/pdfsaveoptions/) constructor initializes an instance of the PdfSaveOptions class that is passed to ConvertHTML() method. The ConvertHTML() method takes the `document`, `options`,  output file path `savePath` and performs the conversion operation. The PdfSaveOptions class provides numerous properties that give you full control over a wide range of parameters and improve the process of converting HTML to PDF format. 
 
 In the above example, we use:
  - JpegQuality property that enables you to specify the quality of JPEG compression for images;  
  - BackgroundColor property that sets the color that will fill the background. The default BackgroundColor is Transparent;
  - HorizontalResolution and VerticalResolution properties that set horizontal/vertical resolution for output images in pixels per inch. By default, these properties are 300 dpi;
- - PageSetup property that specifies the [page size](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/properties/pagesetup) and [margins](https://reference.aspose.com/html/net/aspose.html.drawing/page/properties/margin).
+ - PageSetup property that specifies the [page size](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/pagesetup/) and [margins](https://reference.aspose.com/html/net/aspose.html.drawing/page/margin/).
 
 The figure illustrates the drawing-options.pdf file.
 

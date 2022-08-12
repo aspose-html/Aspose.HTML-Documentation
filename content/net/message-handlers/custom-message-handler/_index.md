@@ -41,9 +41,9 @@ Consider an example of a message handler creating to show the key concepts.
 
  Aspose.HTML for .NET offers functionality for custom message handlers creating. Let's develop a simple custom handler that prints a message when a request starts and finishes. Take the following steps:
 
-1.	Use the necessary Namespace, which is the [Aspose.Html.Net](https://reference.aspose.com/html/net/aspose.html.net). This Namespace is presented by classes and interfaces which are responsible for helping easy network processing. 
+1.	Use the necessary Namespace, which is the [Aspose.Html.Net](https://reference.aspose.com/html/net/aspose.html.net/). This Namespace is presented by classes and interfaces which are responsible for helping easy network processing. 
 
-2. To create a custom Message Handler, you need to define your own class that will be derived from the [MessageHandler](https://reference.aspose.com/html/net/aspose.html.net/messagehandler) class. The MessageHandler class represents a base type for message handlers.
+2. To create a custom Message Handler, you need to define your own class that will be derived from the [MessageHandler](https://reference.aspose.com/html/net/aspose.html.net/messagehandler/) class. The MessageHandler class represents a base type for message handlers.
 
 {{< highlight java >}}
 using Aspose.Html.Net;
@@ -57,7 +57,7 @@ using Aspose.Html.Net;
 
 So, you have defined your own LogMessageHandler class, now you need to do some operation within it.
 
-3. Override the [Invoke()](https://reference.aspose.com/html/net/aspose.html.net/messagehandler/methods/invoke) method of the MessageHandler class to implement the custom message handler behaviour. 
+3. Override the [Invoke()](https://reference.aspose.com/html/net/aspose.html.net/messagehandler/invoke/) method of the MessageHandler class to implement the custom message handler behaviour. 
 
 {{< highlight java >}}	
 using System;

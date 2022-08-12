@@ -30,7 +30,7 @@ using Aspose.Html.Saving;
      Converter.ConvertHTML(@"<h1>Hello, World!</h1>", ".", new PdfSaveOptions(), Path.Combine(OutputDir, "convert-with-single-line.pdf"));
 {{< /highlight >}}
 
-In the example, we use the [ConvertHTML(`content, baseUri, options, outputPath`)](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/67) method of the Converter class. Despite the HTML to PDF conversion is required only one line of code, the following operations were performed:
+In the example, we use the [ConvertHTML(`content, baseUri, options, outputPath`)](https://reference.aspose.com/html/net/aspose.html.converters/converter/converthtml/) method of the Converter class. Despite the HTML to PDF conversion is required only one line of code, the following operations were performed:
 
 1. Prepare code for an HTML document.
 2. Create a new PdfSaveOptions object with default options. 

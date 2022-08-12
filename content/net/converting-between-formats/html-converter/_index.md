@@ -11,7 +11,7 @@ lastmod: 2022-07-28
 
 {{%HTML%}} (HyperText Markup Language) is the standard markup language for documents created for display in browsers. Known as the language of the web, HTML has evolved with requirements of new information demands to be displayed as part of web pages. The latest variant is known as HTML 5 that gives a lot of flexibility for working with the language. HTML pages are either received from a server, where these are hosted or can be loaded from a local system as well.
 
-The main highlight of Aspose.HTML is a conversion feature. Converting between formats is required for various reasons: to work in a familiar, convenient format or to take advantage of different formats for specific tasks. The [Aspose.Html.Converters](https://reference.aspose.com/html/net/aspose.html.converters) namespace implements easy access to conversion methods. It provides a wide range of HTML conversions to popular formats, such as {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, {{%GIF%}}, {{%MHTML%}},  and {{%MD%}}. 
+The main highlight of Aspose.HTML is a conversion feature. Converting between formats is required for various reasons: to work in a familiar, convenient format or to take advantage of different formats for specific tasks. The [Aspose.Html.Converters](https://reference.aspose.com/html/net/aspose.html.converters/) namespace implements easy access to conversion methods. It provides a wide range of HTML conversions to popular formats, such as {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, {{%GIF%}}, {{%MHTML%}},  and {{%MD%}}. 
 
 ## **Online HTML Converter**
 
@@ -56,10 +56,10 @@ Any conversion you want to perform involves loading an HTML document and saving 
 
 1. Load an HTML document into a Document object using one of [HTMLDocument()](https://reference.aspose.com/html/net/aspose.html/htmldocument/) constructors. You can load HTML from a file, HTML code, stream, or URL.
 2. Create a Save Options object.
-3. Invoke one of the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/methods/converthtml/index) methods and pass the required parameters to it.
+3. Invoke one of the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/converthtml/) methods and pass the required parameters to it.
     {{% /alert %}}   
 
-Please take a look over the following C# code snippet that shows the HTML to PNG conversion using the [ConvertHTML(`document, options, savePath`)](https://reference.aspose.com/html/net/aspose.html.converters.converter/converthtml/methods/3) method.
+Please take a look over the following C# code snippet that shows the HTML to PNG conversion using the [ConvertHTML(`document, options, savePath`)](https://reference.aspose.com/html/net/aspose.html.converters/converter/converthtml/) method.
 {{< highlight java >}}
 using System.IO;
 using Aspose.Html;
@@ -77,7 +77,7 @@ using Aspose.Html.Saving;
     Converter.ConvertHTML(document, options, Path.Combine(OutputDir, "nature-output.png"));
 {{< /highlight >}}
 
- The ConvertHTML() method takes as parameters `document`,  `options`, and `savePath` and performs the operation. **Note:** You need to specify the path to the output file in your local file system (`savePath`). Also, for [HTMLDocument(`address`)](https://reference.aspose.com/html/net/aspose.html/htmldocument/constructors/10) constructor, you need to provide the path to a source HTML file on your local file system. 
+ The ConvertHTML() method takes as parameters `document`,  `options`, and `savePath` and performs the operation. **Note:** You need to specify the path to the output file in your local file system (`savePath`). Also, for [HTMLDocument(`address`)](https://reference.aspose.com/html/net/aspose.html/htmldocument/htmldocument/) constructor, you need to provide the path to a source HTML file on your local file system. 
 
 
 

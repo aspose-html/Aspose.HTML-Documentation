@@ -21,7 +21,7 @@ The next example explains how to convert HTML to PDF by line by line:
 
 1. Load the HTML file using [HtmlDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument) class
 1. Create an instance of [MHTMLSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/MHTMLSaveOptions)
-1. Use the [ConvertHTML()](https://reference.aspose.com/html/java/com.aspose.html.converters.converter/converthtml) method of [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/converter) class to save HTML as an MHTML file. You need to pass the [HTMLDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument), [MHTMLSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/MHTMLSaveOptions), and output file path to the ConvertHTML() method to convert HTML to MHTML.
+1. Use the [ConvertHTML()](https://reference.aspose.com/html/java/com.aspose.html.converters/Converter#convertHTML-com.aspose.HTMLDocument-com.aspose.saving.ImageSaveOptions-java.util.Collection-) method of [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/converter) class to save HTML as an MHTML file. You need to pass the [HTMLDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument), [MHTMLSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/MHTMLSaveOptions), and output file path to the ConvertHTML() method to convert HTML to MHTML.
 
 {{< gist "aspose-com-gists" "b2199f957c72708d4d2b0de93bca3098" "Examples_Java_ConvertingBetweenFormats_ConvertHTMLToMHTML_ConvertHTMLDocumentToMHTML.java" >}}
 ## **Save Options** ## 
