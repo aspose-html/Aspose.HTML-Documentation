@@ -2,6 +2,7 @@
 title: Aspose.HTML for .NET 22.8 Release Notes
 weight: 50
 type: docs
+url: /net/aspose-html-for-net-22-8-release-notes
 ---
   {{% alert color="primary" %}} 
 
