@@ -13,7 +13,8 @@ disablekinds = ['taxonomy', 'taxonomyTerm']
 #theme = ["lutsk-aspose-theme"]
 theme = [
     "github.com/tpavel-aspose/hugo-module-fileformat-shortcodes",
-    "git.saltov.dynabic.com/pavel.terechshenkov/lutsk-aspose-theme"
+    "git.saltov.dynabic.com/zap/lutsk-aspose-theme"
+#    "git.saltov.dynabic.com/pavel.terechshenkov/lutsk-aspose-theme"
 #    "github.com/tpavel-aspose/lutsk-aspose-theme"
 ]
 
