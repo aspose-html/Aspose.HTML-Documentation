@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-#command = "hugo --gc"
+command = " git config --global url.'https://oauth2:${THEMES_ACCESS_KEY}@gitlab.com/mi/my-theme.git'.insteadOf 'https://gitlab.com/mi/my-theme.git' && hugo --gc"
 
 [context.production.environment]
 HUGO_VERSION = "v0.84.0"
