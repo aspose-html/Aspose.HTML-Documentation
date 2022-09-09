@@ -1,6 +1,6 @@
 [build]
 publish = "public"
-command = ' git config --global url."https://oauth2:${THEMES_ACCESS_KEY}@git.saltov.dynabic.com/zap/lutsk-aspose-theme.git".insteadOf "https://git.saltov.dynabic.com/zap/lutsk-aspose-theme.git"'
+#command = ' git config --global url."https://oauth2:${THEMES_ACCESS_KEY}@git.saltov.dynabic.com/zap/lutsk-aspose-theme.git".insteadOf "https://git.saltov.dynabic.com/zap/lutsk-aspose-theme.git"'
 
 [context.production.environment]
 HUGO_VERSION = "v0.84.0"
