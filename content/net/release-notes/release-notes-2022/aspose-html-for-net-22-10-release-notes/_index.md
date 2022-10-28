@@ -36,12 +36,12 @@ namespace Aspose.Html.Dom.Svg
 
 {
 
-    public class SVGGeometryElement : SVGGraphicsElement
-    {
-        /// <summary>
-        /// Returns a new instance instance of the <see cref="SVGPathSegList"/> which represents <see cref="SVGGeometryElement"/> as path segments.
-        /// </summary>
-        /// <returns>A new instance instance of the <see cref="SVGPathSegList"/>.</returns>
-        public SVGPathSegList GetEquivalentPath();
-    }
+public class SVGGeometryElement : SVGGraphicsElement
+   
+      /// <summary>
+      /// Returns a new instance instance of the <see cref="SVGPathSegList"/> which represents <see cref="SVGGeometryElement"/> as path segments.
+      /// </summary>
+      /// <returns>A new instance instance of the <see cref="SVGPathSegList"/>.</returns>
+      public SVGPathSegList GetEquivalentPath();
+   
 }
