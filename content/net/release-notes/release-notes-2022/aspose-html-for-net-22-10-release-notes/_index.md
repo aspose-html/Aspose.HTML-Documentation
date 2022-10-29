@@ -19,6 +19,8 @@ In this release, we have improved various parts of the parsing and rendering alg
 * Improved the algorithm for parsing MHTML documents.
 
 
+
+
 ## **Improvements and Changes**
 
 | **Key**      | **Summary**                                                                | **Category** |
@@ -28,6 +30,8 @@ In this release, we have improved various parts of the parsing and rendering alg
 | HTMLNET-4055 | Fix support of multiple emphasis | Task          |
 | HTMLNET-4054 | Parsing text from AtxHeading / Setext heading | Task          |
 | HTMLNET-4053 | Add possibility to get markdown syntax tree from stream / save markdown syntax tree to stream | Task          |
+
+
 ## **Public API and Backward Incompatible Changes**
 
 ### **Added APIs**
