@@ -2,6 +2,7 @@
 title: Aspose.HTML for .NET 22.10 Release Notes
 weight: 30
 type: docs
+url: /net/aspose-html-for-net-22-10-release-notes
 ---
   {{% alert color="primary" %}} 
 
@@ -31,19 +32,16 @@ In this release, we have improved various parts of the parsing and rendering alg
 
 ### **Added APIs**
 
-
+```
 namespace Aspose.Html.Dom.Svg
 {
-
-public class SVGGeometryElement : SVGGraphicsElement
-   { 
-
-      /// <summary>
-      /// Returns a new instance instance of the <see cref="SVGPathSegList"/> which represents <see cref="SVGGeometryElement"/> as path segments.
-      /// </summary>
-      /// <returns>A new instance instance of the <see cref="SVGPathSegList"/>.</returns>
-      public SVGPathSegList GetEquivalentPath();
-   }
-
-
+    public class SVGGeometryElement : SVGGraphicsElement
+   {
+        /// <summary>
+        /// Returns a new instance instance of the <see cref="SVGPathSegList"/> which represents <see cref="SVGGeometryElement"/> as path segments.
+        /// </summary>
+        /// <returns>A new instance instance of the <see cref="SVGPathSegList"/>.</returns>
+        public SVGPathSegList GetEquivalentPath();
+    }
 }
+```
