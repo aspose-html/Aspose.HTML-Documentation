@@ -49,13 +49,112 @@ namespace Aspose.Html.Saving
 
 namespace Aspose.Html.Rendering.Pdf
 {
-	public class PdfRenderingOptions : RenderingOptions
-	{
-		/// <summary>
+    /// <summary>
+    /// This enumeration is used to specify the behavior of form fields in the output PDF document.
+    /// </summary>
+    public enum FormFieldBehaviour
+    {
+        /// <summary>
+        /// The output PDF document will contain interactive form fields.
+        /// </summary>
+        Interactive,
+        /// <summary>
+        /// The output PDF document will contain flattened form fields.
+        /// </summary>
+        Flattened
+    }
+
+
+    public class PdfRenderingOptions : RenderingOptions 
+    { 
+	/// <summary>
         /// Specifies the behavior of form fields in the output PDF document.
         /// </summary>
         public FormFieldBehaviour FormFieldBehaviour { get; set; }
-	}
+    }  
+}
+
+namespace Aspose.Html.Toolkit.Optimizers
+{
+    /// <summary>
+    /// SVGOptimizationOptions is a class for storing options for optimizing SVG documents.
+    /// </summary>
+    public class SVGOptimizationOptions
+    {
+        /// <summary>
+        /// Initializes a new instance of the <see cref="SVGOptimizationOptions"/> class.
+        /// </summary>
+        public SVGOptimizationOptions()
+        {
+        }
+
+        /// <summary>
+        /// Gets or sets the option to collapse excess groups. It is 'true' by default.
+        /// </summary>
+        public bool CollapseGroups { get; set; }
+
+        /// <summary>
+        /// Gets or sets the option to remove only editors content or empty elements. It is 'true' by default.
+        /// </summary>
+        public bool RemoveDescriptions { get; set; }
+
+        /// <summary>
+        /// Gets or sets the option to remove attributes with empty values. It is 'true' by default.
+        /// </summary>
+        public bool RemoveEmptyAttributes { get; set; }
+
+        /// <summary>
+        /// Gets or sets the option to remove empty containers. It is 'true' by default.
+        /// </summary>
+        public bool RemoveEmptyContainers { get; set; }
+
+        /// <summary>
+        /// Gets or sets the option to remove empty Text elements. It is 'true' by default.
+        /// </summary>
+        public bool RemoveEmptyText { get; set; }
+
+        /// <summary>
+        /// Gets or sets the option to remove elements that are not visible during rendering. It is 'true' by default.
+        /// </summary>
+        public bool RemoveHiddenElements { get; set; }
+
+        /// <summary>
+        /// Gets or sets the option to remove metadata. It is 'true' by default.
+        /// </summary>
+        public bool RemoveMetadata { get; set; }
+
+        /// <summary>
+        /// Gets or sets the option to remove the declaration of unused namespaces from the SVG element 
+        /// that are not used in elements or attributes. It is 'true' by default.
+        /// </summary>
+        public bool RemoveUnusedNamespaces { get; set; }
+
+        /// <summary>
+        /// Gets of sets the option to remove the content of defs that are not displayed directly without identifiers. It is 'true' by default.
+        /// </summary>
+        public bool RemoveUnusedDefs { get; set; }
+
+        /// <summary>
+        /// Gets of sets the option to remove unused stroke and fill attributes. It is 'true' by default.
+        /// </summary>
+        public bool RemoveUselessStrokeAndFill { get; set; }
+
+        /// <summary>
+        /// Gets or sets the option for rounding to 3 decimal places of list numeric values in attributes. It is 'true' by default.
+        /// </summary>
+        public bool CleanListOfValues { get; set; }
+
+        /// <summary>
+        /// Gets or sets the option to remove line indents and breaks. It is 'true' by default.
+        /// </summary>
+        public bool RemoveIndentsAndLineBreaks { get; set; }
+
+        /// <summary>
+        /// Gets or sets the option <see cref="SVGPathOptimizationOptions"/>.
+        /// If this option is null, then path element optimization will not be performed.
+        /// </summary>
+        public SVGPathOptimizationOptions PathOptimizationOptions { get; set; }
+    }
 }
 ```
 
