@@ -68,7 +68,7 @@ namespace Aspose.HTML.Tests.Converting_Between_Formats.MHTML_Converter
                             Size = new Aspose.Html.Drawing.Size(Length.FromPixels(3000), Length.FromPixels(1000))
                         }
                     },
-                BackgroundColor = Color.AliceBlue
+                BackgroundColor = System.Drawing.Color.AliceBlue
             };
 
             // Call the ConvertMHTML method to convert MHTML to PDF

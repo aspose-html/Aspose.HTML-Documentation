@@ -60,7 +60,7 @@ namespace Aspose.HTML.Tests.Converting_Between_Formats.HTMLConverter
                 SmoothingMode = SmoothingMode.None,
                 HorizontalResolution = 350,
                 VerticalResolution = 350,
-                BackgroundColor = Color.Beige
+                BackgroundColor = System.Drawing.Color.Beige
             };
             
             // Convert HTML to BMP

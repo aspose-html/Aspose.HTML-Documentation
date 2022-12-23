@@ -63,7 +63,7 @@ namespace Aspose.HTML.Tests.Converting_Between_Formats.HTMLConverter
                 SmoothingMode = SmoothingMode.Default,
                 HorizontalResolution = 100,
                 VerticalResolution = 100,
-                BackgroundColor = Color.MistyRose
+                BackgroundColor = System.Drawing.Color.MistyRose
             };
             options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(500, 200), new Margin(30, 20, 10, 10));
 

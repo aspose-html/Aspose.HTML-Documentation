@@ -69,7 +69,7 @@ namespace Aspose.HTML.Tests.Converting_Between_Formats.SVG_Converter
             {
                 HorizontalResolution = 200,
                 VerticalResolution = 200,
-                BackgroundColor = Color.AliceBlue,
+                BackgroundColor = System.Drawing.Color.AliceBlue,
                 JpegQuality = 100
             };
             options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(500, 500), new Margin(30, 10, 10, 10));

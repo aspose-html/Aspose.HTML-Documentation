@@ -64,7 +64,7 @@ namespace Aspose.HTML.Tests.Converting_Between_Formats.MHTML_Converter
             // Create an instance of XpsSaveOptions. Set up the page-size and change the background color to AliceBlue 
             var options = new XpsSaveOptions();
             options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(Length.FromInches(8.3f), Length.FromInches(5.8f)));
-            options.BackgroundColor = Color.AliceBlue;            
+            options.BackgroundColor = System.Drawing.Color.AliceBlue;            
 
             // Call the ConvertMHTML method to convert MHTML to XPS
             Converter.ConvertMHTML(stream, options, savePath);

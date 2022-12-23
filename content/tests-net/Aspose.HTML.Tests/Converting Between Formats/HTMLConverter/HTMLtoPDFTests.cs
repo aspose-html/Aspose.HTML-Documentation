@@ -69,7 +69,7 @@ namespace Aspose.HTML.Tests.Converting_Between_Formats.HTMLConverter
             {                
                 HorizontalResolution = 200,
                 VerticalResolution = 200,
-                BackgroundColor = Color.AliceBlue,
+                BackgroundColor = System.Drawing.Color.AliceBlue,
                 JpegQuality = 100
             };
             options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(600, 300), new Margin(20, 10, 10, 10));           
@@ -99,7 +99,7 @@ namespace Aspose.HTML.Tests.Converting_Between_Formats.HTMLConverter
             // Set up the page-size, margins and change the background color to AntiqueWhite
             var options = new PdfSaveOptions()
             {
-                BackgroundColor = Color.AntiqueWhite
+                BackgroundColor = System.Drawing.Color.AntiqueWhite
             };                
             options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(Length.FromInches(4.9f), Length.FromInches(3.5f)), new Margin(30, 20, 10, 10));
 
