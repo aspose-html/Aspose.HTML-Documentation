@@ -148,7 +148,7 @@ using Aspose.Html.Drawing;
                     Size = new Aspose.Html.Drawing.Size(Length.FromPixels(1000), Length.FromPixels(1000))
                 }
             },
-        BackgroundColor = Color.AliceBlue
+        BackgroundColor = System.Drawing.Color.AliceBlue
     };
     
     // Call the ConvertEPUB method to convert EPUB to PDF

@@ -41,7 +41,7 @@ using System.Drawing;
     // Initialize an instance of ImageSaveOptions 
     var options = new ImageSaveOptions(ImageFormat.Jpeg)
     {
-        BackgroundColor = Color.AliceBlue
+        BackgroundColor = System.Drawing.Color.AliceBlue
     };
     
     // Convert HTML document to JPG image file format

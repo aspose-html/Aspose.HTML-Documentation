@@ -260,7 +260,7 @@ using System.Drawing.Drawing2D;
                     Size = new Aspose.Html.Drawing.Size(Length.FromPixels(1000), Length.FromPixels(500))
                 }
             },
-        BackgroundColor = Color.Beige
+        BackgroundColor = System.Drawing.Color.Beige
     };
     
     // Call the ConvertMHTML method to convert MHTML to JPG

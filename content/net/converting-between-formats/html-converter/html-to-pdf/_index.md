@@ -152,7 +152,7 @@ using Aspose.Html.Drawing;
         HorizontalResolution = 200,
         VerticalResolution = 200,
         JpegQuality = 100,
-        BackgroundColor = Color.AliceBlue                
+        BackgroundColor = System.Drawing.Color.AliceBlue                
     };
     options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(600, 300), new Margin(20, 10, 10, 10));     
     

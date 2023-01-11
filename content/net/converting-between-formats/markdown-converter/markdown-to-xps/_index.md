@@ -112,7 +112,7 @@ using System.Drawing;
     {
         HorizontalResolution = 200,
         VerticalResolution = 200,
-        BackgroundColor = Color.AntiqueWhite
+        BackgroundColor = System.Drawing.Color.AntiqueWhite
     };
     options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(Length.FromInches(5.0f), Length.FromInches(10.0f)), new Margin(30, 20, 10, 10));
     

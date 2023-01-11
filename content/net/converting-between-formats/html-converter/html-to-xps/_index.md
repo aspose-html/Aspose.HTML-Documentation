@@ -150,7 +150,7 @@ using Aspose.Html.Drawing;
     // Set up the page-size, margins and change the background color to AntiqueWhite
     var options = new XpsSaveOptions()
     {
-        BackgroundColor = Color.AntiqueWhite
+        BackgroundColor = System.Drawing.Color.AntiqueWhite
     };
     options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(Length.FromInches(4.9f), Length.FromInches(3.5f)), new Margin(30, 20, 10, 10));
     

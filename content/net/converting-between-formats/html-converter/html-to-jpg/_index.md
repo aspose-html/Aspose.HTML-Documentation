@@ -149,7 +149,7 @@ using Aspose.Html.Drawing;
     // Set up the page-size 400x250 pixels, margins and change the background color to AntiqueWhite
     var options = new ImageSaveOptions(ImageFormat.Jpeg)
     {
-        BackgroundColor = Color.AntiqueWhite                    
+        BackgroundColor = System.Drawing.Color.AntiqueWhite                    
     };
     options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(400, 250), new Margin(40, 40, 20, 20));                                     
     
@@ -197,7 +197,7 @@ using System.Drawing.Drawing2D;
         SmoothingMode = SmoothingMode.HighQuality,
         HorizontalResolution = 200,
         VerticalResolution = 200,
-        BackgroundColor = Color.AliceBlue
+        BackgroundColor = System.Drawing.Color.AliceBlue
     };
     options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(500, 500), new Margin(30, 20, 10, 10));
     
