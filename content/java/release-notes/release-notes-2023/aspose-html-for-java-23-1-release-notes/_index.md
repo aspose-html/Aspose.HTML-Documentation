@@ -13,5 +13,5 @@ Aspose.HTML for Java 23.1
 
 We are honored to announce the Jule release of Aspose.HTML for Java.
 
-In this release, we added facility 
+In this release, we made a big update to the CSS engine.
 
