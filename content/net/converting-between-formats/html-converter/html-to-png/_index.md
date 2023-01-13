@@ -153,7 +153,7 @@ using System.Drawing.Drawing2D;
         SmoothingMode = SmoothingMode.Default,
         HorizontalResolution = 100,
         VerticalResolution = 100,
-        BackgroundColor = Color.Beige
+        BackgroundColor = System.Drawing.Color.Beige
     };
     
     // Convert HTML to PNG

@@ -134,7 +134,7 @@ using System.Drawing.Drawing2D;
     var options = new ImageSaveOptions(ImageFormat.Tiff)
     {
         Compression = Compression.None,
-        BackgroundColor = Color.Bisque,
+        BackgroundColor = System.Drawing.Color.Bisque,
         HorizontalResolution = 150,
         VerticalResolution = 150,
         SmoothingMode = SmoothingMode.AntiAlias

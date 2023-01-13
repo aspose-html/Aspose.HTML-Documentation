@@ -139,7 +139,7 @@ using Aspose.Html.Drawing;
                     Size = new Aspose.Html.Drawing.Size(Length.FromPixels(500), Length.FromPixels(500))
                 }
             },
-        BackgroundColor = Color.LightGray
+        BackgroundColor = System.Drawing.Color.LightGray
     };
     
     // Call the ConvertEPUB method to convert EPUB to XPS

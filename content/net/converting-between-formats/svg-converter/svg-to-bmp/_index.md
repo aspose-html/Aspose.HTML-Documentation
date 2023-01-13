@@ -124,7 +124,7 @@ using System.Drawing.Drawing2D;
     {
         HorizontalResolution = 200,
         VerticalResolution = 200,
-        BackgroundColor = Color.AliceBlue,
+        BackgroundColor = System.Drawing.Color.AliceBlue,
         SmoothingMode = SmoothingMode.HighQuality
     };           
     

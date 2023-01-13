@@ -60,7 +60,7 @@ namespace Aspose.HTML.Tests.Converting_Between_Formats.MD_Converter
             {
                 HorizontalResolution = 200,
                 VerticalResolution = 200,
-                BackgroundColor = Color.AliceBlue,
+                BackgroundColor = System.Drawing.Color.AliceBlue,
                 JpegQuality = 100
             };            
 

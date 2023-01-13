@@ -69,7 +69,7 @@ namespace Aspose.HTML.Tests.Converting_Between_Formats.SVG_Converter
                 Compression = Compression.None,
                 HorizontalResolution = 200,
                 VerticalResolution = 200,
-                BackgroundColor = Color.AliceBlue                
+                BackgroundColor = System.Drawing.Color.AliceBlue
             };
 
             // Convert SVG to TIFF

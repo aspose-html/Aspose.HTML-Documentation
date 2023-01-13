@@ -142,7 +142,7 @@ using System.Drawing.Drawing2D;
         SmoothingMode = SmoothingMode.HighQuality,
         HorizontalResolution = 400,
         VerticalResolution = 400,
-        BackgroundColor = Color.AliceBlue
+        BackgroundColor = System.Drawing.Color.AliceBlue
     };            
     
     // Call the ConvertEPUB method to convert EPUB to PNG

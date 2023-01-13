@@ -139,7 +139,7 @@ using System.Drawing.Drawing2D;
         SmoothingMode = SmoothingMode.Default,
         HorizontalResolution = 350,
         VerticalResolution = 350,
-        BackgroundColor = Color.Beige
+        BackgroundColor = System.Drawing.Color.Beige
     };
     
     // Convert HTML to BMP

@@ -126,7 +126,7 @@ using System.Drawing.Drawing2D;
         SmoothingMode = SmoothingMode.HighQuality,
         HorizontalResolution = 400,
         VerticalResolution = 400,
-        BackgroundColor = Color.AliceBlue
+        BackgroundColor = System.Drawing.Color.AliceBlue
     };
     options.PageSetup.AnyPage = new Page(new Aspose.Html.Drawing.Size(800, 500), new Margin(30, 20, 10, 10));
     

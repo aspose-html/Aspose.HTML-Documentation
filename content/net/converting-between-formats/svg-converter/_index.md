@@ -46,7 +46,7 @@ using System.Drawing.Drawing2D;
     // Initialize ImageSaveOptions. Set up the SmoothingMode and change the background color to AliceBlue 
     var options = new ImageSaveOptions()
     {
-        BackgroundColor = Color.AliceBlue,
+        BackgroundColor = System.Drawing.Color.AliceBlue,
         SmoothingMode = SmoothingMode.HighQuality,
     };            
     
