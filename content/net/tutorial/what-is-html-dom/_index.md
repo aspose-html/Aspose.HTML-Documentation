@@ -1,5 +1,5 @@
 ---
-title: What is HTML DOM? - C# Parser
+title: What is HTML DOM? - C# Parsing
 linktitle: What is HTML DOM?
 type: docs
 weight: 10
@@ -12,8 +12,10 @@ sitemap:
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
-{{% alert color="primary" %}} 
-With Aspose.HTML for .NET you can modify the document by inserting new nodes, removing, or editing the content of existing nodes. Please visit the [**Editing an HTML Document**](https://docs.aspose.com/html/net/working-with-documents/editing-a-document/) article that gives you basic information on how to read or modify the Document Object Model (DOM). You’ll explore how to create an HTML Element and how to work with it.
+{{% alert color="primary" %}}
+[Aspose.HTML for .NET](https://products.aspose.com/html/net/) is a .NET library that allows you to access and manipulate the HTML DOM in C# and other .NET languages. It provides classes and methods that enable you to load and parse HTML documents, navigate the DOM tree, and access and modify document elements, attributes, and content.
+
+Please visit the [**Editing an HTML Document**](https://docs.aspose.com/html/net/working-with-documents/editing-a-document/) article that gives you basic information on how to read or modify the Document Object Model (DOM). You’ll explore how to create an HTML Element and how to work with it using Aspose.HTML for .NET API.
 {{% /alert %}} 
 
 ## **Document Object Model**
@@ -60,7 +62,7 @@ HTML DOM defines HTML elements as **objects**, providing a set of **properties**
 
 ### **How HTML DOM defines HTML elements as objects?**
 
-The DOM defines HTML elements as objects by providing a set of properties and methods that can be used to access and manipulate them. Aspose.HTML for .NET provides a set of classes and methods that allow you to access and manipulate the HTML DOM in C# and other .NET languages. You can use the [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/) class to load and parse an HTML document. For example, you can use the following code to load an HTML file and access the `<body>` element of the document: 
+The DOM defines HTML elements as objects by providing a set of properties and methods that can be used to access and manipulate them. Aspose.HTML for .NET provides a set of classes and methods that allow you to access and manipulate the HTML DOM in C#. You can use the [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/) class to load and parse an HTML document. For example, you can use the following code to load an HTML file and access the `<body>` element of the document: 
 
 {{< highlight java >}}
 using Aspose.Html;
