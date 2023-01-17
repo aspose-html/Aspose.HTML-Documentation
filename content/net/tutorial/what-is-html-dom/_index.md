@@ -130,7 +130,7 @@ using System.IO;
     string savePath = Path.Combine(OutputDir, "dom.html");
 
     // Initialize an empty HTML document
-    var document = new HTMLDocument();
+    using var document = new HTMLDocument();
 
     // Declare a variable body that references the <body> element
     var body = document.Body;
