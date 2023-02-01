@@ -1,0 +1,23 @@
+---
+title: Aspose.HTML for .NET 23.2 Release Notes
+weight: 110
+type: docs
+url: /net/aspose-html-for-net-23-2-release-notes
+---
+{{% alert color="primary" %}} 
+
+This page contains release notes information for Aspose.HTML for .NET 23.2.
+
+{{% /alert %}} 
+
+As per regular monthly update process of all APIs being offered by Aspose, we are honored to announce the February release of Aspose.HTML for .NET.
+
+In this release, we have improved the quality of rendering and creating documents.
+
+## **Improvements and Changes**
+
+|**Key**|**Summary**|**Category**|
+| :- | :- | :- |
+|HTMLNET-4212|HTML to PNG - Index was outside the bounds of the array when margins 36 for all sides.|Task|
+|HTMLNET-3991|HTML to PNG - layout issue|Bug|
+|HTMLNET-4181|HTML to PDF: background-position has no effect|Task|
