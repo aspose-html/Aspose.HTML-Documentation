@@ -16,8 +16,14 @@ In this release, we have improved the quality of rendering and creating document
 
 ## **Improvements and Changes**
 
-|**Key**|**Summary**|**Category**|
-| :- | :- | :- |
-|HTMLNET-4212|HTML to PNG - Index was outside the bounds of the array when margins 36 for all sides.|Task|
-|HTMLNET-3991|HTML to PNG - layout issue|Bug|
-|HTMLNET-4181|HTML to PDF: background-position has no effect|Task|
+| **Key**      | **Summary**                                                                            | **Category** |
+| ------------ | -------------------------------------------------------------------------------------- | ------------ |
+| HTMLNET-4212 | HTML to PNG - Index was outside the bounds of the array when margins 36 for all sides. | Task         |
+| HTMLNET-3991 | HTML to PNG - layout issue                                                             | Bug          |
+| HTMLNET-4181 | HTML to PDF: background-position has no effect                                         | Task         |
+
+## **Compatibility Notice**
+
+Please note that the support of Cancellation Token is only available in the Aspose.HTML libraries compiled for .NetFramework 4.0 and .NetStandard 2.0.
+
+Also, we would like to inform our customers that starting from version 23.4, we will only be supporting .NetStandard 2.0.
