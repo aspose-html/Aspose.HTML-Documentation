@@ -24,6 +24,6 @@ In this release, we have improved the quality of rendering and creating document
 
 ## **Compatibility Notice**
 
-Please note that the support of Cancellation Token is only available in the Aspose.HTML libraries compiled for .NetFramework 4.0 and .NetStandard 2.0.
+
 
 Also, we would like to inform our customers that starting from version 23.4, we will only be supporting .NetStandard 2.0.
