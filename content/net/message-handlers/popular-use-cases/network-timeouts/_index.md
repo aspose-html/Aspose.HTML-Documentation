@@ -4,7 +4,7 @@ linktitle: Network Timeouts
 type: docs
 weight: 30
 url: /net/message-handlers/network-timeouts/
-description: Learn how to handle network timeouts in C#. Create a custom message handler for network operation timeouts using Aspose.HTML for .NET.   
+description: Learn how to set network timeouts in C#. Create a custom message handler for network operation timeouts using Aspose.HTML for .NET.   
 keywords: message handler, connect timeout, network timeouts, network operation, network connection timeout, network operation timeout, network request
 lastmod: "2023-02-08"
 sitemap:
@@ -13,13 +13,13 @@ sitemap:
 ---
 
 {{% alert color="primary" %}} 
-Network timeouts can occur when a network connection is not able to be established or a server is taking too long to respond. When a network timeout occurs, it can impact the functionality of a software application and cause a range of problems. In this article, we will discuss how to handle network timeouts in C# with practical examples. You find simple C# examples of how to create a custom message handler for network operation timeouts.
+Network timeouts can occur when a network connection is not able to be established or a server is taking too long to respond. When a network timeout occurs, it can impact the functionality of a software application and cause a range of problems. This article will discuss how to set network timeouts in C# with practical examples. You find simple C# examples of how to create a custom message handler for network operation timeouts.
 {{% /alert %}}
 
 ## **Network Timeouts**
 
 The network timeout refers to the amount of time a client, such as a software application, waits for a response from a server after sending a request. A timeout value is set to avoid waiting indefinitely for a response in case the server is unavailable or unresponsive.<br>
-A network timeout is a time limit for completing a network operation, such as a request or response. If the network operation exceeds the timeout, it is considered to have failed. Network timeout affects the performance and reliability of network communications by determining the maximum amount of time allowed for a request to be completed successfully. When the timeout is reached, the operation may be terminated, resulting in an error or failure. Network timeout is an essential factor to consider when designing network applications because it can affect the responsiveness, speed, and availability of network communication.
+A network timeout is a time limit for completing a network operation, such as sending a request or waiting for a response. If the network operation exceeds the timeout, it is considered to have failed. Network timeout affects the performance and reliability of network communications by determining the maximum amount of time allowed for a request to be completed successfully. When the timeout is reached, the operation may be terminated, resulting in an error or failure. Network timeout is an essential factor to consider when designing network applications because it can affect the responsiveness, speed, and availability of network communication.
 
 ## **Message Handler for Network Operation Timeouts**
 
@@ -33,14 +33,14 @@ using Aspose.Html.Net;
 
 	// Define the TimeoutMessageHandler class that is derived from the MessageHandler class
 	public class TimeoutMessageHandler : MessageHandler
+    {
+        // Override the Invoke() method
+		public override void Invoke(INetworkOperationContext context)
         {
-            // // Override the Invoke() method
-			public override void Invoke(INetworkOperationContext context)
-            {
-                context.Request.Timeout = TimeSpan.FromSeconds(1);
-                Next(context);
-            }
+            context.Request.Timeout = TimeSpan.FromSeconds(1);
+            Next(context);
         }
+    }
 {{< /highlight >}}
 
 In the C# code snippet above, we define a custom `TimeoutMessageHandler` class. The class inherits from the [MessageHandler](https://reference.aspose.com/html/net/aspose.html.net/messagehandler/) class and overrides its [Invoke()](https://reference.aspose.com/html/net/aspose.html.net/messagehandler/invoke/) method. In the Invoke() method, a timeout of 1 second is set for the Request property of the [INetworkOperationContext](https://reference.aspose.com/html/net/aspose.html.net/inetworkoperationcontext/) object passed in as a parameter. The Next() method is then called to continue the execution of the pipeline. This custom message handler can set a specific timeout value for network operations in an application.
@@ -71,11 +71,10 @@ using System.IO;
 
     // Create an HTML document with a custom configuration
     using var document = new HTMLDocument(documentPath, configuration);
+
 {{< /highlight >}}
 
-In this example, we create an instance of the `TimeoutMessageHandler` class and insert it at the top of the list of message handlers in the network service. This ensures that the timeout value set by the `TimeoutMessageHandler` will take precedence over any other timeout values that may have been set.
-
-Finally, we create an instance of the [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/) class, passing in the path to the HTML file and the configuration object. The HTMLDocument class will use the network service from the configuration object to make the necessary network requests.
+In this example, we create an instance of the `TimeoutMessageHandler` class and insert it at the top of the list of message handlers in the network service. Finally, we create an instance of the [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/) class, passing in the path to the HTML file and the configuration object. The HTMLDocument class will use the network service from the configuration object to make the necessary network requests.
 
 ## **Network Timeout to Convert HTML**
 
