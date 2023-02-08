@@ -31,6 +31,8 @@ Sometimes you need to get the total time taken for a Web request to flow through
 
 [Web Request Execution Time](/html/net/message-handlers/web-request-execution-time/) - This article will consider an example of implementing a message handler for logging a Web request execution time.
 
+[Network Timeouts](/html/net/message-handlers/network-timeouts/) - In this article, we will discuss how to handle network timeouts in C# with practical examples.
+
 [Convert ZIP to PDF - Execution Time Logging](/html/net/message-handlers/zip-to-pdf-time-logging/) - In this article, you will find an example of custom message handlers to convert ZIP to PDF and log the execution time of this conversion.
 
 [Authentication](/html/net/message-handlers/authentication/) - In this article, you find a simple example of how to create a custom message handler for a Web request with password-based authentication schemes such as basic, digest, NTLM, and Kerberos. 
