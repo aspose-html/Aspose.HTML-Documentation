@@ -1,18 +1,14 @@
 ---
-keywords: html template, template to html, data source, xml data source, json
-  data source, template markup
-lastmod: 2021-09-03
-url: /net/converting-between-formats/html-template/
-title: HTML Template | C#
-linktitle: HTML Template 
-description: In this article, you learn how to populate an HTML template from
-  XML or JSON data sources and consider examples to illustrate this feature.
-weight: 60
+title: Setting Attributes in HTML Template - C# Examples
+linktitle: Setting Attributes in HTML Template 
+description: In this article, you learn how to populate an HTML template from XML or JSON data sources and consider examples to illustrate this feature.
+weight: 30
 type: docs
-aliases:
-  - /net/template-syntax/
-  - /net/html-template/
+keywords: html template, template to html, data source, xml data source, json data source, template markup, html page template
+lastmod: 2023-02-10
+url: /net/setting-attributes-in-html-template/
 ---
+
 This article describes how to create an HTML document based on a template and populate it from a data source. Aspose.HTML provides the inline expressions syntax to work with templates and various data source types, such as XML and JSON.
 
 ## **Template markup**

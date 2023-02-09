@@ -1,5 +1,5 @@
 ---
-title: Network Timeouts - How to Handle in C# examples
+title: Network Timeouts - How to Set in C# examples
 linktitle: Network Timeouts
 type: docs
 weight: 30
@@ -57,7 +57,7 @@ using Aspose.Html.Services;
 using System.IO;
 ...
 
-	// Create an instance of the Configuration class
+    // Create an instance of the Configuration class
     using var configuration = new Configuration();
 
     // Call the INetworkService which contains the functionality for managing network operations
