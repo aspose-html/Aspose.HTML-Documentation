@@ -22,9 +22,9 @@ In this chapter, the following topics are available:
 
 - [HTML Template](/html/net/html-template/) - In this article, you learn how to populate an HTML template from XML or JSON data sources and consider examples to illustrate this feature.
   
-- [Convert Template to HTML](/html/net/convert-template-to-html/) - In this article, you will explore how to change background color for text in paragraphs, headers, or entire pages using Aspose.HTML class library. 
+- [Convert Template to HTML](/html/net/convert-template-to-html/) - This article describes how to convert template to HTML in C# examples using Aspose.HTML for .NET library.
 
-- [Setting Attributes in HTML Template](/html/net/setting-attributes-in-html-template/) - This article gives you information and C# examples on how to add or change border color for your text in HTML file. Here  you learn  different ways to make your HTML texts look good.  
+- [Setting Attributes in HTML Template](/html/net/setting-attributes-in-html-template/) - This article gives you information and C# examples on how to set attributes in HTML template and control the presence of attributes when populating templates.
 
 {{% alert color="primary" %}}
 Aspose.HTML offers free <a href="https://products.aspose.app/html/applications" target="_blank">**HTML Web Applications**</a> that are an online collection of free converters, mergers, downloaders, SEO tools, HTML code generators, URL tools and more. The applications work on any operating system with a web browser and do not require any additional software installation. It's a fast and easy way to efficiently and effectively solve your HTML-related tasks.
