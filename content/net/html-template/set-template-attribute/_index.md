@@ -19,8 +19,10 @@ Aspose.HTML for .NET library allows you to set attributes in HTML template and c
 
 ## **Set Attribute in HTML Template**
 
-In HTML templates, attributes are used to set properties of HTML elements such as id, class, style, etc. These attributes are specified in the opening tag of an HTML element and can be set using expressions, dynamic data, or static values.
-
+Attributes are used for HTML elements to provide additional information about an element, specify its characteristics or set properties such as id, class, style, etc. These attributes are specified in the opening tag of an HTML element and can be set using static values or dynamic data (inline expressions):
+ - Static values are the fixed content of the HTML, such as text, element, and attribute names, that remain unchanged in the final HTML output.
+ - Dynamic data is data that can change and is typically provided by a data source. Dynamic data is inserted into the HTML template using inline expressions.
+ 
 ### **Set Attribute `checked` for HTML Checkbox**
 
 For example, let's take the following HTML template:
