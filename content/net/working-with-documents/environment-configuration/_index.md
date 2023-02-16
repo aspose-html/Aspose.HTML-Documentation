@@ -3,7 +3,12 @@ title: Environment Configuration
 type: docs
 weight: 10
 aliases: /net/environment-configuration/
-description: Sandboxing, Sandbox.Scripts, User Agent Service, User Style Sheet, Runtime Service, Character Set, FontsSettings property, Network Service, Message Handlers
+description: Learn how to create different environment configurations where the application runs - use Sandboxing, Runtime Service, Network Service, etc.
+keywords: environment configuration, sandboxing, sandbox.scripts, user agent service, user style sheet, runtime service, character set, install font, network service, message handlers
+lastmod: "2023-02-17"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.7
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -11,8 +16,10 @@ It is often helpful to have different configurations based on the environment wh
 
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation). 
-{{% /alert %}}  
+{{% /alert %}} 
+
 ## **Sandboxing**
+
 A *sandboxing flag* set is a set of zero or more of the flags, which are used to restrict the abilities that potentially untrusted resources. The sandbox attribute allows you to set a number of restrictions on the content loaded in the frame, for example, block forms and scripts. This improves the security of the current document, especially when a document is loaded into the frame from an unverified source.
 
 The following example demonstrates how to mark ‘Scripts’ as an untrusted resource. As a result, 'Scripts' will be disabled during the application execution.
@@ -44,10 +51,15 @@ using Aspose.Html.Saving;
 {{< /highlight >}}
 
 ## **Services**
+
 All important functional is grouped into separated services for usability purpose and located into [**Aspose.Html.Services**](https://reference.aspose.com/html/net/aspose.html.services/) namespace.
+
 ### **User Agent Service**
+
 The **User Agent Service** allows you to specify a custom user stylesheet, a primary character set for the document, language and fonts settings. You can specify your custom style information for a particular document and provide as little or as much environment configuration changes as needed. The [**IUserAgentService**](https://reference.aspose.com/html/net/aspose.html.services/iuseragentservice/) interface describes a user agent environment.
+
 #### **User Style Sheet**
+
 The user is able to specify a custom style information for a particular document. This information applies to the document according to the [cascading rules](https://www.w3.org/TR/css-cascade-3/#cascading-origins) and may affect the presentation of the document. The next code snippet shows how to use the **UserStyleSheet** property:
 {{< highlight java >}}
 using System.IO;
@@ -83,10 +95,11 @@ using Aspose.Html.Services;
 
 
 {{% alert color="primary" %}} 
-You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation). 
+You can download the complete examples and data files from [**GitHub.**](https://github.com/aspose-html/Aspose.HTML-Documentation) 
 {{% /alert %}}  
 
 #### **Character Set**
+
 The **CharSet** property sets the primary character-set for a document. In order to parse and display an HTML document correctly, the application must know what character-set (encoding) is used for the document. If the character encoding is not directly specified in the header of the document, Aspose.HTML uses UTF-8, which is defined as the default for HTML5 specification. However, if you are sure that your HTML document is written using different from UTF-8 encoding, you can specify it manually, as it follows.
 {{< highlight java >}}
 using System.IO;
@@ -125,8 +138,12 @@ using Aspose.Html.Services;
 
 In the example above, we have used **CharSet** and  **UserStyleSheet** properties for a setting of ISO-8859-1 encoding and a user style.
 
-####  **FontsSettings property**
-The **FontsSettings** property is used for configuration of fonts handling. For a situation when you need to use the custom fonts instead of the fonts installed on OS, you can set the path to your custom folder, as it is shown in the following code snippet.
+####  **Install Font Folder**
+
+Aspose.HTML is a powerful library for working with HTML documents in .NET applications. It provides a wide range of features to enable developers to render HTML documents to various output formats, such as PDF, XPS, DOCX, and images. One of the key features of Aspose.HTML is its ability to work with custom fonts, enabling developers to add their own fonts to the rendering process.
+
+The **FontsSettings** property is used for configuration of fonts handling. For a situation when you need to use the custom fonts instead of the fonts installed on OS, you can set the path to your custom folder, as it is shown in the following code snippet:
+
 {{< highlight java >}}
 using System.IO;
 using Aspose.Html;
@@ -161,6 +178,8 @@ using Aspose.Html.Services;
         }
     }
 {{< /highlight >}}
+
+To set font folder using Aspose.HTML for .NET library, we use the `SetFontsLookupFolder()` method of the [**FontsSettings**](https://reference.aspose.com/html/net/aspose.html/fontssettings/) class. This method allows you to specify the folder where custom fonts are located. By setting the font folder, Aspose.HTML will look for fonts in the specified folder when rendering the HTML document.
 
 The figure illustrates the result of the **FontsSettings** and **UserStyleSheet** properties applying (b) to the source “user-agent-fontsetting.html” file (a).
 
