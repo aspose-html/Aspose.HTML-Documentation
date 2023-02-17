@@ -4,15 +4,13 @@ linktitle: How to Set Font Folder
 type: docs
 weight: 70
 url: /net/how-to-set-font-folder/
-description: This article introduces how to 
+description: Learn and get a step-by-step guide on how to set font folder to render HTML to PDF or Image using the Aspose.HTML for .NET library.
 keywords: font folder, add font, custom font, install font, how to set font folder, how to install font folder
 lastmod: "2023-02-17"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
 ---
-
-<link href="./../../style.css" rel="stylesheet" type="text/css" />
 
 ## **Custom Font - Why font is important**
 
@@ -26,7 +24,7 @@ Aspose.HTML for .NET is a powerful library for working with HTML documents. It a
 
 By default, Aspose.HTML for .NET looks for fonts installed in the system. Using the [FontsSettings](https://reference.aspose.com/html/net/aspose.html/fontssettings/) class sets the folders where Aspose.HTML looks for fonts when rendering documents.
 
-The C# examples will demonstrate how to set a font folder for rendering an HTML document to PDF and Image formats. We will consider the `SetFontsLookupFolder()` methods that are used in the Aspose.HTML for .NET library to specify a folder where custom fonts are located. But before you start:
+The C# examples will demonstrate how to set font folder for rendering an HTML document to PDF and Image formats. We will consider the `SetFontsLookupFolder()` methods that are used in the Aspose.HTML for .NET library to specify a folder where custom fonts are located. But before you start:
 1. Locate the custom font files that you want to use.
 2. Create a folder where you will store the custom fonts.
 3. Copy the custom fonts to the font folder.
@@ -102,7 +100,7 @@ using Aspose.Html.Services;
         var service = configuration.GetService<IUserAgentService>();
 
         // Use the SetFontsLookupFolder() method to set a directory which will act as a new fontsFolder.
-        // Pass "true" as the recursive argument to use all nested directories. 
+        // Pass "true" as the recursive parameter to use all nested directories. 
         service.FontsSettings.SetFontsLookupFolder(Path.Combine(DataDir + "font"), true);
 
         // Initialize the HTML document with specified configuration
@@ -113,6 +111,8 @@ using Aspose.Html.Services;
         }
     }
 {{< /highlight >}}
+
+To render HTML to Image using custom fonts, you should follow a few steps:
 
 1. Create the `configuration` object, and use the [GetService](https://reference.aspose.com/svg/net/aspose.svg/configuration/getservice/) method to get a reference to the [IUserAgentService](https://reference.aspose.com/html/net/aspose.html.services/iuseragentservice/) interface. 
 2. Call the [SetFontsLookupFolder(`fontsFolder`, `recursive`)](https://reference.aspose.com/html/net/aspose.html/fontssettings/setfontslookupfolder/#setfontslookupfolder_1) method to set font folder. This method takes two parameters: the folder path where the fonts are located and a boolean value that specifies whether to include subfolders or not. By setting the `true` as the `recursive` parameter, the method includes all subfolders of the specified folder in the font lookup.

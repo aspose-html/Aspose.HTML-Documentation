@@ -32,7 +32,8 @@ This section is in progress and currently, the following topics are available:
 - [How to use XPath Query in HTML - Evaluate() method](/html/net/how-to-articles/how-to-use-xpath/) This article introduces how to use [Evaluate()](https://reference.aspose.com/html/net/aspose.html.dom.xpath/ixpathevaluator/evaluate/) method to navigate through an HTML document and select nodes by various criteria. You will learn with C# examples, how to select all Nodes with specified Name using XPath query.
   
 - [How To Use XPath To Select XML Nodes](/html/net/how-to-articles/how-to-use-xpath-to-select-xml-nodes/) You will learn how to navigate through an XML document and select nodes using XPath. The article considers a С# example of selecting the required information from an XML file using XPath queries.
-  
+
+- [How to Set Font Folder](/html/net/how-to-set-font-folder/) In this article, you will learn how to set font folder for HTML to PDF/Image rendering using Aspose.HTML for .NET library. You get a step-by-step guide on setting a custom font folder and using it to access the necessary fonts, thus allowing you to create professional-looking documents.
   
 
 {{% alert color="primary" %}}

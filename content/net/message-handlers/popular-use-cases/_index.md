@@ -5,7 +5,7 @@ type: docs
 weight: 20
 description: The article provides general information on creating custom message handlers for different popular use cases using Aspose.HTML for .NET - convert ZIP to PDF, convert ZIP to JPG, log a web request execution time, authentication.   
 keywords: message handler, ZIP to PDF, ZIP to JPG, zip archive, web request, authentication
-lastmod: "2023-03-28"
+lastmod: "2023-02-17"
 sitemap:
     changefreq: "monthly"
     priority: 0.8

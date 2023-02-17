@@ -61,8 +61,8 @@ namespace Aspose.HTML.Tests.How_to_Articles
                 // Get the IUserAgentService
                 var userAgentService = configuration.GetService<IUserAgentService>();
 
-                // Use the SetFontsLookupFolder() method to set a directory which will act as a new fontsFolder.
-                // Pass "true" as the recursive argument to use all nested directories. 
+                // Use the SetFontsLookupFolder() method to set a directory which will act as a new fontsFolder
+                // Pass "true" as the recursive parameter to use all nested directories
                 userAgentService.FontsSettings.SetFontsLookupFolder(Path.Combine(DataDir + "font"), true);
 
                 // Initialize the HTML document with specified configuration
