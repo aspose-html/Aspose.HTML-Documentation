@@ -3,7 +3,14 @@ title: Converting Between Formats
 type: docs
 weight: 30
 aliases: /java/converting-between-formats/
+description: You find out how to convert HTML, MHTML, EPUB, Markdown and SVG files using methods of the Converter class or the RenderTo() method.
+keywords: html converter, mhtml converter, svg converter, epub converter, markdown converter, online converter
+lastmod: "2023-02-25"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.7
 ---
+
 Welcome to the "Converting between Formats" guides. The articles in this section provide information on the list of supported conversion scenarios and how to perform them by using a [Converter](https://reference.aspose.com/html/java/com.aspose.html/package-frame) class that is group all low-level conversion operation in a single class to make it comfy and easy to use.
 
 The following conversion scenarios are supported:

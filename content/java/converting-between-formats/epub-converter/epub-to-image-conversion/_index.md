@@ -8,7 +8,7 @@ In this article, you will find information on how to convert an {{%EPUB%}} to Im
 
 {{% alert color="primary" %}} 
 
-<https://products.aspose.app/html/en/conversion/epub>
+<https://products.aspose.app/html/conversion/epub>
 
 {{% /alert %}} 
 
@@ -18,7 +18,7 @@ The static methods of the [Converter](https://reference.aspose.com/html/java/com
 
 ## **Convert EPUB to JPG**
 
-You can check the quality of {{%EPUB%}} to {{%JPG%}} conversion at this link: <https://products.aspose.app/html/en/conversion/epub-to-jpg>
+You can check the quality of {{%EPUB%}} to {{%JPG%}} conversion at this link: <https://products.aspose.app/html/conversion/epub-to-jpg>
 
 The following Java code snippet shows how to convert {{%EPUB%}} to JPG using Aspose.HTML for Java.
 
@@ -32,7 +32,7 @@ The following Java code snippet shows how to convert {{%EPUB%}} to JPG using Asp
 
 {{% alert color="primary" %}} 
 
-You can check the quality of EPUB to PNG conversion at this link: <https://products.aspose.app/html/en/conversion/epub-to-png>
+You can check the quality of EPUB to PNG conversion at this link: <https://products.aspose.app/html/conversion/epub-to-png>
 
 {{% /alert %}} 
 
@@ -46,7 +46,7 @@ The following Java code snippet shows how to convert EPUB to PNG using Aspose.HT
 
 ## **Convert EPUB to BMP**
 
-You can check the quality of EPUB to BMP conversion at this link: <https://products.aspose.app/html/en/conversion/epub-to-bmp>
+You can check the quality of EPUB to BMP conversion at this link: <https://products.aspose.app/html/conversion/epub-to-bmp>
 
 The following Java code snippet shows how to convert EPUB to BMP using Aspose.HTML for Java.
 
@@ -60,7 +60,7 @@ The following Java code snippet shows how to convert EPUB to BMP using Aspose.HT
 
 {{% alert color="primary" %}} 
 
-You can check the quality of EPUB to GIF conversion at this link: <https://products.aspose.app/html/en/conversion/epub-to-gif>
+You can check the quality of EPUB to GIF conversion at this link: <https://products.aspose.app/html/conversion/epub-to-gif>
 
 {{% /alert %}} 
 
@@ -74,7 +74,7 @@ The following Java code snippet shows how to convert EPUB to GIF using Aspose.HT
 
 ## **Convert EPUB to TIFF**
 
-You can check the quality of EPUB to TIFF conversion at this link: <https://products.aspose.app/html/en/conversion/epub-to-tiff>
+You can check the quality of EPUB to TIFF conversion at this link: <https://products.aspose.app/html/conversion/epub-to-tiff>
 
 The following Java code snippet shows how to convert EPUB to TIFF using Aspose.HTML for Java.
 
