@@ -8,7 +8,7 @@ aliases:
 ---
 
 ## **Getting Started**
-
+{{%GITHUB_JAVA_EXAMPLES_LINK%}}
 ## **What is HTML?**
 Since you are reading this page, we are assuming you know the answer. But, we are giving brief information to refresh your memory. HyperText Markup Language (HTML) is the standard markup language for creating Web pages. It defines the structure of web content. It can be assisted by other technologies such as Cascading Style Sheets (CSS) to describe a web page’s appearance/presentation and scripting languages such as JavaScript to describe functionality/behavior.
 ## **Benefits of using Aspose.Java**
