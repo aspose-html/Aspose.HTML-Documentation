@@ -5,7 +5,7 @@ keywords: html converter, html conversions, convert html, html to image, convert
 description: Convert HTML to other formats using Aspose.HTML for Java API or Online HTML Converter. Consider Java example of HTML to PNG conversion.
 weight: 10
 type: docs
-url: /net/html-converter/
+url: /java/html-converter/
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -16,39 +16,6 @@ lastmod: 2023-02-28
 
 One of the main features of Aspose.HTML is its conversion capability. Aspose.HTML for Java provides easy access to conversion methods through its [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/Converter) class, which is a shared facade for most often conversion scenarios and offers a wide range of HTML conversions to popular formats like {{%PDF%}}, {{%XPS%}}, {{%DOCX%}}, {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, {{%GIF%}}, {{%MHTML%}},  and {{%MD%}}. 
 
-## **Online HTML Converter**
-
-You can check the Aspose.HTML API functionality and convert HTML in real-time. First, load an HTML file from your local drive and then run the example. In this example, the save options are set by default. You will immediately receive the conversion result as a separate file.
-
-{{< app/html/converter HTML PNG PDF "JPG|JPEG" TIFF BMP GIF XPS DOCX MD MHTML >}}
-using Aspose.Html;
-using Aspose.Html.Converters;
-using Aspose.Html.Saving;
-
-    using var document = new HTMLDocument("document.{{input lower}}");
-{{#if_output 'PDF'}}
-    var options = new PdfSaveOptions();
-{{/if_output}}
-{{#if_output 'DOCX'}}
-    var options = new DocSaveOptions();
-{{/if_output}}
-{{#if_output 'XPS'}}
-    var options = new XpsSaveOptions();
-{{/if_output}}
-{{#if_output 'MD'}}
-    var options = new MarkdownSaveOptions();
-{{/if_output}}
-{{#if_output 'MHTML'}}
-    var options = new MHTMLSaveOptions();
-{{/if_output}}
-{{#if_output 'BMP' 'JPG' 'GIF' 'PNG' 'TIFF'}}
-    var options = new ImageSaveOptions(ImageFormat.{{output param2 camel}});
-{{/if_output}}
-    Converter.ConvertHTML(document, options, "output.{{output lower}}");   
-{{< /app/html/converter>}}
-
-If you want to convert HTML programmatically, please see the following Java code.
-
 ## **How to Convert HTML in Java**
 
 This articles in the "HTML Converter" chapter give information on the list of supported HTML conversions and how to perform them using the [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/Converter) class.
@@ -57,13 +24,13 @@ This articles in the "HTML Converter" chapter give information on the list of su
 
 To perform HTML conversion, you should take a few steps:
 
-1. [Install Aspose.HTML for Java library]() to convert HTML.
+1. [Install Aspose.HTML for Java library](/html/java/getting-started/installation/) to convert HTML.
 2. Initialize a new instance of the [HTMLDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument) class using one of HTMLDocument() constructors.
 3. Create a Save Options object that specifies the desired output format and conversion options.
-4. Call one of the [ConvertHTML()](https://reference.aspose.com/html/java/com.aspose.html.converters/Converter) methods and pass the necessary parameters to it.
+4. Call one of the [convertHTML()](https://reference.aspose.com/html/java/com.aspose.html.converters/converter) methods and pass the necessary parameters to it.
     {{% /alert %}}   
 
-Please take a look over the following Java code snippet that shows the HTML to PNG conversion using the `ConvertHTML(document, options, savePath)` method.
+Please take a look over the following Java code snippet that shows the HTML to PNG conversion using the `convertHTML(document, options, savePath)` method.
 {{< highlight java >}}
 
 	// Prepare a path to a source HTML file
@@ -87,7 +54,7 @@ Please take a look over the following Java code snippet that shows the HTML to P
 
 {{< /highlight >}}
 
- The ConvertHTML() method takes as parameters `document`,  `options`, and `savePath` and performs the operation. **Note:** You need to specify the path to the output file in your local file system (`savePath`). Also, for `HTMLDocument(documentPath)` constructor, you need to provide the path to a source HTML file on your local file system. 
+ The `convertHTML()` method takes as parameters `document`,  `options`, and `savePath` and performs the operation. **Note:** You need to specify the path to the output file in your local file system (`savePath`). Also, for `HTMLDocument(documentPath)` constructor, you need to provide the path to a source HTML file on your local file system. 
 
 ## **Popular HTML Conversions**
 
@@ -96,7 +63,7 @@ Please take a look over the following Java code snippet that shows the HTML to P
 		<h3>Convert HTML to PDF, XPS</h3>				
 		<ul>
 			<li><a href="/html/java/convert-html-to-pdf/">Convert HTML to PDF</a></li>
-			<li><a href="/html/java/convert-html-to-pdf/#convert-html-to-pdf-using-pdfsaveoptions">Convert HTML to PDF using PdfSaveOptions</a></li>
+			<li><a href="/html/java/convert-html-to-pdf/#convert-html-to-pdf-in-java-using-pdfsaveoptions">Convert HTML to PDF using PdfSaveOptions</a></li>
 			<li><a href="/html/java/convert-html-to-pdf/#output-stream-providers">Convert HTML to PDF using MemoryStreamProvider</a></li>
 			<li><a href="/html/java/convert-html-to-xps/">Convert HTML to XPS</a></li>					
 		</ul>
@@ -112,11 +79,11 @@ Please take a look over the following Java code snippet that shows the HTML to P
 		<h3>Convert HTML to Image</h3>	
 		</ul>
 		<ul>
-			<li><a href="/html/java/convert-html-to-jpg/">Convert HTML to JPG</a></li>
-			<li><a href="/html/java/convert-html-to-png/">Convert HTML to PNG</a></li>
-			<li><a href="/html/java/convert-html-to-bmp/">Convert HTML to BMP</a></li>
-			<li><a href="/html/java/convert-html-to-gif/">Convert HTML to GIF</a></li>
-			<li><a href="/html/java/convert-html-to-tiff/">Convert HTML to TIFF</a></li>						
+			<li><a href="/html/java/convert-html-to-image/#convert-html-to-jpg">Convert HTML to JPG</a></li>
+			<li><a href="/html/java/convert-html-to-image/#convert-html-to-png">Convert HTML to PNG</a></li>
+			<li><a href="/html/java/convert-html-to-image/#convert-html-to-bmp">Convert HTML to BMP</a></li>
+			<li><a href="/html/java/convert-html-to-image/#convert-html-to-gif">Convert HTML to GIF</a></li>
+			<li><a href="/html/java/convert-html-to-image/#convert-html-to-tiff">Convert HTML to TIFF</a></li>						
 		</ul>
 	</div>
 	<div class="col-md-3">
@@ -131,5 +98,5 @@ Please take a look over the following Java code snippet that shows the HTML to P
 
 Aspose.HTML offers a free online [**HTML Converter**](https://products.aspose.app/html/conversion) for converting HTML files to a variety of popular formats. You can easily convert  [HTML to PDF,](https://products.aspose.app/html/conversion/html-to-pdf) HTML to XPS, [HTML to Image,](https://products.aspose.app/html/conversion/html-to-image) HTML to MD and HTML to MHTML. Just select the file, choose the format to convert, and you're done. It's fast and completely free!
 
-You can download the complete Java examples and data files from [**GitHub???**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net)
+You can download the complete Java examples and data files from {{%GITHUB_JAVA_EXAMPLES_LINK%}}.
 {{% /alert %}} 

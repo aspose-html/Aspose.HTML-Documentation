@@ -2,11 +2,9 @@
 keywords: HTML to MHTML, convert HTML to MHTML, HTML to MHTML conversion, HTML to MHTML converter, save options, online converter, c# code
 lastmod: 2022-07-28
 url: /net/converting-between-formats/html-to-mhtml/
-title: Convert HTML to MHTML | C# Examples
+title: Convert HTML to MHTML - C# Examples
 linktitle: Convert HTML to MHTML
-description: This article provides information on how to convert HTML to MHTML
-  using Aspose.HTML API. You will learn about the supported HTML to MHTML
-  conversion scenarios and consider examples to illustrate them.
+description: Learn how to convert HTML to MHTML in C#. You will consider the supported HTML to MHTML conversion scenarios and C# examples to illustrate them.
 weight: 90
 type: docs
 aliases:
@@ -72,7 +70,7 @@ Converting a file to another format using the ConvertHTML() method is a sequence
 
 1. Load the HTML file using [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/) class.
 1. Create an instance of the [MHTMLSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/mhtmlsaveoptions/) class.
-1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/converthtml/) method of [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter/) class to save HTML as an MHTML file. You need to pass the HTMLDocument, MHTMLSaveOptions, and output file path to the ConvertHTML() method to convert HTML to MHTML.
+1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/converthtml/) method of [Converter](https://reference.aspose.com/html/net/aspose.html.converters/converter/) class to save HTML document as an MHTML file. You need to pass the HTMLDocument, MHTMLSaveOptions, and output file path to the ConvertHTML() method to convert HTML to MHTML.
 
 {{< highlight java >}}
 using System.IO;
@@ -121,7 +119,7 @@ To learn more about [MHTMLSaveOptions](https://reference.aspose.com/html/net/asp
 To convert HTML to MHTML with MHTMLSaveOptions specifying, you should follow a few steps: 
 
 1. Load or prepare an HTML file. 
-1. Create a new [MHTMLSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/xpssaveoptions/) object.
+1. Create a new [MHTMLSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/mhtmlsaveoptions/mhtmlsaveoptions/) object.
 1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/converthtml/) method of the  Converter class to save HTML as a MHTML file. You need to pass the HTMLDocument, MHTMLSaveOptions, and output file path to the ConvertHTML() method to convert HTML to MHTML.
 
 The following example shows how to use [MHTMLSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/mhtmlsaveoptions/) and create an MHTML file with custom save options:
