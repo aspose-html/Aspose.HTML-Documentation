@@ -33,7 +33,7 @@ The static methods of the [Converter](https://reference.aspose.com/html/java/com
 Using convertEPUB() methods is the most common way to convert EPUB files into various formats. The following Java code snippet shows how to convert EPUB to XPS using Aspose.HTML:
 
 1. Open an existing EPUB file. In the example, we use the `openRead()` method to open and read an EPUB file from the file system at the specified path.
-1. Create an instance of [XpsSaveOptions.](https://reference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions)
+1. Create an instance of [XpsSaveOptions.](https://reference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions) Use the empty XpsSaveOptions() constructor to convert with the default save options.
 1. Use the `convertEPUB(stream, options, savePath)` method of the [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/converter) class to save EPUB as an XPS file. You need to pass the EPUB file stream, XpsSaveOptions, and output file path to the `convertEPUB()` method as parameters.
 
 {{< highlight java >}}
@@ -128,5 +128,5 @@ The example below shows how to implement and use the your own *MemoryStreamProvi
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/epub-to-xps" target="_blank">**EPUB to XPS Converter**</a> that converts EPUB to XPS with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
+Aspose.HTML offers a free online [**EPUB to XPS Converter**](https://products.aspose.app/html/conversion/epub-to-xps) that converts EPUB to XPS with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
 {{% /alert %}}

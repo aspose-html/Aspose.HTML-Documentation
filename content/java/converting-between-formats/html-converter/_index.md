@@ -94,8 +94,8 @@ Please take a look over the following Java code snippet that shows the HTML to P
 		</ul>
 	</div>	
 </div>
-{{% alert color="primary" %}} 
 
+{{% alert color="primary" %}}
 Aspose.HTML offers a free online [**HTML Converter**](https://products.aspose.app/html/conversion) for converting HTML files to a variety of popular formats. You can easily convert  [HTML to PDF,](https://products.aspose.app/html/conversion/html-to-pdf) HTML to XPS, [HTML to Image,](https://products.aspose.app/html/conversion/html-to-image) HTML to MD and HTML to MHTML. Just select the file, choose the format to convert, and you're done. It's fast and completely free!
 
 You can download the complete Java examples and data files from {{%GITHUB_JAVA_EXAMPLES_LINK%}}.

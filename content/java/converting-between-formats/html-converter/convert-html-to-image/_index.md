@@ -241,7 +241,7 @@ To save files in remote storage, such as a cloud or database, you can implement 
 Aspose.HTML for Java provides various types of output formats for rendering operations. Some of these formats produce a single output file (for instance PDF, {{%XPS%}}), others create multiple files (Image formats JPG, PNG, etc.).
 {{% /alert %}} 
 
-The example below shows how to implement and use the your own `MemoryStreamProvider` in Java applications:
+The following example demonstrates how to implement and use a custom *MemoryStreamProvider* in your Java application:
 
 {{< highlight java >}}
 
@@ -252,7 +252,7 @@ The example below shows how to implement and use the your own `MemoryStreamProvi
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-image" target="_blank">**HTML to Image Converter**</a> that converts HTML to Images with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
+Aspose.HTML offers a free online [**HTML to Image Converter**](https://products.aspose.app/html/conversion/html-to-image) that converts HTML to Images with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
 {{% /alert %}}
 
 <a href="https://products.aspose.app/html/conversion/html-to-jpg" target="_blank">![Text "Banner HTML to JPG Converter"](./../../../html-to-jpg.png#center)</a>

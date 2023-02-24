@@ -36,7 +36,7 @@ The static methods of the [Converter](https://reference.aspose.com/html/java/com
 Converting a file to another format using the `convertHTML()` method is a sequence of operations among which document loading and saving:
 
 1. Load an HTML file using the [HTMLDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument) class.
-1. Create a new [XpsSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions) object. 
+1. Create a new [XpsSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions) object. Use the empty XpsSaveOptions() constructor to convert with the default save options.
 1. Use the `convertHTML()` method of the [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/converter) class to save HTML as an XPS file. You need to pass the HTMLDocument, XpsSaveOptions, and output file path to the `convertHTML()` method to convert HTML to XPS.
 
 Please take a look over the following Java code snippet which shows the process of converting HTML to XPS using Aspose.HTML for Java.
@@ -136,7 +136,7 @@ The example below shows how to implement and use your own `MemoryStreamProvider`
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from {{%GITHUB_JAVA_EXAMPLES_LINK%}}.
 
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-xps" target="_blank">**HTML to XPS Converter**</a> that converts HTML to XPS with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online [**HTML to XPS Converter**](https://products.aspose.app/html/conversion/html-to-xps) that converts HTML to XPS with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
 
 <a href="https://products.aspose.app/html/conversion/html-to-xps" target="_blank">![Text "Banner HTML to XPS Converter"](./../../../html-to-xps.png#center)</a>

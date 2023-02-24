@@ -28,14 +28,14 @@ Converting EPUB to any supported image format follows the same mandatory steps:
  - Creating a save options object.
  - Converting EPUB to chosen image format.
 
-The only difference is in specifying the output image format using the [ImageSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/imagesaveoptions) class. The `ImageSaveOptions(format)` constructor initializes the options object with the image format specifying. You can set the image format to JPG, PNG, BMP, GIF, or TIFF. The default `ImageFormat` is PNG.
+The only difference is in specifying the output image format using the [ImageSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/imagesaveoptions) class. The `ImageSaveOptions(format)` constructor initializes the options object with the image format specifying. You can set the format to JPG, PNG, BMP, GIF, or TIFF. The default `ImageFormat` is PNG.
 {{% /alert %}}
 
 In this article, you will find information on how to convert an {{%EPUB%}} to {{%JPG%}} using Aspose.HTML for Java and how to apply [ImageSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/imagesaveoptions) and [MemoryStreamProvider.](https://reference.aspose.com/html/java/com.aspose.html/package-frame) You can easily use Java examples to convert EPUB to JPG, detailed here for converting [EPUB to PNG,](/html/java/convert-epub-to-png/) EPUB to BMP, EPUB to GIF, and EPUB to TIFF. Just set the `ImageFormat` to ImageSaveOptions! 
 
-## **EPUB to JPG by two lines of Java code**
+## **EPUB to JPG by a few lines of Java code**
 
-The static methods of the [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/converter) class are primarily used as the easiest way to convert an EPUB file into various formats. You can convert EPUB to JPG in your Java application literally with a single line of code!
+The static methods of the [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/converter) class are primarily used as the easiest way to convert an EPUB file into various formats. You can convert EPUB to JPG in your Java application literally with a few lines of code!
 
 {{< highlight java >}}
     // Open an existing EPUB file for reading
@@ -46,7 +46,7 @@ The static methods of the [Converter](https://reference.aspose.com/html/java/com
     finally { if (stream != null) stream.dispose(); }
 
     // Invoke the convertEPUB() method           
-    com.aspose.html.converters.Converter.convertEPUB(stream, new ImageSaveOptions(ImageFormat.Jpeg), Path.combine(getOutputDir(), "convert-by-two-lines.jpg"));   
+    com.aspose.html.converters.Converter.convertEPUB(stream, new ImageSaveOptions(ImageFormat.Jpeg), Path.combine(getOutputDir(), "output-image.jpg"));   
 {{< /highlight >}}
 
 ## **Convert EPUB to JPG**

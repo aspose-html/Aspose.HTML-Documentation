@@ -19,7 +19,7 @@ lastmod: 2023-02-28
 
 EPUB is a format that is widely used for e-books, but it is not always compatible with all devices or software applications. Converting EPUB to PDF can be helpful in situations where you want to create a document that is easily readable across different devices and platforms. PDFs are also optimized for printing, making them ideal for creating physical copies of your documents. You can configure security settings for PDF files to restrict access or editing.
 
-In this article, you will find information about how to convert EPUB to PDF using Aspose.HTML for Java library and how to use [PdfSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions) and [MemoryStreamProvider](https://reference.aspose.com/html/java/com.aspose.html/package-frame) parameters.
+In this article, you will find information about how to convert EPUB to PDF using Aspose.HTML for Java library and how to use [PdfSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions) and [MemoryStreamProvider.](https://reference.aspose.com/html/java/com.aspose.html/package-frame)
 
 ## **EPUB to PDF by a few lines of Java code**
 
@@ -42,7 +42,7 @@ The static methods of the [Converter](https://reference.aspose.com/html/java/com
 You should follow a few steps: 
 
 1. Open an existing EPUB file. In the example, we use the `openRead()` method of System.IO.FileStream class to open and read an EPUB file from the file system at the specified path.
-1. Create an instance of [PdfSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions).
+1. Create an instance of [PdfSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions). Use the empty PdfSaveOptions() constructor to convert with the default save options.
 1. Use the `convertEPUB(stream, options, savePath)` method of the [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/converter) class to save EPUB as a PDF file. You need to pass the EPUB file stream, PdfSaveOptions, and output file path to the ConvertEPUB() method as parameters.
 
 The following Java code snippet shows how to convert EPUB to PDF using Aspose.HTML:
@@ -131,7 +131,7 @@ When it is necessary to save files to remote storage such as a cloud or database
 Aspose.HTML for Java provides various types of output formats for rendering operations. Some of these formats produce a single output file (for instance PDF, {{%XPS%}}), others create multiple files (Image formats JPG, PNG, etc.).
 {{% /alert %}} 
 
-The example below shows how to implement and use the your own *MemoryStreamProvider* in the application:
+The following example demonstrates how to implement and use a custom *MemoryStreamProvider* in your Java application:
 
 {{< highlight java >}}
 
@@ -142,7 +142,7 @@ The example below shows how to implement and use the your own *MemoryStreamProvi
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/epub-to-pdf" target="_blank">**EPUB to PDF Converter**</a> that converts EPUB to PDF with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
+Aspose.HTML offers a free online [**EPUB to PDF Converter**](https://products.aspose.app/html/conversion/epub-to-pdf) that converts EPUB to PDF with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
 {{% /alert %}}
 
 <a href="https://products.aspose.app/html/conversion/epub-to-pdf" target="_blank">![Text "Banner EPUB to PDF Converter"](./../../../epub-to-pdf.png#center)</a>
