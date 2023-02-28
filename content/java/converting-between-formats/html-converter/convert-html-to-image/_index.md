@@ -233,7 +233,7 @@ The following Java example shows how to use ImageSaveOptions and create the outp
 
 To learn more about [ImageOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/ImageSaveOptions) please read [Fine-Tuning Converters](/html/java/converting-between-formats/fine-tuning-converters/) article.
 
-## **Output Stream Providers** ## 
+<!--## **Output Stream Providers** ## 
 
 To save files in remote storage, such as a cloud or database, you can implement the [MemoryStreamProvider](https://reference.aspose.com/html/java/com.aspose.html/package-frame) interface.  This interface allows you to manually control the file creation process by creating a stream at the beginning of the document or page (depending on the output format) and releasing the early created stream after rendering it.
 
@@ -249,7 +249,7 @@ The following example demonstrates how to implement and use a custom *MemoryStre
 
 {{< highlight java >}}
 
-{{< /highlight >}}
+{{< /highlight >}}-->
 
 {{% alert color="primary" %}}
 Aspose.HTML offers a free online [**HTML to Image Converter**](https://products.aspose.app/html/conversion/html-to-image) that converts HTML to Images with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!

@@ -42,7 +42,7 @@ Let's consider the following code snippet that shows how to convert MHTML to PDF
 
 - [Convert MHTML to PDF](/html/java/convert-mhtml-to-pdf/) - Learn how to convert MHTML to PDF using Java library. 
 - [Convert MHTML to XPS](/html/java/convert-mhtml-to-xps/) - Consider various MHTML to XPS conversion scenarios in Java code.
-- [Convert MHTML to Image](/html/java/convert-mhtml-to-image/) - 
+- [Convert MHTML to JPG](/html/java/convert-mhtml-to-jpg/) - Learn how to convert MHTML to JPG with Aspose.HTML for Java, and you can easily use the Java code described here to convert MHTML to PNG, MHTML to BMP, MHTML to GIF, and MHTML to TIFF.
 
 {{% alert color="primary" %}}
 You can download the complete examples and data files from {{%GITHUB_JAVA_EXAMPLES_LINK%}}.

@@ -123,7 +123,7 @@ The following example shows how to use PdfSaveOptions and create a PDF file with
     com.aspose.html.converters.Converter.convertEPUB(stream, options, savePath);
 {{< /highlight >}}
 
-## **Output Stream Providers**
+<!-- ## **Output Stream Providers**
 
 When it is necessary to save files to remote storage such as a cloud or database, implementing the [MemoryStreamProvider](https://reference.aspose.com/html/java/com.aspose.html/package-frame) interface can provide manual control over the file creation process. This interface serves as a callback object that allows for creating a stream at the beginning of the document or page (depending on the output format) and the release of the early created stream after the document or page is rendered. Using the MemoryStreamProvider interface allows users to have greater control over the file-saving process, which can be particularly useful when the storage location is remote or requires specific configurations.
 
@@ -140,6 +140,7 @@ The following example demonstrates how to implement and use a custom *MemoryStre
 {{< highlight java >}}
 
 {{< /highlight >}}
+-->
 
 {{% alert color="primary" %}}
 Aspose.HTML offers a free online [**EPUB to PDF Converter**](https://products.aspose.app/html/conversion/epub-to-pdf) that converts EPUB to PDF with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!

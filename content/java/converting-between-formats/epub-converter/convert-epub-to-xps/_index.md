@@ -111,7 +111,7 @@ For further information on how to customize the conversion process with [XpsSave
 Please note that you cannot set values against the **Application** and **Producer** fields, because Aspose Ltd. and Aspose.HTML for Java x.x.x will be displayed against these fields.
 {{% /alert %}}
 
-## **Output Stream Providers**
+<!--## **Output Stream Providers**
 
 When it is necessary to save files to remote storage such as a cloud or database, implementing the [MemoryStreamProvider](https://reference.aspose.com/html/java/com.aspose.html/package-frame) interface can provide manual control over the file creation process. This interface serves as a callback object that allows for creating a stream at the beginning of the document or page depending on the output format, and the release of the early created stream after the document or page is rendered. Using the MemoryStreamProvider interface allows users to have greater control over the file-saving process, which can be particularly useful when the storage location is remote or requires specific configurations.
 
@@ -125,7 +125,7 @@ The example below shows how to implement and use the your own *MemoryStreamProvi
 
 {{< highlight java >}}
 
-{{< /highlight >}}
+{{< /highlight >}}-->
 
 {{% alert color="primary" %}}
 Aspose.HTML offers a free online [**EPUB to XPS Converter**](https://products.aspose.app/html/conversion/epub-to-xps) that converts EPUB to XPS with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!

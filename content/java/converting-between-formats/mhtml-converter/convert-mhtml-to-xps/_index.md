@@ -117,7 +117,7 @@ The following example shows how to use [XpsSaveOptions](https://reference.aspose
     com.aspose.html.converters.Converter.convertMHTML(stream, options, savePath);
 {{< /highlight >}}
 
-## **Output Stream Providers**
+<!--## **Output Stream Providers**
 
 You can implement the [MemoryStreamProvider](https://reference.aspose.com/html/java/com.aspose.html/package-frame) interface to manually control the process of saving files in remote storage such as the cloud or database. This interface works as a callback object that creates a stream at the beginning of the document/page (depending on the output format) and releases the created stream after rendering the document/page. By implementing this interface, you can fully control the file creation process in remote storage.
 
@@ -131,7 +131,7 @@ The following example demonstrates how to implement and use a custom *MemoryStre
 
 {{< highlight java >}}
 
-{{< /highlight >}}
+{{< /highlight >}}-->
 
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from {{%GITHUB_JAVA_EXAMPLES_LINK%}}.

@@ -28,8 +28,9 @@ The static methods of the [Converter](https://reference.aspose.com/html/java/com
 {{< highlight java >}}
     // Invoke the convertHTML() method to convert the HTML code to MHTML file           
     com.aspose.html.converters.Converter.convertHTML("<h1>Hellow, Word!</h1>", ".", new MHTMLSaveOptions(), Path.combine(getOutputDir(), "convert-with-single-line.mht"));
-
 {{< /highlight >}}
+
+In the example we use the `convertHTML(content, baseUri, options, outputPath)` method of the [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/Converter) class that takes four parameters: string with HTML code to be converted, the base folder for the input HTML file, an instance of MHTMLSaveOptions class, and the output file path where the converted file will be saved.
 
 ## **Convert HTML to MHTML in Java**
 
@@ -99,7 +100,7 @@ Aspose.HTML allows converting HTML to MHTML using default or custom save options
     com.aspose.html.converters.Converter.convertHTML("document.html", options, savePath);
 {{< /highlight >}}
 
-The [MHTMLSaveOptions()](https://reference.aspose.com/html/java/com.aspose.html.saving/MHTMLSaveOptions) constructor initializes an instance of the MHTMLSaveOptions class that is passed to `convertHTML()` method. The `convertHTML()` method takes the `document`, `options`,  output file path `savePath` and performs the conversion. In the above example, we use the property `MaxHandlingDepth = 1` means that only pages directly referenced from the saved document will be handled.
+The [MHTMLSaveOptions()](https://reference.aspose.com/html/java/com.aspose.html.saving/MHTMLSaveOptions) constructor initializes an instance of the MHTMLSaveOptions class that is passed to `convertHTML()` method. The method takes the `document`, `options`,  output file path `savePath` and performs the conversion. In the above example, we use the property `MaxHandlingDepth = 1` means that only pages directly referenced from the saved document will be handled.
 
 {{% alert color="primary" %}} 
 To learn more about [MHTMLSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/MHTMLSaveOptions) please read [Fine-Tuning Converters](/html/java/converting-between-formats/fine-tuning-converters/) article.

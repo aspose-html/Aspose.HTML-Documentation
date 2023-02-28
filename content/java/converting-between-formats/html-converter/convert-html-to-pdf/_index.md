@@ -30,6 +30,8 @@ HTML to PDF conversion is a highly sought-after feature, and Aspose.HTML for Jav
     com.aspose.html.converters.Converter.convertHTML("<h1>Convert HTML to PDF!</h1>", ".", new PdfSaveOptions(), Path.combine(getOutputDir(), "convert-with-single-line.pdf"));
 {{< /highlight >}}
 
+In the example we use the convertHTML(content, baseUri, options, outputPath) method of the Converter class that takes four parameters: string with HTML code to be converted, the base folder for the input HTML file, an instance of the PdfSaveOptions class, and the output file path where the converted file will be saved.
+
 ## **Convert HTML to PDF in Java**
 
 Let's walk through the step-by-step instructions for a simple HTML to PDF conversion scenario:
@@ -85,7 +87,7 @@ With Aspose.HTML for Java, you can convert files programmatically with full cont
 
 1. Load an HTML file using one of the HTMLDocument() constructors of the  [HTMLDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument) class. 
 1. Create a new [PdfSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions) object and specify the required properties.
-1. Use the [сonvertHTML()](https://reference.aspose.com/html/java/com.aspose.html.converters/Converter#convertHTML-java.lang.String-com.aspose.saving.PdfSaveOptions-java.lang.String-) method of the  Converter class to save HTML as a PDF file.
+1. Use the `сonvertHTML()` method of the [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/converter) class to save HTML as a PDF file.
 
 The following Java example shows how to use [PdfSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions) and create a PDF file with custom page-size, margins, resolutions, background color, and compression specifying:
 
@@ -115,13 +117,13 @@ The following Java example shows how to use [PdfSaveOptions](https://reference.a
     com.aspose.html.converters.Converter.convertHTML(document, options, outputPath);    
 {{< /highlight >}}
 
-The [PdfSaveOptions()](https://reference.aspose.com/html/java/com.aspose.html.saving/PdfSaveOptions#PdfSaveOptions--) constructor initializes an instance of the PdfSaveOptions class that is passed to `convertHTML()` method. The `convertHTML()` method takes the `document`, `options`,  output file path `outputPath` and performs the conversion operation. The PdfSaveOptions class provides methods that give you full control over a wide range of parameters and improve the process of converting HTML to PDF format.
+The [PdfSaveOptions()](https://reference.aspose.com/html/java/com.aspose.html.saving/PdfSaveOptions#PdfSaveOptions--) constructor initializes an instance of the PdfSaveOptions class that is passed to `convertHTML()` method. The method takes the `document`, `options`,  output file path `outputPath` and performs the conversion operation. The PdfSaveOptions class provides methods that give you full control over a wide range of parameters and improve the process of converting HTML to PDF format.
 
 In the example above, several save options were used:
- - setJpegQuality() specifies JPEG compression quality for images.
- - setBackgroundColor() sets the color that fills the background.
- - setHorizontalResolution() and VerticalResolution()set horizontal and vertical resolutions for output images.
- - setPageSetup() specifies the page size and margins for the output document. 
+ - `setJpegQuality()` specifies JPEG compression quality for images.
+ - `setBackgroundColor()` sets the color that fills the background.
+ - `setHorizontalResolution()` and `setVerticalResolution()` set horizontal and vertical resolutions for output PDF files.
+ - `setPageSetup()` specifies the page size and margins for the output document. 
 
 **One more Java example**. Here we create HTML document from scratch - prepare HTML code and save it to a file. Then we apply PdfSaveOptions to convert HTML to PDF: 
 
@@ -157,7 +159,7 @@ Check the quality of HTML to PDF conversion with our online [**HTML to PDF Conve
 You can download the complete examples and data files from {{%GITHUB_JAVA_EXAMPLES_LINK%}}.
 {{% /alert %}}
 
-## **Output Stream Providers**
+<!--## **Output Stream Providers**
 
 When it is necessary to save files to remote storage such as a cloud or database, implementing the [MemoryStreamProvider](https://reference.aspose.com/html/java/com.aspose.html/package-frame) interface can provide manual control over the file creation process. This interface serves as a callback object that allows for creating a stream at the beginning of the document or page (depending on the output format) and the release of the early created stream after the document or page is rendered. Using the MemoryStreamProvider interface allows users to have greater control over the file-saving process, which can be particularly useful when the storage location is remote or requires specific configurations.
 
@@ -175,7 +177,7 @@ The example below shows how to implement and use your own *MemoryStreamProvider*
 
 {{< highlight java >}}
 
-{{< /highlight >}}
+{{< /highlight >}}-->
 
 {{% alert color="primary" %}}
 Aspose.HTML offers a free online [**HTML to PDF Converter**](https://products.aspose.app/html/conversion/html-to-pdf) that converts HTML to PDF with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!

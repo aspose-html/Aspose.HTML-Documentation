@@ -28,8 +28,9 @@ The static methods of the [Converter](https://reference.aspose.com/html/java/com
 {{< highlight java >}}
     // Invoke the convertHTML() method to convert the HTML code to XPS           
     com.aspose.html.converters.Converter.convertHTML("<h1>Convert HTML to XPS!</h1>", ".", new XpsSaveOptions(), Path.combine(getOutputDir(), "convert-with-single-line.xps"));
-
 {{< /highlight >}}
+
+In the example we use the `convertHTML(content, baseUri, options, outputPath)` method of the [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/Converter) class that takes four parameters: string with HTML code to be converted, the base folder for the input HTML file, an instance of the XpsSaveOptions class, and the output file path where the converted file will be saved.
 
 ## **Convert HTML to XPS in Java**
 
@@ -117,7 +118,7 @@ The following example shows how to use [XpsSaveOptions](https://reference.aspose
 
 {{< /highlight >}}
 
-## **Output Stream Providers** ## 
+<!--## **Output Stream Providers** 
 
 If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [MemoryStreamProvider](https://reference.aspose.com/html/java/com.aspose.html/package-frame) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
 
@@ -131,7 +132,7 @@ The example below shows how to implement and use your own `MemoryStreamProvider`
 
 {{< highlight java >}}
 
-{{< /highlight >}}
+{{< /highlight >}}-->
 
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from {{%GITHUB_JAVA_EXAMPLES_LINK%}}.

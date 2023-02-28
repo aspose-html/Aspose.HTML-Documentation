@@ -1,5 +1,5 @@
 ---
-title: MHTML to PDF Conversion
+title: Convert MHTML to PDF in Java
 linktitle: Convert MHTML to PDF
 type: docs
 weight: 10
@@ -116,7 +116,7 @@ The following Java example shows how to use [PdfSaveOptions](https://reference.a
     com.aspose.html.converters.Converter.convertMHTML(stream, options, savePath);        
 {{< /highlight >}}
 
-## **Output Stream Providers**
+<!--## **Output Stream Providers**
 
 If it is required to save files in the remote storage (e.g., cloud, database, etc.) you can implement [MemoryStreamProvider](https://reference.aspose.com/html/java/com.aspose.html/package-frame) interface to have manual control over the file creating process. This interface designed as a callback object to create a stream at the beginning of the document/page (depending on the output format) and release the early created stream after rendering document/page.
 
@@ -132,7 +132,7 @@ The example below shows how to implement and use the your own *MemoryStreamProvi
 
 {{< highlight java >}}
 
-{{< /highlight >}}
+{{< /highlight >}}-->
 
 {{% alert color="primary" %}}
 Aspose.HTML offers a free online [**MHTML to PDF Converter**](https://products.aspose.app/html/conversion/mhtml-to-pdf) that converts MHTML to PDF with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!

@@ -18,7 +18,7 @@ One of the main features of Aspose.HTML is its conversion capability. Aspose.HTM
 
 ## **How to Convert HTML in Java**
 
-This articles in the "HTML Converter" chapter give information on the list of supported HTML conversions and how to perform them using the [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/Converter) class.
+The articles in the "HTML Converter" chapter give information on the list of supported HTML conversions and how to perform them using the [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/Converter) class.
 
 {{% alert color="primary" %}} 
 
@@ -28,7 +28,7 @@ To perform HTML conversion, you should take a few steps:
 2. Initialize a new instance of the [HTMLDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument) class using one of HTMLDocument() constructors.
 3. Create a Save Options object that specifies the desired output format and conversion options.
 4. Call one of the [convertHTML()](https://reference.aspose.com/html/java/com.aspose.html.converters/converter) methods and pass the necessary parameters to it.
-    {{% /alert %}}   
+{{% /alert %}}   
 
 Please take a look over the following Java code snippet that shows the HTML to PNG conversion using the `convertHTML(document, options, savePath)` method.
 {{< highlight java >}}
