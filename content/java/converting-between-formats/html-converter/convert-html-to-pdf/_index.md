@@ -12,7 +12,7 @@ aliases:
 sitemap:
     changefreq: "weekly"
     priority: 0.7
-lastmod: 2023-02-28
+lastmod: 2023-03-03
 ---
 
 <link href="./../style.css" rel="stylesheet" type="text/css" />
@@ -21,7 +21,7 @@ In this article, you find information on how to convert an HTML document into a 
 
 In this article, you find information on how to convert HTML to PDF using `convertHTML()` methods of the [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/Converter) class, and how to apply [PdfSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions) and [ICreateStreamProvider](https://reference.aspose.com/html/java/com.aspose.html.io/ICreateStreamProvider) parameters.
 
-## **HTML to PDF by a single line of code**
+## **HTML to PDF by a single line of Java code**
 
 HTML to PDF conversion is a highly sought-after feature, and Aspose.HTML for Java offers an easy solution. Through static methods in the Converter class, you can convert an HTML document into a PDF file with just a single line of code!
 
@@ -51,10 +51,8 @@ Please review the following Java code snippet, which shows the HTML to PDF conve
 
     // Initialize an HTML document from the file
     HTMLDocument document = new HTMLDocument(documentPath);
-    try /*JAVA: was using*/
-    {;
-    }
-    finally { if (document != null) ((com.aspose.html.internal.ms.System.IDisposable)document).dispose(); }
+    try {        }
+    finally { if (document != null) document.dispose(); }
 
     // Initialize PdfSaveOptions object
     PdfSaveOptions options = new PdfSaveOptions();
@@ -79,6 +77,8 @@ Aspose.HTML for Java allows converting HTML to PDF using default or custom save 
 
 {{% alert color="primary" %}}
 To learn more about [PdfSaveOptions,](https://reference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions) please read the [Fine-Tuning Converters](/html/java/converting-between-formats/fine-tuning-converters/) article.
+
+You can download the complete examples and data files from {{%GITHUB_JAVA_EXAMPLES_LINK%}}.
 {{% /alert %}}
 
 ## **Convert HTML to PDF in Java using PdfSaveOptions**
@@ -100,10 +100,8 @@ The following Java example shows how to use [PdfSaveOptions](https://reference.a
 
     // Initialize an HTML document from the file
     HTMLDocument   document = new HTMLDocument(documentPath);
-    try /*JAVA: was using*/
-    {;
-    }
-    finally { if (document != null) ((com.aspose.html.internal.ms.System.IDisposable)document).dispose(); }
+    try {        }
+    finally { if (document != null) document.dispose(); }
 
     // Initialize PdfSaveOptions. Set up the page-size 500x300 pixels, margins, resolutions and change the background color to AliceBlue 
     PdfSaveOptions options = new PdfSaveOptions();
@@ -117,9 +115,9 @@ The following Java example shows how to use [PdfSaveOptions](https://reference.a
     com.aspose.html.converters.Converter.convertHTML(document, options, outputPath);    
 {{< /highlight >}}
 
-The [PdfSaveOptions()](https://reference.aspose.com/html/java/com.aspose.html.saving/PdfSaveOptions#PdfSaveOptions--) constructor initializes an instance of the PdfSaveOptions class that is passed to `convertHTML()` method. The method takes the `document`, `options`,  output file path `outputPath` and performs the conversion operation. The PdfSaveOptions class provides methods that give you full control over a wide range of parameters and improve the process of converting HTML to PDF format.
+The [PdfSaveOptions()](https://reference.aspose.com/html/java/com.aspose.html.saving/PdfSaveOptions#PdfSaveOptions--) constructor initializes an instance of the PdfSaveOptions class that is passed to `convertHTML()` method. The method takes the `document`, `options`,  output file path `outputPath` and performs the conversion operation. 
 
-In the example above, several save options were used:
+The PdfSaveOptions class provides methods that give you full control over a wide range of parameters and improve the process of converting HTML to PDF format. In the example above, several save options were used:
  - `setJpegQuality()` specifies JPEG compression quality for images.
  - `setBackgroundColor()` sets the color that fills the background.
  - `setHorizontalResolution()` and `setVerticalResolution()` set horizontal and vertical resolutions for output PDF files.
@@ -138,11 +136,9 @@ In the example above, several save options were used:
     com.aspose.html.internal.ms.System.IO.File.writeAllText(documentPath, code);
 
     // Initialize an HTML Document from the html file
-    HTMLDocument document = new HTMLDocument(documentPath);
-    try /*JAVA: was using*/
-    {;
-    }
-    finally { if (document != null) ((com.aspose.html.internal.ms.System.IDisposable)document).dispose(); }
+    HTMLDocument   document = new HTMLDocument(documentPath);
+    try {        }
+    finally { if (document != null) document.dispose(); }
         
     // Set up the page-size, margins and change the background color to AntiqueWhite
     PdfSaveOptions  options = new PdfSaveOptions();
@@ -152,12 +148,6 @@ In the example above, several save options were used:
     // Convert HTML to PDF
     com.aspose.html.converters.Converter.convertHTML(document, options, savePath);   
 {{< /highlight >}}
-
-{{% alert color="primary" %}} 
-Check the quality of HTML to PDF conversion with our online [**HTML to PDF Converter.**](https://products.aspose.app/html/conversion/html-to-pdf) Upload, convert your files and get the result in a few seconds. Try our forceful HTML to PDF Converter for free now!
-
-You can download the complete examples and data files from {{%GITHUB_JAVA_EXAMPLES_LINK%}}.
-{{% /alert %}}
 
 <!--## **Output Stream Providers**
 
@@ -181,9 +171,6 @@ The example below shows how to implement and use your own *MemoryStreamProvider*
 
 {{% alert color="primary" %}}
 Aspose.HTML offers a free online [**HTML to PDF Converter**](https://products.aspose.app/html/conversion/html-to-pdf) that converts HTML to PDF with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
-
-
-
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/html-to-pdf" target="_blank">![Text "Banner HTML to PDF Converter"](./../../../html-to-pdf.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/html-to-pdf" target="_blank">![Text "Banner HTML to PDF Converter"](./../../../images/html-to-pdf.png#center)</a>

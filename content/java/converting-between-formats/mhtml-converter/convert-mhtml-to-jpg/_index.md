@@ -156,4 +156,4 @@ The following example demonstrates how to implement and use a custom *MemoryStre
 Aspose.HTML offers a free online [**MHTML to JPG Converter**](https://products.aspose.app/html/conversion/mhtml-to-jpg) that converts MHTML to JPG with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/mhtml-to-jpg" target="_blank">![Text "Banner MHTML to JPG Converter"](./../../../mhtml-to-jpg.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/mhtml-to-jpg" target="_blank">![Text "Banner MHTML to JPG Converter"](./../../../images/mhtml-to-jpg.png#center)</a>

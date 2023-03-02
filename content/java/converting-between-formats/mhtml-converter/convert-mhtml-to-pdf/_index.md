@@ -138,4 +138,4 @@ The example below shows how to implement and use the your own *MemoryStreamProvi
 Aspose.HTML offers a free online [**MHTML to PDF Converter**](https://products.aspose.app/html/conversion/mhtml-to-pdf) that converts MHTML to PDF with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/mhtml-to-pdf" target="_blank">![Text "Banner MHTML to PDF Converter"](./../../../mhtml-to-pdf.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/mhtml-to-pdf" target="_blank">![Text "Banner MHTML to PDF Converter"](./../../../images/mhtml-to-pdf.png#center)</a>

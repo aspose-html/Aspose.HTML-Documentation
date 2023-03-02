@@ -40,7 +40,7 @@ Let's consider the following code snippet that shows how to convert EPUB to PDF 
     com.aspose.html.converters.Converter.convertEPUB(documentPath, options, savePath);
 {{< /highlight >}}
 
-**Note:** You need to specify the path to the source and output file in *your local file system* (`sourcePath` and `outputPath`). 
+**Note:** You need to specify the path to the source and output file in *your local file system* (`sourcePath` and `savePath`). 
 
 {{% alert color="primary" %}}
 You can download the complete examples and data files from {{%GITHUB_JAVA_EXAMPLES_LINK%}}.

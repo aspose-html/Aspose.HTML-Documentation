@@ -39,9 +39,7 @@ Using convertEPUB() methods is the most common way to convert EPUB files into va
 {{< highlight java >}}
     // Open an existing EPUB file for reading
     final  FileStream stream = File.openRead(StringExtensions.concat(getDataDir(),  "input.epub"));
-    try
-    {;
-    }
+    try {        }
     finally { if (stream != null) ((IDisposable)stream).dispose(); }
 
     // Prepare a path to save the converted file 
@@ -84,9 +82,7 @@ The following Java example shows how to use `XpsSaveOptions` and create an XPS f
 {{< highlight java >}}
     // Open an existing EPUB file for reading
     final  FileStream stream = File.openRead(StringExtensions.concat(getDataDir(),  "input.epub"));
-    try
-    {;
-    }
+    try {        }
     finally { if (stream != null) ((IDisposable)stream).dispose(); }
 
     // Prepare a path to save the converted file 

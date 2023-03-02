@@ -12,7 +12,7 @@ aliases:
 sitemap:
     changefreq: "weekly"
     priority: 0.7
-lastmod: 2023-02-28
+lastmod: 2023-03-03
 ---
 
 <link href="./../style.css" rel="stylesheet" type="text/css" />
@@ -21,7 +21,7 @@ HTML files often link to external resources such as images, videos, audio, and o
 
 This article explains how to convert HTML to MHTML using Aspose.HTML for Java library and apply [MHTMLSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/MHTMLSaveOptions).
 
-## **HTML to MHTML by a single line of code**
+## **HTML to MHTML by a single line of Java code**
 
 The static methods of the [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/converter) class are primarily used as the easiest way to convert an HTML code into various formats. You can convert HTML to MHTML in your Java application literally with a single line of code!
 
@@ -49,16 +49,14 @@ Converting a file to another format using the `convertHTML()` method is a sequen
 
     // Initialize an HTML document from the file
     HTMLDocument document = new HTMLDocument(documentPath);
-    try /*JAVA: was using*/
-    {;
+    try {
+        // Initialize MHTMLSaveOptions
+        MHTMLSaveOptions options = new MHTMLSaveOptions();
+
+        // Convert HTML to MHTML
+        com.aspose.html.converters.Converter.convertHTML(document, options, savePath);
     }
     finally { if (document != null) ((IDisposable)document).dispose(); }
-
-    // Initialize MHTMLSaveOptions object
-    MHTMLSaveOptions options = new MHTMLSaveOptions();
-
-    // Convert HTML to MHTML
-    com.aspose.html.converters.Converter.convertHTML(document, options, savePath);
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
@@ -77,30 +75,24 @@ Aspose.HTML allows converting HTML to MHTML using default or custom save options
     // Prepare HTML code with a link to another file and save it to the file as 'document.html'
     String code = StringExtensions.concat("<span>Hello, World!!</span> ", 
                 "<a href='document2.html'>click</a>");
+
     File.writeAllText("document.html", code);
 
     // Prepare HTML code and save it to the file as 'document2.html'
     code = "<span>Hello, World!!</span>";
-    File.writeAllText("document2.html", code);
+    File.writeAllText(getOutputDir()+"/document2.html", code);
         
     String savePath = Path.combine(getOutputDir(), "output-options.mht");
 
     // Change the value of the resource linking depth to 1 in order to convert document with directly linked resources
     MHTMLSaveOptions options = new MHTMLSaveOptions();
-    // TODO: Fix this, no set for resource handling
-//       {
-//           ResourceHandlingOptions =
-//
-//           {
-//               MaxHandlingDepth = 1
-//           }
-//       };
+    options.getResourceHandlingOptions().setMaxHandlingDepth(1);
 
     // Convert HTML to MHTML
     com.aspose.html.converters.Converter.convertHTML("document.html", options, savePath);
 {{< /highlight >}}
 
-The [MHTMLSaveOptions()](https://reference.aspose.com/html/java/com.aspose.html.saving/MHTMLSaveOptions) constructor initializes an instance of the MHTMLSaveOptions class that is passed to `convertHTML()` method. The method takes the `document`, `options`,  output file path `savePath` and performs the conversion. In the above example, we use the property `MaxHandlingDepth = 1` means that only pages directly referenced from the saved document will be handled.
+The [MHTMLSaveOptions()](https://reference.aspose.com/html/java/com.aspose.html.saving/MHTMLSaveOptions) constructor initializes an instance of the MHTMLSaveOptions class that is passed to `convertHTML()` method. The method takes the `document`, `options`,  output file path `savePath` and performs the conversion. In the above example, we use the `setMaxHandlingDepth(value)` method that sets the maximum depth of resource which will be handled.  The value = 1 means that only pages directly referenced from the saved document will be handled. Default value is 3.
 
 {{% alert color="primary" %}} 
 To learn more about [MHTMLSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/MHTMLSaveOptions) please read [Fine-Tuning Converters](/html/java/converting-between-formats/fine-tuning-converters/) article.
@@ -108,4 +100,4 @@ To learn more about [MHTMLSaveOptions](https://reference.aspose.com/html/java/co
 Aspose.HTML offers a free online [HTML to MHTML Converter](https://products.aspose.app/html/conversion/html-to-mhtml) that converts HTML to MHTML with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/html-to-mhtml" target="_blank">![Text "Banner HTML to MHTML Converter"](./../../../html-to-mhtml.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/html-to-mhtml" target="_blank">![Text "Banner HTML to MHTML Converter"](./../../../images/html-to-mhtml.png#center)</a>

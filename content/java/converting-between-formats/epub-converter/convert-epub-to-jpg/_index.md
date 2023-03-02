@@ -12,7 +12,7 @@ aliases:
 sitemap:
     changefreq: "weekly"
     priority: 0.7
-lastmod: 2023-02-28
+lastmod: 2023-03-03
 ---
 
 <link href="./../style.css" rel="stylesheet" type="text/css" />
@@ -162,4 +162,4 @@ Aspose.HTML offers a free online [**EPUB to JPG Converter**](https://products.as
 
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/epub-to-jpg" target="_blank">![Text "Banner EPUB to JPG Converter"](./../../../epub-to-jpg.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/epub-to-jpg" target="_blank">![Text "Banner EPUB to JPG Converter"](./../../../images/epub-to-jpg.png#center)</a>

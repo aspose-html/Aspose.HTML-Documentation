@@ -12,14 +12,14 @@ aliases:
 sitemap:
     changefreq: "weekly"
     priority: 0.7
-lastmod: 2023-02-28
+lastmod: 2023-03-03
 ---
 
 {{%Markdown%}} (MD) is a simple markup language that uses a plain-text-formatting syntax. It is commonly used for creating documentation and readme files due to its easy-to-read and easy-to-write format. Its design allows it to be easily converted to many output formats, but initially, it was created to convert only to HTML.  Aspose.HTML provides a class library that allows you to convert HTML to Markdown format in Java and other Java programming languages, offering a reverse conversion from HTML to Markdown.
 
 In this article, you find information on how to convert HTML to Markdown using `convertHTML()` methods of the [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/converter) class, and how to apply [MarkdownSaveOptions.](https://reference.aspose.com/html/java/com.aspose.html.saving/markdownsaveoptions)
 
-## **HTML to Markdown by a few lines of code**
+## **HTML to Markdown by a few lines of Java code**
 
 You can convert HTML to Markdown format using Java and other Java programming languages. The static methods of the [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/converter) class are primarily used as the easiest way to convert an HTML code into various formats. The following code snippet shows how to convert HTML to Markdown literally with a few lines of code!
 
@@ -34,7 +34,7 @@ You can convert HTML to Markdown format using Java and other Java programming la
     com.aspose.html.converters.Converter.convertHTML("conversion.html", new MarkdownSaveOptions(), Path.combine(getOutputDir(), "conversion.md"));
 {{< /highlight >}}
 
-## **Save Options** ## 
+## **Save Options**
 
 The [MarkdownSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/markdownsaveoptions) has a number of properties that give you control over the conversion process. The most important option is `MarkdownFeatures`. This option allows you to enable/disable the conversion of the particular element.
 

@@ -1,5 +1,5 @@
 ---
-title: Convert HTML to Image in Java
+title: Convert HTML to Image in Java - PNG, JPG, BMP, GIF, TIFF
 linktitle: Convert HTML to Image
 type: docs
 weight: 20
@@ -13,7 +13,7 @@ aliases:
 sitemap:
     changefreq: "weekly"
     priority: 0.7
-lastmod: 2023-02-28
+lastmod: 2023-03-03
 ---
 
 <link href="./../style.css" rel="stylesheet" type="text/css" />
@@ -60,10 +60,8 @@ The following Java code snippet shows how to convert HTML to JPG using Aspose.HT
 
     // Initialize an HTML document from the file
     HTMLDocument document = new HTMLDocument(documentPath);
-    try
-    {;
-    }
-    finally { if (document != null) ((com.aspose.html.internal.ms.System.IDisposable)document).dispose(); }
+    try {        }
+    finally { if (document != null) document.dispose(); }
 
     // Initialize an ImageSaveOptions instance
      ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);
@@ -71,6 +69,10 @@ The following Java code snippet shows how to convert HTML to JPG using Aspose.HT
     // Convert HTML to JPG
     com.aspose.html.converters.Converter.convertHTML(document, options, outputPath);   
 {{< /highlight >}}
+
+{{% alert color="primary" %}}
+You can download the complete examples and data files from {{%GITHUB_JAVA_EXAMPLES_LINK%}}.
+{{% /alert %}}
 
 ## **Convert HTML to PNG**
 
@@ -89,10 +91,8 @@ PNG is a popular image file format that supports lossless image compression, mak
 
     // Initialize an HTML document from the file
     HTMLDocument document = new HTMLDocument(documentPath);
-    try
-    {;
-    }
-    finally { if (document != null) ((com.aspose.html.internal.ms.System.IDisposable)document).dispose(); }
+    try {        }
+    finally { if (document != null) document.dispose(); }
 
     // Initialize an ImageSaveOptions object
     ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Png);
@@ -118,10 +118,8 @@ The following example shows how to convert HTML to BMP using Aspose.HTML for Jav
 
     // Initialize an HTML document from the file
     HTMLDocument document = new HTMLDocument(documentPath);
-    try
-    {;
-    }
-    finally { if (document != null) ((com.aspose.html.internal.ms.System.IDisposable)document).dispose(); }
+    try {        }
+    finally { if (document != null) document.dispose(); }
 
     // Initialize ImageSaveOptions 
     ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Bmp);
@@ -147,10 +145,8 @@ The following Java code snippet shows how to convert HTML to GIF using Aspose.HT
 
     // Initialize an HTML document from the file
     HTMLDocument document = new HTMLDocument(documentPath);
-    try
-    {;
-    }
-    finally { if (document != null) ((com.aspose.html.internal.ms.System.IDisposable)document).dispose(); }
+    try {        }
+    finally { if (document != null) document.dispose(); }
 
     // Initialize ImageSaveOptions 
     ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Gif);
@@ -176,10 +172,8 @@ The following Java code snippet shows how to convert HTML to TIFF using Aspose.H
 
     // Initialize an HTML document from the file
     HTMLDocument document = new HTMLDocument(documentPath);
-    try
-    {;
-    }
-    finally { if (document != null) ((com.aspose.html.internal.ms.System.IDisposable)document).dispose(); }
+    try {        }
+    finally { if (document != null) document.dispose(); }
 
     // Initialize ImageSaveOptions 
     ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Tiff);
@@ -188,7 +182,7 @@ The following Java code snippet shows how to convert HTML to TIFF using Aspose.H
     com.aspose.html.converters.Converter.convertHTML(document, options, outputPath);    
 {{< /highlight >}}
 
-## **Save Options** ## 
+## **Save Options**
 
 Aspose.HTML for Java allows converting HTML to Images using default or custom save options. [ImageSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/ImageSaveOptions) allows you to customize the rendering process. You can specify the [image format](https://reference.aspose.com/html/java/com.aspose.html.rendering.image/ImageFormat), [page size](https://reference.aspose.com/html/java/com.aspose.html.rendering/RenderingOptions#getPageSetup--), [margins](https://reference.aspose.com/html/java/com.aspose.html.drawing/Page#getMargin--), [compression level](https://reference.aspose.com/html/java/com.aspose.html.rendering.image/Compression), [CSS media-type](https://reference.aspose.com/html/java/com.aspose.html.rendering/MediaType), etc.
 
@@ -214,11 +208,9 @@ The following Java example shows how to use ImageSaveOptions and create the outp
     String savePath = Path.combine(getOutputDir(), "color-output.jpg");
 
     // Initialize an HTML document from the file
-    HTMLDocument   document = new HTMLDocument(documentPath);
-    try
-    {;
-    }
-    finally { if (document != null) ((com.aspose.html.internal.ms.System.IDisposable)document).dispose(); }
+    HTMLDocument document = new HTMLDocument(documentPath);
+    try {        }
+    finally { if (document != null) document.dispose(); }
 
     // Initialize an ImageSaveOptions object and customize save options
     ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Jpeg);    
@@ -252,7 +244,9 @@ The following example demonstrates how to implement and use a custom *MemoryStre
 {{< /highlight >}}-->
 
 {{% alert color="primary" %}}
+You can download the complete examples and data files from {{%GITHUB_JAVA_EXAMPLES_LINK%}}.
+
 Aspose.HTML offers a free online [**HTML to Image Converter**](https://products.aspose.app/html/conversion/html-to-image) that converts HTML to Images with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/html-to-jpg" target="_blank">![Text "Banner HTML to JPG Converter"](./../../../html-to-jpg.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/html-to-jpg" target="_blank">![Text "Banner HTML to JPG Converter"](./../../../images/html-to-jpg.png#center)</a>

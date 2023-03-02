@@ -70,6 +70,8 @@ Aspose.HTML for Java allows converting SVG to PDF using default or custom save o
 
 {{% alert color="primary" %}}
 Please note that you cannot set values against the **Application** and **Producer** fields, because Aspose Ltd. and Aspose.HTML for Java x.x.x will be displayed against these fields.
+
+You can download the complete examples and data files from {{%GITHUB_JAVA_EXAMPLES_LINK%}}.
 {{% /alert %}}
 
 ## **Convert SVG to PDF using PdfSaveOptions**
@@ -134,4 +136,4 @@ The following example demonstrates how to implement and use a custom *MemoryStre
 Aspose.HTML offers a free online [**SVG to PDF Converter**](https://products.aspose.app/svg/conversion/svg-to-pdf) that converts SVG to PDF with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/svg/conversion/svg-to-pdf" target="_blank">![Text "Banner SVG to PDF Converter"](./../../../svg-to-pdf.png#center)</a>
+<a href="https://products.aspose.app/svg/conversion/svg-to-pdf" target="_blank">![Text "Banner SVG to PDF Converter"](./../../../images/svg-to-pdf.png#center)</a>

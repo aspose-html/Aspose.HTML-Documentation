@@ -12,6 +12,8 @@ sitemap:
     priority: 0.7
 ---
 
+<link href="./../style.css" rel="stylesheet" type="text/css" />
+
 Welcome to the "Converting between Formats" guides. The articles in this section provide information on the list of supported conversion scenarios and how to perform them by using a [Converter](https://reference.aspose.com/html/java/com.aspose.html/package-frame) class that is group all low-level conversion operation in a single class to make it comfy and easy to use.
 
 The following conversion scenarios are supported:
@@ -34,32 +36,30 @@ In **EPUB Converter** guides, you learn how to convert an {{%EPUB%}} file into v
 * [EPUB to PDF](/html/java/convert-epub-to-pdf/) - You will find information how convert an EPUB document into Portable Document Format ({{%PDF%}}) file format.
 * [EPUB to JPG](/html/java/convert-epub-to-jpg/) -  In this article, you will learn how convert an EPUB document into image file formats, such as {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, and {{%GIF%}}, and consider various EPUB to JPG conversion scenarios in Java code.
 * [EPUB to PNG](/html/java/convert-epub-to-png/) - In this guide, you will consider various EPUB to PNG conversion scenarios in Java examples.
-* [EPUB to XPS](/html/java/converting-between-formats/epub-to-xps-conversion/) - You will learn how convert an EPUB document into XML Paper Specification ({{%XPS%}}) file format using Aspose.HTML for Java library.
+* [EPUB to XPS](/html/java/convert-epub-to-xps/) - You will learn how convert an EPUB document into XML Paper Specification ({{%XPS%}}) file format using Aspose.HTML for Java library.
 
 ## **MHTML Converter**
 
 In **MHTML Converter** guides, you learn how to convert an {{%MHTML%}} file into various formats.
 
+* [MHTML to PDF](/html/java/convert-mhtml-to-pdf/) - In this guide, you will find information how convert an MHTML document into Portable Document Format ({{%PDF%}}) file format.
 * [MHTML to JPG](/html/java/convert-mhtml-to-jpg/) - In this guide, you will find information how convert an MHTML document into image file formats, such as {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, etc.
 * [MHTML to PNG](/html/java/convert-mhtml-to-png/) - In this guide, you will find information how convert an MHTML document into image file formats, such as {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, etc.
-* [MHTML to PDF](/html/java/converting-between-formats/mhtml-to-pdf-conversion/) - In this guide, you will find information how convert an MHTML document into Portable Document Format ({{%PDF%}}) file format.
-* [MHTML to XPS](/html/java/converting-between-formats/mhtml-to-xps-conversion/) - In this guide, you will find information how convert an MHTML document into {{%XML%}} Paper Specification ({{%XPS%}}) file format.
+* [MHTML to XPS](/html/java/convert-mhtml-to-xps/) - In this guide, you will find information how convert an MHTML document into {{%XML%}} Paper Specification ({{%XPS%}}) file format.
 
 ## **Markdown Converter**
 
 * [Markdown to HTML](/html/java/convert-markdown-to-html/) - In this guide, you will find information how convert {{%Markdown%}} format into an HTML document.
+* [Markdown to PDF](/html/java/convert-markdown-to-pdf/) - In this guide, you will find information how convert an Markdown document into Portable Document Format ({{%PDF%}}) file format.
+* [Markdown to Image](/html/java/convert-markdown-to-image/) - In this guide, you will find information how convert Markdown to Images like JPG, PNG, BMP, GIF, TIFF, etc.
 
 ## **SVG Converter**
 
 In **SVG Converter** guides, you learn how to convert an [SVG document](https://reference.aspose.com/html/java/com.aspose.html.dom.svg/SVGDocument) into various formats.
 
-* [SVG to Image](/html/java/converting-between-formats/svg-to-image-conversion/)
-  In this guide, you will find information how convert an SVG document into image file formats, such as {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, etc.
-* [SVG to PDF](/html/java/converting-between-formats/svg-to-pdf-conversion/)
-  In this guide, you will find information how convert an SVG document into Portable Document Format ({{%PDF%}}) file format.
-* [SVG to XPS ](/html/java/converting-between-formats/svg-to-xps-conversion/)
-  In this guide, you will find information how convert an SVG document into XML Paper Specification ({{%XPS%}}) file format.
-
+* [SVG to PNG](/html/java/convert-svg-to-png/) - In this guide, you will find information how convert an SVG document into image file formats, such as {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, etc.
+* [SVG to PDF](/html/java/convert-svg-to-pdf/) - In this guide, you will find information how convert an SVG document into Portable Document Format ({{%PDF%}}) file format.
+* [SVG to XPS ](/html/java/convert-svg-to-xps/) - In this guide, you will find information how convert an SVG document into XML Paper Specification ({{%XPS%}}) file format.
 
 ## **Template Converter**
 
@@ -68,3 +68,9 @@ In **SVG Converter** guides, you learn how to convert an [SVG document](https://
 ## **Fine-Tuning Converters**
 
 In [Fine-Tuning Converters](/html/java/converting-between-formats/fine-tuning-converters/) section, you will find information on how to use different rendering options and parameters to customize the rendering result.
+
+{{% alert color="primary" %}}
+Aspose.HTML offers a free online [**Converters**](https://products.aspose.app/html/conversion) for converting HTML, XHTML, MHTML, EPUB, XML and Markdown files to a variety of popular formats. Just select a file, choose the format to convert, and you’re done. It’s fast and completely free!
+{{% /alert %}}
+
+<a href="https://products.aspose.app/html/conversion/mhtml-to-xps" target="_blank">![Text "Banner MHTML to XPS Converter"](./../../../images/converters.png#center)</a>

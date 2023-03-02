@@ -116,4 +116,4 @@ The following Java example shows how to use [PdfSaveOptions](https://reference.a
 Aspose.HTML offers a free online [**Markdown to PDF Converter**](https://products.aspose.app/html/conversion/md-to-pdf) that converts Markdown to PDF with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/md-to-pdf" target="_blank">![Text "Banner Markdown to PDF Converter"](./../../../markdown-to-pdf.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/md-to-pdf" target="_blank">![Text "Banner Markdown to PDF Converter"](./../../../images/md-to-pdf.png#center)</a>

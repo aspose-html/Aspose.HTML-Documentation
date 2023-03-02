@@ -12,7 +12,7 @@ aliases:
 sitemap:
     changefreq: "weekly"
     priority: 0.7
-lastmod: 2023-02-28
+lastmod: 2023-03-03
 ---
 
 <link href="./../style.css" rel="stylesheet" type="text/css" />
@@ -21,7 +21,7 @@ XPS is a document format created by Microsoft that offers several benefits, incl
 
 In this article, you will find information on how to convert {{%HTML%}} to {{%XPS%}} using Aspose.HTML for Java library and how to apply [XpsSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/xpssaveoptions) and [MemoryStreamProvider](https://reference.aspose.com/html/java/com.aspose.html/package-frame) parameters.
 
-## **HTML to XPS by a single line of code**
+## **HTML to XPS by a single line of Java code**
 
 The static methods of the [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/converter) class are primarily used as the easiest way to convert an HTML code into various formats. You can convert HTML to {{%XPS%}} in your Java application literally with a single line of code!
 
@@ -51,10 +51,8 @@ Please take a look over the following Java code snippet which shows the process 
 
     // Initialize an HTML document from the file
     HTMLDocument document = new HTMLDocument(documentPath);
-    try /*JAVA: was using*/
-    {;
-    }
-    finally { if (document != null) ((com.aspose.html.internal.ms.System.IDisposable)document).dispose(); }
+    try {        }
+    finally { if (document != null) document.dispose(); }
 
     // Initialize XpsSaveOptions 
     XpsSaveOptions options = new XpsSaveOptions();
@@ -101,12 +99,10 @@ The following example shows how to use [XpsSaveOptions](https://reference.aspose
 
     com.aspose.html.internal.ms.System.IO.File.writeAllText(documentPath, code);
 
-    // Initialize an HTML Document from the html file
-    HTMLDocument   document = new HTMLDocument(documentPath);
-    try /*JAVA: was using*/
-    {;
-    }
-    finally { if (document != null) ((com.aspose.html.internal.ms.System.IDisposable)document).dispose(); }
+    // Initialize an HTML document from the file
+    HTMLDocument document = new HTMLDocument(documentPath);
+    try {        }
+    finally { if (document != null) document.dispose(); }
         
     // Set up the page-size, margins and change the background color to AntiqueWhite
      XpsSaveOptions options = new XpsSaveOptions();
@@ -137,7 +133,8 @@ The example below shows how to implement and use your own `MemoryStreamProvider`
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from {{%GITHUB_JAVA_EXAMPLES_LINK%}}.
 
-Aspose.HTML offers a free online [**HTML to XPS Converter**](https://products.aspose.app/html/conversion/html-to-xps) that converts HTML to XPS with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Check the quality of HTML to XPS conversion with our online [**HTML to XPS Converter.**](https://products.aspose.app/html/conversion/html-to-xps) Upload, convert your files and get the result in a few seconds. Try our forceful HTML to XPS Converter for free now!
+
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/html-to-xps" target="_blank">![Text "Banner HTML to XPS Converter"](./../../../html-to-xps.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/html-to-xps" target="_blank">![Text "Banner HTML to XPS Converter"](./../../../images/html-to-xps.png#center)</a>

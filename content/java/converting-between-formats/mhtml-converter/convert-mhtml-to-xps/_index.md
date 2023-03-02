@@ -133,10 +133,10 @@ The following example demonstrates how to implement and use a custom *MemoryStre
 
 {{< /highlight >}}-->
 
-{{% alert color="primary" %}} 
+{{% alert color="primary" %}}
 You can download the complete examples and data files from {{%GITHUB_JAVA_EXAMPLES_LINK%}}.
 
 Aspose.HTML offers a free online [**MHTML to XPS Converter**](https://products.aspose.app/html/conversion/mhtml-to-xps) that converts MHTML to XPS with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/mhtml-to-xps" target="_blank">![Text "Banner MHTML to XPS Converter"](./../../../mhtml-to-xps.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/mhtml-to-xps" target="_blank">![Text "Banner MHTML to XPS Converter"](./../../../images/mhtml-to-xps.png#center)</a>

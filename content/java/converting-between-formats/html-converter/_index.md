@@ -9,7 +9,7 @@ url: /java/html-converter/
 sitemap:
     changefreq: "weekly"
     priority: 0.7
-lastmod: 2023-02-28
+lastmod: 2023-03-03
 ---
 
 {{%HTML%}} is the standard language used to create documents for display in web browsers. As the web language, HTML has continuously evolved to meet the changing demands of displaying new types of information on web pages. HTML documents are the foundation of the World Wide Web and are used to create virtually all the content you see online. Converting HTML to other formats can be helpful in many ways. For example, by converting HTML to PDF, you can view content on a broader range of devices and platforms, make it easier to print the content while preserving the original formatting, or provide a way to keep the content for future reference.
@@ -38,13 +38,11 @@ Please take a look over the following Java code snippet that shows the HTML to P
 
     // Prepare a path for converted file saving 
     String savePath = Path.combine(getOutputDir(), "nature-output.png");
-
-    // Initialize an HTML document from the file
-    HTMLDocument document = new HTMLDocument(documentPath);
-    try /*JAVA: was using*/
-    {;
-    }
-    finally { if (document != null) ((com.aspose.html.internal.ms.System.IDisposable)document).dispose(); }
+    
+	// Initialize an HTML Document from the html file
+    HTMLDocument   document = new HTMLDocument(documentPath);
+    try {        }
+    finally { if (document != null) document.dispose(); }
 
     // Initialize ImageSaveOptions 
     ImageSaveOptions options = new ImageSaveOptions(ImageFormat.Png);
@@ -64,7 +62,7 @@ Please take a look over the following Java code snippet that shows the HTML to P
 		<ul>
 			<li><a href="/html/java/convert-html-to-pdf/">Convert HTML to PDF</a></li>
 			<li><a href="/html/java/convert-html-to-pdf/#convert-html-to-pdf-in-java-using-pdfsaveoptions">Convert HTML to PDF using PdfSaveOptions</a></li>
-			<li><a href="/html/java/convert-html-to-pdf/#output-stream-providers">Convert HTML to PDF using MemoryStreamProvider</a></li>
+			<li><a href="/html/java/convert-html-to-pdf/">Convert HTML to PDF using MemoryStreamProvider</a></li>
 			<li><a href="/html/java/convert-html-to-xps/">Convert HTML to XPS</a></li>					
 		</ul>
 	</div>
@@ -73,7 +71,7 @@ Please take a look over the following Java code snippet that shows the HTML to P
 		<ul>
 			<li><a href="/html/java/convert-html-to-docx/">Convert HTML to DOCX</a></li>
 			<li><a href="/html/java/convert-html-to-docx/#convert-html-to-docx-using-docsaveoptions">Convert HTML to DOCX using DocSaveOptions</a></li>
-			<li><a href="/html/java/convert-html-to-docx/#output-stream-providers">Convert HTML to DOCX using MemoryStreamProvider</a></li>
+			<li><a href="/html/java/convert-html-to-docx/">Convert HTML to DOCX using MemoryStreamProvider</a></li>
 	</div>
 	<div class="col-md-3">
 		<h3>Convert HTML to Image</h3>	

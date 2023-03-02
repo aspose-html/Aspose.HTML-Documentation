@@ -33,11 +33,9 @@ The static methods of the [Converter](https://reference.aspose.com/html/java/com
 
 {{< highlight java >}}
     // Open an existing EPUB file for reading
-    final  com.aspose.html.internal.ms.System.IO.FileStream stream = com.aspose.html.internal.ms.System.IO.File.openRead(StringExtensions.concat(getDataDir(),  "input.epub"));
-    try
-    {;
-    }
-    finally { if (stream != null) stream.dispose(); }
+    final  FileStream stream = File.openRead(StringExtensions.concat(getDataDir(),  "input.epub"));
+    try {        }
+    finally { if (stream != null) ((IDisposable)stream).dispose(); }
 
     // Convert EPUB to PNG           
     com.aspose.html.converters.Converter.convertEPUB(stream, new ImageSaveOptions(), Path.combine(getOutputDir(), "convert-by-few-lines.png"));   
@@ -152,4 +150,4 @@ The following example demonstrates how to implement and use a custom *MemoryStre
 Aspose.HTML offers a free online [**EPUB to PNG Converter**](https://products.aspose.app/html/conversion/epub-to-png) that converts EPUB to PNG with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/epub-to-png" target="_blank">![Text "Banner EPUB to PNG Converter"](./../../../epub-to-png.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/epub-to-png" target="_blank">![Text "Banner EPUB to PNG Converter"](./../../../images/epub-to-png.png#center)</a>

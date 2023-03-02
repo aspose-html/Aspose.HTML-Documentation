@@ -15,6 +15,8 @@ aliases:
   - /java/converting-between-formats/markdown-to-html-conversion/
 ---
 
+<link href="./../style.css" rel="stylesheet" type="text/css" />
+
 {{%Markdown%}} is a markup language with a plain-text-formatting syntax. Markdown is often used as a format for documentation and readme files since it allows writing in an easy-to-read and easy-to-write style. Its design allows it to be easily converted to many output formats, but initially it was created to convert the only to HTML. 
 
 This article provides information on how to convert Markdown to HTML using the Aspose.HTML for Java library. In addition, you will consider Java examples to illustrate conversion scenarios.
@@ -56,6 +58,12 @@ Let's look at another Java example. You can prepare Markdown source code from sc
    // Convert Markdown to HTML
    com.aspose.html.converters.Converter.convertMarkdown(sourcePath, outputPath);
 {{< /highlight >}}
+
+{{% alert color="primary" %}}
+Aspose.HTML offers a free online [**Markdown to HTML Converter**](https://products.aspose.app/html/conversion/md-to-html) that converts Markdown to HTML with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
+{{% /alert %}}
+
+<a href="https://products.aspose.app/html/conversion/md-to-html" target="_blank">![Text "Banner Markdown to HTML Converter"](./../../../images/md-to-html.png#center)</a>
 
 ## **Markdown Syntax**
 
@@ -176,6 +184,4 @@ Tables aren’t part of the core Markdown spec, but they are part of GFM:
 
 {{% alert color="primary" %}} 
 You can download the complete examples and data files from {{%GITHUB_JAVA_EXAMPLES_LINK%}}.
-
-Aspose.HTML offers a free online [**Markdown to HTML Converter**](https://products.aspose.app/html/conversion/md-to-html) that converts Markdown to HTML with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}

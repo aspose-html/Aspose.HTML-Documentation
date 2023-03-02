@@ -28,9 +28,7 @@ The static methods of the [Converter](https://reference.aspose.com/html/java/com
 {{< highlight java >}}
     // Open an existing EPUB file for reading
     final  FileStream stream = File.openRead(StringExtensions.concat(getDataDir(),  "input.epub"));
-    try
-    {;
-    }
+    try {        }
     finally { if (stream != null) ((IDisposable)stream).dispose(); }
 
     // Invoke the convertEPUB() method           
@@ -50,9 +48,7 @@ The following Java code snippet shows how to convert EPUB to PDF using Aspose.HT
 {{< highlight java >}}
     // Open an existing EPUB file for reading
     final  FileStream stream = File.openRead(StringExtensions.concat(getDataDir(),  "input.epub"));
-    try
-    {;
-    }
+    try {        }
     finally { if (stream != null) ((IDisposable)stream).dispose(); }
 
     // Prepare a path to save the converted file 
@@ -102,9 +98,7 @@ The following example shows how to use PdfSaveOptions and create a PDF file with
 {{< highlight java >}}
     // Open an existing EPUB file for reading
     final  FileStream stream = File.openRead(StringExtensions.concat(getDataDir(),  "input.epub"));
-    try
-    {;
-    }
+    try {        }
     finally { if (stream != null) ((IDisposable)stream).dispose(); }
 
     // Prepare a path to save the converted file 
@@ -143,7 +137,7 @@ The following example demonstrates how to implement and use a custom *MemoryStre
 -->
 
 {{% alert color="primary" %}}
-Aspose.HTML offers a free online [**EPUB to PDF Converter**](https://products.aspose.app/html/conversion/epub-to-pdf) that converts EPUB to PDF with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
+Check the quality of EPUB to PDF conversion with our online [**EPUB to PDF Converter.**](https://products.aspose.app/html/conversion/epub-to-pdf) Upload, convert your files and get the result in a few seconds. Try our forceful EPUB to PDF Converter for free now!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/epub-to-pdf" target="_blank">![Text "Banner EPUB to PDF Converter"](./../../../epub-to-pdf.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/epub-to-pdf" target="_blank">![Text "Banner EPUB to PDF Converter"](./../../../images/epub-to-pdf.png#center)</a>

@@ -9,7 +9,7 @@ url: /java/convert-html-to-docx/
 sitemap:
     changefreq: "weekly"
     priority: 0.7
-lastmod: 2023-02-28
+lastmod: 2023-03-03
 ---
 
 <link href="./../style.css" rel="stylesheet" type="text/css" />
@@ -18,7 +18,7 @@ A DOCX file is a Microsoft Word document that typically contains text but can co
 
 In this article, you find information on how to convert an HTML document into a ({{%DOCX%}}) file format using convertHTML() methods of the [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/converter) class, and how to apply DocSaveOptions and [ICreateStreamProvider](https://reference.aspose.com/html/java/com.aspose.html.io/ICreateStreamProvider) parameters.
 
-## **HTML to DOCX by a single line of code**
+## **HTML to DOCX by a single line of Java code**
 
 HTML to DOCX conversion is a highly sought-after feature, and Aspose.HTML for Java offers an easy solution. Through static methods in the Converter class, users can convert an HTML document into a DOCX file with just a single line of code!
 
@@ -32,7 +32,7 @@ HTML to DOCX conversion is a highly sought-after feature, and Aspose.HTML for Ja
 Let's walk through the step-by-step instructions for a simple HTML to DOCX conversion scenario:
 
 1. Load an HTML file using one of HTMLDocument() constructors of the [HTMLDocument](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument) class. You can load HTML from a file, HTML code, stream, or URL (see the [Creating an HTML Document](/html/java/working-with-documents/creating-a-document/) article). In the example we use `HTMLDocument(address)` constructor that initializes an HTML document from a file. 
-1. Create a new DocSaveOptions object. 
+1. Create a new `DocSaveOptions` object. 
 1. Use the `сonvertHTML(document, options, savePath)` method of the [Converter](https://reference.aspose.com/html/java/com.aspose.html.converters/Converter) class to save HTML as a DOCX file.
 
 Please review the following Java code snippet, which shows the HTML to DOCX conversion process with step-by-step instructions:
@@ -119,4 +119,4 @@ You can download the complete examples and data files from {{%GITHUB_JAVA_EXAMPL
 Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-docx" target="_blank">**HTML to DOCX Converter**</a> that converts HTML to DOCX with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/html-to-docx" target="_blank">![Text "Banner HTML to DOCX Converter"](./../../../html-to-docx.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/html-to-docx" target="_blank">![Text "Banner HTML to DOCX Converter"](./../../../images/html-to-docx.png#center)</a>
