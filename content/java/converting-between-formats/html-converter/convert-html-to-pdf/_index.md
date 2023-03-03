@@ -1,14 +1,14 @@
 ---
 title: Convert HTML to PDF Using Java
 linktitle: Convert HTML to PDF
-type: docs
-weight: 10
 keywords: html to pdf, convert html to pdf java, convert html to pdf, html to pdf conversion, html to pdf converter, save options, stream provider, java code
 description: Convert HTML to PDF in Java using Aspose.HTML API. Consider various HTML to PDF conversion scenarios in Java code.
+type: docs
+weight: 10
 url: /java/convert-html-to-pdf/
 aliases: 
   - /java/html-to-pdf-conversion/
-  - /java/converting-between-formats/html-to-pdf-conversion/
+  - /java/converting-between-formats/html-to-pdf-conversion/ 
 sitemap:
     changefreq: "weekly"
     priority: 0.7
