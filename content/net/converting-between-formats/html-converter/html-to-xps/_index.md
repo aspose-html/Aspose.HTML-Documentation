@@ -248,10 +248,10 @@ using Aspose.Html.Saving;
 
 You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
 
-Aspose.HTML offers a free online <a href="https://products.aspose.app/html/en/conversion/html-to-xps" target="_blank">**HTML to XPS Converter**</a> that converts HTML to XPS with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
+Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-xps" target="_blank">**HTML to XPS Converter**</a> that converts HTML to XPS with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 
 {{% /alert %}}
-<a href="https://products.aspose.app/html/en/conversion/html-to-xps" target="_blank">![Text "Banner HTML to XPS Converter"](html-to-xps.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/html-to-xps" target="_blank">![Text "Banner HTML to XPS Converter"](html-to-xps.png#center)</a>
 
 
 

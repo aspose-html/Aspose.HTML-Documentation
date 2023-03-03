@@ -93,7 +93,7 @@ To convert HTML to Markdown with Markdown SaveOptions specifying, you should fol
 
 1. Load an HTML file using one of the HTMLDocument() constructors of the HTMLDocument class. 
 1. Create a new [MarkdownSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/markdownsaveoptions/) object.
-1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/converthtml/) method of the Converter class to save HTML as a Markdown file. You need to pass the HTMLDocument, MarkdownSaveOptions, and output file path to the ConvertHTML() method to convert HTML to Markdown .
+1. Use the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/converthtml/) method of the Converter class to save HTML as a Markdown file. You need to pass the HTMLDocument, MarkdownSaveOptions, and output file path to the ConvertHTML() method to convert HTML to Markdown.
 
 The following example shows how to process only links and paragraphs, other HTML elements remain as is:
 
@@ -105,7 +105,7 @@ using Aspose.Html.Saving;
     // Prepare a path for converted file saving 
     string savePath = Path.Combine(OutputDir, "options-output.md");
 
-    // Prepare HTML code and save it to the file
+    // Prepare HTML code and save it to a file
     var code = "<h1>Header 1</h1>" +
                "<h2>Header 2</h2>" +
                "<p>Hello, World!!</p>" +
@@ -117,7 +117,7 @@ using Aspose.Html.Saving;
     var options = new MarkdownSaveOptions();
     options.Features = MarkdownFeatures.Link | MarkdownFeatures.AutomaticParagraph;
     
-    // Call the ConvertHTML method to convert HTML to Markdown.
+    // Call the ConvertHTML() method to convert HTML to Markdown
     Converter.ConvertHTML(Path.Combine(OutputDir, "options.html"), options, savePath);
 {{< /highlight >}}
 

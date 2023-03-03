@@ -38,7 +38,7 @@ Sometimes you need to get the total time taken for a Web request to flow through
 [Authentication](/html/net/message-handlers/authentication/) - In this article, you find a simple example of how to create a custom message handler for a Web request with password-based authentication schemes such as basic, digest, NTLM, and Kerberos. 
 
 {{% alert color="primary" %}} 
-Aspose.HTML offers a free online [**ZIP Converter**](https://products.aspose.app/html/en/conversion/zip) for converting ZIP files to a variety of popular formats. You can easily convert [ZIP to PDF](https://products.aspose.app/html/en/conversion/zip-to-pdf), ZIP to XPS,  [ZIP to JPG](https://products.aspose.app/html/en/conversion/zip-to-jpg), ZIP to DOCX, [ZIP to PNG](https://products.aspose.app/html/en/conversion/zip-to-png), ZIP to BMP, ZIP to TIFF, ZIP to GIF, ZIP to MD and ZIP to MHTML. Just select the file, choose the format to convert, and you’re done. It’s fast and completely free!
+Aspose.HTML offers a free online [**ZIP Converter**](https://products.aspose.app/html/conversion/zip) for converting ZIP files to a variety of popular formats. You can easily convert [ZIP to PDF](https://products.aspose.app/html/conversion/zip-to-pdf), ZIP to XPS,  [ZIP to JPG](https://products.aspose.app/html/conversion/zip-to-jpg), ZIP to DOCX, [ZIP to PNG](https://products.aspose.app/html/conversion/zip-to-png), ZIP to BMP, ZIP to TIFF, ZIP to GIF, ZIP to MD and ZIP to MHTML. Just select the file, choose the format to convert, and you’re done. It’s fast and completely free!
 {{% /alert %}}
 
 

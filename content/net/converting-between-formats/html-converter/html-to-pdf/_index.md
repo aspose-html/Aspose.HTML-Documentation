@@ -1,9 +1,9 @@
 ---
 keywords: html to pdf, convert html to pdf c#, online html converter, convert html to pdf, html to pdf conversion, html to pdf
   converter, save options, stream provider, c# code
-lastmod: 2022-07-28
+lastmod: 2023-02-28
 url: /net/converting-between-formats/html-to-pdf/
-title: Convert HTML to PDF | C# Examples and Online Converter
+title: Convert HTML to PDF - C# Examples and Online Converter
 linktitle: Convert HTML to PDF
 description: Convert HTML to PDF in C# using Aspose.HTML API. Consider various HTML to PDF conversion scenarios in C# examples. Try online HTML Converter.
 weight: 10
@@ -60,7 +60,7 @@ using System.IO;
 using Aspose.Html.Converters;
 using Aspose.Html.Saving;
 ...
-     // Invoke the ConvertHTML method to convert the HTML code to PDF           
+     // Invoke ConvertHTML() method to convert the HTML code to PDF file          
      Converter.ConvertHTML(@"<h1>Convert HTML to PDF!</h1>", ".", new PdfSaveOptions(), Path.Combine(OutputDir, "convert-with-single-line.pdf"));
 {{< /highlight >}}
 
