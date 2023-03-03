@@ -137,4 +137,4 @@ Check the quality of HTML to XPS conversion with our online [**HTML to XPS Conve
 
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/html-to-xps" target="_blank">![Text "Banner HTML to XPS Converter"](./../../../images/html-to-xps.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/html-to-xps" target="_blank">![Text "Banner HTML to XPS Converter"](./../../images/html-to-xps.png#center)</a>

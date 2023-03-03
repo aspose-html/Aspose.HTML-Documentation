@@ -1,5 +1,5 @@
 ---
-title: MHTML to XPS Conversion
+title: Convert MHTML to XPS in Java
 linktitle: Convert MHTML to XPS
 type: docs
 weight: 40
@@ -139,4 +139,4 @@ You can download the complete examples and data files from {{%GITHUB_JAVA_EXAMPL
 Aspose.HTML offers a free online [**MHTML to XPS Converter**](https://products.aspose.app/html/conversion/mhtml-to-xps) that converts MHTML to XPS with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/mhtml-to-xps" target="_blank">![Text "Banner MHTML to XPS Converter"](./../../../images/mhtml-to-xps.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/mhtml-to-xps" target="_blank">![Text "Banner MHTML to XPS Converter"](./../../images/mhtml-to-xps.png#center)</a>

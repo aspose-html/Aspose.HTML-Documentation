@@ -119,4 +119,4 @@ You can download the complete examples and data files from {{%GITHUB_JAVA_EXAMPL
 Aspose.HTML offers a free online <a href="https://products.aspose.app/html/conversion/html-to-docx" target="_blank">**HTML to DOCX Converter**</a> that converts HTML to DOCX with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/html-to-docx" target="_blank">![Text "Banner HTML to DOCX Converter"](./../../../images/html-to-docx.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/html-to-docx" target="_blank">![Text "Banner HTML to DOCX Converter"](./../../images/html-to-docx.png#center)</a>

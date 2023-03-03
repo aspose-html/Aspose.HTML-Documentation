@@ -162,4 +162,4 @@ Aspose.HTML offers a free online [**EPUB to JPG Converter**](https://products.as
 
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/epub-to-jpg" target="_blank">![Text "Banner EPUB to JPG Converter"](./../../../images/epub-to-jpg.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/epub-to-jpg" target="_blank">![Text "Banner EPUB to JPG Converter"](./../../images/epub-to-jpg.png#center)</a>

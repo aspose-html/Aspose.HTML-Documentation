@@ -249,4 +249,4 @@ You can download the complete examples and data files from {{%GITHUB_JAVA_EXAMPL
 Aspose.HTML offers a free online [**HTML to Image Converter**](https://products.aspose.app/html/conversion/html-to-image) that converts HTML to Images with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/html-to-jpg" target="_blank">![Text "Banner HTML to JPG Converter"](./../../../images/html-to-jpg.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/html-to-jpg" target="_blank">![Text "Banner HTML to JPG Converter"](./../../images/html-to-jpg.png#center)</a>
