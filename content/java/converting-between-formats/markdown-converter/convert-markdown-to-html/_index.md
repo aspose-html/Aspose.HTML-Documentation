@@ -63,7 +63,7 @@ Let's look at another Java example. You can prepare Markdown source code from sc
 Aspose.HTML offers a free online [**Markdown to HTML Converter**](https://products.aspose.app/html/conversion/md-to-html) that converts Markdown to HTML with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/md-to-html" target="_blank">![Text "Banner Markdown to HTML Converter"](./../../../images/md-to-html.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/md-to-html" target="_blank">![Text "Banner Markdown to HTML Converter"](./../../images/md-to-html.png#center)</a>
 
 ## **Markdown Syntax**
 

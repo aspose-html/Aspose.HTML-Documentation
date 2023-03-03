@@ -100,4 +100,4 @@ To learn more about [MHTMLSaveOptions](https://reference.aspose.com/html/java/co
 Aspose.HTML offers a free online [HTML to MHTML Converter](https://products.aspose.app/html/conversion/html-to-mhtml) that converts HTML to MHTML with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/html-to-mhtml" target="_blank">![Text "Banner HTML to MHTML Converter"](./../../../images/html-to-mhtml.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/html-to-mhtml" target="_blank">![Text "Banner HTML to MHTML Converter"](./../../images/html-to-mhtml.png#center)</a>

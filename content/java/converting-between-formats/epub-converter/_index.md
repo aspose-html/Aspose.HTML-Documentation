@@ -9,7 +9,7 @@ url: /java/epub-converter/
 sitemap:
     changefreq: "weekly"
     priority: 0.7
-lastmod: 2023-02-28
+lastmod: 2023-03-03
 ---
 
 {{%EPUB %}} is an open-source e-book file format that is the standard digital publishing format. EPUB file standards are maintained by the International Digital Publishing Forum (IDPF). EPUB is supported by many e-readers and devices, including smartphones, tablets, and computers, making it a widely accepted format. An EPUB file is a collection of files, including HTML, CSS, and multimedia content, packaged together in a ZIP archive. 

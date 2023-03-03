@@ -150,4 +150,4 @@ The following example demonstrates how to implement and use a custom *MemoryStre
 Aspose.HTML offers a free online [**EPUB to PNG Converter**](https://products.aspose.app/html/conversion/epub-to-png) that converts EPUB to PNG with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/epub-to-png" target="_blank">![Text "Banner EPUB to PNG Converter"](./../../../images/epub-to-png.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/epub-to-png" target="_blank">![Text "Banner EPUB to PNG Converter"](./../../images/epub-to-png.png#center)</a>

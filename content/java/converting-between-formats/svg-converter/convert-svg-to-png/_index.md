@@ -141,4 +141,4 @@ The following example demonstrates how to implement and use a custom *MemoryStre
 Aspose.HTML offers a free online [**SVG to PNG Converter**](https://products.aspose.app/svg/conversion/svg-to-png) that converts SVG to PNG with high quality, easy and fast. This tool helps you create high-quality images and graphics that are compatible with a wide range of platforms and devices. So why not try? Just upload, convert your files and get the result in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/svg/conversion/svg-to-png" target="_blank">![Text "Banner SVG to PNG Converter"](./../../../images/svg-to-png.png#center)</a>
+<a href="https://products.aspose.app/svg/conversion/svg-to-png" target="_blank">![Text "Banner SVG to PNG Converter"](./../../images/svg-to-png.png#center)</a>

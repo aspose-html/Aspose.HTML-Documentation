@@ -136,4 +136,4 @@ The following example demonstrates how to implement and use a custom *MemoryStre
 Aspose.HTML offers a free online [**SVG to PDF Converter**](https://products.aspose.app/svg/conversion/svg-to-pdf) that converts SVG to PDF with high quality, easy and fast. Just upload, convert your files and get the result in a few seconds!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/svg/conversion/svg-to-pdf" target="_blank">![Text "Banner SVG to PDF Converter"](./../../../images/svg-to-pdf.png#center)</a>
+<a href="https://products.aspose.app/svg/conversion/svg-to-pdf" target="_blank">![Text "Banner SVG to PDF Converter"](./../../images/svg-to-pdf.png#center)</a>

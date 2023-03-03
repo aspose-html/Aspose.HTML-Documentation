@@ -140,4 +140,4 @@ The following example demonstrates how to implement and use a custom *MemoryStre
 Check the quality of EPUB to PDF conversion with our online [**EPUB to PDF Converter.**](https://products.aspose.app/html/conversion/epub-to-pdf) Upload, convert your files and get the result in a few seconds. Try our forceful EPUB to PDF Converter for free now!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/epub-to-pdf" target="_blank">![Text "Banner EPUB to PDF Converter"](./../../../images/epub-to-pdf.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/epub-to-pdf" target="_blank">![Text "Banner EPUB to PDF Converter"](./../../images/epub-to-pdf.png#center)</a>
