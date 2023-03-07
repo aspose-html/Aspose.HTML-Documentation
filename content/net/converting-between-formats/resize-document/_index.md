@@ -1,7 +1,7 @@
 ---
 title: How to Resize Document During Conversion from HTML? - C#
 linktitle: How to Resize Document
-keywords: resize document, how to resize document, render html, rendering html, fit size, crop html, c# render html, fit document, crop document, rendering device, rendering options
+keywords: resize document, how to resize document, render html, rendering html, fit size, crop html, fit document, fit page, crop document, rendering device, rendering options, page size
 description: Learn how to use rendering options to resize document pages to the size of the content and vice versa.
 weight: 190
 type: docs
@@ -15,20 +15,26 @@ In today's world, most documents are in A4 format, but sometimes content rendere
 
 ## **How to Resize Document Using Aspose.HTML**
 
-The [Aspose.Html.Rendering](https://reference.aspose.com/html/net/aspose.html.rendering/) namespace provides a powerful set of tools such as low-level options classes, interfaces, structures, and enumerations for rendering HTML, MHTML, EPUB and SVG documents to different output formats such as PDF, XPS, DOCX, and images. 
+The [Aspose.Html.Rendering](https://reference.aspose.com/html/net/aspose.html.rendering/) namespace provides a powerful set of tools such as low-level options classes, interfaces, structures, and enumerations for rendering HTML, MHTML, EPUB, and SVG documents to different output formats such as PDF, XPS, DOCX, and images. The [PageSize](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/pagesetup/) class of provides a way to specify the width, height, and orientation of the pages when rendering HTML documents to output formats. But sometimes, you may need to crop documents to create a smaller page size that fits the page's content size. This means the outer margins, borders, or empty space will be removed. 
 
-The [PageSize](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/pagesetup/) class of the Aspose.Html.Rendering namespace provides a way to specify the width, height, and orientation of the pages when rendering HTML documents to output formats such as PDF, XPS, DOCX, and images.
+The Aspose.HTML for .NET library allows you to adjust the page size to the content and vice versa using the [PageLayoutOptions](https://reference.aspose.com/html/net/aspose.html.rendering/pagesetup/pagelayoutoptions/) property of the [PageSetup](https://reference.aspose.com/html/net/aspose.html.rendering/pagesetup/) object. This property is a set of bit flags that control the behavior of the renderer.
 
-### **What is the difference between cropping and resizing a document?**
+{{% alert color="primary" %}}
+You can easily use C# examples of converting HTML to Images with a custom page layout to convert HTML to PDF, XPS, and DOCX. The only differences are in specifying 
+ - the appropriate rendering options - ImageRenderingOption, PdfRenderingOption, XpsRenderingOption, or DocRenderingOption;
+ - the appropriate output device - ImageDevice, PdfDevice, XpsDevice or DocDevice.
+{{% /alert %}}
 
 ### **Convert HTML to PNG with Default Rendering Options**
 
 To convert HTML to PNG with default rendering options, you should follow a few steps:
 
-1. Use one of the [HTMLDocument()](https://reference.aspose.com/html/net/aspose.html/htmldocument/htmldocument/) constructors to initialize a `document` instance. In the following examples, we load the local `rendering.html` file.
+1. Use one of the [HTMLDocument()](https://reference.aspose.com/html/net/aspose.html/htmldocument/htmldocument/) constructors to initialize a `document` instance. In the following examples, we load the local [rendering.html](/html/net/resize-document/rendering.html) file.
 1. Initialize an instance of the [ImageRenderingOption](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/) class if you want to convert HTML to an image file format. By default `ImageFormat` is PNG. Also, **note** that by default `HorizontalResolution` and `VerticalResolution` properties are 300 dpi. So, the rendered image will be stretched in height and width by about 3 times since the source content's resolution is 96 dpi. 
-1. Create a new instance of the [ImageDevice](https://reference.aspose.com/svg/net/aspose.svg.rendering.image/imagedevice/) class. Use the [ImageDevice()](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagedevice/imagedevice/#constructor_3) consrtructor that takes `options` and output file path `savePath` as parameters.
+1. Create a new instance of the [ImageDevice](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagedevice/) class. Use the [ImageDevice()](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagedevice/imagedevice/#constructor_3) consrtructor that takes `options` and output file path `savePath` as parameters.
 1. Use the [RenderTo(device)](https://reference.aspose.com/html/net/aspose.html/htmldocument/renderto/) method to convert HTML to PNG, which takes the `device` object as a parameter.
+
+Further, the fragment of C# code shows an example of converting an HTML document to an image without any additional options, i.e. with default rendering options. As a result of the conversion, an A4 PNG document was obtained with a lot of empty space (see [illustrations of conversion results (a).](/html/net/resize-document/#figures-of-the-conversion-results-with-crop-and-resize))
 
 {{< highlight java >}}
 using System.IO;
@@ -52,9 +58,9 @@ using Aspose.Html.Rendering.Image;
     document.RenderTo(device);
 {{< /highlight >}}
 
-## **Rendering Options**
+### **Rendering Options**
 
-[PageLayoutOptions](https://reference.aspose.com/html/net/aspose.html.rendering/pagelayoutoptions/) enumeration of the Aspose.Html.Rendering namespace specifies flags that, together with other PageSetup options, determine sizes and layouts of pages. These flags can be combined together according to their descriptions.
+[PageLayoutOptions](https://reference.aspose.com/html/net/aspose.html.rendering/pagelayoutoptions/) enumeration of the Aspose.Html.Rendering namespace specifies flags that, together with other [PageSetup](https://reference.aspose.com/html/net/aspose.html.rendering/pagesetup/) options, determine sizes and layouts of pages. These flags can be combined together according to their descriptions.
 
 | Name                                                     | Description                                                  |
 | :----------------------------------------------------------- | :----------------------------------------------------------- |
@@ -65,8 +71,17 @@ using Aspose.Html.Rendering.Image;
 | ScaleToPageWidth | This flag indicates that the document's content will be scaled to fit the page. It collides with the `FitToContentWidth` flag, and if both flags are specified, only ScaleToPageWidth will take effect.|
 | ScaleToPageHeight | This flag indicates that the document's content will be scaled to fit the height of the first page. It collides with the `FitToContentHeight` flag, and if both flags are specified, only `ScaleToPageHeight` will take effect. All document content will be placed on a single page only. |
 
+{{% alert color="primary" %}} 
+You can download the complete C# examples and data files from [**GitHub.**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net)
+{{% /alert %}} 
 
-### **Convert HTML to JPG Using FitToWidestContentWidth**
+### **Fit Page to Width when Converting HTML to JPG**
+
+In order to fit page width of the output image to the width of the content, you need to use the `FitToContentWidth` flag, or the `FitToWidestContentWidth` flag, which will fit the width of the resulting document to the width of the widest page. Let's look at the steps you should follow:
+
+1. Load an HTML file. In the example, the [HTMLDocument(`documentPath`)](https://reference.aspose.com/html/net/aspose.html/htmldocument/htmldocument/#constructor_10) constructor loads the HTML document from a local file system. 
+1. Create an instance of the [ImageRenderingOption](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/) class. In this example, we set the [PageLayoutOptions](https://reference.aspose.com/html/net/aspose.html.rendering/pagesetup/pagelayoutoptions/) property to `FitToWidestContentWidth`, which means that the output document's page width will fit the widest content page's width.
+1. Create a new instance of the [ImageDevice](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagedevice/) class and pass it to the [RenderTo(device)](https://reference.aspose.com/html/net/aspose.html/htmldocument/renderto/) method to convert HTML to JPG.
 
 {{< highlight java >}}
 using System.IO;
@@ -97,7 +112,11 @@ using Aspose.Html.Rendering.Image;
     document.RenderTo(device);
 {{< /highlight >}}
 
-### **Convert HTML to JPG Using ???**
+The HTML to JPG conversion resulted in a JPG document with a page width that fits the width of the content, but with a page height that matches the height of the format A4 (see [illustrations of conversion results (b)](/html/net/resize-document/#figures-of-the-conversion-results-with-crop-and-resize)).
+
+### **Crop HTML to PNG Rendered  Result**
+
+To make the output page size match the height of the image in the source file, you must set the `FitToContentHeight` flag in the [PageLayoutOptions](https://reference.aspose.com/html/net/aspose.html.rendering/pagesetup/pagelayoutoptions/) property. The following example shows a combination of two flags, `FitToContentHeight` and `FitToContentWidth`.
 
 {{< highlight java >}}
 using System.IO;
@@ -114,7 +133,7 @@ using Aspose.Html.Rendering.Image;
     // Create an instance of HTMLDocument class
     using var document = new HTMLDocument(documentPath);
 
-    // Initialize an ImageRenderingOptions object with custom options. Use FitToContentWidth and FitToContentHeight flags
+    // Initialize an ImageRenderingOptions object with custom options. Use `FitToContentWidth` and FitToContentHeight flags
     var opt = new ImageRenderingOptions()
     {
         PageSetup =
@@ -130,7 +149,16 @@ using Aspose.Html.Rendering.Image;
     document.RenderTo(device);
 {{< /highlight >}}
 
-### **Convert HTML to JPG Using ???h**
+### **Fit Page Size to Content of Rendering HTML to JPG**
+
+In the following example, the [AnyPage](https://reference.aspose.com/html/net/aspose.html.rendering/pagesetup/anypage/) property sets the page size to 20x20 px, which is not large enough to fit the HTML document's content when rendered to an image. Using PageLayoutOptions with the `FitToWidestContentWidth` and `FitToContentHeight` flags causes the page to grow in size to fit the content.
+
+1. Create an [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/) instance. In the following examples, we load the local `rendering.html` file.
+1. Initialize an instance of the [ImageRenderingOption](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/) class if you want to convert HTML to JPG file format.
+    - Specify the `ImageFormat` as `Jpeg`.
+    - Create a `PageSetup` object with the `PageLayoutOptions` property with the `FitToWidestContentWidth` and `FitToContentHeight` flags set. This ensures that the output image will fit the width and height of the content without any empty space
+1. Create a new instance of the [ImageDevice](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagedevice/) class.
+1. Use the [RenderTo(device)](https://reference.aspose.com/html/net/aspose.html/htmldocument/renderto/) method to convert HTML to JPG, which takes the `device` object as a parameter.
 
 {{< highlight java >}}
 using System.IO;
@@ -163,7 +191,11 @@ using Aspose.Html.Rendering.Image;
     document.RenderTo(device);
 {{< /highlight >}}
 
-### **Convert HTML to JPG Using ???h**
+Despite setting the page size as 20x20 pixels, the `FitToWidestContentWidth` and `FitToContentHeight` flags allow us to fit the resulting JPG document would have a page size that fits the content size (see the [illustration of conversion results (d)](/html/net/resize-document/#figures-of-the-conversion-results-with-crop-and-resize)).
+
+### **Scale Page Size During Converting HTML to PNG**
+
+By analogy with the `FitTo*` flags that control page sizes, there is a set of `ScaleTo*` flags that control content sizes and allow to scale it. If the content size exceeds the page size, the content is scaled with aspect ratio until it fits on the page in width and/or height, depending on the combination of flags. The following example shows how to set the width and height scaling of content:
 
 {{< highlight java >}}
 using System.IO;
@@ -196,27 +228,32 @@ using Aspose.Html.Rendering.Image;
     document.RenderTo(device);
 {{< /highlight >}}
 
+In the example, the [AnyPage](https://reference.aspose.com/html/net/aspose.html.rendering/pagesetup/anypage/) property of the `PageSetup` sets a new [Page](https://reference.aspose.com/html/net/aspose.html.drawing/page/) object with a `Size` of 200x200 pixels. This sets the page size to 200x200 pixels.
+Then we set the [PageLayoutOptions](https://reference.aspose.com/html/net/aspose.html.rendering/pagesetup/pagelayoutoptions/) property of the `PageSetup` object to include the `ScaleToPageWidth` and `ScaleToPageHeight` flags. This means that the output document content will be scaled to fit within the page's width and/or height (see the [illustration of conversion results (e).](/html/net/resize-document/#figures-of-the-conversion-results-with-crop-and-resize))
 
 
-This way, you can easily convert an HTML file into a flattened PDF using C#. This process is straightforward and can be done with a few lines of code. Let's look at the steps we have taken:
+## **Figures of the Conversion Results with Crop and Resize**
 
-1. Use one of the constructors of the [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/htmldocument/) class to load an HTML file. In the example, the [HTMLDocument(`sourcePath`)](https://reference.aspose.com/html/net/aspose.html/htmldocument/htmldocument/#constructor_10) constructor loads the HTML document from a local file system. 
-2. Create an instance of the [PdfSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/pdfsaveoptions/) class that is used to specify the options for saving a PDF document. In this case, the [FormFieldBehaviour](https://reference.aspose.com/html/net/aspose.html.rendering.pdf/pdfrenderingoptions/formfieldbehaviour/) property of PdfSaveOptions is set to `FormFieldBehaviour.Flattened`, which means that all form fields in the HTML document will be flattened when the PDF document is created.
-3. Call the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/converthtml/#converthtml_7) method to convert HTML to PDF using the specified options, and the resulting PDF document is saved to `resultPath`.
+The figure shows the results of converting the rendering.html file to PNG, JPG, and PDF formats using the RenderTo() method and various rendering options that control the page size of the output document. 
 
-
-The figure shows the bmp-output-options.bmp file.
+**Note:** The source image size in [rendering.html](/html/net/resize-document/rendering.html) file is 404x303, with a resolution of 96 dpi.
 
 ![Text "The image ilustrates results of document resizing"](resize-document.png#center)
 
-### **What is the difference between PDF files saved with and without FormFieldBehaviour property?**
+**a)** The result of HTML to PNG conversion with default rendering options is an A4 page size PNG document with a lot of empty space on it. The rendered image on the A4 page is stretched in height and width by about 3 times since the default resolution is 300 dpi. 
 
-1. If the FormFieldBehaviour property is set to `FormFieldBehaviour.Flattened`, form fields in the PDF document will be merged into one layer of the document. This effectively flattens the form fields, making them non-interactive and impossible to edit. The result is a static PDF document that cannot be altered.
-2. On the other hand, if the FormFieldBehaviour property is set to `FormFieldBehaviour.Interactive`, form fields in the PDF document will remain interactive. This means that users can fill out the form fields and make changes. 
-3. In Aspose.HTML, the **default value** for the FormFieldBehaviour property is `FormFieldBehaviour.Interactive`. If the FormFieldBehaviour property is not explicitly set, form fields in the PDF document will remain interactive, allowing users to fill out and edit them.
+**b)** The HTML to JPG conversion resulted in a JPG document with a page width that fits the width of the content, but with a page height that matches the height of the format A4. The rendered image on the A4 page is stretched in height and width by about 3 times since the default resolution is 300 dpi. 
 
-{{% alert color="primary" %}} 
-Aspose.HTML offers free online [**Converters**](https://products.aspose.app/html/conversion) for converting HTML, XHTML, MHTML, EPUB, XML and Markdown files to a variety of popular formats.  You can easily convert  [HTML to PDF,](https://products.aspose.app/html/conversion/html-to-pdf) [HTML to JPG,](https://products.aspose.app/html/conversion/html-to-jpg) [SVG to PDF,](https://products.aspose.app/svg/conversion/svg-to-pdf) [MHTML to PDF,](https://products.aspose.app/html/conversion/mhtml-to-pdf) or [MD to HTML.](https://products.aspose.app/html/conversion/md-to-html) Just select the file, choose the format to convert, and you're done. It's fast and completely free!
+**c)** The result of converting HTML to PNG with cropping the output document to fit the page size to the size of the content.
+
+**d)** Even though the page size was set as 20x20 px, using the `FitToWidestContentWidth` and `FitToContentHeight` flags made it possible to get the resulting JPG document with a page size that fits the size of the content.
+
+**e)** The result of rendering HTML to image when the content size is larger than the page size. We scaled down the content to fit the page size of 200x200 px.
+
+{{% alert color="primary" %}}
+You can download the complete C# examples and data files from [**GitHub.**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net)
+
+Aspose.HTML offers free online [**Converters**](https://products.aspose.app/html/conversion) for converting HTML, XHTML, MHTML, EPUB, XML, and Markdown files to various popular formats. For example, you can easily convert HTML to PDF, HTML to JPG, HTML to XHTML, SVG to PDF, MHTML to PDF, MD to HTML, etc. Just select the file, choose the format to convert, and you’re done. It’s fast and completely free!
 {{% /alert %}} 
 
 <a href="https://products.aspose.app/html/conversion" target="_blank">![Text "Banner Free Online Converters"](./../../images/converters.png#center)</a>
