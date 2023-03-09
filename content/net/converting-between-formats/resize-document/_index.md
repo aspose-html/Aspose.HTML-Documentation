@@ -17,7 +17,9 @@ In today's world, most documents are in A4 format, but sometimes content rendere
 
 The [Aspose.Html.Rendering](https://reference.aspose.com/html/net/aspose.html.rendering/) namespace provides a powerful set of tools such as low-level options classes, interfaces, structures, and enumerations for rendering HTML, MHTML, EPUB, and SVG documents to different output formats such as PDF, XPS, DOCX, and images. The [PageSize](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/pagesetup/) class of provides a way to specify the width, height, and orientation of the pages when rendering HTML documents to output formats. But sometimes, you may need to crop documents to create a smaller page size that fits the page's content size. This means the outer margins, borders, or empty space will be removed. 
 
-The Aspose.HTML for .NET library allows you to adjust the page size to the content and vice versa using the [PageLayoutOptions](https://reference.aspose.com/html/net/aspose.html.rendering/pagesetup/pagelayoutoptions/) property of the [PageSetup](https://reference.aspose.com/html/net/aspose.html.rendering/pagesetup/) object. This property is a set of bit flags that control the behavior of the renderer.
+The [PageSetup](https://reference.aspose.com/html/net/aspose.html.rendering/pagesetup/) class provides a set of properties to manage the page setup settings for HTML documents when rendering them to different file formats. Let's take a look at some of the more used ones:
+ - **Set Page Setup.** The [AnyPage](https://reference.aspose.com/html/net/aspose.html.rendering/pagesetup/anypage/) property allows you to set the page setup (size, margins, orientation, etc.) for any page of an HTML document that is rendered to a multi-page format, such as PDF, XPS, DOCX, PNG, JPG, etc.
+ - **Resize Document to Fit the Size of Content.** You can fit page size to the content and vice versa using the [PageLayoutOptions](https://reference.aspose.com/html/net/aspose.html.rendering/pagesetup/pagelayoutoptions/) property. This property is a set of bit flags that control the behavior of the renderer. You can crop documents or scale documents to match their content to the page size.
 
 {{% alert color="primary" %}}
 You can easily use C# examples of converting HTML to Images with a custom page layout to convert HTML to PDF, XPS, and DOCX. The only differences are in specifying 
@@ -156,7 +158,7 @@ In the following example, the [AnyPage](https://reference.aspose.com/html/net/as
 1. Create an [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/) instance. In the following examples, we load the local `rendering.html` file.
 1. Initialize an instance of the [ImageRenderingOption](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/) class if you want to convert HTML to JPG file format.
     - Specify the `ImageFormat` as `Jpeg`.
-    - Create a `PageSetup` object with the `PageLayoutOptions` property with the `FitToWidestContentWidth` and `FitToContentHeight` flags set. This ensures that the output image will fit the width and height of the content without any empty space
+    - Create a `PageSetup` object with the `PageLayoutOptions` property with the `FitToWidestContentWidth` and `FitToContentHeight` flags set. This ensures that the output image will fit the width and height of the content without any empty space.
 1. Create a new instance of the [ImageDevice](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagedevice/) class.
 1. Use the [RenderTo(device)](https://reference.aspose.com/html/net/aspose.html/htmldocument/renderto/) method to convert HTML to JPG, which takes the `device` object as a parameter.
 
