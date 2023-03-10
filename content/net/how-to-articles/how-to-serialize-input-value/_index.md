@@ -12,13 +12,13 @@ sitemap:
     priority: 0.7
 ---
 
-Sometimes it is necessary to save an HTML document with input form fields filled in. Although browsers don't allow this for security reasons, Aspose.HTML provides a [SerializeInputValue](https://reference.aspose.com/html/net/aspose.html.saving/htmlsaveoptions/serializeinputvalue/) property of the [HTMLSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/htmlsaveoptions/) class that gives you this ability. If the HTML document has Input fields filled in, using the SerializeInputValue property, you can save the resulting document as it looks in the browser.
+Sometimes it is necessary to save an HTML document with input form fields filled in. Although browsers don't allow this for security reasons, Aspose.HTML provides a [SerializeInputValue](https://reference.aspose.com/html/net/aspose.html.saving/htmlsaveoptions/serializeinputvalue/) property of the [HTMLSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/htmlsaveoptions/) class that gives you this ability. If the HTML document has input fields filled in, using the `SerializeInputValue` property, you can save the resulting document as it looks in the browser.
 
 This article describes how to serialize input values in HTML forms or Input fields using the Aspose.HTML for .NET library.
 
 ## **Steps to Serialize Input Values**
 
-Some HTML documents contain form elements such as [HTMLInputElement](https://reference.aspose.com/html/net/aspose.html/htmlinputelement/), [HTMLTextAreaElement](https://reference.aspose.com/html/net/aspose.html/htmltextareaelement/), and so on. For security reasons, when saving documents containing such elements, their values are not saved but you can change the situation using the `SerializeInputValue` option of the `HTMLSaveOptions` class. You should follow these required steps:
+Some HTML documents contain form elements such as [HTMLInputElement](https://reference.aspose.com/html/net/aspose.html/htmlinputelement/), [HTMLTextAreaElement](https://reference.aspose.com/html/net/aspose.html/htmltextareaelement/), and so on. For security reasons, their values are not saved, but you can change the situation using the `SerializeInputValue` option of the `HTMLSaveOptions` class. You should follow these required steps:
 1. Load an HTML document using the [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/) class. You can load HTML from a file, HTML code, stream, or URL.
 1. Use one of the `GetElement*` methods of the [Document](https://reference.aspose.com/html/net/aspose.html.dom/document/) class to get a required HTML element/elements in the document and use the `Value` properties (get or set their values).
 1. Create an instance of the [HTMLSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/htmlsaveoptions/) class and set the `SerializeInputValue` property to `true`.
@@ -26,7 +26,7 @@ Some HTML documents contain form elements such as [HTMLInputElement](https://ref
 
 ## **How to Serialize Input Value in HTML Form**
 
-Let's look at the apply the `SerializeInputValue` property using an example of an [HTMLInputElement](https://reference.aspose.com/html/net/aspose.html/htmlinputelement/) that represents an HTML input element such as a text box, radio button, number, and so on. Follow the step-by-step instructions to serialize the input value into a simple HTML form we create from scratch:
+Let's look at the apply the `SerializeInputValue` property using an example of an [HTMLInputElement](https://reference.aspose.com/html/net/aspose.html/htmlinputelement/) that represents an HTML input element such as a text box. Follow the step-by-step instructions to serialize the input value into a simple HTML form we create from scratch:
 
 1. Prepare HTML code.
 1. In the example, we create an HTML document from a string content using [HTMLDocument (`content`, `baseUri`)](https://reference.aspose.com/html/net/aspose.html/htmldocument/htmldocument/#constructor_14) constructor. 
@@ -68,7 +68,7 @@ using Aspose.Html.Saving;
     doc.Save(savePath, new HTMLSaveOptions { SerializeInputValue = true });
 {{< /highlight >}}
 
-Thus, the [SerializeInputValue](https://reference.aspose.com/html/net/aspose.html.saving/htmlsaveoptions/serializeinputvalue/) property of the HTMLSaveOptions class determines whether the values of input elements in an HTML document are serialized and included in the saved file or not. If `SerializeInputValue` is `true`, the input element values will be included in the saved file. If `SerializeInputValue` is not set, the input element values will not be included in the saved file.
+Thus, the [SerializeInputValue](https://reference.aspose.com/html/net/aspose.html.saving/htmlsaveoptions/serializeinputvalue/) property of the `HTMLSaveOptions` class determines whether the values of input elements in an HTML document are serialized and included in the saved file or not. If `SerializeInputValue` is `true`, the input element values will be included in the saved file. If `SerializeInputValue` is not set, the input element values will not be included in the saved file.
 
 {{% alert color="primary" %}} 
 You can download data files and complete C# examples that demonstrate how to set font folder from [**GitHub.**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net)
