@@ -18,11 +18,6 @@ sitemap:
 In this article, we create a custom Message Handler to do a specific task - convert ZIP to {{%PDF%}}.
 {{% /alert %}}
 
-Aspose.HTML offers a free online [**ZIP to PDF Converter**](https://products.aspose.app/html/conversion/zip-to-pdf) that converts ZIP to PDF with high quality, easy and fast. Just upload, convert your files and get results in a few seconds!
-
-<a href="https://products.aspose.app/html/conversion/zip-to-pdf" target="_blank">![Text "Banner ZIP to PDF Converter"](zip-to-pdf.png#center)</a>
-
-
 There are many reasons why would you require to convert ZIP to PDF format. PDF comes with many advantages that other files don't have. For example, many programs and apps support PDF documents, most web browsers such as Chrome and Firefox can display a PDF.  PDF files are optimized for printing; they are ideal for creating physical copies of your documents. PDF supports many compression algorithms. You can configure the security settings for your PDF file, etc.
 
 ## **Create a Custom Message Handler for ZIP to PDF Conversion**
@@ -144,6 +139,10 @@ using Aspose.Zip;
     }
 {{< /highlight >}}
 
+{{% alert color="primary" %}} 
+You can download the complete examples and data files from [**GitHub.**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net)
+{{% /alert %}}
+
 ## **Add ZipArchiveMessageHandler in the Pipeline and Convert ZIP to PDF**
 
 You would now need to add ZipArchiveMessageHandler in the pipeline. Use Add() method that takes a `zip` object as a parameter and adds ZipArchiveMessageHandler to the end of the message handlers' collection.
@@ -192,7 +191,7 @@ In the example, the ZIP archive (test.zip) has the HTML document (test.html) in 
 Please read the [**Fine-Tuning Convserters**](/html/net/converting-between-formats/fine-tuning-converters/) article to learn more about converting HTML to PDF using [Renderto(`device`)](https://reference.aspose.com/html/net/aspose.html/htmldocument/renderto/) method.
 
 {{% alert color="primary" %}} 
-Aspose.HTML provides a free online [**ZIP to PDF Converter**](https://products.aspose.app/html/conversion/zip-to-pdf) that allows you to quickly, easily and clearly convert ZIP to PDF.  Upload, convert files and get results in seconds. No additional software is required. Try our robust ZIP  to PDF Converter for free now!
-
-You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
+Aspose.HTML provides a free online [**ZIP to PDF Converter**](https://products.aspose.app/html/conversion/zip-to-pdf) that allows you to quickly, easily and clearly convert ZIP to PDF. Upload, convert files and get results in seconds. No additional software is required. Try our robust ZIP  to PDF Converter for free now!
 {{% /alert %}}
+
+<a href="https://products.aspose.app/html/conversion/zip-to-pdf" target="_blank">![Text "Banner ZIP to PDF Converter"](zip-to-pdf.png#center)</a>

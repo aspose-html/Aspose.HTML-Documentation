@@ -1,12 +1,12 @@
 ---
-title: Convert Markdown to Image | MD to JPG, PNG, BMP, GIF, TIFF
+title: Convert Markdown to Image - MD to JPG, PNG, BMP, GIF, TIFF
 linktitle: Convert Markdown to Image
 type: docs
 weight: 50
 url: /net/converting-between-formats/markdown-to-image/
-description: Convert Markdown to Image formats in C# using Aspose.HTML API. Consider Markdown to JPG, PNG, BMP, GIF, and TIFF conversions in C# examples. Try online Markdown Converter.  
+description: Convert Markdown to Images online or in C#. Consider Markdown to JPG, PNG, BMP, GIF, and TIFF conversions in C# examples.
 keywords: markdown to jpg, convert markdown to jpg, markdown to jpg conversion, markdown to jpg converter, markdown to png, markdown to bmp, markdown to gif, markdown to tiff, c# code, online converter
-lastmod: "2022-07-28"
+lastmod: "2023-03-11"
 ---
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
 

@@ -23,7 +23,7 @@ The following conversion scenarios are supported:
 In **HTML Converter** guides, you learn how to convert an [HTML document](https://reference.aspose.com/html/java/com.aspose.html/HTMLDocument) into various formats.
 
 * [HTML to Image](/html/java/convert-html-to-image/) - You will find information how convert an HTML document into image file formats, such as {{%JPG%}}, {{%PNG%}}, {{%BMP%}}, {{%TIFF%}}, etc.
-* [HTML to PDF](/html/java/convert-html-to-pdf/) - In this article, you will learn how convert an HTML document into Portable Document Format ({{%PDF%}}) file format.
+* [HTML to PDF](/html/java/html-to-pdf-converter/) - In this article, you will learn how convert an HTML document into Portable Document Format ({{%PDF%}}) file format.
 * [HTML to XPS](/html/java/convert-html-to-xps/) - In this guide, you will find information how convert an HTML document into XML Paper Specification ({{%XPS%}}) file format.
 * [HTML to DOCX](/html/java/convert-html-to-docx/) - In this guide, you will find information how convert an HTML document into {{%DOCX%}} file format.
 * [HTML to MHTML](/html/java/convert-html-to-mhtml/) - In this guide, you will find information how convert an HTML document into {{%MHTML%}} document.

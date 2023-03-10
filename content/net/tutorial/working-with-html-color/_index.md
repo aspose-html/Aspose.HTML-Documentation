@@ -1,11 +1,11 @@
 ---
-title: Working with HTML Color | Background Color and Text Color 
+title: Working with HTML Color - Background Color and Text Color 
 linktitle: Working with HTML Color
 type: docs
 weight: 20
-description: In this article, you  will find information about HTML color codes for your website - HTML color names with hex color codes, RGB, RGBA, HSL and HSLA values.
+description: You will find information about HTML color codes for your website - HTML color names with hex color codes, RGB, RGBA, HSL, and HSLA values.
 keywords: html colors, color names, hex color, rgb color, background color, text color, border color, color values, color codes, html style, html style tag
-lastmod: "2022-03-17"
+lastmod: "2023-03-11"
 sitemap:
     changefreq: "weekly"
     priority: 0.7

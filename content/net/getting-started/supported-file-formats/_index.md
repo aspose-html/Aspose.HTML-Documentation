@@ -2,6 +2,7 @@
 title: Supported File Formats
 type: docs
 weight: 20
+description: In this article, you will learn about the input and output file formats supported by Aspose.HTML for .NET library.
 aliases: /net/supported-file-formats/
 ---
 

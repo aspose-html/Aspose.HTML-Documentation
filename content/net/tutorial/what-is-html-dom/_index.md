@@ -12,6 +12,7 @@ sitemap:
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />
+
 {{% alert color="primary" %}}
 [Aspose.HTML for .NET](https://products.aspose.com/html/net/) is a .NET library that allows you to access and manipulate the HTML DOM in C# and other .NET languages. It provides classes and methods that enable you to load and parse HTML documents, navigate the DOM tree, and access and modify document elements, attributes, and content.
 
@@ -21,7 +22,6 @@ Please visit the [**Editing an HTML Document**](https://docs.aspose.com/html/net
 ## **Document Object Model**
 
 The Document Object Model (DOM) is a standard cross-platform programming API for accessing and manipulating HTML and XML documents. It represents the structure of a document as a tree-like hierarchy of nodes, where each node represents a part of the document, such as an element, attribute, or piece of text. A DOM tree is an in-memory representation of a document. In other words, the Document Object Model creates a logical document structure and defines objects, properties, events and method for accessing and modifying them.
-
 
  ## **HTML DOM**
 
@@ -40,7 +40,6 @@ HTML DOM tree is created by the browser when it parses an HTML document and is u
     </body>
 </html>
 ```
-
 
 ![Text "HTML document tree"](html-document-tree.png#center)
 

@@ -1,5 +1,6 @@
 ---
 title: Features List
+description: Learn about Aspose.HTML for .NET features such as document manipulation, web scraping, conversion, platform independence, etc.
 type: docs
 weight: 10
 aliases: /net/features-list/

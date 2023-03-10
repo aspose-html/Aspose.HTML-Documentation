@@ -10,9 +10,9 @@ aliases:
   - /net/web-scraping/download-youtube-videos/
   - /net/web-scraping/download-zoom-videos/
   - /net/web-scraping/download-youtube-audio/   
-description: This section describes how to navigate through an HTML document and perform a detailed inspection of its elements and extract data from the web pages using Aspose.HTML for .NET.
+description: Learn how to navigate through HTML documents, perform a detailed inspection of its elements and extract data from the web using C# library.
 keywords: web scraping, data scrapers, html navigation, XPath, CSS selector, extract data
-lastmod: "2022-07-06"
+lastmod: "2023-03-11"
 sitemap:
     changefreq: "weekly"
     priority: 0.7

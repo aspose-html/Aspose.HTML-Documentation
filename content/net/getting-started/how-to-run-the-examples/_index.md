@@ -2,6 +2,7 @@
 title: How to Run the Examples
 type: docs
 weight: 60
+description: Learn about software requirements, C# examples downloading from GitHub, and setting up or running the examples.
 aliases: 
     - /net/how-to-run-the-examples/
     - /display/htmlnet/How+to+Run+the+Examples

@@ -4,7 +4,7 @@ linktitle: Convert HTML to Image
 type: docs
 weight: 20
 keywords: html to image, convert html to image java, convert html to image, html to image conversion, html to image converter, save options, stream provider, java code
-description: Convert HTML to Images like JPG, PNG, GIF, TIFF, BMP using Java library. Consider various HTML to Image conversion scenarios in Java code.
+description: Convert HTML to Images like JPG, PNG, GIF, TIFF, and BMP using Java library. Consider HTML to Image conversion scenarios in Java code.
 url: /java/convert-html-to-image/
 aliases: 
     - /java/html-to-image-conversion/

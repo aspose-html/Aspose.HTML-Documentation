@@ -4,9 +4,9 @@ linktitle: HTML Navigation
 type: docs
 weight: 10
 aliases: /net/html-navigation/
-description: In this article, you find the description of how to perform a detailed inspection of the HTML document and its elements using the API, about custom filters usage for iterating over the document elements, how to navigate over the document by using CSS Selector or XPath.
+description: Learn how to perform an inspection of the HTML document and its elements using the API, about custom filter, CSS Selector, or XPath usage.
 keywords: HTML navigation, DOM, XPath, XPath Query, CSS selector, custom filter, C# example
-lastmod: "2022-01-11"
+lastmod: "2023-03-11"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -17,16 +17,14 @@ sitemap:
 Using *Aspose.HTML* class library, you can easily create your own application, since our API provides a powerful toolset to analyze and collect information from HTML documents.
 
 This article provides information on how to programmatically extract data from HTML documents with the Aspose.HTML API. You find out:
- - how to  navigate through an HTML document and  perform a detailed inspection of its elements using the API;
+ - how to navigate through an HTML document and  perform a detailed inspection of its elements using the API;
  - about custom filters usage for iterating over the document elements;
  - how to navigate over the document by using CSS Selector or XPath Query.
 
 ## **HTML navigation**
 
 {{% alert color="primary" %}}
-
 The Aspose.HtmlDom (Document Object Model) namespace provides API that represents and interacts with any HTML, XML or SVG documents and is entirely based on the [WHATWG DOM](https://dom.spec.whatwg.org/) specification supported in many modern browsers. The DOM is a document model loaded in the browser and representing the document as a node tree, where each node represents part of the document (e.g. an element, text string, or comment).
-
 {{% /alert %}}  
 
 We consider how the DOM represents an HTML document in memory and how to use API for navigation through HTML files. Many ways can be used to make HTML navigation. The following shortlist shows the simplest way to access all DOM elements:

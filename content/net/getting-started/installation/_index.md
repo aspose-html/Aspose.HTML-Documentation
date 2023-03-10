@@ -2,6 +2,7 @@
 title: Installation
 type: docs
 weight: 30
+description: In this article, you will learn how to install Aspose.HTML for .NET library and get step-by-step instructions for installing.
 aliases: 
     - /net/installation/
     - /display/htmlnet/Installation

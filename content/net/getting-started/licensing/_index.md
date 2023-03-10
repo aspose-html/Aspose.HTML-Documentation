@@ -2,6 +2,7 @@
 title: Licensing
 weight: 40
 type: docs
+description: Learn how to test Aspose.HTML for .NET without the evaluation version limitations and how to apply a license.
 aliases:
   - /net/licensing/
   - /display/htmlnet/Licensing
@@ -20,11 +21,11 @@ The evaluation version (without a license specified) provides full product funct
 
 
 {{% alert color="primary" %}} 
-
 If you want to test Aspose.HTML for .NET without the evaluation version limitations, you can also request a 30-day Temporary License. Please refer to [How to get a Temporary License?](https://purchase.aspose.com/temporary-license)
-
 {{% /alert %}} 
+
 ## **Applying a License**
+
 Aspose.HTML for .NET provides you the number of ways to apply a license. They will be described in the following paragraphs.
 
 If you are using any other Aspose for .NET component along with Aspose.HTML for .NET, please specify complete namespace for License like[ Aspose.Html.License](https://reference.aspose.com/html/net/aspose.html/license/) or [Aspose.Html.Metered](https://reference.aspose.com/html/net/aspose.html/metered/),
@@ -50,7 +51,9 @@ It is also possible to apply a license from the license file stream.
     htmlLicense.SetLicense(stream);
  }
 {{< /highlight >}}
+
 ### **Applying a License as an Embedded Resource**
+
 Another neat way of packaging the license with your application is to include it as an embedded resource into one of the assemblies that calls Aspose.HTML for .NET. 
 
 To include the license file as an embedded resource, perform the following steps:
@@ -67,11 +70,11 @@ To include the license file as an embedded resource, perform the following steps
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
-
 Please note, that resources are embedded in to assembly without modification. If you add a text file as an embedded resource in application and open the resultant EXE in notepad, you will see the exact contents of the added text file. So, when using a license file as an embedded resource, anyone can open EXE file in some simple text editor and see/extract the contents of the embedded license.
-
 {{% /alert %}} 
+
 ### **Applying a Metered License**
+
 Metered license - is a new licensing mechanism, which is used along with existing licensing method. Those customers who want to be billed based on the usage of the API features can use the metered licensing. For more details, please refer to the [Metered Licensing FAQ](https://purchase.aspose.com/faqs/licensing/metered) section.
 
 The following code snippet demonstrates how to apply the metered license using the private and public keys:

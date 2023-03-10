@@ -60,9 +60,9 @@ Please take a look over the following Java code snippet that shows the HTML to P
 	<div class="col-md-3">
 		<h3>Convert HTML to PDF, XPS</h3>				
 		<ul>
-			<li><a href="/html/java/convert-html-to-pdf/">Convert HTML to PDF</a></li>
-			<li><a href="/html/java/convert-html-to-pdf/#convert-html-to-pdf-in-java-using-pdfsaveoptions">Convert HTML to PDF using PdfSaveOptions</a></li>
-			<li><a href="/html/java/convert-html-to-pdf/">Convert HTML to PDF using MemoryStreamProvider</a></li>
+			<li><a href="/html/java/html-to-pdf-converter/">Convert HTML to PDF</a></li>
+			<li><a href="/html/java/html-to-pdf-converter/#convert-html-to-pdf-in-java-using-pdfsaveoptions">Convert HTML to PDF using PdfSaveOptions</a></li>
+			<li><a href="/html/java/html-to-pdf-converter/">Convert HTML to PDF using MemoryStreamProvider</a></li>
 			<li><a href="/html/java/convert-html-to-xps/">Convert HTML to XPS</a></li>					
 		</ul>
 	</div>

@@ -3,9 +3,9 @@ title: How to use CSS Selector - QuerySelector, QuerySelectorAll
 linktitle: How to use CSS Selector
 type: docs
 weight: 40
-description: In this article, discover how to effectively apply selectors to select the elements you want to style using QuerySelector() and QuerySelectorAll() methods.
+description: Learn how to effectively apply selectors to select the elements you want to style using QuerySelector() and QuerySelectorAll() methods.
 keywords: css selector, query selector, queryselector, query selector all, document query selector, how to use css selector, c# examples, JavaScript querySelector(), JavaScript querySelectorAll()
-lastmod: "2022-05-01"
+lastmod: "2023-03-11"
 sitemap:
     changefreq: "weekly"
     priority: 0.7

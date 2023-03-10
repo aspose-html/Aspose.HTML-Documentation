@@ -3,9 +3,9 @@ title: Popular Use Cases for Message Handlers | C#
 linktitle: Popular Use Cases for Message Handlers
 type: docs
 weight: 20
-description: The article provides general information on creating custom message handlers for different popular use cases using Aspose.HTML for .NET - convert ZIP to PDF, convert ZIP to JPG, log a web request execution time, authentication.   
+description: Learn about creating custom message handlers for popular use cases in C# - convert ZIP to PDF, log a web request execution time, etc.
 keywords: message handler, ZIP to PDF, ZIP to JPG, zip archive, web request, authentication
-lastmod: "2023-02-17"
+lastmod: "2023-03-11"
 sitemap:
     changefreq: "monthly"
     priority: 0.8

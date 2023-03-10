@@ -4,9 +4,9 @@ linktitle: Convert Markdown to PDF
 type: docs
 weight: 20
 url: /net/converting-between-formats/markdown-to-pdf/
-description: Convert Markdown to PDF in C# using Aspose.HTML API. Consider various Markdown to PDF conversion scenarios in C# examples. Try online Markdown Converter.  
+description: Convert Markdown to PDF online or in C#. Consider Markdown to PDF conversion scenarios in C# examples. Try online Markdown Converter.  
 keywords: markdown to pdf, convert markdown to pdf, markdown to pdf conversion, markdown to pdf converter, c# code, online converter
-lastmod: "2022-07-28"
+lastmod: "2023-03-11"
 ---
 
 <link href="./../../style.css" rel="stylesheet" type="text/css" />

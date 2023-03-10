@@ -5,7 +5,8 @@ weight: 20
 aliases:
     - /net/creating-a-document/
     - /display/htmlnet/Creating+a+Document
-description: Create an Empty HTML Document, Create HTML from a String, Create HTML from a Stream, Load HTML from a File, Load HTML from the Web, Reading HTML with Resources Async, SVG Document, MHTML Document, EPUB Document
+description: Learn how to load HTML document from a file, stream, URL, or create it from scratch. Consider approaches to load the documents.
+keywords: create html, load html,  load html from file, load HTML from the web, svg document, mhtml document, epub document
 ---
 
 This section offers a detailed guide on how to create an HTML document.  Aspose.HTML for .NET API provides an **HTMLDocument** class that is the root of the HTML hierarchy and holds the entire content.
