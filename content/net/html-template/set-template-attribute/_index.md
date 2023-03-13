@@ -80,18 +80,19 @@ using System.Linq;
 
 {{< /highlight >}}
 
-Let’s take a closer look at this code snippet:
+Let’s take a closer look at this C# code snippet:
 
-1. The template is converted to HTML document using the [Converter.ConvertTemplate(`content`, `baseUrl`, `data`, `options`)](https://reference.aspose.com/html/net/aspose.html.converters/converter/converttemplate/#converttemplate_6) method. This method converts a string of HTML content into a fully-formed HTMLDocument object. The method takes four parameters:
- - `content` (htmlCode) - a string containing HTML code to use as the template;
- - `baseUrl` (string.Empty) - this parameter is not used and is simply an empty string in this example;
- - `data` (TemplateData) - this parameter is used to specify the data source to use for populating the template. In this case, it is an XML string stored in the `dataSource` variable;
- - `options` (TemplateLoadOptions) - this parameter is used to specify any load options for the template.
-2. After creating the HTML document, the code accesses an `<input>` element within the document and verifies that it has the correct attributes, such as `checked` in this case:
- - The method [GetElementsByTagName()](https://reference.aspose.com/html/net/aspose.html.dom/document/getelementsbytagname/) is used to retrieve the first `<input>` element in the document.
- - Then, several assertions are executed to check the properties of the input element. The first assertion, `Assert.True(input.Checked)`, checks if the checkbox is checked. The next two assertions, `Assert.Equal(3, input.Attributes.Length)` and `Assert.Equal("type", input.Attributes[0].Name)`, check the number of attributes and the name of the first attribute of the input element, respectively, and so on.
-3. The HTML document is rendered to an image file using the [RenderTo()](https://reference.aspose.com/html/net/aspose.html/htmldocument/renderto/) method.
-4. Finally, the HTML document is saved to an HTML file (out-checked.html). The contents of this file can be seen below:
+1. In the example, we create an HTML template from scratch, i.e., from the code string. So, first, we prepare HTML code.
+1. We use the [ConvertTemplate(`content`, `baseUrl`, `data`, `options`)](https://reference.aspose.com/html/net/aspose.html.converters/converter/converttemplate/#converttemplate_6) method to convert the template. This method takes four parameters and converts an HTML content string into a fully-formed `htmlDocument` object:
+    - `content` (htmlCode) - a string with HTML code to use as the template;
+    - `baseUrl` (string.Empty) - an empty string in this example because this parameter is not used;
+    - `data` (TemplateData) - the data source for populating the template. In this case, it is an XML string stored in the `dataSource` variable;
+    - `options` (TemplateLoadOptions) - load options for the template. You can create it using the [TemplateLoadOptions()](https://reference.aspose.com/html/net/aspose.html.loading/templateloadoptions/templateloadoptions/) constructor.
+1. After creating the HTML document, we access an `<input>` element within the document and verify that it has the correct attributes, such as `checked` in this case:
+    - We use the [GetElementsByTagName()](https://reference.aspose.com/html/net/aspose.html.dom/document/getelementsbytagname/) method to retrieve the first `<input>` element.
+    - Then, we execute several assertions to check the properties of the `<input>` element. The first assertion, `Assert.True(input.Checked)`, checks if the checkbox is checked. The following two assertions, `Assert.Equal(3, input.Attributes.Length)` and `Assert.Equal("type", input.Attributes[0].Name)`, check the number of attributes and the name of the first attribute of the input element, respectively, and so on.
+1. To render HTML document to an image file, we use the [RenderTo()](https://reference.aspose.com/html/net/aspose.html/htmldocument/renderto/) method.
+1. Finally, we call the Save(path) method. HTML document is saved to the out-checked.html file. The content of this file can be seen below:
 
 {{< highlight html >}}
 <html>
