@@ -1,10 +1,10 @@
 ---
 keywords: markdown to html, convert markdown to html, markdown to html conversion, markdown to html converter, c# code, online converter
-lastmod: 2022-07-28
+lastmod: 2023-03-11
 url: /net/converting-between-formats/markdown-to-html/
 title: Convert Markdown to HTML | C#
 linktitle: Convert Markdown to HTML
-description: Convert Markdown to HTML in C# using Aspose.HTML API. Consider various Markdown to HTML conversion scenarios in C# examples. Try online Markdown Converter.
+description: Convert Markdown to HTML using Aspose.HTML API. Consider Markdown to HTML conversion scenarios in C# examples. Try online Markdown Converter
 weight: 10
 type: docs
 aliases:
@@ -94,4 +94,4 @@ You can view the resulting HTML file by following the link - [nature-output.html
 You can check the quality of Markdown to HTML conversion with our online [**MD to HTML Converter**](https://products.aspose.app/html/conversion/md-to-html). Upload, convert your files and get results in a few seconds. Try our forceful Markdown to HTML Converter for free now!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/conversion/md-to-html" target="_blank">![Text "Banner MD to HTML Converter"](md-to-html.png#center)</a>
+<a href="https://products.aspose.app/html/conversion/md-to-html" target="_blank">![Text "Banner MD to HTML Converter"](./../../../images/md-to-html.png#center)</a>

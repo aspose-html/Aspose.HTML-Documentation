@@ -1,5 +1,6 @@
 ---
 title: Getting Started
+description: Learn about Aspose.HTML for .NET library - benefits and features, performance and scalability, learning and technical support.  
 type: docs
 weight: 10
 aliases: /net/getting-started/

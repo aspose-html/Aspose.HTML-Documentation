@@ -4,12 +4,12 @@ linktitle: Convert Markdown to Image
 type: docs
 weight: 30
 keywords: markdown to image, markdown to png, markdown to jpg, convert markdown to image, save options, java code
-description: Convert Markdown to Image like JPG, PNG, GIF, TIFF, BMP using Java library. Consider various Markdown to image conversion scenarios in Java code.
+description: Convert Markdown to Images like JPG, PNG, GIF, TIFF, BMP using Java library. Consider Markdown to image conversion scenarios in Java code.
 url: /java/convert-markdown-to-image/
 sitemap:
     changefreq: "weekly"
     priority: 0.7
-lastmod: 2023-02-28
+lastmod: 2023-03-11
 ---
 
 <link href="./../style.css" rel="stylesheet" type="text/css" />

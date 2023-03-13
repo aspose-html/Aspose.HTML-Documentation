@@ -1,5 +1,10 @@
 ---
 title: Aspose.HTML Product Family
+description: The articles in Aspose.HTML product family documentation provide detailed information on how to parse and manipulate HTML in .NET or Java.
+lastmod: "2023-03-11"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.5
 type: docs
 weight: 10
 url: /

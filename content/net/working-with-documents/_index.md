@@ -1,9 +1,10 @@
 ---
 title: Working with HTML Documents
+description: Learn how to start working with Aspose.HTML for .NET class library and how to use API for HTML files creating, editing and saving.
 type: docs
 weight: 20
 aliases: /net/working-with-documents/
-lastmod: "2022-01-11"
+lastmod: "2023-03-11"
 sitemap:
 changefreq: "weekly"
 priority: 0.7

@@ -2,6 +2,11 @@
 title: Aspose.HTML for .NET
 type: docs
 weight: 10
+description: The articles in Aspose.HTML for .NET documentation provide detailed information about C# library - how to parse and manipulate HTML.
+lastmod: "2023-03-11"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.5
 aliases: 
     - /net/
     - /display/htmlnet/Home

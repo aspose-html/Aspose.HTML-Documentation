@@ -1,6 +1,7 @@
 ---
 title: System Requirements
-aliases: 
+description: Learn about supported operating systems, supported platforms, and development environments for using Aspose.HTML for .NET API.
+aliases:
     - /net/supported-platforms/
     - /net/system-requirements/
     - /display/htmlnet/System+Requirements

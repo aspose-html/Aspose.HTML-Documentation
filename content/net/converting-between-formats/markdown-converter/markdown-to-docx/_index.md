@@ -4,7 +4,7 @@ linktitle: Convert Markdown to DOCX
 type: docs
 weight: 30
 url: /net/converting-between-formats/markdown-to-docx/
-description: Convert Markdown to DOCX in C# using Aspose.HTML API. Consider various Markdown to DOCX conversion scenarios in C# examples. Try online Markdown Converter.
+description: Convert Markdown to DOCX using Aspose.HTML API. Consider Markdown to DOCX conversion scenarios in C# examples. Try online Markdown Converter
 keywords: markdown to docx, convert markdown to docx, markdown to docx conversion, markdown to docx converter, c# code, online converter
 lastmod: "2022-07-28"
 ---

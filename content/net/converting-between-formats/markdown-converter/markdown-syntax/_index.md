@@ -1,12 +1,12 @@
 ---
-title: Markdown Syntax | Basic Tutorial
+title: Markdown Syntax - Basic Tutorial
 linktitle: Markdown Syntax
 type: docs
 weight: 60
 url: /net/converting-between-formats/markdown-syntax/
 description: This article provides information on the main elements of the Markdown markup language and the details of the Markdown syntax. 
 keywords: markdown syntax, markdown language, markdown table syntax, markdown elements, markdown code blocks
-lastmod: "2022-01-11"
+lastmod: "2023-03-11"
 ---
  <link href="./../../style.css" rel="stylesheet" type="text/css" />
 
@@ -170,3 +170,38 @@ The rendered table looks like this:
 | Text           | Some long data here| Data           |
 
 [GitLab Flavored Markdown](https://docs.gitlab.com/ee/user/markdown.html) lets you create simple, easy-to-read tables. You can easily add Markdown syntax to tables, such as bold, italic, code blocks, HTML tags and more.
+
+{{% alert color="primary" %}}
+[Aspose.HTML for .NET](https://products.aspose.com/html/net/) library provides a Markdown parsing API for the C# platform. You can programmatically create, edit, save, merge, convert MD files to other formats, and add links, lists, code blocks, images, and other elements into Markdown files.
+<div class="row">
+	<div class="col-md-3">
+		<ul>
+			<li><a href="https://products.aspose.com/html/net/parse-markdown/">Parse Markdown</a></li>
+			<li><a href="https://products.aspose.com/html/net/editor/md/">Edit Markdown</a></li>			
+			<li><a href="https://products.aspose.com/html/net/conversion/md-to-pdf/">Convert MD</a></li>
+			<li><a href="https://products.aspose.com/html/net/merger/md/">Merge MD</a></li>												
+		</ul>
+	</div>
+	<div class="col-md-3">
+		<ul>
+			<li><a href="https://products.aspose.com/html/net/markdown-text/">Markdown Text</a></li>
+			<li><a href="https://products.aspose.com/html/net/markdown-link/">Markdown Link</a></li>
+			<li><a href="https://products.aspose.com/html/net/markdown-list/">Markdown List</a></li>					
+		</ul>
+	</div>	
+	<div class="col-md-3">
+		<ul>
+			<li><a href="https://products.aspose.com/html/net/markdown-code-block/">Markdown Code Block</a></li>
+			<li><a href="https://products.aspose.com/html/net/markdown-bold/">Markdown Bold</a></li>
+			<li><a href="https://products.aspose.com/html/net/markdown-italic/">Markdown Italic</a></li>
+		</ul>
+	</div>
+	<div class="col-md-3">
+		<ul>
+			<li><a href="https://products.aspose.com/html/net/markdown-header/">Markdown Header</a></li>
+			<li><a href="https://products.aspose.com/html/net/markdown-paragraph/">Markdown Paragraph</a></li>
+			<li><a href="https://products.aspose.com/html/net/markdown-image/">Image in Markdown</a></li>
+		</ul>
+	</div>
+</div>
+{{% /alert %}} 
