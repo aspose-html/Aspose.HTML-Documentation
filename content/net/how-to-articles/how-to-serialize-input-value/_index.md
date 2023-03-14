@@ -14,7 +14,7 @@ sitemap:
 
 Sometimes it is necessary to save an HTML document with input form fields filled in. Although browsers don't allow this for security reasons, Aspose.HTML provides a [SerializeInputValue](https://reference.aspose.com/html/net/aspose.html.saving/htmlsaveoptions/serializeinputvalue/) property of the [HTMLSaveOptions](https://reference.aspose.com/html/net/aspose.html.saving/htmlsaveoptions/) class that gives you this ability. If the HTML document has input fields filled in, using the `SerializeInputValue` property, you can save the resulting document as it looks in the browser.
 
-This article describes how to serialize input values in HTML forms or Input fields using the Aspose.HTML for .NET library.
+This article describes how to serialize input values in HTML forms or input fields using the Aspose.HTML for .NET library.
 
 ## **Steps to Serialize Input Values**
 
