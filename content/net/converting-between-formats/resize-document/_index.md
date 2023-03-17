@@ -3,7 +3,7 @@ title: How to Resize Document During Conversion from HTML? - C#
 linktitle: How to Resize Document
 keywords: resize document, how to resize document, render html, rendering html, fit size, crop html, fit document, fit page, crop document, rendering device, rendering options, page size
 description: Learn how to use rendering options to resize document pages to the size of the content and vice versa.
-weight: 190
+weight: 70
 type: docs
 url: /net/resize-document/
 lastmod: 2023-03-08

@@ -129,7 +129,7 @@ using System.IO;
 {{< /highlight >}}
 
 {{% alert color="primary" %}} 
-To change text color, you can use the C# examples considered in this article with HTML `<p>` , `<h1>` , or` <h2>` elements, etc. Keep in mind that using the style attribute (inline CSS) overrides any style specified in the HTML `<style>` tag or in an external style sheet. 
+To change text color, you can use the C# examples considered in this article with HTML `<p>`, `<h1>`, or` <h2>` elements, etc. Keep in mind that using the style attribute (inline CSS) overrides any style specified in the HTML `<style>` tag or in an external style sheet. 
 {{% /alert %}}
 
 The figure illustrates the results of changing text color according to the usage of inline CSS example (a) and internal CSS example (b):
@@ -137,7 +137,7 @@ The figure illustrates the results of changing text color according to the usage
 ![Text "Two fragments of the HTML document with colored paragraph text"](change-text-color.png#center)
 
 {{% alert color="primary" %}}
-Aspose.HTML offers free <a href="https://products.aspose.app/html/applications" target="_blank">**HTML Web Applications**</a> that are an online collection of free converters, mergers, downloaders, SEO tools, HTML code generators, URL tools and more. The applications work on any operating system with a web browser and do not require any additional software installation. It's a fast and easy way to efficiently and effectively solve your HTML-related tasks.
+Aspose.HTML offers free <a href="https://products.aspose.app/html/applications" target="_blank">**HTML Web Applications**</a> that are an online collection of free converters, mergers, downloaders, SEO tools, HTML code generators, URL tools, and more. The applications work on any operating system with a web browser and do not require any additional software installation. It's a fast and easy way to efficiently and effectively solve your HTML-related tasks.
 {{% /alert %}}
 
 <a href="https://products.aspose.app/html/applications" target="_blank">![Text "Banner HTML Web Applications"](../../tutorial/html-web-apps.png#center)</a> 

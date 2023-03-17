@@ -27,7 +27,7 @@ In this chapter, the following topics are available:
 - [Setting Attributes in HTML Template](/html/net/setting-attributes-in-html-template/) - This article gives you information and C# examples on how to set attributes in HTML template and control the presence of attributes when populating templates.
 
 {{% alert color="primary" %}}
-Aspose.HTML offers free <a href="https://products.aspose.app/html/applications" target="_blank">**HTML Web Applications**</a> that are an online collection of free converters, mergers, downloaders, SEO tools, HTML code generators, URL tools and more. The applications work on any operating system with a web browser and do not require any additional software installation. It's a fast and easy way to efficiently and effectively solve your HTML-related tasks.
+Aspose.HTML offers free <a href="https://products.aspose.app/html/applications" target="_blank">**HTML Web Applications**</a> that are an online collection of free converters, mergers, downloaders, SEO tools, HTML code generators, URL tools, and more. The applications work on any operating system with a web browser and do not require any additional software installation. It's a fast and easy way to efficiently and effectively solve your HTML-related tasks.
 {{% /alert %}}
 
 <a href="https://products.aspose.app/html/applications" target="_blank">![Text "Banner HTML Web Applications"](../tutorial/html-web-apps.png#center)</a> 

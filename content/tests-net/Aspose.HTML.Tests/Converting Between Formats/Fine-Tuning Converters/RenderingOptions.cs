@@ -351,18 +351,18 @@ namespace Aspose.HTML.Tests.Converting_Between_Formats.Fine_Tuning_Converters
         public void UseDocRenderingOptionsTest()
         {
             // Prepare a path to a source HTML file
-            string documentPath = Path.Combine(DataDir, "document.html");
+            string documentPath = Path.Combine(DataDir, "nature.html");
 
             // Initialize the HTML document from the file
             using var document = new HTMLDocument(documentPath);
 
             // Create an instance of Rendering Options and set a custom page size
-            var options = new DocRenderingOptions((FontEmbeddingRule)DocumentFormat.DOCX);
-            options.PageSetup.AnyPage = new Page(new Size(Length.FromInches(6), Length.FromInches(3)));
+            var options = new DocRenderingOptions();
+            options.PageSetup.AnyPage = new Page(new Size(Length.FromInches(8), Length.FromInches(10)));
             options.FontEmbeddingRule = (FontEmbeddingRule.Full);
 
             // Prepare path for converted file saving 
-            string savePath = Path.Combine(OutputDir, "document-options.docx");
+            string savePath = Path.Combine(OutputDir, "nature-options.docx");
 
             // Create an instance of the DocDevice and specify options and output file
             using var device = new DocDevice(options, savePath);

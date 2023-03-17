@@ -3,10 +3,10 @@ title: Flatten PDF - C# Examples
 linktitle: How to Flatten a PDF
 keywords: flatten pdf, flattening a pdf, flatten pdf file, convert html to pdf, pdf document
 description: Learn what it means to flatten PDF and how to convert HTML to PDF and flatten a PDF file using FormFieldBehaviour property.
-weight: 200
+weight: 80
 type: docs
 url: /net/flatten-pdf/
-lastmod: 2023-02-14
+lastmod: 2023-03-18
 ---
 
 PDF (Portable Document Format) is a popular file format widely used for exchanging and storing digital documents. This versatile format allows you to create complex documents with various elements including text, images, forms, and more. However, in certain situations, it may be necessary to flatten a PDF document, which means converting it into a static, non-interactive file that can be easily shared, printed, or archived. This article will explain what it means to flatten a PDF and how to do it using Aspose.HTML for .NET library.
@@ -25,7 +25,7 @@ Flattening a PDF document is a process that can have several benefits, depending
  - If you need to save a PDF document for later use and **archive** it, flattening a document can ensure that it is readable and accessible for many years. Flattening eliminates the need for any specialized software or plugins, as the document will be a static, non-interactive PDF file.
  - and more.
 
- Whether your goals are related to security, file size, printing, archiving, or ease of use, flattening a PDF can provide you with the results you need.
+Whether your goals are related to security, file size, printing, archiving, or ease of use, flattening a PDF can provide you with the results you need.
 
 ## **How to Flatten a PDF in C#?**
 
@@ -111,7 +111,8 @@ To convert MHTML to PDF with FormFieldBehaviour property specifying, you should 
 2. On the other hand, if the FormFieldBehaviour property is set to `FormFieldBehaviour.Interactive`, form fields in the PDF document will remain interactive. This means that users can fill out the form fields and make changes. 
 3. In Aspose.HTML, the **default value** for the FormFieldBehaviour property is `FormFieldBehaviour.Interactive`. If the FormFieldBehaviour property is not explicitly set, form fields in the PDF document will remain interactive, allowing users to fill out and edit them.
 
-{{% alert color="primary" %}} 
-Aspose.HTML offers free online [**Converters**](https://products.aspose.app/html/conversion) for converting HTML, XHTML, MHTML, EPUB, XML, and Markdown files to various popular formats. You can easily convert  [HTML to PDF,](https://products.aspose.app/html/conversion/html-to-pdf) [HTML to JPG,](https://products.aspose.app/html/conversion/html-to-jpg) [SVG to PDF,](https://products.aspose.app/svg/conversion/svg-to-pdf) [MHTML to PDF,](https://products.aspose.app/html/conversion/mhtml-to-pdf) or [MD to HTML.](https://products.aspose.app/html/conversion/md-to-html) Just select the file, choose the format to convert, and you're done. It's fast and completely free!
-{{% /alert %}} 
+{{% alert color="primary" %}}
+You can download the complete C# examples and data files from [**GitHub.**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net)
 
+Aspose.HTML offers free online [**Converters**](https://products.aspose.app/html/conversion) for converting HTML, XHTML, MHTML, EPUB, XML, and Markdown files to various popular formats. You can easily convert  [HTML to PDF,](https://products.aspose.app/html/conversion/html-to-pdf) [HTML to JPG,](https://products.aspose.app/html/conversion/html-to-jpg) [SVG to PDF,](https://products.aspose.app/svg/conversion/svg-to-pdf) [MHTML to PDF,](https://products.aspose.app/html/conversion/mhtml-to-pdf) or [MD to HTML.](https://products.aspose.app/html/conversion/md-to-html) Just select the file, choose the format to convert, and you're done. It's fast and completely free!
+{{% /alert %}}

@@ -38,7 +38,7 @@ This section is in progress and currently, the following topics are available:
 - [How to Serialize Input Value](/html/net/how-to-serialize-input-value/) This article describes how to serialize input values in HTML forms or input fields using the Aspose.HTML for .NET library.  
 
 {{% alert color="primary" %}}
-Aspose.HTML offers free <a href="https://products.aspose.app/html/applications" target="_blank">**HTML Web Applications**</a> that are an online collection of free converters, mergers, downloaders, SEO tools, HTML code generators, URL tools and more. The applications work on any operating system with a web browser and do not require any additional software installation. It's a fast and easy way to efficiently and effectively solve your HTML-related tasks.
+Aspose.HTML offers free <a href="https://products.aspose.app/html/applications" target="_blank">**HTML Web Applications**</a> that are an online collection of free converters, mergers, downloaders, SEO tools, HTML code generators, URL tools, and more. The applications work on any operating system with a web browser and do not require any additional software installation. It's a fast and easy way to efficiently and effectively solve your HTML-related tasks.
 {{% /alert %}}
 
 <a href="https://products.aspose.app/html/applications" target="_blank">![Text "Banner HTML Web Applications"](../tutorial/html-web-apps.png#center)</a>

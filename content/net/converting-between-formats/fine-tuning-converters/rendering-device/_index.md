@@ -3,7 +3,7 @@ title: Rendering Device - C#
 linktitle: Rendering Device
 type: docs
 weight: 10
-url: /net/fine-tuning-converters/rendering-device/
+url: /net/rendering-device/
 description: Learn how to use rendering devices - PdfDevice, XpsDevice, DocDevice, and ImageDevice to render HTML to PDF, XPS, DOCX, and Images.
 keywords: rendering device, rendering process, output device, rendering html, render HTML, PdfDevice, ImageDevice, XpsDevice, DocDevice
 sitemap:
@@ -15,7 +15,7 @@ lastmod: 2023-03-18
 Using the [ConvertHTML](https://reference.aspose.com/html/net/aspose.html.converters/converter/converthtml/) methods of the Converter class is the most common way to convert HTML documents into various formats. However, [Aspose.HTML for .NET API](https://products.aspose.com/html/net/) also provides alternative ways to render HTML documents with that can give you more control over the rendering process in your C# application.
 
 {{% alert color="primary" %}}
-In this article, we describe how to use rendering devices - [PdfDevice,](https://reference.aspose.com/html/net/aspose.html.rendering.pdf/pdfdevice/) [XpsDevice,](https://reference.aspose.com/html/net/aspose.html.rendering.xps/xpsdevice/) [DocDevice,](https://reference.aspose.com/html/net/aspose.html.rendering.doc/pdfdevice/) and [ImageDevice](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagedevice/) to render HTML to PDF, XPS, DOCX, and Images. In the C# examples, the rendering process is considered with default rendering options. To learn more, please read the [Rendering Options](/html/net/fine-tuning-converters/rendering-options/) article.
+In this article, we describe how to use rendering devices - [PdfDevice,](https://reference.aspose.com/html/net/aspose.html.rendering.pdf/pdfdevice/) [XpsDevice,](https://reference.aspose.com/html/net/aspose.html.rendering.xps/xpsdevice/) [DocDevice,](https://reference.aspose.com/html/net/aspose.html.rendering.doc/pdfdevice/) and [ImageDevice](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagedevice/) to render HTML to PDF, XPS, DOCX, and Images. In the C# examples, the rendering process is considered with default rendering options. To learn more, please read the [Rendering Options](/html/net/rendering-options/) article.
 {{% /alert %}}
 
 ## **What is Rendering Device in Aspose.HTML?**
@@ -55,7 +55,7 @@ using Aspose.Html.Rendering.Pdf;
     }
 {{< /highlight >}}
 
-Let's explain C# code snippet above:
+Let's explain the C# code snippet above:
 
 1. First, we create an HTML document from a string of code. So, in the `code` variable, we put the `content` that will be converted to PDF.
 1. Then, we prepare a path for converted file saving - `savePath`.
@@ -64,7 +64,7 @@ Let's explain C# code snippet above:
 1. And finally, we call [RenderTo(`device`)](https://reference.aspose.com/html/net/aspose.html/htmldocument/renderto/) method with the specified device.
 
 {{% alert color="primary" %}}
-Rendering options give you additional control over the rendering process. To learn more about them, please read the [Rendering options](/html/net/fine-tuning-converters/rendering-options/) article.
+Rendering options give you additional control over the rendering process. To learn more about them, please read the [Rendering options](/html/net/rendering-options/) article.
 
 If you are interested in how to use rendering options to resize document pages to the size of the content and vice versa, please visit the article [How to Resize Document During Conversion from HTML?](/html/net/resize-document/)
 {{% /alert %}}
@@ -104,7 +104,7 @@ using Aspose.Html.Rendering.Image;
 {{< /highlight >}}
 
 {{% alert color="primary" %}}
-If you are interested in how to apply rendering options for HTML to image rendering process, please see the [Rendering Options](/html/net/fine-tuning-converters/rendering-options/) article.
+If you are interested in how to apply rendering options for HTML to image rendering process, please see the [Rendering Options](/html/net/rendering-options/) article.
 {{% /alert %}} 
 
 ## **XpsDevice**
