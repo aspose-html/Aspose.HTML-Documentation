@@ -4,16 +4,16 @@ linktitle: Network Timeouts
 type: docs
 weight: 30
 url: /net/message-handlers/network-timeouts/
-description: Learn how to set network timeouts in C#. Create a custom message handler for network operation timeouts using Aspose.HTML for .NET.   
+description: Learn how to set network timeouts in C#. Create a custom message handler for network operation timeouts using Aspose.HTML for .NET.
 keywords: message handler, connect timeout, network timeouts, network operation, network connection timeout, network operation timeout, network request
-lastmod: "2023-02-08"
+lastmod: "2023-03-18"
 sitemap:
     changefreq: "monthly"
     priority: 0.8
 ---
 
 {{% alert color="primary" %}} 
-Network timeouts can occur when a network connection is not able to be established or a server is taking too long to respond. When a network timeout occurs, it can impact the functionality of a software application and cause a range of problems. This article will discuss how to set network timeouts in C# with practical examples. You find simple C# examples of how to create a custom message handler for network operation timeouts.
+Network timeouts can occur when a network connection is not able to be established, or a server is taking too long to respond. When a network timeout occurs, it can impact the functionality of a software application and cause a range of problems. This article will discuss how to set network timeouts in C# with practical examples. You find simple C# examples of how to create a custom message handler for network operation timeouts.
 {{% /alert %}}
 
 ## **Network Timeouts**
@@ -112,9 +112,6 @@ In this example, the `TimeoutMessageHandler` is added to the MessageHandlers col
 
 By using the TimeoutMessageHandler class and handling network timeouts properly, you can ensure a reliable and efficient experience for the user when converting HTML files.
 
-{{% alert color="primary" %}} 
-You can download the complete examples and data files from [**GitHub**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net).
+{{% alert color="primary" %}}
+You can download the complete examples and data files from [**GitHub.**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net)
 {{% /alert %}}
-
-
-

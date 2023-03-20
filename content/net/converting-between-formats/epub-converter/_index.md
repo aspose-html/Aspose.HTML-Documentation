@@ -3,7 +3,7 @@ title: EPUB Converter | C#
 linktitle: EPUB Converter 
 keywords: epub converter, convert epub, epub to pdf, convert epub to pdf, c# example, online converter, c# code
 description: In this article, you will learn about supported EPUB conversions and consider C# example of how to convert EPUB to PDF.
-weight: 40
+weight: 30
 type: docs
 url: /net/converting-between-formats/epub-converter/
 lastmod: 2022-07-28

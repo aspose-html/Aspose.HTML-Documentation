@@ -31,7 +31,7 @@ HTML Tutorial section helps you to learn some basic HTML, including how to use H
 
 {{% alert color="primary" %}} 
 
-Aspose.HTML offers free online <a href="https://products.aspose.app/html/applications" target="_blank">**HTML Web Applications**</a> that  are an online collection of free converters, mergers, downloaders, SEO tools, HTML code generators, URL tools and more. The applications work on any operating system with a web browser and do not require any additional software installation. Easily convert, merge, encode, generate HTML code, extract data from the web, or analyze web pages in terms of SEO wherever you are. Use our collection of HTML Web Applications to perform your daily matters and make your workflow seamlessly!
+Aspose.HTML offers free online <a href="https://products.aspose.app/html/applications" target="_blank">**HTML Web Applications**</a> that  are an online collection of free converters, mergers, downloaders, SEO tools, HTML code generators, URL tools, and more. The applications work on any operating system with a web browser and do not require any additional software installation. Easily convert, merge, encode, generate HTML code, extract data from the web, or analyze web pages in terms of SEO wherever you are. Use our collection of HTML Web Applications to perform your daily matters and make your workflow seamless!
 
 {{% /alert %}} 
 

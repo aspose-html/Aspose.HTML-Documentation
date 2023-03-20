@@ -3,7 +3,7 @@ title: MHTML Converter | C#
 linktitle: MHTML Converter
 keywords: mhtmlconverter, convert mhtml, convert mhtml to png, mhtml to png, c# example, online converter
 description: In this article, you learn how to convert MHTML to other formats using Aspose.HTML API and consider C# example of MHTML to PNG conversion.
-weight: 30
+weight: 20
 type: docs
 lastmod: 2022-07-28
 ---

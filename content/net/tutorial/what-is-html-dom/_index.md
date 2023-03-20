@@ -5,7 +5,7 @@ type: docs
 weight: 10
 description: You will find information about an HTML DOM and learn how to access and manipulate a DOM tree using the Aspose.HTML C# library.
 keywords: html, document object model, dom, html file, html document, html dom, dom tree, dom node, html document tree, node tree
-lastmod: "2023-03-13"
+lastmod: "2023-03-18"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -17,7 +17,7 @@ sitemap:
 [Aspose.HTML for .NET](https://products.aspose.com/html/net/) is a .NET library that allows you to access and manipulate the HTML DOM in C# and other .NET languages. It provides classes and methods that enable you to load and parse HTML documents, navigate the DOM tree, and access and modify document elements, attributes, and content.
 
 Please visit the [**Editing an HTML Document**](https://docs.aspose.com/html/net/working-with-documents/editing-a-document/) article that gives you basic information on how to read or modify the Document Object Model (DOM). You’ll explore how to create an HTML Element and how to work with it using Aspose.HTML for .NET API.
-{{% /alert %}} 
+{{% /alert %}}
 
 ## **Document Object Model**
 
@@ -61,7 +61,7 @@ HTML DOM defines HTML elements as **objects**, providing a set of **properties**
 
 ### **How HTML DOM defines HTML elements as objects?**
 
-Aspose.HTML for .NET provides a set of classes and methods that allow you to access and manipulate the HTML DOM in C#. You can use the [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/) class to load and parse an HTML document. For example, you can use the following code to load an HTML file and access the `<body>` element of the document: 
+Aspose.HTML for .NET provides a set of classes and methods that allow you to access and manipulate the HTML DOM in C#. You can use the [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/) class to load and parse an HTML document. For example, you can use the following code to load an HTML file and access the `<body>` element of the document:
 
 {{< highlight java >}}
 using Aspose.Html;
@@ -105,7 +105,7 @@ using System.IO;
  In the C# example above, we take the following steps:
  - We declare variables `documentPath` and `savePath` that set the path to a source and final HTML file.
  - Then we create an instance of the `HTMLDocument` class using the `HTMLDocument(documentPath)` constructor and open the document for editing.
- - We use the `WriteLine()` method to output the [OuterHTML](https://reference.aspose.com/html/net/aspose.html.dom/element/outerhtml/) of `DocumentElement` property, which represents the `<html>` element.
+ - We use the `WriteLine()` method to output the [OuterHTML](https://reference.aspose.com/html/net/aspose.html.dom/element/outerhtml/) of the `DocumentElement` property, which represents the `<html>` element.
  - We assign a new string value to the `document.Body.InnerHTML` property, which represents the content of the `<body>` element.
  - Then we output the `OuterHTML` property after the change, using the `WriteLine()` method.
  - Finally, we save the edited HTML file by calling the [Save(savePath)](https://reference.aspose.com/html/net/aspose.html/htmldocument/save/#save_10) method.
@@ -118,7 +118,7 @@ HTML DOM defines a set of methods that can be used to access and control all HTM
  - the [Node](https://reference.aspose.com/html/net/aspose.html.dom/node/) class provides methods [AppendChild()](https://reference.aspose.com/html/net/aspose.html.dom/node/appendchild/), [InsertBefore()](https://reference.aspose.com/html/net/aspose.html.dom/node/insertbefore/), [RemoveChild()](https://reference.aspose.com/html/net/aspose.html.dom/node/removechild/), etc. 
 
 
-Let's look at the C# example that demonstrates how to use the `HTMLDocument` class to create new elements and text nodes, and how to use the `AppendChild()` method to add them to HTML document.
+Let's look at the C# example that demonstrates how to use the `HTMLDocument` class to create new elements and text nodes, and how to use the `AppendChild()` method to add them to an HTML document.
 
 {{< highlight java >}}
 using Aspose.Html;
@@ -140,7 +140,7 @@ using System.IO;
     h1.AppendChild(text1);
 
     // Create a <p> element with text content
-    var p = document.CreateElement("p");            
+    var p = document.CreateElement("p");
     var text2 = document.CreateTextNode("HTML Document Object Model is a programming interface for HTML documents.");
     p.AppendChild(text2);
 
@@ -154,11 +154,11 @@ using System.IO;
 
 The [HTMLDocument](https://reference.aspose.com/html/net/aspose.html/htmldocument/) class provides the main entry point for working with the DOM, it allows you to load and parse HTML documents and access nodes of the DOM tree. In the example, we used the `HTMLDocument` class to create a new HTML document, and the `CreateElement()` and `CreateTextNode()` methods of the `HTMLDocument` class to create new elements and text nodes.
 
-{{% alert color="primary" %}} 
-Aspose.HTML offers free online [HTML Web Applications](https://products.aspose.app/html/applications) that are an online collection of free converters, mergers, downloaders, SEO tools, HTML code generators, URL tools and more. The applications work on any operating system with a web browser and do not require any additional software installation. Easily convert, merge, encode, generate HTML code, extract data from the web, or analyze web pages in terms of SEO wherever you are. Use our collection of HTML Web Applications to perform your daily matters and make your workflow seamlessly!
-{{% /alert %}} 
+{{% alert color="primary" %}}
+Aspose.HTML offers free online [HTML Web Applications](https://products.aspose.app/html/applications) that are an online collection of free converters, mergers, downloaders, SEO tools, HTML code generators, URL tools, and more. The applications work on any operating system with a web browser and do not require any additional software installation. Easily convert, merge, encode, generate HTML code, extract data from the web, or analyze web pages in terms of SEO wherever you are. Use our collection of HTML Web Applications to perform your daily matters and make your workflow seamless!
+{{% /alert %}}
 
-<a href="https://products.aspose.app/html/applications" target="_blank">![Text "Banner HTML Web Applications"](../html-web-apps.png#center)</a> 
+<a href="https://products.aspose.app/html/applications" target="_blank">![Text "Banner HTML Web Applications"](../html-web-apps.png#center)</a>
 
 
 

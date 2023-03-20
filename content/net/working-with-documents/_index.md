@@ -24,5 +24,5 @@ The following topics are available:
   In this article, you learn how to save your changes to the file on the disk and about the available saving options.
 
 {{% alert color="primary" %}}
-Aspose.HTML offers free [**HTML Web Applications**](https://products.aspose.app/html/applications) that are an online collection of free converters, mergers, downloaders, SEO tools, HTML code generators, URL tools and more. The applications work on any operating system with a web browser and do not require any additional software installation. It's a fast and easy way to efficiently and effectively solve your HTML-related tasks.
+Aspose.HTML offers free [**HTML Web Applications**](https://products.aspose.app/html/applications) that are an online collection of free converters, mergers, downloaders, SEO tools, HTML code generators, URL tools, and more. The applications work on any operating system with a web browser and do not require any additional software installation. It's a fast and easy way to efficiently and effectively solve your HTML-related tasks.
 {{% /alert %}}

@@ -2,136 +2,35 @@
 title: Fine-Tuning Converters | C#
 linktitle: Fine-Tuning Converters
 type: docs
-weight: 180
-aliases: /net/fine-tuning-converters/
-description: This chapter provides a general description of conversion features of Aspose.HTML .NET. You find out how to convert HTML, SVG, MHTML, EPUB, MD documents to (PDF, XPS, DOCX, MD, MHTML and Image) other formats using Aspose.HTML API. 
-keywords: 
+weight: 60
+url: /net/fine-tuning-converters/
+aliases: /net/converting-between-formats/fine-tuning-converters/
+description: Learn how to convert HTML, SVG, MHTML, and EPUB files to PDF, XPS, DOCX,  and Image formats using RenderTo and Render methods of Aspose.HTML
+keywords: rendering device, rendering options, renderer
+sitemap:
+    changefreq: "weekly"
+    priority: 0.7
+lastmod: 2023-03-18
 ---
 
-Using the [Converter.ConvertHTML](https://reference.aspose.com/html/net/aspose.html.converters/converter/converthtml/) methods is the most common way to convert HTML code into various formats. However, Aspose.HTML API also provides alternative ways to render HTML documents with that can give you more control over the rendering process in your C# application.
-## **Output Device**
-The output device encapsulates a 2D drawing surface, whose API is implemented using the [IDevice](https://reference.aspose.com/html/net/aspose.html.rendering/idevice/) interface. Currently, API provides the following implementations: [PdfDevice](https://reference.aspose.com/html/net/aspose.html.rendering.pdf/pdfdevice/), [XpsDevice](https://reference.aspose.com/html/net/aspose.html.rendering.xps/xpsdevice/) and [ImageDevice](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagedevice/), which are used to generate PDF, {{%XPS%}} and Image file formats, respectively.
+<link href="./../style.css" rel="stylesheet" type="text/css" />
 
-The next example shows how to use [PdfDevice](https://reference.aspose.com/html/net/aspose.html.rendering.pdf/pdfdevice/) to render HTML document into PDF file:
+## **A Few Ways to Convert HTML in C#**
 
-1. Create an instance of HTML document.
-1. Create an instance of PDF Output Device.
-1. Call [HTMLDocument.RenderTo](https://reference.aspose.com/html/net/aspose.html/htmldocument/renderto/) method with specified device.
+You can convert HTML to various popular formats in any way - online or programmatically. Converting from HTML to other formats can perform by using the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/converthtml/) methods of the Converter class, the [RenderTo()](https://reference.aspose.com/html/net/aspose.html.dom/document/renderto/) method of the HTMLDocument class, or the Render() method of the [Renderer](https://reference.aspose.com/html/net/aspose.html.rendering/renderer-1/) class.
 
-{{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-ConvertingBetweenFormats-FineTuningConverters-SpecifyOutputDevice.cs" >}}
-## **Device Options**
-Rendering Options gives you additional control over the output device. You can change the page size, configure margins and colors, set a security password in case of PDF device, etc. Every output device [PdfDevice](https://reference.aspose.com/html/net/aspose.html.rendering.pdf/pdfdevice/), [XpsDevice](https://reference.aspose.com/html/net/aspose.html.rendering.xps/xpsdevice/) and [ImageDevice](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagedevice/) has his own unique set of options and implemented with classes [***PdfRenderingOptions***](https://reference.aspose.com/html/net/aspose.html.rendering.pdf/pdfrenderingoptions/), [***XpsRenderingOptions***](https://reference.aspose.com/html/net/aspose.html.rendering.xps/xpsrenderingoptions/) and [***ImageRenderingOptions***](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/), respectively.
+## **Why Use Fine-Tuning Converters?**
 
-Following is a demonstration of how to use Rendering Options to customize the page-size:
+In Fine-Tuning Converters chapter, Aspose.HTML provides alternative ways to render HTML documents that can give you more control over the rendering process in your C# application. Our C# library implements a set of rendering devices - PdfDevice, XpsDevice, DocDevice, and ImageDevice. Each has its unique set of options implemented with classes PdfRenderingOptions, XpsRenderingOptions, DocRenderingOptions, and ImageRenderingOptions, respectively. For example, you can change the page size, configure margins and colors, reduce the file size by adjusting image quality and resolution, set a security password in case of a PDF device, etc. 
 
-{{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-ConvertingBetweenFormats-FineTuningConverters-SpecifyRenderingOptions.cs" >}}
-### **General Options**
-Rendering Options gives you additional control over the output device. You can change the page size, configure margins and colors, set a security password in case of PDF device, etc. Every output device [PdfDevice](https://reference.aspose.com/html/net/aspose.html.rendering.pdf/pdfdevice/), [XpsDevice](https://reference.aspose.com/html/net/aspose.html.rendering.xps/xpsdevice/) and [ImageDevice](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagedevice/) has his own unique set of options and implemented with classes [***PdfRenderingOptions***](https://reference.aspose.com/html/net/aspose.html.rendering.pdf/pdfrenderingoptions/), [***XpsRenderingOptions***](https://reference.aspose.com/html/net/aspose.html.rendering.xps/xpsrenderingoptions/) and [***ImageRenderingOptions***](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/), respectively.
+The current section describes supported scenarios of HTML-based files conversions to other popular formats by using the [RenderTo()](https://reference.aspose.com/html/net/aspose.html.dom/document/renderto/) method of the HTMLDocument class and the Render() method of the [Renderer](https://reference.aspose.com/html/net/aspose.html.rendering/renderer-1/) class:
 
-Following is a demonstration of how to use Rendering Options to customize the page-size:
+ - [Rendering Device](/html/net/rendering-device/) - This article will teach you about render devices - PdfDevice, XpsDevice, DocDevice, and ImageDevice. The RenderTo() and Render() methods take the instances of the rendering devices as a parameter to render HTML to PDF, XPS, DOCX, and images. 
+ - [Rendering Options](/html/net/rendering-options/) - With rendering options, you can set various conversion options such as page size, margins, image quality, orientation, background color, and more. These options are passed to rendering devices as parameters and help you turn the rendering process to get the desired output document.
+ - [Renderers](/html/net/renderers/) - In this article you will learn about supported renderers - HtmlRenderer, SvgRenderer, MhtmlRenderer, and EpubRenderer, which are used to render HTML, SVG, MHTML, and EPUB documents, respectively.
 
-{{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-ConvertingBetweenFormats-FineTuningConverters-SpecifyResolution.cs" >}}
+{{% alert color="primary" %}}
+Aspose.HTML offers free <a href="https://products.aspose.app/html/applications" target="_blank">**HTML Web Applications**</a> that are an online collection of free converters, mergers, downloaders, SEO tools, HTML code generators, URL tools, and more. The applications work on any operating system with a web browser and do not require any additional software installation. It's a fast and easy way to efficiently and effectively solve your HTML-related tasks.
+{{% /alert %}}
 
-The next few pictures show the result of the rendering with 50 dpi and 300 dpi resolutions:
-
-!['Hello World' with blue background](fine-tuning-converters_1.png)
-
-!['Hello World' with green background](fine-tuning-converters_2.png)
-#### **CSS Media Type**
-{{%CSS%}} media-type is an important feature that specifies how a document is to be presented on different media: on the screen, on paper, with a braille device, etc. There are few ways to specify media-type for a style sheet, via linked style sheets:
-
-
-
-**Linked Style Sheet**
-
-{{< highlight html >}}
-
- <link rel="stylesheet" type="text/css" media="print" href="style.css">
-
-{{< /highlight >}}
-
-or, via inlining:
-
-**Inline Style Sheet**
-
-{{< highlight html >}}
-
- <style type="text/css">
-
-@media print {
-
-  body{ color: #000000; }
-
-}
-
-</style>
-
-{{< /highlight >}}
-
-Aspose.HTML API supports this feature, so you can convert HTML documents as they look on screen or on print with applying the corresponded media types and style sheets. Following example shows how to set up the media type:
-
-{{< highlight csharp >}}
-
- // Create an option class
-
-var options = new PdfRenderingOptions();
-
-// Set the 'screen' media-type
-
-options.Css.MediaType = MediaType.Screen;
-
-{{< /highlight >}}
-
-{{% alert color="primary" %}} 
-
-Please note that the default value of the [CssOptions.MediaType](https://reference.aspose.com/html/net/aspose.html.rendering/cssoptions/mediatype/) is Print. It means that the document will be converting with applying style sheets related to the printing device and looks like on paper (you can use print preview of your browser to see the difference). If you want the document to look the way it is rendered on screen, you should use [MediaType.Screen](https://reference.aspose.com/html/net/aspose.html.rendering/mediatype/).
-
-{{% /alert %}} 
-#### **Background Color**
-A property that specifies the background color of the output drawing surface.
-
-{{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-ConvertingBetweenFormats-FineTuningConverters-SpecifyBackgroundColor.cs" >}}
-#### **Page Setup**
-The page setup is a set of parameters that determine the layout of a printed page. Those parameters include everything from the page size, margins, and auto-resizing to @page priority rules. Using this set of parameters, you can easily set up an individual layout for every page.
-
-The next example demonstrates how to create PDF with different page sizes for the left and right pages.
-
-
-
-{{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-ConvertingBetweenFormats-FineTuningConverters-SpecifyLeftRightPageSize.cs" >}}
-
-In some cases, the content of the HTML page could be wider than the page-size defined with options. If you don’t want to cut off the page content, you can try the PageSetup.AdjustToWidestPage property. The following example shows how to adjust the page size to the content. 
-
-{{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-ConvertingBetweenFormats-FineTuningConverters-AdjustPageSizeToContent.cs" >}}
-### **PDF Options**
-Using a specialized [PdfRenderingOptions](https://reference.aspose.com/html/net/aspose.html.rendering.pdf/pdfrenderingoptions/) object, you can configure permissions for the PDF file. The next example demonstrates this feature.
-
-{{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-ConvertingBetweenFormats-FineTuningConverters-SpecifyPDFPermissions.cs" >}}
-### **Image Options**
-[ImageRenderingOptions](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagerenderingoptions/compression/) allows you to customize a wide range of setting from smoothing (antialiasing), image resolution, and formats to image compression.
-
-Following example demonstrates how to change resolution and antialiasing for the resulted image.
-
-{{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-ConvertingBetweenFormats-FineTuningConverters-SpecifyImageSpecificOptions.cs" >}}
-### **XPS Options**
-{{%XPS%}} files generated by our library do not have any specific parameters. All parameters of [XpsRenderingOptions](https://reference.aspose.com/html/net/aspose.html.rendering.xps/xpsrenderingoptions/) are inherited from the base [RenderingOptions ](https://reference.aspose.com/html/net/aspose.html.rendering/renderingoptions/pagesetup/)class and described [here](/html/net/converting-between-formats/fine-tuning-converters/#fine-tuningconverters-generaloptions).
-
-{{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-ConvertingBetweenFormats-FineTuningConverters-SpecifyXpsRenderingOptions.cs" >}}
-## **Renderers**
-While the [Document.RenderTo](https://reference.aspose.com/html/net/aspose.html.dom/document/renderto/) method gives you the ability to send a single document to the output rendering device, using the [Renderer](https://reference.aspose.com/html/net/aspose.html.rendering/renderer/) instances directly you can send multiple files at once. Aspose.HTML API provides the following implementation of renderers: [HtmlRenderer](https://reference.aspose.com/html/net/aspose.html.rendering.pdf/pdfdevice/), [SvgRenderer](https://reference.aspose.com/html/net/aspose.html.rendering.xps/xpsdevice/), [MhtmlRenderer](https://reference.aspose.com/html/net/aspose.html.rendering/mhtmlrenderer/) and [EpubRenderer](https://reference.aspose.com/html/net/aspose.html.rendering.image/imagedevice/), which are used to render HTML, SVG, MHTML and EPUB documents, respectively.
-
-The next example demonstrates how to use [HtmlRenderer](https://reference.aspose.com/html/net/aspose.html.rendering/htmlrenderer/) to render multiple documents:
-
-{{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-ConvertingBetweenFormats-FineTuningConverters-CombineMultipleHTMLToPDF.cs" >}}
-### **Timeout**
-One more important feature that is available for renderers is timeout. You can use it to specify how long you are ready to wait for all internal processes related to a document lifecycle to be completed, such as resource loading, active timers, etc. Sure, you can specify an infinite waiting period. However, if the document contains a script with the endless loop, you will wait indefinitely. The example below demonstrates how to use the timeout parameter: 
-
-
-
-{{< gist "aspose-com-gists" "f3606888162b6b9cad4e80c485ee4ec3" "Examples-CSharp-ConvertingBetweenFormats-FineTuningConverters-RendererTimeoutExample.cs" >}}
-
-Running this example, you will get a document with five lines of ‘Hello World’ message, as it follows:
-
-
-
-![five lines of 'Hello World'](fine-tuning-converters_3.png)
+<a href="https://products.aspose.app/html/applications" target="_blank">![Text "Banner HTML Web Applications"](../tutorial/html-web-apps.png#center)</a>

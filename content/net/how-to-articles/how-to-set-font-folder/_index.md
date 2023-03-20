@@ -20,7 +20,7 @@ This article describes how to install font folders so that they can be used when
 
 ## **Install Font - Add Custom Font Folder in C#**
 
-Aspose.HTML for .NET is a powerful library for working with HTML documents. It allows developers to access and manipulate the HTML DOM in C# and other .NET languages. It also provides the ability to set font folder for rendering HTML documents to particular formats.
+Aspose.HTML for .NET is a powerful library for working with HTML documents. It allows developers to access and manipulate the HTML DOM in C# and other .NET languages. It also provides the ability to set font folders for rendering HTML documents to particular formats.
 
 By default, Aspose.HTML for .NET looks for fonts installed in the system. Using the [FontsSettings](https://reference.aspose.com/html/net/aspose.html/fontssettings/) class sets the folders where Aspose.HTML looks for fonts when rendering documents.
 
@@ -33,7 +33,7 @@ The C# examples will demonstrate how to set font folder for rendering an HTML do
 
 When rendering an HTML document to a PDF file, for example, it is important to ensure that the custom fonts used in the HTML document are available to the rendering engine. By default, Aspose.HTML looks for fonts in the system font folder. However, if you are using custom fonts, you will need to call the `SetFontsLookupFolder(fontsFolder)` method and tell it where to find them.
 
-Here is an example of how to set a custom font to render an HTML document to PDF using Aspose.HTML C# library:
+Here is an example of how to set a custom font to render an HTML document to PDF using the Aspose.HTML C# library:
 
 {{< highlight java >}}
 using System.IO;
@@ -78,7 +78,7 @@ You can download data files and complete C# examples that demonstrate how to set
 
 ### **Set Font Folder to Render HTML to Image**
 
-Let's consider C# example of how to use the Aspose.HTML for .NET library to convert an HTML document to an image format, while also setting a folder for custom fonts:
+Let's consider the C# example of how to use the Aspose.HTML for .NET library to convert an HTML document to an image format, while also setting a folder for custom fonts:
 
 {{< highlight java >}}
 using System.IO;
@@ -116,12 +116,12 @@ To render HTML to Image using custom fonts, you should follow a few steps:
 
 1. Create the `configuration` object, and use the [GetService](https://reference.aspose.com/svg/net/aspose.svg/configuration/getservice/) method to get a reference to the [IUserAgentService](https://reference.aspose.com/html/net/aspose.html.services/iuseragentservice/) interface. 
 2. Call the [SetFontsLookupFolder(`fontsFolder`, `recursive`)](https://reference.aspose.com/html/net/aspose.html/fontssettings/setfontslookupfolder/#setfontslookupfolder_1) method to set font folder. This method takes two parameters: the folder path where the fonts are located and a boolean value that specifies whether to include subfolders or not. By setting the `true` as the `recursive` parameter, the method includes all subfolders of the specified folder in the font lookup.
-3. Initialize the HTML document with specified configuration.
+3. Initialize the HTML document with the specified configuration.
 4. Call the [ConvertHTML()](https://reference.aspose.com/html/net/aspose.html.converters/converter/converthtml/#converthtml_3) method to convert HTML to Image.
 
 Thus, by setting the font folder using `SetFontsLookupFolder()` methods, the Aspose.HTML library will use the custom fonts located in the specified folder to render the HTML document to various output formats, such as PDF or images, ensuring that the documents are displayed as intended with the desired fonts.
 
 
 {{% alert color="primary" %}}
-Aspose.HTML offers free <a href="https://products.aspose.app/html/applications" target="_blank">**HTML Web Applications**</a> that are an online collection of free converters, mergers, downloaders, SEO tools, HTML code generators, URL tools and more. The applications work on any operating system with a web browser and do not require any additional software installation. It's a fast and easy way to efficiently and effectively solve your HTML-related tasks.
+Aspose.HTML offers free <a href="https://products.aspose.app/html/applications" target="_blank">**HTML Web Applications**</a> that are an online collection of free converters, mergers, downloaders, SEO tools, HTML code generators, URL tools, and more. The applications work on any operating system with a web browser and do not require any additional software installation. It's a fast and easy way to efficiently and effectively solve your HTML-related tasks.
 {{% /alert %}}

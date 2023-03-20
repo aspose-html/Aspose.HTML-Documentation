@@ -3,7 +3,7 @@ title: SVG Converter | C#
 linktitle: SVG Converter
 keywords: svg converter, convert svg, svg to png, convert svg to png, c#example, c# code, online converter
 description: In this article, you learn how to convert SVG to other formats using Aspose.HTML API and consider a C# example of SVG to PNG conversion.
-weight: 40
+weight: 50
 type: docs
 url: /net/converting-between-formats/svg-converter/
 lastmod: 2022-07-28

@@ -34,11 +34,12 @@ This section is in progress and currently, the following topics are available:
 - [How To Use XPath To Select XML Nodes](/html/net/how-to-articles/how-to-use-xpath-to-select-xml-nodes/) You will learn how to navigate through an XML document and select nodes using XPath. The article considers a С# example of selecting the required information from an XML file using XPath queries.
 
 - [How to Set Font Folder](/html/net/how-to-set-font-folder/) In this article, you will learn how to set font folder for HTML to PDF/Image rendering using Aspose.HTML for .NET library. You get a step-by-step guide on setting a custom font folder and using it to access the necessary fonts, thus allowing you to create professional-looking documents.
-  
+
+- [How to Serialize Input Value](/html/net/how-to-serialize-input-value/) This article describes how to serialize input values in HTML forms or input fields using the Aspose.HTML for .NET library.  
 
 {{% alert color="primary" %}}
-Aspose.HTML offers free <a href="https://products.aspose.app/html/applications" target="_blank">**HTML Web Applications**</a> that are an online collection of free converters, mergers, downloaders, SEO tools, HTML code generators, URL tools and more. The applications work on any operating system with a web browser and do not require any additional software installation. It's a fast and easy way to efficiently and effectively solve your HTML-related tasks.
+Aspose.HTML offers free <a href="https://products.aspose.app/html/applications" target="_blank">**HTML Web Applications**</a> that are an online collection of free converters, mergers, downloaders, SEO tools, HTML code generators, URL tools, and more. The applications work on any operating system with a web browser and do not require any additional software installation. It's a fast and easy way to efficiently and effectively solve your HTML-related tasks.
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/applications" target="_blank">![Text "Banner HTML Web Applications"](../tutorial/html-web-apps.png#center)</a> 
+<a href="https://products.aspose.app/html/applications" target="_blank">![Text "Banner HTML Web Applications"](../tutorial/html-web-apps.png#center)</a>
 
