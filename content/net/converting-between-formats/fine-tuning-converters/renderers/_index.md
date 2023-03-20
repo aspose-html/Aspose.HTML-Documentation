@@ -5,7 +5,7 @@ type: docs
 weight: 30
 url: /net/renderers/
 description: Learn about supported renderers - HtmlRenderer, SvgRenderer, MhtmlRenderer and EpubRenderer, which are used to render HTML, SVG, MHTML, EPUB
-keywords: renderers, convert html, render html, HtmlRenderer, render mhtml, render svg, SvgRenderer, render epub, timeout parameter, merge html
+keywords: renderers, convert html, render html, HtmlRenderer, render mhtml, render svg, SvgRenderer, render epub, set timeout, timeout parameter, merge html
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -220,7 +220,7 @@ using Aspose.Html.Rendering.Pdf;
     renderer.Render(device, document1, document2, document3);  
 {{< /highlight >}}
 
-## **Timeout Parameter**
+## **Set Timeout**
 One more important feature that is available for renderers is timeout. You can use it to specify how long you are ready to wait for all internal processes related to a document lifecycle to be completed, such as resource loading, active timers, etc. Sure, you can specify an infinite waiting period. However, if the document contains a script with an endless loop, you will wait indefinitely. The example below demonstrates how to use the timeout parameter: 
 
 {{< highlight java >}}
@@ -250,18 +250,18 @@ using Aspose.Html.Rendering.Pdf;
     using HtmlRenderer renderer = new HtmlRenderer();
 
     // Prepare a path to save the converted file 
-    string savePath = Path.Combine(OutputDir, "output-timeout.pdf");
+    string savePath = Path.Combine(OutputDir, "set-timeout.pdf");
 
     // Create an instance of PDF device
     using var device = new PdfDevice(savePath);
                     
-    // Render HTML to PDF
+    // Render HTML to PDF and set timeout
     renderer.Render(device, TimeSpan.FromSeconds(5), document); 
 {{< /highlight >}}
 
-In this example, we create an HTML document that adds a new `<div>` element every second with a sequential number and the message "Hello, World!!" We use the `TimeSpan` parameter in the [Render(`device`, `timeout`, `document`)](https://reference.aspose.com/html/net/aspose.html.rendering/renderer-1/render/#render_1) method to set the timeout. This setting specifies the maximum time the renderer will spend rendering the document. In this case, the total time is set to 5 seconds. If the renderer has not generated a document within the specified time, it will stop and render a partially rendered document. Running this example, you will get a document with five lines of "Hello World!! I know how to use Renderers!" message, as follows:
+In this example, we create an HTML document that adds a new `<div>` element every second with a sequential number and the message "Hello, World!!" We use the `TimeSpan` parameter in the [Render(`device`, `timeout`, `document`)](https://reference.aspose.com/html/net/aspose.html.rendering/renderer-1/render/#render_1) method to set timeout. This setting specifies the maximum time the renderer will spend rendering the document. In this case, the total time is set to 5 seconds. If the renderer has not generated a document within the specified time, it will stop and render a partially rendered document. Running this example, you will get a document with five lines of "Hello World!! I know how to use Renderers!" message, as follows:
 
-![five lines of 'Hello World'](timeout-parameter.png#center)
+![Five lines of 'Hello, World!! I know how to use Renderers!'](set-timeout.png#center)
 
 {{% alert color="primary" %}}
 You can download the complete C# examples and data files from [**GitHub.**](https://github.com/aspose-html/Aspose.HTML-Documentation/tree/main/content/tests-net)

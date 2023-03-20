@@ -185,7 +185,7 @@ using Aspose.Html.Rendering.Pdf;
 
 The page setup is a set of parameters that determine the layout of a printed page. Those parameters include everything from the page size, margins, and auto-resizing to @page priority rules. Using this set of parameters, you can easily set up an individual layout for every page.
 
-The next example demonstrates how to create a PDF document with different page sizes for the left and right pages.
+The next example demonstrates how to create a PDF document with different page sizes for the left and right pages (see the result visualization in figure (a) below):
 
 {{< highlight java >}}
 using System.IO;
@@ -206,12 +206,12 @@ using Aspose.Html.Drawing;
     // Create the instance of Rendering Options and set a custom page-size
     var options = new PdfRenderingOptions();
     options.PageSetup.SetLeftRightPage(
-        new Page(new Size(400, 200)),
+        new Page(new Size(400, 150)),
         new Page(new Size(400, 100))
     );
 
     // Prepare path for converted file saving 
-    string savePath = Path.Combine(OutputDir, "output.pdf");
+    string savePath = Path.Combine(OutputDir, "output-custom-page-size.pdf");
 
     // Create the PDF Device and specify options and output file
     using var device = new PdfDevice(options, savePath);
@@ -220,7 +220,7 @@ using Aspose.Html.Drawing;
     document.RenderTo(device);
 {{< /highlight >}}
 
-In some cases, the content of the HTML page could be wider than the page-size defined with options. If you don’t want to cut off the page content, you can try the [AdjustToWidestPage](https://reference.aspose.com/html/net/aspose.html.rendering/pagesetup/adjusttowidestpage/) property of the PageSetup class. The following example shows how to adjust the page size to the content:
+In some cases, the content of the HTML page could be wider than the page-size defined with options. If you don’t want to cut off the page content, you can try the [AdjustToWidestPage](https://reference.aspose.com/html/net/aspose.html.rendering/pagesetup/adjusttowidestpage/) property of the PageSetup class. The following example shows how to adjust the page size to the content (see the result visualization in figure (b) below):
 
 {{< highlight java >}}
 using System.IO;
@@ -238,7 +238,7 @@ using Aspose.Html.Drawing;
     // Initialize an HTML document from the HTML code
     using var document = new HTMLDocument(code, ".");
 
-    // Create the instance of Rendering Options and set a custom page-size
+    // Create the instance of Rendering Options and set a custom page size
     var options = new PdfRenderingOptions();
     options.PageSetup.AnyPage = new Page(new Size(400, 200));
 
@@ -246,7 +246,7 @@ using Aspose.Html.Drawing;
     options.PageSetup.AdjustToWidestPage = true;
 
     // Prepare path for converted file saving 
-    string savePath = Path.Combine(OutputDir, "output-custom-page-size.pdf");
+    string savePath = Path.Combine(OutputDir, "output-widest-page-size.pdf");
 
     // Create the PDF Device and specify options and output file
     using var device = new PdfDevice(options, savePath);
@@ -254,6 +254,8 @@ using Aspose.Html.Drawing;
     // Render HTML to PDF
     document.RenderTo(device);
 {{< /highlight >}}
+
+![Five lines of 'Hello, World!! I know how to use Renderers!'](page-size.png#center)
 
 {{% alert color="primary" %}}
 To learn more about rendering process, please read the [Rendering Device](/html/net/rendering-device/) article.

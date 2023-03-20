@@ -201,15 +201,15 @@ namespace Aspose.HTML.Tests.Converting_Between_Formats.Fine_Tuning_Converters
             // Initialize an HTML document from the HTML code
             using var document = new HTMLDocument(code, ".");
 
-            // Create the instance of Rendering Options and set a custom page-size
+            // Create the instance of Rendering Options and set a custom page size
             var options = new PdfRenderingOptions();
             options.PageSetup.SetLeftRightPage(
-                new Page(new Size(400, 200)),
-                new Page(new Size(400, 100))
+                new Page(new Size(400, 150)),
+                new Page(new Size(400, 50))
             );
 
             // Prepare path for converted file saving 
-            string savePath = Path.Combine(OutputDir, "output.pdf");
+            string savePath = Path.Combine(OutputDir, "output-custom-page-size.pdf");
 
             // Create the PDF Device and specify options and output file
             using var device = new PdfDevice(options, savePath);
@@ -219,7 +219,6 @@ namespace Aspose.HTML.Tests.Converting_Between_Formats.Fine_Tuning_Converters
 
             Assert.True(File.Exists(savePath));
         }
-
 
 
         [Fact(DisplayName = "Use PageSetup.AdjustToWidestPage")]
@@ -243,7 +242,7 @@ namespace Aspose.HTML.Tests.Converting_Between_Formats.Fine_Tuning_Converters
             options.PageSetup.AdjustToWidestPage = true;
 
             // Prepare path for converted file saving 
-            string savePath = Path.Combine(OutputDir, "output-custom-page-size.pdf");
+            string savePath = Path.Combine(OutputDir, "output-widest-page-size.pdf");
 
             // Create the PDF Device and specify options and output file
             using var device = new PdfDevice(options, savePath);
@@ -253,7 +252,6 @@ namespace Aspose.HTML.Tests.Converting_Between_Formats.Fine_Tuning_Converters
 
             Assert.True(File.Exists(savePath));
         }
-
 
 
         [Fact(DisplayName = "Use PdfRenderingOptions")]
