@@ -9,10 +9,10 @@ aliases:
   - /net/web-scraping/download-youku-videos/
   - /net/web-scraping/download-youtube-videos/
   - /net/web-scraping/download-zoom-videos/
-  - /net/web-scraping/download-youtube-audio/   
+  - /net/web-scraping/download-youtube-audio/
 description: Learn how to navigate through HTML documents, perform a detailed inspection of its elements and extract data from the web using C# library.
 keywords: web scraping, data scrapers, html navigation, XPath, CSS selector, extract data
-lastmod: "2023-03-11"
+lastmod: "2023-03-25"
 sitemap:
     changefreq: "weekly"
     priority: 0.7
@@ -24,7 +24,8 @@ sitemap:
 
 Web Scraping section describes how to inspect, capture and extract data from the web pages automatically using Aspose.HTML for .NET. 
 
-- [HTML Navigation](https://docs.aspose.com/html/net/web-scraping/html-navigation/) - In this article, you learn how to perform a detailed inspection of the HTML document and its elements using the API, about custom filters usage for iterating over the document elements, and how to navigate over the document by using CSS Selector or XPath.
+- [HTML Navigation](/html/net/web-scraping/html-navigation/) - In this article, you learn how to perform a detailed inspection of the HTML document and its elements using the API, about custom filters usage for iterating over the document elements, and how to navigate over the document by using CSS Selector or XPath.
+- [Download Site](/html/net/download-site/) - 
 
 {{% alert color="primary" %}} 
 Aspose.HTML offers free online [**Data Scrapers**](https://products.aspose.app/html/data-scrapers) Apps that are a way to get data from websites. Using our web extracting tools, you're able to get data from the Internet in seconds. Our Apps are safe, work on any platform and do not require any software installation. You can extract data from websites on any device. Data Scrapers can be used for image extracting, getting keywords from a webpage, etc. They are easy and clear to use, yet forceful and reliable. Try the Data Scrapers Apps and extract data from any web page now!
