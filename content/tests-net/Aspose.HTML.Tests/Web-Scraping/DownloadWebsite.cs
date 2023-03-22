@@ -19,6 +19,22 @@ namespace Aspose.HTML.Tests.Web_Scraping
         }
 
 
+        [Fact(DisplayName = "Download Website with defalt Save Options")]
+        public void DownloadWebsiteDefaultSaveOptionsTest()
+        {
+            // Initialize HTML document from URL
+            using var document = new HTMLDocument("https://docs.aspose.com/html/net/message-handlers/");
+            
+            // Prepare a path to save the downloaded file
+            string savePath = Path.Combine(OutputDir, "root/result.html");
+
+            // Save the HTML document to the specified file
+            document.Save(savePath);
+
+            Assert.True(File.Exists(savePath));
+        }
+
+
         [Fact(DisplayName = "Download Website")]
         public void DownloadWebsiteTest()
         {
