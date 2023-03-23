@@ -55,7 +55,7 @@ namespace Aspose.HTML.Tests.Web_Scraping
 
             foreach (var url in absUrls)
             {
-                // Create image request message
+                // Create a downloading request
                 using var request = new RequestMessage(url);
 
                 // Download SVG image

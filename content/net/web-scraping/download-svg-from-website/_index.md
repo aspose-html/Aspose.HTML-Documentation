@@ -3,7 +3,7 @@ title: Download SVG From Website - C# Examples
 linktitle: Download SVG From Website
 type: docs
 weight: 50
-url: /html/net/download-svg-from-website/
+url: /net/download-svg-from-website/
 description: Learn how to download SVG from website. Consider C# examples to automate downloading inline and external SVG from any website.
 keywords: download svg from website, download svg, download svg file, download svg image, inline svg, external svg
 lastmod: "2023-03-25"

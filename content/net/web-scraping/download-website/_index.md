@@ -3,7 +3,7 @@ title: Download Website - How to Download Website in C#
 linktitle: Download Website
 type: docs
 weight: 20
-url: /html/net/download-website/
+url: /net/download-website/
 description: Learn how to download website from URL in C# and customize the downloading process - download entire website or download web page.
 keywords: download website, download web page, download entire website, download html website, download html file, download website offline, how to download website, download website from url, read website offline, download website c#, download html page c#, downloading process, save website offline
 lastmod: "2023-03-25"
