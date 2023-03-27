@@ -130,9 +130,9 @@ using Aspose.Html.Saving;
 
 ## **Download Website using `PageUrlRestriction` Property**
 
-Aspose.HTML for .NET provides various options for filtering the URLs of saved pages. The [PageUrlRestriction](https://reference.aspose.com/html/net/aspose.html.saving/resourcehandlingoptions/pageurlrestriction/) property restricts loading external resources, such as images or scripts, from specific URLs or domains when rendering an HTML document. This property helps improve the rendered page's security by preventing potentially malicious scripts or resources from being loaded.
+Aspose.HTML for .NET provides various options for filtering the URLs of saved pages for a website. The [PageUrlRestriction](https://reference.aspose.com/html/net/aspose.html.saving/resourcehandlingoptions/pageurlrestriction/) property restricts loading web pages from specific URLs or domains when rendering an HTML document. This property helps improve the rendered page’s security by preventing potentially malicious web pages from downloading.
 
-By default, the `PageUrlRestriction` property is set to `SameHost`, which means that resources will only be loaded if their URLs are on the same host as the page requesting them. This security feature prevents malicious scripts or content from being loaded from other domains without the user's consent. However, you can set this property to another value - `RootAndSubFolders` or `None`. If you set `None`, it allows loading resources from any domain. It is essential to use this property with caution, as allowing resources to be loaded from any domain can increase the risk of security vulnerabilities in the application.
+By default, the `PageUrlRestriction` property is set to `RootAndSubFolders`, meaning only pages in the root and subfolders are processed. However, you can set this property to another value - `SameHost` or `None`. Setting it to `None` will allow you to load web pages from any domain whose URLs are on the saved website. Using this property cautiously is essential, as allowing web pages to be loaded from any domain can increase the risk of security vulnerabilities.
 
 In the following example, all pages to which an HTML document refers and those in the same domain will be saved in addition to the document:
 
