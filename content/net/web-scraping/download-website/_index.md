@@ -168,4 +168,4 @@ You can download the complete C# examples and data files from [**GitHub.**](http
 Aspose.HTML offers a free online [**Web Page Downloader**](https://products.aspose.app/html/web-downloader) that is a way to save webpages from URLs quickly and easily. Using our web extracting tool, you’re able to get data from the Internet in seconds. Our Web Page Downloader is safe, works on any platform, and does not require any software installation. The application is easy and clear to use yet forceful and reliable. To download web page, copy the URL of the page you want to save, paste it into the text input field, and click the “Download” button!
 {{% /alert %}}
 
-<a href="https://products.aspose.app/html/web-downloader" target="_blank">![Text "Banner Free Online Web Page Downloader"](./../../../images/web-page-downloader.png#center)</a>
+<a href="https://products.aspose.app/html/web-downloader" target="_blank">![Text "Banner Free Online Web Page Downloader"](./../../images/web-page-downloader.png#center)</a>
