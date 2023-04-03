@@ -1,0 +1,21 @@
+// Prepare a path to a source HTML file
+String documentPath = Path.combine(getDataDir(), "drawing.html");
+
+// Prepare a path for converted file saving
+String savePath = Path.combine(getOutputDir(), "drawing-options.pdf");
+
+// Initialize an HTML document from the file
+HTMLDocument   document = new HTMLDocument(documentPath);
+try {        }
+finally { if (document != null) document.dispose(); }
+
+// Initialize PdfSaveOptions. Set up the page-size 600x300 pixels, margins, resolutions and change the background color to AliceBlue
+PdfSaveOptions options = new PdfSaveOptions();
+options.setHorizontalResolution(new Resolution(200, UnitType.AUTO));
+options.setVerticalResolution(new Resolution(200, UnitType.AUTO));;
+com.aspose.html.drawing.Color.getAliceBlue().CloneTo(options.getBackgroundColor());
+options.setJpegQuality(100);
+options.getPageSetup().setAnyPage(new Page(new com.aspose.html.drawing.Size(600, 300), new Margin(20, 10, 10, 10)));
+
+// Convert HTML to PDF
+com.aspose.html.converters.Converter.convertHTML(document, options, savePath);

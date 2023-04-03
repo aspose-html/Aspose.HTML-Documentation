@@ -1,0 +1,2 @@
+// Invoke the convertHTML() method to convert HTML to PDF
+com.aspose.html.converters.Converter.convertHTML("<h1>Convert HTML to PDF!</h1>", ".", new PdfSaveOptions(), Path.combine(getOutputDir(), "convert-with-single-line.pdf"));

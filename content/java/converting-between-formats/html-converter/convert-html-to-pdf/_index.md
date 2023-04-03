@@ -26,8 +26,7 @@ In this article, you find information on how to convert HTML to PDF using `conve
 HTML to PDF conversion is a highly sought-after feature, and Aspose.HTML for Java offers an easy solution. Through static methods in the Converter class, you can convert an HTML document into a PDF file with just a single line of code!
 
 {{< highlight java >}}
-    // Invoke the сonvertHTML() method to convert HTML to PDF           
-    com.aspose.html.converters.Converter.convertHTML("<h1>Convert HTML to PDF!</h1>", ".", new PdfSaveOptions(), Path.combine(getOutputDir(), "convert-with-single-line.pdf"));
+{{< readfile file="content/shortcodes/convertHTMLWithASingleLineTest.txt" >}}
 {{< /highlight >}}
 
 In the example we use the convertHTML(content, baseUri, options, outputPath) method of the Converter class that takes four parameters: string with HTML code to be converted, the base folder for the input HTML file, an instance of the PdfSaveOptions class, and the output file path where the converted file will be saved.
@@ -43,22 +42,7 @@ Let's walk through the step-by-step instructions for a simple HTML to PDF conver
 Please review the following Java code snippet, which shows the HTML to PDF conversion process with step-by-step instructions:
 
 {{< highlight java >}}
-    // Prepare a path to a source HTML file
-    String documentPath = Path.combine(getDataDir(), "spring.html");
-
-    // Prepare a path for converted file saving 
-    String outputPath = Path.combine(getOutputDir(), "spring-output.pdf");
-
-    // Initialize an HTML document from the file
-    HTMLDocument document = new HTMLDocument(documentPath);
-    try {        }
-    finally { if (document != null) document.dispose(); }
-
-    // Initialize PdfSaveOptions object
-    PdfSaveOptions options = new PdfSaveOptions();
-
-    // Convert HTML to PDF
-    com.aspose.html.converters.Converter.convertHTML(document, options, outputPath);
+{{< readfile file="content/shortcodes/convertHTMLtoPDFTest.txt" >}}
 {{< /highlight >}}
 
 ## **Save Options**
@@ -92,27 +76,7 @@ With Aspose.HTML for Java, you can convert files programmatically with full cont
 The following Java example shows how to use [PdfSaveOptions](https://reference.aspose.com/html/java/com.aspose.html.saving/pdfsaveoptions) and create a PDF file with custom page-size, margins, resolutions, background color, and compression specifying:
 
 {{< highlight java >}}
-    // Prepare a path to a source HTML file
-    String documentPath = Path.combine(getDataDir(), "drawing.html");
-
-    // Prepare a path for converted file saving 
-    String outputPath = Path.combine(getOutputDir(), "drawing-options.pdf");
-
-    // Initialize an HTML document from the file
-    HTMLDocument   document = new HTMLDocument(documentPath);
-    try {        }
-    finally { if (document != null) document.dispose(); }
-
-    // Initialize PdfSaveOptions. Set up the page-size 500x300 pixels, margins, resolutions and change the background color to AliceBlue 
-    PdfSaveOptions options = new PdfSaveOptions();
-    options.setHorizontalResolution(new Resolution(200, UnitType.AUTO));
-    options.setVerticalResolution(new Resolution(200, UnitType.AUTO));;
-    com.aspose.html.drawing.Color.getAliceBlue().CloneTo(options.getBackgroundColor());
-    options.setJpegQuality(100);
-    options.getPageSetup().setAnyPage(new Page(new com.aspose.html.drawing.Size(500, 300), new Margin(20, 10, 10, 10)));
-
-    // Convert HTML to PDF
-    com.aspose.html.converters.Converter.convertHTML(document, options, outputPath);    
+{{< readfile file="content/shortcodes/HTMLtoPDFWithPdfSaveOptionsTest.txt" >}}
 {{< /highlight >}}
 
 The [PdfSaveOptions()](https://reference.aspose.com/html/java/com.aspose.html.saving/PdfSaveOptions#PdfSaveOptions--) constructor initializes an instance of the PdfSaveOptions class that is passed to `convertHTML()` method. The method takes the `document`, `options`,  output file path `outputPath` and performs the conversion operation. 
@@ -126,27 +90,7 @@ The PdfSaveOptions class provides methods that give you full control over a wide
 **One more Java example**. Here we create HTML document from scratch - prepare HTML code and save it to a file. Then we apply PdfSaveOptions to convert HTML to PDF: 
 
 {{< highlight java >}}
-    String documentPath = Path.combine(getOutputDir(), "save-options.html");
-    String savePath = Path.combine(getOutputDir(), "save-options-output.pdf");
-
-    // Prepare HTML code and save it to a file
-    String code = StringExtensions.concat("<h1>PdfSaveOptions Class</h1>\r\n", 
-              "<p>Using PdfSaveOptions Class, you can programmatically apply a wide range of conversion parameters such as BackgroundColor, Resolutions, PageSetup, etc.</p>\r\n");
-
-    com.aspose.html.internal.ms.System.IO.File.writeAllText(documentPath, code);
-
-    // Initialize an HTML Document from the html file
-    HTMLDocument   document = new HTMLDocument(documentPath);
-    try {        }
-    finally { if (document != null) document.dispose(); }
-        
-    // Set up the page-size, margins and change the background color to AntiqueWhite
-    PdfSaveOptions  options = new PdfSaveOptions();
-    com.aspose.html.drawing.Color.getAntiqueWhite().CloneTo(options.getBackgroundColor());
-    options.getPageSetup().setAnyPage(new Page(new com.aspose.html.drawing.Size(com.aspose.html.drawing.Length.fromInches(4.9f), com.aspose.html.drawing.Length.fromInches(3.5f))));
-
-    // Convert HTML to PDF
-    com.aspose.html.converters.Converter.convertHTML(document, options, savePath);   
+{{< readfile file="content/shortcodes/specifyPdfSaveOptionsTest.txt" >}}
 {{< /highlight >}}
 
 <!--## **Output Stream Providers**
