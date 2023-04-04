@@ -3,7 +3,6 @@ title: Aspose.HTML for .NET 23.4 Release Notes
 weight: 90
 type: docs
 url: /net/aspose-html-for-net-23-4-release-notes
-description: Added the WebP image format support and expanded the public API to work with Markdown. Improved the quality of HTML parsing and rendering.
 ---
 {{% alert color="primary" %}} 
 
